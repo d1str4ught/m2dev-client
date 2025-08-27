@@ -1,0 +1,29 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\pc\warrior\onehand_sword\attack_2.GR2"
+MotionDuration           1.666667
+
+Group ComboInputData
+{
+    PreInputTime             0.603846
+    DirectInputTime          0.926923
+    InputLimitTime           1.103846
+    LinkTime                 0.000000
+}
+
+Group AttackingData
+{
+    AttackingType        0
+    HittingType          0
+    StiffenTime          0.000000
+    InvisibleTime        0.000000
+    ExternalForce        0.000000
+    AttackingStartTime   0.553846
+    AttackingEndTime     0.726923
+    AttackingBone        ""
+    WeaponLength         0.000000
+    List HitPosition
+    {
+    }
+}
+

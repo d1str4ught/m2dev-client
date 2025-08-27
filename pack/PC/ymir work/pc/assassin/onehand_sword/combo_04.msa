@@ -1,0 +1,62 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc/assassin/onehand_sword/combo_04.gr2"
+MotionDuration           1.266667
+Accumulation             0.00	-117.30	0.00
+
+Group ComboInputData
+{
+    PreInputTime             1.266667
+    DirectInputTime          1.266667
+    InputLimitTime           1.266667
+    LinkTime                 0.000000
+}
+
+Group AttackingData
+{
+    AttackingType        2
+    HittingType          1
+    StiffenTime          0.000000
+    InvisibleTime        0.000000
+    ExternalForce        0.000000
+    AttackingStartTime   0.000000
+    AttackingEndTime     0.000000
+    AttackingBone        "Bip01"
+    WeaponLength         0.000000
+    List HitPosition
+    {
+    }
+}
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      4
+        StartingTime         0.434359
+
+        DuringTime           0.200000
+        
+        AttackingType        3
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        17.000000
+        AttackingStartTime   0.000000
+        AttackingEndTime     10.000000
+        AttackingBone        ""
+        WeaponLength         0.000000
+        List HitPosition
+        {
+        }
+        CollisionType        0
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           100.000000
+            Position         0.000000 -120.000000 0.000000
+        }
+    }
+}

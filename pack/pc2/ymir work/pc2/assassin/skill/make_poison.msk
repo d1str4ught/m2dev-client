@@ -1,0 +1,39 @@
+ScriptType		SkillDataScript
+
+Type			LOW
+Attribute		"STANDING_SKILL" "NEED_EMPTY_BOTTLE"
+949Name			"刀捍 力累"
+949Description	"后捍俊 刀阑 父甸绢 持绰促"
+
+IconFileName	"skill/assassin/make_poison.sub"
+
+List 949ConditionData
+{
+	"后捍 鞘夸"
+}
+
+List 949AffectData
+{
+	"己傍犬伏 %.0f%%"	"SkillPoint*20"	""
+}
+
+List RequireStatData
+{
+	"Level" "11"
+}
+
+MaxLevel			"5"
+CoolTimeFormula		"10"
+NeedSPFormula		"50"
+
+936Name			"炼毒"
+936Description	"进行毒药炼制"
+List 936ConditionData
+{
+	"需要空瓶子"
+}
+
+List 936AffectData
+{
+	"成功概率%.0f%%"	"SkillPoint*20"	""
+}

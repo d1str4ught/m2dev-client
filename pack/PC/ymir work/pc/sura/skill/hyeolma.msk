@@ -1,0 +1,27 @@
+ScriptType		SkillDataScript
+
+Type			LOW
+Attribute		"TOGGLE" "STANDING_SKILL"
+
+949Name			"趋付阿己"
+949Description	"磊脚狼 乔甫 阂怕况 付仿阑 碍拳 茄促"
+
+IconFileName	"skill/sura/hyeolma.sub"
+MotionIndex		2
+
+List 949AffectData
+{
+	"付过 傍拜仿 : +%.0f"	"3 + (SkillPoint / 4)"	""
+}
+
+MaxLevel				"20"
+LevelUpPoint			"4"
+NeedSPFormula			"50"
+ContinuationSPFormula	"3"
+
+936Name			"血祭"
+936Description	"燃烧自己的血液祭出魔神的力量,增强魔法攻击"
+List 936AffectData
+{
+	"魔法攻击力: +%.0f"	"3 + (SkillPoint / 4)"	""
+}

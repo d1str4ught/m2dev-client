@@ -1,0 +1,19 @@
+ScriptType		SkillDataScript
+
+Type			PASSIVE
+949Name			"È¸ÇÇ"
+949Description	"ÀûÀÇ °ø°İ¿¡ ¸ÂÁö ¾Ê´Â´Ù"
+List 949AffectData
+{
+	"È¸ÇÇ È®·ü : %.0f%%" "SkillPoint" ""
+}
+
+MaxLevel		"25"
+IconFileName	"skill/assassin/evasion.sub"
+
+936Name			"ÉÁ±Ü"
+936Description	"ÇÉÃîµØ¶ãÉÁµĞÈËµÄ¹¥»÷"
+List 949AffectData
+{
+	"ÉÁ±Ü¸ÅÂÊ : %.0f%%" "SkillPoint" ""
+}

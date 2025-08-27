@@ -1,0 +1,15 @@
+ScriptType		SkillDataScript
+
+Type			GUILD
+
+Name			"가속화"
+Description		"5분간 공격속도 및 이동속도가 빨라집니다"
+IconFileName		"skill/guild/gasok.sub"
+
+List AffectData
+{
+	"수련도 +%.0f"	"SkillLevel * 3"	""
+}
+
+NeedSPFormula		"80 - (SkillLevel * 12)"
+MaxLevel			5

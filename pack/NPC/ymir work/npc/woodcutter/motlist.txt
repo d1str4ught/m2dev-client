@@ -1,0 +1,5 @@
+GENERAL DEAD die.msa 100
+GENERAL RUN run.msa 100
+GENERAL WAIT wait.msa 65
+GENERAL WAIT1 wait_2.msa 35
+GENERAL WAIT1 wait_2.msa 35

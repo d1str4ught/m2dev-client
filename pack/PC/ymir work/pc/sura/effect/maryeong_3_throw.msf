@@ -1,0 +1,29 @@
+SpreadingFlag           0
+MaintainParallelFlag    0
+InitialVelocity         3000.000000
+ConeAngle               0.000000
+RollAngle               0.000000
+AngularVelocity         0.000000 0.000000 0.000000
+Gravity                 0.000000
+HitOnBackground         0
+HitOnAnotherMonster     0
+PierceCount             0
+CollisionSphereRadius   0.000000
+BombRange               10.000000
+BombEffect              "maryeong_3_blow.mse"
+HomingFlag              1
+HomingStartTime         0.000000
+HomingMaxAngle          180.000000
+Range                   10000.000000
+Acceleration            0.000000 -100.000000 0.000000
+Group AttachData
+{
+    Type          1
+    FlyType       1
+    AttachFile    "maryeong_3_throw.mse"
+    TailFlag      0
+    Roll          0.000000
+    Distance      0.000000
+    Period        1.000000
+    Amplitude     0.000000
+}

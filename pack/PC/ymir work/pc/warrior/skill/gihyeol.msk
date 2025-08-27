@@ -1,0 +1,37 @@
+ScriptType		SkillDataScript
+
+Type			MIDDLE
+Attribute		"ATTACK_SKILL" "WEAPON_LIMITATION" "CAN_CHANGE_DIRECTION"
+
+
+NeedWeapon		"SWORD" "TWO_HANDED"
+IconFileName	"skill/warrior/gihyeol.sub"
+MotionIndex		9
+
+Range			500
+
+CoolTimeFormula		"8"
+NeedSPFormula		"100"
+MaxLevel			"30"
+
+949Name			"±âÇ÷Ãë¸í"
+949Description		"°­·ÂÇÑ º£±â·Î Àû¿¡°Ô Ä¡¸íÅ¸¸¦ ÀÔÈù´Ù"
+949Requirement		"°Ý»êÅ¸¿ì" 10
+List 949AffectData
+{
+	"ÆÄ±«·Â : %.1f ¹è"	"(SkillPoint * 20 + 100) / 100" ""
+}
+
+List RequireStatData
+{
+	"Level" "21"
+}
+
+936Name			"¿ñÉ±"
+936Description		"Ç¿ÓÐÁ¦µÄ¿ñ¿³£¬¸øµÐÈËÖÂÃü´ò»÷"
+936Requirement		"Å­»÷" 10
+List 936AffectData
+{
+	"ÆÆ»µÁ¦ : %.1f ±¶"	"(SkillPoint * 20 + 100) / 100" ""
+}
+

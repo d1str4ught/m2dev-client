@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\npc2\lion_young1\walk.GR2"
+MotionDuration           1.000000
+Accumulation	0.0000 -70.0000 0.0000

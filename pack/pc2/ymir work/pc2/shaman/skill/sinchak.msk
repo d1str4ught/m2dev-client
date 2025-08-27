@@ -1,0 +1,30 @@
+ScriptType			SkillDataScript
+
+Type				HIGH
+Attribute			"NEED_TARGET" "ONLY_FOR_ALLIANCE" "CAN_USE_FOR_ME"
+
+949Name				"脚馒脚傍"
+949Description		"到绊磊 窍绰 磊甫 利俊霸 肋 焊捞瘤 臼霸阐 父电促"
+949Requirement		"侩脚捧龋" 5
+
+IconFileName		"skill/shaman/sinchak.sub"
+MotionIndex         37
+MotionIndexForMe    36
+
+List 949AffectData
+{
+	"雀乔啦 : +%.0f%%" "SkillPoint" ""
+	"瘤加 矫埃 : %.0f檬" "5 * 60 * (5 + JeungJi) / 5" ""
+}
+
+NeedSPFormula		"500"
+MaxLevel			"15"
+
+936Name				"朦胧术"
+936Description		"使他人在光的围绕下，形成一片耀眼的光芒，增强闪避能力"
+936Requirement		"龙神盾" 5
+List 936AffectData
+{
+	"回避 : +%.0f%%" "SkillPoint" ""
+	"持续时间 : %.0f 秒" "5 * 60 * (5 + JeungJi) / 5" ""
+}

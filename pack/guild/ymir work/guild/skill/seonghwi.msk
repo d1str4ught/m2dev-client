@@ -1,0 +1,15 @@
+ScriptType		SkillDataScript
+
+Type			GUILD
+
+Name			"성휘갑"
+Description		"일시적으로 적의 공격으로부터 체력을 회복한다"
+IconFileName		"skill/guild/seonghwi.sub"
+
+List AffectData
+{
+	"5분간 %.0f 의 데미지를 흡수"	"SkillLevel * 3"	""
+}
+
+NeedSPFormula		"50"
+MaxLevel			5

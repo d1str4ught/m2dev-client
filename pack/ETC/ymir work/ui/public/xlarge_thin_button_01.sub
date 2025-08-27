@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "Public.dds"
+left 180
+top 70
+right 237
+bottom 100

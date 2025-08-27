@@ -1,0 +1,14 @@
+ScriptType		SkillDataScript
+
+Type			PASSIVE
+
+Name			"용신의 가호"
+Description		"길드원 전원의 방어 등급을 향상 시킨다"
+IconFileName		"skill/guild/gaho.sub"
+
+List AffectData
+{
+	"방어 등급 +%.0f"	"SkillLevel"	""
+}
+
+MaxLevel			5

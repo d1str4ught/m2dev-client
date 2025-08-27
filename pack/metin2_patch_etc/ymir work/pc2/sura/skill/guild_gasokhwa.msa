@@ -1,0 +1,21 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/sura/skill/geongon.gr2"
+MotionDuration           2.000000
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.491484
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 Head"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/guild/effect/gasokhwa_make.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

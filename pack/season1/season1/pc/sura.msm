@@ -1,0 +1,405 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:/YMIR WORK/pc/sura/sura_novice.GR2"
+
+Group HairData
+{
+	PathName	"d:/ymir Work/pc/sura/"
+
+	HairDataCount 			18
+	Group HairData00
+	{	
+		HairIndex			0
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"sura_hair_01.dds"
+	}
+	Group HairData01
+	{	
+		HairIndex			1
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"sura_hair_01_white.dds"
+	}
+	Group HairData02
+	{	
+		HairIndex			2
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"sura_hair_01_gold.dds"
+	}
+	Group HairData03
+	{	
+		HairIndex			3
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"sura_hair_01_red.dds"
+	}
+	Group HairData04
+	{	
+		HairIndex			4
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"sura_hair_01_brown.dds"
+	}
+	Group HairData05
+	{	
+		HairIndex			5
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"sura_hair_01_black.dds"
+	}
+	Group HairData06
+	{	
+		HairIndex			3001
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_1.dds"
+	}
+	Group HairData07
+	{	
+		HairIndex			3002
+		Model				"hair/hair_2_2.gr2"
+		SourceSkin			"hair/hair_2_2.dds"
+		TargetSkin			"hair/hair_2_2.dds"
+	}
+	Group HairData08
+	{	
+		HairIndex			3003
+		Model				"hair/hair_2_3.gr2"
+		SourceSkin			"hair/hair_2_3.dds"
+		TargetSkin			"hair/hair_2_3.dds"
+	}
+	Group HairData09
+	{	
+		HairIndex			3004
+		Model				"hair/hair_2_4.gr2"
+		SourceSkin			"hair/hair_2_4.dds"
+		TargetSkin			"hair/hair_2_4.dds"
+	}
+	Group HairData10
+	{	
+		HairIndex			3005
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_1.dds"
+	}
+	Group HairData11
+	{	
+		HairIndex			3006
+		Model				"hair/hair_3_2.gr2"
+		SourceSkin			"hair/hair_3_2.dds"
+		TargetSkin			"hair/hair_3_2.dds"
+	}
+	Group HairData12
+	{	
+		HairIndex			3007
+		Model				"hair/hair_3_3.gr2"
+		SourceSkin			"hair/hair_3_3.dds"
+		TargetSkin			"hair/hair_3_3.dds"
+	}
+	Group HairData13
+	{	
+		HairIndex			3008
+		Model				"hair/hair_3_4.gr2"
+		SourceSkin			"hair/hair_3_4.dds"
+		TargetSkin			"hair/hair_3_4.dds"
+	}
+	Group HairData14
+	{	
+		HairIndex			3009
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_1.dds"
+	}
+	Group HairData15
+	{	
+		HairIndex			3010
+		Model				"hair/hair_4_2.gr2"
+		SourceSkin			"hair/hair_4_2.dds"
+		TargetSkin			"hair/hair_4_2.dds"
+	}
+	Group HairData16
+	{	
+		HairIndex			3011
+		Model				"hair/hair_4_3.gr2"
+		SourceSkin			"hair/hair_4_3.dds"
+		TargetSkin			"hair/hair_4_3.dds"
+	}
+	Group HairData17
+	{	
+		HairIndex			3012
+		Model				"hair/hair_4_4.gr2"
+		SourceSkin			"hair/hair_4_4.dds"
+		TargetSkin			"hair/hair_4_4.dds"
+	}
+}
+
+
+Group ShapeData
+{
+	PathName	"d:/ymir Work/pc/sura/"
+
+	ShapeDataCount				26	
+
+	Group ShapeData00
+	{
+		ShapeIndex			0
+
+		Model				"sura_novice.GR2"
+		SourceSkin			"sura_novice_black.dds"
+		TargetSkin			"sura_novice_black.dds"
+	}
+	Group ShapeData01
+	{
+		ShapeIndex			1
+
+		Model				"sura_novice.GR2"
+		SourceSkin			"sura_novice_black.dds"
+		TargetSkin			"sura_novice_blue.dds"
+	}
+	Group ShapeData02
+	{
+		ShapeIndex			3
+		Model				"sura_jinhon.GR2"
+		SourceSkin			"sura_jinhon.dds"
+		TargetSkin			"sura_jinhon.dds"
+	}
+	Group ShapeData03
+	{
+		ShapeIndex			4
+		Model				"sura_jinhon.GR2"
+		SourceSkin			"sura_jinhon.dds"
+		TargetSkin			"sura_mageuk.dds"
+	}
+	Group ShapeData04
+	{
+		ShapeIndex			5
+		Model				"sura_jinhon.GR2"
+		SourceSkin			"sura_jinhon.dds"
+		TargetSkin			"sura_biun.dds"
+	}	
+	Group ShapeData05
+	{
+		ShapeIndex			6
+		Model				"sura_saryeong.GR2"
+		SourceSkin			"sura_saryeong.dds"
+		TargetSkin			"sura_saryeong.dds"
+
+		SourceSkin2			"sura_saryeong_cloak.dds"
+		TargetSkin2			"sura_saryeong_cloak.dds"
+	}
+	Group ShapeData06
+	{
+		ShapeIndex			7
+		Model				"sura_saryeong.GR2"
+		SourceSkin			"sura_saryeong.dds"
+		TargetSkin			"sura_eumyang.dds"
+                                           
+		SourceSkin2			"sura_saryeong_cloak.dds"
+		TargetSkin2			"sura_saryeong_cloak.dds"
+	}
+	Group ShapeData07
+	{
+		ShapeIndex			8
+		Model				"sura_saryeong.GR2"
+		SourceSkin			"sura_saryeong.dds"
+		TargetSkin			"sura_heukbi.dds"
+
+		SourceSkin2			"sura_saryeong_cloak.dds"
+		TargetSkin2			"sura_saryeong_cloak.dds"
+	}
+	Group ShapeData08
+	{
+		ShapeIndex			9
+		Model				"sura_unra.GR2"
+		SourceSkin			"sura_unra.dds"
+		TargetSkin			"sura_unra.dds"
+
+		SourceSkin2			"sura_unra_cloak.dds"
+		TargetSkin2			"sura_unra_cloak.dds"
+	}
+	Group ShapeData09
+	{
+		ShapeIndex			10
+		Model				"sura_unra.GR2"
+		SourceSkin			"sura_unra.dds"
+		TargetSkin			"sura_gwimyeon.dds"
+
+		SourceSkin2			"sura_unra_cloak.dds"
+		TargetSkin2			"sura_unra_cloak.dds"
+
+	}
+	Group ShapeData10
+	{
+		ShapeIndex			11
+		Model				"sura_maryeong.GR2"
+		SourceSkin			"sura_maryeong.dds"
+		TargetSkin			"sura_maryeong.dds"
+
+		SourceSkin2			"sura_unra_cloak.dds"
+		TargetSkin2			"sura_unra_cloak.dds"
+
+	}
+	Group ShapeData11
+	{
+		SpecialPath			"d:/ymir work/monster/wolf/"
+
+		ShapeIndex			100
+		Model				"wolf.gr2"
+		SourceSkin			"wolf.dds"
+	}
+	Group ShapeData12
+	{
+		SpecialPath			"d:/ymir work/monster/wild_boar/"
+
+		ShapeIndex			101
+		Model				"wild_boar.gr2"
+		SourceSkin			"wild_boar.dds"
+	}
+	Group ShapeData13
+	{
+		SpecialPath			"d:/ymir work/monster/bear/"
+
+		ShapeIndex			102
+		Model				"bear.gr2"
+		SourceSkin			"bear.dds"
+	}
+	Group ShapeData14
+	{
+		SpecialPath			"d:/ymir work/monster/tiger/"
+
+		ShapeIndex			103
+		Model				"tiger.gr2"
+		SourceSkin			"tiger.dds"
+	}
+	Group ShapeData15
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+
+		ShapeIndex			201
+		Model				"sura_marry_01.gr2"
+		SourceSkin			"sura_marry_01.dds"
+		TargetSkin			"sura_marry_01.dds"
+	}
+	Group ShapeData16
+	{
+		ShapeIndex			12
+		LOCAL_Model			"season1/pc/sura/sura_4-1.GR2"
+		LOCAL_SourceSkin		"d:/ymir work/pc/sura/sura_4-1.dds"
+		LOCAL_TargetSkin		"season1/pc/sura/sura_4-1.dds"
+	}
+
+
+	Group ShapeData17
+	{
+		ShapeIndex			14
+		Model				"sura_jinhon.GR2"	
+		LOCAL_SourceSkin		"d:/ymir Work/pc/sura/sura_jinhon.dds"
+		LOCAL_TargetSkin		"season1/pc/sura/sura_1-1_jinhon copy_a.DDS"
+	}
+	Group ShapeData18
+	{
+		ShapeIndex			15
+		Model				"sura_jinhon.GR2"	
+		LOCAL_SourceSkin		"d:/ymir Work/pc/sura/sura_jinhon.dds"
+		LOCAL_TargetSkin		"season1/pc/sura/sura_1-2_mageuk_a.DDS"
+	}
+	Group ShapeData19
+	{
+		ShapeIndex			16
+		Model				"sura_jinhon.GR2"	
+		LOCAL_SourceSkin		"d:/ymir Work/pc/sura/sura_jinhon.dds"
+		LOCAL_TargetSkin		"season1/pc/sura/sura_1-3_biun_a.DDS"
+	}
+
+	Group ShapeData20
+	{
+		ShapeIndex			17
+		Model				"sura_saryeong.GR2"	
+		LOCAL_SourceSkin		"d:/ymir Work/pc/sura/sura_saryeong.dds"
+		LOCAL_TargetSkin		"season1/pc/sura/sura_2-1_saryeong_a.DDS"
+	}
+	Group ShapeData21
+	{
+		ShapeIndex			18
+		Model				"sura_saryeong.GR2"	
+		LOCAL_SourceSkin		"d:/ymir Work/pc/sura/sura_saryeong.dds"
+		LOCAL_TargetSkin		"season1/pc/sura/sura_2-2_eumyang_a.DDS"
+	}
+	Group ShapeData22
+	{
+		ShapeIndex			19
+		Model				"sura_saryeong.GR2"	
+		LOCAL_SourceSkin		"d:/ymir Work/pc/sura/sura_saryeong.dds"
+		LOCAL_TargetSkin		"season1/pc/sura/sura_2-3_heukbi_a.DDS"
+	}
+	Group ShapeData23
+	{
+		ShapeIndex			20
+		Model				"sura_unra.GR2"		
+		LOCAL_SourceSkin		"d:/ymir Work/pc/sura/sura_unra.dds"
+		LOCAL_TargetSkin		"season1/pc/sura/sura_3-1_unra_a.DDS"
+
+		SourceSkin2			"sura_unra_cloak.dds"
+		TargetSkin2			"sura_unra_cloak.dds"
+	}
+	Group ShapeData24
+	{
+		ShapeIndex			22
+		Model				"sura_maryeong.GR2"	
+		LOCAL_SourceSkin		"d:/ymir Work/pc/sura/sura_maryeong.dds"
+		LOCAL_TargetSkin		"season1/pc/sura/sura_maryung_a.DDS"
+	}
+	Group ShapeData25
+	{
+		ShapeIndex			24	
+		LOCAL_Model			"season1/pc/sura/sura_lord.GR2"	
+		LOCAL_SourceSkin		"sura_king01.dds"
+		LOCAL_TargetSkin		"season1/pc/sura/sura_king01.dds"
+	
+	}
+	
+
+}
+
+Group AttachingData
+{
+    AttachingDataCount       2
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           40.000000
+            Position         0.000000 0.000000 90.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           70.000000
+            Position         0.000000 0.000000 90.000000
+        }
+    }
+}

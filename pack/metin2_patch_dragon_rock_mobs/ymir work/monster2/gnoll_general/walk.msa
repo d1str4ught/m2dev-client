@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\monster2\gnoll_general\walk.GR2"
+MotionDuration           1.2666666
+Accumulation	0.0000 -200.0000 0.0000

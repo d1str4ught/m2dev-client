@@ -1,0 +1,71 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/warrior/onehand_sword/combo_04.gr2"
+MotionDuration           1.266667
+Accumulation           -12.89	-105.52	0.00
+
+CancelEnableSkill           0
+
+Group ComboInputData
+{
+    PreInputTime             1.057692
+    DirectInputTime          1.057692
+    InputLimitTime           0.730769
+    LinkTime                 0.000000
+}
+
+Group AttackingData
+{
+    AttackType           0
+    HittingType          2
+    StiffenTime          0.000000
+    InvisibleTime        0.100000
+    ExternalForce        0.000000
+    
+    MotionType           2
+    HitDataCount         1
+    Group HitData00
+    {
+        AttackingStartTime   0.000000
+        AttackingEndTime     0.000000
+        AttackingBone        ""
+        WeaponLength         0.000000
+        List HitPosition
+        {
+        }
+    }
+}
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      2
+        StartingTime         0.630086
+        
+        DuringTime           0.200000
+        Power                300
+        AffectingRange       200
+    }
+    Group Event01
+    {
+        MotionEventType      4
+        StartingTime         0.659316
+        DuringTime           0.200000
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        17.000000
+        CollisionType        0
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           100.000000
+            Position         0.000000 -120.000000 0.000000
+        }
+    }
+}

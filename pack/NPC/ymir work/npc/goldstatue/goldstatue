@@ -1,0 +1,31 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:\ymir work\npc\goldstatue\goldstatue.GR2"
+
+Group ShapeData
+{
+    PathName 		 ""
+    ShapeDataCount 		 0
+}
+Group AttachingData
+{
+    AttachingDataCount       1
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Box01"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           133.000000
+            Position         0.000000 0.000000 -50.000000
+        }
+    }
+}

@@ -1,0 +1,35 @@
+ScriptType		SkillDataScript
+
+Type			SUPPORT
+Attribute		"STANDING_SKILL" "TOGGLE"
+
+IconFileName	"skill/warrior/jeonsingonggyeok.sub"
+MotionIndex		13
+
+MaxLevel		"20"
+LevelUpPoint	"2"
+NeedSPFormula			"200"
+ContinuationSPFormula	"5"
+
+949Name			"傈脚傍拜"
+949Description	"规绢甫 公矫窍绊 傈仿阑 促秦 利阑 傍拜茄促"
+List 949AffectData
+{
+	"傍拜仿 : +%.0f" "1 + SkillPoint / 2" ""
+	"规绢仿 : -%.0f" "SkillPoint / 2" ""
+	"捞悼 加档 : -%.0f" "SkillPoint * 3" ""
+}
+
+List RequireStatData
+{
+	"Level" "31"
+}
+
+936Name			"四面楚歌"
+936Description	"忽略防御，尽全力攻击敌人"
+List 936AffectData
+{
+	"攻击力 : +%.0f" "1 + SkillPoint / 2" ""
+	"防御力 : -%.0f" "SkillPoint / 2" ""
+	"移动速度 : -%.0f" "SkillPoint * 3" ""
+}

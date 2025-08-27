@@ -1,0 +1,83 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc/assassin/skill/gungsin.gr2"
+MotionDuration           1.500000
+Accumulation           0.00	-219.45	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     7
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.038462
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 Footsteps"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/assassin/effect/gungsintanyeong_start.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.461538
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 Head"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/assassin/effect/gungsintanyeong_end.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.503846
+        
+        IndependentFlag      1
+        AttachingEnable      0
+        AttachingBoneName    "equip_right"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/assassin/effect/gungsintanyeong_blow.mse"
+        EffectPosition       0.000000 -150.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      8
+        StartingTime         0.061538
+    }
+    Group Event04
+    {
+        MotionEventType      7
+        StartingTime         0.457692
+    }
+    Group Event05
+    {
+        MotionEventType      9
+        StartingTime         0.250000
+    }
+    Group Event06
+    {
+        MotionEventType      4
+        StartingTime         0.542308
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           1
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        10
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           100.000000
+            Position         0.000000 -190.000000 70.000000
+        }
+    }
+}

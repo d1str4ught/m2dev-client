@@ -1,0 +1,20 @@
+ScriptType		SkillDataScript
+
+Type			PASSIVE
+MaxLevel		"40"
+
+949Name			"刘脚贱"
+949Description	"弥措 积疙仿 刘啊"
+List 949AffectData
+{
+	"弥措 积疙仿 +%.0f"	"SkillPoint * 15"	""
+}
+
+IconFileName	"skill/warrior/gibaek.sub"
+
+936Name			"气魄"
+936Description		"增加最大生命值"
+List 936AffectData
+{
+	"最大生命值 +%.0f"	"SkillPoint * 30"	""
+}

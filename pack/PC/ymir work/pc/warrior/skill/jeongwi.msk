@@ -1,0 +1,40 @@
+ScriptType		SkillDataScript
+
+Attribute		"STANDING_SKILL" 
+CoolTimeFormula		"60 + (20 * SkillPoint)"
+NeedSPFormula 		"50 + (140 * SkillPoint)"
+MotionIndex		"12"
+
+IconFileName		"skill/warrior/jeongwi.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+
+949Name			"전귀혼"
+949Description	"오로지 공격에만 전념한다"
+List 949ConditionData
+{
+	"공격 속도 상승"
+	"이동 속도 증가"
+	"자기 피해 증가"
+}
+List 949AffectData
+{
+	"공격 속도 +%.0f%%" "50 * SkillPoint" ""
+	"이동 속도 +%.0f%%" "20 * SkillPoint" ""
+	"피해 증가 %.0f%%"  "80 * SkillPoint" ""
+}
+
+936Name			"濫산"
+936Description	"怜鬧路쏵묑，랍빔柬렝磵"
+List 936ConditionData
+{
+	"기본 공격만 적용"
+}
+List 936AffectData
+{
+	"공격 속도 +%.0f%%" "50 * SkillPoint" ""
+	"피해 타격치 +%.0f%%" "100 * SkillPoint" ""
+	"지속시간 : %.0f초" "60 + (90 * SkillPoint)" ""
+}

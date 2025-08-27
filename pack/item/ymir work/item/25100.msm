@@ -1,0 +1,10 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\YMIR WORK\ui\Items\etc\25000.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
+
+949Description        "公扁客 癌渴俊辑 皋凭籍阑 哗尘 荐 乐促"
+936Description        "将已镶嵌的倚天石吸附出来"

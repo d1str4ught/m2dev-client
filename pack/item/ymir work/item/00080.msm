@@ -1,0 +1,52 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         "d:/ymir work/item/weapon/00080.gr2"
+IconImageFileName     "d:/ymir work/ui/items/weapon/00080.sub"
+DropModelFileName     "d:/ymir work/item/weapon/00080.gr2"
+
+HitSoundFileName      "d:/ymir work/sound/battle/middlesword_attack.wav"
+List HitEffectFileName
+{
+    "d:/ymir work/effect/hit-all/00000-3/00000-3.mse"
+    "d:/ymir work/effect/hit-all/00000-6/00000-6.mse"
+}
+
+Group AttachingData
+{
+    AttachingDataCount       1
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Object01"
+        
+        CollisionType        2
+        
+        SphereDataCount      4
+        Group SphereData00
+        {
+            Radius           18.000000
+            Position         0.000000 0.000000 15.000000
+        }
+        Group SphereData01
+        {
+            Radius           18.000000
+            Position         0.000000 0.000000 51.000000
+        }
+        Group SphereData02
+        {
+            Radius           18.000000
+            Position         0.000000 0.000000 87.000000
+        }
+        Group SphereData03
+        {
+            Radius           18.000000
+            Position         0.000000 0.000000 123.000000
+        }
+    }
+}

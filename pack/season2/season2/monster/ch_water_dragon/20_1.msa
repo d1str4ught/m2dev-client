@@ -1,0 +1,21 @@
+ScriptType               MotionData
+
+MotionFileName           "season2\monster\ch_water_dragon\20_1.GR2"
+MotionDuration           4.000000
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         2.403893
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 Ponytail2"
+        FollowingEnable      1
+        EffectFileName       "season2/monster/ch_water_dragon/water_breathe01.mse"
+        EffectPosition       0.000000 -30.000000 -30.000000
+    }
+}

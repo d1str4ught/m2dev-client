@@ -1,0 +1,68 @@
+ScriptType               MotionData
+
+MotionFileName           "d:\ymir work\monster2\blue_dragon\24.GR2"
+MotionDuration	2.0000
+Accumulation	0.0000 0.0000 0.0000
+
+Group MotionEventData
+{
+    MotionEventDataCount     4
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.238443
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 Head"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/monster2/blue_dragon/water_breathe01.mse"
+        EffectPosition       0.000000 -30.000000 -50.000000
+    }
+    Group Event01
+    {
+        MotionEventType      4
+        StartingTime         0.296837
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           800.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.282238
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/monster2/blue_dragon/water_breathe01_d.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 Head"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/monster2/blue_dragon/water_breathe01_making.mse"
+        EffectPosition       0.000000 -10.000000 -50.000000
+    }
+}

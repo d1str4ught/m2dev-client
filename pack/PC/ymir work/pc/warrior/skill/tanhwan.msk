@@ -1,0 +1,41 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "WEAPON_LIMITATION" "NEED_TARGET" "CHARGE_ATTACK"
+NeedWeapon		"SWORD" "TWO_HANDED"
+CoolTimeFormula		"25"
+NeedSPFormula		"60 + (120 * SkillPoint)"
+
+MotionIndex		"11"
+
+IconFileName		"skill/warrior/tanhwan.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"藕券拜"
+949Description		"醚舅贸烦 崔妨啊 利阑 逞绢哆赴促"
+
+List 949ConditionData
+{
+	"倒拜 裹困 傍拜"
+}
+
+List 949AffectData
+{
+	"傍拜仿 %.0f-%.0f" "2*MinATK + (MinATK + 3*DEX + 7*STR + CON)*SkillPoint" "2*MaxATK + (MaxATK + 3*DEX + 7*STR + CON)*SkillPoint"
+}
+
+936Name			"血遗"
+936Description		"可以把生命转换为精力"
+
+List 936ConditionData
+{
+	"倒拜 裹困 傍拜"
+}
+
+
+List 936AffectData
+{
+	"消耗的生命值 20%%" "" ""
+	"转换的精力 %.0%%" "5 + SkillPoint" ""
+}

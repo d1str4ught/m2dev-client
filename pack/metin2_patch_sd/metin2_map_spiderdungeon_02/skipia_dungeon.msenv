@@ -1,0 +1,80 @@
+ScriptType         EnvrionmentData
+ScriptVersion      1.0000
+
+Group DirectionalLight
+{
+    Direction     0.596551 0.281780 -0.751483
+
+    Group Background
+    {
+        Enable        1
+        Diffuse       0.756863 0.721569 0.713726 1.000000
+        Ambient       0.513726 0.513726 0.619608 1.000000
+    }
+    
+    Group Character
+    {
+        Enable        1
+        Diffuse       0.756863 0.721569 0.713726 1.000000
+        Ambient       0.663725 0.663725 0.769608 1.000000
+    }
+}
+Group Material
+{
+    Diffuse       1.000000 0.984314 0.984314 1.000000
+    Ambient       0.337255 0.309804 0.309804 1.000000
+    Emissive      0.011765 0.003922 0.003922 1.000000
+}
+
+Group Fog
+{
+    Enable        0
+    NearDistance  1.000000
+    FarDistance   20000.000000
+    Color         0.000000 0.000000 0.000000 1.000000
+}
+
+Group Filter
+{
+    Enable        0
+    Color         0.176471 0.164706 0.164706 0.000000
+    AlphaSrc      1
+    AlphaDest     2
+}
+
+Group SkyBox
+{
+    Scale                 3500.000000 3500.000000 3500.000000
+    GradientLevelUpper    1
+    GradientLevelLower    1
+    
+    CloudScale            200000.000000 200000.000000
+    CloudHeight           30000.000000
+    CloudTextureScale     5.000000 5.000000
+    CloudSpeed            0.010000 0.010000
+    CloudTextureFileName  "D:\YMIR WORK\environment\blackout.dds"
+    List CloudColor
+    {
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+    }
+    List Gradient
+    {
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+        
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+    }
+}
+
+Group LensFlare
+{
+    Enable                     0
+    BrightnessColor            1.000000 0.886275 0.886275 1.000000
+    MaxBrightness              0.740000
+    MainFlareEnable            1
+    MainFlareTextureFileName   "D:\YMIR WORK\environment\blackout.dds"
+    MainFlareSize              0.350000
+}
+

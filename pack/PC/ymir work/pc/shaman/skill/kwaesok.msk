@@ -1,0 +1,39 @@
+ScriptType		SkillDataScript
+
+Attribute		"NEED_TARGET" "ONLY_FOR_ALLIANCE" "CAN_USE_FOR_ME"
+CoolTimeFormula		"15"
+NeedSPFormula		"50 + (150 * SkillPoint)"
+Range			"800"
+MotionIndex		"9"
+MotionIndexForMe	"8"
+
+IconFileName		"skill/shaman/kwaesok.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"쾌속"
+949Description	"바람을 타고 달린다"
+List 949ConditionData
+{
+	"이동 속도 상승"
+	"주문 시간 감소"
+	"동료에게 사용 가능"
+}
+List 949AffectData
+{
+	"이동 속도 +%.0f%%" "5 + (35 * k)" ""
+	"주문 속도 +%.0f%%" "3+33*k" ""
+}
+
+936Name			"트鉤"
+936Description	"넉루랍트，藤속盧땡醵똑"
+List 936ConditionData
+{
+	"동료에게 사용 가능"
+}
+List 936AffectData
+{
+	"盧땡醵똑 : +%.0f%%" "1 + (19 * SkillPoint)" ""
+	"넣崎 %.0f취" "120 + (300 * SkillPoint)" ""
+}

@@ -1,0 +1,47 @@
+ScriptType		SkillDataScript
+
+Type			HIGH
+Attribute		"ATTACK_SKILL" "WEAPON_LIMITATION" "NEED_TARGET"
+NeedWeapon		"SWORD" "DAGGER" "DOUBLE_SWORD"
+Range			800
+
+949Name			"级傈八"
+949Description	"利俊霸 顿绢甸绢 鞭家俊 漠阑 踩绰促"
+949Requirement	"玫锋眠鸥" 7
+
+IconFileName	"skill/assassin/seomjeon.sub"
+MotionIndex		9
+
+List 949ConditionData
+{
+	"窜八老锭 颇鲍仿 50% 刘啊"
+	"3檬埃 嘎阑锭 单固瘤 2硅"
+}
+
+List 949AffectData
+{
+	"颇鲍仿 : %.1f 硅" "(200 + SkillPoint * 35) / 100" ""
+}
+
+List RequireStatData
+{
+	"Level" "41"
+}
+
+MaxLevel			"30"
+CoolTimeFormula		"20"
+NeedSPFormula		"100"
+
+936Name			"无影剑"
+936Description	"如影一般快速攻击，无人能够回避"
+936Requirement	"影击" 7
+List 936ConditionData
+{
+	"用短剑时增加50%破坏力"
+	"连续攻击3秒，造成2倍的伤害"
+}
+
+List 936AffectData
+{
+	"破坏力: %.1f 倍" "(200 + SkillPoint * 35) / 100" ""
+}

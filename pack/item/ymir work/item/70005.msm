@@ -1,0 +1,10 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\ymir work\ui\items\quest\70005.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
+
+949Description "版氰摹啊 2硅啊 等促"
+936Description "经验获得提升2倍"

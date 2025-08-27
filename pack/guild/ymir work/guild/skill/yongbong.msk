@@ -1,0 +1,14 @@
+ScriptType		SkillDataScript
+
+Type			PASSIVE
+
+Name			"용봉"
+Description		"최대 용신력을 향상 시킨다"
+IconFileName		"skill/guild/yongbong.sub"
+
+List AffectData
+{
+	"최대 용신력 %.0f"	"1000 + (SkillLevel * 300)"	""
+}
+
+MaxLevel			5

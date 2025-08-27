@@ -1,0 +1,26 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "d:/ymir work/npc/warp/warp.gr2"
+
+Group ShapeData
+{
+    PathName 		 ""
+    ShapeDataCount 		 0
+}
+Group AttachingData
+{
+    AttachingDataCount       1
+    
+    Group AttachingData00
+    {
+        AttachingDataType    2
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bone01"
+        
+        EffectScriptName     "D:\YMIR WORK\effect\etc\guild_war_flag\ground_flag_blue.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        EffectRotation       0.000000 0.000000 0.000000
+    }
+}

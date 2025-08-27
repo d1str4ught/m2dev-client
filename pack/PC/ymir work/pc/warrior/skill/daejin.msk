@@ -1,0 +1,38 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "STANDING_SKILL"
+CoolTimeFormula		"25"
+NeedSPFormula		"50 + (140 * SkillPoint)"
+
+MotionIndex		"1"
+
+IconFileName		"skill/warrior/daejin.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"措柳阿"
+949Description	"林困狼 利阑 荤规栏肺 朝妨焊辰促"
+List 949ConditionData
+{
+	"力磊府 林函 裹困 傍拜"
+	"老沥 犬伏肺 扁例 瓤苞"
+}
+List 949AffectData
+{
+	"傍拜仿 %.0f-%.0f" "2*MinATK + (2*MinATK + 2*DEX + 2*CON + 4*STR)*SkillPoint" "2*MaxATK + (2*MaxATK + 2*DEX + 2*CON + 4*STR)*SkillPoint"
+	"扁例 犬伏 %.0f%%" "(100 + 1000*SkillPoint/6)/10" ""
+}
+
+936Name			"震撼"
+936Description	"使用气功，将周围的敌人震飞"
+List 936ConditionData
+{
+	"力磊府 林函 裹困 傍拜"
+	"按一定的概率有击晕的效果"
+}
+List 936AffectData
+{
+	"傍拜仿 %.0f-%.0f" "50 + 2*MinATK + (0.7*MinATK + 350)*SkillPoint" "50 + 2*MaxATK + (0.7*MaxATK + 350)*SkillPoint"
+	"扁例 犬伏 %.0f%%" "1 + 4*SkillPoint" ""
+}

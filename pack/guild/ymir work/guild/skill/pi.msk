@@ -1,0 +1,15 @@
+ScriptType		SkillDataScript
+
+Type			GUILD
+
+Name			"용신의 가호"
+Description		"자신의 최대 체력을 일시적으로 높인다"
+IconFileName		"skill/guild/pi.sub"
+
+List AffectData
+{
+	"10분간 최대 체력 +%.0f"	"SkillLevel * 100"	""
+}
+
+NeedSPFormula		"120 - (SkillLevel * 20)"
+MaxLevel			5

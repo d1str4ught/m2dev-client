@@ -1,0 +1,32 @@
+ScriptType			SkillDataScript
+
+Type				MIDDLE
+Attribute			"TOGGLE" "STANDING_SKILL"
+949Name				"荐龋傈飞"
+949Description		"蝴狼 沥飞阑 阂矾 磊脚狼 个阑 焊龋茄促"
+949Requirement		"龋脚" 8
+
+IconFileName		"skill/shaman/suho.sub"
+MotionIndex			15
+
+List 949AffectData
+{
+	"辟立 傍拜 历亲仿 : +%.0f" "SkillPoint" ""
+}
+
+List RequireStatData
+{
+	"Level" "21"
+}
+
+NeedSPFormula			"50"
+ContinuationSPFormula	"8"
+LevelUpPoint			"4"
+
+936Name				"神佑"
+936Description		"召唤战灵来保护自己"
+936Requirement		"结界" 8
+List 936AffectData
+{
+	"近身防御 : +%.0f" "SkillPoint" ""
+}

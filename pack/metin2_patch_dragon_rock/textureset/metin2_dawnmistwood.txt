@@ -1,0 +1,143 @@
+TextureSet
+
+TextureCount 14
+Start Texture001
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_field001.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture001
+Start Texture002
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_grass001.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture002
+Start Texture003
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_rock001.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture003
+Start Texture004
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_feild002.dds"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture004
+Start Texture005
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_grass002.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture005
+Start Texture006
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_stone001.dds"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture006
+Start Texture007
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_field003.dds"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture007
+Start Texture008
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_field000.dds"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture008
+Start Texture009
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_sand000.DDS"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture009
+Start Texture010
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_tile000.DDS"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture010
+Start Texture011
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_sand001.DDS"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture011
+Start Texture012
+    "D:\ymir work\terrainmaps\BayBlackSand\bayblacksand_grass_00.dds"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture012
+Start Texture013
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_grass003.dds"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture013
+Start Texture014
+    "D:\ymir work\terrainmaps\DawnMistWood\DawnMistWood_tile001.DDS"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture014

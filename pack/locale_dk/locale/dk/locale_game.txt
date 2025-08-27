@@ -1,0 +1,936 @@
+AFF_LOVE_POINT	Kærlighedspoint: %d%%
+ALIGNMENT_NAME	Rang:
+ATTACK_ERROR_UNKNOWN	Ukendt angrebsfejl: %s
+CANNOT_ATTACK_DEST_IN_SAFE	Afstanden til fjenden er for stor.
+CANNOT_ATTACK_SELF_IN_SAFE	Jeg kan ikke angribe fjenden herfra.
+CANNOT_EQUIP_IN_EXCHANGE	Du kan ikke skifte din udrustning mens du handler.
+CANNOT_EQUIP_IN_SHOP	Du kan ikke skifte din udrustning mens du handler.
+CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA	Du kan ikke åbne en privat butik på et offentligt areal.
+CANNOT_SHOOT_DEST_IN_SAFE	Afstanden til fjenden er for stor.
+CANNOT_SHOOT_EMPTY_ARROW	Jeg har brug for en pil.
+CANNOT_SHOOT_SELF_IN_SAFE	Jeg kan ikke angribe fjenden herfra.
+CANNOT_SKILL_APPROACH	Jeg er sikker på, at jeg ikke kan komme tættere på.
+CANNOT_SKILL_ATTACK	Det kan jeg ikke angribe.
+CANNOT_SKILL_BLUE	Du kan ikke bruge Indigo Ulve sjæl når højrød Ulve sjæl er aktiveret.
+CANNOT_SKILL_DEST_IN_SAFE	Afstanden til fjenden er for stor.
+CANNOT_SKILL_EQUIP_FISHING_ROD	Jeg har brug for en fiskestang.
+CANNOT_SKILL_HAVE_TO_RIDE	Jeg har brug for en hest for at kunne anvende det.
+CANNOT_SKILL_NEED_EMPTY_BOTTLE	Jeg har ingen tom flaske.
+CANNOT_SKILL_NEED_POISON_BOTTLE	Jeg har ingen giftflaske.
+CANNOT_SKILL_NEED_TARGET	Hvem er målet?
+CANNOT_SKILL_NOT_ENOUGH_HP	Jeg har ikke nok HP!
+CANNOT_SKILL_NOT_ENOUGH_SP	Jeg har ikke nok MP!
+CANNOT_SKILL_NOT_HORSE_SKILL	Jeg kan ikke bruge det, mens jeg ridder.
+CANNOT_SKILL_NOT_MATCHABLE_WEAPON	Denne færdighed kan jeg ikke bruge med mit våben.
+CANNOT_SKILL_NOT_YET_LEARN	Denne færdighed har jeg ikke lært.
+CANNOT_SKILL_ONLY_FOR_ALLIANCE	Det virker kun på gruppemedlemmer.
+CANNOT_SKILL_ONLY_FOR_CORPSE	Det virker kun på døde.
+CANNOT_SKILL_RED	Du kan ikke bruge højrød ulve sjæl når Indigo Ulve sjæl er aktiveret.
+CANNOT_SKILL_REMOVE_FISHING_ROD	Denne færdighed kan jeg ikke bruge med en fiskestang.
+CANNOT_SKILL_SELF_IN_SAFE	Jeg kan ikke angribe fjenden herfra.
+CANNOT_SKILL_USE_SELF	Jeg kan ikke bruge det på mig selv.
+CANNOT_SKILL_WAIT_COOLTIME	Denne færdighed er ikke klar.
+CANNOT_USE	Du kan ikke bruge denne.
+CANNOT_WHISPER_DEST_REFUSE	%s har blokeret hvisken.	SA
+CANNOT_WHISPER_NOT_LOGON	%s er ikke online.	SA
+CANNOT_WHISPER_SELF_REFUSE	Du kan ikke hviske med nogen, når du selv har blokeret for hvisken.	SNA
+CHANNEL	Kanal
+CHANNELING_CANNOT_LOGOUT	Du kan ikke gå tilbage til startskærmen.
+CHANNEL_EMPTY_SERVER	Ingen server
+CHANNEL_NORMAL	Kanal %d
+CHANNEL_NOTIFY_FULL	Denne kanal er fyldt. Vælg venligst en anden.
+CHANNEL_NOT_FIND_INFO	Du får ingen kanal-informationer.
+CHANNEL_PVP	Fri duel
+CHANNEL_SELECT_CHANNEL	Vælg en kanal
+CHANNEL_SELECT_REGION	Vælg området for regningen
+CHANNEL_SELECT_SERVER	Vælg server
+CHANNEL_TEST_SERVER	Test server
+CHANNEL_TEST_SERVER_ADDR	Test %s:%d
+CHARACTER_CREATE_MODE	Opret karakter
+CHARACTER_SELECT_MODE	Vælg karakter
+CHAT_ALL	Alle
+CHAT_BLOCK	Bloker
+CHAT_GUILD	Orden
+CHAT_INFORMATION	Info
+CHAT_INSULT_STRING	Sætningen indeholder spærrede ord.
+CHAT_LOG	Vis gamle meddelelser [L]
+CHAT_LOG_TITLE	Chat-log
+CHAT_NORMAL	Normal
+CHAT_NOTICE	Bekendtgørelse
+CHAT_PARTY	Gruppe
+CHAT_SEND_CHAT	Send chat
+CHAT_SEND_MEMO	Send hvisken [Shift+Enter]
+CHAT_SHOUT	Råbe
+CHAT_SHOUT_LIMIT	Du kan kun råbe alle 15 sekunder.
+CHAT_WHISPER	Hviske
+COMB_ALREADY_APPEND	
+COMB_CANT_APPEND_ITEM	Denne genstand kan ikke bruges.
+COMB_CANT_APPEND_SEALED_ITEM	Du kan ikke bruge en sjælebunden genstand.
+COMB_COST	Pris: %s
+COMB_IS_CONTINUE_PROCESS	Ønsker du at fortsætte?
+COMB_NOTICE	Du kan ikke åbne en privat shop mens du bytter bøger.
+COMB_NOTICE_NOT_OPEN	Du kan ikke bytte bøger mens du har en privat shop åben.
+COMB_NOT_ALL_SLOT_APPEND_ITEM	Du skal bruge et sekundær kostume for at overføre bonusser.
+COMB_NOT_FULL_BOOK	Nej, vi kan ikke gøre forretning på denne måde. Som jeg allerede fortalte dig, så er jeg kun klar på at bytte hvis du giver mig 10 bøger igen.
+COMB_NOT_ITEM_IN_INVENTORY	Du kan ikke aktivere genstande der er i brug.
+COMB_NOT_MEDIUM_ITEM	Denne genstand kan ikke bruges.
+COMB_WILL_REMOVE_MATERIAL	Kostume 2 vil blive ødelagt.
+CREATE_ERROR_GM_NAME	Dit karakternavn må ikke indeholde "GM".
+CREATE_ERROR_INSULT_NAME	Dette navn er ikke tilladt.
+CREATE_ERROR_LIMIT_LEVEL	Din karakter skal mindst være level 80.
+CREATE_ERROR_TIME_LIMIT	Du kan kun oprette en karakter per 30 sekunder.
+CREATE_ERROR_WRONG_STRING	Dit karakternavn må ikke indeholde special tegn.
+CREATE_EXIST_SAME_NAME	En anden karakter har allerede dette navn.
+CREATE_FAILURE	Du kan ikke oprette denne karakter.
+CREATE_FULL	Du kan ikke oprette flere karakterer.
+CREATE_GM_NAME	GM
+CREATE_INPUT_NAME	Vælg et navn
+CREATE_PLUS_STAT	Du har stadig nogle status-points.
+DAY	Dage
+DONT_USE_ITEM_WHEN_SHOW_CONFIRM	Du kan ikke fjerne en genstand når der er en forespørgsel igang.
+DO_YOU_BUY_ITEM1	Vil du købe %s for %s ?
+DO_YOU_BUY_ITEM2	Vil du købe %s %s for %s ?
+DO_YOU_DROP_MONEY	Vil du smide %d Yang væk?
+DO_YOU_SELL_ITEM1	Vil du sælge %s for %s ?
+DO_YOU_SELL_ITEM2	Vil du sælge %s %s for %s ?
+DRAGON_SOUL_CANNOT_REFINE	Denne drage sten kan ikke blive forfinet.
+DRAGON_SOUL_CANNOT_REFINE_MORE	Denne drage sten har allerede nået det højeste level.
+DRAGON_SOUL_EQUIP_WARNING1	Det er svært at fjerne en drage sten, når den først er tilføjet.
+DRAGON_SOUL_EQUIP_WARNING2	Vil du stadig gerne fortsætte?
+DRAGON_SOUL_EXPIRED	Udløbet drage sten
+DRAGON_SOUL_INVALID_DRAGON_SOUL	Det er den forkerte drage sten.
+DRAGON_SOUL_IS_NOT_DRAGON_SOUL	Det er ikke en drage sten.
+DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	Dette er ikke den rigtige drage sten.
+DRAGON_SOUL_NOT_ENOUGH_MATERIAL	Du har ikke materialer nok til forfinelsen.
+DRAGON_SOUL_NOT_MATCHED_SLOT	Denne drage sten passer ikke til denne plads.
+DRAGON_SOUL_STEP_LEVEL1	Klarhed: mat,
+DRAGON_SOUL_STEP_LEVEL2	Klarhed: klar,
+DRAGON_SOUL_STEP_LEVEL3	Klarhed: fejlfri,
+DRAGON_SOUL_STEP_LEVEL4	Klarhed: strålende,
+DRAGON_SOUL_STEP_LEVEL5	Klarhed: fremragende,
+DRAGON_SOUL_STRENGTH	Level: +%d	SA
+DRAGON_SOUL_UNEQUIP_WARNING1	Denne drage sten kan blive ødelagt i processen.
+DRAGON_SOUL_UNEQUIP_WARNING2	Vil du stadig gerne forsætte?
+DRAGON_SOUL_UNMATCHED_SLOT	Det er den forkerte plads.
+DRAGON_SOUL_UNQUALIFIED	Du kan endnu ikke bruge drage stens alkymisten.
+DROP_ITEM_FAILURE_EQUIP_ITEM	Du kan ikke smide genstande i brug væk.
+DROP_ITEM_FAILURE_PRIVATE_SHOP	Du kan ikke smide genstande i brug væk, mens du åbner en privat butik.
+DROP_MONEY_FAILURE_1000_OVER	Du kan maksimalt smide 999 Yang.
+EMOTION_ANGRY	Forarget
+EMOTION_ATTRACTIVE	Forførende
+EMOTION_BANTER	Spydig
+EMOTION_CHEERS_1	Jubel 1
+EMOTION_CHEERS_2	Jubel 2
+EMOTION_CHEERUP	Juble
+EMOTION_CHOOSE_ONE	Vælg et mål.
+EMOTION_CLAP	Applaus
+EMOTION_CLAP_KISS	Kys
+EMOTION_CONGRATULATION	Understøtte
+EMOTION_DANCE_1	Dans 1
+EMOTION_DANCE_2	Dans 2
+EMOTION_DANCE_3	Dans 3
+EMOTION_DANCE_4	Dans 4
+EMOTION_DANCE_5	Dans 5
+EMOTION_DANCE_6	Gumsan Style
+EMOTION_FORGIVE	Tilgive
+EMOTION_FRENCH_KISS	Tungekys
+EMOTION_JOY	Glæde
+EMOTION_SAD	Bedrøvet
+EMOTION_SHY	Afvise
+EMOTION_SLAP	Slag
+EMPIRE_A	Shinsoo-Rige
+EMPIRE_B	Chunjo-Rige
+EMPIRE_C	Jinno-Rige
+EMPIRE_SELECT_MODE	Vælg rige
+EXCHANGE_CANNOT_GIVE	Denne genstand kan ikke handles med.
+EXCHANGE_CANT_EDIT_MONEY	Du kan ikke redigere bidraget nu.
+EXCHANGE_FAILURE_EQUIP_ITEM	Du kan ikke skifte udrustede genstande.
+EXCHANGE_MONEY	Bidrag
+EXCHANGE_TITLE	Handl med %s
+FISHING_FAILURE	Du har tabt fiskemaddingen.
+FISHING_NOTIFY1	Ser ud til, at en %s har bidt på.
+FISHING_NOTIFY2	Ser ud til, at en %s blev fanget.
+FISHING_SUCCESS1	Du har fanget en %s !
+FISHING_SUCCESS2	Du har fanget %s!
+FISHING_UNKNOWN	Jeg ved ikke hvad jeg har fanget.
+FISHING_WRONG_PLACE	Her kan jeg ikke fiske.
+FOR_FEMALE	For kvinder
+FOR_MALE	For mænd
+GAME_CANNOT_MINING	Du kan ikke hakke malm mens du ridder.
+GAME_CANNOT_PICK_ITEM	Du kan ikke indsamle denne genstand, da det ikke er dit bytte.
+GAME_INIT_ERROR_CURSOR	Musviseren kunne ikke oprettes.
+GAME_INIT_ERROR_DIRECTX	DirectX 8.1 skal være installeret for at spillet virker.\nInstaller DirectX 8.1 eller højere.
+GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	Ikke fundet noget grafikkort.\nVær så venligt at kontrollere om dit VGA-kort er installeret korrekt.
+GAME_INIT_ERROR_GRAPHICS_NOT_EXIST	Grafikkort blev ikke fundet.\nCheck om du har et VGA-kort.\nAlternativ kan du aktivere for hardware-accelerationen.\n(Hardware-acceleration på maksimum i grafikkortets indstillinger)
+GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	Dit grafikkort understøtter ikke 32bit-vinduesmode.\nSkift til 16bit eller brug fuld skærm.
+GAME_INIT_ERROR_ITEM_PROTO	Ikke fundet nogen genstandsfil.\nVær så venlig at geninstallere spillet.
+GAME_INIT_ERROR_MAIN_WINDOW	Hovedvinduet kunne ikke oprettes.
+GAME_INIT_ERROR_MOB_PROTO	Ikke fundet nogen monsterfil.\nVær så venlig at geninstallere spillet.
+GAME_INIT_ERROR_NETWORK	Netværksforbindelsen kunne ikke oprettes.\nCheck din internet-forbindelse.
+GAME_PICK_MONEY	Du har fundet %d Yang.
+GUILDMARK_UPLOADER_ERROR_128_HEIGHT	Højden skal være 128 pixel
+GUILDMARK_UPLOADER_ERROR_12_HEIGHT	Højden skal være 12 pixel
+GUILDMARK_UPLOADER_ERROR_16_WIDTH	Bredde skal være 16 pixel
+GUILDMARK_UPLOADER_ERROR_64_WIDTH	Bredde skal være 64 pixel
+GUILDMARK_UPLOADER_ERROR_FILE_FORMAT	Spillet understøtter ikke den slags billedformater.
+GUILDMARK_UPLOADER_ERROR_PATH	Flyt filerne i mappen metin2/upload.
+GUILDMARK_UPLOADER_ERROR_SELECT	Du har ikke valgt nogen billed-fil.
+GUILDWAR_CTF_TITLE	Erobre flag
+GUILDWAR_NORMAL_TITLE	Kampfelt
+GUILDWAR_QUESTION_LINE_1	%s-Ordenen har erklæret krig mod jer.
+GUILDWAR_QUESTION_LINE_2	tager du imod? (%s)
+GUILDWAR_UNKNOWN_TITLE	...
+GUILDWAR_WARP_TITLE	Arena krig
+GUILD_BUILDING_GRADE	Rang
+GUILD_BUILDING_NAME	Bygningsnavn
+GUILD_CANNOT_HEAL_GSP_ANYMORE	Drageånd er allerede fyldt.
+GUILD_COMMENT	Skriv
+GUILD_CREATE_ERROR_INSULT_NAME	Ordensnavnet er ikke tilladt.
+GUILD_DEFAULT_GRADE	Ordensmedlemmer
+GUILD_DELETE	Slet
+GUILD_DEPOSIT	Deponere
+GUILD_DO_YOU_HEAL_GSP	Vil du bruge %d Yang for at reproducere %d stykker drageånd?
+GUILD_DO_YOU_JOIN	 har inviteret dig. Vil du tilslutte dig ordenen?
+GUILD_EMPTY_AREA	Tomt areal
+GUILD_ENEMY_GUILD_NAME	Fjendens Ordensnavn
+GUILD_FACILITY	Sidebygning
+GUILD_GEM	Ædelsten
+GUILD_HEADQUARTER	Hovedbygning
+GUILD_HEAL_GSP	Gendan drageånd.
+GUILD_INFO_ENEMY_GUILD_EMPTY	Ingen
+GUILD_MARK_NOT_ENOUGH_LEVEL	Level skal minimum være 3
+GUILD_NAME	Ordensnavn
+GUILD_NOT_ENOUGH_MATERIAL	Du har ikke materialer nok til denne bygningen.
+GUILD_NOT_ENOUGH_MONEY	Du har ikke Yang nok til denne bygningen.
+GUILD_NO_NOTICE_PERMISSION	Du har ingen rettigheder til bekendtgørelser.
+GUILD_OBJECT	Objekter
+GUILD_OFFER_EXP	Investere erfaring
+GUILD_SHORT_EXP	Ikke nok erfaring.
+GUILD_TILE_BASEINFO	Basis-informationer
+GUILD_TILE_BOARD	Tavle
+GUILD_TILE_GRADE	Forvaltning af rettigheder
+GUILD_TILE_INFO	Ordensinformationer
+GUILD_TILE_MEMBER	Ordensmedlemmer
+GUILD_TILE_SKILL	Ordensfærdigheder
+GUILD_VILLAGE_01	Miryang
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_03	Daeyami
+GUILD_WAR1	Ordenskrigs område
+GUILD_WAR2	Ordenskrigs område
+GUILD_WAR3	Ordenskrigs område
+GUILD_WAR4	Ordenskrigs område
+GUILD_WAR_LIMIT_30MIN	Tid: 30 Minutter
+GUILD_WAR_REWARD_POTION	Belønning: Vinderen får eliksirer.
+GUILD_WAR_USE_BATTLE_MAP	Sted: Ordenskrig Arena
+GUILD_WAR_USE_NORMAL_MAP	Sted: Normal kort
+GUILD_WAR_WIN_CHECK_SCORE	Højest resultat vinder krigen.	
+GUILD_WAR_WIN_TAKE_AWAY_FLAG1	Få fat i fjendens flag
+GUILD_WAR_WIN_TAKE_AWAY_FLAG2	og bring det til din base.
+GUILD_WAR_WIN_WIPE_OUT_GUILD	Besejre alle fjender for at vinde.
+GUILD_WITHDRAW	Tilbagetræk
+GUILD_YOU_DO_NOT_JOIN	Du er ikke medlem i nogen Orden.
+HORSE_HEALTH0	Død
+HORSE_HEALTH1	Sulter
+HORSE_HEALTH2	Sulten
+HORSE_HEALTH3	Fuld
+HORSE_LEVEL1	Normal hest
+HORSE_LEVEL2	Krigs hest
+HORSE_LEVEL3	Militærhest
+HOUR	timer
+HOW_MANY_ITEM_DO_YOU_DROP1	Ønsker du at smide %s væk?
+HOW_MANY_ITEM_DO_YOU_DROP2	Vil du smide %s %d væk
+INPUT_MATRIX_CARD_NUMBER	Indtast matrix-kortnr.
+INPUT_MATRIX_CARD_TITLE	Matrix-kort
+INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Indtast slet-koden fra din account-forvaltning.
+INPUT_PRIVATE_CODE_DIALOG_TITLE	Slet karakter
+INVENTORY_DO_NOT_PACK_WARP_SCROLL	Dokumenter kan ikke sammenføres.
+INVENTORY_REALLY_USE_ITEM	Brug genstand på denne genstand?
+JOB_ASSASSIN	Ninja
+JOB_ASSASSIN0	Amatørninja
+JOB_ASSASSIN1	Ninjas magt
+JOB_ASSASSIN2	Ikke-døde	
+JOB_SHAMAN	Shaman	
+JOB_SHAMAN0	Amatør shaman	
+JOB_SHAMAN1	Dragens magt	
+JOB_SHAMAN2	Lynstyrke
+JOB_SURA	Sura
+JOB_SURA0	Amatør-sura
+JOB_SURA1	Fatamorganas magt	
+JOB_SURA2	Sort magi´s magt
+JOB_WARRIOR	Kriger
+JOB_WARRIOR0	Amatørkriger
+JOB_WARRIOR1	Arahans magt
+JOB_WARRIOR2	Partisanernes magt
+LEFT_TIME	Resterende tid	
+LOGIN_CONNECT_FAILURE	En fejl opstod ved forbindelsen til serveren.	
+LOGIN_CONNECT_SUCCESS	Du er forbundet til serveren.
+LOGIN_CONNETING	Forbinder til Serveren...
+LOGIN_FAILURE_ALREAY	Din account er allerede forbundet.	
+LOGIN_FAILURE_BE_SAME_KEY	Registrerings problem.	
+LOGIN_FAILURE_BLOCK_ID	Din account er spærret.	
+LOGIN_FAILURE_BLOCK_LOGIN	Vælg venligst en anden servere.
+LOGIN_FAILURE_NOBILL	Denne konto har ingen spilletid tilovers.
+LOGIN_FAILURE_NOT_AVAIL	Denne konto er ikke tilgængeligt.
+LOGIN_FAILURE_NOT_EXIST_ID	Forkert brugernavn eller password.
+LOGIN_FAILURE_REPAIR_ID	For denne konto bliver der gendannet nogle genstande.
+LOGIN_FAILURE_SAMELOGIN	En person har forbundet sig til din konto.
+LOGIN_FAILURE_SHUTDOWN	Denne server er ikke åben.
+LOGIN_FAILURE_TOO_MANY_USER	Du kan ikke få forbindelse med serveren, da der er for mange spillere online.
+LOGIN_FAILURE_UNKNOWN	Du kunne ikke logge på. Årsagen er ukendt.
+LOGIN_FAILURE_WEB_BLOCK	Du blev blokeret på websiden. Tjek venligst din e-mail.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	Du har indtastet et forkert nr.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	Du har 3 gange i træk indtastet et forkert nr. - din forbindelse blev afbrudt.
+LOGIN_FAILURE_WRONG_PASSWORD	Forkert brugernavn eller password.
+LOGIN_INPUT_ID	Angiv ID.
+LOGIN_INPUT_PASSWORD	Angiv kodeordet.
+LOGIN_PROCESSING	Registreringen med serveren er i gang...
+MALL_CANNOT_INSERT	Du kan ikke placere den genstand.
+MALL_PASSWORD_TITLE	Kodeord
+MAP_A1	Område Yongan
+MAP_A2	Seungryong Dal
+MAP_A2_1	
+MAP_A3	Område Yayang
+MAP_AG	Jungrang
+MAP_B1	Område Joan
+MAP_B2	Imji dalen
+MAP_B3	Område Bokjung
+MAP_BAY	Nefrit bugten
+MAP_BAYBLACKSAND	Nefrit bugten
+MAP_BG	Waryong
+MAP_C1	Område Pyungmoo
+MAP_C2	Bangsan dalen
+MAP_C3	Område Bakra
+MAP_CAPE	Kap Drageild
+MAP_CAPEDRAGONHEAD	Kap Drageild
+MAP_CG	Imha
+MAP_DAWN	Gautama Klippe
+MAP_DAWNMISTWOOD	Gautama Klippe
+MAP_DESERT	Yongbi-ørken
+MAP_DEVILCATACOMB	Djævelens katakomb
+MAP_DEVILTOWER1	Dæmon tårn
+MAP_DUEL	Træningskamp område
+MAP_E	Koloni
+MAP_EMPIREWAR01	Slots-kamp
+MAP_EMPIREWAR02	Slots-kamp
+MAP_EMPIREWAR03	Slots-kamp
+MAP_FLAME	Doyyumhwan
+MAP_GUILD_01	Jungrang
+MAP_GUILD_02	Waryong
+MAP_GUILD_03	Imha
+MAP_HOLYPLACE_DESERT	Ørkenland Nationskrig
+MAP_HOLYPLACE_FLAME	Ildland Nationskrig
+MAP_HOLYPLACE_ICE	Island Nationskrig
+MAP_MILGYO	Hwang Tempel
+MAP_MILGYO_A	
+MAP_MONKEY_DUNGEON	Hasun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MT_THUNDER	Tordenbjergene
+MAP_NUSLUCK	Kæmpernes land
+MAP_NUSLUCK01	Kæmpernes land
+MAP_N_DESERT_01	Yongbi-Ørken
+MAP_N_DESERT_02	
+MAP_N_FLAME_01	Ildland
+MAP_N_FLAME_02	
+MAP_N_FLAME_DUNGEON_01	Rød Drageborg
+MAP_N_SNOWM_01	Bjerget Sohan
+MAP_N_SNOWM_02	
+MAP_N_SNOW_DUNGEON_01	Nemeres vagttårn
+MAP_N_THREEWAY	Seungryong Dalen
+MAP_OXEVENT	OX turnering
+MAP_PATHWAY_DESERT_01	Ørkenland Nationskrig
+MAP_PATHWAY_DESERT_02	Ørkenland Nationskrig
+MAP_PATHWAY_DESERT_03	Ørkenland Nationskrig
+MAP_PATHWAY_FLAME_01	Ildland Nationskrig
+MAP_PATHWAY_FLAME_02	Ildland Nationskrig
+MAP_PATHWAY_FLAME_03	Ildland Nationskrig
+MAP_PATHWAY_ICE_01	Island Nationskrig
+MAP_PATHWAY_ICE_02	Legeplads
+MAP_PATHWAY_ICE_03	Island Nationskrig
+MAP_SKELTOWER	Gumsan-Tårn
+MAP_SKIPIA_DUNGEON_01	Forbandelsens grotte
+MAP_SKIPIA_DUNGEON_011	
+MAP_SKIPIA_DUNGEON_012	
+MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	Forbandelsens grotte 2
+MAP_SKIPIA_DUNGEON_021	
+MAP_SKIPIA_DUNGEON_022	
+MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS	Dragens tempel
+MAP_SKIPIA_DUNGEON_BOSS_1	Edderkoppe grotte 1
+MAP_SKIPIA_DUNGEON_BOSS_2	Edderkoppe grotte 2
+MAP_SKIPIA_DUNGEON_BOSS_3	Edderkoppe grotte 3
+MAP_SNOW	Bjerget Sohan
+MAP_SPIDER	Kuahlo Dong
+MAP_SPIDERDUNGEON	Edderkoppe grotte 1
+MAP_SPIDERDUNGEON_02	Edderkoppe-grotte 2
+MAP_SPIDERDUNGEON_02_1	Edderkoppe grotte 2
+MAP_SPIDERDUNGEON_03	Edderkoppe grotte 3
+MAP_SUNGZI	Nationskrig
+MAP_SUNGZI_DESERT_01	Ørkenland Nationskrig
+MAP_SUNGZI_DESERT_HILL_01	Ørkenland Nationskrig
+MAP_SUNGZI_DESERT_HILL_02	Ørkenland Nationskrig
+MAP_SUNGZI_DESERT_HILL_03	Ørkenland Nationskrig
+MAP_SUNGZI_FLAME_HILL_01	Ildland Nationskrig
+MAP_SUNGZI_FLAME_HILL_02	Ildland Nationskrig
+MAP_SUNGZI_FLAME_HILL_03	Ildland Nationskrig
+MAP_SUNGZI_SNOW	Island Nationskrig
+MAP_SUNGZI_SNOW_PASS01	Island Nationskrig
+MAP_SUNGZI_SNOW_PASS02	Island Nationskrig
+MAP_SUNGZI_SNOW_PASS03	Island Nationskrig
+MAP_T1	Ordenskrigs område
+MAP_T2	Ordenskrigs område
+MAP_T3	Ordenskrigs område
+MAP_T4	Ordenskrigs område
+MAP_TEMPLE	Hwang-Tempel
+MAP_THUNDER	Tordenbjergene
+MAP_TREE	Lungsam
+MAP_TRENT	Åndeskov
+MAP_TRENT02	Rød skov
+MAP_TRENT02_A	Rød skov
+MAP_TRENT_A	
+MAP_WEDDING_01	Bryllups kort
+MAP_WL	Slangeområde
+MAP_WL_01	Slangeområde
+MESSENGER_ADD_FRIEND	Tilføj ven
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s har accepteret dig som ven.
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Accepter?
+MESSENGER_DO_YOU_DELETE	Slet?
+MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Vil du slette mobilnr.?
+MESSENGER_DO_YOU_MOVE	Vil du fortsætte?
+MESSENGER_EMPTY_LIST	Tom
+MESSENGER_FAMILY	Familie
+MESSENGER_FRIEND	Venner
+MESSENGER_GUILD	Orden
+MESSENGER_INPUT_MOBILE_AUTHORITY_DESCRIPTION	Indtast bekræftigelses-koden der blev sendt til dit mobilnr.
+MESSENGER_INPUT_MOBILE_AUTHORITY_TITLE	Indtast bekræftigelses-kode
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Indtast mobilnr. for SMS-tilsending.
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Vil du indtaste dette nr.?
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Angiv mobilnr.
+MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Afsend meddelelse.
+METIN_TEST	
+MINIMAP	Åben Minimap
+MINIMAP_CANNOT_SEE	Minikort kan ikke vises.
+MINIMAP_CAN_NOT_SHOW_AREAMAP	Kortet kan ikke vises.
+MINIMAP_DEC_SCALE	Minimer
+MINIMAP_INC_SCALE	Maximer
+MINIMAP_OBSERVER_COUNT	%d tilskuer
+MINIMAP_SHOW_AREAMAP	Åben stort kort
+MINUTE	Min
+MONETARY_UNIT0	Yang
+MONETARY_UNIT1	titusind
+MONETARY_UNIT2	hundrede millioner
+MONEY_INPUT_DIALOG_SELLPRICE	Salgspris:
+MOVE_ITEM_FAILURE_PRIVATE_SHOP	Du kan ikke flytte genstande mens du har en privat butik åben.
+MUSIC_EMPTY_MUSIC_LIST	Ingen baggrundsmusik.
+MUSIC_METIN2_DEFAULT_THEMA	Metin2-Standardmusik
+MUSIC_NOT_SELECT_MUSIC	Du har ikke valgt nogen musikfil.
+NEEFD_REST	Du bliver nød til at hvile dig.
+NOT_YET_SUPPORT	Bliver ikke understøttet.
+OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	Du kan ikke aktivere Ordens-mode, hvis du ikke er medlem i en Orden.
+OPTION_PVPMODE_NOT_SUPPORT	Du kan ikke bruge denne PvP-konfiguration.
+OPTION_PVPMODE_PROTECT	Du skal mindst have opnået Level %d for at ændre PvP-konfigurationen.
+PARTY_ANSWER_TIMEOVER	Invitationen blev afvist.
+PARTY_BONUS_ATTACKER	Angrebsværdi: +%d	SA
+PARTY_BONUS_BERSERKER	Angrebshastighed: +%d	SA
+PARTY_BONUS_BUFFER	Færdighedslængde: +%d	SA
+PARTY_BONUS_DEFENDER	Forsvar: +%d	SA
+PARTY_BONUS_EXP	Bonus-erfaring: %d%%	SA
+PARTY_BONUS_SKILL_MASTER	Max. MP: +%d	SA
+PARTY_BONUS_TANKER	Max HP: +%d	SA
+PARTY_BREAK_UP	Fjern gruppe
+PARTY_DO_YOU_ACCEPT	 vil være med i gruppen.
+PARTY_DO_YOU_JOIN	 har inviteret dig til gruppen. Accepter?
+PARTY_EXP_DISTRIBUTION_MODE	EXP-fordeling
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL	Level-fordeling
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	Højere level får mere EXP.
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	Jævn fordeling
+PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	Alle gruppemedlemmer får samme EXP.
+PARTY_HEAL_ALL_MEMBER	Gendan alt
+PARTY_INCREASE_AREA_150	Gruppens rækkevidde blev øget med en faktor 1,5.	SNA
+PARTY_INCREASE_AREA_200	Gruppens rækkevidde blev øget med en faktor 2.	SNA
+PARTY_LEAVE	Forlad gruppen.
+PARTY_LONGTIME_BONUS_EXP	Bonus-EXP for langt gruppespil: +%d%%	SA
+PARTY_MEMBER_OFFLINE	[Offline]
+PARTY_RECALL_MEMBER	Kald gruppemedlemmer.
+PARTY_REGEN_BONUS	Bonus for HP- og MP-regeneration: +%d%%	SA
+PARTY_REQUEST_DENIED	Du har afvist gruppe-invitationen.
+PARTY_SET_ATTACKER	Definer som angriber.
+PARTY_SET_BERSERKER	Definer som Berserker.
+PARTY_SET_BUFFER	Definer som Blocker.
+PARTY_SET_DEFENDER	Definer som forsvar.
+PARTY_SET_NORMAL	Fjern indstillingerne.
+PARTY_SET_SKILL_MASTER	Definer som færdighedsmester.
+PARTY_SET_TANKER	Indstil til nærkamp.
+PARTY_SKILL_ATTACKER	Basis-angrebsværdi angriber +%.0f	
+PARTY_SKILL_BERSERKER	Angrebshastighed Berserker +%.0f
+PARTY_SKILL_BUFFER	Færdighedslængde blokering +%.0f
+PARTY_SKILL_DEFENDER	Forsvar forsvarer +%.0f
+PARTY_SKILL_HP_REGEN	HP-regeneration +%.0f%%
+PARTY_SKILL_PARTY_AREA	Grupperækkevidde +%d%%
+PARTY_SKILL_SKILL_MASTER	Max. MP færdighedsmester +%.0f
+PARTY_SKILL_SP_REGEN	MP-regeneration +%.0f%%
+PARTY_SKILL_TANKER	Max. HP nærkamp +%.0f
+PARTY_SKILL_WARP	Kan påkalde gruppemedlemmer.
+PASSWORD_TITLE	Gem kodeord
+PICK_ITEM_TITLE	Genstandsnr.
+PICK_MONEY_TITLE	Bidrag
+PRIVATE_SHOP_CANNOT_SELL_ITEM	Du kan ikke sælge denne genstand i private butikker.
+PRIVATE_SHOP_CLOSE_QUESTION	Vil du lukke din private butik?
+PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	Butikkens navn.
+PRIVATE_SHOP_INPUT_PRICE_DIALOG_TITLE	Pris
+PVP_LEVEL0	Ridderlig
+PVP_LEVEL1	Ædel
+PVP_LEVEL2	God
+PVP_LEVEL3	Venlig
+PVP_LEVEL4	Neutral
+PVP_LEVEL5	Aggresiv
+PVP_LEVEL6	Bedragerrisk
+PVP_LEVEL7	Ond
+PVP_LEVEL8	Grusom
+PVP_MODE_GUILD	PvP - Ordensmode blev aktiveret
+PVP_MODE_KILL	PvP - fri blev aktiveret
+PVP_MODE_NORMAL	PvP - fred blev aktiveret
+PVP_MODE_PROTECT	PvP - beskyttelse blev aktiveret
+PVP_MODE_REVENGE	PvP - fjendtlig blev aktiveret
+PVP_OPTION_KILL	Fri
+PVP_OPTION_NORMAL	Fred
+PVP_OPTION_PROTECT	Beskyttelse
+PVP_OPTION_REVENGE	Fjendtlig
+QUEST_APPEND	Ny opgave blev modtaget.
+QUEST_MIN	Min.
+QUEST_SEC	Sek.
+QUEST_TIMEOVER	Tiden er gået
+QUEST_UNLIMITED_TIME	Ingen tidsbegrænsning.
+QUEST_ZEROSEC	0 Sek.
+QUICKSLOT_REGISTER_DISABLE_ITEM	Denne genstand kan ikke aktiveres via hurtigmenuen.
+RECEIVE_MESSAGE	%s har sendt dig en meddelelse.
+REFINE_COST	Forbedringsomkostninger: %d Yang
+REFINE_DESTROY_WARNING	Denne genstand kan gå i stykker ved forbedring.
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1	Dette øger forbedrings-sandsynligheden,
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	men hvis det mislykkes bliver genstanden ødelagt. Vil du fortsætte?
+REFINE_DOWN_GRADE_WARNING	Det kan ske at genstanden mister en level.
+REFINE_DO_YOU_SEPARATE_METIN	Vil du fjerne alle ånde-stenene?
+REFINE_FAILURE	Desværre... Det mislykkede!
+REFINE_FAILURE_CAN_NOT_ATTACH	%s kan ikke tilføjes til denne genstand.
+REFINE_FAILURE_EQUIP_ITEM	Du kan ikke forbedre den udvalgte genstand, da den er i brug.
+REFINE_FAILURE_METIN_INSEPARABLE_ITEM	Der kan ikke fjernes en ånde-sten.
+REFINE_FAILURE_NEED_BETTER_SCROLL	Du har brug for et detaljeret forbedrings-dokument.
+REFINE_FAILURE_NO_GOLD_SOCKET	Der findes ingen guld-indfatning for at tilføje %s .
+REFINE_FAILURE_NO_MORE_SOCKET	Du kan ikke tilføje yderligere indfatninger.
+REFINE_FAILURE_NO_SOCKET0	Der findes ingen indfatning for at tilføje %s.
+REFINE_FAILURE_SOCKET_DISABLE_ITEM	På denne genstand der der ikke tilføjes en indfatning.
+REFINE_FAILURE_UPGRADE_DISABLE_ITEM	Denne genstand kan ikke blive forbedret.
+REFINE_SUCCESS	Succesfuld forbedringen!
+REFINE_SUCCESS_PROBALITY	Forbedrings-sandsynlighed: %d%%
+REFINE_WARNING2	Ønsker du at fortsætte?
+SAFEBOX_ERROR	Du har indtastet et forkert kodeord.
+SAFEBOX_SELL_DISABLE_SAFEITEM	Du kan ikke sælge gemte genstande.
+SAFEBOX_WRONG_PASSWORD	Kodeorderne skal være identiske.
+SCREENSHOT_SAVE1	er gemt i
+SCREENSHOT_SAVE2	Screenshot-mappen
+SCREENSHOT_SAVE_FAILURE	Der opstod en fejl. Screenshottet blev ikke gemt.
+SECOND	Sek
+SELECT_CAN_NOT_DELETE	Du kan ikke slette denne karakter.
+SELECT_CHANGED_NAME	Du har skiftet navn på karakteren.
+SELECT_CHANGE_FAILURE_ALREADY_EXIST_NAME	Dette navn er allerede i brug.
+SELECT_CHANGE_FAILURE_STRANGE_INDEX	Prøv igen.
+SELECT_CHANGE_FAILURE_STRANGE_NAME	Dette er et forkert karakternavn.
+SELECT_CHANGE_NAME_TITLE	Skift karakternavn
+SELECT_DELEING	Karakteren bliver slettet
+SELECT_DELETED	Sletning succesfuld.
+SELECT_DO_YOU_DELETE_REALLY	Ønsker du at fortsætte?
+SELECT_EMPTY_SLOT	Dette er et tomt felt.
+SELECT_GM_NAME	GM
+SELECT_INPUT_CHANGING_NAME	Angiv et nyt karakternavn.
+SELECT_NOT_JOIN_GUILD	Ingen Orden
+SHOP_BUY_INFO	Vælg den genstand du vil købe i butik-vinduet.
+SHOP_CANNOT_SELL_EQUIPMENT	Du kan ikke sælge genstanden, da den er i brug.
+SHOP_CANNOT_SELL_ITEM	Denne genstand kan ikke sælges.
+SHOP_ERROR_UNKNOWN	Ukendt load-fejl: %s
+SHOP_INVALID_POS	Denne genstand er ikke egnet til det.
+SHOP_INVENTORY_FULL	Dit inventar er fyldt.
+SHOP_NOT_ENOUGH_MONEY	Ikke nok Yang
+SHOP_NOT_ENOUGH_MONEY_EX	Du har ikke Yang nok.
+SHOP_SELL_INFO	Vælg i dit inventarvindue, hvilken genstand du ønsker at sælge.
+SHOP_SOLDOUT	Udsolgt
+SHOT_ERROR_UNKNOWN	Ukendt langdistance angrebsfejl: %s
+SKILL_BLEEDING	Blødning
+SKILL_BOHO	Reflektere
+SKILL_BUDONG	Er ikke længere i brug
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	Du har brug for erfaringspoint for at lære denne færdighed.
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	Du har brug for en bog for at lære denne færdighed.
+SKILL_CHEONGEUN	Stærk krop
+SKILL_CRITICAL	Kritisk slag
+SKILL_ENCHANT_POISON	Brug gift
+SKILL_EUNHYEONG	Usynligt
+SKILL_FAINT	Besvime
+SKILL_FIND_TRAP	Søg fælde
+SKILL_FIRE	Forbrænding
+SKILL_FISHMIND	Fiske kugle bliver brugt
+SKILL_GAMJI	Vælge
+SKILL_GEOMGYEONG	Sværd-aura
+SKILL_GEONGON	SKILL_GEONGON Bliver ikke benyttet mere
+SKILL_GICHEON	Dragehjælp
+SKILL_GIGONG	Chi-Rotation
+SKILL_GONGPO	Frygt
+SKILL_GRADE_NAME_GRAND_MASTER	%s Stormester
+SKILL_GRADE_NAME_MASTER	%s Mester
+SKILL_GRADE_NAME_PERFECT_MASTER	%s perfekt Mester
+SKILL_GROUP_ASSASSIN_1	Klinge
+SKILL_GROUP_ASSASSIN_2	Bue
+SKILL_GROUP_HORSE	Riddekunst
+SKILL_GROUP_SHAMAN_1	Drage
+SKILL_GROUP_SHAMAN_2	Helbredelse
+SKILL_GROUP_SURA_1	Våben
+SKILL_GROUP_SURA_2	Magi
+SKILL_GROUP_WARRIOR_1	Krop
+SKILL_GROUP_WARRIOR_2	Mental
+SKILL_GWIGEOM	Fortryllet klinge
+SKILL_GYEONGGONG	Dunlet gang
+SKILL_HEUKSIN	Mørk beskyttelse
+SKILL_HOSIN	Velsignelse
+SKILL_HWAYEOM	SKILL_HWAYEOM Bliver ikke benyttet mere
+SKILL_HYEOLMA	SKILL_HYEOLMA Bliver ikke benyttet mere
+SKILL_INC_ATKSPD	Angrebshastighed øges
+SKILL_INC_MOVSPD	Bevægelseshastighed øges
+SKILL_INMA	SKILL_INMA Bliver ikke benyttet mere
+SKILL_JEOJU	Forbandelse
+SKILL_JEONGEOP	Helbrede
+SKILL_JEONGWI	Kamprus
+SKILL_JEONSINBANGEO	Fuld forsvar
+SKILL_JEONSINGONGGYEOK	Fuld angreb
+SKILL_JEUNGCHE	SKILL_JEUNGCHE Bliver ikke benyttet mere
+SKILL_JEUNGHON	SKILL_JEUNGHON Bliver ikke benyttet mere
+SKILL_JEUNGRYEOK	Angreb +
+SKILL_JEUNGSOK	Hastighed +
+SKILL_JIGAM	SKILL_JIGAM Bliver ikke benyttet mere
+SKILL_JIPJUNG	SKILL_JIPJUNG Bliver ikke benyttet mere
+SKILL_JUMAGAP	Fortryllet rustning
+SKILL_JUMAGEOM	SKILL_JUMAGEOM Bliver ikke benyttet mere
+SKILL_KWAEGEOM	SKILL_KWAEGEOM Bliver ikke benyttet mere
+SKILL_KWAESOK	Hastighed
+SKILL_LEGBOUND	SKILL_LEGBOUND Bliver ikke benyttet mere
+SKILL_MUSA	SKILL_MUSA Bliver ikke benyttet mere
+SKILL_MUYEONG	Ild-ånden
+SKILL_NEED_EMPTY_BOTTLE	Jeg har ingen tom flaske.
+SKILL_NEED_POISON_BOTTLE	Jeg har ingen giftflaske.
+SKILL_ONLY_FOR_GUILD_WAR	Denne færdighed kan kun bruges i Ordens-kampe.
+SKILL_PABEOP	Fjern magi
+SKILL_POWERFUL_STRIKE	Bedøvelses-angreb
+SKILL_SEOMGWANG	Lynbombe
+SKILL_SINCHAK	SKILL_SINCHAK Bliver ikke benyttet mere
+SKILL_SLEEP	Sove
+SKILL_SLOW	Langsom
+SKILL_STUN	Bedøve
+SKILL_SUHO	Vagt
+SKILL_SUMMON_DESCRIPTION	Sandsynlighed for besværgelser: %d%%
+SKILL_TOOLTIP_INT	Intelligens
+SKILL_TOOLTIP_LEVEL	Level
+SKILL_TOXICDIE	Forgiftning
+SKILL_TOXICPOWER	Giftangreb bliver forbedret
+SKILL_TUSOK	ånde-stød
+SKILL_WONSIN	SKILL_WONSIN Bliver ikke benyttet mere
+SKILL_YONGSIN	SKILL_YONGSIN Bliver ikke benyttet mere
+STAT_MINUS_CON	Vitalitets-tilpasning(Tilbagestående chance: %d)
+STAT_MINUS_DEX	Smidighed-tilpasning (Sandsynlighed: %d)
+STAT_MINUS_INT	Intelligens-tilpasning (Sandsynlighed: %d)
+STAT_MINUS_STR	Styrke-tilpasning (Sandsynlighed: %d)
+STAT_TOOLTIP_CON	HP og forsvar bliver forbedret
+STAT_TOOLTIP_DEX	Nøjagtighed og flugt bliver forbedret
+STAT_TOOLTIP_INT	MP, magisk styrke og forsvar bliver forbedret.
+STAT_TOOLTIP_STR	Angrebsværdi og skade bliver forbedret
+SYMBOLLIST_TITLE	Tilmeld Ordensflag
+SYSTEM_OPTION_CPU_TILING_1	CPU-Tiling-Mode kan øge hastigheden for svage computere.
+SYSTEM_OPTION_CPU_TILING_2	Hvis der opstår grafik-problemer, vælg "Systemindstillinger" eller "config.exe"
+SYSTEM_OPTION_CPU_TILING_3	og skift til GPU-Tiling-Mode
+SYSTEM_OPTION_GPU_TILING_1	GPU-Tiling-Mode kan køres på svagere computere
+SYSTEM_OPTION_GPU_TILING_2	Hvis der opstår grafik-problemer, vælg 'Systemindstillinger' eller 'Config.exe'
+SYSTEM_OPTION_GPU_TILING_3	og skift til CPU-Tiling-Mode
+SYSTEM_OPTION_TILING_EXIT	For at skifte til Tiling-Mode skal spillet genstartes.
+TARGET_BUTTON_ACCEPT_FIGHT	Accepter
+TARGET_BUTTON_AVENGE	Hævn
+TARGET_BUTTON_BUILDING_DESTROY	Ødelægge
+TARGET_BUTTON_DISMOUNT	Stå af hesten
+TARGET_BUTTON_EMOTION_ALLOW	Emotioner
+TARGET_BUTTON_EXCHANGE	Handel
+TARGET_BUTTON_EXCLUDE	Udelukke
+TARGET_BUTTON_EXIT_OBSERVER	Afslut tilskuersyn
+TARGET_BUTTON_FIGHT	Duel
+TARGET_BUTTON_FRIEND	Ven
+TARGET_BUTTON_INVITE_GUILD	Ordens invitation
+TARGET_BUTTON_INVITE_PARTY	Gruppe invitation
+TARGET_BUTTON_LEAVE_PARTY	Forlad gruppe
+TARGET_BUTTON_REQUEST_ENTER_PARTY	Join gruppen
+TARGET_BUTTON_VIEW_EQUIPMENT	Udrystning
+TARGET_BUTTON_WHISPER	Hviske
+TARGET_LEVEL_BOSS	Boss
+TARGET_LEVEL_KING	Level 5.
+TARGET_LEVEL_KNIGHT	Level 3.
+TARGET_LEVEL_PAWN	Level 1.
+TARGET_LEVEL_S_KNIGHT	Level 4.
+TARGET_LEVEL_S_PAWN	Level 2.
+TASKBAR_ATTACK	Angribe
+TASKBAR_AUTO	Angrib automatisk
+TASKBAR_CAMERA	Kamera
+TASKBAR_EXP	Erfaring
+TASKBAR_HP	HP
+TASKBAR_MOVE	Bevæge
+TASKBAR_SKILL	Færdighed
+TASKBAR_SP	MP
+TASKBAR_ST	OP
+THING_COUNT	alle
+TOOLTIP_ANTI_CRITICAL_PCT	Forsvar mod kritisk hit +%d%%	SA
+TOOLTIP_ANTI_PENETRATE_PCT	Forsvar mod gennemborende angreb +%d%%	SA
+TOOLTIP_ANTI_SELL	Kan ikke sælges i butikken.
+TOOLTIP_APPLY_ACCEDRAIN_RATE	Optagelses rate: %d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ANIMAL	Stærk mod dyr +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ASSASSIN	Stærk mod ninjas +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_DEVIL	Stærk mod djævel +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_HUMAN	Stærk mod halvmennesker +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MILGYO	Stærk mod esoteriker +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MONSTER	Stærk mod monstre +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ORC	Stærk mod ork +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SHAMAN	Stærk mod shamaner +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SURA	Stærk mod sura +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_UNDEAD	Stærk mod ikke-døde +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_WARRIOR	Stærk mod kriger +%d%%	SA
+TOOLTIP_APPLY_BLEEDING_PCT	Blødnings angreb + %d%%	SA
+TOOLTIP_APPLY_BLEEDING_REDUCE	Modstand imod blødnings angreb + %d%%	SA
+TOOLTIP_APPLY_BLOCK	Sandsynlighed for at blokere fysisk angreb %d%%	SA
+TOOLTIP_APPLY_COMBAT_SP_RECOVER	Gendan i kamp alle 5 Sek. MP %d	SA
+TOOLTIP_APPLY_CRITICAL_PCT	Sandsynlighed for et kritisk slag +%d%%	SA
+TOOLTIP_APPLY_DAMAGE_SP_RECOVER	%d%% sandsynlighed for at få MP tilbage efter et hit	SA
+TOOLTIP_APPLY_DODGE	%d%% sandsynlighed at undvige pilangreb	SA
+TOOLTIP_APPLY_EXP_DOUBLE_BONUS	%d%% sandsynlighed for erfarings-bonus	SA
+TOOLTIP_APPLY_GOLD_DOUBLE_BONUS	%d%% sandsynlighed at få doppelt Yang	SA
+TOOLTIP_APPLY_IMMUNE_FALL	Immun overfor væltning i kamp	SNA
+TOOLTIP_APPLY_IMMUNE_SLOW	Forsvar mod sløvhed	SNA
+TOOLTIP_APPLY_IMMUNE_STUN	Forsvar mod besvimelse	SNA
+TOOLTIP_APPLY_ITEM_DROP_BONUS	%d%% sandsynlighed for at få doppelte genstande	SA
+TOOLTIP_APPLY_KILL_HP_RECOVER	%d%% sandsynlighed for at gendanne HP	SA
+TOOLTIP_APPLY_KILL_SP_RECOVER	%d%% sandsynlighed for at gendanne MP	SA
+TOOLTIP_APPLY_MANA_BURN_PCT	%d%% sandsynlighed at overtage fjendens MP.	SA
+TOOLTIP_APPLY_MAX_HP_PCT	Max HP +%d%%	SA
+TOOLTIP_APPLY_MAX_SP_PCT	Max MP +%d%%	SA
+TOOLTIP_APPLY_NOAFFECT	Ingen virkning
+TOOLTIP_APPLY_NO_DEATH_PENALTY	Hvis din karakter dør mister du ingen erfaringspoint.	SNA
+TOOLTIP_APPLY_PENETRATE_PCT	%d%% sandsynlighed for gennemborende slag	SA
+TOOLTIP_APPLY_POISON_PCT	Sandsynlighed for Forgiftning %d%%	SA
+TOOLTIP_APPLY_POISON_REDUCE	Giftmodstand %d%%	SA
+TOOLTIP_APPLY_POTION_BONUS	Eliksir %d%% effektøgning	SA
+TOOLTIP_APPLY_REFLECT_CURSE	%d%% sandsynlighed for at reflektere en forbandelse	SA
+TOOLTIP_APPLY_REFLECT_MELEE	%d%% sandsynlighed for at reflektere fysisk angreb	SA
+TOOLTIP_APPLY_RESIST_ASSASSIN	Forsvar mod ninjaangreb: %d%%	SA
+TOOLTIP_APPLY_RESIST_BELL	Klokkeforsvar %d%%	SA
+TOOLTIP_APPLY_RESIST_DAGGER	Dolkforsvar %d%%	SA
+TOOLTIP_APPLY_RESIST_FAN	Vifteforsvar %d%%	SA
+TOOLTIP_APPLY_RESIST_SHAMAN	Forsvar mod shamanangreb: %d%%	SA
+TOOLTIP_APPLY_RESIST_SURA	Forsvar mod suraangreb: %d%%	SA
+TOOLTIP_APPLY_RESIST_SWORD	Sværdforsvar %d%%	SA
+TOOLTIP_APPLY_RESIST_TWOHAND	Tohåndssværdforsvar %d%%	SA
+TOOLTIP_APPLY_RESIST_WARRIOR	Forsvar mod krigerangreb: %d%%	SA
+TOOLTIP_APPLY_RESIST_WIND	Luftmodstand %d%%	SA
+TOOLTIP_APPLY_SKILL_BOOK_BONUS	Sandsynlighed at lære ved læsning af bøger er øget med faktor 2½.	SNA
+TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY	Hvis læsningen mislykkes kan du læse en anden bog med det samme.	SNA
+TOOLTIP_APPLY_SLOW_PCT	Chance for at sløve modstanderen %d%%	SA
+TOOLTIP_APPLY_STEAL_HP	%d%% af skaden vil blive absorberet af HP	SA
+TOOLTIP_APPLY_STEAL_SP	%d%% af skaden vil blive absorberet af MP	SA
+TOOLTIP_APPLY_STUN_PCT	Besvimelses sandsynlighed %d%%	SA
+TOOLTIP_ARMOR	Rustning
+TOOLTIP_ARROW	Pil
+TOOLTIP_ASSASSIN	Ninja
+TOOLTIP_ATT_GRADE	Angrebsværdi +%d	SA
+TOOLTIP_ATT_SPEED	Angrebshastighed +%d%%	SA
+TOOLTIP_AUTO_POTION_HP	Sol Eliksir
+TOOLTIP_AUTO_POTION_REST	Resterende: %.2f%%
+TOOLTIP_AUTO_POTION_SP	Måne Eliksir
+TOOLTIP_AUTO_POTION_USING	Aktiv
+TOOLTIP_BOW_DISTANCE	Buerækkevidde +%dm	SA
+TOOLTIP_BUYPRICE	Pris: %s
+TOOLTIP_CAST_SPEED	Magihastighed +%d%%	SA
+TOOLTIP_CON	Vitalitet +%d	SA
+TOOLTIP_COSTUME_ATTR_BONUS	Kostume bonus %d%%	SA
+TOOLTIP_DEF_GRADE	Forsvar +%d	SA
+TOOLTIP_DEX	Smidighed +%d	SA
+TOOLTIP_DRAGON_SOUL_DECK1	Jorden	SNA
+TOOLTIP_DRAGON_SOUL_DECK2	Hilmmel	SNA
+TOOLTIP_EAR	Ørering
+TOOLTIP_ENERGY	Energi %d	SA
+TOOLTIP_ETC	osv.
+TOOLTIP_FISHINGROD_EXP	Points: %d / %d
+TOOLTIP_FISHINGROD_LEVEL	Level: %d
+TOOLTIP_FISHINGROD_UPGRADE1	Giv til fiskeren
+TOOLTIP_FISHINGROD_UPGRADE2	for at forbedre den
+TOOLTIP_FISHINGROD_UPGRADE3	til en bedre fiskestang.
+TOOLTIP_FISH_LEN	Længde: %.2fcm
+TOOLTIP_HELMET	Hjelm
+TOOLTIP_HP_REGEN	HP-regeneration +%d%%	SA
+TOOLTIP_INT	Intelligens +%d	SA
+TOOLTIP_ITEM_ATT_GRADE	Angrebsværdi %d
+TOOLTIP_ITEM_ATT_POWER	Angrebsværdi %d - %d
+TOOLTIP_ITEM_ATT_POWER_ONE_ARG	Angrebsværdi %d
+TOOLTIP_ITEM_ATT_POWER_REFINE	Angrebsværdi %d - %d (+%d)
+TOOLTIP_ITEM_ATT_SPEED	Angrebshastighed %s
+TOOLTIP_ITEM_DEF_GRADE	Forsvar %d
+TOOLTIP_ITEM_FAST	Hurtig
+TOOLTIP_ITEM_LIMIT_CON	Maksimal Vitalitet: %d
+TOOLTIP_ITEM_LIMIT_DEX	Smidigheds grænse: %d
+TOOLTIP_ITEM_LIMIT_INT	Intelligens-grænse: %d
+TOOLTIP_ITEM_LIMIT_LEVEL	Mindste lvl: %d
+TOOLTIP_ITEM_LIMIT_STR	Styrke-grænse: %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER	Magisk angrebsværdi %d - %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER_ONE_ARG	Magisk angrebsværdi %d
+TOOLTIP_ITEM_MAGIC_DEF_POWER	Magisk forsvar %d
+TOOLTIP_ITEM_NORMAL	Normal
+TOOLTIP_ITEM_SLOW	Langsom
+TOOLTIP_ITEM_VERY_FAST	Meget hurtig
+TOOLTIP_ITEM_VERY_SLOW	Meget langsom
+TOOLTIP_ITEM_WEARABLE_JOB	[ Udrustning ]	
+TOOLTIP_LOTTERY_STEP_NUMBER	%d
+TOOLTIP_LOTTO_NUMBER	Lykkental: %d
+TOOLTIP_MAGIC_ATTBONUS_PER	Magisk angreb +%d%%	SA
+TOOLTIP_MAGIC_ATT_GRADE	Magisk angrebsværdi +%d	SA
+TOOLTIP_MAGIC_DEF_GRADE	Magisk forsvar +%d	SA
+TOOLTIP_MALL_ATTBONUS	Angrebsværdi +%d%%	SA
+TOOLTIP_MALL_ATTBONUS_STATIC	Angrebsværdi +12~15%	SNA
+TOOLTIP_MALL_AUTOLOOT	Automatisk samles alt Yang.	SNA
+TOOLTIP_MALL_DEFBONUS	Forsvar +%d%%	SA
+TOOLTIP_MALL_DEFBONUS_STATIC	Forsvar +12~15%	SNA
+TOOLTIP_MALL_EXPBONUS	EXP +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_P_STATIC	iCafe EXP-Bonus +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_STATIC	50% mere EXP	SNA
+TOOLTIP_MALL_FISH_MIND	Sandsynligheden at fange en fisk er øget	SNA
+TOOLTIP_MALL_GOLDBONUS	Sandsynlighed for Yang (%.1f)	SA
+TOOLTIP_MALL_GOLDBONUS_STATIC	Doppelt Yang-sandsynlighed	SNA
+TOOLTIP_MALL_ITEMBONUS	Sandsynlighed for tab af genstande (%.1f)	SA
+TOOLTIP_MALL_ITEMBONUS_P_STATIC	iCafe sandsynlighed for at få genstande plus %.1f%%	SA
+TOOLTIP_MALL_ITEMBONUS_STATIC	Doppelt tab af genstand-sandsynlighed	SNA
+TOOLTIP_MALL_MARRIAGE_FAST	Kærlighedspoints gendannes hurtigere.	SNA
+TOOLTIP_MALL_SAFEBOX	Du har øget lastrummet i din kiste.	SNA
+TOOLTIP_MAX_HP	Max. HP +%d	SA
+TOOLTIP_MAX_HP_PCT	Max. HP +%d%%	SA
+TOOLTIP_MAX_SP	Max. MP +%d	SA
+TOOLTIP_MAX_SP_PCT	Max. MP +%d%%	SA
+TOOLTIP_MAX_STAMINA	Max. udholdenhed +%d	SA
+TOOLTIP_MELEE_MAGIC_ATTBONUS_PER	Magisk/nærkamps angreb +%d%%	SA
+TOOLTIP_MEMORIZED_POSITION	%s(%d, %d)
+TOOLTIP_MEMORIZED_POSITION_ERROR	GPS-FEJL (%d, %d)
+TOOLTIP_MOV_SPEED	Bevægelseshastighed %d%%	SA
+TOOLTIP_NECK	Halskæde
+TOOLTIP_NEED_ALL_SP	Kræver MP: Max.
+TOOLTIP_NEED_GSP	Kræver drageånd: %d
+TOOLTIP_NEED_HP	Kræver HP: %d
+TOOLTIP_NEED_HP_PER_SEC	HP / Sek.: %d
+TOOLTIP_NEED_SKILL_POINT	Kræver færdighedspoints:
+TOOLTIP_NEED_SP	Kræver MP: %d
+TOOLTIP_NEED_SP_PER_SEC	MP / Sek.: %d
+TOOLTIP_NEXT_SKILL_LEVEL_1	Næste Level: %d (Max. %d)
+TOOLTIP_NEXT_SKILL_LEVEL_2	Næste Level: %d (Max. %d-%d)
+TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	Gennemsnitlig skade %d%%	SA
+TOOLTIP_NORMAL_HIT_DEFEND_BONUS	Gennemsnitlig skadesmodstand %d%%	SA
+TOOLTIP_PARTY_INFO_GRADE_UP1	Flere end %d gruppemedlemmer
+TOOLTIP_PARTY_INFO_GRADE_UP2	Angrebslevel +%d
+TOOLTIP_PARTY_INFO_GRADE_UP3	Forsvarslevel +%d
+TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	HP/MP fra alle gruppemedlemmer gendannes engang i 60 minutter.
+TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	HP/MP fra alle gruppemedlemmer gendannes engang i 30 minutter.
+TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	Du bliver nød til at vente tre minutter efter gruppemedlemmets død.
+TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	Du kan til enhver tid påkalde gruppemedlemmer fra samme server.
+TOOLTIP_PARTY_INFO_SET_ATTACKER	Angrebslevel +(Antal af gruppemedlemmer/2) angriber %d kan vælges
+TOOLTIP_PARTY_INFO_SET_TANKER	Forsvars level +(antallet af gruppemedlemmer) nærkæmpere 1 kan blive valgt.
+TOOLTIP_PARTY_SKILL_LEVEL	Level: %d
+TOOLTIP_PARTY_TITLE_GRADE_UP	[Angreb/Forsvar blev forbedret]
+TOOLTIP_PARTY_TITLE_HEAL	[Gendan]
+TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Flere end %d gruppemedlemmer får bonus-EXP %d%%.
+TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Bonus-EXP]
+TOOLTIP_PARTY_TITLE_RECALL	[Kald på]
+TOOLTIP_PARTY_TITLE_SET_ATTACKER	[Definer angriber]
+TOOLTIP_PARTY_TITLE_SET_TANKER	[Indstil til nærkamp]
+TOOLTIP_PICK_EXP	Points: %d / %d
+TOOLTIP_PICK_LEVEL	Level: %d
+TOOLTIP_PICK_UPGRADE1	Giv til brændehuggeren
+TOOLTIP_PICK_UPGRADE2	for at få en bedre
+TOOLTIP_PICK_UPGRADE3	Spidshakke.
+TOOLTIP_POTION_CURE	Fjern negative effekter.
+TOOLTIP_POTION_MIN	Min.
+TOOLTIP_POTION_PLUS_ATTACK_SPEED	Angrebshastighed +%d
+TOOLTIP_POTION_PLUS_HP_PERCENT	HP +%d%%
+TOOLTIP_POTION_PLUS_HP_POINT	HP +%d
+TOOLTIP_POTION_PLUS_MOVING_SPEED	Bevægelseshastighed +%d
+TOOLTIP_POTION_PLUS_SP_PERCENT	MP +%d%%
+TOOLTIP_POTION_PLUS_SP_POINT	MP +%d
+TOOLTIP_POTION_SEC	Sek.
+TOOLTIP_POTION_TIME	Længde:
+TOOLTIP_REQUIREMENT_21_LEVEL	Du skal have opnået level 21.
+TOOLTIP_REQUIREMENT_41_LEVEL	Du skal have opnået level 41.
+TOOLTIP_REQUIREMENT_LEVEL	Du skal have opnået Level %d.
+TOOLTIP_REQUIREMENT_SKILL_LEVEL	Kræver %s Level %d
+TOOLTIP_REQUIREMENT_STAT_LEVEL	Kræver %s %d
+TOOLTIP_RESIST_BOW	Pilemodstand %d%%	SA
+TOOLTIP_RESIST_DARK	Forsvar mod mørke +%d%%	SA
+TOOLTIP_RESIST_EARTH	Forsvar mod Jorden +%d%%	SA
+TOOLTIP_RESIST_ELEC	Lynmodstand %d%%	SA
+TOOLTIP_RESIST_FIRE	Ildmodstand %d%%	SA
+TOOLTIP_RESIST_ICE	Forsvar mod is +%d%%	SA
+TOOLTIP_RESIST_MAGIC	Magimodstand %d%%	SA
+TOOLTIP_REST_USABLE_COUNT	Til overs: %d
+TOOLTIP_SEALED	Sjælebundet
+TOOLTIP_SELLPRICE	Pris: %s
+TOOLTIP_SHAMAN	Shaman
+TOOLTIP_SHIELD	Skjold
+TOOLTIP_SHOES	Sko
+TOOLTIP_SKILL	Færdighed	SNA
+TOOLTIP_SKILLBOOK_NAME	Færdighedsbog
+TOOLTIP_SKILL_AFFECT_ATT_GRADE	Angrebsværdi: +
+TOOLTIP_SKILL_AFFECT_ATT_POWER	Angrebsværdi:
+TOOLTIP_SKILL_AFFECT_ATT_SPEED	Angrebshastighed: +
+TOOLTIP_SKILL_AFFECT_DEF_GRADE	Forsvar:
+TOOLTIP_SKILL_AFFECT_DODGE	Fjendtlig Angrebsværdi: -
+TOOLTIP_SKILL_AFFECT_HEAL	HP gendannelse:
+TOOLTIP_SKILL_AFFECT_MOV_SPEED	Bevægelseshastighed: +
+TOOLTIP_SKILL_AFFECT_REFLECT_MELEE	Sandsynligheden for at reflektere fysisk skade:
+TOOLTIP_SKILL_AFFECT_RESIST_NORMAL	Modstand mod fysisk skade:
+TOOLTIP_SKILL_COOL_TIME	Opladningstid: 
+TOOLTIP_SKILL_DAMAGE_BONUS	Færdighedsskade %d%%	SA
+TOOLTIP_SKILL_DEFEND_BONUS	Modstand mod færdighedsskade %d%%	SA
+TOOLTIP_SKILL_DURATION	Længde: %d Sek.
+TOOLTIP_SKILL_FORGET_BOOK_NAME	Forglemmelses bog
+TOOLTIP_SKILL_LEVEL	Level: %d
+TOOLTIP_SKILL_LEVEL_MASTER	Level: %d (mester)
+TOOLTIP_SKILL_LEVEL_WITH_MAX	Level: %d (Max. %d)
+TOOLTIP_SOCKET_EMPTY	Tom
+TOOLTIP_SOCKET_REFINABLE_ITEM	[Genstand med indfatning]
+TOOLTIP_SP_REGEN	MP-Regeneration +%d%%	SA
+TOOLTIP_STR	Styrke +%d	SA
+TOOLTIP_SURA	Sura
+TOOLTIP_TIME_CHARGER_FIX	Opladning af tid %d sek.	SA
+TOOLTIP_TIME_CHARGER_PER	Opladning af tid %d sek.	SA
+TOOLTIP_UNIQUE	Enestående
+TOOLTIP_UNSEAL_LEFT_TIME	Fjerner sjælebinding om: %dH %dM
+TOOLTIP_WARRIOR	Kriger
+TOOLTIP_WEAPON	Våben
+TOOLTIP_WRISTLET	Armbånd
+UI_ACCEPT	Accepter
+UI_CANCEL	Afbryd
+UI_CLOSE	Luk
+UI_DEF_FONT	Tahoma:12
+UI_DEF_FONT_LARGE	Tahoma:14
+UI_DEF_FONT_SMALL	Tahoma:9
+UI_DENY	Afvise
+UI_ITEM	Genstand
+UI_LEFT_TIME	Tid til overs: %d Sek.
+UI_NEXT	Fortsæt
+UI_NEXTPAGE	Næste
+UI_NOCONTENTS	Intet indhold
+UI_NONAME	Intet navn
+UI_OK	OK
+UI_POS_UNKNOWN	Ukendt position
+UI_PREVPAGE	tilbage
+UI_UNKNOWN	Ukendt
+UPLOAD_MARK_CHECK_NEED_RECONNECT	Upload skal genstartes
+UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Upload skal genstartes
+USE_ITEM_FAILURE_PRIVATE_SHOP	Du kan ikke bruge den genstand mens du har åbnet for en privat butik.
+USE_SKILL_ERROR_UNKNOWN	Ukendt færdighedsfejl: %s

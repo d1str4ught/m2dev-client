@@ -1,0 +1,12 @@
+[DELAY value;10]
+Los Chamanes son muy sabios[ENTER]
+y usan Conjuros y Magias. En[ENTER]
+la batalla y en la ayuda de[ENTER]
+sus amigos, sus Habilidades[ENTER]
+místicas son muy efectivas.[ENTER]
+[WAIT]
+Con la especialización un[ENTER]
+Chamán puede hacer más[ENTER]
+fuertes sus ataques o[ENTER]
+mejorar sus hechizos de[ENTER]
+Curación y Apoyo.

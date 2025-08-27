@@ -1,0 +1,55 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\YMIR WORK\pc\sura\horse\skill_splash.GR2"
+MotionDuration           2.000000
+
+Group MotionEventData
+{
+    MotionEventDataCount     3
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.399027
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 L Finger2"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/sura/effect/horse_onehand_sword_splash_energy.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         1.270073
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 Head"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/sura/effect/horse_onehand_sword_splash_blow.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      4
+        StartingTime         1.240876
+        DuringTime           0.300000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.200000
+        ExternalForce        15.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           250.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+}

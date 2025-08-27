@@ -1,0 +1,7 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\ymir work\ui\items\etc\80007.sub"
+DropModelFileName     "D:\ymir work\item\etc\gold_nugget_3.gr2"

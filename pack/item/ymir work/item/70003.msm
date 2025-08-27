@@ -1,0 +1,10 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\ymir work\ui\items\quest\70003.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
+
+949Description "烹贾仿捞 惑铰茄促"
+936Description "提升统率力"

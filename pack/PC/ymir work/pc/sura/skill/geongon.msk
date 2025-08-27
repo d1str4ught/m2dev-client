@@ -1,0 +1,27 @@
+ScriptType		SkillDataScript
+
+Type			SUPPORT
+Attribute		"USE_HP" "STANDING_SKILL"
+
+949Name			"°Ç°ïÄ¡È¯"
+949Description	"Á¤½ÅÀ» ÁýÁßÇÏ¿© Á¤½Å·ÂÀ» È¸º¹ÇÑ´Ù"
+
+IconFileName	"skill/sura/geongon.sub"
+MotionIndex		0
+
+List 949AffectData
+{
+	"Á¤½Å·Â È¸º¹·® : %.0f"	"(5 + MaxSP / 50) * ((10 + SkillPoint) / 10)"	""
+	"»ý¸í·Â 20%% ¼Ò¸ð" "" ""
+}
+
+MaxLevel		"20"
+NeedSPFormula	"MaxHP / 5"
+
+936Name			"Êø»ê"
+936Description	"¼¯ÖÐ¾«Éñ»Ö¸´¾«Á¦"
+List 936AffectData
+{
+	"¾«Á¦»Ö¸´Á¿: %.0f"	"(5 + MaxSP / 50) * ((10 + SkillPoint) / 10)"	""
+	"ÏûºÄ 20%%ÉúÃüÖµ" "" ""
+}

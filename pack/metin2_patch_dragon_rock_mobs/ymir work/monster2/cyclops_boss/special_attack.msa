@@ -1,0 +1,124 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\monster2\cyclops_boss\special_attack.GR2"
+MotionDuration           2.500000
+Accumulation           0.00	-219.45	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     7
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.425791
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/monster2/tornado2.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.547445
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/monster2/impact2.mse"
+        EffectPosition       -100.000000 250.000000 -150.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.863747
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/monster2/impact2.mse"
+        EffectPosition       -100.000000 200.000000 -120.000000
+    }
+    Group Event03
+    {
+        MotionEventType      1
+        StartingTime         1.210462
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/monster2/impact2.mse"
+        EffectPosition       -100.000000 100.000000 -180.000000
+    }
+    Group Event04
+    {
+        MotionEventType      4
+        StartingTime         0.559611
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           400.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+    Group Event05
+    {
+        MotionEventType      4
+        StartingTime         0.875912
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           400.000000
+            Position         0.000000 -50.000000 0.000000
+        }
+    }
+    Group Event06
+    {
+        MotionEventType      4
+        StartingTime         1.222628
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           400.000000
+            Position         0.000000 -100.000000 0.000000
+        }
+    }
+}

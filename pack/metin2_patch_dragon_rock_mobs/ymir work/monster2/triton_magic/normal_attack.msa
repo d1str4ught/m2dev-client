@@ -1,0 +1,32 @@
+ScriptType               MotionData
+
+MotionFileName           "D:/Ymir Work/monster2/triton_magic/normal_attack.GR2"
+MotionDuration           1.333333
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      6
+        StartingTime         0.619627
+        
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 R Hand"
+        FlyFileName       "d:/ymir work/effect/monster/holy_blue1_throw.msf"
+        FlyPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "triton_magic_weapon"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/monster/holy_blue1_hand.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

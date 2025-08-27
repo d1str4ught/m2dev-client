@@ -1,0 +1,22 @@
+ScriptType			SkillDataScript
+
+Type				HIGH
+Attribute			"ONLY_FOR_ALLIANCE" "NEED_TARGET" "NEED_CORPSE"
+
+949Name				"何劝"
+949Description		"磷篮磊俊霸 促矫 老绢朝 塞阑 何咯茄促"
+
+IconFileName		"skill/shaman/buhwal.sub"
+MotionIndex			19
+
+List RequireStatData
+{
+	"Level" "41"
+}
+
+MaxLevel			"20"
+LevelUpPoint		"20"
+NeedSPFormula		"-1"
+
+936Name				"复活"
+936Description		"赋予死去的同伴重新复活的力量"

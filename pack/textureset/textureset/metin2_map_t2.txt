@@ -1,0 +1,187 @@
+TextureSet
+
+TextureCount 17
+Start Texture001
+    "D:\YMIR WORK\terrainmaps\G\field\field 01.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture001
+Start Texture002
+    "D:\YMIR WORK\terrainmaps\G\field\field 02.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture002
+Start Texture003
+    "D:\YMIR WORK\terrainmaps\G\field\field 03.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture003
+Start Texture004
+    "D:\YMIR WORK\terrainmaps\G\field\field 04.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture004
+Start Texture005
+    "D:\YMIR WORK\terrainmaps\G\field\grass 01.dds"
+    9.000000
+    9.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture005
+Start Texture006
+    "d:\ymir work\terrainmaps\b\grass\grass 02.dds"
+    8.000000
+    8.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture006
+Start Texture007
+    "d:\ymir work\terrainmaps\b\grass\grass 03.dds"
+    9.000000
+    9.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture007
+Start Texture008
+    "d:\ymir work\terrainmaps\b\stone\stone01.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture008
+Start Texture009
+    "d:\ymir work\terrainmaps\b\stone\stone02.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture009
+Start Texture010
+    "d:\ymir work\terrainmaps\b\stone\stone03.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture010
+Start Texture011
+    "d:\ymir work\terrainmaps\b\stone\stone04.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture011
+Start Texture012
+    "d:\ymir work\terrainmaps\b\tile\tile01.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture012
+Start Texture013
+    "d:\ymir work\terrainmaps\b\tile\tile02.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture013
+Start Texture014
+    "d:\ymir work\terrainmaps\b\beach\beach sand 01.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture014
+Start Texture015
+    "d:\ymir work\terrainmaps\b\beach\beach sand 02.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture015
+Start Texture016
+    "d:\ymir work\terrainmaps\b\beach\beach sand 03.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture016
+Start Texture017
+    "d:\ymir work\terrainmaps\b\tile\tile03.dds"
+    7.000000
+    7.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture017
+
+
+
+
+
+
+
+
+
+
+
+
+
+

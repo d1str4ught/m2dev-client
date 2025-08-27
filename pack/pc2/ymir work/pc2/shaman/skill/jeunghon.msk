@@ -1,0 +1,29 @@
+ScriptType		SkillDataScript
+
+Attribute		"NEED_TARGET" "ONLY_FOR_ALLIANCE" "CAN_USE_FOR_ME"
+
+NeedSPFormula		"200"
+Range			800
+MotionIndex		31
+MotionIndexForMe	30
+
+IconFileName		"skill/shaman/jeunghon.sub"
+
+Type			LOW
+MaxLevel		"30"
+
+949Name			"刘去瘤过"
+949Description		"到绊磊 窍绰 磊狼 笼吝仿阑 碍拳矫挪促"
+
+List 949AffectData
+{
+	"弥措 沥脚仿 : +%.0f%%" "SkillPoint * 7" ""
+}
+
+936Name			"集中"
+936Description		"增加同伴的集中力"
+List 936AffectData
+{
+	"最高精力值 : +%.0f%%" "SkillPoint * 7" ""
+	"持续时间: %.0f檬" "5 * 60 * (5 + JeungJi) / 5" ""
+}

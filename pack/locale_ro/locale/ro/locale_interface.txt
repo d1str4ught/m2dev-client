@@ -1,0 +1,345 @@
+ACCEPT	Acceptã
+ATTACH_METIN_INFO	Doreºti sã utilizezi Piatra Spiritului?
+ATTACH_METIN_TITLE	Foloseºte Piatra Spiritului
+CANCEL	Anulare
+CHANGE_PASSWORD_CONFIRM	Confirmã noua parolã
+CHANGE_PASSWORD_NEW	Parolã nouã
+CHANGE_PASSWORD_OLD	Parolã veche
+CHANGE_PASSWORD_TITLE	Schimbare parolã
+CHARACTER_ACTION	Acþiuni
+CHARACTER_EMOTICON	Emoþie
+CHARACTER_MAIN	Caracter
+CHARACTER_MUTUAL_ACTION	Acþiuni interactive
+CHARACTER_NORMAL_ACTION	Acþiuni normale
+CHARACTER_QUEST	Misiuni
+CHARACTER_SKILL	Competenþe
+CLOSE	Închide
+COMB_APPEARANCE	Costum 1
+COMB_ATTRIBUTE	Costum 2
+COMB_SKILLBOOK_TILE	Negot carti
+COMB_TITLE	
+COSTUME_TITLE	Costume
+COSTUME_WINDOW_TITLE	Costume
+CREATE_ATT_GRADE	STR
+CREATE_CREATE	Creazã
+CREATE_DEX_GRADE	DEX
+CREATE_HP	VIT
+CREATE_LAST_POINT	Puncte
+CREATE_MAN	Bãrbat
+CREATE_NAME	Nume
+CREATE_NEXT	Continuã
+CREATE_PREV	Înapoi
+CREATE_SEX	Sex
+CREATE_SHAPE	Aspect
+CREATE_SP	INT
+CREATE_STAT_RESET	Reseteaza
+CREATE_WOMAN	Femeie
+CUBE_INFO_TITLE	Manualul Imbunatatirii
+CUBE_REQUIRE_MATERIAL	Materiale necesare
+CUBE_REQUIRE_MATERIAL_OR	sau
+CUBE_TITLE	Fereastra Rafinament
+DO_REFINE	Rafineaza
+DRAGONSOUL_ACTIVATE	Activeaza
+DRAGONSOUL_PAGE_BUTTON_1	Brut
+DRAGONSOUL_PAGE_BUTTON_2	Taiat
+DRAGONSOUL_PAGE_BUTTON_3	Rar
+DRAGONSOUL_PAGE_BUTTON_4	Antic
+DRAGONSOUL_PAGE_BUTTON_5	Legendar
+DRAGONSOUL_REFINE_WINDOW_TITLE	Fereastra Rafinament
+DRAGONSOUL_TAP_TITLE_1	Diamant Dragon
+DRAGONSOUL_TAP_TITLE_2	Rubin Dragon
+DRAGONSOUL_TAP_TITLE_3	Jad Dragon
+DRAGONSOUL_TAP_TITLE_4	Safir Dragon
+DRAGONSOUL_TAP_TITLE_5	Granat Dragon
+DRAGONSOUL_TAP_TITLE_6	Onyx Dragon
+DRAGONSOUL_TITLE	Alchimie Piatra Dragon
+EMPIRE_EXIT	Sfârºit
+EMPIRE_NEXT	Continuã
+EMPIRE_PREV	Înapoi
+EMPIRE_SELECT	Alege
+EXCHANGE_ACCEPT	Acceptã
+EXCHANGE_TITLE	Negociazã
+GAMEOPTION_TITLE	Opþiuni joc
+GAME_EXIT_OBSERVER	Închide modul spectator
+GAME_HELP	Ajutor
+GAME_QUEST	Sarcini
+GAME_SKILL_UP	Creºte competenþa
+GAME_STAT_UP	Creºte statusul
+GRADE	Clasa
+GRADE_SELECT	Clasa
+GUILD_BASENAME	Nume bazã
+GUILD_BOARD_ID	Nume
+GUILD_BOARD_REFRESH	Actualizeazã (F5)
+GUILD_BOARD_TEXT	Mesaj
+GUILD_BUILDING_CATEGORY_TITLE	Unitãþi de construcþie
+GUILD_BUILDING_CHANGE	Schimbã
+GUILD_BUILDING_DIRECTION	Orientare
+GUILD_BUILDING_GRADE	Grad
+GUILD_BUILDING_INFO	Informaþii clãdire si costuri
+GUILD_BUILDING_LIST_TITLE	Listã de clãdiri
+GUILD_BUILDING_LOG	Buºtean
+GUILD_BUILDING_NAME	Nume clãdire
+GUILD_BUILDING_OPERATE	Opereazã
+GUILD_BUILDING_PLY	Placaj
+GUILD_BUILDING_POSITION	Poziþie
+GUILD_BUILDING_PREVIEW	Preview
+GUILD_BUILDING_PRICE	Preþ
+GUILD_BUILDING_REFRESH	Actualizeazã (F5)
+GUILD_BUILDING_STONE	Piatrã
+GUILD_BUILDING_TITLE	Construcþie casa breslei
+GUILD_CRYSTAL	Cristal
+GUILD_DEPOSIT	Plãteºte
+GUILD_DROP_RESOURCE1	aici
+GUILD_DROP_RESOURCE2	Aruncã resursa
+GUILD_GEM	Piatrã preþioasã
+GUILD_GRADE_CHANGE_GRADE_NAME	Nume nou rank
+GUILD_GRADE_NUM	Nr.
+GUILD_GRADE_PERMISSION_DELETE	Concediazã
+GUILD_GRADE_PERMISSION_JOIN	Invita
+GUILD_GRADE_PERMISSION_NOTICE	Scrie
+GUILD_GRADE_PERMISSION_SKILL	Aptitudini
+GUILD_GRADE_RANK	Poziþie
+GUILD_GRADE_WRITE	Scrie
+GUILD_INFO	Informaþii breaslã
+GUILD_INFO_CUR_EXP	Experienþã
+GUILD_INFO_DECALRE_WAR	Declarã rãzboi
+GUILD_INFO_ENEMY_GUILD	Breaslã inamicã
+GUILD_INFO_ENEMY_GUILD_EMPTY	Niciuna
+GUILD_INFO_LEVEL	Nivel breaslã
+GUILD_INFO_MARK	Simbol breaslã
+GUILD_INFO_MASTER	Conducãtor
+GUILD_INFO_MASTER_VALUE	Conducãtor
+GUILD_INFO_MEMBER_AVG_LEVEL	Nivel mediu
+GUILD_INFO_MEMBER_NUM	Nr de membrii
+GUILD_INFO_NAME	Nume breaslã
+GUILD_INFO_NAME_VALUE	Acesta este un nume de breaslã
+GUILD_INFO_OFFER_EXP	Invest.
+GUILD_INFO_REST_EXP	Experienþã necesarã
+GUILD_INFO_UPLOAD_MARK	Upload simbol
+GUILD_INFO_UPLOAD_SYMBOL	Upload steag
+GUILD_MARK	Simbol breaslã
+GUILD_MEMBER_JOB	Clasã
+GUILD_MEMBER_KNIGHT	Conducãtor
+GUILD_MEMBER_LEVEL	Nivel
+GUILD_MEMBER_NAME	Nume
+GUILD_MEMBER_RANK	Grad
+GUILD_MEMBER_SPECIFIC_GRAVITY	Investi.
+GUILD_METIN_STONE	Piatrã stafie
+GUILD_MINENAL	Mineral
+GUILD_MONEY	Yang
+GUILD_NAME	Alianta
+GUILD_RESOURCE_INFO	Informaþii resurse
+GUILD_SKILL_ACTIVE	Activ
+GUILD_SKIlL_HEAL_GSP	Încarcã
+GUILD_SKILL_PASSIVE	Pasiv
+GUILD_SKILL_POWER	Energie
+GUILD_SKILL_STATE	Competenþa breslei
+GUILD_SYMBOL	Steag breaslã
+GUILD_WAR_ACCEPT	Acceptã declaraþia de rãzboi a breslei
+GUILD_WAR_BATTLE_TYPE	Stil de luptã
+GUILD_WAR_CTF	Steag
+GUILD_WAR_DECLARE	Declarã rãzboi breaslã
+GUILD_WAR_ENEMY	Inamic
+GUILD_WAR_NORMAL	Camp
+GUILD_WAR_WARP	Arena
+GUILD_WATER	Apã
+GUILD_WATER_STONE	Piatrã acvaticã
+GUILD_WITHDRAW	Ia
+HELP_ATTACK_KEY	Atac: buton stînga mouse sau space
+HELP_CHANGE_PK_MODE	Schimbare mod de atac: schimbã setãrile butonului stînga de la mouse.
+HELP_CHARACTER_BUTTON1	(Fereastrã caracter, Fereastrã inventar,
+HELP_CHARACTER_BUTTON2	Lista prieteni ºi Opþiuni)
+HELP_CONTROL_CAMERA_BY_MIDDLEBUTTON	Perspectiva camerei poate fi ajustatã cu butonul drept al mouselui
+HELP_CONTROL_CAMERA_BY_RIGHTBUTTON	Perspectiva camerei: botonul drept sau mijlociu de la mouse
+HELP_EXP	Experienþã
+HELP_FURY	Magazin Obiecte in joc
+HELP_GUILD_WINDOW	Pentru a deschide fereastra breslei: ALT + G
+HELP_HELP	Ajutor: H
+HELP_HP	Puncte de Viata (PV)
+HELP_MESSENGER_WINDOW	Deschide lista de prieteni: ALT + M
+HELP_MOUSE_LEFT	Funcþie buton maus stâng
+HELP_MOUSE_RIGHT	Funcþie buton maus drept
+HELP_MOVE_KEY	Panou control: W, A, S, D sau sãgeþile de pe tastaturã
+HELP_OPEN_CHARACTER	Pentru a deschide fereastra caracterului: C
+HELP_OPEN_CHAT	Pentru a deschide fereastra de chat: Enter
+HELP_OPEN_INVENTORY	Pentru a deschide inventarul: I
+HELP_OPEN_LOG	Pentru a deschide logul de chat: L
+HELP_OPEN_MINIMAP	Pentru a deschide mini-harta: SHIFT + M
+HELP_OPEN_QUEST	Pentru a deschide fereastra cu sarcini: N
+HELP_OPEN_SKILL	Pentru a deschide fereastra pentru aptitudini: V
+HELP_OPEN_WHISPER	Pentru a deschide fereastra pentru ºoaptã: SHIFT + ENTER
+HELP_OPEN_ZONEMAP	Pentru a deschide harta mare: M
+HELP_PICK_ITEM	Pentru a strânge itemurile: ^ sau apasã butonul stâng de la mouse
+HELP_QUICKSLOT	Câmp acces rapid
+HELP_SCREEN_CAPTURE	Pentru a salva screenshoturile: Print (se va salva in "Metin2\screenshot")
+HELP_SHOW_ALL_NAME	Afiºeazã nume: ALT
+HELP_SP	Puncte de mana (PM)
+HELP_SYSTEM_BUTTON	Taste Sistem
+INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. Inventar
+INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. Inventar
+INVENTORY_TITLE	Inventar
+ITEM_MALL	Magazin Obiecte (Itemuri)
+LOAD_ERROR	Fiºierul cu date este stricat. Instaleazã dinnou clientul. Apasã acum tasta ESC.
+LOGIN_CONNECT	Conecteazã
+LOGIN_CONNECTING	Conectarea la server ruleazã.
+LOGIN_DEFAULT_SERVERADDR	Nume server, Canal 1
+LOGIN_EXIT	Închide
+LOGIN_REGION_TITLE	Alege regiunea pentru facturã
+LOGIN_SELECT_BUTTON	Alege
+LOGIN_SELECT_EXIT	Închide
+LOGIN_SELECT_OK	OK
+LOGIN_SELECT_TITLE	Alege server
+MALL_PASSWORD_TITLE	Parola
+MALL_TITLE	Depozit Item-Shop
+MARKET_TITLE	Magazin
+MARKLIST_REFRESH	Actualizeazã
+MARKLIST_TITLE	Înregistreazã simbolul breslei
+MESSAGE	Acesta este un mesaj
+MESSENGER_ADD_FRIEND	Adaugã prieten
+MESSENGER_DELETE_FRIEND	ªterge prieten
+MESSENGER_MOBILE	Trimite SMS
+MESSENGER_OPEN_GUILD	Deschide fereastra breslei
+MESSENGER_TITLE	Prieteni
+MESSENGER_USE_GUILD_MOVE_SKILL	Foloseºte Competenþa de miºcare a breslei
+MESSENGER_WHISPER	ªoaptã
+MINIMIZE	Minimeazã
+MOUSEBUTTON_ATTACK	Atacã
+MOUSEBUTTON_AUTO_ATTACK	Atacã automat
+MOUSEBUTTON_CAMERA	Camerã
+MOUSEBUTTON_SKILL	Competenþe
+MUSICLIST_TITLE	Alege muzica
+NO	Nu
+OK	OK
+OPTION_ALWAYS_SHOW_NAME	Nume
+OPTION_ALWAYS_SHOW_NAME_OFF	limitat
+OPTION_ALWAYS_SHOW_NAME_ON	Totdeauna
+OPTION_BLOCK	Blocheazã
+OPTION_BLOCK_EXCHANGE	Negociazã
+OPTION_BLOCK_FRIEND	Prieteni
+OPTION_BLOCK_GUILD	Alianta
+OPTION_BLOCK_PARTY	Grup
+OPTION_BLOCK_PARTY_REQUEST	Cerere
+OPTION_BLOCK_WHISPER	ªoaptã
+OPTION_CAMERA_DISTANCE	Camerã
+OPTION_CAMERA_DISTANCE_LONG	Departe
+OPTION_CAMERA_DISTANCE_SHORT	Aproape
+OPTION_DELETE_MOBILE_BUTTON	ªterge numãr mobil
+OPTION_EFFECT	Afiºare lovituri
+OPTION_ENV_EFFECT	Ambianta
+OPTION_ENV_EFFECT_OFF	Off
+OPTION_ENV_EFFECT_ON	On
+OPTION_FOG	Ceaþã
+OPTION_FOG_DENSE	Mult
+OPTION_FOG_LIGHT	Puþin
+OPTION_FOG_MIDDLE	Mediu
+OPTION_INPUT_MOBILE_BUTTON	Introdu numãr mobil
+OPTION_MOBILE	Mobil
+OPTION_MOB_INFO	Info Mob
+OPTION_MOB_INFO_AGGR	Agresiv
+OPTION_MOB_INFO_LEVEL	Nivel
+OPTION_MUSIC	Muzicã
+OPTION_MUSIC_CHANGE	Schimbã
+OPTION_MUSIC_DEFAULT_THEMA	Muzicã standard Metin2
+OPTION_NAME_COLOR	Nume culoare
+OPTION_NAME_COLOR_EMPIRE	Culoare regat
+OPTION_NAME_COLOR_NORMAL	Normal
+OPTION_NIGHT_MODE	Noapte
+OPTION_NIGHT_MODE_OFF	Off
+OPTION_NIGHT_MODE_ON	On
+OPTION_PVPMODE	Mod PvP
+OPTION_PVPMODE_FREE	Liber
+OPTION_PVPMODE_FREE_TOOLTIP	Poþi ataca toþi jucãtorii.
+OPTION_PVPMODE_GUILD	Alianta
+OPTION_PVPMODE_GUILD_TOOLTIP	Poþi ataca toti jucãtorii cu excepþia membrilor breslei.
+OPTION_PVPMODE_PEACE	Pace
+OPTION_PVPMODE_PEACE_TOOLTIP	Nu poþi ataca jucãtori ai regatului tãu.
+OPTION_PVPMODE_REVENGE	Inamic
+OPTION_PVPMODE_REVENGE_TOOLTIP	Poþi ataca doar jucãtori de alt etos.
+OPTION_SALESTEXT	Numele magazinului
+OPTION_SALESTEXT_VIEW_OFF	închide
+OPTION_SALESTEXT_VIEW_ON	deschide
+OPTION_SNOW_MODE	Ninsoare
+OPTION_SNOW_MODE_OFF	Off
+OPTION_SNOW_MODE_ON	On
+OPTION_SNOW_TEXTURE_MODE	Zapada
+OPTION_SNOW_TEXTURE_MODE_OFF	Off
+OPTION_SNOW_TEXTURE_MODE_ON	On
+OPTION_SOUND	Efecte
+OPTION_TARGET_BOARD	Meniu þintã
+OPTION_TARGET_BOARD_NO_VIEW	Închide
+OPTION_TARGET_BOARD_VIEW	Afiºeazã
+OPTION_TILING	Memorie graficã
+OPTION_TILING_APPLY	Aplicã
+OPTION_TILING_CPU	CPU
+OPTION_TILING_GPU	GPU
+OPTION_TITLE	Opþiuni
+OPTION_VIEW_CHAT	Linie de chat
+OPTION_VIEW_CHAT_OFF	închide
+OPTION_VIEW_CHAT_ON	deschide
+PARTY_MEMBER_INFO_NAME	Nume membru grupã
+PASSWORD_DESC_1	Introdu parola
+PASSWORD_DESC_2	pentru a deschide depozitul.
+PASSWORD_DESC_3	Ai schimbat parola deja?
+PASSWORD_DESC_4	Daca nu, parola ta va fi '000000'.
+PASSWORD_DESC_5	Schimba parola la depozit.
+PASSWORD_TITLE	Salvare parolã
+PICK_MONEY_TITLE	Împarte
+PRIVATE_SHOP_CLOSE_BUTTON	Închide magazin
+PRIVATE_SHOP_NAME	Numele magazinului
+PRIVATE_SHOP_TITLE	Deschide propriul magazin
+REFINE_COST	Costuri de îmbunãtãþire: 0 Yang
+REFINE_INFO	Sansa de upgrade reusit: 100%
+REFINE_MONEY	Cost Rafinare
+REFINE_SELECT	Rafinare
+REFINE_TTILE	Îmbunãtãþiri
+REPORT_VIOLENT_WHISPER	
+RESTART_HERE	Restarteazã aici
+RESTART_TOWN	Restarteazã în oraº
+SAFE_CHANGE_PASSWORD	Schimbã parola
+SAFE_TITLE	Depozit
+SELECT_ATT_GRADE	STR
+SELECT_CREATE	Creazã
+SELECT_DELETE	ªterge
+SELECT_DEX_GRADE	DEX
+SELECT_EMPIRE_NAME	Numele regatului
+SELECT_EXIT	Ieºire
+SELECT_HP	VIT
+SELECT_LEVEL	Nivel
+SELECT_METIN_STONE_TITLE	Selecteazã Piatra Spiritului
+SELECT_NAME	Nume
+SELECT_NO_GUILD	Nicio breaslã
+SELECT_PLAYTIME	Timp de joc
+SELECT_SELECT	Start
+SELECT_SP	INT
+SELECT_TITLE	Alege titlu
+SHOP_BUY	Cumpãrã
+SHOP_SELL	Vinde
+SHOP_TITLE	Magazin
+SKILL_SUPPORT_TITLE	Competenþe standard
+STEP	Grad de claritate
+STEP_SELECT	Grad de claritate
+STRENGTH	Intarire
+STRENGTH_SELECT	Nivel
+SYSTEMOPTION_TITLE	Opþiuni sistem
+SYSTEM_CHANGE	Schimbã caracterul
+SYSTEM_EXIT	Ieºire joc
+SYSTEM_HELP	Ajutor
+SYSTEM_LOGOUT	Logout
+SYSTEM_MALL	Magazin Obiecte
+SYSTEM_OPTION	Opþiuni sistem
+TASKBAR_CHARACTER	Caracter[C/V/B/N]
+TASKBAR_CHAT	Fereastrã chat [ENTER ]
+TASKBAR_DISABLE	Dezactivat
+TASKBAR_DRAGON_SOUL	Alchimie Piatra Dragon
+TASKBAR_EXPAND	Extinde Fereastra
+TASKBAR_INVENTORY	Inventar [I]
+TASKBAR_MESSENGER	Prieteni [ALT + M]
+TASKBAR_NEXT_QUICKSLOT	Urmãtorul câmp de acces rapid [Shift+Numãr, Alt]
+TASKBAR_PREV_QUICKSLOT	Ultimul câmp de acces rapid [Shift+Numãr]
+TASKBAR_SYSTEM	Opþiuni[ESC]
+WHISPER_BAN	Blocheazã
+WHISPER_NAME	ªopteºte
+WHISPER_REPORT	
+WHISPER_SEND	Trimite
+YES	Da
+ZONE_MAP	Hartã mare

@@ -1,0 +1,36 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "NEED_TARGET" "WEAPON_LIMITATION"
+NeedWeapon		"SWORD" "TWO_HANDED"
+CoolTimeFormula		"15"
+NeedSPFormula		"40 + (100 * SkillPoint)"
+Range			"400"
+MotionIndex		"4"
+
+
+IconFileName		"skill/warrior/samyeon.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"삼연참"
+949Description	"적을 빠르게 세번 베어낸다"
+List 949ConditionData
+{
+	"전방 범위 공격 3회"
+}
+List 949AffectData
+{
+	"총 공격력 %.0f-%.0f" "(1.1*MinATK + (0.1*MinATK + 1.5*STR)*SkillPoint) * 3" "(1.1*MaxATK + (0.1*MaxATK + 1.5*STR)*SkillPoint) * 3"
+}
+
+936Name			"삼연참"
+936Description	"적을 빠르게 세번 베어낸다"
+List 936ConditionData
+{
+	"전방 범위 공격 3회"
+}
+List 936AffectData
+{
+	"총 공격력 %.0f-%.0f" "(20 + 1.1*MinATK + (0.1*MinATK + 100)*SkillPoint) * 3" "(20 + 1.1*MaxATK + (0.1*MaxATK + 100)*SkillPoint) * 3"
+}

@@ -1,0 +1,33 @@
+ScriptType			SkillDataScript
+
+Type				LOW
+Attribute			"NEED_TARGET" "ONLY_FOR_ALLIANCE" "CAN_USE_FOR_ME"
+Range				800
+
+949Name				"措沥诀牢"
+949Description		"歹宽 碍茄 蝴狼 扁款栏肺 目促鄂 惑贸鳖瘤 摹蜡茄促"
+949Requirement		"沥诀牢" 10
+List 949AffectData
+{
+	"眉仿 %.0f 雀汗" "(10 + SkillPoint * 2) * (30 + INT) / 30 * 10" ""
+}
+
+IconFileName		"skill/shaman/daejeongeop.sub"
+MotionIndex         35
+MotionIndexForMe    34
+
+List RequireStatData
+{
+	"Level" "31"
+}
+
+NeedSPFormula		"SkillPoint * 5 * 5"
+CoolTimeFormula		"5"
+
+936Name				"光神普照"
+936Description		"利用光神的力量更好的治愈自己或他人"
+936Requirement		"光神" 10
+List 936AffectData
+{
+	"体力恢复 %.0f " "(10 + SkillPoint * 2) * (30 + INT) / 30 * 10" ""
+}

@@ -1,0 +1,9 @@
+YPRT
+3397263960
+ambiencesoundvector		"sound/ambience/warp_test.mp3"
+maxvolumeareapercentage		"0.500000"
+playinterval		"0.000000"
+playintervalvariation		"0.000000"
+playtype		"LOOP"
+propertyname		"warp"
+propertytype		"Ambience"

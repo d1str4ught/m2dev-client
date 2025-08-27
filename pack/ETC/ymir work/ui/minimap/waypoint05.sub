@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "minimap.dds"
+left 176
+top 40
+right 216
+bottom 80

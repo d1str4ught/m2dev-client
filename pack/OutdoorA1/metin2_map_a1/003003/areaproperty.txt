@@ -1,0 +1,6 @@
+ScriptType AreaProperty
+
+AreaName ""
+
+NumWater 3
+

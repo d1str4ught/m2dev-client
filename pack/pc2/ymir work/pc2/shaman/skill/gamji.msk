@@ -1,0 +1,32 @@
+ScriptType			SkillDataScript
+
+Type				SUPPORT
+Attribute			"NEED_TARGET" "ONLY_FOR_ALLIANCE" "CAN_USE_FOR_ME"
+
+949Name				"감지"
+949Description		"잠시동안 보이지 않는 것을 볼 수 있는 능력을 부여한다"
+
+IconFileName		"skill/shaman/gamji.sub"
+MotionIndex			6
+MotionIndexForMe	5
+
+List 949AffectData
+{
+	"지속 시간 : 3분" "" ""
+}
+
+List RequireStatData
+{
+	"Level" "11"
+}
+
+NeedSPFormula		"60"
+MaxLevel			"5"
+LevelUpPoint		"5"
+
+936Name				"녀커"
+936Description		"립貸였숨茶꾜慤膠콘제"
+List 936AffectData
+{
+	"넣崎珂쇌: 3롸爐" "" ""
+}

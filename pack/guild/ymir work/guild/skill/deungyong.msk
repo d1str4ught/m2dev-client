@@ -1,0 +1,14 @@
+ScriptType		SkillDataScript
+
+Type			PASSIVE
+
+Name			"장수 등용"
+Description		"장수를 추가로 지정 할 수 있다"
+IconFileName		"skill/guild/deungyong.sub"
+
+List AffectData
+{
+	"장수 %.0f 명 추가 지정 가능"	"SkillLevel / 3"	""
+}
+
+MaxLevel			6

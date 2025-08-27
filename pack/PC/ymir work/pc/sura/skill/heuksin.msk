@@ -1,0 +1,43 @@
+ScriptType		SkillDataScript
+
+Attribute		"STANDING_SKILL" "TOGGLE"
+
+NeedSPFormula 		"30 + (30 * SkillPoint)"
+MotionIndex		"2"
+
+
+IconFileName		"skill/sura/heuksin.sub"
+
+Type			ACTIVE
+MaxLevel 		"30"
+
+949Name			"흑신수호"
+949Description	"어둠의 힘으로 몸을 감싸고 육체의 고통을 정신력으로 버텨낸다"
+
+List 949ConditionData
+{
+	"타격치를 정신력으로 감쇄"
+	"방어력 상승"
+}
+
+List 949AffectData
+{
+	"타격치 감쇄율 %.0f%%" "(iq*0.84)*k" ""
+	"방어력 +%.0f" "(0.5*iq+15)*k" ""
+}
+
+936Name			"붚침麓"
+936Description	"疆쇌괵랙붚갠제좆，句췻鷺鍋돨둔훙"
+
+
+List 936ConditionData
+{
+	"타격치를 정신력으로 감쇄"
+}
+
+List 936AffectData
+{
+	"타격치의 %.0f%% 를 생명력으로 소모" "((9 - 6*SkillPoint) * 0.1) * 100" ""
+	"타격치의 %.0f%% 를 정신력으로 소모" "((1 + 6*SkillPoint) * 0.1 / (2 + 4*SkillPoint)) * 100" ""
+	"지속시간 : %.0f초" "60 + (60 * SkillPoint)" ""
+}

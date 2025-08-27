@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "SkillSura.dds"
+left 0
+top 64
+right 32
+bottom 96

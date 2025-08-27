@@ -1,0 +1,32 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/assassin/skill/poison_cloud.gr2"
+MotionDuration           1.500000
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.576642
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 Head"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/assassin/effect/poison.mse"
+        EffectPosition       0.000000 -30.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      6
+        StartingTime         0.656934
+        
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 Head"
+        FlyFileName       "d:/ymir work/pc/assassin/effect/beam.msf"
+        FlyPosition       0.000000 -100.000000 -10.000000
+    }
+}

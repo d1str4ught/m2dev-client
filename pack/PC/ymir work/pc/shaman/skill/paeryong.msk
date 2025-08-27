@@ -1,0 +1,38 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "STANDING_SKILL"
+CoolTimeFormula		"15"
+NeedSPFormula		"80 + (160 * SkillPoint)"
+
+MotionIndex		"6"
+
+
+IconFileName		"skill/shaman/paeryong.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"패룡폭"
+949Description	"용신의 형상으로 주변의 적을 공격한다"
+List 949ConditionData
+{
+	"제자리 주변 범위 공격"
+	"지속 화염 효과"
+}
+List 949AffectData
+{
+	"마법 공격력 %.0f-%.0f" "70 + 3*lv + (22*iq+13*minmtk+100)*ar*k" "70 + 3*lv + (22*iq+13*maxmtk+100)*ar*k"
+	"지속 화염 확률 %.0f%%" "iq*0.2*k" ""
+	"지속 화염 공격력  %.0f" "lv+5*iq *k" ""
+}
+
+936Name			"패룡폭"
+936Description	"용신의 형상으로 주변의 적을 공격한다"
+List 936ConditionData
+{
+	"제자리 주변 공격"
+}
+List 936AffectData
+{
+	"마법공격력 : %.0f-%.0f" "50+4*LV+(7*INT+9*MinMWEP+500)*SkillPoint*HR/100" "50+4*LV+(7*INT+9*MaxMWEP+500)*SkillPoint*HR/100"
+}

@@ -1,0 +1,7 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/warrior/onehand_sword/wait_1.gr2"
+MotionDuration           1.333333
+
+CancelEnableSkill           0
+

@@ -1,0 +1,65 @@
+TextureSet
+
+TextureCount 005
+Start Texture001
+    "D:\YMIR WORK\terrainmaps\G\field\field 05.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture001
+Start Texture002
+    "D:\YMIR WORK\terrainmaps\G\field\field 01.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture002
+Start Texture003
+    "D:\YMIR WORK\terrainmaps\G\field\cliff_swp_05.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture003
+Start Texture004
+    "D:\YMIR WORK\terrainmaps\G\field\field 06.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture004
+Start Texture005
+    "D:\YMIR WORK\terrainmaps\G\field\field 02.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture005
+
+
+
+
+
+
+
+
+
+
+
+

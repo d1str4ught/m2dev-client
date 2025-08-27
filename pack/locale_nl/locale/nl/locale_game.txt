@@ -1,0 +1,936 @@
+AFF_LOVE_POINT	Liefdespunten: %d%%	
+ALIGNMENT_NAME	Rang punten:	
+ATTACK_ERROR_UNKNOWN	Onbekend Aanvals Fout: %s	
+CANNOT_ATTACK_DEST_IN_SAFE	De Tegenstander is te ver weg.
+CANNOT_ATTACK_SELF_IN_SAFE	Ik kan niet aanvallen.	
+CANNOT_EQUIP_IN_EXCHANGE	Je kunt wat je draagt niet veranderen wanneer je aan het handelen bent.
+CANNOT_EQUIP_IN_SHOP	Je kunt wat je draagt niet veranderen wanneer je aan het handelen bent.
+CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA	Je kunt geen privé warenhuis openen in een openbaar gebied.
+CANNOT_SHOOT_DEST_IN_SAFE	De vijand is te ver weg.	
+CANNOT_SHOOT_EMPTY_ARROW	Ik heb een Pijl nodig.	
+CANNOT_SHOOT_SELF_IN_SAFE	Ik kan dit niet doen.	
+CANNOT_SKILL_APPROACH	Ik weet zeker dat ik niet dichterbij kan komen.	
+CANNOT_SKILL_ATTACK	Ik kan niet aanvallen.	
+CANNOT_SKILL_BLUE	Je kunt Indigo Wolf Ziel niet gebruiken wanneer Bloedrode Wolf Ziel actief is.
+CANNOT_SKILL_DEST_IN_SAFE	De vijand is te ver weg.	
+CANNOT_SKILL_EQUIP_FISHING_ROD	Ik heb een Hengel nodig.
+CANNOT_SKILL_HAVE_TO_RIDE	Ik heb eerst een Paard nodig voordat ik dit kan gebruiken.	
+CANNOT_SKILL_NEED_EMPTY_BOTTLE	Ik heb geen Lege Fles.	
+CANNOT_SKILL_NEED_POISON_BOTTLE	Ik heb geen Gif Fles.	
+CANNOT_SKILL_NEED_TARGET	Wie is het doelwit?	
+CANNOT_SKILL_NOT_ENOUGH_HP	Ik heb niet genoeg LP!	
+CANNOT_SKILL_NOT_ENOUGH_SP	Ik heb niet genoeg TP!	
+CANNOT_SKILL_NOT_HORSE_SKILL	Ik kan dit niet gebruiken tijdens het rijden.	
+CANNOT_SKILL_NOT_MATCHABLE_WEAPON	Ik kan deze Vaardigheid niet met dit wapen gebruiken.	
+CANNOT_SKILL_NOT_YET_LEARN	Ik heb deze Vaardigheid nog niet geleerd.	
+CANNOT_SKILL_ONLY_FOR_ALLIANCE	Dit beïnvloedt alleen groepsleden.	
+CANNOT_SKILL_ONLY_FOR_CORPSE	Dit beïnvloedt alleen dode mensen.	
+CANNOT_SKILL_RED	Je kunt Bloedrode Wolf Ziel niet gebruiken wanneer Indigo Wolf Ziel actief is.
+CANNOT_SKILL_REMOVE_FISHING_ROD	Ik kan deze Vaardigheid niet met een Hengel gebruiken.
+CANNOT_SKILL_SELF_IN_SAFE	Ik kan vanaf hier niet aanvallen.	
+CANNOT_SKILL_USE_SELF	Ik kan dit niet op mijzelf gebruiken.	
+CANNOT_SKILL_WAIT_COOLTIME	Ik kan deze Vaardigheid nog niet gebruiken.	
+CANNOT_USE	Je kan dit niet gebruiken.
+CANNOT_WHISPER_DEST_REFUSE	%s blokkeert fluisteren compleet.	SA
+CANNOT_WHISPER_NOT_LOGON	%s is niet online.	SA
+CANNOT_WHISPER_SELF_REFUSE	Je kunt niet naar iemand fluisteren wanneer je het fluisteren geblokkeerd hebt.	SNA
+CHANNEL	Kanaal	
+CHANNELING_CANNOT_LOGOUT	Je kunt niet terug gaan naar het login scherm.	
+CHANNEL_EMPTY_SERVER	Geen server	
+CHANNEL_NORMAL	Kanaal %d	
+CHANNEL_NOTIFY_FULL	Dit kanaal is vol! Kies een andere alstublieft.
+CHANNEL_NOT_FIND_INFO	Geen informatie gevonden via het kanaal.	
+CHANNEL_PVP	Vrije duel	
+CHANNEL_SELECT_CHANNEL	Kies een kanaal	
+CHANNEL_SELECT_REGION	Kies een regio.	
+CHANNEL_SELECT_SERVER	Kies een server	
+CHANNEL_TEST_SERVER	Test Server	
+CHANNEL_TEST_SERVER_ADDR	Test %s:%d	
+CHARACTER_CREATE_MODE	Karakter aanmaken
+CHARACTER_SELECT_MODE	Karakter selecteren
+CHAT_ALL	Alles	
+CHAT_BLOCK	Blokkeren	
+CHAT_GUILD	Gilde	
+CHAT_INFORMATION	Info	
+CHAT_INSULT_STRING	Deze zin bevat ongeldige woorden.	
+CHAT_LOG	Laat oude berichten zien [L]	
+CHAT_LOG_TITLE	Chat-log	
+CHAT_NORMAL	Normaal	
+CHAT_NOTICE	Aankondiging	
+CHAT_PARTY	Groep	
+CHAT_SEND_CHAT	Stuur Chat	
+CHAT_SEND_MEMO	Stuur Fluister[Shift+Enter]	
+CHAT_SHOUT	Roep	
+CHAT_SHOUT_LIMIT	Je kunt slechts elke 15 seconden roepen.	
+CHAT_WHISPER	Fluisteren	
+COMB_ALREADY_APPEND	
+COMB_CANT_APPEND_ITEM	Dit item kan niet gebruikt worden.
+COMB_CANT_APPEND_SEALED_ITEM	Je kunt geen zielsgebonden items gebruiken.
+COMB_COST	Prijs: %s
+COMB_IS_CONTINUE_PROCESS	Wil je doorgaan?
+COMB_NOTICE	Je kunt geen privé warenhuis openen wanneer je boeken aan het verhandelen bent.
+COMB_NOTICE_NOT_OPEN	Je kunt geen boeken verhandelen als je een privé warenhuis open hebt staan.
+COMB_NOT_ALL_SLOT_APPEND_ITEM	Je hebt een tweede kostuum nodig om bonussen over te dragen.
+COMB_NOT_FULL_BOOK	Nee, zo doen we geen zaken. Zoals ik al zei: ik sta alleen open om te handelen als je 10 boeken in te ruilen hebt.
+COMB_NOT_ITEM_IN_INVENTORY	Je kunt geen items gebruiken die je aan hebt.
+COMB_NOT_MEDIUM_ITEM	Dit item kan niet gebruikt worden.
+COMB_WILL_REMOVE_MATERIAL	Kostuum 2 zal vernietigd worden.
+CREATE_ERROR_GM_NAME	Het is niet toegestaan om ,GM‘ in je karakter naam te gebruiken.	
+CREATE_ERROR_INSULT_NAME	Deze naam is ongeldig.	
+CREATE_ERROR_LIMIT_LEVEL	Jouw karakter moet minstens level 80 zijn.
+CREATE_ERROR_TIME_LIMIT	Je kunt slechts één karakter per 30 seconden aanmaken.
+CREATE_ERROR_WRONG_STRING	Je karakternaam mag geen speciale tekens bevatten.
+CREATE_EXIST_SAME_NAME	Een ander karakter gebruikt deze naam.	
+CREATE_FAILURE	Je kunt niet nog een karakter aanmaken.	
+CREATE_FULL	Je kunt niet meer karakters aanmaken.
+CREATE_GM_NAME	GM	
+CREATE_INPUT_NAME	Voer de naam in.	
+CREATE_PLUS_STAT	Er zijn nog status punten over.	
+DAY	Dagen	
+DONT_USE_ITEM_WHEN_SHOW_CONFIRM	Wanneer een aanvraag loopt kun je geen items verplaatsen.
+DO_YOU_BUY_ITEM1	Wil je %s voor %s kopen?	
+DO_YOU_BUY_ITEM2	Wil je %s %s voor %s kopen?	
+DO_YOU_DROP_MONEY	Wil je %d Yang laten vallen?
+DO_YOU_SELL_ITEM1	Wil je %s voor %s verkopen?	
+DO_YOU_SELL_ITEM2	Wil je %s %s voor %s verkopen?
+DRAGON_SOUL_CANNOT_REFINE	Deze Drakensteen kan niet worden verbeterd.
+DRAGON_SOUL_CANNOT_REFINE_MORE	Deze Drakensteen heeft al het hoogste level.
+DRAGON_SOUL_EQUIP_WARNING1	Het is moeilijk om een Drakensteen te verwijderen als deze vastgezet is.
+DRAGON_SOUL_EQUIP_WARNING2	Wil je nog steeds doorgaan?
+DRAGON_SOUL_EXPIRED	Verlopen Drakensteen
+DRAGON_SOUL_INVALID_DRAGON_SOUL	Dat is de verkeerde Drakensteen.
+DRAGON_SOUL_IS_NOT_DRAGON_SOUL	Dat is geen Drakensteen.
+DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	Dat is niet de juiste Drakensteen.
+DRAGON_SOUL_NOT_ENOUGH_MATERIAL	Je hebt niet genoeg materialen om te verbeteren.
+DRAGON_SOUL_NOT_MATCHED_SLOT	De Drakensteen past niet op deze plek.
+DRAGON_SOUL_STEP_LEVEL1	Helderheid: Mat,
+DRAGON_SOUL_STEP_LEVEL2	Helderheid: Doorzichtig,
+DRAGON_SOUL_STEP_LEVEL3	Helderheid: Foutloos,
+DRAGON_SOUL_STEP_LEVEL4	Helderheid: Briljant,
+DRAGON_SOUL_STEP_LEVEL5	Helderheid: Perfect,
+DRAGON_SOUL_STRENGTH	Level: +%d	SA
+DRAGON_SOUL_UNEQUIP_WARNING1	De Drakensteen kan vernietigt worden in het proces.
+DRAGON_SOUL_UNEQUIP_WARNING2	Wil je nog steeds doorgaan?
+DRAGON_SOUL_UNMATCHED_SLOT	Dat is de verkeerde plek.
+DRAGON_SOUL_UNQUALIFIED	Je kan nog geen Drakensteen alchemie gebruiken.
+DROP_ITEM_FAILURE_EQUIP_ITEM	Je kunt items die je aan hebt niet laten vallen.
+DROP_ITEM_FAILURE_PRIVATE_SHOP	Je kunt geen voorwerpen laten vallen als je privé warenhuis open is.
+DROP_MONEY_FAILURE_1000_OVER	Je kunt maximaal 999 Yang laten vallen.
+EMOTION_ANGRY	Ergerlijk
+EMOTION_ATTRACTIVE	Verleiding	
+EMOTION_BANTER	Spottend	
+EMOTION_CHEERS_1	Gejuich 1	
+EMOTION_CHEERS_2	Gejuich 2	
+EMOTION_CHEERUP	Gejuich	
+EMOTION_CHOOSE_ONE	Kies een doelwit	
+EMOTION_CLAP	Klappen	
+EMOTION_CLAP_KISS	Kus	
+EMOTION_CONGRATULATION	Instemming	
+EMOTION_DANCE_1	Dans 1	
+EMOTION_DANCE_2	Dans 2	
+EMOTION_DANCE_3	Dans 3	
+EMOTION_DANCE_4	Dans 4	
+EMOTION_DANCE_5	Dans 5	
+EMOTION_DANCE_6	Gumsan Stijl
+EMOTION_FORGIVE	Vergeving	
+EMOTION_FRENCH_KISS	Tongzoen	
+EMOTION_JOY	Vreugde	
+EMOTION_SAD	Verdriet	
+EMOTION_SHY	Afwijzing	
+EMOTION_SLAP	Slaan	
+EMPIRE_A	Shinsoo Keizerrijk	
+EMPIRE_B	Chunjo Koninkrijk	
+EMPIRE_C	Jinno Keizerrijk
+EMPIRE_SELECT_MODE	Koninkrijk selecteren
+EXCHANGE_CANNOT_GIVE	Je kunt dit Voorwerp niet verhandelen.
+EXCHANGE_CANT_EDIT_MONEY	Je kunt de som nu niet veranderen.	
+EXCHANGE_FAILURE_EQUIP_ITEM	Je kunt Voorwerpen die je draagt niet ruilen.
+EXCHANGE_MONEY	Som	
+EXCHANGE_TITLE	Handel met %s
+FISHING_FAILURE	Je hebt het Aas verloren.	
+FISHING_NOTIFY1	Het lijkt alsof %s beet heeft.	
+FISHING_NOTIFY2	Het lijkt alsof %s gepakt is.	
+FISHING_SUCCESS1	Je hebt %s gevangen!	
+FISHING_SUCCESS2	Je hebt %s uit het water gevist!	
+FISHING_UNKNOWN	Iets heeft het aas genomen maar je kunt niet zien wat.	
+FISHING_WRONG_PLACE	Ik kan hier niet vissen.	
+FOR_FEMALE	voor vrouwen	
+FOR_MALE	voor mannen	
+GAME_CANNOT_MINING	Je kunt geen erts mijnen terwijl je rijdt.	
+GAME_CANNOT_PICK_ITEM	Je kunt dit Voorwerp niet oppakken want je hebt het niet gewonnen.	
+GAME_INIT_ERROR_CURSOR	De cursor kan niet worden gebruikt.	
+GAME_INIT_ERROR_DIRECTX	DirectX 8.1 moet geïnstalleerd worden zodat het spel kan draaien.\nInstalleer DirectX 8.1 or higher.	
+GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	Er is geen grafisch apparaat gevonden. \nControleer of je Videokaart correct geïnstalleerd is.
+GAME_INIT_ERROR_GRAPHICS_NOT_EXIST	Grafisch apparaat kon niet gevonden worden. \nControleer of je een Grafische kaart hebt. \nOf, je kunt de hardware accelerator inschakelen \nStel de hardware accelerator in op max \nconfiguratiescherm -> beeldscherm -> instellingen- > geavanceerd -> probleem oplossen
+GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	De Grafische Kaart van de computer ondersteunt de venstermodus in 32bit Modus niet. \nVerander naar 16bit Modus of gebruik Volledige Scherm Modus.
+GAME_INIT_ERROR_ITEM_PROTO	Geen Voorwerp data aanwezig. \nInstalleer het spel opnieuw.	
+GAME_INIT_ERROR_MAIN_WINDOW	Hoofdvenster kan niet geladen worden.	
+GAME_INIT_ERROR_MOB_PROTO	Geen Monster data aanwezig. \nInstalleer het spel opnieuw.	
+GAME_INIT_ERROR_NETWORK	Netwerk apparaten konden niet geladen worden. \nControleer je internet verbinding.	
+GAME_PICK_MONEY	Je hebt %d Yang ontvangen.
+GUILDMARK_UPLOADER_ERROR_128_HEIGHT	Hoogte is niet 128 Pixel	
+GUILDMARK_UPLOADER_ERROR_12_HEIGHT	Hoogte is niet 12 Pixel
+GUILDMARK_UPLOADER_ERROR_16_WIDTH	Breedte is niet 16 Pixel	
+GUILDMARK_UPLOADER_ERROR_64_WIDTH	Breedte is niet 64 Pixel	
+GUILDMARK_UPLOADER_ERROR_FILE_FORMAT	Het spel ondersteunt deze afbeelding niet.	
+GUILDMARK_UPLOADER_ERROR_PATH	Plaats de data in de folder metin2/upload	
+GUILDMARK_UPLOADER_ERROR_SELECT	Geen afbeelding bestand geselecteerd.	
+GUILDWAR_CTF_TITLE	Vlag veroverd.	
+GUILDWAR_NORMAL_TITLE	Veld Gevecht	
+GUILDWAR_QUESTION_LINE_1	De %s Gilde heeft de oorlog verklaard aan jouw Gilde.	
+GUILDWAR_QUESTION_LINE_2	Accepteren?(%s)	
+GUILDWAR_UNKNOWN_TITLE	...	
+GUILDWAR_WARP_TITLE	Gilde theater van Oorlog
+GUILD_BUILDING_GRADE	Rank	
+GUILD_BUILDING_NAME	Naam van het gebouw	
+GUILD_CANNOT_HEAL_GSP_ANYMORE	De Drakengeest energie is volledig hersteld
+GUILD_COMMENT	Schrijf	
+GUILD_CREATE_ERROR_INSULT_NAME	Gildenaam is ongeldig.	
+GUILD_DEFAULT_GRADE	Gilde leden	
+GUILD_DELETE	Verwijder	
+GUILD_DEPOSIT	Deponeer	
+GUILD_DO_YOU_HEAL_GSP	Wil je %d Yang gebruiken om %d Drakengeest te herstellen?
+GUILD_DO_YOU_JOIN	 heeft je uitgenodigd. Wil je je aansluiten bij de Gilde?
+GUILD_EMPTY_AREA	Leeg Land	
+GUILD_ENEMY_GUILD_NAME	Gilde naam van de vijand	
+GUILD_FACILITY	Bijgebouw
+GUILD_GEM	Edelsteen	
+GUILD_HEADQUARTER	Hoofdgebouw
+GUILD_HEAL_GSP	Herstel Drakengeest
+GUILD_INFO_ENEMY_GUILD_EMPTY	Geen	
+GUILD_MARK_NOT_ENOUGH_LEVEL	Minstens level 3 nodig.
+GUILD_NAME	Gilde Naam	
+GUILD_NOT_ENOUGH_MATERIAL	Je hebt niet genoeg grondstoffen voor dit gebouw.
+GUILD_NOT_ENOUGH_MONEY	Je hebt niet genoeg Yang voor dit gebouw.
+GUILD_NO_NOTICE_PERMISSION	Je hebt geen rechten om aankondigingen te doen.	
+GUILD_OBJECT	Voorwerpen	
+GUILD_OFFER_EXP	Te investeren Ervaring
+GUILD_SHORT_EXP	Niet genoeg ervaringspunten.
+GUILD_TILE_BASEINFO	Basis Informatie	
+GUILD_TILE_BOARD	Schoolbord	
+GUILD_TILE_GRADE	Rechten Beheer	
+GUILD_TILE_INFO	Gilde Informatie	
+GUILD_TILE_MEMBER	Gilde Leden	
+GUILD_TILE_SKILL	Gilde Vaardigheden	
+GUILD_VILLAGE_01	Miryang
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_03	Daeyami
+GUILD_WAR1	Gilde Oorlog Gebied
+GUILD_WAR2	Gilde Oorlog Gebied
+GUILD_WAR3	Gilde Oorlog Gebied
+GUILD_WAR4	Gilde Oorlog Gebied
+GUILD_WAR_LIMIT_30MIN	Tijd: 30 Minuten	
+GUILD_WAR_REWARD_POTION	Prijs: De winnaar ontvangt een Brouwsel	
+GUILD_WAR_USE_BATTLE_MAP	Locatie: Gilde Oorlog Theater
+GUILD_WAR_USE_NORMAL_MAP	Locatie: Normale Map
+GUILD_WAR_WIN_CHECK_SCORE	Het hoogste resultaat wint de oorlog.	
+GUILD_WAR_WIN_TAKE_AWAY_FLAG1	Verover de vlag van de vijand
+GUILD_WAR_WIN_TAKE_AWAY_FLAG2	en breng het naar je basis.
+GUILD_WAR_WIN_WIPE_OUT_GUILD	Versla alle vijanden om te winnen.	
+GUILD_WITHDRAW	Terugtrekken	
+GUILD_YOU_DO_NOT_JOIN	Je bent geen lid van een Gilde.	
+HORSE_HEALTH0	Dood	
+HORSE_HEALTH1	Uithongeren
+HORSE_HEALTH2	Hongerig
+HORSE_HEALTH3	Vol	
+HORSE_LEVEL1	Normale Paard
+HORSE_LEVEL2	Vecht Paard
+HORSE_LEVEL3	Militaire Paard
+HOUR	Uren	
+HOW_MANY_ITEM_DO_YOU_DROP1	Wil je %s laten vallen?	
+HOW_MANY_ITEM_DO_YOU_DROP2	Wil je %s %d laten vallen?	
+INPUT_MATRIX_CARD_NUMBER	Voer Matrix Kaartnummer in.	
+INPUT_MATRIX_CARD_TITLE	Matrix Kaart	
+INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Voer de code die je hebt gecreëerd in Account Beheer hier in.	
+INPUT_PRIVATE_CODE_DIALOG_TITLE	Verwijder karakter	
+INVENTORY_DO_NOT_PACK_WARP_SCROLL	Geschrigten kunnen niet gecombineerd worden.	
+INVENTORY_REALLY_USE_ITEM	Dit voorwerp op dit voorwerp gebruiken?
+JOB_ASSASSIN	Ninja	
+JOB_ASSASSIN0	Amateur Ninja	
+JOB_ASSASSIN1	Kracht van de Ninjas	
+JOB_ASSASSIN2	Ondood	
+JOB_SHAMAN	Sjamaan	
+JOB_SHAMAN0	Amateur Sjamaan	
+JOB_SHAMAN1	Kracht van de Draak	
+JOB_SHAMAN2	Bliksem Kracht	
+JOB_SURA	Sura	
+JOB_SURA0	Amateur Sura	
+JOB_SURA1	Kracht van de Fata Morgana	
+JOB_SURA2	Kracht van Zwarte Magie	
+JOB_WARRIOR	Krijger	
+JOB_WARRIOR0	Amateur Krijger	
+JOB_WARRIOR1	Kracht van Arahan	
+JOB_WARRIOR2	Kracht van Partizaan	
+LEFT_TIME	Overgebleven Tijd	
+LOGIN_CONNECT_FAILURE	Fout bij de server verbinding.	
+LOGIN_CONNECT_SUCCESS	Je  bent verbonden met de server
+LOGIN_CONNETING	Je wordt verbonden met de server...
+LOGIN_FAILURE_ALREAY	Je account is al verbonden.	
+LOGIN_FAILURE_BE_SAME_KEY	Registratie probleem.	
+LOGIN_FAILURE_BLOCK_ID	Je account is geband.	
+LOGIN_FAILURE_BLOCK_LOGIN	kies een van de andere servers!
+LOGIN_FAILURE_NOBILL	Je account heeft geen speeltijd.	
+LOGIN_FAILURE_NOT_AVAIL	Je account kan niet worden gebruikt.	
+LOGIN_FAILURE_NOT_EXIST_ID	Account naam of wachtwoord is incorrect
+LOGIN_FAILURE_REPAIR_ID	Voorwerpen zijn hersteld voor dit account.	
+LOGIN_FAILURE_SAMELOGIN	Iemand heeft zich met jouw account verbonden.
+LOGIN_FAILURE_SHUTDOWN	De server is nog niet open.	
+LOGIN_FAILURE_TOO_MANY_USER	Je kan niet verbonden worden want er zijn teveel spelers online.	
+LOGIN_FAILURE_UNKNOWN	Je kon niet registreren voor onbekende redenen.	
+LOGIN_FAILURE_WEB_BLOCK	Je bent geblokkerd bij de website. Controleer je e-mails alstublieft.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	Je hebt een verkeerd nummer ingevoerd.	
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	Je hebt drie keer een verkeerd nummer ingevoerd. /n Je verbinding wordt verbroken.	
+LOGIN_FAILURE_WRONG_PASSWORD	Account naam of wachtwoord is incorrect.
+LOGIN_INPUT_ID	Voer ID in.	
+LOGIN_INPUT_PASSWORD	Voer wachtwoord in.	
+LOGIN_PROCESSING	Login proces is gestart.
+MALL_CANNOT_INSERT	Je kunt het Voorwerp niet plaatsen.	
+MALL_PASSWORD_TITLE	Wachtwoord	
+MAP_A1	Yongan Gebied
+MAP_A2	Vallei van Seungryong	
+MAP_A2_1	
+MAP_A3	Yayang Gebied
+MAP_AG	Jungrang	
+MAP_B1	Joan Gebied	
+MAP_B2	Imji Vallei
+MAP_B3	Bokjung Gebied
+MAP_BAY	Baai van Nefriet
+MAP_BAYBLACKSAND	Baai van Nefriet
+MAP_BG	Waryong
+MAP_C1	Pyungmo Gebied
+MAP_C2	Bangsan Vallei
+MAP_C3	Bakra Gebied
+MAP_CAPE	Cape Drakenvuur
+MAP_CAPEDRAGONHEAD	Cape Drakenvuur
+MAP_CG	Imha
+MAP_DAWN	Gautama Klif
+MAP_DAWNMISTWOOD	Gautama Klif
+MAP_DESERT	Yongbi Woestijn	
+MAP_DEVILCATACOMB	Duivelse Catacomben
+MAP_DEVILTOWER1	Demonen Toren
+MAP_DUEL	Trainingsgevecht Gebied
+MAP_E	Kolonie
+MAP_EMPIREWAR01	Kasteelgevecht
+MAP_EMPIREWAR02	Kasteelgevecht
+MAP_EMPIREWAR03	Kasteelgevecht
+MAP_FLAME	Doyyumhwan
+MAP_GUILD_01	Jungrang
+MAP_GUILD_02	Waryong
+MAP_GUILD_03	Imha
+MAP_HOLYPLACE_DESERT	Woestijnland Koninkrijk Gevecht
+MAP_HOLYPLACE_FLAME	Vuurland Koninkrijk Gevecht
+MAP_HOLYPLACE_ICE	IJsland Koninkrijk Gevecht
+MAP_MILGYO	Hwang Tempel
+MAP_MILGYO_A	
+MAP_MONKEY_DUNGEON	Hasun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MT_THUNDER	Donder Gebergte
+MAP_NUSLUCK	Reuzen Land
+MAP_NUSLUCK01	Reuzen Land
+MAP_N_DESERT_01	Yongbi Woestijn
+MAP_N_DESERT_02	
+MAP_N_FLAME_01	Vuurland
+MAP_N_FLAME_02	
+MAP_N_FLAME_DUNGEON_01	Rode Draken Fort
+MAP_N_SNOWM_01	Berg Sohan
+MAP_N_SNOWM_02	
+MAP_N_SNOW_DUNGEON_01	Nemeres Uitkijktoren
+MAP_N_THREEWAY	Vallei van Seungryong
+MAP_OXEVENT	OX-wedstrijd
+MAP_PATHWAY_DESERT_01	Woestijnland Koninkrijk Gevecht
+MAP_PATHWAY_DESERT_02	Woestijnland Koninkrijk Gevecht
+MAP_PATHWAY_DESERT_03	Woestijnland Koninkrijk Gevecht
+MAP_PATHWAY_FLAME_01	Vuurland Koninkrijk Gevecht
+MAP_PATHWAY_FLAME_02	Vuurland Koninkrijk Gevecht
+MAP_PATHWAY_FLAME_03	Vuurland Koninkrijk Gevecht
+MAP_PATHWAY_ICE_01	IJsland Koninkrijk Gevecht
+MAP_PATHWAY_ICE_02	Speelland
+MAP_PATHWAY_ICE_03	IJsland Koninkrijk Gevecht
+MAP_SKELTOWER	Gumsan Toren
+MAP_SKIPIA_DUNGEON_01	Grot der Verbanning
+MAP_SKIPIA_DUNGEON_011	
+MAP_SKIPIA_DUNGEON_012	
+MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	Grot der Verbanning 2
+MAP_SKIPIA_DUNGEON_021	
+MAP_SKIPIA_DUNGEON_022	
+MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS	Drakentempel
+MAP_SKIPIA_DUNGEON_BOSS_1	Spinnenkerker 1
+MAP_SKIPIA_DUNGEON_BOSS_2	Spinnenkerker 2
+MAP_SKIPIA_DUNGEON_BOSS_3	Spinnenkerker 3
+MAP_SNOW	Berg Sohan
+MAP_SPIDER	Kuahlo Dong
+MAP_SPIDERDUNGEON	Spinnenkerker 1
+MAP_SPIDERDUNGEON_02	Spinnenkerker 2
+MAP_SPIDERDUNGEON_02_1	Spinnenkerker 2
+MAP_SPIDERDUNGEON_03	Spinnenkerker 3
+MAP_SUNGZI	Koninkrijk Gevecht
+MAP_SUNGZI_DESERT_01	Woestijnland Koninkrijk Gevecht
+MAP_SUNGZI_DESERT_HILL_01	Woestijnland Koninkrijk Gevecht
+MAP_SUNGZI_DESERT_HILL_02	Woestijnland Koninkrijk Gevecht
+MAP_SUNGZI_DESERT_HILL_03	Woestijnland Koninkrijk Gevecht
+MAP_SUNGZI_FLAME_HILL_01	Vuurland Koninkrijk Gevecht
+MAP_SUNGZI_FLAME_HILL_02	Vuurland Koninkrijk Gevecht
+MAP_SUNGZI_FLAME_HILL_03	Vuurland Koninkrijk Gevecht
+MAP_SUNGZI_SNOW	IJsland Koninkrijk Gevecht
+MAP_SUNGZI_SNOW_PASS01	IJsland Koninkrijk Gevecht
+MAP_SUNGZI_SNOW_PASS02	IJsland Koninkrijk Gevecht
+MAP_SUNGZI_SNOW_PASS03	IJsland Koninkrijk Gevecht
+MAP_T1	Gilde Oorlog Gebied
+MAP_T2	Gilde Oorlog Gebied
+MAP_T3	Gilde Oorlog Gebied
+MAP_T4	Gilde Oorlog Gebied
+MAP_TEMPLE	Hwang Tempel	
+MAP_THUNDER	Donder Gebergte
+MAP_TREE	Lungsam	
+MAP_TRENT	Spoken Woud
+MAP_TRENT02	Rode Bos
+MAP_TRENT02_A	Rood Bos
+MAP_TRENT_A	
+MAP_WEDDING_01	Trouwkaart
+MAP_WL	Slangenveld
+MAP_WL_01	Slangenveld
+MESSENGER_ADD_FRIEND	Voeg Vriend toe	
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s heeft je als vriend toegevoegd.	
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Accepteren?	
+MESSENGER_DO_YOU_DELETE	Verwijderen?	
+MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Wil je de Mobiele Telefoonnummer verwijderen?	
+MESSENGER_DO_YOU_MOVE	Wil je doorgaan?	
+MESSENGER_EMPTY_LIST	Leeg	
+MESSENGER_FAMILY	Familie	
+MESSENGER_FRIEND	Vrienden	
+MESSENGER_GUILD	Gilde	
+MESSENGER_INPUT_MOBILE_AUTHORITY_DESCRIPTION	Voer het confirmatie nummer in dat naar je mobiele telefoon is gestuurd.	
+MESSENGER_INPUT_MOBILE_AUTHORITY_TITLE	Voer confirmatie nummer in	
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Voer mobiele telefoon nummer in voor het sms.	
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Wil je nu het nummer invoeren?	
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Voer mobiele telefoon nummr in.	
+MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Stuur bericht.	
+METIN_TEST	
+MINIMAP	Open Mini Map	
+MINIMAP_CANNOT_SEE	Mini Map kan niet gezien worden.	
+MINIMAP_CAN_NOT_SHOW_AREAMAP	Mini Map kan niet getoond worden.
+MINIMAP_DEC_SCALE	Uit zoomen
+MINIMAP_INC_SCALE	Inzoomen	
+MINIMAP_OBSERVER_COUNT	%d toeschouwers	
+MINIMAP_SHOW_AREAMAP	Open Grote Map	
+MINUTE	Minuten	
+MONETARY_UNIT0	Yang
+MONETARY_UNIT1	Tien Duizend	
+MONETARY_UNIT2	Honderd Miljard	
+MONEY_INPUT_DIALOG_SELLPRICE	Verkoop Prijs:	
+MOVE_ITEM_FAILURE_PRIVATE_SHOP	Je kunt geen voorwerpen verplaatsen wanneer je een privé Warenhuis hebt geopend.
+MUSIC_EMPTY_MUSIC_LIST	Geen Achtergrond muziek.	
+MUSIC_METIN2_DEFAULT_THEMA	Metin2 Standaard muziek.	
+MUSIC_NOT_SELECT_MUSIC	Geen Muziek bestand geselecteerd.	
+NEEFD_REST	Je moet eerst rusten.	
+NOT_YET_SUPPORT	Nog niet ondersteund	
+OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	Je kunt Gilde Modus niet activeren wanneer je niet bij een Gilde hoort.	
+OPTION_PVPMODE_NOT_SUPPORT	Je kunt deze configuratie niet kiezen in PvP Modus.	
+OPTION_PVPMODE_PROTECT	Je moet minstens level %d hebben om de PvP Modus te veranderen.	
+PARTY_ANSWER_TIMEOVER	De uitnodiging is geweigerd.
+PARTY_BONUS_ATTACKER	Aanvals Waarde: +%d	SA
+PARTY_BONUS_BERSERKER	Aanvals Snelheid: +%d	SA
+PARTY_BONUS_BUFFER	Vaardig. duur: +%d	SA
+PARTY_BONUS_DEFENDER	Verdediging: +%d	SA
+PARTY_BONUS_EXP	Bonus ERV: %d%%	SA
+PARTY_BONUS_SKILL_MASTER	Max. TP: +%d	SA
+PARTY_BONUS_TANKER	Max. LP: +%d	SA
+PARTY_BREAK_UP	Verwijder Groep	
+PARTY_DO_YOU_ACCEPT	 will zich aansluiten bij de Groep.	
+PARTY_DO_YOU_JOIN	 heeft je uitgenodigd om in de groep te komen. Accepteer?
+PARTY_EXP_DISTRIBUTION_MODE	ERV Verdeling	
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL	Level afhankelijk
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	Hoger Level groepsleden ontvangen meer ERV.
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	Gelijk
+PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	Alle Groepsleden ontvangen dezelfde ERV.	
+PARTY_HEAL_ALL_MEMBER	Herstel alles.	
+PARTY_INCREASE_AREA_150	Bereik van de GRoep verhoogt met een factor 1.5.	SNA
+PARTY_INCREASE_AREA_200	Bereik van de Groep veerhoogd met een factor 2.	SNA
+PARTY_LEAVE	Groep verlaten
+PARTY_LONGTIME_BONUS_EXP	Bonus ERV voor een lange groeps spel: +%d%%	SA
+PARTY_MEMBER_OFFLINE	[Offline]	
+PARTY_RECALL_MEMBER	Roep een Groepslid.	
+PARTY_REGEN_BONUS	Bonus voor LP- + TP  regeneratie: +%d%%	SA
+PARTY_REQUEST_DENIED	Je uitnodiging is afgeslagen.
+PARTY_SET_ATTACKER	Voor Aanvaller uitmaken.	
+PARTY_SET_BERSERKER	Voor Woesteling uitmaken.	
+PARTY_SET_BUFFER	Voor Blokkeerder uitmaken.	
+PARTY_SET_DEFENDER	Voor Verdediger uitmaken.	
+PARTY_SET_NORMAL	Instellingen terugtrekken.	
+PARTY_SET_SKILL_MASTER	Voor Vaardigheid Meester uitmaken.	
+PARTY_SET_TANKER	Als Mesvechter vastleggen	
+PARTY_SKILL_ATTACKER	Basis Aanvals Waarde Aanvaller +%.0f	
+PARTY_SKILL_BERSERKER	Aanval Snelheid Woesteling  +%.0f	
+PARTY_SKILL_BUFFER	Vaardig. Duur Block +%.0f	
+PARTY_SKILL_DEFENDER	Verdediging Verdediger +%.0f	
+PARTY_SKILL_HP_REGEN	LP Regeneratie +%.0f%%	
+PARTY_SKILL_PARTY_AREA	Groeps Bereik +%d%%	
+PARTY_SKILL_SKILL_MASTER	Max. TP Vaardigheden Meester +%.0f	
+PARTY_SKILL_SP_REGEN	TP Regeneratie +%.0f%%	
+PARTY_SKILL_TANKER	Max. LP Mes Vechter +%.0f	
+PARTY_SKILL_WARP	Mogelijk om groepsleden te roepen.	
+PASSWORD_TITLE	Warenhuis wachtwoord
+PICK_ITEM_TITLE	Voorwerp Nummer	
+PICK_MONEY_TITLE	Som	
+PRIVATE_SHOP_CANNOT_SELL_ITEM	Je kunt dit Voorwerp niet  verkopen in een privé Warenhuis.
+PRIVATE_SHOP_CLOSE_QUESTION	Wil je deze privé Warenhuis sluiten?
+PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	Naam van de privé Warenhuis
+PRIVATE_SHOP_INPUT_PRICE_DIALOG_TITLE	Prijs
+PVP_LEVEL0	Ridderlijk	
+PVP_LEVEL1	Nobel	
+PVP_LEVEL2	Goed	
+PVP_LEVEL3	Vriendelijk	
+PVP_LEVEL4	Neutraal	
+PVP_LEVEL5	Agressief	
+PVP_LEVEL6	Frauduleus	
+PVP_LEVEL7	Kwaadwillig	
+PVP_LEVEL8	Gemeen	
+PVP_MODE_GUILD	PvP - Gilde geactiveerd
+PVP_MODE_KILL	PvP - Vrij geactiveerd
+PVP_MODE_NORMAL	PvP - Vrede geactiveerd
+PVP_MODE_PROTECT	PvP - Bescherming geactiveerd
+PVP_MODE_REVENGE	PvP - Vijandig geactiveerd
+PVP_OPTION_KILL	Vrij	
+PVP_OPTION_NORMAL	Vrede	
+PVP_OPTION_PROTECT	Bescherming	
+PVP_OPTION_REVENGE	Vijandig	
+QUEST_APPEND	Nieuwe Quest verworven.	
+QUEST_MIN	Min.	
+QUEST_SEC	Sec.	
+QUEST_TIMEOVER	Tijd Verlopen	
+QUEST_UNLIMITED_TIME	Geen tijd limiet.	
+QUEST_ZEROSEC	0 Sec.	
+QUICKSLOT_REGISTER_DISABLE_ITEM	Dit Voorwerp kan niet toegevoegd worden in de Snelle Toegangs Gebied	
+RECEIVE_MESSAGE	%s heeft je een bericht gestuurd.	
+REFINE_COST	Kosten voor Bevordering: %d Yang
+REFINE_DESTROY_WARNING	Dit Voorwerp kan vernietigd worden tijden het opwaarderen.	
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1	Dit zal de kansen voor upwaarderen vergroten.
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	Als je niet slaagt dan kan het Voorwerp vernietigd worden. /n Wil je doorgaan?
+REFINE_DOWN_GRADE_WARNING	Dit Voorwerp kan gedegradeerd worden.	
+REFINE_DO_YOU_SEPARATE_METIN	Wil je alle beschikbare Zielenstenen verwijderen?
+REFINE_FAILURE	Je hebt gefaald.	
+REFINE_FAILURE_CAN_NOT_ATTACH	%s kan niet toegevoegd worden aan dat Voorwerp.	
+REFINE_FAILURE_EQUIP_ITEM	Je kunt geen voorwerpen die je draagt upgraden.
+REFINE_FAILURE_METIN_INSEPARABLE_ITEM	Er kon geen Zielen Steen weggehaald worden.	
+REFINE_FAILURE_NEED_BETTER_SCROLL	Je hebt een betere Bevorderings Geschrift nodig.	
+REFINE_FAILURE_NO_GOLD_SOCKET	Er is geen Goud fitting om %s in te zetten.	
+REFINE_FAILURE_NO_MORE_SOCKET	Je kunt niet meer Fittingen maken.	
+REFINE_FAILURE_NO_SOCKET0	Er is geen Fitting om %s in te zetten.
+REFINE_FAILURE_SOCKET_DISABLE_ITEM	Je kunt geen Fitting maken in dit Voorwerp.	
+REFINE_FAILURE_UPGRADE_DISABLE_ITEM	Dit Voorwerp kan niet geüpgrade worden.
+REFINE_SUCCESS	Het bevorderen van het Voorwerp was successvol.	
+REFINE_SUCCESS_PROBALITY	Kans op Bevordering %d%%	
+REFINE_WARNING2	Wil je doorgaan?	
+SAFEBOX_ERROR	Je hebt een verkeerde wachtwoord ingevoerd.	
+SAFEBOX_SELL_DISABLE_SAFEITEM	Je kunt geen opgeslagen Voorwerpen verkopen.	
+SAFEBOX_WRONG_PASSWORD	De wachtwoorden moeten identiek zijn.	
+SCREENSHOT_SAVE1	is opgeslagen in	
+SCREENSHOT_SAVE2	Screenshot Bestand	
+SCREENSHOT_SAVE_FAILURE	Opslaan Screenshot mislukt.	
+SECOND	Sec	
+SELECT_CAN_NOT_DELETE	Je kunt de Charakter niet deleten.	
+SELECT_CHANGED_NAME	Je hebt de naam van de karakter veranderd.	
+SELECT_CHANGE_FAILURE_ALREADY_EXIST_NAME	De karakter naam bestaat al.	
+SELECT_CHANGE_FAILURE_STRANGE_INDEX	Probeer opnieuw.	
+SELECT_CHANGE_FAILURE_STRANGE_NAME	Dat	
+SELECT_CHANGE_NAME_TITLE	Verander karakter naam.	
+SELECT_DELEING	Karakter zal verwijderd worden.	
+SELECT_DELETED	Verwijdering successvol.	
+SELECT_DO_YOU_DELETE_REALLY	Wil je doorgaan?	
+SELECT_EMPTY_SLOT	Dit is een leeg veld.	
+SELECT_GM_NAME	GM	
+SELECT_INPUT_CHANGING_NAME	Voer een nieuwe karakter naam in.	
+SELECT_NOT_JOIN_GUILD	Geen Gilde	
+SHOP_BUY_INFO	Kies het Voorwerp dat je wilt kopen in het winkel venster.
+SHOP_CANNOT_SELL_EQUIPMENT	Je kunt niet voorwerpen verkopen die je draagt.
+SHOP_CANNOT_SELL_ITEM	Dit Voorwerp kan niet verkocht worden.
+SHOP_ERROR_UNKNOWN	Onbekende Winkel fout: %s
+SHOP_INVALID_POS	Dit Voorwerp kan hier niet gebruikt worden.
+SHOP_INVENTORY_FULL	Je Inventaris is vol.
+SHOP_NOT_ENOUGH_MONEY	Niet genoeg Yang
+SHOP_NOT_ENOUGH_MONEY_EX	Je hebt niet genoeg Yang.
+SHOP_SELL_INFO	Kies het Voorwerp dat verkocht gaat worden in je inventaris venster.
+SHOP_SOLDOUT	Uitverkocht
+SHOT_ERROR_UNKNOWN	Onbekende fout tijdens Lange Afstands Aanval: %s
+SKILL_BLEEDING	Bloeden
+SKILL_BOHO	Terugkaatsen	
+SKILL_BUDONG	is niet meer gebruikt	
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	Je hebt ERV nodig om deze Vaardigheid te leren.	
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	Je hebt een boek nodig om deze Vaardigheid te leren.	
+SKILL_CHEONGEUN	Sterk Lichaam	
+SKILL_CRITICAL	Kritieke slag
+SKILL_ENCHANT_POISON	Gif Toedienen	
+SKILL_EUNHYEONG	Camouflage	
+SKILL_FAINT	Blackout	
+SKILL_FIND_TRAP	Vind Val	
+SKILL_FIRE	Permanent Vuur	
+SKILL_FISHMIND	Vissen bol is actief
+SKILL_GAMJI	Verover	
+SKILL_GEOMGYEONG	Aura van de Zwaard	
+SKILL_GEONGON	SKILL_GEONGON Niet meer gebruikt	
+SKILL_GICHEON	Draken Hulp
+SKILL_GIGONG	Chi Wenteling	
+SKILL_GONGPO	Angst	
+SKILL_GRADE_NAME_GRAND_MASTER	%s Groot Meester	
+SKILL_GRADE_NAME_MASTER	%s Meester	
+SKILL_GRADE_NAME_PERFECT_MASTER	%s Perfecte Meester	
+SKILL_GROUP_ASSASSIN_1	Mes	
+SKILL_GROUP_ASSASSIN_2	Boog	
+SKILL_GROUP_HORSE	Ruiter Vaardigheden	
+SKILL_GROUP_SHAMAN_1	Draak	
+SKILL_GROUP_SHAMAN_2	Heling	
+SKILL_GROUP_SURA_1	Wapen	
+SKILL_GROUP_SURA_2	Magie	
+SKILL_GROUP_WARRIOR_1	Lichaam	
+SKILL_GROUP_WARRIOR_2	Mentaal	
+SKILL_GWIGEOM	Betoverd Mes	
+SKILL_GYEONGGONG	Verderlicht Lopen	
+SKILL_HEUKSIN	Donkere Bescherming	
+SKILL_HOSIN	Zegening	
+SKILL_HWAYEOM	SKILL_HWAYEOM Niet meer gebruikt	
+SKILL_HYEOLMA	SKILL_HYEOLMA Niet meer gebruikt	
+SKILL_INC_ATKSPD	Aanvals snelheid verhoogd
+SKILL_INC_MOVSPD	Bewegings snelheid verhoogd
+SKILL_INMA	SKILL_INMA Niet meer gebruikt	
+SKILL_JEOJU	Vloek	
+SKILL_JEONGEOP	Heling	
+SKILL_JEONGWI	Gevechts Opvlieging	
+SKILL_JEONSINBANGEO	Volle Verdediging	
+SKILL_JEONSINGONGGYEOK	Volle Aanval	
+SKILL_JEUNGCHE	SKILL_JEUNGCHE Niet meer gebruikt	
+SKILL_JEUNGHON	SKILL_JEUNGHON Niet meer gebruikt	
+SKILL_JEUNGRYEOK	Aanval +	
+SKILL_JEUNGSOK	Beweging +	
+SKILL_JIGAM	SKILL_JIGAM Niet meer gebruikt	
+SKILL_JIPJUNG	SKILL_JIPJUNG Niet meer gebruikt	
+SKILL_JUMAGAP	Betoverd Pantser	
+SKILL_JUMAGEOM	SKILL_JUMAGEOM Niet meer gebruikt	
+SKILL_KWAEGEOM	SKILL_KWAEGEOM Niet meer gebruikt	
+SKILL_KWAESOK	Snelheid	
+SKILL_LEGBOUND	SKILL_LEGBOUND Niet meer gebruikt	
+SKILL_MUSA	SKILL_MUSA Niet meer gebruikt	
+SKILL_MUYEONG	Geest van de Vlam	
+SKILL_NEED_EMPTY_BOTTLE	Ik heb geen Lege Fles.	
+SKILL_NEED_POISON_BOTTLE	Ik heb geen Gif Fles	
+SKILL_ONLY_FOR_GUILD_WAR	Je kunt deze Vaardigheid alleen tijdens een Gilde Oorlog gebruiken.	
+SKILL_PABEOP	Neutraliseer Spreuk	
+SKILL_POWERFUL_STRIKE	Overdonderend Aanval	
+SKILL_SEOMGWANG	Bliksem Bom	
+SKILL_SINCHAK	SKILL_SINCHAK Niet meer gebruikt	
+SKILL_SLEEP	Slaap	
+SKILL_SLOW	Langzaam	
+SKILL_STUN	Overdonderen	
+SKILL_SUHO	Wachter
+SKILL_SUMMON_DESCRIPTION	Kans van de Evocatie:  %d%%	
+SKILL_TOOLTIP_INT	Intelligentie	
+SKILL_TOOLTIP_LEVEL	Level	
+SKILL_TOXICDIE	Vergiftiging	
+SKILL_TOXICPOWER	Gif Aanval waarde verhoogd	
+SKILL_TUSOK	Geest Slag	
+SKILL_WONSIN	SKILL_WONSIN Niet meer gebruikt	
+SKILL_YONGSIN	SKILL_YONGSIN Niet meer gebruikt	
+STAT_MINUS_CON	Vitaliteits Afstelling (Resterende kans: %d)
+STAT_MINUS_DEX	Behendigheids Afstelling (Resterende kans: %d)
+STAT_MINUS_INT	Intelligentie Afstelling (Resterende Kans: %d)	
+STAT_MINUS_STR	Kracht Afstelling (Resterende Kans: %d)	
+STAT_TOOLTIP_CON	Verhoogd LP en Verdediging
+STAT_TOOLTIP_DEX	Verhoogd Aanval en Handigheid
+STAT_TOOLTIP_INT	Verhoogd TP, magische aanvalskracht en verdediging
+STAT_TOOLTIP_STR	Verhoogd Aanvals waarde en Schade
+SYMBOLLIST_TITLE	Registreer Gilde Vlag	
+SYSTEM_OPTION_CPU_TILING_1	CPU Tiling Mode kan de snelheid van een zwakke PC verhogen.	
+SYSTEM_OPTION_CPU_TILING_2	Al er een probleem is met de illustraties kies dan ,Systemoption‘ of ,CONFIG.exe‘	
+SYSTEM_OPTION_CPU_TILING_3	en verander naar GPU Tiling Mode.	
+SYSTEM_OPTION_GPU_TILING_1	GPU Tiling Mode kan langzaam draaien op een zwakke PC.
+SYSTEM_OPTION_GPU_TILING_2	Als er problemen zijn met de illustraties, kies 'Systeem Opties‘ of 'CONFIG.exe‘
+SYSTEM_OPTION_GPU_TILING_3	en verander naar GPU Tiling Mode.
+SYSTEM_OPTION_TILING_EXIT	Om naar de Tiling Mode te veranderen moet het spel gerestart worden.
+TARGET_BUTTON_ACCEPT_FIGHT	Toestemmen	
+TARGET_BUTTON_AVENGE	Wraak	
+TARGET_BUTTON_BUILDING_DESTROY	Vernietigen	
+TARGET_BUTTON_DISMOUNT	Afstijgen
+TARGET_BUTTON_EMOTION_ALLOW	Emoties	
+TARGET_BUTTON_EXCHANGE	Handelen	
+TARGET_BUTTON_EXCLUDE	Uitsluiten	
+TARGET_BUTTON_EXIT_OBSERVER	Beëndig Toeschouwer Mode	
+TARGET_BUTTON_FIGHT	Duel	
+TARGET_BUTTON_FRIEND	Vriend	
+TARGET_BUTTON_INVITE_GUILD	Gilde Uitnodiging	
+TARGET_BUTTON_INVITE_PARTY	Groeps Uitnodiging	
+TARGET_BUTTON_LEAVE_PARTY	Verlaat Groep	
+TARGET_BUTTON_REQUEST_ENTER_PARTY	Aansluiten bij Groep	
+TARGET_BUTTON_VIEW_EQUIPMENT	Pantser
+TARGET_BUTTON_WHISPER	Fluisteren	
+TARGET_LEVEL_BOSS	Baas	
+TARGET_LEVEL_KING	Level 5.	
+TARGET_LEVEL_KNIGHT	Level 3.	
+TARGET_LEVEL_PAWN	Level 1.	
+TARGET_LEVEL_S_KNIGHT	Level 4.	
+TARGET_LEVEL_S_PAWN	Level 2.	
+TASKBAR_ATTACK	Aanvallen	
+TASKBAR_AUTO	Automatisch Aanvallen
+TASKBAR_CAMERA	Camera	
+TASKBAR_EXP	Ervaring	
+TASKBAR_HP	LP	
+TASKBAR_MOVE	Beweeg	
+TASKBAR_SKILL	Vaardigheid	
+TASKBAR_SP	TP	
+TASKBAR_ST	UV	
+THING_COUNT	alle	
+TOOLTIP_ANTI_CRITICAL_PCT	Weerstand tegen kritieke slagen +%d%%	SA
+TOOLTIP_ANTI_PENETRATE_PCT	Weerstand tegen perforerende slagen +%d%%	SA
+TOOLTIP_ANTI_SELL	Kan niet verkocht worden in een Warenhuis
+TOOLTIP_APPLY_ACCEDRAIN_RATE	Absorberingswaarde: %d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ANIMAL	Sterk tegen Dieren +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ASSASSIN	Sterk tegen Ninjas +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_DEVIL	Sterk tegen Duivel +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_HUMAN	Sterk tegen Halfmensen +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MILGYO	Sterk tegen Mystici +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MONSTER	Sterk tegen Monster +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ORC	Sterk tegen Orks +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SHAMAN	Sterk tegen Sjamaan +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SURA	Sterk tegen Sura +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_UNDEAD	Sterk tegen Ondoden +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_WARRIOR	Sterk tegen Krijger +%d%%	SA
+TOOLTIP_APPLY_BLEEDING_PCT	Bloedingsaanval + %d%%	SA
+TOOLTIP_APPLY_BLEEDING_REDUCE	Weerstand tegen Bloedingsaanvallen + %d%%	SA
+TOOLTIP_APPLY_BLOCK	%d%% Kans om Aanvallen te blokkeren tegen het Lichaam	SA
+TOOLTIP_APPLY_COMBAT_SP_RECOVER	Herstel TP in 5 seconden in een gevecht %d	SA
+TOOLTIP_APPLY_CRITICAL_PCT	Kans op Kritieke Slag +%d%%	SA
+TOOLTIP_APPLY_DAMAGE_SP_RECOVER	%d%% Kans om TP terug te krijgen wanneer je wordt geraakt	SA
+TOOLTIP_APPLY_DODGE	Kans om Pijlen te ontwijken %d%% 	SA
+TOOLTIP_APPLY_EXP_DOUBLE_BONUS	%d%% Kans op ERV Bonus	SA
+TOOLTIP_APPLY_GOLD_DOUBLE_BONUS	%d%% Kans om dubbele Yang te laten vallen	SA
+TOOLTIP_APPLY_IMMUNE_FALL	Immuun tegen neervallen	SNA
+TOOLTIP_APPLY_IMMUNE_SLOW	Verdediging tegen langzaam maken	SNA
+TOOLTIP_APPLY_IMMUNE_STUN	Verdediging tegen blackouts	SNA
+TOOLTIP_APPLY_ITEM_DROP_BONUS	%d%% Kans om dubbel zo veel Voorwerpen te laten vallen	SA
+TOOLTIP_APPLY_KILL_HP_RECOVER	%d%% Kans om LP te herstellen	SA
+TOOLTIP_APPLY_KILL_SP_RECOVER	%d%% Kans om TP te herstellen	SA
+TOOLTIP_APPLY_MANA_BURN_PCT	%d%% Kans om de TP van de vijand te nemen	SA
+TOOLTIP_APPLY_MAX_HP_PCT	Max. LP +%d%%	SA
+TOOLTIP_APPLY_MAX_SP_PCT	Max. TP +%d%%	SA
+TOOLTIP_APPLY_NOAFFECT	Geen effect	
+TOOLTIP_APPLY_NO_DEATH_PENALTY	Er zullen geen ervaringspunten verloren gaan wanneer je karakter tot leven is gewekt op de plek van zijn dood	SNA
+TOOLTIP_APPLY_PENETRATE_PCT	%d%% Kans op Penetrerende Schoten	SA
+TOOLTIP_APPLY_POISON_PCT	Vergiftigings Kans: %d%%	SA
+TOOLTIP_APPLY_POISON_REDUCE	Vergif Weerstand: %d%% 	SA
+TOOLTIP_APPLY_POTION_BONUS	Brouwsel %d%% effect verhoging	SA
+TOOLTIP_APPLY_REFLECT_CURSE	Kans om vloek te weerkaatsen: %d%% 	SA
+TOOLTIP_APPLY_REFLECT_MELEE	%d%% Kans om directe lichaam slag te weerkaatsen	SA
+TOOLTIP_APPLY_RESIST_ASSASSIN	Verdedigings kans tegen Ninja aanvallen: %d%% 	SA
+TOOLTIP_APPLY_RESIST_BELL	Bel Verdediging %d%% 	SA
+TOOLTIP_APPLY_RESIST_DAGGER	Mes Verdediging %d%% 	SA
+TOOLTIP_APPLY_RESIST_FAN	Waaier Verdediging %d%% 	SA
+TOOLTIP_APPLY_RESIST_SHAMAN	Verdedigings Kans tegen Sjamaam aanvallen: %d%% 	SA
+TOOLTIP_APPLY_RESIST_SURA	Verdedigings Kans tegen Sura aanvallen: %d%% 	SA
+TOOLTIP_APPLY_RESIST_SWORD	Zwaard Verdediging %d%% 	SA
+TOOLTIP_APPLY_RESIST_TWOHAND	Twee-Handig Verdediging %d%% 	SA
+TOOLTIP_APPLY_RESIST_WARRIOR	Verdediging Kans tegen Krijger aanvallen: %d%% 	SA
+TOOLTIP_APPLY_RESIST_WIND	Wind Weerstand %d%% 	SA
+TOOLTIP_APPLY_SKILL_BOOK_BONUS	Kans om van boeken te leren verhoogd met factor 2.5.	SNA
+TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY	Als leren faalt wordt de Gemene Geest Vloek opgeheven.	SNA
+TOOLTIP_APPLY_SLOW_PCT	Langzaam maken Kans: %d%%	SA
+TOOLTIP_APPLY_STEAL_HP	%d%% Schade zal geabsorbeerd worden door LP.	SA
+TOOLTIP_APPLY_STEAL_SP	%d%% Schade zal geabsorbeerd worden door TP	SA
+TOOLTIP_APPLY_STUN_PCT	Kans op Blackout: %d%%	SA
+TOOLTIP_ARMOR	Pantser	
+TOOLTIP_ARROW	Pijl	
+TOOLTIP_ASSASSIN	Ninja	
+TOOLTIP_ATT_GRADE	Aanvals waarde +%d	SA
+TOOLTIP_ATT_SPEED	Aanvals Snelheid +%d	SA
+TOOLTIP_AUTO_POTION_HP	Zon Elixer
+TOOLTIP_AUTO_POTION_REST	Resterend: %.2f%%
+TOOLTIP_AUTO_POTION_SP	Maan Elixer
+TOOLTIP_AUTO_POTION_USING	Actief
+TOOLTIP_BOW_DISTANCE	Boog Bereik +%dm	SA
+TOOLTIP_BUYPRICE	Prijs: %s	
+TOOLTIP_CAST_SPEED	Spreuk Snelheid: +%d%%	SA
+TOOLTIP_CON	Vitaliteit +%d	SA
+TOOLTIP_COSTUME_ATTR_BONUS	Kostuum bonus %d%%	 SA
+TOOLTIP_DEF_GRADE	Verdediging +%d	SA
+TOOLTIP_DEX	Behendigheid +%d	SA
+TOOLTIP_DRAGON_SOUL_DECK1	Aarde	SNA
+TOOLTIP_DRAGON_SOUL_DECK2	Lucht	SNA
+TOOLTIP_EAR	Oorbel	
+TOOLTIP_ENERGY	Energie %d	SA
+TOOLTIP_ETC	En zo voorts	
+TOOLTIP_FISHINGROD_EXP	Punten  %d / %d	
+TOOLTIP_FISHINGROD_LEVEL	Level: %d	
+TOOLTIP_FISHINGROD_UPGRADE1	Geef het aan de Visserman
+TOOLTIP_FISHINGROD_UPGRADE2	om een betere
+TOOLTIP_FISHINGROD_UPGRADE3	Vis Hengel te krijgen.
+TOOLTIP_FISH_LEN	Lengte: %.2fcm	
+TOOLTIP_HELMET	Helm	
+TOOLTIP_HP_REGEN	LP Regeneratie +%d%%	SA
+TOOLTIP_INT	Intelligentie +%d	SA
+TOOLTIP_ITEM_ATT_GRADE	Aanvals Waarde %d	
+TOOLTIP_ITEM_ATT_POWER	Aanvals Waarde %d - %d	
+TOOLTIP_ITEM_ATT_POWER_ONE_ARG	Aanvals Waarde %d	
+TOOLTIP_ITEM_ATT_POWER_REFINE	Aanvals Waarde %d - %d (+%d)	
+TOOLTIP_ITEM_ATT_SPEED	Aanvals Snelheid %s	
+TOOLTIP_ITEM_DEF_GRADE	Verdediging %d	
+TOOLTIP_ITEM_FAST	Snel	
+TOOLTIP_ITEM_LIMIT_CON	Vitaliteits bovengrens: %d
+TOOLTIP_ITEM_LIMIT_DEX	Behendigheids bovengrens: %d
+TOOLTIP_ITEM_LIMIT_INT	Intelligentie Boven Limiet: %d	
+TOOLTIP_ITEM_LIMIT_LEVEL	Van Level: %d	
+TOOLTIP_ITEM_LIMIT_STR	Kracht Boven Limiet: %d	
+TOOLTIP_ITEM_MAGIC_ATT_POWER	Magische Aanvals Waarde %d - %d	
+TOOLTIP_ITEM_MAGIC_ATT_POWER_ONE_ARG	Magische Aanvals Waarde %d	
+TOOLTIP_ITEM_MAGIC_DEF_POWER	Magische Verdediging %d	
+TOOLTIP_ITEM_NORMAL	Normaal	
+TOOLTIP_ITEM_SLOW	Langzaam	
+TOOLTIP_ITEM_VERY_FAST	Heel snel	
+TOOLTIP_ITEM_VERY_SLOW	Heel langzaam	
+TOOLTIP_ITEM_WEARABLE_JOB	[ Draagbaar ]	
+TOOLTIP_LOTTERY_STEP_NUMBER	%d	
+TOOLTIP_LOTTO_NUMBER	Geluks Nummer: %d	
+TOOLTIP_MAGIC_ATTBONUS_PER	Magische aanval +%d%%	SA
+TOOLTIP_MAGIC_ATT_GRADE	Magische Aanvals Waarde +%d	SA
+TOOLTIP_MAGIC_DEF_GRADE	Magische Verdediging +%d	SA
+TOOLTIP_MALL_ATTBONUS	Aanvals Waarde +%d%%	SA
+TOOLTIP_MALL_ATTBONUS_STATIC	Aanvals Waarde +12~15%	SNA
+TOOLTIP_MALL_AUTOLOOT	Een hand die automatisch gevallen Yang opraapt.	SNA
+TOOLTIP_MALL_DEFBONUS	Verdediging +%d%%	SA
+TOOLTIP_MALL_DEFBONUS_STATIC	Verdediging +12~15%	SNA
+TOOLTIP_MALL_EXPBONUS	ERV +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_P_STATIC	iCafe ERV Bonus +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_STATIC	Verhoogt ontvangen ERV met 50%	SNA
+TOOLTIP_MALL_FISH_MIND	Je kans om een zeldzame vis te vangen is verdubbeld.	SNA
+TOOLTIP_MALL_GOLDBONUS	Kans om Yang buit te maken is vermenigvuldigd met %.1f	SA
+TOOLTIP_MALL_GOLDBONUS_STATIC	Verdubbelt je kans om Yang buit te maken	SNA
+TOOLTIP_MALL_ITEMBONUS	Kans om Voorwerpen buit te maken vermenigvuldigd met %.1f	SA
+TOOLTIP_MALL_ITEMBONUS_P_STATIC	iCafe Kans om Voorwerpen buit te maken %.1f%%	SA
+TOOLTIP_MALL_ITEMBONUS_STATIC	Verdubbelt je kansen om Voorwerpen buit te maken	SNA
+TOOLTIP_MALL_MARRIAGE_FAST	Liefdespunten verhogen sneller.	SNA
+TOOLTIP_MALL_SAFEBOX	Je opslag krijgt 2 opslag ruimtes	SNA
+TOOLTIP_MAX_HP	Max. LP +%d	SA
+TOOLTIP_MAX_HP_PCT	Max. LP +%d%%	SA
+TOOLTIP_MAX_SP	Max. TP +%d	SA
+TOOLTIP_MAX_SP_PCT	Max. TP +%d%%	SA
+TOOLTIP_MAX_STAMINA	Max. Uithoudingsvermogen +%d	SA
+TOOLTIP_MELEE_MAGIC_ATTBONUS_PER	Magische/fysieke aanval +%d%%	SA
+TOOLTIP_MEMORIZED_POSITION	%s(%d, %d)	
+TOOLTIP_MEMORIZED_POSITION_ERROR	GPS ERROR(%d, %d)	
+TOOLTIP_MOV_SPEED	Beweeg Snelheid %d%%	SA
+TOOLTIP_NECK	Ketting	
+TOOLTIP_NEED_ALL_SP	Benodigde TP: Max.	
+TOOLTIP_NEED_GSP	Benodigde Drankengeest: %d
+TOOLTIP_NEED_HP	Benodigde LP: %d	
+TOOLTIP_NEED_HP_PER_SEC	LP / Sec.: %d
+TOOLTIP_NEED_SKILL_POINT	Benodigde Vaardigheids Punten:	
+TOOLTIP_NEED_SP	Benodigde TP: %d	
+TOOLTIP_NEED_SP_PER_SEC	TP / Sec.: %d
+TOOLTIP_NEXT_SKILL_LEVEL_1	Volgende Level: %d (Max. %d)	
+TOOLTIP_NEXT_SKILL_LEVEL_2	Volgende Level: %d (Max. %d-%d)	
+TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	Gemiddelde Schade %d%%	SA
+TOOLTIP_NORMAL_HIT_DEFEND_BONUS	Gemiddelde Schade Weerstand %d%%	SA
+TOOLTIP_PARTY_INFO_GRADE_UP1	Meer dan %d Groeps leden.	
+TOOLTIP_PARTY_INFO_GRADE_UP2	Aanvals Level +%d	
+TOOLTIP_PARTY_INFO_GRADE_UP3	Verdedigings Level +%d	
+TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	Herstelet LP/TP voor alle Groepsleden voor 60 minuten.	
+TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	Herstelt LP/TP voor alle Groepsleden voor 30 minuten	
+TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	Je moet 3 minuten wachten na de dood van een groepslid.	
+TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	Je kunt Groepsleden die op dezelfde server zitten altijd roepen.	
+TOOLTIP_PARTY_INFO_SET_ATTACKER	Aanvals Level +(Getal Groepsleden./2) Aanvaller %d kan gekozen worden.	
+TOOLTIP_PARTY_INFO_SET_TANKER	Verdedigings Level +( Getal Groepsleden) Mesvechters 1 kan gekozen worden.	
+TOOLTIP_PARTY_SKILL_LEVEL	Huidige Level: %d	
+TOOLTIP_PARTY_TITLE_GRADE_UP	[Aanval/Verdediging geüpgrade]	
+TOOLTIP_PARTY_TITLE_HEAL	[herstel]	
+TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Wanneer je meer dan %d Groepsleden hebt krijg je %d%% Bonus ERV.	
+TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Bonus ERV]	
+TOOLTIP_PARTY_TITLE_RECALL	[Roep]	
+TOOLTIP_PARTY_TITLE_SET_ATTACKER	[Benoem Aanvaller]	
+TOOLTIP_PARTY_TITLE_SET_TANKER	[Benoem Mes Vechter]	
+TOOLTIP_PICK_EXP	Punten: %d / %d	
+TOOLTIP_PICK_LEVEL	Level: %d	
+TOOLTIP_PICK_UPGRADE1	Geef het aan de Houthakker
+TOOLTIP_PICK_UPGRADE2	om een
+TOOLTIP_PICK_UPGRADE3	Pikhouweel.
+TOOLTIP_POTION_CURE	Heel negative effecten.	
+TOOLTIP_POTION_MIN	Min.	
+TOOLTIP_POTION_PLUS_ATTACK_SPEED	Aanvals snelheid +%d
+TOOLTIP_POTION_PLUS_HP_PERCENT	LP +%d%%
+TOOLTIP_POTION_PLUS_HP_POINT	LP +%d
+TOOLTIP_POTION_PLUS_MOVING_SPEED	Beweeg snelheid +%d
+TOOLTIP_POTION_PLUS_SP_PERCENT	TP +%d%%
+TOOLTIP_POTION_PLUS_SP_POINT	TP +%d
+TOOLTIP_POTION_SEC	Sec.	
+TOOLTIP_POTION_TIME	Duratie:	
+TOOLTIP_REQUIREMENT_21_LEVEL	Je moet Level 21 bereikt hebben.	
+TOOLTIP_REQUIREMENT_41_LEVEL	Je moet Level 41 bereikt hebben.	
+TOOLTIP_REQUIREMENT_LEVEL	Je moet Level %d bereikt hebben.	
+TOOLTIP_REQUIREMENT_SKILL_LEVEL	%s Level %d nodig.	
+TOOLTIP_REQUIREMENT_STAT_LEVEL	%s %d nodig	
+TOOLTIP_RESIST_BOW	Pijl Weerstand %d%%	SA
+TOOLTIP_RESIST_DARK	Weerstand tegen duisternis +%d%%	SA
+TOOLTIP_RESIST_EARTH	Aarde weerstand +%d%%	SA
+TOOLTIP_RESIST_ELEC	Bliksem Weerstand %d%%	SA
+TOOLTIP_RESIST_FIRE	Vuur Weerstand %d%%	SA
+TOOLTIP_RESIST_ICE	Ijsweerstand +%d%%	SA
+TOOLTIP_RESIST_MAGIC	Magie Weerstand %d%%	SA
+TOOLTIP_REST_USABLE_COUNT	Over: %d	
+TOOLTIP_SEALED	Zielsgebonden
+TOOLTIP_SELLPRICE	Prijs: %s	
+TOOLTIP_SHAMAN	Sjamaan	
+TOOLTIP_SHIELD	Schild	
+TOOLTIP_SHOES	Shoenen	
+TOOLTIP_SKILL	Vaardigheden	SNA
+TOOLTIP_SKILLBOOK_NAME	Vaardigheden Boek	
+TOOLTIP_SKILL_AFFECT_ATT_GRADE	Aanvals Waarde: +	
+TOOLTIP_SKILL_AFFECT_ATT_POWER	Aanvals Waarde:	
+TOOLTIP_SKILL_AFFECT_ATT_SPEED	Aanvals Snelheid: +	
+TOOLTIP_SKILL_AFFECT_DEF_GRADE	Verdediging:	
+TOOLTIP_SKILL_AFFECT_DODGE	Opponent Aanvals Waarde: -	
+TOOLTIP_SKILL_AFFECT_HEAL	Herstel LP:	
+TOOLTIP_SKILL_AFFECT_MOV_SPEED	Beweeg Snelheid: +	
+TOOLTIP_SKILL_AFFECT_REFLECT_MELEE	Kans om fysieke aanvallen te weerkaatsen:
+TOOLTIP_SKILL_AFFECT_RESIST_NORMAL	Weertand tegen Lichaam Schade:	
+TOOLTIP_SKILL_COOL_TIME	Laadtijd: 
+TOOLTIP_SKILL_DAMAGE_BONUS	Vaardigheid Schade %d%%	SA
+TOOLTIP_SKILL_DEFEND_BONUS	Weerstand tegen Vaardigheden Schade %d%%	SA
+TOOLTIP_SKILL_DURATION	Duratie: %d Sec.	
+TOOLTIP_SKILL_FORGET_BOOK_NAME	Boek der Vergetelheid	
+TOOLTIP_SKILL_LEVEL	Huidige Level: %d	
+TOOLTIP_SKILL_LEVEL_MASTER	Huidige Level: %d (Meester)	
+TOOLTIP_SKILL_LEVEL_WITH_MAX	Huidige Level: %d (Max. %d)	
+TOOLTIP_SOCKET_EMPTY	Leeg	
+TOOLTIP_SOCKET_REFINABLE_ITEM	[Voorwerp met een fitting]	
+TOOLTIP_SP_REGEN	TP Regeneratie +%d%%	SA
+TOOLTIP_STR	Kracht +%d	SA
+TOOLTIP_SURA	Sura	
+TOOLTIP_TIME_CHARGER_FIX	Tijdopladen %d sec.	SA
+TOOLTIP_TIME_CHARGER_PER	Tijd opladen %d%%	SA
+TOOLTIP_UNIQUE	Uniek	
+TOOLTIP_UNSEAL_LEFT_TIME	Verwijdering van zielsgebonden over: %du %dm
+TOOLTIP_WARRIOR	Krijger	
+TOOLTIP_WEAPON	Wapen	
+TOOLTIP_WRISTLET	Armband
+UI_ACCEPT	Accepteer	
+UI_CANCEL	Annuleer	
+UI_CLOSE	Sluit	
+UI_DEF_FONT	Tahoma:12
+UI_DEF_FONT_LARGE	Tahoma:14
+UI_DEF_FONT_SMALL	Tahoma:9
+UI_DENY	Afwijzen	
+UI_ITEM	Voorwerp	
+UI_LEFT_TIME	Resterende Tijd: %d Sec.	
+UI_NEXT	Doorgaan	
+UI_NEXTPAGE	Volgende
+UI_NOCONTENTS	Geen Inhoud	
+UI_NONAME	Geen Naam	
+UI_OK	OK	
+UI_POS_UNKNOWN	Onbekende Plek	
+UI_PREVPAGE	terug
+UI_UNKNOWN	Onbekend	
+UPLOAD_MARK_CHECK_NEED_RECONNECT	De upload moet opnieuw gestart worden.	
+UPLOAD_MARK_UPLOAD_NEED_RECONNECT	De upload moet opnieuw gestart worden.	
+USE_ITEM_FAILURE_PRIVATE_SHOP	Je kunt voorwerpen niet gebruiken terwijl je privé warenhuis open is.
+USE_SKILL_ERROR_UNKNOWN	Onbekend Vaardigheids Error: %s	

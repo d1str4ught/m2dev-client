@@ -1,0 +1,19 @@
+ScriptType		SkillDataScript
+
+Type			PASSIVE
+949Name			"疙惑"
+949Description	"沥脚仿 雀汗樊 刘啊"
+MaxLevel		"40"
+
+IconFileName	"skill/warrior/tuji.sub"
+List 949AffectData
+{
+	"沥脚仿 雀汗樊 +%.0f%%" "SkillPoint * 5" ""
+}
+
+936Name			"沉思"
+936Description		"增加最大精力值"
+List 936AffectData
+{
+	"精力恢复量 +%.0f%%" "SkillPoint * 5" ""
+}

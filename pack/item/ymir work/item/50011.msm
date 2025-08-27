@@ -1,0 +1,10 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\ymir work\ui\items\etc\50011.sub"
+DropModelFileName     "D:\ymir work\item\etc\jewellery_box.gr2"
+
+
+936Description        "在元旦活动期间打开月光宝盒，可以获得新年礼物"

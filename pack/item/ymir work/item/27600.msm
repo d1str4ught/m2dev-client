@@ -1,0 +1,10 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\ymir work\ui\items\fishing\27600.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
+
+949Description        "葛滴啊 窃膊 绊扁甫 备匡 荐 乐绰 葛蹿阂阑 乔款促"
+936Description        "可以进行烤鱼和取暖用的篝火"

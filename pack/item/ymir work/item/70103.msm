@@ -1,0 +1,9 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\ymir work\ui\items\book\book_45.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
+
+936Description "苦海无涯，回头是岸|放下屠刀，立地成佛"

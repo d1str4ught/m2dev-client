@@ -1,0 +1,20 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/shaman/skill/byeorak.gr2"
+MotionDuration           1.666667
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      10
+        StartingTime         0.321979
+        
+        EffectFileName       "d:/ymir work/pc/shaman/effect/byeorak_2.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        FollowingEnable      0
+        FishingEffectFlag    0
+    }
+}

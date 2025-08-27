@@ -1,0 +1,8 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "d:/ymir work/ui/items/etc/money.sub"
+DropModelFileName     "d:/ymir work/item/etc/money.gr2"
+

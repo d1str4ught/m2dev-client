@@ -1,0 +1,41 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "STANDING_SKILL" "TOGGLE"
+
+NeedSPFormula		"30 + (90 * SkillPoint)"
+ContinuationSPFormula 	"3 + (10*SkillPoint)"
+
+MotionIndex		"15"
+
+
+IconFileName		"skill/sura/muyeong.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"무영진"
+949Description	"주인을 지키는 폭발체를 만든다"
+List 949ConditionData
+{
+	"장거리 공격"
+	"대상 임의 선택"
+	"대상 주변 범위 공격"
+}
+List 949AffectData
+{
+	"마법공격력 : %.0f-%.0f" "30+ 2*lv + 2*iq + (18*iq + 6*minmtk + 200)*ar*k" "30+ 2*lv + 2*iq + (18*iq + 6*maxmtk + 500)*ar*k"
+}
+
+936Name			"愧쥣黎"
+936Description	"磵빱寮훙돨퓻댕空쥣黎랬"
+List 936ConditionData
+{
+	"장거리 공격"
+	"치명타 확률"
+	"대상 임의 선택"
+}
+List 936AffectData
+{
+	"마법공격력 : %.0f-%.0f" "30+3*LV+(4*INT+4*MinMWEP+300)*SkillPoint*HR/100" "30+3*LV+(4*INT+4*MaxMWEP+700)*SkillPoint*HR/100"
+	"지속시간 : %.0f초" "90 + (200 * SkillPoint)" ""
+}

@@ -1,0 +1,7 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         "d:/ymir work/item/weapon/00200.gr2"
+IconImageFileName     "d:/ymir work/ui/items/weapon/00200.sub"
+DropModelFileName     "d:/ymir work/item/weapon/00200.gr2"

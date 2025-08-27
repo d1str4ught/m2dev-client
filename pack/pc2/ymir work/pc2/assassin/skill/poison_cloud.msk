@@ -1,0 +1,35 @@
+ScriptType		SkillDataScript
+
+Type			HIGH
+Attribute		"ATTACK_SKILL" "NEED_TARGET"
+Range			350
+
+949Name			"刀备抚"
+949Description	"林困俊 刀栏肺 备抚阑 父甸绢 利阑 吝刀 矫挪促"
+949Requirement	"刀官福扁" 5
+
+IconFileName	"skill/assassin/poison_cloud.sub"
+MotionIndex		13
+
+List 949AffectData
+{
+	"%.1f 硅狼 鸥拜"	"1 + SkillPoint / 4"	""
+}
+
+List RequireStatData
+{
+	"Level" "31"
+}
+
+MaxLevel			"15"
+LevelUpPoint		"5"
+CoolTimeFormula		"40 - SkillPoint"
+NeedSPFormula		"50"
+
+936Name			"毒云"
+936Description	"使用毒药在敌人的周围形成毒云，造成敌人伤害"
+936Requirement	"毒刃" 5
+List 936AffectData
+{
+	"%.1f 倍的打击"	"1 + SkillPoint / 4"	""
+}

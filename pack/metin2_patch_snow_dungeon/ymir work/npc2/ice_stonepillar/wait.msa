@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:/Ymir Work/npc2/ice_stonepillar/wait.GR2"
+MotionDuration           0.033333
+Accumulation             0.00	0.00	0.00
+

@@ -1,0 +1,45 @@
+TextureSet
+
+TextureCount 04
+
+Start Texture001
+    "D:\YMIR WORK\terrainmaps\Dungeon\field 01.DDS"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture001
+Start Texture002
+    "D:\YMIR WORK\zone\dungeon\snow_dungeon\tile_ice00.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture002
+Start Texture003
+    "D:\YMIR WORK\zone\dungeon\snow_dungeon\tile_rock00.dds"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture003
+Start Texture004
+    "D:\YMIR WORK\terrainmaps\black.DDS"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture004
+

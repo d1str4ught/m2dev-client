@@ -1,0 +1,39 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "WEAPON_LIMITATION"	"CAN_CHANGE_DIRECTION"
+NeedWeapon		"SWORD" "DAGGER" "DOUBLE_SWORD"
+CoolTimeFormula		"25"
+NeedSPFormula		"60 + (150 * SkillPoint)"
+MotionIndex		"6"
+
+
+IconFileName		"skill/assassin/charyun.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"Â÷·û»ì"
+949Description	"ºü¸£°Ô È¸ÀüÇÏ¸ç Àü¹æÀÇ ÀûÀ» º¥´Ù"
+List 949ConditionData
+{
+	"Å»Ãâ ¹üÀ§ °ø°Ý"
+	"Áö¼Ó µ¶ °ø°Ý"
+}
+List 949AffectData
+{
+	"°ø°Ý·Â %.0f-%.0f" "2*minatk + (0.5*minatk + dex*9 + str*7)*k" "2*maxatk + (0.5*maxatk + dex*9 + str*7)*k"
+	"Áßµ¶ È®·ü %.0f%%" "1 + 4*k" ""
+}
+
+936Name			"Ç¬À¤Ðý"
+936Description	"Ç¬À¤µ¹ÖÃ£¬ÉíÐÎÄæ×ª£¬²úÉú¾Þ´óµÄÉËº¦Á¦"
+List 936ConditionData
+{
+	"Å»Ãâ ¹üÀ§ °ø°Ý"
+	"ÀÏÁ¤ È®·ü·Î Áßµ¶"
+}
+List 936AffectData
+{
+	"Å¸°ÝÄ¡ %.0f-%.0f" "MinATK + (0.3*MinATK + 300)*SkillPoint" "MaxATK + (0.3*MaxATK + 300)*SkillPoint"
+	"Áßµ¶·ü %.0f%%" "1 + 4*SkillPoint" ""
+}

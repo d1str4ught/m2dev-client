@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	3	3
+BasePosition	0	0
+TextureSet	textureset\metin2_map_trent.txt
+Environment	trent02.msenv
+

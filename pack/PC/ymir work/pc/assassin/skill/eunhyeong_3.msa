@@ -1,0 +1,22 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\pc\assassin\skill\eunhyeong.GR2"
+MotionDuration           1.333333
+Accumulation           0.00	-637.26	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.075214
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 Footsteps"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/assassin/effect/eunhyeongbeop_3.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

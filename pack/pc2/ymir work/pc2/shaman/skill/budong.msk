@@ -1,0 +1,29 @@
+ScriptType			SkillDataScript
+
+Type				ACTIVE
+Attribute			"ATTACK_SKILL" "NEED_TARGET"
+Range				1200
+
+MaxLevel			"30"
+NeedSPFormula		"130"
+CoolTimeFormula		"25"
+
+949Name				"何悼冠何"
+949Description		"何利狼 塞栏肺 利阑 泪矫悼救 沥瘤 矫挪促"
+
+IconFileName		"skill/shaman/budong.sub"
+MotionIndex			10
+
+List 949AffectData
+{
+	"己傍伏 : 距 %.0f%%" "15 * (10 + SkillPoint) / 10" ""
+	"瘤加矫埃 : %.0f檬" "2 + (SkillPoint / 2)" ""
+}
+
+936Name				"荆棘"
+936Description		"使敌人暂时不能动弹"
+List 936AffectData
+{
+	"成功概率 : 约 %.0f%%" "15 * (10 + SkillPoint) / 10" ""
+	"持续时间 : %.0f秒" "2 + (SkillPoint / 2)" ""
+}

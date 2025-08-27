@@ -1,0 +1,26 @@
+ScriptType		SkillDataScript
+
+Attribute		"STANDING_SKILL" "TOGGLE"
+CoolTimeFormula		"100"
+NeedSPFormula		"60 + (150 * SkillPoint)"
+MotionIndex		"3"
+
+IconFileName		"skill/assassin/gyeonggong.sub"
+
+Type			ACTIVE
+MaxLevel 		"30"
+
+949Name			"版傍贱"
+949Description	"个阑 啊罕霸 窍咯 捞悼 加档甫 臭牢促"
+List 949AffectData
+{
+	"捞悼加档 : +%.0f" "60*SkillPoint" ""
+}
+
+936Name			"轻功"
+936Description	"身轻如燕，提升移动速度"
+List 936AffectData
+{
+	"移动速度 : +%.0f" "5 + 15*SkillPoint" ""
+	"瘤加矫埃 : %.0f檬" "15 + (SkillPoint * 30)" ""
+}

@@ -1,0 +1,3 @@
+GENERAL WAIT stand00.msa 70
+GENERAL WAIT1 stand01.msa 30
+

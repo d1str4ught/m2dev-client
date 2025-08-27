@@ -1,0 +1,42 @@
+ScriptType		SkillDataScript
+
+Type			MIDDLE
+Attribute		"NEED_TARGET" "ONLY_FOR_ALLIANCE" "CAN_USE_FOR_ME"
+949Name			"刀官福扁"
+949Description	"公扁俊 刀阑 官弗促"
+949Requirement	"刀捍 力累" 2
+
+IconFileName	"skill/assassin/enchant_poison.sub"
+
+List 949ConditionData
+{
+	"刀捍 1俺 鞘夸"
+}
+
+List 949AffectData
+{
+	"鸥拜寸 %.0f%% 犬伏肺 吝刀" "SkillPoint * 3" ""
+	"300檬埃 瘤加" "" ""
+}
+
+List RequireStatData
+{
+	"Level" "21"
+}
+
+MaxLevel			"10"
+NeedSPFormula		"150"
+
+936Name			"毒刃"
+936Description	"在武器上施毒，造成敌人中毒"
+936Requirement	"炼毒" 2
+List 936ConditionData
+{
+	"需要毒瓶一个"
+}
+
+List 936AffectData
+{
+	"每攻击一次 %.0f%% 的概率中毒" "SkillPoint * 3" ""
+	"持续300秒" "" ""
+}

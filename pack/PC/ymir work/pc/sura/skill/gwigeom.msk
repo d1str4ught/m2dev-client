@@ -1,0 +1,42 @@
+ScriptType		SkillDataScript
+
+Attribute		"WEAPON_LIMITATION"	"TOGGLE" "STANDING_SKILL"
+NeedWeapon		"SWORD"
+CoolTimeFormula		"100"
+NeedSPFormula		"120 + (210 * SkillPoint)"
+ContinuationSPFormula	"3 + (50 * SkillPoint)"
+MotionIndex		"5"
+
+
+IconFileName		"skill/sura/gwigeom.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"±Í°Ë"
+949Description	"°Ë¿¡ ±Í½ÅÀÇ ÈûÀ» ºÒ¾î ³Ö´Â´Ù"
+List 949ConditionData
+{
+	"±âº» °ø°Ý·Â »ó½Â"
+	"Áö´É º¸³Ê½º"
+	"ÈíÇ÷ °ø°Ý"
+}
+List 949AffectData
+{
+	"°ø°Ý·Â +%.1f" "(5*iq+20) * k" ""
+	"Å¸°ÝÄ¡ %.0f%% ¸¦ »ý¸í·ÂÀ¸·Î Èí¼ö" "10*k" ""
+}
+
+936Name			"½£Ä§"
+936Description	"½£Àï¸³Óè¹íÉñµÄÁ¦Á¿"
+List 936ConditionData
+{
+	"±âº» °ø°Ý¸¸ Àû¿ë"
+}
+List 936AffectData
+{
+	"°ø°Ý·Â +%.1f" "3 + (INT + 10) * SkillPoint" ""
+	"»ó´ë ¹æ¾î·Â -%.0f" "1 + 9*SkillPoint" ""
+	"»ý¸í·Â Èí¼ö %.0f" "1 + 9*SkillPoint" ""
+	"Áö¼Ó½Ã°£ : %.0fÃÊ" "60 + (200 * SkillPoint)" ""
+}

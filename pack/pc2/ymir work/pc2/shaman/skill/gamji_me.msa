@@ -1,0 +1,33 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/shaman/skill/me.gr2"
+MotionDuration           1.666667
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.051282
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/shaman/effect/boho_making.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         1.301703
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 Footsteps"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/shaman/effect/boho.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

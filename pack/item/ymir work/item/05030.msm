@@ -1,0 +1,18 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         "d:/ymir work/item/weapon/05030.gr2"
+IconImageFileName     "d:/ymir work/ui/items/weapon/05030.sub"
+DropModelFileName     "d:/ymir work/item/weapon/05030.gr2"
+
+HitSoundFileName      ""
+List HitEffectFileName
+{
+}
+
+Group AttachingData
+{
+    AttachingDataCount       0
+    
+}

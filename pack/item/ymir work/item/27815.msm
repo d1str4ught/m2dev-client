@@ -1,0 +1,7 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\ymir work\ui\items\etc\27815.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"

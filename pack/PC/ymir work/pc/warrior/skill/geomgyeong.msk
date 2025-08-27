@@ -1,0 +1,37 @@
+ScriptType		SkillDataScript
+
+Attribute		"WEAPON_LIMITATION" "STANDING_SKILL"
+NeedWeapon		"SWORD" "TWO_HANDED"
+CoolTimeFormula		"40 + (20 * SkillPoint)"
+NeedSPFormula		"100 + (200 * SkillPoint)"
+MotionIndex		"7"
+
+
+IconFileName		"skill/warrior/geomgyeong.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"검경"
+949Description		"공격력을 일정시간 동안 증가시킨다"
+
+List 949ConditionData
+{
+	"기본 공격력 상승"
+}
+List 949AffectData
+{
+	"공격력 +%.0f" "(100 + STR) * SkillPoint" ""
+}
+
+936Name			"숲폭"
+936Description	"묑샌제뵨묑샌렀鍋瞳寧땍珂쇌코藤속"
+List 936ConditionData
+{
+	"기본 공격만 적용"
+}
+List 936AffectData
+{
+	"공격력 +%.0f" "100 * SkillPoint" ""
+	"지속시간 : %.0f초" "60 + (90 * SkillPoint)" ""
+}

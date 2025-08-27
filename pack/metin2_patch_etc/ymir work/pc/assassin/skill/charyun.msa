@@ -1,0 +1,136 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\pc\assassin\skill\charyun.GR2"
+MotionDuration           1.400000
+Accumulation           0.00	-637.26	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     8
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.369744
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 Head"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/assassin/effect/charyunsal.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.315897
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 L Foot"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/assassin/effect/charyunsal_foot.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.136410
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 R Foot"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/assassin/effect/charyunsal_foot.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      1
+        StartingTime         0.764615
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 R Foot"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/assassin/effect/charyunsal_foot.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event04
+    {
+        MotionEventType      1
+        StartingTime         0.958462
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 L Foot"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/assassin/effect/charyunsal_foot.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event05
+    {
+        MotionEventType      4
+        StartingTime         0.300000
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        15
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           70.000000
+            Position         0.000000 -50.000000 50.000000
+        }
+    }
+    Group Event06
+    {
+        MotionEventType      4
+        StartingTime         0.600000
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        15
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           70.000000
+            Position         0.000000 -150.000000 50.000000
+        }
+    }
+    Group Event07
+    {
+        MotionEventType      4
+        StartingTime         0.900000
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        15
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           70.000000
+            Position         0.000000 -250.000000 50.000000
+        }
+    }
+}

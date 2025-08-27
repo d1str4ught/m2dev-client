@@ -1,0 +1,10 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\YMIR WORK\ui\Items\etc\25000.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
+
+949Description        "厘厚狼 己瓷阑 +9 鳖瘤 氢惑 矫懦 荐 乐绰 俺樊辑"
+936Description        "装备等级+9的稀有物品"

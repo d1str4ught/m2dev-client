@@ -1,0 +1,34 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/sura/skill/gwigeom.gr2"
+MotionDuration           2.000000
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.340633
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 L Finger2"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/sura/effect/gwigeom_3.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.360097
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 L Finger2"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/sura/effect/gwigeom_make.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

@@ -1,0 +1,10 @@
+ScriptType		SkillDataScript
+
+Type			GUILD
+
+Name			"공간 이동"
+Description		"공간의 문으로 이동을 합니다"
+IconFileName		"skill/guild/gongganidong.sub"
+
+NeedSPFormula		"20"
+MaxLevel			2

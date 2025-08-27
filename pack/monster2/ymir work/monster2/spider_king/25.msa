@@ -1,0 +1,43 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\YMIR WORK\monster2\spider_king\25.GR2"
+MotionDuration           1.333333
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.905110
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bone16"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/monster2/spider_king_25_1.mse"
+        EffectPosition       0.000000 -300.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      4
+        StartingTime         0.905110
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           300.000000
+            Position         0.000000 -300.000000 0.000000
+        }
+    }
+}

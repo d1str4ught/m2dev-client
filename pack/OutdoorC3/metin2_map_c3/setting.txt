@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	4	4
+BasePosition	819200	204800
+TextureSet	textureset\metin2_C3.txt
+Environment	C3.msenv
+

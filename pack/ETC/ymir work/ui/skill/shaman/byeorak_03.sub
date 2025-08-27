@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "SkillShaman.dds"
+left 0
+top 32
+right 32
+bottom 64

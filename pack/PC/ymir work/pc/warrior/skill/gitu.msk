@@ -1,0 +1,31 @@
+ScriptType		SkillDataScript
+
+Type			SUPPORT
+Attribute		"USE_HP"
+IconFileName	"skill/warrior/gitu.sub"
+MotionIndex		11
+
+MaxLevel		"20"
+LevelUpPoint	"5"
+CoolTimeFormula	"10"
+
+949Name			"扁捧摹券"
+949Description	"积疙仿阑 沥脚仿栏肺 官槽促"
+List 949AffectData
+{
+	"家葛 积疙仿 20%%" "" ""
+	"函券 沥脚仿 %.0%%" "5 + SkillPoint" ""
+}
+
+List RequireStatData
+{
+	"Level" "11"
+}
+
+936Name			"血遗"
+936Description		"可以把生命转换为精力"
+List 936AffectData
+{
+	"消耗的生命值 20%%" "" ""
+	"转换的精力 %.0%%" "5 + SkillPoint" ""
+}

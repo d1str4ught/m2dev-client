@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	6	6
+BasePosition	588800	614400
+TextureSet	textureset\metin2_n_flame_01.txt
+Environment	map_n_flame_01.msenv
+

@@ -1,0 +1,27 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "d:/ymir work/zone/b/obj/general_obj_stone02.gr2"
+AttributeFileName     "d:/ymir work/zone/b/obj/general_obj_stone02.mdatr"
+
+Group AttachingData
+{
+    AttachingDataCount       1
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Sphere01"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           89.000000
+            Position         0.000000 0.000000 50.000000
+        }
+    }
+}

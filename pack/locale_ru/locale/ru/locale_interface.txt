@@ -1,0 +1,345 @@
+ACCEPT	Подтвердить
+ATTACH_METIN_INFO	Вы хотите использовать Камень духа?
+ATTACH_METIN_TITLE	Использовать Камень духа
+CANCEL	Отмена
+CHANGE_PASSWORD_CONFIRM	Подтвердить новый пароль
+CHANGE_PASSWORD_NEW	Новый пароль
+CHANGE_PASSWORD_OLD	Старый пароль
+CHANGE_PASSWORD_TITLE	Смена пароля
+CHARACTER_ACTION	Эмоции
+CHARACTER_EMOTICON	Эмоция
+CHARACTER_MAIN	Персонаж
+CHARACTER_MUTUAL_ACTION	Интерактивные эмоции
+CHARACTER_NORMAL_ACTION	Стандартные эмоции
+CHARACTER_QUEST	Миссии
+CHARACTER_SKILL	Навыки
+CLOSE	Закрыть
+COMB_APPEARANCE	Костюм 1
+COMB_ATTRIBUTE	Костюм 2
+COMB_SKILLBOOK_TILE	Обменять книги
+COMB_TITLE	
+COSTUME_TITLE	Костюмы
+COSTUME_WINDOW_TITLE	Костюмы
+CREATE_ATT_GRADE	Сила
+CREATE_CREATE	Создать
+CREATE_DEX_GRADE	Подвижность
+CREATE_HP	ХП
+CREATE_LAST_POINT	Очки
+CREATE_MAN	Мужск.
+CREATE_NAME	Имя
+CREATE_NEXT	Дальше
+CREATE_PREV	Обратно
+CREATE_SEX	Пол
+CREATE_SHAPE	Внешность
+CREATE_SP	Инт.
+CREATE_STAT_RESET	Сброс
+CREATE_WOMAN	Женск.
+CUBE_INFO_TITLE	Книга улучшения
+CUBE_REQUIRE_MATERIAL	Требуемые материалы
+CUBE_REQUIRE_MATERIAL_OR	или
+CUBE_TITLE	Окно улучшения
+DO_REFINE	Улучшить
+DRAGONSOUL_ACTIVATE	Активировать
+DRAGONSOUL_PAGE_BUTTON_1	Необработанный
+DRAGONSOUL_PAGE_BUTTON_2	Обработанный
+DRAGONSOUL_PAGE_BUTTON_3	Редкий
+DRAGONSOUL_PAGE_BUTTON_4	Античный
+DRAGONSOUL_PAGE_BUTTON_5	Легендарный
+DRAGONSOUL_REFINE_WINDOW_TITLE	Окно улучшения
+DRAGONSOUL_TAP_TITLE_1	Алмаз Дракона
+DRAGONSOUL_TAP_TITLE_2	Рубин Дракона
+DRAGONSOUL_TAP_TITLE_3	Нефрит Дракона
+DRAGONSOUL_TAP_TITLE_4	Сапфир Дракона
+DRAGONSOUL_TAP_TITLE_5	Гранат Дракона
+DRAGONSOUL_TAP_TITLE_6	Оникс Дракона
+DRAGONSOUL_TITLE	Алхимия Камней Дракона
+EMPIRE_EXIT	Выход
+EMPIRE_NEXT	Дальше
+EMPIRE_PREV	Обратно
+EMPIRE_SELECT	выбрать
+EXCHANGE_ACCEPT	Принять
+EXCHANGE_TITLE	торговать
+GAMEOPTION_TITLE	Настройки игры
+GAME_EXIT_OBSERVER	Выход из режима Наблюдатель
+GAME_HELP	Помощь
+GAME_QUEST	Задания
+GAME_SKILL_UP	Повысить навык
+GAME_STAT_UP	Повысить статус
+GRADE	Классификация
+GRADE_SELECT	Классификация
+GUILD_BASENAME	Базовое имя
+GUILD_BOARD_ID	Имя
+GUILD_BOARD_REFRESH	Обновить (F5)
+GUILD_BOARD_TEXT	Сообщение
+GUILD_BUILDING_CATEGORY_TITLE	Структурные единицы
+GUILD_BUILDING_CHANGE	Сменить
+GUILD_BUILDING_DIRECTION	Направление
+GUILD_BUILDING_GRADE	Ранг
+GUILD_BUILDING_INFO	Здания и затраты-инфо
+GUILD_BUILDING_LIST_TITLE	Список зданий
+GUILD_BUILDING_LOG	Бревно
+GUILD_BUILDING_NAME	Имя здания
+GUILD_BUILDING_OPERATE	Управлять
+GUILD_BUILDING_PLY	Фанера
+GUILD_BUILDING_POSITION	Расположение
+GUILD_BUILDING_PREVIEW	смотреть
+GUILD_BUILDING_PRICE	Цена
+GUILD_BUILDING_REFRESH	Обновить (F5)
+GUILD_BUILDING_STONE	Камень
+GUILD_BUILDING_TITLE	Сооружение корпуса Гильдии
+GUILD_CRYSTAL	Хрусталь
+GUILD_DEPOSIT	Заплатить
+GUILD_DROP_RESOURCE1	здесь
+GUILD_DROP_RESOURCE2	Выбросить ресурсы
+GUILD_GEM	Самоцвет
+GUILD_GRADE_CHANGE_GRADE_NAME	Сменить ранг
+GUILD_GRADE_NUM	Ранг
+GUILD_GRADE_PERMISSION_DELETE	Исключить
+GUILD_GRADE_PERMISSION_JOIN	Принять
+GUILD_GRADE_PERMISSION_NOTICE	Написать
+GUILD_GRADE_PERMISSION_SKILL	Умения
+GUILD_GRADE_RANK	Ранг
+GUILD_GRADE_WRITE	Написать
+GUILD_INFO	Инфо по Гильдии
+GUILD_INFO_CUR_EXP	Опыт
+GUILD_INFO_DECALRE_WAR	Объявить войну
+GUILD_INFO_ENEMY_GUILD	Вражеская Гильдия
+GUILD_INFO_ENEMY_GUILD_EMPTY	Никакой
+GUILD_INFO_LEVEL	Уровень Гильдии
+GUILD_INFO_MARK	Символ гильдии
+GUILD_INFO_MASTER	Лидер
+GUILD_INFO_MASTER_VALUE	Лидер
+GUILD_INFO_MEMBER_AVG_LEVEL	Средний уровень
+GUILD_INFO_MEMBER_NUM	Количество участников
+GUILD_INFO_NAME	Имя Гильдии
+GUILD_INFO_NAME_VALUE	Это имя Гильдии
+GUILD_INFO_OFFER_EXP	Инвест.
+GUILD_INFO_REST_EXP	Необходимый опыт
+GUILD_INFO_UPLOAD_MARK	Загрузить символ
+GUILD_INFO_UPLOAD_SYMBOL	Загрузить флаг
+GUILD_MARK	Символ гильдии
+GUILD_MEMBER_JOB	Раса
+GUILD_MEMBER_KNIGHT	Лидер
+GUILD_MEMBER_LEVEL	Уровень
+GUILD_MEMBER_NAME	Имя
+GUILD_MEMBER_RANK	Ранг
+GUILD_MEMBER_SPECIFIC_GRAVITY	Инвест.
+GUILD_METIN_STONE	Камень духа
+GUILD_MINENAL	Минерал
+GUILD_MONEY	Янг
+GUILD_NAME	Гильдия
+GUILD_RESOURCE_INFO	Ресурсы
+GUILD_SKILL_ACTIVE	Активный
+GUILD_SKIlL_HEAL_GSP	Зарядить
+GUILD_SKILL_PASSIVE	Пассивный
+GUILD_SKILL_POWER	Энергия
+GUILD_SKILL_STATE	Навыки гильдии
+GUILD_SYMBOL	Флаг гильдии
+GUILD_WAR_ACCEPT	Принять объявление Войны Гильдий
+GUILD_WAR_BATTLE_TYPE	Вид боя
+GUILD_WAR_CTF	Флаг
+GUILD_WAR_DECLARE	Объявить войну Гильдии
+GUILD_WAR_ENEMY	Враг
+GUILD_WAR_NORMAL	Поле битвы
+GUILD_WAR_WARP	Арена
+GUILD_WATER	Вода
+GUILD_WATER_STONE	Аква-камень
+GUILD_WITHDRAW	Взять
+HELP_ATTACK_KEY	Атака: пробел или левая кнопка мыши
+HELP_CHANGE_PK_MODE	Смена режима атаки: изменение настройки левой кнопки мыши
+HELP_CHARACTER_BUTTON1	(Оокно навыков, окно инвентаря
+HELP_CHARACTER_BUTTON2	список друзей и настройки)
+HELP_CONTROL_CAMERA_BY_MIDDLEBUTTON	Изменение обзора: средняя или правая кнопка мыши
+HELP_CONTROL_CAMERA_BY_RIGHTBUTTON	Обзор камеры: правая или средняя кнопка мыши
+HELP_EXP	Опыт
+HELP_FURY	Магазин игровых предметов
+HELP_GUILD_WINDOW	Открыть и закрыть окно гильдии: Alt + G
+HELP_HELP	Справка: Н
+HELP_HP	Очки жизненной энергии (ХП)
+HELP_MESSENGER_WINDOW	Открыть список друзей: Alt + M
+HELP_MOUSE_LEFT	Функция левой кнопки мыши
+HELP_MOUSE_RIGHT	Функция правой кнопки мыши
+HELP_MOVE_KEY	Панель: W, S, A, D или стрелки вверх-влево-вниз-вправо
+HELP_OPEN_CHARACTER	Окно персонажа: С
+HELP_OPEN_CHAT	Окно чата: Enter
+HELP_OPEN_INVENTORY	Окно снаряжения: I
+HELP_OPEN_LOG	Лог чата: L
+HELP_OPEN_MINIMAP	Миникарта: Shift + M
+HELP_OPEN_QUEST	Окно заданий: N
+HELP_OPEN_SKILL	Окно умений: V
+HELP_OPEN_WHISPER	Сообщение шепотом: Shift + Enter
+HELP_OPEN_ZONEMAP	Большая карта: M
+HELP_PICK_ITEM	Подбор предметов: ^, Y или левая кнопка мыши
+HELP_QUICKSLOT	Панель быстрого доступа
+HELP_SCREEN_CAPTURE	Скриншот: клавиша Print Screen (скриншот будет сохранен в "Metin2\screenshot")
+HELP_SHOW_ALL_NAME	Показать имена: А
+HELP_SP	Пункты маны (МП)
+HELP_SYSTEM_BUTTON	Системные клавиши
+INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. Инвентарь
+INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. Инвентарь
+INVENTORY_TITLE	Инвентарь
+ITEM_MALL	Магазин предметов
+LOAD_ERROR	Файл данных повреждён. Попробуйте установить Клиент заново. Нажмите сейчас на ' ESC '.
+LOGIN_CONNECT	Соединить
+LOGIN_CONNECTING	Происходит соединение с сервером.
+LOGIN_DEFAULT_SERVERADDR	Имя сервера, Канал 1
+LOGIN_EXIT	Выход
+LOGIN_REGION_TITLE	Выбрать место для счёта
+LOGIN_SELECT_BUTTON	Выбрать
+LOGIN_SELECT_EXIT	Выход
+LOGIN_SELECT_OK	ОК
+LOGIN_SELECT_TITLE	Выбрать сервер
+MALL_PASSWORD_TITLE	Пароль
+MALL_TITLE	Магазин
+MARKET_TITLE	Загрузка
+MARKLIST_REFRESH	Обновить
+MARKLIST_TITLE	Регистрировать символ гильдии
+MESSAGE	Это-сообщение
+MESSENGER_ADD_FRIEND	Добавить друга
+MESSENGER_DELETE_FRIEND	Удалить друга
+MESSENGER_MOBILE	Послать смс
+MESSENGER_OPEN_GUILD	Открыть окно Гильдии
+MESSENGER_TITLE	Друзья
+MESSENGER_USE_GUILD_MOVE_SKILL	Применяйте навык передвижения Гильдии
+MESSENGER_WHISPER	Шептание
+MINIMIZE	Свернуть
+MOUSEBUTTON_ATTACK	Нападать
+MOUSEBUTTON_AUTO_ATTACK	Нападать автоматически
+MOUSEBUTTON_CAMERA	Камера
+MOUSEBUTTON_SKILL	Навыки
+MUSICLIST_TITLE	Выбор музыки
+NO	Нет
+OK	ОК
+OPTION_ALWAYS_SHOW_NAME	Имя
+OPTION_ALWAYS_SHOW_NAME_OFF	ограничен
+OPTION_ALWAYS_SHOW_NAME_ON	всегда
+OPTION_BLOCK	блокировать
+OPTION_BLOCK_EXCHANGE	Торговать
+OPTION_BLOCK_FRIEND	Друзья
+OPTION_BLOCK_GUILD	Гильдия
+OPTION_BLOCK_PARTY	Группа
+OPTION_BLOCK_PARTY_REQUEST	Заявка
+OPTION_BLOCK_WHISPER	Шептание
+OPTION_CAMERA_DISTANCE	Камера
+OPTION_CAMERA_DISTANCE_LONG	дальний
+OPTION_CAMERA_DISTANCE_SHORT	ближний
+OPTION_DELETE_MOBILE_BUTTON	Удалить номер мобильного тел.
+OPTION_EFFECT	Hit инфо
+OPTION_ENV_EFFECT	Окруж. среда
+OPTION_ENV_EFFECT_OFF	Выкл.
+OPTION_ENV_EFFECT_ON	Вкл.
+OPTION_FOG	Туман
+OPTION_FOG_DENSE	высокий
+OPTION_FOG_LIGHT	низкий
+OPTION_FOG_MIDDLE	Средний
+OPTION_INPUT_MOBILE_BUTTON	ввести номер мобильного тел.
+OPTION_MOBILE	мобильный тел.
+OPTION_MOB_INFO	Данные монстра
+OPTION_MOB_INFO_AGGR	Агрессия
+OPTION_MOB_INFO_LEVEL	Уровень
+OPTION_MUSIC	Музыка
+OPTION_MUSIC_CHANGE	Сменить
+OPTION_MUSIC_DEFAULT_THEMA	Стандартная музыка Метин 2
+OPTION_NAME_COLOR	Цвет имени
+OPTION_NAME_COLOR_EMPIRE	ЦветИмперии
+OPTION_NAME_COLOR_NORMAL	Норм.
+OPTION_NIGHT_MODE	Ночь
+OPTION_NIGHT_MODE_OFF	Выкл.
+OPTION_NIGHT_MODE_ON	Вкл.
+OPTION_PVPMODE	PvP-режим
+OPTION_PVPMODE_FREE	Свободн
+OPTION_PVPMODE_FREE_TOOLTIP	Вы можете нападать на всех игроков.
+OPTION_PVPMODE_GUILD	Гильдия
+OPTION_PVPMODE_GUILD_TOOLTIP	Вы можете нападать на всех игроков за исключением членов Гильдии.
+OPTION_PVPMODE_PEACE	Мир
+OPTION_PVPMODE_PEACE_TOOLTIP	Атака игроков одной империи исключена.
+OPTION_PVPMODE_REVENGE	Враждебн
+OPTION_PVPMODE_REVENGE_TOOLTIP	Вы можете нападать только на игроков другой рассы.
+OPTION_SALESTEXT	Название магазина
+OPTION_SALESTEXT_VIEW_OFF	спрятать
+OPTION_SALESTEXT_VIEW_ON	показывать
+OPTION_SNOW_MODE	Снегопад
+OPTION_SNOW_MODE_OFF	Выкл.
+OPTION_SNOW_MODE_ON	Вкл.
+OPTION_SNOW_TEXTURE_MODE	Снег
+OPTION_SNOW_TEXTURE_MODE_OFF	Выкл.
+OPTION_SNOW_TEXTURE_MODE_ON	Вкл.
+OPTION_SOUND	Звуковые эффекты
+OPTION_TARGET_BOARD	Меню
+OPTION_TARGET_BOARD_NO_VIEW	Закрыть
+OPTION_TARGET_BOARD_VIEW	Показывать
+OPTION_TILING	графический
+OPTION_TILING_APPLY	применить
+OPTION_TILING_CPU	CPU
+OPTION_TILING_GPU	GPU
+OPTION_TITLE	Настройки
+OPTION_VIEW_CHAT	строка чата
+OPTION_VIEW_CHAT_OFF	спрятать
+OPTION_VIEW_CHAT_ON	показывать
+PARTY_MEMBER_INFO_NAME	Имя участника группы
+PASSWORD_DESC_1	Введите ваш пароль
+PASSWORD_DESC_2	для того, чтобы открыть хранилище.
+PASSWORD_DESC_3	Пароль уже изменен?
+PASSWORD_DESC_4	Если нет, то ваш пароль: "000000".
+PASSWORD_DESC_5	Поменяйте пароль на складе.
+PASSWORD_TITLE	Сохраненный пароль
+PICK_MONEY_TITLE	Делить
+PRIVATE_SHOP_CLOSE_BUTTON	Закрыть лавку
+PRIVATE_SHOP_NAME	Имя лавки
+PRIVATE_SHOP_TITLE	Открыть частную лавку
+REFINE_COST	Затраты  на улучшение: 0 янг
+REFINE_INFO	Вероятность успешного улучшения: 100%
+REFINE_MONEY	Плата за улучшение
+REFINE_SELECT	Улучшение
+REFINE_TTILE	Улучшения
+REPORT_VIOLENT_WHISPER	
+RESTART_HERE	Начать заново здесь
+RESTART_TOWN	Начать заново в городе
+SAFE_CHANGE_PASSWORD	сменить пароль
+SAFE_TITLE	Хранилище
+SELECT_ATT_GRADE	Сила
+SELECT_CREATE	Создать
+SELECT_DELETE	Удалить
+SELECT_DEX_GRADE	Подвижность
+SELECT_EMPIRE_NAME	Имя Империи
+SELECT_EXIT	Выход
+SELECT_HP	Здоровье
+SELECT_LEVEL	Уровень
+SELECT_METIN_STONE_TITLE	Выбрать Камень духа
+SELECT_NAME	Имя
+SELECT_NO_GUILD	Нет гильдии
+SELECT_PLAYTIME	Игровое время
+SELECT_SELECT	Старт
+SELECT_SP	Интеллект
+SELECT_TITLE	Выбрать звание
+SHOP_BUY	Купить
+SHOP_SELL	продать
+SHOP_TITLE	Магазин
+SKILL_SUPPORT_TITLE	Стандартные навыки
+STEP	Чистота
+STEP_SELECT	Чистота
+STRENGTH	Усиление
+STRENGTH_SELECT	Уровень
+SYSTEMOPTION_TITLE	Системные настройки
+SYSTEM_CHANGE	Сменить персонаж
+SYSTEM_EXIT	Выйти из игры
+SYSTEM_HELP	Помощь
+SYSTEM_LOGOUT	Выход
+SYSTEM_MALL	Магазин предметов
+SYSTEM_OPTION	Системные настройки
+TASKBAR_CHARACTER	Персонаж  [C/V/B/N]
+TASKBAR_CHAT	Окно чата [Enter]
+TASKBAR_DISABLE	Неактивно
+TASKBAR_DRAGON_SOUL	Алхимия Камней Дракона
+TASKBAR_EXPAND	Увеличить окно
+TASKBAR_INVENTORY	Инвентарь [I]
+TASKBAR_MESSENGER	Друзья [Alt+M]
+TASKBAR_NEXT_QUICKSLOT	Следующ. панель быстрого доступа [ Shift+число, Alt]
+TASKBAR_PREV_QUICKSLOT	Предыдущ. панель быстрого доступа [Shift+число]
+TASKBAR_SYSTEM	Параметры  [ESC]
+WHISPER_BAN	Блокировать
+WHISPER_NAME	Шептать
+WHISPER_REPORT	
+WHISPER_SEND	Отправить
+YES	да
+ZONE_MAP	Большая карта

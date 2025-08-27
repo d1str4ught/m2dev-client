@@ -1,0 +1,32 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "d:/ymir work/guild/facility/yonggwangro/yonggwangro.GR2"
+AttributeFileName     "d:/ymir work/guild/facility/yonggwangro/yonggwangro.mdatr"
+
+Group ShapeData
+{
+    PathName 		 ""
+    ShapeDataCount 		 0
+}
+Group AttachingData
+{
+    AttachingDataCount       1
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "yonggwangro02"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           169.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+}

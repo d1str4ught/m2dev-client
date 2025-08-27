@@ -1,0 +1,38 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "NEED_TARGET" "WEAPON_LIMITATION"
+NeedWeapon		"BOW"
+CoolTimeFormula		"25"
+NeedSPFormula		"60 + (160 * SkillPoint)"
+Range			"2500"
+MotionIndex		"10"
+
+IconFileName		"skill/assassin/hwajo.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"拳炼颇"
+949Description	"拳混俊 阂采狼 塞阑 标甸咯 金促"
+List 949ConditionData
+{
+	"厘芭府 傍拜"
+	"措惑 林函 裹困 傍拜"
+	"拳堪 傍拜"
+}
+List 949AffectData
+{
+	"傍拜仿 %.0f-%.0f" "1.5*minatk + (2.6*minatk + 100 )*k" "1.5*maxatk + (2.6*maxatk + 300 )*k"
+}
+
+936Name			"贯日箭"
+936Description	"将射日之力，贯穿箭身。对敌人造成伤害"
+List 936ConditionData
+{
+	"厘芭府 傍拜"
+	"措惑 林函 裹困 傍拜"
+}
+List 936AffectData
+{
+	"傍拜仿 %.0f-%.0f" "MinATK + (1.5*MinATK + 300)*SkillPoint" "MaxATK + (1.5*MaxATK + 500)*SkillPoint"
+}

@@ -1,0 +1,43 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "NEED_TARGET"
+CoolTimeFormula		"12"
+NeedSPFormula		"120"
+Range			"2500"
+MotionIndex		"7"
+
+
+IconFileName		"skill/sura/geomhwan.sub"
+
+Type			MIDDLE
+MaxLevel		"30"
+
+
+949Name			"付券拜"
+949Description		"绢狄狼 扁甫 带廉 利俊霸 乔秦甫 涝腮促"
+
+List 949ConditionData
+{
+	"厘芭府 傍拜"
+	"措惑 林函 傍拜"
+}
+
+List 949AffectData
+{
+	"付过傍拜仿 %.0f-%.0f" "120 + 6*lv + (5 * con + 5 * dex + 40*iq + 12*minmtk)*ar*k" "120 + 6*lv + (5 * con + 5 * dex + 40*iq + 12*maxmtk)*ar*k"
+}
+
+936Name			"魂灭"
+936Description		"吸取地狱怨气，对敌人造成伤害"
+
+List 936ConditionData
+{
+	"群体攻击"
+	"随智力提升，造成的伤害也将加强"
+}
+
+List 936AffectData
+{
+	"破坏力: %.0f"	"(INT * 2 + 30) * (10 + SkillPoint) / 10" ""
+}
+

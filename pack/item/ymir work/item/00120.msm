@@ -1,0 +1,53 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         "d:/ymir work/item/weapon/00120.gr2"
+IconImageFileName     "d:/ymir work/ui/items/weapon/00120.sub"
+DropModelFileName     "d:/ymir work/item/weapon/00120.gr2"
+
+HitSoundFileName      ""
+List HitEffectFileName
+{
+}
+
+Group AttachingData
+{
+    AttachingDataCount       2
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Object01"
+        
+        CollisionType        2
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           20.000000
+            Position         0.000000 0.000000 95.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Object01"
+        
+        CollisionType        2
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           20.000000
+            Position         0.000000 0.000000 55.000000
+        }
+    }
+}

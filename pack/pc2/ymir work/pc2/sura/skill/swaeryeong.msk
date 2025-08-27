@@ -1,0 +1,38 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "NEED_TARGET" "MELEE_ATTACK"
+CoolTimeFormula		"10"
+NeedSPFormula		"30 + (90 * SkillPoint)"
+MotionIndex		"11"
+
+
+IconFileName	"skill/sura/swaeryeong.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"쇄령지"
+949Description	"손가락 끝에서 강력한 폭발을 일으킨다"
+List 949ConditionData
+{
+	"전방 범위 공격"
+	"상대 방어 무시 효과"
+	"지능 보너스"
+}
+List 949AffectData
+{
+	"공격력 %.0f-%.0f" "minatk + 2*lv + iq*2 + (2*minatk + str*4 + iq*14) * k" "maxatk + 2*lv + iq*2 + (2*maxatk + str*4 + iq*14) * k"
+	"상대 방어 무시 확률 %.0f%%" "1 + 9*SkillPoint" ""
+}
+
+936Name			"鉅산寧"
+936Description	"침寧多폅퓻죠돨괵珞，묑샌둔훙"
+List 936ConditionData
+{
+	"전방 주변 범위 공격"
+}
+List 936AffectData
+{
+	"공격력 %.0f-%.0f" "MinATK + (0.6*MinATK + 700) * SkillPoint" "MaxATK + (0.6*MaxATK + 700) * SkillPoint"
+	"상대 방어 무시 확률 %.0f%%" "1 + 4*SkillPoint" ""
+}

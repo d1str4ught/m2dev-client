@@ -1,0 +1,33 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/shaman/skill/yongsin.gr2"
+MotionDuration           2.000000
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.729927
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/shaman/effect/yongsin.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.048662
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/shaman/effect/yongsin_start.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

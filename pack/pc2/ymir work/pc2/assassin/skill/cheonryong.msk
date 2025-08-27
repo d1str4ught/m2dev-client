@@ -1,0 +1,47 @@
+ScriptType		SkillDataScript
+
+Type			MIDDLE
+Attribute		"ATTACK_SKILL" "WEAPON_LIMITATION" "NEED_TARGET"
+NeedWeapon		"SWORD" "DAGGER" "DOUBLE_SWORD"
+Range			800
+
+949Name			"玫锋眠鸥"
+949Description	"鉴埃利栏肺 利俊霸 立辟秦 老拜阑 啊茄促"
+949Requirement	"泵脚藕康" 7
+
+IconFileName	"skill/assassin/cheonryong.sub"
+MotionIndex		4
+
+List 949ConditionData
+{
+	"林函狼 利甸俊霸 1/2 单固瘤"
+	"窜八老锭 颇鲍仿 50% 刘啊"
+}
+
+List 949AffectData
+{
+	"颇鲍仿 : %.1f硅"	"(SkillPoint * 35 + 200) / 100" ""
+}
+
+List RequireStatData
+{
+	"Level" "21"
+}
+
+MaxLevel			"25"
+NeedSPFormula		"100"
+CoolTimeFormula		"12"
+
+936Name			"影击"
+936Description		"如影子般，瞬间接近敌人给予致命一击"
+936Requirement	"魅影" 7
+List 936ConditionData
+{
+	"对周围敌人产生一定伤害"
+	"短剑时增加50%破坏力"
+}
+
+List 936AffectData
+{
+	"破坏力: %.1f倍"	"(SkillPoint * 35 + 200) / 100" ""
+}

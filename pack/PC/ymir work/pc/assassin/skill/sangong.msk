@@ -1,0 +1,46 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "NEED_TARGET"
+CoolTimeFormula		"15"
+NeedSPFormula		"50"
+
+MotionIndex		"13"
+
+
+IconFileName		"skill/assassin/sangong.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name		"魂傍盒"
+949Description	"林困俊 刀栏肺 备抚阑 父甸绢 利阑 吝刀 矫挪促"
+
+List 949ConditionData
+{
+	"厘芭府 傍拜"
+	"措惑 林函 裹困 傍拜"
+	"瘤加 刀 傍拜"
+}
+
+List 949AffectData
+{
+	"傍拜仿 %.0f-%.0f" "lv*2+(minatk + str*3 + dex*18)*k" "lv*2+(maxatk + str*3 + dex*18)*k"
+	"吝刀 犬伏 %.0f%%" "40*k" ""
+	"吝刀 矫埃 %.0f檬" "5+25*k" ""
+}
+
+936Name			"毒云"
+936Description	"使用毒药在敌人的周围形成毒云，造成敌人伤害"
+
+
+List 936ConditionData
+{
+	"厘芭府 傍拜"
+	"措惑 林函 裹困 傍拜"
+	"刀 傍拜"
+}
+
+List 936AffectData
+{
+	"%.1f 倍的打击"	"1 + SkillPoint / 4"	""
+}

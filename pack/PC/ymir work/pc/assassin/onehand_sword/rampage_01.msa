@@ -1,0 +1,21 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\pc\assassin\onehand_sword\rampage_01.GR2"
+MotionDuration           1.333333
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.087591
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/warrior/effect/rampage_start.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

@@ -1,0 +1,21 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\pc\warrior\onehand_sword\rampage_03.GR2"
+MotionDuration           0.666667
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.022709
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 Spine"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/warrior/effect/rampage_end.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

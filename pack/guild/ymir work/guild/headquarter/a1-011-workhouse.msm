@@ -1,0 +1,27 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "d:/ymir work/guild/headquarter/a1-010-bank/a1-010-bank.GR2"
+AttributeFileName     "d:/ymir work/guild/headquarter/a1-010-bank/a1-010-bank.mdatr"
+
+Group AttachingData
+{
+    AttachingDataCount       1
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "a1-011-workhouse-03"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           550.000000
+            Position         0.000000 100.000000 300.000000
+        }
+    }
+}

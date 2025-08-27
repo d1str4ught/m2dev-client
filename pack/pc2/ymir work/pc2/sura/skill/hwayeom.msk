@@ -1,0 +1,36 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "STANDING_SKILL"
+CoolTimeFormula		"12"
+NeedSPFormula 		"60 + (120 * SkillPoint)"
+
+MotionIndex		17
+
+
+IconFileName		"skill/sura/hwayeom.sub"
+
+Type			ACTIVE
+MaxLevel 		"30"
+
+949Name			"拳堪气"
+949Description	"气惯阑 老栏难 林函狼 利阑 阂怕款促"
+List 949ConditionData
+{
+	"力磊府 林函 裹困 傍拜"
+	"拳堪 傍拜"
+}
+List 949AffectData
+{
+	"付过傍拜仿 : %.0f-%.0f" "5*lv + 2*iq + (20*iq + 8*mtk + str*4 + con*2 + 180 )*k" "5*lv + 2*iq + (20*iq + 8*mtk + str*4 + con*2 + 200 )*k"
+}
+
+936Name			"黑龙破"
+936Description	"黑龙爆发出体内的火焰，燃烧周围的敌人"
+List 936ConditionData
+{
+	"力磊府 林函 裹困 傍拜"
+}
+List 936AffectData
+{
+	"付过傍拜仿 : %.0f-%.0f" "70+5*LV+(7*INT+6*MinMWEP+500)*SkillPoint*HR/100" "70+5*LV+(7*INT+6*MaxMWEP+500)*SkillPoint*HR/100"
+}

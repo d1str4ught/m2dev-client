@@ -1,0 +1,21 @@
+ScriptType		SkillDataScript
+
+Type			PASSIVE
+949Name			"付己规绢"
+949Description	"贱过俊 措茄 历亲仿阑 碍拳茄促"
+
+IconFileName	"skill/sura/maseong.sub"
+List 949AffectData
+{
+	"付过 规绢仿 : +%.0f" "SkillPoint / 2" ""
+}
+
+MaxLevel			"20"
+LevelUpPoint		"2"
+
+936Name				"灵盾术"
+936Description		"召唤盾灵护体，减少魔法的伤害"
+List 936AffectData
+{
+	"魔法防御力 : +%.0f"	"SkillPoint / 2"	""
+}

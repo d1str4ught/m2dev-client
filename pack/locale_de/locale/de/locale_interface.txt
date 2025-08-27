@@ -1,0 +1,326 @@
+ACCEPT	Bestätigen
+ATTACH_METIN_INFO	Willst du den Geiststein einsetzen?
+ATTACH_METIN_TITLE	Geiststein einsetzen
+CANCEL	Abbruch
+CHANGE_PASSWORD_CONFIRM	Neues Passwort bestätigen
+CHANGE_PASSWORD_NEW	Neues Passwort
+CHANGE_PASSWORD_OLD	Altes Passwort
+CHANGE_PASSWORD_TITLE	Passwortänderung
+CHARACTER_ACTION	Aktionen
+CHARACTER_EMOTICON	Emotion
+CHARACTER_MAIN	Charakter
+CHARACTER_MUTUAL_ACTION	Interaktive Aktionen
+CHARACTER_NORMAL_ACTION	Normale Aktionen
+CHARACTER_QUEST	Missionen
+CHARACTER_SKILL	Fertigkeiten
+CLOSE	Schließen
+COSTUME_TITLE	Kostüme
+COSTUME_WINDOW_TITLE	Kostüme
+CREATE_ATT_GRADE	STR
+CREATE_CREATE	Erstellen
+CREATE_DEX_GRADE	DEX
+CREATE_HP	VIT
+CREATE_LAST_POINT	Punkte
+CREATE_MAN	Mann
+CREATE_NAME	Name
+CREATE_NEXT	Weiter
+CREATE_PREV	Zurück
+CREATE_SEX	Geschlecht
+CREATE_SHAPE	Aussehen
+CREATE_SP	INT
+CREATE_STAT_RESET	Zurück
+CREATE_WOMAN	Frau
+CUBE_INFO_TITLE	Veredelungshandbuch
+CUBE_REQUIRE_MATERIAL	Erforderliche Materialien
+CUBE_REQUIRE_MATERIAL_OR	oder
+CUBE_TITLE	Veredelungsfenster
+DO_REFINE	Veredeln
+DRAGONSOUL_ACTIVATE	Aktivieren
+DRAGONSOUL_PAGE_BUTTON_1	Roh
+DRAGONSOUL_PAGE_BUTTON_2	Schliff
+DRAGONSOUL_PAGE_BUTTON_3	Rar
+DRAGONSOUL_PAGE_BUTTON_4	Antik
+DRAGONSOUL_PAGE_BUTTON_5	Legendär
+DRAGONSOUL_REFINE_WINDOW_TITLE	Veredelungsfenster
+DRAGONSOUL_TAP_TITLE_1	Drachendiamant
+DRAGONSOUL_TAP_TITLE_2	Drachenrubin
+DRAGONSOUL_TAP_TITLE_3	Drachenjade
+DRAGONSOUL_TAP_TITLE_4	Drachensaphir
+DRAGONSOUL_TAP_TITLE_5	Drachengranat
+DRAGONSOUL_TAP_TITLE_6	Drachenonyx
+DRAGONSOUL_TITLE	Drachensteinalchemie
+EMPIRE_EXIT	Beenden
+EMPIRE_NEXT	Weiter
+EMPIRE_PREV	Zurück
+EMPIRE_SELECT	Wählen
+EXCHANGE_ACCEPT	Annehmen
+EXCHANGE_TITLE	Handeln
+GAMEOPTION_TITLE	Spieloptionen
+GAME_EXIT_OBSERVER	Zuschauermodus beenden
+GAME_HELP	Hilfe
+GAME_QUEST	Aufgaben
+GAME_SKILL_UP	Fertigkeit erhöhen
+GAME_STAT_UP	Status erhöhen
+GRADE	Klasse
+GRADE_SELECT	Klasse
+GUILD_BASENAME	Basisname
+GUILD_BOARD_ID	Name
+GUILD_BOARD_REFRESH	Aktualisieren (F5)
+GUILD_BOARD_TEXT	Nachricht
+GUILD_BUILDING_CATEGORY_TITLE	Baueinheiten
+GUILD_BUILDING_CHANGE	Wechseln
+GUILD_BUILDING_DIRECTION	Ausrichtung
+GUILD_BUILDING_GRADE	Rang
+GUILD_BUILDING_INFO	Gebäude- und Kosteninformationen
+GUILD_BUILDING_LIST_TITLE	Gebäudeliste
+GUILD_BUILDING_LOG	Stamm
+GUILD_BUILDING_NAME	Gebäudename
+GUILD_BUILDING_OPERATE	Bedienen
+GUILD_BUILDING_PLY	Sperrholz
+GUILD_BUILDING_POSITION	Lage
+GUILD_BUILDING_PREVIEW	Vorschau
+GUILD_BUILDING_PRICE	Preis
+GUILD_BUILDING_REFRESH	Aktualisieren (F5)
+GUILD_BUILDING_STONE	Fu.stein
+GUILD_BUILDING_TITLE	Gildenhausbau
+GUILD_CRYSTAL	Kristall
+GUILD_DEPOSIT	Zahlen
+GUILD_DROP_RESOURCE1	hier
+GUILD_DROP_RESOURCE2	Ressource fallen lassen
+GUILD_GEM	Edelstein
+GUILD_GRADE_CHANGE_GRADE_NAME	Neuer Rangname
+GUILD_GRADE_NUM	Nr.
+GUILD_GRADE_PERMISSION_DELETE	Entlassen
+GUILD_GRADE_PERMISSION_JOIN	Einladen
+GUILD_GRADE_PERMISSION_NOTICE	Schreiben
+GUILD_GRADE_PERMISSION_SKILL	Fertigkeiten
+GUILD_GRADE_RANK	Rang
+GUILD_GRADE_WRITE	Schreiben
+GUILD_INFO	Gildeninformationen
+GUILD_INFO_CUR_EXP	Erfahrung
+GUILD_INFO_DECALRE_WAR	Krieg erklären
+GUILD_INFO_ENEMY_GUILD	Feindliche Gilde
+GUILD_INFO_ENEMY_GUILD_EMPTY	Keine
+GUILD_INFO_LEVEL	Gilden-Level
+GUILD_INFO_MARK	Gildenzeichen
+GUILD_INFO_MASTER	Leader
+GUILD_INFO_MASTER_VALUE	Leader
+GUILD_INFO_MEMBER_AVG_LEVEL	Durchschnittliches Level
+GUILD_INFO_MEMBER_NUM	Mitgliederzahl
+GUILD_INFO_NAME	Gildenname
+GUILD_INFO_NAME_VALUE	Dies ist ein Gildenname
+GUILD_INFO_OFFER_EXP	Invest.
+GUILD_INFO_REST_EXP	Nötige Erfahrung
+GUILD_INFO_UPLOAD_MARK	Zeichen hochladen
+GUILD_INFO_UPLOAD_SYMBOL	Flagge hochladen
+GUILD_MARK	Gildenzeichen
+GUILD_MEMBER_JOB	Klasse
+GUILD_MEMBER_KNIGHT	Leader
+GUILD_MEMBER_LEVEL	Level
+GUILD_MEMBER_NAME	Name
+GUILD_MEMBER_RANK	Rang
+GUILD_MEMBER_SPECIFIC_GRAVITY	Invest.
+GUILD_METIN_STONE	Geiststein
+GUILD_MINENAL	Mineral
+GUILD_MONEY	Yang
+GUILD_NAME	Gilde
+GUILD_RESOURCE_INFO	Ressourceninformationen
+GUILD_SKILL_ACTIVE	Aktiv
+GUILD_SKIlL_HEAL_GSP	Aufladen
+GUILD_SKILL_PASSIVE	Passiv
+GUILD_SKILL_POWER	Energie
+GUILD_SKILL_STATE	Fertigkeit der Gilde
+GUILD_SYMBOL	Gildenflagge
+GUILD_WAR_ACCEPT	Gildenkriegserklärung annehmen
+GUILD_WAR_BATTLE_TYPE	Kampfart
+GUILD_WAR_CTF	Flagge
+GUILD_WAR_DECLARE	Gildenkrieg erklären
+GUILD_WAR_ENEMY	Gegner
+GUILD_WAR_NORMAL	Feld
+GUILD_WAR_WARP	Arena
+GUILD_WATER	Wasser
+GUILD_WATER_STONE	Wasserstein
+GUILD_WITHDRAW	Nehmen
+HELP_ATTACK_KEY	Angreifen: linke Maustaste oder Leertaste
+HELP_CHANGE_PK_MODE	Angriffsmodus wechseln: Belegung der linken Maustaste ändern
+HELP_CHARACTER_BUTTON1	(Charakterfenster, Inventarfenster,
+HELP_CHARACTER_BUTTON2	Freundesliste und Optionen)
+HELP_CONTROL_CAMERA_BY_MIDDLEBUTTON	Kamerasicht: mittlere oder rechte Maustaste
+HELP_CONTROL_CAMERA_BY_RIGHTBUTTON	Kamerasicht: rechte oder mittlere Maustaste
+HELP_EXP	Erfahrung
+HELP_FURY	Ingame Item-Shop
+HELP_GUILD_WINDOW	Gildenfenster öffnen: Alt + G
+HELP_HELP	Hilfe anzeigen: H
+HELP_HP	Trefferpunkte (TP)
+HELP_MESSENGER_WINDOW	Freundesliste öffnen: Alt + M
+HELP_MOUSE_LEFT	Funktion der linken Maustaste
+HELP_MOUSE_RIGHT	Funktion der rechten Maustaste
+HELP_MOVE_KEY	Steuerung: W, A, S, D oder Pfeiltasten
+HELP_OPEN_CHARACTER	Charakterfenster öffnen: C
+HELP_OPEN_CHAT	Chat-Fenster öffnen: Enter
+HELP_OPEN_INVENTORY	Inventarfenster öffnen: I
+HELP_OPEN_LOG	Chat-Protokoll (Log) öffnen: L
+HELP_OPEN_MINIMAP	Minikarte öffnen: Shift + M
+HELP_OPEN_QUEST	Auftragsfenster öffnen: N
+HELP_OPEN_SKILL	Fertigkeitenfenster öffnen: V
+HELP_OPEN_WHISPER	Flüsterfenster öffnen: Shift + Enter
+HELP_OPEN_ZONEMAP	Übersichtskarte öffnen: M
+HELP_PICK_ITEM	Gegenstände aufheben: ^ oder Y oder linke Maustaste
+HELP_QUICKSLOT	Schnellzugriffsfelder
+HELP_SCREEN_CAPTURE	Screenshot speichern: Druck bzw. Print (Speicherort ist der Ordner "Metin2\screenshot")
+HELP_SHOW_ALL_NAME	Namen anzeigen: Alt
+HELP_SP	Manapunkte (MP)
+HELP_SYSTEM_BUTTON	Systemtasten
+INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. Inventar
+INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. Inventar
+INVENTORY_TITLE	Inventar
+ITEM_MALL	Item-Shop
+LOAD_ERROR	Die Datendatei ist beschädigt. Bitte Client neu installieren. Drücke jetzt die Taste ESC.
+LOGIN_CONNECT	Verbinden
+LOGIN_CONNECTING	Du wirst mit dem Server verbunden.
+LOGIN_DEFAULT_SERVERADDR	Servername, Channel 1
+LOGIN_EXIT	Beenden
+LOGIN_REGION_TITLE	Ort für die Rechnungsstellung wählen
+LOGIN_SELECT_BUTTON	Wählen
+LOGIN_SELECT_EXIT	Beenden
+LOGIN_SELECT_OK	OK
+LOGIN_SELECT_TITLE	Server wählen
+MALL_PASSWORD_TITLE	Passwort
+MALL_TITLE	Itemshop-Lager
+MARKET_TITLE	Laden
+MARKLIST_REFRESH	Aktualisieren
+MARKLIST_TITLE	Gildenzeichen registrieren
+MESSAGE	Dies ist eine Nachricht
+MESSENGER_ADD_FRIEND	Freund hinzufügen
+MESSENGER_DELETE_FRIEND	Freund löschen
+MESSENGER_MOBILE	SMS senden
+MESSENGER_OPEN_GUILD	Gildenfenster öffnen
+MESSENGER_TITLE	Freunde
+MESSENGER_USE_GUILD_MOVE_SKILL	Verwende die Gildenbewegungsfertigkeit
+MESSENGER_WHISPER	Flüstern
+MINIMIZE	Minimieren
+MOUSEBUTTON_ATTACK	Angreifen
+MOUSEBUTTON_AUTO_ATTACK	Automatisch angreifen
+MOUSEBUTTON_CAMERA	Kamera
+MOUSEBUTTON_SKILL	Fertigkeiten
+MUSICLIST_TITLE	Musikauswahl
+NO	Nein
+OK	OK
+OPTION_ALWAYS_SHOW_NAME	Name
+OPTION_ALWAYS_SHOW_NAME_OFF	begrenzt
+OPTION_ALWAYS_SHOW_NAME_ON	immer
+OPTION_BLOCK	Abblocken
+OPTION_BLOCK_EXCHANGE	Handeln
+OPTION_BLOCK_FRIEND	Freunde
+OPTION_BLOCK_GUILD	Gilde
+OPTION_BLOCK_PARTY	Gruppe
+OPTION_BLOCK_PARTY_REQUEST	Anfrage
+OPTION_BLOCK_WHISPER	Flüstern
+OPTION_CAMERA_DISTANCE	Kamera
+OPTION_CAMERA_DISTANCE_LONG	Fern
+OPTION_CAMERA_DISTANCE_SHORT	Nah
+OPTION_DELETE_MOBILE_BUTTON	Handynummer löschen
+OPTION_EFFECT	Trefferanzeige
+OPTION_FOG	Nebel
+OPTION_FOG_DENSE	Viel
+OPTION_FOG_LIGHT	Wenig
+OPTION_FOG_MIDDLE	Mittel
+OPTION_INPUT_MOBILE_BUTTON	Handynummer eingeben
+OPTION_MOBILE	Handy
+OPTION_MUSIC	Musik
+OPTION_MUSIC_CHANGE	Wechseln
+OPTION_MUSIC_DEFAULT_THEMA	Standardtitel von Metin2
+OPTION_NAME_COLOR	Farbe Name
+OPTION_NAME_COLOR_EMPIRE	Reichsfarbe
+OPTION_NAME_COLOR_NORMAL	Normal
+OPTION_PVPMODE	PvP-Modus
+OPTION_PVPMODE_FREE	Frei
+OPTION_PVPMODE_FREE_TOOLTIP	Du darfst alle Spieler angreifen.
+OPTION_PVPMODE_GUILD	Gilde
+OPTION_PVPMODE_GUILD_TOOLTIP	Du darfst alle Spieler mit Ausnahme von Gildenmitgliedern angreifen.
+OPTION_PVPMODE_PEACE	Frieden
+OPTION_PVPMODE_PEACE_TOOLTIP	Du darfst keine Spieler deines Reiches angreifen.
+OPTION_PVPMODE_REVENGE	Feindlich
+OPTION_PVPMODE_REVENGE_TOOLTIP	Du darfst nur Spieler mit einer anderen Gesinnung angreifen.
+OPTION_SALESTEXT	Ladenname
+OPTION_SALESTEXT_VIEW_OFF	ausblenden
+OPTION_SALESTEXT_VIEW_ON	einblenden
+OPTION_SOUND	Effekte
+OPTION_TARGET_BOARD	Zielmenü
+OPTION_TARGET_BOARD_NO_VIEW	Schließen
+OPTION_TARGET_BOARD_VIEW	Anzeigen
+OPTION_TILING	Grafikspeicher
+OPTION_TILING_APPLY	Anwenden
+OPTION_TILING_CPU	CPU
+OPTION_TILING_GPU	GPU
+OPTION_TITLE	Optionen
+OPTION_VIEW_CHAT	Chatzeile
+OPTION_VIEW_CHAT_OFF	ausblenden
+OPTION_VIEW_CHAT_ON	einblenden
+PARTY_MEMBER_INFO_NAME	Name des Gruppenmitglieds
+PASSWORD_DESC_1	Gib dein Passwort ein,
+PASSWORD_DESC_2	um das Lager zu öffnen.
+PASSWORD_DESC_3	Passwort schon geändert?
+PASSWORD_DESC_4	Wenn nicht, ist dein Passwort: "000000".
+PASSWORD_DESC_5	Ändere dein Passwort im Lager.
+PASSWORD_TITLE	Speicher-PW
+PICK_MONEY_TITLE	Teilen
+PRIVATE_SHOP_CLOSE_BUTTON	Laden schließen
+PRIVATE_SHOP_NAME	Name des Ladens
+PRIVATE_SHOP_TITLE	Privaten Laden einrichten
+REFINE_COST	Verbesserungskosten: 0 Yang
+REFINE_INFO	Wahrscheinlichkeit auf erfolgreiche Verbesserung: 100%
+REFINE_MONEY	Veredelungsgebühr
+REFINE_SELECT	Veredelung
+REFINE_TTILE	Verbesserungen
+REPORT_VIOLENT_WHISPER	Petzen
+RESTART_HERE	Hier neu starten
+RESTART_TOWN	In der Stadt neu starten
+SAFE_CHANGE_PASSWORD	Passwort ändern
+SAFE_TITLE	Lager
+SELECT_ATT_GRADE	STR
+SELECT_CREATE	Erstellen
+SELECT_DELETE	Löschen
+SELECT_DEX_GRADE	DEX
+SELECT_EMPIRE_NAME	Name des Reiches
+SELECT_EXIT	Beenden
+SELECT_HP	VIT
+SELECT_LEVEL	Level
+SELECT_METIN_STONE_TITLE	Geiststein wählen
+SELECT_NAME	Name
+SELECT_NO_GUILD	Keine Gilde
+SELECT_PLAYTIME	Spielzeit (Min.)
+SELECT_SELECT	Start
+SELECT_SP	INT
+SELECT_TITLE	Titel auswählen
+SHOP_BUY	Kaufen
+SHOP_SELL	Verkaufen
+SHOP_TITLE	Laden
+SKILL_SUPPORT_TITLE	Standardfertigkeiten
+STEP	Reinheitsgrad
+STEP_SELECT	Reinheitsgrad
+STRENGTH	Verstärken
+STRENGTH_SELECT	Stufe
+SYSTEMOPTION_TITLE	Systemoptionen
+SYSTEM_CHANGE	Charakter wechseln
+SYSTEM_EXIT	Spiel beenden
+SYSTEM_HELP	Hilfe
+SYSTEM_LOGOUT	Ausloggen
+SYSTEM_MALL	Item-Shop
+SYSTEM_OPTION	Systemoptionen
+TASKBAR_CHARACTER	Charakter [C/V/B/N]
+TASKBAR_CHAT	Chat-Fenster [Enter]
+TASKBAR_DISABLE	Deaktiviert
+TASKBAR_DRAGON_SOUL	Drachensteinalchemie
+TASKBAR_EXPAND	Fenster vergrößern
+TASKBAR_INVENTORY	Inventar [I]
+TASKBAR_MESSENGER	Freunde [Alt+M]
+TASKBAR_NEXT_QUICKSLOT	Nächstes Schnellzugriffsfeld [Umschalt+Zahl, Alt]
+TASKBAR_PREV_QUICKSLOT	Vorheriges Schnellzugriffsfeld [Umschalt+Zahl]
+TASKBAR_SYSTEM	Optionen[ESC]
+WHISPER_BAN	Abblocken
+WHISPER_NAME	Zuflüstern
+WHISPER_REPORT	report
+WHISPER_SEND	Senden
+YES	Ja
+ZONE_MAP	Übersichtskarte

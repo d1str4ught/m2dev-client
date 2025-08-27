@@ -1,0 +1,32 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\monster2\zombie_bigboss2\normal_attack01.GR2"
+MotionDuration           1.466667
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      4
+        StartingTime         0.624493
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           200.000000
+            Position         0.000000 -180.000000 100.000000
+        }
+    }
+}

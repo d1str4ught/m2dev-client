@@ -1,0 +1,20 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\monster2\crustacean_bow\normal_attack.GR2"
+MotionDuration           1.333333
+Accumulation           0.00	-219.45	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      6
+        StartingTime         0.499595
+        
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 Tail3"
+        FlyFileName       "d:/ymir work/pc/assassin/effect/gwangyeok.msf"
+        FlyPosition       0.000000 0.000000 0.000000
+    }
+}

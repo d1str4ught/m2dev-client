@@ -1,0 +1,19 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\pc\sura\fishing\fishing_cancel.GR2"
+MotionDuration           1.200000
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      10
+        StartingTime         0.000000
+        
+        EffectFileName       "d:/ymir work/effect/etc/fishing/fishing_cancel.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        FollowingEnable      0
+        FishingEffectFlag    1
+    }
+}

@@ -1,0 +1,37 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "WEAPON_LIMITATION" "NEED_TARGET" "MELEE_ATTACK"
+NeedWeapon		"SWORD" "DAGGER" "DOUBLE_SWORD"
+CoolTimeFormula		"15"
+NeedSPFormula		"40 + (100 * SkillPoint)"
+MotionIndex		"2"
+
+
+IconFileName		"skill/assassin/amseup.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"¾Ï½À"
+949Description	"Àû¿¡°Ô ¸ô·¡ ´Ù°¡°¡ Ä¡¸íÅ¸¸¦ ÀÔÈù´Ù"
+List 949ConditionData
+{
+	"ÈÄ¹æ ±â½À½Ã °ø°Ý·Â »ó½Â"
+	"ÀºÇü¹ý º¸³Ê½º"
+}
+List 949AffectData
+{
+	"°ø°Ý·Â : %.0f-%.0f" "minatk + (1.2 * minatk + 500 + dex*12)*k" "maxatk + (1.2 * maxatk + 700 + dex*12)*k"
+}
+
+936Name			"°µÏ®"
+936Description	"ÍµÍµ¿¿½üµÐÈË¸øÓèÖÂÃüÉËº¦"
+List 936ConditionData
+{
+	"Ä¡¸íÅ¸ È®·ü"
+	"ÀºÇü¹ý »ç¿ë½Ã Å¸°ÝÄ¡ Áõ°¡"
+}
+List 936AffectData
+{
+	"Å¸°ÝÄ¡ : %.0f-%.0f" "MinATK + (2*MinATK + 100) * SkillPoint" "MaxATK + (2*MaxATK + 900) * SkillPoint"
+}

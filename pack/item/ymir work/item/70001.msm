@@ -1,0 +1,10 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\ymir work\ui\items\quest\70001.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
+
+949Description        "酒捞袍捞 靛而瞪|犬伏捞 2硅啊 邓聪促"
+936Description        "爆出宝物的概率提高2倍"

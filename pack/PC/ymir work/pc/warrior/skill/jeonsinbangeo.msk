@@ -1,0 +1,37 @@
+ScriptType		SkillDataScript
+
+Type			LOW
+IconFileName	"skill/warrior/jeonsinbangeo.sub"
+MotionIndex		6
+MaxLevel			"10"
+LevelUpPoint		"2"
+NeedSPFormula		"100"
+
+
+949Name			"傈脚规绢"
+949Description		"漠阑 芭滴绊 规绢俊父 傈充茄促"
+List 949ConditionData
+{
+	"傍拜矫 秦力"
+}
+List 949AffectData
+{
+	"规绢仿 : %.0f"	"1 + ( SkillPoint / 2 )" ""
+}
+
+List RequireStatData
+{
+	"Level" "21"
+}
+
+936Name			"铁布衫"
+936Description		"收刀专注于防御，无法进攻"
+List 936ConditionData
+{
+	"攻击时技能将被瓦解"
+}
+List 936AffectData
+{
+	"防御力 : %.0f"	"1 + ( SkillPoint / 2 )" ""
+}
+

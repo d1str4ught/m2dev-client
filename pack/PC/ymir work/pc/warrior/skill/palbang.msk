@@ -1,0 +1,35 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "WEAPON_LIMITATION" "CAN_CHANGE_DIRECTION"
+NeedWeapon		"SWORD" "TWO_HANDED"
+CoolTimeFormula		"20"
+NeedSPFormula		"50 + (130 * SkillPoint)"
+MotionIndex		"16"
+
+
+IconFileName		"skill/warrior/palbang.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"팔방풍우"
+949Description	"칼을 잡고 회전하여 주위의 적을 공격한다"
+List 949ConditionData
+{
+	"전진 범위 공격"
+}
+List 949AffectData
+{
+	"공격력 %.0f-%.0f" "3*MinATK + (0.8*MinATK + STR*6 + DEX*2 + CON) * SkillPoint" "3*MaxATK + (0.8*MaxATK + STR*6 + DEX*2 + CON) * SkillPoint"
+}
+
+936Name			"검루拈黛"
+936Description	"우醵旗瘻묑샌鷺鍋돨둔훙"
+List 936ConditionData
+{
+	"전진 범위 공격"
+}
+List 936AffectData
+{
+	"공격력 %.0f-%.0f" "40 + 3*MinATK + (0.8*MinATK + 300)*SkillPoint" "40 + 3*MaxATK + (0.8*MaxATK + 300)*SkillPoint"
+}

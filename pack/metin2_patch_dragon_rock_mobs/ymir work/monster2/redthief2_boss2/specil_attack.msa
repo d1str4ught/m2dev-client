@@ -1,0 +1,92 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\monster2\redthief2_boss2\specil_attack.GR2"
+MotionDuration           1.500000
+Accumulation           0.00	-219.45	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     8
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/monster2/mob_hide1.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.489051
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/monster2/mob_show1.mse"
+        EffectPosition       0.000000 100.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.503650
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "sh_bone01(mirrored)"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/monster2/mob_blow1.mse"
+        EffectPosition       0.000000 -100.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      8
+        StartingTime         0.000000
+    }
+    Group Event04
+    {
+        MotionEventType      7
+        StartingTime         0.474453
+    }
+    Group Event05
+    {
+        MotionEventType      4
+        StartingTime         0.500000
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           1
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           400.000000
+            Position         0.000000 -130.000000 70.000000
+        }
+    }
+    Group Event06
+    {
+        MotionEventType      2
+        StartingTime         0.503650
+        
+        DuringTime           0.200000
+        Power                300
+        AffectingRange       200
+    }
+    Group Event07
+    {
+        MotionEventType      9
+        StartingTime         0.248175
+    }
+}

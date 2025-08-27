@@ -1,0 +1,8 @@
+ScriptType		SkillDataScript
+
+Type			HIGH
+Name			"¡∂»•»Ì¡§"
+Description		"Test - Description"
+
+IconFileName	"skill/sura/johon.sub"
+MotionIndex		14

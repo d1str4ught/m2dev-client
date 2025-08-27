@@ -1,0 +1,5 @@
+ScriptType MapProperty
+
+MapType "Outdoor"
+ParentMapName 	metin2_guild_village
+

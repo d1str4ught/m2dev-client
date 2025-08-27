@@ -1,0 +1,34 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "WEAPON_LIMITATION" "CAN_CHANGE_DIRECTION"
+NeedWeapon		"SWORD" "TWO_HANDED"
+CoolTimeFormula		"20"
+NeedSPFormula		"40 + (150 * SkillPoint)"
+MotionIndex		"3"
+
+IconFileName		"skill/warrior/gyeoksan.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"°Ý»êÅ¸¿ì"
+949Description	"Àü¹æÀÇ ÀûÀ» °ø°ÝÇÑ´Ù"
+List 949ConditionData
+{
+	"Á÷¼± ¹üÀ§ °ø°Ý"
+}
+List 949AffectData
+{
+	"°ø°Ý·Â %.0f-%.0f" "2.3*MinATK + (3*MinATK + 4*STR + 3*CON)*SkillPoint" "2.3*MaxATK + (3*MaxATK + 4*STR + 3*CON)*SkillPoint"
+}
+
+936Name			"Å­»÷"
+936Description	"¹¥»÷Ç°·½µÄµÐÈË£¬ÉËº¦¾Þ´ó"
+List 936ConditionData
+{
+	"Á÷¼± ¹üÀ§ °ø°Ý"
+}
+List 936AffectData
+{
+	"°ø°Ý·Â %.0f-%.0f" "15 + 1.5*MinATK + (0.6*MinATK + 400)*SkillPoint" "15 + 1.5*MaxATK + (0.6*MaxATK + 400)*SkillPoint"
+}

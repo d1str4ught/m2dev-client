@@ -1,0 +1,49 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/assassin/bow/attack.gr2"
+MotionDuration           1.000000
+
+Group ComboInputData
+{
+    PreInputTime             1.500000
+    DirectInputTime          1.500000
+    InputLimitTime           1.500000
+}
+
+Group AttackingData
+{
+    AttackType           0
+    HittingType          2
+    StiffenTime          0.000000
+    InvisibleTime        0.000000
+    ExternalForce        0.000000
+    HitLimitCount        0
+    
+    MotionType           1
+    HitDataCount         1
+    Group HitData00
+    {
+        AttackingStartTime   0.846154
+        AttackingEndTime     0.846154
+        AttackingBone        "equip_left"
+        WeaponLength         0.000000
+        List HitPosition
+        {
+        }
+    }
+}
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      6
+        StartingTime         0.559611
+        
+        AttachingEnable      1
+        AttachingBoneName    "equip_right"
+        FlyFileName       "d:/ymir work/pc/assassin/effect/arrow_01.msf"
+        FlyPosition       0.000000 -30.000000 0.000000
+    }
+}

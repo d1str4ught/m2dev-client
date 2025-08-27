@@ -1,0 +1,32 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/sura/skill/pabeop.gr2"
+MotionDuration           2.000000
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.292308
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 L Finger02"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/sura/effect/pabeopsul_3_making.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      6
+        StartingTime         1.189744
+        
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 L Hand"
+        flyfilename       "d:/ymir work/pc/sura/effect/pabeop_3_throw.msf"
+        FlyPosition       0.000000 0.000000 0.000000
+    }
+}

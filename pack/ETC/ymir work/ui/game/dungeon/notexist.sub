@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "Dungeon.dds"
+left 0
+top 92
+right 40
+bottom 115

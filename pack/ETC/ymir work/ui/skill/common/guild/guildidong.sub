@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "SkillCommon.dds"
+left 96
+top 96
+right 128
+bottom 128

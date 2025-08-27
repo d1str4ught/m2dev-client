@@ -1,0 +1,45 @@
+ScriptType		SkillDataScript
+
+Attribute		"STANDING_SKILL"
+CoolTimeFormula	"100"
+NeedSPFormula	"80 + (210 * SkillPoint)"
+
+MotionIndex		"10"
+IconFileName	"skill/warrior/cheongeun.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"천근추"
+949Description	"일시적으로 방어력이 상승하며 강력한 공격에도 쓰러지지 않는다"
+
+List 949ConditionData
+{
+	"방어력 상승"
+	"이동 속도 하락"
+	"넘어지지 않음"
+}
+
+List 949AffectData
+{
+	"방어력 : +%.0f" "7+(40 + 0.2*str + 0.4*con)*k" ""
+	"이동 속도 : -%.0f" "1 + 9*SkillPoint" ""
+}
+
+936Name			"푤쏙瑠"
+936Description	"疆쇌瓊멕렝徒제，퓻죠돨묑샌苟冷꼇삔굳댔돌"
+
+List 936ConditionData
+{
+	"방어력 상승"
+	"이동 속도 하락"
+	"넘어지지 않음"
+}
+
+
+List 936AffectData
+{
+	"방어력 : +%.0f" "(5 + DEF) * (2*SkillPoint + 0.3) / (SkillPoint + 3.6)" ""
+	"이동 속도 : -%.0f" "1 + 9*SkillPoint" ""
+	"지속시간 : %.0f초" "60 + (90 * SkillPoint)" ""
+}

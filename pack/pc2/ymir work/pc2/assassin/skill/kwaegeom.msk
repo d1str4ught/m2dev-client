@@ -1,0 +1,35 @@
+ScriptType		SkillDataScript
+
+Type			HIGH
+Attribute		"WEAPON_LIMITATION" "STANDING_SKILL" "TOGGLE"
+NeedWeapon		"BOW"
+
+949Name			"厚付矫"
+949Description	"老矫利栏肺 劝加档啊 刘啊茄促"
+List 949AffectData
+{
+	"劝 加档 : +%.0f" "3 + SkillPoint" ""
+}
+
+IconFileName	"skill/assassin/bimasi.sub"
+MotionIndex		14
+
+List RequireStatData
+{
+	"Level" "21"
+}
+
+MaxLevel				"15"
+NeedSPFormula			"150"
+ContinuationSPFormula	"10"
+
+936Name			"速剑"
+936Description		"瞬间提高攻击速度，发起攻击 "
+List 936AffectData
+{
+	"攻击速度 : +%.0f" "3 + SkillPoint" ""
+}
+List 936MasterAffectData
+{
+	"额外增加攻击速度 : +2"
+}

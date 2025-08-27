@@ -1,0 +1,19 @@
+ScriptType		SkillDataScript
+
+Type			MIDDLE
+Attribute		"NEED_TARGET" "NEED_CORPSE"
+Range			100
+
+949Name			"捞趋贱"
+949Description		"磷篮 利狼 去阑 软荐秦 挤去备 酒捞袍 裙垫"
+
+IconFileName	"skill/sura/ihyeol.sub"
+MotionIndex		8
+
+MaxLevel			"8"
+LevelUpPoint		"8"
+CoolTimeFormula		"20"
+NeedSPFormula		"100"
+
+936Name			"嗜血术"
+936Description		"吸收死去怪物的灵气，获得吸魂球"

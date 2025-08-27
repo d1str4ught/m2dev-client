@@ -1,0 +1,33 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/monster2/giant_scorpion/20.gr2"
+MotionDuration           1.166667
+
+Group AttackingData
+{
+    AttackType           0
+    HittingType          2
+    StiffenTime          0.000000
+    InvisibleTime        0.300000
+    ExternalForce        0.000000
+    HitLimitCount        0
+    
+    MotionType           1
+    HitDataCount         1
+    Group HitData00
+    {
+        AttackingStartTime   0.386050
+        AttackingEndTime     0.422952
+        AttackingBone        "Bone12"
+        WeaponLength         49.000000
+        List HitPosition
+        {
+            0.386050 32.513931 -85.027351 231.607468 26.641228 -130.398346 214.059769
+            0.394384 36.015301 -126.318077 202.141174 20.743086 -162.965744 173.425247
+            0.402717 28.869486 -155.303009 168.583420 5.414506 -180.177673 133.481934
+            0.411050 11.143968 -171.074402 139.940750 -17.246874 -183.658554 102.038689
+            0.419384 -12.656316 -175.269485 121.050468 -42.116051 -177.087952 81.937737
+        }
+    }
+}
+

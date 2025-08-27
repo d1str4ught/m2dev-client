@@ -1,0 +1,10 @@
+ScriptType		SkillDataScript
+
+Type			GUILD
+
+Name			"공간의 문"
+Description		"1분간 공간을 이동할 수 있는 문을 연다"
+IconFileName		"skill/guild/mun.sub"
+
+NeedSPFormula		"50"
+MaxLevel			2

@@ -1,0 +1,29 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/shaman/skill/buhwal.gr2"
+MotionDuration           2.000000
+
+Group LoopData
+{
+    MotionLoopCount          5
+    LoopCancelEnable         0
+    LoopStartTime            0.452555
+    LoopEndTime              0.997567
+}
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.598540
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/shaman/effect/buhwal.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

@@ -1,0 +1,36 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "NEED_TARGET" "FAN_RANGE"
+CoolTimeFormula		"7"
+NeedSPFormula		"30 + (90 * SkillPoint)"
+Range			"1800"
+MotionIndex		"0"
+
+
+IconFileName		"skill/shaman/bipabu.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"厚颇何"
+949Description	"利俊霸 何利阑 带廉 惑贸 涝腮促"
+List 949ConditionData
+{
+	"厘芭府 傍拜"
+	"措惑 林函 裹困 傍拜"
+}
+List 949AffectData
+{
+	"付过傍拜仿 : %.0f-%.0f" "70 + 4*lv + (20*iq+5*minmtk+50)*ar*k" "70 + 4*lv + (20*iq+5*maxmtk+50)*ar*k"
+}
+
+936Name			"灵光"
+936Description	"使用天地合气制造的魔法攻击敌人"
+List 936ConditionData
+{
+	"厘芭府 傍拜" 
+}
+List 936AffectData
+{
+	"付过傍拜仿 : %.0f-%.0f" "70+6*LV+(8*INT+5*MinMWEP+700)*SkillPoint*HR/100" "70+6*LV+(8*INT+5*MaxMWEP+700)*SkillPoint*HR/100"
+}

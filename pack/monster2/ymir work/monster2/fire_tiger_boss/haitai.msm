@@ -1,0 +1,96 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "d:\ymir work\monster2\fire_tiger_boss\fire_tiger_boss.gr2"
+
+Group ShapeData
+{
+	PathName	"d:\ymir work\monster2\fire_tiger_boss\"
+
+	ShapeDataCount			1
+
+	Group ShapeData00
+	{
+		ShapeIndex			0
+
+		Model				"fire_tiger_boss.gr2"
+		SourceSkin			"fire_tiger_boss.dds"
+		TargetSkin			"haitai.dds"
+	}
+}
+
+Group AttachingData
+{
+    AttachingDataCount       4
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           120.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           130.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+    
+    Group AttachingData02
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           60.000000
+            Position         0.000000 -170.000000 150.000000
+        }
+    }
+    
+    Group AttachingData03
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           72.000000
+            Position         0.000000 -170.000000 150.000000
+        }
+    }
+}

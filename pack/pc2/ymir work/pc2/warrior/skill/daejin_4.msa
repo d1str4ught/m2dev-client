@@ -1,0 +1,53 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/warrior/skill/daejin.gr2"
+MotionDuration           2.000000
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     3
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         1.240876
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 Footsteps"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/warrior/effect/daejingak_4.mse"
+        EffectPosition       0.000000 -30.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      2
+        StartingTime         1.240876
+        
+        DuringTime           0.200000
+        Power                300
+        AffectingRange       200
+    }
+    Group Event02
+    {
+        MotionEventType      4
+        StartingTime         1.240876
+        DuringTime           0.300000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        20.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           250.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+}

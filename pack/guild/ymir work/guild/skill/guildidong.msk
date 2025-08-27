@@ -1,0 +1,10 @@
+ScriptType		SkillDataScript
+
+Type			GUILD
+
+Name			"길드 이동"
+Description		"길드원의 곁으로 이동한다"
+IconFileName		"skill/guild/guildidong.sub"
+
+NeedSPFormula		"120 - (SkillLevel * 20)"
+MaxLevel			5

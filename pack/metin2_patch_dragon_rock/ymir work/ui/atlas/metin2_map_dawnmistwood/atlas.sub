@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "metin2_map_dawnmistwood.dds"
+left 0
+top 0
+right 256
+bottom 145

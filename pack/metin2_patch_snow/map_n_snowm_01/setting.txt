@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	6	6
+BasePosition	358400	153600
+TextureSet	textureset\metin2_N_snowm.txt
+Environment	N-snowm01.msenv
+

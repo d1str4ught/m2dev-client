@@ -1,0 +1,40 @@
+SpreadingFlag           0
+MaintainParallelFlag    1
+InitialVelocity         1800.000000
+ConeAngle               0.000000
+RollAngle               0.000000
+AngularVelocity         0.000000 0.000000 0.000000
+Gravity                 0.000000
+HitOnBackground         0
+HitOnAnotherMonster     1
+PierceCount             10
+CollisionSphereRadius   0.000000
+BombRange               10.000000
+BombEffect              "pokroe_c.mse"
+HomingFlag              0
+HomingStartTime         0.000000
+HomingMaxAngle          3.000000
+Range                   1850.000000
+Acceleration            0.000000 -200.000000 0.000000
+Group AttachData
+{
+    Type          1
+    FlyType       3
+    AttachFile    "yongpa_2_yong.mse"
+    TailFlag      0
+    Roll          50.000000
+    Distance      0.000000
+    Period        0.500000
+    Amplitude     50.000000
+}
+Group AttachData
+{
+    Type          1
+    FlyType       3
+    AttachFile    "yongpa_2_yong.mse"
+    TailFlag      0
+    Roll          -50.000000
+    Distance      0.000000
+    Period        0.500000
+    Amplitude     50.000000
+}

@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/monster2/zombie_king/32_1.gr2"
+MotionDuration	1.5000
+Accumulation	0.0000 0.0000 0.0000

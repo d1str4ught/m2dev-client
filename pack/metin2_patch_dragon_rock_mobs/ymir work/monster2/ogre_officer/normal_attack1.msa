@@ -1,0 +1,53 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\monster2\ogre_officer\normal_attack1.GR2"
+MotionDuration           1.500000
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      4
+        StartingTime         0.441606
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           120.000000
+            Position         50.000000 -150.000000 0.000000
+        }
+    }
+    Group Event01
+    {
+        MotionEventType      4
+        StartingTime         0.492701
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           120.000000
+            Position         -50.000000 -150.000000 0.000000
+        }
+    }
+}
