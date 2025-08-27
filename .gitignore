@@ -1,3 +1,5 @@
 ﻿syserr.txt
 log.txt
 ErrorLog.txt
+*.eix
+*.epk
