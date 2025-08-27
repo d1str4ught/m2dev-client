@@ -286,7 +286,7 @@ class OptionDialog(ui.ScriptWindow):
 
 	def OnChangeMusicVolume(self):
 		pos = self.ctrlMusicVolume.GetSliderPos()
-		snd.SetMusicVolume(pos * net.GetFieldMusicVolume())		
+		snd.SetMusicVolume(pos)		
 		systemSetting.SetMusicVolume(pos)
 
 	def OnChangeSoundVolume(self):

@@ -200,7 +200,7 @@ class GameWindow(ui.ScriptWindow):
 			self.ToggleDebugInfo()
 
 		## Sound
-		snd.SetMusicVolume(systemSetting.GetMusicVolume()*net.GetFieldMusicVolume())
+		snd.SetMusicVolume(systemSetting.GetMusicVolume())
 		snd.SetSoundVolume(systemSetting.GetSoundVolume())
 
 		netFieldMusicFileName = net.GetFieldMusicFileName()
