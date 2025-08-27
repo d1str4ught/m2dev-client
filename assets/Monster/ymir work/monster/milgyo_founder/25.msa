@@ -1,0 +1,43 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\YMIR WORK\monster\milgyo_founder\25.GR2"
+MotionDuration           1.666667
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.110300
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/monster/milgyo_founder_25.mse"
+        EffectPosition       0.000000 0.000000 -130.000000
+    }
+    Group Event01
+    {
+        MotionEventType      4
+        StartingTime         0.121655
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           300.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+}

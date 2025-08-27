@@ -1,0 +1,10 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\ymir work\ui\items\quest\70007.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
+
+949Description "텔레포트를 무제한으로|이용 할 수 있다"
+936Description "텔레포트를 무제한으로|이용 할 수 있다"

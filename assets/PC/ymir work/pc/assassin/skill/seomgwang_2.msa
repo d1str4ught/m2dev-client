@@ -1,0 +1,43 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\pc\assassin\skill\seomgwang.GR2"
+MotionDuration           1.000000
+Accumulation           0.00	-219.45	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     3
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.094891
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 R Hand"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/assassin/effect/taeyang_hand_2.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.523114
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 HeadNub"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/assassin/effect/taeyang_blow_2.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      2
+        StartingTime         0.510949
+        
+        DuringTime           0.100000
+        Power                50
+        AffectingRange       100
+    }
+}

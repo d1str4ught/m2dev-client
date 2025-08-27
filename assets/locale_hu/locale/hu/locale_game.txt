@@ -1,0 +1,817 @@
+AFF_LOVE_POINT	Szerelem pont: %d%%
+ALIGNMENT_NAME	Rang pontok:
+ATTACK_ERROR_UNKNOWN	Ismeretlen Támadás Hiba: %s
+CANNOT_ATTACK_DEST_IN_SAFE	Túl messze van az ellenség.
+CANNOT_ATTACK_SELF_IN_SAFE	Nem tudok támadni.
+CANNOT_EQUIP_IN_EXCHANGE	Nem válthatsz felszerelést, amíg kereskedsz.
+CANNOT_EQUIP_IN_SHOP	Nem válthatsz felszerelést, amíg kereskedsz.
+CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA	Nyilvános területen nem nyithatsz magán boltot.
+CANNOT_SHOOT_DEST_IN_SAFE	Az ellenség túl messze van.
+CANNOT_SHOOT_EMPTY_ARROW	Szükségem van egy nyílra.
+CANNOT_SHOOT_SELF_IN_SAFE	Innen nem tudom megtámadni az ellenséget.
+CANNOT_SKILL_APPROACH	Biztos vagyok benne, hogy nem tudok közelebb menni.
+CANNOT_SKILL_ATTACK	Nem tudom megtámadni.
+CANNOT_SKILL_DEST_IN_SAFE	Túl messze az ellenség.
+CANNOT_SKILL_EQUIP_FISHING_ROD	Szükslgem van egy horgászbotra.
+CANNOT_SKILL_HAVE_TO_RIDE	Szükségem van egy lóra, hogy fel tudjam használni.
+CANNOT_SKILL_NEED_EMPTY_BOTTLE	Nincs üres üvegem.
+CANNOT_SKILL_NEED_POISON_BOTTLE	Nincs méregtartóm.
+CANNOT_SKILL_NEED_TARGET	Ki a célpont?
+CANNOT_SKILL_NOT_ENOUGH_HP	Nincs elég TP-m!
+CANNOT_SKILL_NOT_ENOUGH_SP	Nincs elég MP-m!
+CANNOT_SKILL_NOT_HORSE_SKILL	Nem tudom használni, amíg lovagolok.
+CANNOT_SKILL_NOT_MATCHABLE_WEAPON	Ezt a készséget nem hasznosíthatom ezzel a fegyverrel.
+CANNOT_SKILL_NOT_YET_LEARN	Nem tanultam ki ezt a készséget.
+CANNOT_SKILL_ONLY_FOR_ALLIANCE	Csak csoporttagokra hat.
+CANNOT_SKILL_ONLY_FOR_CORPSE	Csak halottakra hat.
+CANNOT_SKILL_REMOVE_FISHING_ROD	Ezt a készséget nem tudom horgászbottal használni.
+CANNOT_SKILL_SELF_IN_SAFE	Innen nem tudok támadni.
+CANNOT_SKILL_USE_SELF	Saját magamon nem használhatom.
+CANNOT_SKILL_WAIT_COOLTIME	Ezt a készséget még nem tudom bevetni.
+CANNOT_USE	Ezt nem tudod használni.
+CANNOT_WHISPER_DEST_REFUSE	%s letiltotta a súgást.	SA
+CANNOT_WHISPER_NOT_LOGON	%s nem online.	SA
+CANNOT_WHISPER_SELF_REFUSE	Nem tudsz senkinek súgni, ha a súgás teljesen le van tiltva.	SNA
+CHANNEL	Csatorna
+CHANNELING_CANNOT_LOGOUT	Nem léphetsz vissza a bejelentkezõ képernyõre.
+CHANNEL_EMPTY_SERVER	Nem szerver
+CHANNEL_NORMAL	Csatorna %d
+CHANNEL_NOTIFY_FULL	Ez a csatorna telítve van! Válassz másikat.
+CHANNEL_NOT_FIND_INFO	Nem találhatók információk a csatornán.
+CHANNEL_PVP	Szabad párbaj
+CHANNEL_SELECT_CHANNEL	Válassz csatornát
+CHANNEL_SELECT_REGION	Számlakiállítás helyének választása
+CHANNEL_SELECT_SERVER	Szerver választás
+CHANNEL_TEST_SERVER	Szerver teszt
+CHANNEL_TEST_SERVER_ADDR	Teszt %s:%d
+CHAT_ALL	Minden
+CHAT_BLOCK	Letilt
+CHAT_GUILD	Céh
+CHAT_INFORMATION	Infó
+CHAT_INSULT_STRING	A mondat nem megengedett szavakat tartalmaz.
+CHAT_LOG	Régi hírek mutatása [L]
+CHAT_LOG_TITLE	Cset-log
+CHAT_NORMAL	Normális
+CHAT_NOTICE	Bejelentés
+CHAT_PARTY	Csoport
+CHAT_SEND_CHAT	Cset küldés
+CHAT_SEND_MEMO	Súgás küldés [Shift+Enter]
+CHAT_SHOUT	Hívás
+CHAT_SHOUT_LIMIT	Csak 15 másodpercenként hívhatsz
+CHAT_WHISPER	Súgni
+CREATE_ERROR_GM_NAME	A karakter nevében nem használhatsz 'GM'-et.
+CREATE_ERROR_INSULT_NAME	Ez a név nem megengedett.
+CREATE_EXIST_SAME_NAME	Egy másik karakter viseli már ezt a nevet.
+CREATE_FAILURE	Nem hozhatod létre a karaktert.
+CREATE_GM_NAME	GM
+CREATE_INPUT_NAME	Add meg a nevet.
+CREATE_PLUS_STAT	Még vannak szabad státusz pontok.
+DAY	T
+DO_YOU_BUY_ITEM1	Szeretnél %s-t vásárolni %s-ért?
+DO_YOU_BUY_ITEM2	Szeretnél %s %s-t vásárolni %s-ért?
+DO_YOU_DROP_MONEY	Szeretnél %d Yangot eldobni?
+DO_YOU_SELL_ITEM1	Szeretnél %s-t %s-ért eladni?
+DO_YOU_SELL_ITEM2	Szeretnél %s %s-t %s-ért eladni?
+DRAGON_SOUL_CANNOT_REFINE	Ezt a Sárkánykövet nem lehet finomítani.
+DRAGON_SOUL_CANNOT_REFINE_MORE	Ez a Sárkánykõ már elérte a legmagasabb szintet.
+DRAGON_SOUL_EQUIP_WARNING1	Nehéz eltávolítani a Sárkánykövet, ha már egyszer csatolva lett.
+DRAGON_SOUL_EQUIP_WARNING2	Még mindig folytatni szeretnéd?
+DRAGON_SOUL_EXPIRED	Lejárt Sárkánykõ
+DRAGON_SOUL_INVALID_DRAGON_SOUL	Itt a rossz Sárkánykõ.
+DRAGON_SOUL_IS_NOT_DRAGON_SOUL	Ez nem Sárkánykõ.
+DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	Ez nem a megfelelõ Sárkánykõ.
+DRAGON_SOUL_NOT_ENOUGH_MATERIAL	Nincs elegendõ anyagod a nemesítéshez.
+DRAGON_SOUL_NOT_MATCHED_SLOT	A Sárkánykõ nem illik ebbe a foglalatba.
+DRAGON_SOUL_STEP_LEVEL1	Tisztaság: matt,
+DRAGON_SOUL_STEP_LEVEL2	Tisztaság: tiszta,
+DRAGON_SOUL_STEP_LEVEL3	Tisztaság: hibátlan,
+DRAGON_SOUL_STEP_LEVEL4	Tisztaság: ragyogó,
+DRAGON_SOUL_STEP_LEVEL5	Tisztaság: kiváló,
+DRAGON_SOUL_STRENGTH	Szint: +%d	SA
+DRAGON_SOUL_UNEQUIP_WARNING1	A Sárkánykõ megsemmisülhet az eljárás során.
+DRAGON_SOUL_UNEQUIP_WARNING2	Még mindig folytatni szeretnéd?
+DRAGON_SOUL_UNMATCHED_SLOT	Az rossz foglalat.
+DRAGON_SOUL_UNQUALIFIED	Még nem használhatsz Sárkánykõ-alkímiát.
+DROP_ITEM_FAILURE_EQUIP_ITEM	Nem dobhatsz el egy felszerelt tárgyat.
+DROP_ITEM_FAILURE_PRIVATE_SHOP	Nem dobhatsz el tárgyat, amíg a magán boltot nyitva van.
+DROP_MONEY_FAILURE_1000_OVER	Maximum 999 Yangot dobhatsz el.
+EMOTION_ANGRY	Mérges
+EMOTION_ATTRACTIVE	Csábítás
+EMOTION_BANTER	Gúnyos
+EMOTION_CHEERS_1	Ünnepel 1
+EMOTION_CHEERS_2	Ünnepel 2
+EMOTION_CHEERUP	Ünnepel
+EMOTION_CHOOSE_ONE	Válassz célt
+EMOTION_CLAP	Taps
+EMOTION_CLAP_KISS	Csók
+EMOTION_CONGRATULATION	Gratuláció
+EMOTION_DANCE_1	Tánc 1
+EMOTION_DANCE_2	Tánc 2
+EMOTION_DANCE_3	Tánc 3
+EMOTION_DANCE_4	Tánc 4
+EMOTION_DANCE_5	Tánc 5
+EMOTION_DANCE_6	Gumsan Style
+EMOTION_FORGIVE	Megbocsátás
+EMOTION_FRENCH_KISS	Nyelves csók
+EMOTION_JOY	Öröm
+EMOTION_SAD	Szomorú
+EMOTION_SHY	Visszutasítás
+EMOTION_SLAP	Ütés
+EMPIRE_A	Shinsoo birodalom
+EMPIRE_B	Chunjo birodalom
+EMPIRE_C	Jinno birodalom
+EXCHANGE_CANNOT_GIVE	Ezzel a tárggyal nem lehet kereskedni.
+EXCHANGE_CANT_EDIT_MONEY	Most nem változtathatod meg az összeget.
+EXCHANGE_FAILURE_EQUIP_ITEM	Felszerelt tárgyakat nem cserélhetsz el.
+EXCHANGE_MONEY	Összeg
+EXCHANGE_TITLE	Kereskedés vele: %s
+FISHING_FAILURE	Elveszítetted a csalit.
+FISHING_NOTIFY1	Úgy tûnik a %s ráharapott.
+FISHING_NOTIFY2	Úgy tûnik, megfogtál egy %s-t.
+FISHING_SUCCESS1	%s-t fogtál!
+FISHING_SUCCESS2	%s-t húztál ki a vízbõl!
+FISHING_UNKNOWN	Valami elvette a csalit, de nem tudom, mi ez.
+FISHING_WRONG_PLACE	Itt nem tudsz horgászni.
+FOR_FEMALE	Hölgyeknek
+FOR_MALE	Uraknak
+GAME_CANNOT_MINING	Nem tudsz érceket bányászni, amíg lovagolsz.
+GAME_CANNOT_PICK_ITEM	Nem gyûjtheted be a tárgyat, mert nem te zsákmányoltad.
+GAME_INIT_ERROR_CURSOR	Az egér kurzor nem hozható létre.
+GAME_INIT_ERROR_DIRECTX	A játékhoz szükslges a DirectX 8.1 installálása.\nInstalláld a DirectX 8.1-at vagy újabb verzióját.
+GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	Nem talált videokártyát a játék indításához.\nEllenõrizd, hogy jól van-e installálva a VGA-kártya.
+GAME_INIT_ERROR_GRAPHICS_NOT_EXIST	Grafikus eszköz nem hozható létre. \nEllenõrizd, hogy van-e VGA kártyád. \nEsetleg aktiválhatod a hardver gyorsítót.\n(Állítsd a hardver gyorsítót a maximura \nRendszer eszközök->Képernyõ->Beállítások->Haladó->Hibaelhárítás)
+GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	A video kártya nem támogatja az ablak kezelést 32bites üzemmódban.\nVálts 16bites üzemmódra vagy használd a teljes képernyõ módot.
+GAME_INIT_ERROR_ITEM_PROTO	Nincsenek adatok a tárgyakról.\nInstalláld újra a játékot.
+GAME_INIT_ERROR_MAIN_WINDOW	Nem nyitható meg a fõablak.
+GAME_INIT_ERROR_MOB_PROTO	Nincsenek adatok a szörnyekrõl.\nInstalláld újra a játékot.
+GAME_INIT_ERROR_NETWORK	A hálózati eszköz nem indítható.\nEllenõrizd az internet kapcsolatot.
+GAME_PICK_MONEY	%d Yangot kaptál.
+GUILDMARK_UPLOADER_ERROR_128_HEIGHT	A magasság nem 128 pixel.
+GUILDMARK_UPLOADER_ERROR_12_HEIGHT	A magasság nem 12 pixel
+GUILDMARK_UPLOADER_ERROR_16_WIDTH	A szélesség nem 16 pixel
+GUILDMARK_UPLOADER_ERROR_64_WIDTH	A szélesség nem 64 pixel
+GUILDMARK_UPLOADER_ERROR_FILE_FORMAT	A játék nem támogatja ezt a képernyõt.
+GUILDMARK_UPLOADER_ERROR_PATH	Helyezd át a fájlokat a metin2/upload könyvtárba.
+GUILDMARK_UPLOADER_ERROR_SELECT	Nincsenek kép fájlok kiválasztva.
+GUILDWAR_CTF_TITLE	Zászló megszerzés
+GUILDWAR_NORMAL_TITLE	Mezõ harc
+GUILDWAR_QUESTION_LINE_1	A %s céh hadat üzent a céhednek.
+GUILDWAR_QUESTION_LINE_2	elfogadod? (%s)
+GUILDWAR_UNKNOWN_TITLE	...
+GUILDWAR_WARP_TITLE	Aréna harc
+GUILD_BUILDING_GRADE	Rang
+GUILD_BUILDING_NAME	Épület név
+GUILD_CANNOT_HEAL_GSP_ANYMORE	A Sárkány szellem energia már teljesen fel van töltve.
+GUILD_COMMENT	Írni
+GUILD_CREATE_ERROR_INSULT_NAME	Nem érvényes céh név.
+GUILD_DEFAULT_GRADE	Céh tagok
+GUILD_DELETE	Töröl
+GUILD_DEPOSIT	Letétbe helyez
+GUILD_DO_YOU_HEAL_GSP	Szeretnél %d Yangért %d sárkány szellemet visszaállítani?
+GUILD_DO_YOU_JOIN	 meghívott. Csatlakozni akarsz a céhhez?
+GUILD_EMPTY_AREA	Üres táj.
+GUILD_ENEMY_GUILD_NAME	Az ellenség céh neve
+GUILD_FACILITY	Melléképület
+GUILD_GEM	Drágakõ
+GUILD_HEADQUARTER	Fõépület
+GUILD_HEAL_GSP	Sárkány szellem újra termelés
+GUILD_INFO_ENEMY_GUILD_EMPTY	Semennyi
+GUILD_MARK_NOT_ENOUGH_LEVEL	Legalább 3-as szint szükséges
+GUILD_NAME	Céh név
+GUILD_NOT_ENOUGH_MATERIAL	Nincs elég építõanyag ehhez az épülethez.
+GUILD_NOT_ENOUGH_MONEY	Nincs elég Yang ehhez az épülethez.
+GUILD_NO_NOTICE_PERMISSION	Nincs jogosultságod bejelentést tenni.
+GUILD_OBJECT	Tárgy
+GUILD_OFFER_EXP	Tapasztalat befektetés
+GUILD_SHORT_EXP	Nincs elég tapasztalat pont.
+GUILD_TILE_BASEINFO	Alap információk
+GUILD_TILE_BOARD	Tábla
+GUILD_TILE_GRADE	Jogok Kezelése
+GUILD_TILE_INFO	Céh információ
+GUILD_TILE_MEMBER	Céhtag
+GUILD_TILE_SKILL	Céh készség
+GUILD_WAR_LIMIT_30MIN	Idõ: 30 perc
+GUILD_WAR_REWARD_POTION	Jutalom: a gyõztes italokat kap
+GUILD_WAR_USE_BATTLE_MAP	Helyszín: Céhháború Aréna
+GUILD_WAR_USE_NORMAL_MAP	Helyszín: Normál Térkép
+GUILD_WAR_WIN_CHECK_SCORE	Legmagasabb eredmény háborút nyer.
+GUILD_WAR_WIN_TAKE_AWAY_FLAG1	Szerezd meg az ellenség zászlaját,
+GUILD_WAR_WIN_TAKE_AWAY_FLAG2	és vidd el a bázisodra.
+GUILD_WAR_WIN_WIPE_OUT_GUILD	Gyõzz le minden ellenséget a gyõzelemért.
+GUILD_WITHDRAW	Visszavonás
+GUILD_YOU_DO_NOT_JOIN	Nem tartozol céhhez.
+HORSE_HEALTH0	Halott
+HORSE_HEALTH1	Éhezõ
+HORSE_HEALTH2	Éhes
+HORSE_HEALTH3	Tele
+HORSE_LEVEL1	Normál ló
+HORSE_LEVEL2	Csataló
+HORSE_LEVEL3	Katonai ló
+HOUR	Óra
+HOW_MANY_ITEM_DO_YOU_DROP1	Szeretnéd %s eldobni?
+HOW_MANY_ITEM_DO_YOU_DROP2	Szeretnél %s %d eldobni?
+INPUT_MATRIX_CARD_NUMBER	Mátrix térképszám beadás
+INPUT_MATRIX_CARD_TITLE	Mátrix térkép
+INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Törlõ kód beadása a felhasználó kezelõbõl
+INPUT_PRIVATE_CODE_DIALOG_TITLE	Karakter törlés
+INVENTORY_DO_NOT_PACK_WARP_SCROLL	Nem kombinálható tekercs.
+INVENTORY_REALLY_USE_ITEM	Szeretnéd felhasználni ezt a tárgyat?
+JOB_ASSASSIN	Nindzsa
+JOB_ASSASSIN0	Amatõr nindzsa
+JOB_ASSASSIN1	Nindzsa hatalma
+JOB_ASSASSIN2	Élõ
+JOB_SHAMAN	Sámán
+JOB_SHAMAN0	Amatõr sámán
+JOB_SHAMAN1	Sárkány hatalma
+JOB_SHAMAN2	Villám erõ
+JOB_SURA	Sura
+JOB_SURA0	Amatõr Sura
+JOB_SURA1	Fata Morgana ereje
+JOB_SURA2	Fekete mágia ereje
+JOB_WARRIOR	Harcos
+JOB_WARRIOR0	Amatõr harcos
+JOB_WARRIOR1	Arahan hatalma
+JOB_WARRIOR2	Partizánok hatalma
+LEFT_TIME	Maradék idõ
+LOGIN_CONNECT_FAILURE	Hiba a szerver kapcsolatban.
+LOGIN_CONNECT_SUCCESS	A szerver kapcsolat létrejött.
+LOGIN_CONNETING	Kapcsolódás a szerverhez...
+LOGIN_FAILURE_ALREAY	A számlád már csatlakoztatva van.
+LOGIN_FAILURE_BE_SAME_KEY	Bejelentkezési probléma
+LOGIN_FAILURE_BLOCK_ID	Az elõfizetõi számla le van tiltva.
+LOGIN_FAILURE_BLOCK_LOGIN	Kérlek válassz egyet a többi szerver közül!
+LOGIN_FAILURE_NOBILL	Elõfizetõi számládnak nincs már játékideje
+LOGIN_FAILURE_NOT_AVAIL	Az elõfizetõi számla nem elérhetõ.
+LOGIN_FAILURE_NOT_EXIST_ID	Hibás Felhasználónév vagy Jelszó.
+LOGIN_FAILURE_REPAIR_ID	Az elõfizetõi számlára éppen tárgyak helyreállítása van folyamatban.
+LOGIN_FAILURE_SHUTDOWN	A szerver még nem nyílt meg.
+LOGIN_FAILURE_TOO_MANY_USER	Nem csatlakozhatsz, mert túl sokan játszanak.
+LOGIN_FAILURE_UNKNOWN	Ismeretlen okból nem tudsz bejelentkezni.
+LOGIN_FAILURE_WEB_BLOCK	Le lettél tiltva a web oldalon. Ellenõrizd leveleidet.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	Rossz számot adtál meg.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	Háromszor adtál meg helytelen számot. A kapcsolat lezáródik.
+LOGIN_FAILURE_WRONG_PASSWORD	Hibás Felhasználónév vagy Jelszó.
+LOGIN_INPUT_ID	Add meg az ID-t.
+LOGIN_INPUT_PASSWORD	Add meg a jelszót.
+LOGIN_PROCESSING	Bejelentkezés folyamatban...
+MALL_CANNOT_INSERT	Nem tudod elhelyezni a tárgyat.
+MALL_PASSWORD_TITLE	Jelszó
+MAP_A1	Yongan-terület
+MAP_A2	Seungryong-völgy
+MAP_A3	Yayang Terület
+MAP_AG	Jungrang
+MAP_B1	Joan-terület
+MAP_B2	Imji Völgy
+MAP_B3	Bokjung-terület
+MAP_BAY	Nefrit-öböl
+MAP_BG	Waryong
+MAP_C1	Pyungmoo-terület
+MAP_C2	Bangsan Völgy
+MAP_C3	Bakra-terület
+MAP_CAPE	Sárkánytûz-fok
+MAP_CG	Imha
+MAP_DAWN	Gautama-szikla
+MAP_DESERT	Yongbi sivatag
+MAP_FLAME	Doyyumhwan
+MAP_NUSLUCK	Óriások Földje
+MAP_SKELTOWER	Gumsan torony
+MAP_SNOW	Sohan-hegy
+MAP_SPIDER	Kuahlo Dong
+MAP_TEMPLE	Hwang templom
+MAP_THUNDER	Mennydörgés-hegység
+MAP_TREE	Lungsam
+MAP_TRENT02	Vörös Erdõ
+MAP_WL	Kígyórét
+MESSENGER_ADD_FRIEND	Barát hozzáadása
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s felvett barátnak.
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Elfogadod?
+MESSENGER_DO_YOU_DELETE	Töröl?
+MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Szeretnéd a mobilszámot törölni?
+MESSENGER_DO_YOU_MOVE	Folytatod?
+MESSENGER_EMPTY_LIST	Üres
+MESSENGER_FAMILY	Család
+MESSENGER_FRIEND	Barátok
+MESSENGER_GUILD	Céh
+MESSENGER_INPUT_MOBILE_AUTHORITY_DESCRIPTION	Add meg a visszaigazoló számot, amely a telefonodra érkezett.
+MESSENGER_INPUT_MOBILE_AUTHORITY_TITLE	Visszaigazoló szám megadása
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Add meg a mobilszámot az sms küldéshez.
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Szeretnéd megadni a számot most?
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Mobilszám megadás
+MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Üzenet küldés
+MINIMAP	Nyitott Mini térkép
+MINIMAP_CANNOT_SEE	Nem jeleníthetõ meg a mini térkép.
+MINIMAP_CAN_NOT_SHOW_AREAMAP	Nem jeleníthetõ meg nagy térkép.
+MINIMAP_DEC_SCALE	Kicsinyítés
+MINIMAP_INC_SCALE	Nagyítás
+MINIMAP_OBSERVER_COUNT	%d nézõ
+MINIMAP_SHOW_AREAMAP	Nyitott Nagy térkép
+MINUTE	Min
+MONETARY_UNIT0	Yang
+MONETARY_UNIT1	tízezer
+MONETARY_UNIT2	száz millió
+MONEY_INPUT_DIALOG_SELLPRICE	Eladási ára:
+MOVE_ITEM_FAILURE_PRIVATE_SHOP	Nem mozdíthatsz el a tárgyakat, amíg a magán boltot nyitva van.
+MUSIC_EMPTY_MUSIC_LIST	Nincs háttérzene.
+MUSIC_METIN2_DEFAULT_THEMA	Metin2-Alap zene
+MUSIC_NOT_SELECT_MUSIC	Nincs zene fájl kiválasztva
+NEEFD_REST	Elõször pihenj.
+NOT_YET_SUPPORT	Nem támogatott.
+OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	Nem aktiválhatod a céh módot, ha nem vagy céhtag.
+OPTION_PVPMODE_NOT_SUPPORT	Nem használhatod a PvP-mód beállításait.
+OPTION_PVPMODE_PROTECT	Legalább %d szintûnek kell lenned, hogy PvP módot változtathass.
+PARTY_BONUS_ATTACKER	Támadó érték: +%d	SA
+PARTY_BONUS_BERSERKER	Támadósebesség: +%d	SA
+PARTY_BONUS_BUFFER	Készség tartam: +%d	SA
+PARTY_BONUS_DEFENDER	Védelem: +%d	SA
+PARTY_BONUS_EXP	Bónusz EXP: %d%%	SA
+PARTY_BONUS_SKILL_MASTER	Max. MP: +%d	SA
+PARTY_BONUS_TANKER	Max. TP: +%d	SA
+PARTY_BREAK_UP	Csoport felbontás
+PARTY_DO_YOU_ACCEPT	szeretnél csatlakozni a Csoportba.
+PARTY_DO_YOU_JOIN	 meghívott a csoportjába. Elfogadod?
+PARTY_EXP_DISTRIBUTION_MODE	EXP elosztás
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL	Szint függõ
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	A magasabb szintû csoporttagok több EXP-et kapnak.
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	egyenletes
+PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	Minden csoporttag azonos mennyiségû EXP-t kap.
+PARTY_HEAL_ALL_MEMBER	Mindent újratermelni
+PARTY_INCREASE_AREA_150	A csoport hatótávolsága másfélszeresére növelve.	SNA
+PARTY_INCREASE_AREA_200	A csoport hatótávolsága kétszeresére növelve.	SNA
+PARTY_LEAVE	Csoport elhagyása
+PARTY_LONGTIME_BONUS_EXP	Bónusz EXP a hosszú csoport játékért: +%d%%	SA
+PARTY_MEMBER_OFFLINE	[Offline]
+PARTY_RECALL_MEMBER	Csoporttag hívása
+PARTY_REGEN_BONUS	Bónusz a TP- és MP-regenerálódáshoz: +%d%%	SA
+PARTY_REQUEST_DENIED	Elutasították a kérésed.
+PARTY_SET_ATTACKER	Támadónak kinevez.
+PARTY_SET_BERSERKER	Dühöngõnek kinevez.
+PARTY_SET_BUFFER	Blokkolónak kinevez.
+PARTY_SET_DEFENDER	Védõnek kinevez.
+PARTY_SET_NORMAL	Beállítások visszaállítása
+PARTY_SET_SKILL_MASTER	Készség mesternek kinevez.
+PARTY_SET_TANKER	Tõrharcos beállítás.
+PARTY_SKILL_ATTACKER	Alap támadóérték támadó +%.0f
+PARTY_SKILL_BERSERKER	Támadó érték õrjöngõ +%.0f
+PARTY_SKILL_BUFFER	Készség hossz Blokkoló +%.0f
+PARTY_SKILL_DEFENDER	Védelem védõ +%.0f
+PARTY_SKILL_HP_REGEN	TP regeneráció +%.0f%%
+PARTY_SKILL_PARTY_AREA	Csoport hatósugár +%d%%
+PARTY_SKILL_SKILL_MASTER	Max. MP készség mester +%.0f
+PARTY_SKILL_SP_REGEN	MP regenerálódás +%.0f%%
+PARTY_SKILL_TANKER	Max. TP közelharc +%.0f
+PARTY_SKILL_WARP	Csoporttárs hívása lehetséges.
+PASSWORD_TITLE	Raktár jelszó
+PICK_ITEM_TITLE	Tárgy szám
+PICK_MONEY_TITLE	Összeg
+PRIVATE_SHOP_CANNOT_SELL_ITEM	Ezt a tárgyat nem adhatod el magán boltban.
+PRIVATE_SHOP_CLOSE_QUESTION	Szeretnéd bezárni a magán boltod?
+PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	A magánbolt neve
+PRIVATE_SHOP_INPUT_PRICE_DIALOG_TITLE	Ár
+PVP_LEVEL0	Lovagias
+PVP_LEVEL1	Nemes
+PVP_LEVEL2	Jó
+PVP_LEVEL3	Barátságos
+PVP_LEVEL4	Semleges
+PVP_LEVEL5	Agresszív
+PVP_LEVEL6	Álnok
+PVP_LEVEL7	Alattomos
+PVP_LEVEL8	Kegyetlen
+PVP_MODE_GUILD	PvP - Céh aktiválva.
+PVP_MODE_KILL	PvP - Szabad aktiválva
+PVP_MODE_NORMAL	PvP - Béke aktiválva
+PVP_MODE_PROTECT	PvP - Védelem aktiválva
+PVP_MODE_REVENGE	PvP - Ellenséges aktiválva
+PVP_OPTION_KILL	Szabad
+PVP_OPTION_NORMAL	Béke
+PVP_OPTION_PROTECT	Védelem
+PVP_OPTION_REVENGE	Ellenséges
+QUEST_APPEND	Új feladat érkezett.
+QUEST_MIN	perc
+QUEST_SEC	másodperc
+QUEST_TIMEOVER	Idõ lejárt
+QUEST_UNLIMITED_TIME	Nincs idõkorlát
+QUEST_ZEROSEC	0 mp.
+QUICKSLOT_REGISTER_DISABLE_ITEM	Ez a tárgy nem adható a gyors elérésû mezõhöz.
+RECEIVE_MESSAGE	%s üzenetet küldött neked.
+REFINE_COST	Javítási költségek: %d Yang
+REFINE_DESTROY_WARNING	A tárgy megsérülhet a fejlesztés során.
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1	Növeli a javítás esélyét,
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	de ha nem sikerül, akkor a tárgy megsemmisülhet. Folytatod?
+REFINE_DOWN_GRADE_WARNING	A tárgy a javítás közben elromolhat.
+REFINE_DO_YOU_SEPARATE_METIN	Szeretnéd eltávolítani a Szellemkövet?
+REFINE_FAILURE	Nem sikerült. Elrontottuk.
+REFINE_FAILURE_CAN_NOT_ATTACH	%s nem tudja ezt a tárgyat hozzákapcsolni.
+REFINE_FAILURE_EQUIP_ITEM	Felszerelt tárgyat nem tudsz fejleszteni.
+REFINE_FAILURE_METIN_INSEPARABLE_ITEM	Nem lehet eltávolítani Szellemkövet.
+REFINE_FAILURE_NEED_BETTER_SCROLL	Egy jobb javító tekercsre van szükséged.
+REFINE_FAILURE_NO_GOLD_SOCKET	Nincs arany foglalat %s hozzáadásához.
+REFINE_FAILURE_NO_MORE_SOCKET	Nem lehet több foglalatot hozzáadni.
+REFINE_FAILURE_NO_SOCKET0	Nincs foglalat %s felszereléséhez.
+REFINE_FAILURE_SOCKET_DISABLE_ITEM	Erre a tárgyra nem lehet foglalatokat készíteni.
+REFINE_FAILURE_UPGRADE_DISABLE_ITEM	Ez a tárgy nem javítható.
+REFINE_SUCCESS	A tárgy javítás sikeres volt.
+REFINE_SUCCESS_PROBALITY	Javítási esély: %d%%
+REFINE_WARNING2	Folytatod?
+SAFEBOX_ERROR	Hibás jelszót adtál meg.
+SAFEBOX_SELL_DISABLE_SAFEITEM	A mentett tárgyakat nem adhatod el.
+SAFEBOX_WRONG_PASSWORD	A jelszóknak azonosnak kell lenniük.
+SCREENSHOT_SAVE1	el van mentve a
+SCREENSHOT_SAVE2	Screenshot könyvtárba
+SCREENSHOT_SAVE_FAILURE	A screenshot mentése nem sikerült.
+SECOND	mp
+SELECT_CAN_NOT_DELETE	Nem törölheted a karaktert.
+SELECT_CHANGED_NAME	Megváltoztattad a karakter nevét.
+SELECT_CHANGE_FAILURE_ALREADY_EXIST_NAME	Már létezik ez a  karakter név.
+SELECT_CHANGE_FAILURE_STRANGE_INDEX	Próbáld meg megint.
+SELECT_CHANGE_FAILURE_STRANGE_NAME	Ez a hibás karakter név.
+SELECT_CHANGE_NAME_TITLE	Karakter név változtatás
+SELECT_DELEING	Karakter törlõdik
+SELECT_DELETED	Sikeres törlés
+SELECT_DO_YOU_DELETE_REALLY	Folytatod?
+SELECT_EMPTY_SLOT	Ez egy üres mezõ.
+SELECT_GM_NAME	GM
+SELECT_INPUT_CHANGING_NAME	Adj meg egy új karakter nevet.
+SELECT_NOT_JOIN_GUILD	Nem céh
+SHOP_BUY_INFO	Válaszd ki a tárgyat, amit meg akarsz vásárolni a bolt ablakból.
+SHOP_CANNOT_SELL_EQUIPMENT	Nem adhatsz el felszerelt tárgyat.
+SHOP_CANNOT_SELL_ITEM	Ez a tárgy nem eladó.
+SHOP_ERROR_UNKNOWN	Ismeretlen Bolt Hiba: %s
+SHOP_INVALID_POS	Ez a tárgy nem megfelelõ.
+SHOP_INVENTORY_FULL	A leltárban nincs több hely.
+SHOP_NOT_ENOUGH_MONEY	Nincs elég Yang
+SHOP_NOT_ENOUGH_MONEY_EX	Nincs elegendõ Yangod.
+SHOP_SELL_INFO	A leltár ablakodban válaszd ki az eladandó tárgyat.
+SHOP_SOLDOUT	Elfogyott
+SHOT_ERROR_UNKNOWN	Ismeretlen hiba a távolsági támadás során: %s
+SKILL_BOHO	Visszaverés
+SKILL_BUDONG	Nem használható többé
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	EXP-re van szükséged, hogy kitanuld ezt a képességet.
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	Könyvre van szükséged, hogy kitanuld ezt a készséget.
+SKILL_CHEONGEUN	Erõs test
+SKILL_CRITICAL	Kritikus találat
+SKILL_ENCHANT_POISON	Méreg használat
+SKILL_EUNHYEONG	Láthatatlan
+SKILL_FAINT	Ájulás
+SKILL_FIND_TRAP	Csapda keresés
+SKILL_FIRE	Égetés
+SKILL_FISHMIND	A Horgászgömb aktív
+SKILL_GAMJI	Megfog
+SKILL_GEOMGYEONG	Kard aurája
+SKILL_GEONGON	SKILL_GEONGON Nem használható többé
+SKILL_GICHEON	Sárkány segítsége
+SKILL_GIGONG	Chi forgás	
+SKILL_GONGPO	Félelem
+SKILL_GRADE_NAME_GRAND_MASTER	%s nagymester
+SKILL_GRADE_NAME_MASTER	%s mester
+SKILL_GRADE_NAME_PERFECT_MASTER	%s tökéletes mester
+SKILL_GROUP_ASSASSIN_1	Penge
+SKILL_GROUP_ASSASSIN_2	Íj
+SKILL_GROUP_HORSE	Lovaglás
+SKILL_GROUP_SHAMAN_1	Sárkány
+SKILL_GROUP_SHAMAN_2	Gyógyító
+SKILL_GROUP_SURA_1	Fegyver
+SKILL_GROUP_SURA_2	Mágia
+SKILL_GROUP_WARRIOR_1	Test
+SKILL_GROUP_WARRIOR_2	Mentális
+SKILL_GWIGEOM	Elvarázsolt penge
+SKILL_GYEONGGONG	Pehelykönnyû járás
+SKILL_HEUKSIN	Sötét védelem
+SKILL_HOSIN	Áldás
+SKILL_HWAYEOM	SKILL_HWAYEOM Nincs többé használatban
+SKILL_HYEOLMA	SKILL_HYEOLMA Nincs többé használatban
+SKILL_INC_ATKSPD	Megnövelt támadósebesség
+SKILL_INC_MOVSPD	Megnövelt mozgási sebesség
+SKILL_INMA	SKILL_INMA Nincs többé használatban
+SKILL_JEOJU	Átok
+SKILL_JEONGEOP	Gyógyít
+SKILL_JEONGWI	Harci mámor
+SKILL_JEONSINBANGEO	Teljes védelem
+SKILL_JEONSINGONGGYEOK	Totális támadás
+SKILL_JEUNGCHE	SKILL_JEUNGCHE Nincs többé használatban
+SKILL_JEUNGHON	SKILL_JEUNGHON Nincs többé használatban
+SKILL_JEUNGRYEOK	Támadás +
+SKILL_JEUNGSOK	Sebesség +
+SKILL_JIGAM	SKILL_JIGAM Nincs többé használatban
+SKILL_JIPJUNG	SKILL_JIPJUNG Nincs többé használatban
+SKILL_JUMAGAP	Elvarázsolt felszerelés
+SKILL_JUMAGEOM	SKILL_JUMAGEOM Nincs többé használatban
+SKILL_KWAEGEOM	SKILL_KWAEGEOM Nincs többé használatban
+SKILL_KWAESOK	Gyorsaság
+SKILL_LEGBOUND	SKILL_LEGBOUND Nincs többé használatban
+SKILL_MUSA	SKILL_MUSA Nincs többé használatban
+SKILL_MUYEONG	Láng szelleme
+SKILL_NEED_EMPTY_BOTTLE	Nincs üres üvegem.
+SKILL_NEED_POISON_BOTTLE	Nincs méregüvegem.
+SKILL_ONLY_FOR_GUILD_WAR	Ezt a készséget csak céhháborúban kamatoztathatod.
+SKILL_PABEOP	Varázslat érvénytelenítés
+SKILL_POWERFUL_STRIKE	Kábult támadás	
+SKILL_SEOMGWANG	Villám bomba
+SKILL_SINCHAK	SKILL_SINCHAK Nincs többé használatban
+SKILL_SLEEP	Alvás
+SKILL_SLOW	Lassan
+SKILL_STUN	Elkábít
+SKILL_SUHO	Õr
+SKILL_SUMMON_DESCRIPTION	Felidézés esélye: %d%%
+SKILL_TOOLTIP_INT	Intelligencia
+SKILL_TOOLTIP_LEVEL	Szint
+SKILL_TOXICDIE	Mérgezés
+SKILL_TOXICPOWER	Méregtámadás fokozva
+SKILL_TUSOK	Szellem ütés
+SKILL_WONSIN	SKILL_WONSIN Nincs többé használatban
+SKILL_YONGSIN	SKILL_YONGSIN Nincs többé használatban
+STAT_MINUS_CON	Életerõ beállítás (maradék esély: %d)
+STAT_MINUS_DEX	Ügyesség kiigazítás (Maradék esély: %d)
+STAT_MINUS_INT	Intelligencia beállítás (maradék esély: %d)
+STAT_MINUS_STR	Erõ beállítás (maradék esély: %d)
+STAT_TOOLTIP_CON	Növekszik a TP és a védelem
+STAT_TOOLTIP_DEX	Növekszik a támadás és a kitérés
+STAT_TOOLTIP_INT	Növekszik a MP valamint a mágikus támadás és védekezés
+STAT_TOOLTIP_STR	Növekszik a támadóérték és a sérülés
+SYMBOLLIST_TITLE	Céh zászló bejelentés
+SYSTEM_OPTION_CPU_TILING_1	CPU-tiling módban a gyengébb PC sebessége fokozható.
+SYSTEM_OPTION_CPU_TILING_2	Grafikai problémák esetén válaszd a 'Rendszer tulajdonságokat' vagy a CONFIG.exe-t.
+SYSTEM_OPTION_CPU_TILING_3	és válts GPU-tiling módra.
+SYSTEM_OPTION_GPU_TILING_1	A GPU-tiling mód egy gyengébb PC-n lassan futhat
+SYSTEM_OPTION_GPU_TILING_2	Grafikai problémák esetén válaszd a 'Rendszer tulajdonságokat' vagy a 'CONFIG.exe'-t.
+SYSTEM_OPTION_GPU_TILING_3	és válts CPU-tiling módra.
+SYSTEM_OPTION_TILING_EXIT	Mozaik módra váltáshoz újra kell indítani a játékot.
+TARGET_BUTTON_ACCEPT_FIGHT	Egyetért
+TARGET_BUTTON_AVENGE	Bosszú
+TARGET_BUTTON_BUILDING_DESTROY	Elpusztít
+TARGET_BUTTON_DISMOUNT	Leszáll
+TARGET_BUTTON_EMOTION_ALLOW	Érzelmek
+TARGET_BUTTON_EXCHANGE	Kereskedés
+TARGET_BUTTON_EXCLUDE	Kizár
+TARGET_BUTTON_EXIT_OBSERVER	Megfigyelõ mód vége
+TARGET_BUTTON_FIGHT	Párbaj
+TARGET_BUTTON_FRIEND	Barát
+TARGET_BUTTON_INVITE_GUILD	Céh meghívás
+TARGET_BUTTON_INVITE_PARTY	Csoport meghívás
+TARGET_BUTTON_LEAVE_PARTY	Csoport elhagyása
+TARGET_BUTTON_REQUEST_ENTER_PARTY	Belépés a csoportba
+TARGET_BUTTON_VIEW_EQUIPMENT	Felszerelés
+TARGET_BUTTON_WHISPER	Suttogni
+TARGET_LEVEL_BOSS	Fõnök
+TARGET_LEVEL_KING	5. szint
+TARGET_LEVEL_KNIGHT	3. szint
+TARGET_LEVEL_PAWN	1. szint
+TARGET_LEVEL_S_KNIGHT	4. szint
+TARGET_LEVEL_S_PAWN	2. szint
+TASKBAR_ATTACK	Támadni
+TASKBAR_AUTO	Automatikus támadás
+TASKBAR_CAMERA	Kamera
+TASKBAR_EXP	Tapasztalat
+TASKBAR_HP	TP
+TASKBAR_MOVE	Mozogni
+TASKBAR_SKILL	Készség
+TASKBAR_SP	MP
+TASKBAR_ST	KP
+THING_COUNT	minden
+TOOLTIP_ANTI_CRITICAL_PCT	Kritikus csapás elleni ellenállás +%d%%	SA
+TOOLTIP_ANTI_PENETRATE_PCT	Átütõ csapás elleni ellenállás +%d%%	SA
+TOOLTIP_ANTI_SELL	Nem lehet eladni a boltban.
+TOOLTIP_APPLY_ATTBONUS_ANIMAL	Állatok elleni erõ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ASSASSIN	Nindzsák elleni erõ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_DEVIL	Ördögök elleni erõ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_HUMAN	Félemberek elleni erõ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MILGYO	Ezoterikusok elleni erõ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MONSTER	Szörnyek elleni erõ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ORC	Orkok elleni erõ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SHAMAN	Sámánok elleni erõ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SURA	Surák elleni erõ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_UNDEAD	Élõholtak elleni erõ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_WARRIOR	Harcosok elleni erõ +%d%%	SA
+TOOLTIP_APPLY_BLOCK	Esély a közelharci támadás kivédésére %d%%	SA
+TOOLTIP_APPLY_COMBAT_SP_RECOVER	MP-t a háborúban 5 másodpercenként visszaállít %d	SA
+TOOLTIP_APPLY_CRITICAL_PCT	Esély kritikus találatra +%d%%	SA
+TOOLTIP_APPLY_DAMAGE_SP_RECOVER	%d%% esély, hogy az MP-t találatnál megtartsd	SA
+TOOLTIP_APPLY_DODGE	Esély a nyilak elkerülésére %d%%	SA
+TOOLTIP_APPLY_EXP_DOUBLE_BONUS	%d%% esély EXP bónuszra	SA
+TOOLTIP_APPLY_GOLD_DOUBLE_BONUS	%d%% esély dupla mennyiségû Yang eldobására	SA
+TOOLTIP_APPLY_IMMUNE_FALL	Immunis a leesésre	SNA
+TOOLTIP_APPLY_IMMUNE_SLOW	Immunis a lelassulás ellen.	SNA
+TOOLTIP_APPLY_IMMUNE_STUN	Immunis az ájulás ellen	SNA
+TOOLTIP_APPLY_ITEM_DROP_BONUS	%d%% esély, dupla mennyiségû tárgy eldobására	SA
+TOOLTIP_APPLY_KILL_HP_RECOVER	%d%% esély, TP visszaállítására	SA
+TOOLTIP_APPLY_KILL_SP_RECOVER	%d%% esély, MP visszaállítására	SA
+TOOLTIP_APPLY_MANA_BURN_PCT	%d%% esély Mp rablásra	SA
+TOOLTIP_APPLY_MAX_HP_PCT	Max. TP +%d%%	SA
+TOOLTIP_APPLY_MAX_SP_PCT	Max. MP +%d%%	SA
+TOOLTIP_APPLY_NOAFFECT	Nincs hatás
+TOOLTIP_APPLY_NO_DEATH_PENALTY	Nem vész el tapasztalat pont ha a karakter újjáéled a holttesténél.	SNA
+TOOLTIP_APPLY_PENETRATE_PCT	%d%% esély, átható találatra	SA
+TOOLTIP_APPLY_POISON_PCT	Mérgezés esélye %d%%	SA
+TOOLTIP_APPLY_POISON_REDUCE	Méreg ellenállás %d%%	SA
+TOOLTIP_APPLY_POTION_BONUS	Ital %d%% hatásnövekedés	SA
+TOOLTIP_APPLY_REFLECT_CURSE	%d%% esély, az átok visszaverésére	SA
+TOOLTIP_APPLY_REFLECT_MELEE	%d%% esély a közelharci támadás visszaverésére	SA
+TOOLTIP_APPLY_RESIST_ASSASSIN	Védelmi esély nindzsatámadás ellen %d%%	SA
+TOOLTIP_APPLY_RESIST_BELL	Harang védelem %d%%	SA
+TOOLTIP_APPLY_RESIST_DAGGER	Tõr védekezés %d%%	SA
+TOOLTIP_APPLY_RESIST_FAN	Legyezõ védekezés %d%%	SA
+TOOLTIP_APPLY_RESIST_SHAMAN	Védekezési esély sámántámadás ellen %d%%	SA
+TOOLTIP_APPLY_RESIST_SURA	Védekezési esély Sura támadás ellen %d%%	SA
+TOOLTIP_APPLY_RESIST_SWORD	Kard védelem %d%%	SA
+TOOLTIP_APPLY_RESIST_TWOHAND	Kétkezes védelem %d%%	SA
+TOOLTIP_APPLY_RESIST_WARRIOR	Védekezési esély harcos támadás ellen %d%%	SA
+TOOLTIP_APPLY_RESIST_WIND	Szél ellenállás %d%%	SA
+TOOLTIP_APPLY_SKILL_BOOK_BONUS	Könyvbõl tanulás esélyének növelése 2,5-szeresére 	SNA
+TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY	Ha sikertelen a tanulás, azonnal újra próbálhatod szabadon.	SNA
+TOOLTIP_APPLY_SLOW_PCT	Lassítás esélye %d%%	SA
+TOOLTIP_APPLY_STEAL_HP	%d%% veszteség eltûnik a TP-bõl.	SA
+TOOLTIP_APPLY_STEAL_SP	%d%% veszteség eltûnik az MP-bõl.	SA
+TOOLTIP_APPLY_STUN_PCT	Ájulás esélye %d%%	SA
+TOOLTIP_ARMOR	Felszerelés
+TOOLTIP_ARROW	Nyíl
+TOOLTIP_ASSASSIN	Nindzsa
+TOOLTIP_ATT_GRADE	Támadó érték +%d	SA
+TOOLTIP_ATT_SPEED	Támadósebesség +%d%%	SA
+TOOLTIP_AUTO_POTION_HP	Nap Elixír
+TOOLTIP_AUTO_POTION_REST	Maradék: %.2f%%
+TOOLTIP_AUTO_POTION_SP	Hold Elixír
+TOOLTIP_AUTO_POTION_USING	Aktív
+TOOLTIP_BOW_DISTANCE	Íjjász hatótávolság +%dm	SA
+TOOLTIP_BUYPRICE	Ár: %s
+TOOLTIP_CAST_SPEED	Varázssebesség +%d%%	SA
+TOOLTIP_CON	Életerõ +%d	SA
+TOOLTIP_COSTUME_ATTR_BONUS	Jelmez bónusz %d%%	SA
+TOOLTIP_DEF_GRADE	Védekezés +%d	SA
+TOOLTIP_DEX	Ügyesség +%d	SA
+TOOLTIP_DRAGON_SOUL_DECK1	Föld	SNA
+TOOLTIP_DRAGON_SOUL_DECK2	Ég	SNA
+TOOLTIP_EAR	Fülbevaló
+TOOLTIP_ENERGY	Energia %d	SA
+TOOLTIP_ETC	Stb.
+TOOLTIP_FISHINGROD_EXP	Pont: %d / %d
+TOOLTIP_FISHINGROD_LEVEL	Szint: %d
+TOOLTIP_FISHINGROD_UPGRADE1	Add a halásznak,
+TOOLTIP_FISHINGROD_UPGRADE2	hogy egy jobb
+TOOLTIP_FISHINGROD_UPGRADE3	horgászbotot adjon.
+TOOLTIP_FISH_LEN	Hossz: %.2fcm
+TOOLTIP_HELMET	Sisak
+TOOLTIP_HP_REGEN	TP regenerálódás +%d%%	SA
+TOOLTIP_INT	Intelligencia +%d	SA
+TOOLTIP_ITEM_ATT_GRADE	Támadó érték %d
+TOOLTIP_ITEM_ATT_POWER	Támadó érték %d - %d
+TOOLTIP_ITEM_ATT_POWER_ONE_ARG	Támadó érték %d
+TOOLTIP_ITEM_ATT_POWER_REFINE	Támadó érték %d - %d (+%d)
+TOOLTIP_ITEM_ATT_SPEED	Támadósebesség %s
+TOOLTIP_ITEM_DEF_GRADE	Védelem %d
+TOOLTIP_ITEM_FAST	Gyors
+TOOLTIP_ITEM_LIMIT_CON	Életerõ felsõ határ: %d
+TOOLTIP_ITEM_LIMIT_DEX	Ügyesség felsõ határ: %d
+TOOLTIP_ITEM_LIMIT_INT	Intelligencia felsõ határ: %d
+TOOLTIP_ITEM_LIMIT_LEVEL	%d. szinttõl
+TOOLTIP_ITEM_LIMIT_STR	Erõ felsõ határ: %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER	Mágikus támadó érték %d - %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER_ONE_ARG	Mágikus támadó érték %d
+TOOLTIP_ITEM_MAGIC_DEF_POWER	Mágikus védelem %d
+TOOLTIP_ITEM_NORMAL	Normál
+TOOLTIP_ITEM_SLOW	Lassú
+TOOLTIP_ITEM_VERY_FAST	Nagyon gyors
+TOOLTIP_ITEM_VERY_SLOW	Nagyon lassú
+TOOLTIP_ITEM_WEARABLE_JOB	[ Felszerelhetõ ]
+TOOLTIP_LOTTERY_STEP_NUMBER	%d
+TOOLTIP_LOTTO_NUMBER	Szerencseszám: %d
+TOOLTIP_MAGIC_ATTBONUS_PER	Mágikus támadás +%d%%	SA
+TOOLTIP_MAGIC_ATT_GRADE	Mágikus támadó érték +%d	SA
+TOOLTIP_MAGIC_DEF_GRADE	Mágikus védelem +%d	SA
+TOOLTIP_MALL_ATTBONUS	Támadó érték +%d%%	SA
+TOOLTIP_MALL_ATTBONUS_STATIC	Támadó érték +12~15%	SNA
+TOOLTIP_MALL_AUTOLOOT	Automatikusan felszedi a Yangokat.	SNA
+TOOLTIP_MALL_DEFBONUS	Védekezés +%d%%	SA
+TOOLTIP_MALL_DEFBONUS_STATIC	Védekezés +12~15%	SNA
+TOOLTIP_MALL_EXPBONUS	EXP +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_P_STATIC	iCafe EXP-Bónusz +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_STATIC	50%-kal több EXP	SNA
+TOOLTIP_MALL_FISH_MIND	A halfogás esélye megnõtt.	SNA
+TOOLTIP_MALL_GOLDBONUS	Yang eldobási esély (%.1f)	SA
+TOOLTIP_MALL_GOLDBONUS_STATIC	Dupla Yang eldobási esély	SNA
+TOOLTIP_MALL_ITEMBONUS	Tárgy ledobási esély (%.1f)	SA
+TOOLTIP_MALL_ITEMBONUS_P_STATIC	iCafe tárgy zsákmányolási esély plusz %.1f%%	SA
+TOOLTIP_MALL_ITEMBONUS_STATIC	Dupla tárgy eldobási esély	SNA
+TOOLTIP_MALL_MARRIAGE_FAST	Gyorsabban nõnek az életpontok.	SNA
+TOOLTIP_MALL_SAFEBOX	Nagyobb raktártér áll rendelkezésre.	SNA
+TOOLTIP_MAX_HP	Max. TP +%d	SA
+TOOLTIP_MAX_HP_PCT	Max. TP +%d%%	SA
+TOOLTIP_MAX_SP	Max. MP +%d	SA
+TOOLTIP_MAX_SP_PCT	Max. MP +%d%%	SA
+TOOLTIP_MAX_STAMINA	Max. Kitartás +%d	SA
+TOOLTIP_MELEE_MAGIC_ATTBONUS_PER	Mágikus/közelharci támadás +%d%%	SA
+TOOLTIP_MEMORIZED_POSITION	%s(%d, %d)
+TOOLTIP_MEMORIZED_POSITION_ERROR	GPS HIBA(%d, %d)
+TOOLTIP_MOV_SPEED	Mozgási sebesség %d%%	SA
+TOOLTIP_NECK	Nyaklánc
+TOOLTIP_NEED_ALL_SP	Szükséges MP: Max.
+TOOLTIP_NEED_GSP	Szükslges sárkány szellem: %d
+TOOLTIP_NEED_HP	Szükséges TP: %d
+TOOLTIP_NEED_HP_PER_SEC	TP / mp. : %d
+TOOLTIP_NEED_SKILL_POINT	Szükséges készség pont:
+TOOLTIP_NEED_SP	Szükséges MP: %d
+TOOLTIP_NEED_SP_PER_SEC	MP / mp.: %d
+TOOLTIP_NEXT_SKILL_LEVEL_1	Következõ szint: %d (Max. %d)
+TOOLTIP_NEXT_SKILL_LEVEL_2	Következõ szint: %d (Max. %d-%d)
+TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	Átlagos károk %d%%	SA
+TOOLTIP_NORMAL_HIT_DEFEND_BONUS	Átlagos veszteség ellenállás %d%%	SA
+TOOLTIP_PARTY_INFO_GRADE_UP1	Több, mint %d csoporttag
+TOOLTIP_PARTY_INFO_GRADE_UP2	Támadási szint +%d
+TOOLTIP_PARTY_INFO_GRADE_UP3	Védelmi szint +%d
+TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	Minden csoporttag TP/MP helyreállítása egyszer 60 percen belül.
+TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	Minden csoporttag TP/MP helyreállítása 30 percen belül egyszer.
+TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	3 percet kell várnod a csoporttag halála után.
+TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	Bármikor hívhatsz ugyanarról a szerverrõl csoporttagokat.
+TOOLTIP_PARTY_INFO_SET_ATTACKER	Támadó szint +(csoporttagok száma/2) támadót %d lehet kiválasztani.
+TOOLTIP_PARTY_INFO_SET_TANKER	Védelmi szint +(csoporttagok száma) 1 tõrharcost lehet választani.
+TOOLTIP_PARTY_SKILL_LEVEL	Aktuális szint: %d
+TOOLTIP_PARTY_TITLE_GRADE_UP	[Támadás/Védekezés javul]
+TOOLTIP_PARTY_TITLE_HEAL	[Újrateremt]
+TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Több, mint %d csoporttag esetén %d%% EXP bónusz jár.
+TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[EXP bónusz]
+TOOLTIP_PARTY_TITLE_RECALL	[Idehív]
+TOOLTIP_PARTY_TITLE_SET_ATTACKER	[Támadó kinevezés]
+TOOLTIP_PARTY_TITLE_SET_TANKER	[Tõrharcos Beállítás]
+TOOLTIP_PICK_EXP	Pont: %d / %d
+TOOLTIP_PICK_LEVEL	Szint: %d
+TOOLTIP_PICK_UPGRADE1	Add a favágónak,
+TOOLTIP_PICK_UPGRADE2	hogy egy jobb
+TOOLTIP_PICK_UPGRADE3	csákányt adjon.
+TOOLTIP_POTION_CURE	Negatív hatások visszaállítása.
+TOOLTIP_POTION_MIN	Min.
+TOOLTIP_POTION_PLUS_ATTACK_SPEED	Támadó sebesség +%d
+TOOLTIP_POTION_PLUS_HP_PERCENT	TP +%d%%
+TOOLTIP_POTION_PLUS_HP_POINT	TP +%d
+TOOLTIP_POTION_PLUS_MOVING_SPEED	Mozgási sebesség +%d
+TOOLTIP_POTION_PLUS_SP_PERCENT	MP +%d%%
+TOOLTIP_POTION_PLUS_SP_POINT	MP +%d
+TOOLTIP_POTION_SEC	mp.
+TOOLTIP_POTION_TIME	Idõtartama:
+TOOLTIP_REQUIREMENT_21_LEVEL	21-es szintet el kell érned
+TOOLTIP_REQUIREMENT_41_LEVEL	41-es szintet el kell érned
+TOOLTIP_REQUIREMENT_LEVEL	%d. szintet el kell érned
+TOOLTIP_REQUIREMENT_SKILL_LEVEL	%s szint %d szükséges
+TOOLTIP_REQUIREMENT_STAT_LEVEL	%s %d szükséges
+TOOLTIP_RESIST_BOW	Nyíl ellenállás %d%%	SA
+TOOLTIP_RESIST_DARK	Sötétséggel szembeni ellenállás +%d%%	SA
+TOOLTIP_RESIST_EARTH	Föld ellenállás +%d%%	SA
+TOOLTIP_RESIST_ELEC	Villám ellenállás %d%%	SA
+TOOLTIP_RESIST_FIRE	Tûz ellenállás %d%%	SA
+TOOLTIP_RESIST_ICE	Jég-ellenállás +%d%%	SA
+TOOLTIP_RESIST_MAGIC	Mágia ellenállás %d%%	SA
+TOOLTIP_REST_USABLE_COUNT	Maradék: %d
+TOOLTIP_SEALED	
+TOOLTIP_SELLPRICE	Ár: %s
+TOOLTIP_SHAMAN	Sámán
+TOOLTIP_SHIELD	Vért
+TOOLTIP_SHOES	Cipõ
+TOOLTIP_SKILL	Készség	SNA
+TOOLTIP_SKILLBOOK_NAME	Készségkönyv
+TOOLTIP_SKILL_AFFECT_ATT_GRADE	Támadó érték: +
+TOOLTIP_SKILL_AFFECT_ATT_POWER	Támadó érték:
+TOOLTIP_SKILL_AFFECT_ATT_SPEED	Támadósebesség: +
+TOOLTIP_SKILL_AFFECT_DEF_GRADE	Védelem:
+TOOLTIP_SKILL_AFFECT_DODGE	Ellenséges támadó érték: -
+TOOLTIP_SKILL_AFFECT_HEAL	TP helyreállítás:
+TOOLTIP_SKILL_AFFECT_MOV_SPEED	Mozgási sebesség: +
+TOOLTIP_SKILL_AFFECT_REFLECT_MELEE	Esély a közelharci támadás visszaverésére:
+TOOLTIP_SKILL_AFFECT_RESIST_NORMAL	Testi sérülések elleni ellenállás:
+TOOLTIP_SKILL_COOL_TIME	Újratöltés: 
+TOOLTIP_SKILL_DAMAGE_BONUS	Készség károk %d%%	SA
+TOOLTIP_SKILL_DEFEND_BONUS	Készség károkkal szembeni ellenállás %d%%	SA
+TOOLTIP_SKILL_DURATION	Idõtartama: %d mp.
+TOOLTIP_SKILL_FORGET_BOOK_NAME	Feledés szalagja
+TOOLTIP_SKILL_LEVEL	Aktuális szint: %d
+TOOLTIP_SKILL_LEVEL_MASTER	Aktuális szint: %d (mester)
+TOOLTIP_SKILL_LEVEL_WITH_MAX	Aktuális szint: %d (max. %d)
+TOOLTIP_SOCKET_EMPTY	Üres
+TOOLTIP_SOCKET_REFINABLE_ITEM	[Tárgy foglalattal]
+TOOLTIP_SP_REGEN	MP-Regenerálódás +%d%%	SA
+TOOLTIP_STR	Erõ +%d	SA
+TOOLTIP_SURA	Sura
+TOOLTIP_TIME_CHARGER_FIX	Feltöltési idõ %d sec.	SA
+TOOLTIP_TIME_CHARGER_PER	Feltöltési idõ %d%%	SA
+TOOLTIP_UNIQUE	Egyedüli
+TOOLTIP_UNSEAL_LEFT_TIME	
+TOOLTIP_WARRIOR	Harcos
+TOOLTIP_WEAPON	Fegyver
+TOOLTIP_WRISTLET	Csuklópánt
+UI_ACCEPT	Elfogad
+UI_CANCEL	Megszakít
+UI_CLOSE	Bezár
+UI_DEF_FONT	Tahoma:12
+UI_DEF_FONT_LARGE	Tahoma:14
+UI_DEF_FONT_SMALL	Tahoma:9
+UI_DENY	Elutasít
+UI_ITEM	Tárgy
+UI_LEFT_TIME	Maradék idõ: %d mp.
+UI_NEXT	Tovább
+UI_NEXTPAGE	Következõ
+UI_NOCONTENTS	Nincs tartalom
+UI_NONAME	Nincs név
+UI_OK	OK
+UI_POS_UNKNOWN	Ismeretlen hely
+UI_PREVPAGE	Vissza
+UI_UNKNOWN	Ismeretlen
+UPLOAD_MARK_CHECK_NEED_RECONNECT	A feltöltést még egyszer el kell indítani
+UPLOAD_MARK_UPLOAD_NEED_RECONNECT	A feltöltést még egyszer el kell indítani
+USE_ITEM_FAILURE_PRIVATE_SHOP	Nem használhatsz tárgyakat, amíg nyitva van a privát boltod.
+USE_SKILL_ERROR_UNKNOWN	Ismeretlen készség hiba: %s

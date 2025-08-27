@@ -1,0 +1,28 @@
+SpreadingFlag           1
+InitialVelocity         -100.000000
+ConeAngle               90.000000
+RollAngle               0.000000
+AngularVelocity         0.000000 450.000000 0.000000
+Gravity                 0.000000
+BombRange               40.000000
+BombEffect              "ga_center_small_yellow.mse"
+HomingFlag              1
+HomingStartTime         1.000000
+HomingMaxAngle          5.000000
+Range                   10000.000000
+Acceleration            0.000000 -500.000000 0.000000
+Group AttachData
+{
+    Type          1
+    FlyType       2
+    AttachFile    "ga_piece_yellow2.mse"
+    TailFlag      1
+    TailColor     1207629424d
+    TailLength    0.300000
+    TailSize      2.000000
+    TailShapeRect 0
+    Roll          0.000000
+    Distance      20.000000
+    Period        0.400000
+    Amplitude     150.000000
+}

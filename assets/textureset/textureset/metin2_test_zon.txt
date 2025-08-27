@@ -1,0 +1,24 @@
+TextureSet
+
+TextureCount 02  <------------------------------------------------택스춰 카운터는 택스춰 갯수를 말함
+
+Start Texture001
+    "D:\YMIR WORK\terrainmaps\Dungeon\field 01.DDS"<--------------택스춰 경로 
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture001
+Start Texture002 <------------------------------------------------택스춰 갯수의 증가에 따라 숫자를 늘려나감
+    "D:\YMIR WORK\terrainmaps\Dungeon\field 01.DDS"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture002

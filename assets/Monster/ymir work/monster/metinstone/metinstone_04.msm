@@ -1,0 +1,69 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:\Ymir Work\monster\metinstone\metinstone_01.GR2"
+
+SmokeBoneName 	"ChamferCyl04"
+List SmokeFileName	
+{
+	0		"D:\Ymir Work\effect\background\metinstone_loop_1_pink.mse"
+	1		"D:\Ymir Work\effect\background\metinstone_loop_2_pink.mse"
+	2		"D:\Ymir Work\effect\background\metinstone_loop_3_pink.mse"
+	3		"D:\Ymir Work\effect\background\metinstone_loop_4_pink.mse"
+}
+
+Group ShapeData
+{
+	PathName	"d:/ymir work/monster/metinstone/"
+
+	ShapeDataCount			1
+
+	Group ShapeData00
+	{
+		ShapeIndex			0
+
+		Model				"metinstone_01.gr2"
+		SourceSkin			"metinstone_01.dds"
+		TargetSkin			"metinstone_04.dds"
+	}
+}
+
+Group AttachingData
+{
+    AttachingDataCount       2
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "ChamferCyl04"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           80.000000
+            Position         -50.000000 0.000000 100.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "ChamferCyl04"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           90.000000
+            Position         -50.000000 0.000000 100.000000
+        }
+    }
+}

@@ -1,0 +1,55 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/shaman/horse/skill_splash.gr2"
+MotionDuration           2.000000
+
+Group MotionEventData
+{
+    MotionEventDataCount     3
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         1.620438
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 Head"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/shaman/effect/paeryong.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.676399
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "equip_right"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/shaman/effect/10kwaesok_making.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      4
+        StartingTime         1.639903
+        DuringTime           0.300000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.200000
+        ExternalForce        15.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           250.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+}

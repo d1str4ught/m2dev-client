@@ -1,0 +1,20 @@
+ScriptType			SkillDataScript
+
+Type				MIDDLE
+Attribute			"STANDING_SKILL"
+
+949Name				"檬傈何"
+949Description			"蓖券何甫 荤侩秦 扁撅窍绊 乐绰 弊镑栏肺 捞悼茄促"
+949Requirement			"蓖券" 3
+
+IconFileName		"skill/shaman/chojeon.sub"
+MotionIndex			16
+
+NeedSPFormula		"300"
+MaxLevel			5
+LevelUpPoint		5
+
+936Name				"记忆"
+936Description			"利用记忆传送回到到保存的位置"
+
+936Requirement			"传送" 3

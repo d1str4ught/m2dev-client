@@ -1,0 +1,33 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\pc\sura\skill\jumageom.GR2"
+MotionDuration           2.666667
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.068127
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 R Hand"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/sura/effect/jumageom.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         1.005677
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 R Hand"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/sura/effect/jumageom_making.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

@@ -1,0 +1,65 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "d:\ymir work\monster2\fire_man\fire_man.gr2"
+Group ShapeData
+{
+    PathName 		 ""
+    ShapeDataCount 		 2
+	Group ShapeData00
+	{
+		ShapeIndex			0
+
+		Model				"d:\ymir work\monster2\fire_man\fire_man.gr2"
+		SourceSkin			"d:\ymir work\monster2\fire_man\fire_man.dds"
+		TargetSkin			"d:\ymir work\monster2\fire_man\fire_man1.dds"
+	}
+	Group ShapeData01
+	{
+		ShapeIndex			1
+
+		Model				"d:\ymir work\monster2\fire_man\fire_man.gr2"
+		SourceSkin			"d:\ymir work\monster2\fire_man\sword.dds"
+		TargetSkin			"d:\ymir work\monster2\fire_man\fire_man_weapon1.dds"
+	}
+}
+Group AttachingData
+{
+    AttachingDataCount       2
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           40.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           90.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+}
+

@@ -1,9 +1,0 @@
-YPRT
-2293772605
-ambiencesoundvector		"sound/ambience/waterfall.wav"
-maxvolumeareapercentage		"0.300000"
-playinterval		"0.000000"
-playintervalvariation		"0.000000"
-playtype		"LOOP"
-propertyname		"waterfall"
-propertytype		"Ambience"

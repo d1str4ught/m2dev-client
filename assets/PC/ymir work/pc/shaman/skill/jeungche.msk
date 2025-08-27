@@ -1,0 +1,37 @@
+ScriptType			SkillDataScript
+
+Type				LOW
+Attribute			"NEED_TARGET" "ONLY_FOR_ALLIANCE" "CAN_USE_FOR_ME"
+Range				800
+
+949Name				"刘眉脚过"
+949Description			"蝴狼 扁款栏肺 泪矫悼救 眉仿阑 刘碍 矫挪促"
+
+IconFileName		"skill/shaman/jeungche.sub"
+MotionIndex         25
+MotionIndexForMe    24
+
+List 949AffectData
+{
+	"弥措 眉仿 : +%.0f" "(SkillPoint * 60) * (25 + INT) / 25" ""
+	"瘤加 矫埃 : %.0f檬" "5 * 60 * (5 + JeungJi) / 5" ""
+}
+
+List RequireStatData
+{
+	"Level" "11"
+}
+
+MaxLevel			"8"
+NeedSPFormula		"100"
+
+936Name				"神浴"
+936Description			"撒下太阳的光芒冲洗污秽，暂时增强体力"
+List 936AffectData
+{
+	"最大体力 : +%.0f" "(SkillPoint * 60) * (25 + INT) / 25" ""
+	"持续时间 : %.0f秒" "5 * 60 * (5 + JeungJi) / 5" ""
+}
+
+
+

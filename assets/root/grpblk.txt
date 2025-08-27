@@ -1,0 +1,15 @@
+nv4_disp.dll 0006000e 000a1628
+nv4_disp.dll 0006000e 000a1460
+nv4_disp.dll 0006000e 000a14b7
+nv4_disp.dll 0006000e.000a1620
+nv4_disp.dll 0006000e.000a1628
+nv4_disp.dll 0006000e.000a1a25
+nv4_disp.dll 0006000e.000110ff
+nv4_disp.dll 0006000e.000a1133
+nv4_disp.dll 0006000e.000a11ab
+nv4_disp.dll 0006000e.000a1629
+nv4_disp.dll 0006000e.000a1820
+nv4_disp.dll 0006000e.000a14b7
+NVDD32.DLL	0004000d.00010b7e
+ialmdd.dll	0004000d.000a0db6
+ialmdd.dll	0004000d.00010cc0

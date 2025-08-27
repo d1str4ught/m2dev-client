@@ -1,0 +1,97 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\YMIR WORK\pc\shaman\skill\shoot.GR2"
+MotionDuration           1.500000
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     6
+    Group Event00
+    {
+        MotionEventType      6
+        StartingTime         1.069343
+        
+        AttachingEnable      1
+        AttachingBoneName    "equip_right"
+        FlyFileName       "d:/ymir work/pc/shaman/effect/yongpa_4.msf"
+        FlyPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.441606
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "equip_right"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/shaman/effect/yongpa_4_head.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         1.131387
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 Head"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/shaman/effect/noegem_boom.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      4
+        StartingTime         1.193431
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.500000
+        ExternalForce        0.000000
+        HitLimitCount        5
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           200.000000
+            Position         0.000000 -200.000000 150.000000
+        }
+    }
+    Group Event04
+    {
+        MotionEventType      4
+        StartingTime         1.445256
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.500000
+        ExternalForce        0.000000
+        HitLimitCount        5
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           200.000000
+            Position         0.000000 -600.000000 150.000000
+        }
+    }
+    Group Event05
+    {
+        MotionEventType      2
+        StartingTime         1.076642
+        
+        DuringTime           0.200000
+        Power                300
+        AffectingRange       200
+    }
+}

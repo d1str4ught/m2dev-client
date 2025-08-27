@@ -1,0 +1,58 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     	"D:\Ymir Work\npc\mineral\gold.GR2"
+
+SmokeBoneName 	"ore"
+List SmokeFileName	
+{
+	0		"D:\Ymir Work\effect\background\metinstone_loop_1.mse"
+	1		"D:\Ymir Work\effect\background\metinstone_loop_2.mse"
+	2		"D:\Ymir Work\effect\background\metinstone_loop_3.mse"
+	3		"D:\Ymir Work\effect\background\metinstone_loop_4.mse"
+}
+
+Group ShapeData
+{
+    PathName 		 ""
+    ShapeDataCount 		 0
+}
+Group AttachingData
+{
+    AttachingDataCount       2
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "ore"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           60.000000
+            Position         0.000000 0.000000 50.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "ore"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           70.000000
+            Position         0.000000 0.000000 50.000000
+        }
+    }
+}

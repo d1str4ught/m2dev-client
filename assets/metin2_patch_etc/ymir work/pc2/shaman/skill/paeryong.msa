@@ -1,0 +1,65 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/shaman/skill/byeorak.gr2"
+MotionDuration           1.666667
+
+Group MotionEventData
+{
+    MotionEventDataCount     3
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.559611
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 Head"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/shaman/effect/paeryong.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      4
+        StartingTime         0.563666
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        1.000000
+        ExternalForce        10.000000
+        HitLimitCount        20
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           150.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+    Group Event02
+    {
+        MotionEventType      4
+        StartingTime         1.528792
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        1.000000
+        ExternalForce        10.000000
+        HitLimitCount        20
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           330.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+}

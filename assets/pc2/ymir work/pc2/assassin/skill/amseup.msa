@@ -1,0 +1,91 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/assassin/skill/amseup.gr2"
+MotionDuration           1.333333
+Accumulation           0.00	0.00	0.00
+
+Group AttackingData
+{
+    AttackType           1
+    HittingType          2
+    StiffenTime          0.000000
+    InvisibleTime        0.100000
+    ExternalForce        0.000000
+    HitLimitCount        0
+    
+    MotionType           3
+    HitDataCount         1
+    Group HitData00
+    {
+        AttackingStartTime   0.000000
+        AttackingEndTime     0.000000
+        AttackingBone        ""
+        WeaponLength         0.000000
+        List HitPosition
+        {
+        }
+    }
+}
+
+Group MotionEventData
+{
+    MotionEventDataCount     4
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.026923
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "equip_right"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/assassin/effect/amseup.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.299145
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "equip_right"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/assassin/effect/amseup_fallow.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.448718
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "equip_right"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/assassin/effect/amseup_blow.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      4
+        StartingTime         0.428224
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           1
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        10
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           130.000000
+            Position         0.000000 -90.000000 100.000000
+        }
+    }
+}

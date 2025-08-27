@@ -1,0 +1,345 @@
+ACCEPT	Akceptovat
+ATTACH_METIN_INFO	Pøejete si pouít kámen ducha?
+ATTACH_METIN_TITLE	Pouít kámen ducha
+CANCEL	Zrušit
+CHANGE_PASSWORD_CONFIRM	Potvrdit nové heslo
+CHANGE_PASSWORD_NEW	Nové heslo
+CHANGE_PASSWORD_OLD	Staré heslo
+CHANGE_PASSWORD_TITLE	Zmìna hesla
+CHARACTER_ACTION	Akce
+CHARACTER_EMOTICON	Emoce
+CHARACTER_MAIN	Postava
+CHARACTER_MUTUAL_ACTION	Interaktivní akce
+CHARACTER_NORMAL_ACTION	Normální akce
+CHARACTER_QUEST	Úkol
+CHARACTER_SKILL	Schopnosti
+CLOSE	Zavøít
+COMB_APPEARANCE	Kostım 1
+COMB_ATTRIBUTE	Kostım 2
+COMB_SKILLBOOK_TILE	Obchodovat s knihami
+COMB_TITLE	
+COSTUME_TITLE	Kostımy
+COSTUME_WINDOW_TITLE	Kostımy
+CREATE_ATT_GRADE	SIL
+CREATE_CREATE	Vytvoøit
+CREATE_DEX_GRADE	POH
+CREATE_HP	VIT
+CREATE_LAST_POINT	Body
+CREATE_MAN	Mu
+CREATE_NAME	Jméno
+CREATE_NEXT	Dále
+CREATE_PREV	Zpìt
+CREATE_SEX	Pohlaví
+CREATE_SHAPE	Vzhled
+CREATE_SP	INT
+CREATE_STAT_RESET	Zpìt
+CREATE_WOMAN	ena
+CUBE_INFO_TITLE	Pøíruèka zušlechování
+CUBE_REQUIRE_MATERIAL	Poadované materiály
+CUBE_REQUIRE_MATERIAL_OR	nebo
+CUBE_TITLE	Okno zušlechování
+DO_REFINE	Zušlechtit
+DRAGONSOUL_ACTIVATE	Aktivovat
+DRAGONSOUL_PAGE_BUTTON_1	Surovı
+DRAGONSOUL_PAGE_BUTTON_2	Broušenı
+DRAGONSOUL_PAGE_BUTTON_3	Vzácnı
+DRAGONSOUL_PAGE_BUTTON_4	Starovìkı
+DRAGONSOUL_PAGE_BUTTON_5	Legendární
+DRAGONSOUL_REFINE_WINDOW_TITLE	Okno zušlechování
+DRAGONSOUL_TAP_TITLE_1	Draèí diamant
+DRAGONSOUL_TAP_TITLE_2	Draèí rubín
+DRAGONSOUL_TAP_TITLE_3	Draèí nefrit
+DRAGONSOUL_TAP_TITLE_4	Draèí safír
+DRAGONSOUL_TAP_TITLE_5	Draèí granát
+DRAGONSOUL_TAP_TITLE_6	Draèí onyx
+DRAGONSOUL_TITLE	Alchymie Draèích kamenù
+EMPIRE_EXIT	Ukonèit
+EMPIRE_NEXT	Dále
+EMPIRE_PREV	Zpìt
+EMPIRE_SELECT	Zvolit
+EXCHANGE_ACCEPT	Pøevzít
+EXCHANGE_TITLE	Obchodování
+GAMEOPTION_TITLE	Nastavení hry
+GAME_EXIT_OBSERVER	Ukonèit diváckı modus
+GAME_HELP	Nápovìda
+GAME_QUEST	Úkoly
+GAME_SKILL_UP	Zvıšit schopnost
+GAME_STAT_UP	Zvıšit status
+GRADE	Stupeò
+GRADE_SELECT	Stupeò
+GUILD_BASENAME	Základní jméno
+GUILD_BOARD_ID	Jméno
+GUILD_BOARD_REFRESH	Aktualizovat (F5)
+GUILD_BOARD_TEXT	Zpráva
+GUILD_BUILDING_CATEGORY_TITLE	Stavební jednotky
+GUILD_BUILDING_CHANGE	Zmìnit
+GUILD_BUILDING_DIRECTION	Orientace
+GUILD_BUILDING_GRADE	Hodnost
+GUILD_BUILDING_INFO	Informace o budovì a nákladech
+GUILD_BUILDING_LIST_TITLE	Seznam budov
+GUILD_BUILDING_LOG	Kmen
+GUILD_BUILDING_NAME	Název budovy
+GUILD_BUILDING_OPERATE	Obsluhovat
+GUILD_BUILDING_PLY	Pøeklika
+GUILD_BUILDING_POSITION	Poloha
+GUILD_BUILDING_PREVIEW	Náhled
+GUILD_BUILDING_PRICE	Cena
+GUILD_BUILDING_REFRESH	Aktualizovat (F5)
+GUILD_BUILDING_STONE	Kámen
+GUILD_BUILDING_TITLE	Stavba domu cechu
+GUILD_CRYSTAL	Køišál
+GUILD_DEPOSIT	Zaplatit
+GUILD_DROP_RESOURCE1	zde
+GUILD_DROP_RESOURCE2	Nechat spadnout zdroj
+GUILD_GEM	Drahokam
+GUILD_GRADE_CHANGE_GRADE_NAME	Nové jméno hodnosti
+GUILD_GRADE_NUM	Èíslo
+GUILD_GRADE_PERMISSION_DELETE	Propustit
+GUILD_GRADE_PERMISSION_JOIN	Pozvat
+GUILD_GRADE_PERMISSION_NOTICE	Napsat
+GUILD_GRADE_PERMISSION_SKILL	Schopnosti
+GUILD_GRADE_RANK	Hodnost
+GUILD_GRADE_WRITE	Psát
+GUILD_INFO	Informace o cechu
+GUILD_INFO_CUR_EXP	Zkušenost
+GUILD_INFO_DECALRE_WAR	Vyhlásit válku
+GUILD_INFO_ENEMY_GUILD	Nepøátelskı cech
+GUILD_INFO_ENEMY_GUILD_EMPTY	ádná
+GUILD_INFO_LEVEL	Cechovní úroveò
+GUILD_INFO_MARK	Logo cechu
+GUILD_INFO_MASTER	Vedoucí
+GUILD_INFO_MASTER_VALUE	Vedoucí
+GUILD_INFO_MEMBER_AVG_LEVEL	Prùm. úroveò
+GUILD_INFO_MEMBER_NUM	Poèet èlenù
+GUILD_INFO_NAME	Název cechu
+GUILD_INFO_NAME_VALUE	Toto je název cechu
+GUILD_INFO_OFFER_EXP	Invest.
+GUILD_INFO_REST_EXP	Potøebná zkušenost
+GUILD_INFO_UPLOAD_MARK	Uploadovat logo
+GUILD_INFO_UPLOAD_SYMBOL	Uploadovat logo
+GUILD_MARK	Logo cechu
+GUILD_MEMBER_JOB	Rasa
+GUILD_MEMBER_KNIGHT	Vedoucí
+GUILD_MEMBER_LEVEL	Úroveò
+GUILD_MEMBER_NAME	Jméno
+GUILD_MEMBER_RANK	Hodnost
+GUILD_MEMBER_SPECIFIC_GRAVITY	Invest.
+GUILD_METIN_STONE	Kámen metin
+GUILD_MINENAL	Minerál
+GUILD_MONEY	Yang
+GUILD_NAME	Cech
+GUILD_RESOURCE_INFO	Informace o zdrojích
+GUILD_SKILL_ACTIVE	Aktivní
+GUILD_SKIlL_HEAL_GSP	Nabít
+GUILD_SKILL_PASSIVE	Pasivní
+GUILD_SKILL_POWER	Energie
+GUILD_SKILL_STATE	Schopnosti cechu
+GUILD_SYMBOL	Prapor cechu
+GUILD_WAR_ACCEPT	Akceptovat vyhlášení války
+GUILD_WAR_BATTLE_TYPE	Druh boje
+GUILD_WAR_CTF	Vlajka
+GUILD_WAR_DECLARE	Vyhlásit válku cechù
+GUILD_WAR_ENEMY	Protivník
+GUILD_WAR_NORMAL	Pole
+GUILD_WAR_WARP	Arena
+GUILD_WATER	Voda
+GUILD_WATER_STONE	Vodní kámen
+GUILD_WITHDRAW	Vzít
+HELP_ATTACK_KEY	Útok: stiskni mezerník nebo levé tlaèítko myši
+HELP_CHANGE_PK_MODE	Zmìnit útoènı mód: zmìòte nastavení levého tlaèítka myši
+HELP_CHARACTER_BUTTON1	(Okno postavy, Inventáø,
+HELP_CHARACTER_BUTTON2	Seznam pøátel a Monosti)
+HELP_CONTROL_CAMERA_BY_MIDDLEBUTTON	Pohled kamery: lze nastavit støedním nebo pravım tlaèítkem myši
+HELP_CONTROL_CAMERA_BY_RIGHTBUTTON	Pohled kamery: lze nastavit pravım nebo støedním tlaèítkem myši
+HELP_EXP	Zkušenost
+HELP_FURY	Item Shop ve høe
+HELP_GUILD_WINDOW	Otevøít okno cechu: stistknutím kláves Alt + G
+HELP_HELP	Zobrazit nápovìdu: stisknutím klávesy H
+HELP_HP	Zdravotní Body (ZB)
+HELP_MESSENGER_WINDOW	Otevøít Seznam pøátel: pomocí kláves Alt + M
+HELP_MOUSE_LEFT	Funkce levého tlaèítka myši
+HELP_MOUSE_RIGHT	Funkce pravého tlaèítka myši
+HELP_MOVE_KEY	Pohyb: k pohybu pouij klávesy W, S, A, D nebo šipky
+HELP_OPEN_CHARACTER	Otevøít okno postavy: pomocí klávesy C
+HELP_OPEN_CHAT	Otevøít okno chatu: pomocí klávesy Enter
+HELP_OPEN_INVENTORY	Otevøít Inventáø: pomocí klávesy I
+HELP_OPEN_LOG	Otevøít log chatu: pomocí klávesy L
+HELP_OPEN_MINIMAP	Otevøít Minimapu: pomocí kláves Shift + M
+HELP_OPEN_QUEST	Otevøít okno s úkoly: pomocí klávesy N
+HELP_OPEN_SKILL	Otevøít okno schopnosti: pomocí klávesy V
+HELP_OPEN_WHISPER	Otevøít Šepot: pomocí kláves Shift + Enter
+HELP_OPEN_ZONEMAP	Otevøí velkou mapu: pomocí klávesy M
+HELP_PICK_ITEM	Zvedat pøedmìty: pomocí kláves ^ nebo Y nebo levım tlaèítkem myši
+HELP_QUICKSLOT	Pole rychlého pøístupu
+HELP_SCREEN_CAPTURE	Uloit Snímek obrazovky: pomocí klávesy Print (bude uloen v souboru "Metin2\screenshot")
+HELP_SHOW_ALL_NAME	Zobrazit Jména: pomocí klávesy Alt
+HELP_SP	Magické Body (MB)
+HELP_SYSTEM_BUTTON	Systémové klávesy
+INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. Inventáø
+INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. Inventáø
+INVENTORY_TITLE	Inventáø
+ITEM_MALL	Item Shop
+LOAD_ERROR	Soubor je poškozen. Prosím nainstaluj Client znovu. Teï stiskni klávesu ESC.
+LOGIN_CONNECT	Pøipojit
+LOGIN_CONNECTING	Budeš spojen se serverem.
+LOGIN_DEFAULT_SERVERADDR	Název serveru, kanál 1
+LOGIN_EXIT	Ukonèit
+LOGIN_REGION_TITLE	Zvolit místo na vystavení úètenky
+LOGIN_SELECT_BUTTON	Zvolit
+LOGIN_SELECT_EXIT	Ukonèit
+LOGIN_SELECT_OK	OK
+LOGIN_SELECT_TITLE	Zvolit server
+MALL_PASSWORD_TITLE	Heslo
+MALL_TITLE	Sklad Item Shop
+MARKET_TITLE	Nahrát
+MARKLIST_REFRESH	Aktualizovat
+MARKLIST_TITLE	Zaregistrovat logo cechu
+MESSAGE	Toto je zpráva
+MESSENGER_ADD_FRIEND	Pøidat pøátele
+MESSENGER_DELETE_FRIEND	Smazat pøátele
+MESSENGER_MOBILE	Poslat SMS
+MESSENGER_OPEN_GUILD	Otevøít okno cechu
+MESSENGER_TITLE	Pøátelé
+MESSENGER_USE_GUILD_MOVE_SKILL	Pouij cechovní schopnost pohybu
+MESSENGER_WHISPER	Šeptat
+MINIMIZE	Minimalizovat
+MOUSEBUTTON_ATTACK	Útoèit
+MOUSEBUTTON_AUTO_ATTACK	Automaticky útoèit
+MOUSEBUTTON_CAMERA	Kamera
+MOUSEBUTTON_SKILL	Schopnosti
+MUSICLIST_TITLE	Vıbìr hudby
+NO	Ne
+OK	OK
+OPTION_ALWAYS_SHOW_NAME	Jméno
+OPTION_ALWAYS_SHOW_NAME_OFF	omezen
+OPTION_ALWAYS_SHOW_NAME_ON	vdy
+OPTION_BLOCK	Blokovat
+OPTION_BLOCK_EXCHANGE	Obchodovat
+OPTION_BLOCK_FRIEND	Pøátelé
+OPTION_BLOCK_GUILD	Cech
+OPTION_BLOCK_PARTY	Skupina
+OPTION_BLOCK_PARTY_REQUEST	Dotaz
+OPTION_BLOCK_WHISPER	Šeptat
+OPTION_CAMERA_DISTANCE	Kamera
+OPTION_CAMERA_DISTANCE_LONG	Daleko
+OPTION_CAMERA_DISTANCE_SHORT	Blízko
+OPTION_DELETE_MOBILE_BUTTON	Smazat èíslo mobilu
+OPTION_EFFECT	Zobrazení zásahù
+OPTION_ENV_EFFECT	Prostøedí
+OPTION_ENV_EFFECT_OFF	Vyp.
+OPTION_ENV_EFFECT_ON	Zap.
+OPTION_FOG	Mlha
+OPTION_FOG_DENSE	Hodnì
+OPTION_FOG_LIGHT	Málo
+OPTION_FOG_MIDDLE	Støednì
+OPTION_INPUT_MOBILE_BUTTON	Vloit èíslo mobilu
+OPTION_MOBILE	Mobil
+OPTION_MOB_INFO	Info o pøíšeøe
+OPTION_MOB_INFO_AGGR	Agresivní
+OPTION_MOB_INFO_LEVEL	Úroveò
+OPTION_MUSIC	Hudba
+OPTION_MUSIC_CHANGE	Zmìnit
+OPTION_MUSIC_DEFAULT_THEMA	Standardní titul Metinu2
+OPTION_NAME_COLOR	Název barvy
+OPTION_NAME_COLOR_EMPIRE	Barva øíše
+OPTION_NAME_COLOR_NORMAL	Normální
+OPTION_NIGHT_MODE	Noc
+OPTION_NIGHT_MODE_OFF	Vyp.
+OPTION_NIGHT_MODE_ON	Zap.
+OPTION_PVPMODE	Modus PvP
+OPTION_PVPMODE_FREE	Volnı
+OPTION_PVPMODE_FREE_TOOLTIP	Smíš útoèit na všechny hráèe
+OPTION_PVPMODE_GUILD	Cech
+OPTION_PVPMODE_GUILD_TOOLTIP	Smíš útoèit na všechny hráèe kromì èlenù vlastního cechu.
+OPTION_PVPMODE_PEACE	Mír
+OPTION_PVPMODE_PEACE_TOOLTIP	Nemùeš zaútoèit na hráèe z tvého království.
+OPTION_PVPMODE_REVENGE	Nepøátelsky
+OPTION_PVPMODE_REVENGE_TOOLTIP	Mùeš útoèit pouze hráèe s jinım smıšlením.
+OPTION_SALESTEXT	Jméno obchodu
+OPTION_SALESTEXT_VIEW_OFF	skrıt
+OPTION_SALESTEXT_VIEW_ON	ukázat
+OPTION_SNOW_MODE	Snìení
+OPTION_SNOW_MODE_OFF	Vyp.
+OPTION_SNOW_MODE_ON	Zap.
+OPTION_SNOW_TEXTURE_MODE	Sníh
+OPTION_SNOW_TEXTURE_MODE_OFF	Vyp.
+OPTION_SNOW_TEXTURE_MODE_ON	Zap.
+OPTION_SOUND	Efekty
+OPTION_TARGET_BOARD	Cílové menu
+OPTION_TARGET_BOARD_NO_VIEW	Zavøít
+OPTION_TARGET_BOARD_VIEW	Zobrazit
+OPTION_TILING	Grafická pamì
+OPTION_TILING_APPLY	Pouít
+OPTION_TILING_CPU	CPU
+OPTION_TILING_GPU	GPU
+OPTION_TITLE	Nastavení
+OPTION_VIEW_CHAT	Øádek v chatu
+OPTION_VIEW_CHAT_OFF	skrıt
+OPTION_VIEW_CHAT_ON	ukázat
+PARTY_MEMBER_INFO_NAME	Jméno èlena cechu
+PASSWORD_DESC_1	Zadejte své heslo
+PASSWORD_DESC_2	k otevøení skladu.
+PASSWORD_DESC_3	Ji sis zmìnil heslo?
+PASSWORD_DESC_4	Pokud ne, heslo je '000000'.
+PASSWORD_DESC_5	Své heslo si zmìò ve skladišti.
+PASSWORD_TITLE	Pamì- PW
+PICK_MONEY_TITLE	Dìlit
+PRIVATE_SHOP_CLOSE_BUTTON	Zavøít obchod
+PRIVATE_SHOP_NAME	Jméno obchodu
+PRIVATE_SHOP_TITLE	Otevøít obchod
+REFINE_COST	Náklady na zlepšení: 0 Yangù
+REFINE_INFO	Pravdìpodobnost úspìšného zlepšení: 100 %
+REFINE_MONEY	Poplatek za zušlechtìní
+REFINE_SELECT	Zušlechtìní
+REFINE_TTILE	Zlepšení
+REPORT_VIOLENT_WHISPER	
+RESTART_HERE	Zde znovu spustit
+RESTART_TOWN	Znovu spustit ve mìstì
+SAFE_CHANGE_PASSWORD	Zmìnit heslo
+SAFE_TITLE	Sklad
+SELECT_ATT_GRADE	SIL
+SELECT_CREATE	Vytvoøit
+SELECT_DELETE	Smazat
+SELECT_DEX_GRADE	POH
+SELECT_EMPIRE_NAME	Název království
+SELECT_EXIT	Ukonèit
+SELECT_HP	VIT
+SELECT_LEVEL	Úroveò
+SELECT_METIN_STONE_TITLE	Zvolit Kámen ducha
+SELECT_NAME	Jméno
+SELECT_NO_GUILD	Bez cechu
+SELECT_PLAYTIME	Trvání hry
+SELECT_SELECT	Start
+SELECT_SP	INT
+SELECT_TITLE	Zvolit titul
+SHOP_BUY	Koupit
+SHOP_SELL	Prodat
+SHOP_TITLE	Obchod
+SKILL_SUPPORT_TITLE	Standardní schopnosti
+STEP	Stupeò èirosti
+STEP_SELECT	Stupeò èirosti
+STRENGTH	Zesílení
+STRENGTH_SELECT	Úroveò
+SYSTEMOPTION_TITLE	Nastavení systému
+SYSTEM_CHANGE	Zmìnit postavu
+SYSTEM_EXIT	Ukonèit hru
+SYSTEM_HELP	Nápovìda
+SYSTEM_LOGOUT	Odhlásit se
+SYSTEM_MALL	Item Shop
+SYSTEM_OPTION	Nastavení systému
+TASKBAR_CHARACTER	Postava [C/V/B/N]
+TASKBAR_CHAT	Okno s chatem [Enter]
+TASKBAR_DISABLE	Deaktivováno
+TASKBAR_DRAGON_SOUL	Alchymie Draèích kamenù
+TASKBAR_EXPAND	Rozšíøit okno
+TASKBAR_INVENTORY	Inventáø [I]
+TASKBAR_MESSENGER	Pøátelé [Alt+M]
+TASKBAR_NEXT_QUICKSLOT	Nejbliší pole rychlého pøístupu [Shift+èíslice, Alt]
+TASKBAR_PREV_QUICKSLOT	Pøedchozí pole rychlého pøístupu [Shift+èíslice]
+TASKBAR_SYSTEM	Nastavení [ESC]
+WHISPER_BAN	Blokovat
+WHISPER_NAME	Šeptat
+WHISPER_REPORT	
+WHISPER_SEND	Poslat
+YES	Ano
+ZONE_MAP	Velká mapa

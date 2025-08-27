@@ -1,0 +1,35 @@
+ScriptType		SkillDataScript
+
+Type			MIDDLE
+Attribute		"ATTACK_SKILL" "WEAPON_LIMITATION" "NEED_TARGET"
+NeedWeapon		"SWORD"
+Range			1000
+
+949Name			"°ËÇ³"
+949Description	"¸Ö¸® ÀÖ´Â Àû±îÁö º£¾î¹ö¸± ¼ö ÀÖ´Â °­·ÂÇÑ °Ë±â¸¦ ÀÏÀ¸Å²´Ù"
+949Requirement	"¿ë±ÇÆÄ" 10
+
+IconFileName	"skill/sura/geompung.sub"
+MotionIndex		18
+
+List 949AffectData
+{
+	"ÆÄ±«·Â : %.1f¹è" "(100 + SkillPoint * 20) / 100" ""
+}
+
+List RequireStatData
+{
+	"Level" "41"
+}
+
+MaxLevel			"30"
+CoolTimeFormula		"20"
+NeedSPFormula		"200"
+
+936Name			"Éñ·ç½£"
+936Description	"½£ÆøÈçÉñ±ø½µÁÙ£¬ºáÉ¨´óµØ"
+936Requirement	"Áú¾í²¨" 10
+List 936AffectData
+{
+	"ÆÆ»µÁ¦ : %.1f ±¶" "(100 + SkillPoint * 20) / 100" ""
+}

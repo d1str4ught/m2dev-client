@@ -1,4 +1,0 @@
-GENERAL DEAD die.msa 100
-GENERAL RUN run.msa 100
-GENERAL WAIT wait.msa 100
-GENERAL WALK walk.msa 100

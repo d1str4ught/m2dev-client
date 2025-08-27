@@ -1,0 +1,56 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "d:/ymir work/guild/object/guild_symbol/guild_symbol.gr2"
+
+Group ShapeData
+{
+    PathName 			 "d:/ymir work/guild/object/guild_symbol/"
+    ShapeDataCount 		 1
+    Group ShapeData00
+    {
+        ShapeIndex 		 0
+        Model 			 "guild_symbol.gr2"
+        SourceSkin 		 "guild_symbol01.dds"
+        TargetSkin 		 "guild_symbol01.dds"
+    }
+}
+Group AttachingData
+{
+    AttachingDataCount       2
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Object01"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           80.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Object01"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           90.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+}

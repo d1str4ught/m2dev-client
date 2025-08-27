@@ -1,0 +1,3 @@
+GENERAL WAIT wait.msa 85
+GENERAL WAIT1 wait1.msa 15
+GENERAL WALK walk1.msa 100

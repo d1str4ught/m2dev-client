@@ -1,4 +1,0 @@
-AreaDataFile
-
-
-ObjectCount 0

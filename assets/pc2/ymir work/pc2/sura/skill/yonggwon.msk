@@ -1,0 +1,39 @@
+ScriptType		SkillDataScript
+
+Attribute		"ATTACK_SKILL" "STANDING_SKILL"
+CoolTimeFormula		"15"
+NeedSPFormula		"50 + (140 * SkillPoint)"
+
+MotionIndex		"16"
+
+
+IconFileName		"skill/sura/yonggwon.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"용권파"
+949Description	"모든 것을 베어버리는 강력한 회오리 바람을 일으켜 주변의 적을 섬멸한다"
+List 949ConditionData
+{
+	"제자리 주변 범위 공격"
+	"상대 회피 무시 효과"
+	"지능 보너스"
+}
+List 949AffectData
+{
+	"공격력 %.0f-%.0f" "1.1 * minatk + 2*lv + 2*iq + (1.5*minatk + str + iq*12) * k" "1.1 * maxatk + 2*lv + 2*iq + (1.5*maxatk + str + iq*12) * k"
+	"상대 회피 무시 확률 %.0f%%" "1 + 9*SkillPoint" ""
+}
+
+936Name			"질얩꺼"
+936Description	"梁뻥퓻죠돨질얩루윱句췻鷺鍋돨둔훙"
+List 936ConditionData
+{
+	"제자리 주변 범위 공격"
+}
+List 936AffectData
+{
+	"공격력 %.0f" "MinATK + (0.3*MinATK + 400)*SkillPoint" "MaxATK + (0.3*MaxATK + 400)*SkillPoint"
+	"상대 회피 무시 확률 %.0f%%" "1 + 4*SkillPoint" ""
+}

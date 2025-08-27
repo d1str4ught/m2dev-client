@@ -1,0 +1,44 @@
+ScriptType		SkillDataScript
+
+Type			MIDDLE
+Attribute		"STANDING_SKILL" "TOGGLE"
+949Name			"林付八"
+949Description	"八俊 绢狄阑 粮犁矫挪促"
+
+IconFileName	"skill/sura/jumageom.sub"
+MotionIndex		12
+
+List 949ConditionData
+{
+	"傍拜 且锭付促 沥脚仿 10 家葛"
+	"林付癌苞 悼矫 矫傈 阂啊瓷"
+}
+
+List 949AffectData
+{
+	"傍拜仿 : +%.1f" "(Level / 4 + 2) * SkillPoint / 20" ""
+}
+
+List RequireStatData
+{
+	"Level" "21"
+}
+
+MaxLevel				"20"
+LevelUpPoint			"2"
+NeedSPFormula			"50"
+ContinuationSPFormula	"2"
+
+936Name			"鬼怨"
+936Description		"剑上赋予黑暗力量"
+
+List 936ConditionData
+{
+	"每次攻击时消耗精力10"
+	"不能与噬体同时使用"
+}
+
+List 936AffectData
+{
+	"攻击力: +%.1f" "(Level / 4 + 2) * SkillPoint / 20" ""
+}

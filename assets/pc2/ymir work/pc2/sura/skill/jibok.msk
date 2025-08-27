@@ -1,0 +1,11 @@
+ScriptType		SkillDataScript
+
+Type			HIGH
+949Name			"Áöº¹¼ú"
+949Description		"Test - Description"
+
+IconFileName	"skill/sura/jibok.sub"
+MotionIndex		15
+
+936Name			"µØ·üÊõ"
+936Description		"Test - Description"

@@ -1,0 +1,89 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\monster2\manticore_boss2\special_attack1.GR2"
+MotionDuration           2.000000
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     6
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         1.187348
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Boss L Hand"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/monster2/back_blast1.mse"
+        EffectPosition       0.000000 -250.000000 60.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         1.060827
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Boss L Hand"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/monster2/blast1.mse"
+        EffectPosition       0.000000 -250.000000 150.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         1.143552
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Boss L Hand"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/monster2/blast2.mse"
+        EffectPosition       0.000000 -50.000000 20.000000
+    }
+    Group Event03
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "equip"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/monster/red_blow1.mse"
+        EffectPosition       50.000000 -50.000000 20.000000
+    }
+    Group Event04
+    {
+        MotionEventType      4
+        StartingTime         1.070560
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           500.000000
+            Position         0.000000 -100.000000 0.000000
+        }
+    }
+    Group Event05
+    {
+        MotionEventType      2
+        StartingTime         1.070560
+        
+        DuringTime           0.200000
+        Power                300
+        AffectingRange       200
+    }
+}

@@ -1,0 +1,10 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\YMIR WORK\ui\Items\etc\25000.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
+
+949Description        "家南阑 4俺鳖瘤 父甸 荐 乐绰 俺樊辑"
+936Description        "可以打4个孔的中级物品"

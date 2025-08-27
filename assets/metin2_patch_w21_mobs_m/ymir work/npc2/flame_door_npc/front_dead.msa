@@ -1,0 +1,31 @@
+ScriptType               MotionData
+
+MotionFileName           "D:/Ymir Work/npc2/flame_door_npc/front_dead.GR2"
+MotionDuration           1.400000
+Accumulation             0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.810706
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bone01"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/monster2/smoke3.mse"
+        EffectPosition       0.000000 -700.000000 50.000000
+    }
+    Group Event01
+    {
+        MotionEventType      2
+        StartingTime         0.820925
+        
+        DuringTime           0.300000
+        Power                200
+        AffectingRange       300
+    }
+}

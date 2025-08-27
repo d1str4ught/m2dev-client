@@ -1,0 +1,31 @@
+ScriptType		SkillDataScript
+
+Type			LOW
+Attribute		"STANDING_SKILL"
+
+949Name			"盒脚贱"
+949Description		"磊脚狼 盒脚阑 巢扁绊 弊 磊府俊辑 荤扼柳促"
+
+IconFileName	"skill/assassin/bunsin.sub"
+MotionIndex		0
+
+List 949AffectData
+{
+	"瘤加矫埃 : %.0f檬 "	"SkillPoint"	""
+}
+
+List RequireStatData
+{
+	"Level" "31"
+}
+
+MaxLevel			"10"
+NeedSPFormula		"70"
+CoolTimeFormula		"30"
+
+936Name			"幻影"
+936Description		"制造一个影子后消失在茫茫的夜色之中"
+List 936AffectData
+{
+	"持续时间: %.0f秒"	"SkillPoint"	""
+}

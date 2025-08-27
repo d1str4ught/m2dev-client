@@ -1,0 +1,95 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/assassin/skill/seomjeon.gr2"
+MotionDuration           1.500000
+Accumulation           0.00	-285.11	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     8
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.042308
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 Head"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/assassin/effect/seomjeom_start_4.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.050000
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 Head"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/assassin/effect/seomjeom_end_4.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.496154
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 Footsteps"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/assassin/effect/seomjeom_blow_4.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      1
+        StartingTime         0.299270
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "equip_right"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/assassin/effect/seomjeom_hand_4.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event04
+    {
+        MotionEventType      4
+        StartingTime         0.503650
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           1
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.500000
+        ExternalForce        0.000000
+        HitLimitCount        6
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           80.000000
+            Position         0.000000 -250.000000 100.000000
+        }
+    }
+    Group Event05
+    {
+        MotionEventType      8
+        StartingTime         0.189781
+    }
+    Group Event06
+    {
+        MotionEventType      7
+        StartingTime         0.419708
+    }
+    Group Event07
+    {
+        MotionEventType      9
+        StartingTime         0.310219
+    }
+}

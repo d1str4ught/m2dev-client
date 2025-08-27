@@ -1,6 +1,0 @@
-ScriptType AreaProperty
-
-AreaName ""
-
-NumWater 4
-

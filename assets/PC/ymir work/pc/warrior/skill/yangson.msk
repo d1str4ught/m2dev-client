@@ -1,0 +1,20 @@
+ScriptType		SkillDataScript
+
+Type			PASSIVE
+IconFileName	"skill/warrior/yangson.sub"
+
+949Name			"양손검 다루기"
+949Description	"양손검을 더욱 강력히 다룰 수 있는 능력"
+MaxLevel		"30"
+
+List 949AffectData
+{
+	"파괴력 +%.0f"	"SkillPoint"	""
+}
+
+936Name			"嶠포廊壞"
+936Description		"콘뫘속坎족頓痰路謹독"
+List 936AffectData
+{
+	"팎뻐제 +%.0f"	"SkillPoint"	""
+}

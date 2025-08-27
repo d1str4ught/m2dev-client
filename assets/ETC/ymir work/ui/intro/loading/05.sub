@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "IntroLoading.dds"
+left 350
+top 60
+right 420
+bottom 134

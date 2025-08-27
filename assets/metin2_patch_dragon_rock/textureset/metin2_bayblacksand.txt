@@ -1,0 +1,108 @@
+TextureSet
+
+TextureCount 11
+Start Texture001
+    "D:\ymir work\terrainmaps\BayBlackSand\BayBlackSand_field.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture001
+Start Texture002
+    "D:\ymir work\terrainmaps\BayBlackSand\BayBlackSand_grass.dds"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture002
+Start Texture004
+    "D:\ymir work\terrainmaps\BayBlackSand\BayBlackSand_seagrass.DDS"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture004
+Start Texture005
+    "D:\ymir work\terrainmaps\BayBlackSand\BayBlackSand_blacksand.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture005
+Start Texture006
+    "D:\ymir work\terrainmaps\CapeDragonHead\CapeDragon_grass003.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture006
+Start Texture007
+    "D:\ymir work\terrainmaps\BayBlackSand\BayBlackSand_rock001.dds"
+    1.000000
+    1.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture007
+Start Texture008
+    "D:\ymir work\terrainmaps\BayBlackSand\bayblacksand_cliff_002.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture008
+Start Texture009
+    "D:\ymir work\terrainmaps\BayBlackSand\bayblacksand_grass_00.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture009
+Start Texture010
+    "D:\ymir work\terrainmaps\CapeDragonHead\CapeDragon_field001.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture010
+Start Texture011
+    "D:\ymir work\terrainmaps\CapeDragonHead\CapeDragon_stone001.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture011
+
+
+
+
+

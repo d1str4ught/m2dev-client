@@ -1,0 +1,19 @@
+ScriptType               MotionData
+
+MotionFileName           "season1\monster\ch_magician\skipia_magician_attack.GR2"
+MotionDuration           1.500000
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      6
+        StartingTime         0.532847
+        
+        AttachingEnable      1
+        AttachingBoneName    "Circle01"
+        FlyFileName       "season1/monster/ch_magician/torpedo.msf"
+        FlyPosition       0.000000 0.000000 30.000000
+    }
+}

@@ -1,0 +1,106 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/warrior/skill/gyeoksan.gr2"
+MotionDuration           2.000000
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     6
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.943590
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 Footsteps"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/warrior/effect/gyeoksan_2.mse"
+        EffectPosition       0.000000 -100.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      4
+        StartingTime         0.997567
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        1.000000
+        ExternalForce        0.000000
+        HitLimitCount        14
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           120.000000
+            Position         0.000000 -170.000000 50.000000
+        }
+    }
+    Group Event02
+    {
+        MotionEventType      4
+        StartingTime         1.046229
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        1.000000
+        ExternalForce        0.000000
+        HitLimitCount        14
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           115.000000
+            Position         0.000000 -380.000000 50.000000
+        }
+    }
+    Group Event03
+    {
+        MotionEventType      4
+        StartingTime         1.090024
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        1.000000
+        ExternalForce        0.000000
+        HitLimitCount        14
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           110.000000
+            Position         0.000000 -580.000000 50.000000
+        }
+    }
+    Group Event04
+    {
+        MotionEventType      2
+        StartingTime         0.924574
+        
+        DuringTime           0.200000
+        Power                100
+        AffectingRange       200
+    }
+    Group Event05
+    {
+        MotionEventType      2
+        StartingTime         1.070560
+        
+        DuringTime           0.200000
+        Power                50
+        AffectingRange       200
+    }
+}

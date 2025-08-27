@@ -1,0 +1,10 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\ymir work\ui\items\quest\70008.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
+
+949Description "荤侩矫 阁胶磐甸捞|歹捞惑 唱甫 卵酒坷瘤 臼绰促"
+936Description "使用后与怪物的攻击关系取消"

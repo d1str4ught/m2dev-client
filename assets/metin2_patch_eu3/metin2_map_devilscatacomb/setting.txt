@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	7	7
+BasePosition	307200	1203200
+TextureSet	textureset\metin2_map_devilsCatacomb.txt
+Environment	map_devilsCatacomb.msenv
+

@@ -1,0 +1,10 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\YMIR WORK\ui\Items\etc\25040.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
+
+949Description        "厘厚狼 己瓷阑 氢惑 矫挪促. 俺樊 角菩矫俊绰 厘厚啊 荤扼瘤绰 措脚 己瓷捞 撤酒柳促."
+936Description        "保证物品在升级失败时不消失"

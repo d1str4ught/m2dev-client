@@ -1,0 +1,39 @@
+ScriptType		SkillDataScript
+
+Attribute		"STANDING_SKILL" "TOGGLE"
+CoolTimeFormula		"100"
+NeedSPFormula		"120 +(120 * SkillPoint)" 
+MotionIndex		"3"
+
+
+IconFileName		"skill/sura/gongpo.sub"
+
+Type			ACTIVE
+MaxLevel		"30"
+
+949Name			"공포"
+949Description	"자신을 공격하는 적에게 두려움을 일으켜 능력을 약화 시킨다"
+List 949ConditionData
+{
+	"상대 공격력 저하"
+	"상대 공격 실패 확률 증가"
+	"자기 피해시만 적용"
+}
+List 949AffectData
+{
+	"상대 공격력 -%.0f%%" "5 + 20*SkillPoint" ""
+	"상대 공격 실패 확률 %.0f%%" "1 + 29*SkillPoint" ""
+}
+
+936Name			"왜얍"
+936Description	"자신을 공격하는 적에게 두려움을 일으켜 능력을 약화 시킨다"
+List 936ConditionData
+{
+	"자기 피해시만 적용"
+}
+List 936AffectData
+{
+	"상대 공격력 -%.0f%%" "1 + 19*SkillPoint" ""
+	"상대 방어력 -%.0f%%" "(5+INT) * (2*SkillPoint + 0.3) / (SkillPoint + 3.6)" ""
+	"지속시간 : %.0f초" "60 + (90 * SkillPoint)" ""
+}

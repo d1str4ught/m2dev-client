@@ -1,4 +1,0 @@
-ScriptType MapProperty
-
-MapType "Invalid"
-

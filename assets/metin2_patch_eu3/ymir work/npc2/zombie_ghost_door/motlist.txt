@@ -1,0 +1,2 @@
+GENERAL WAIT close_wait.msa 100
+GENERAL DEAD open.msa 100

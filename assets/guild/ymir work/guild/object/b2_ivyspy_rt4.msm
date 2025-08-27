@@ -1,0 +1,26 @@
+ScriptType            RaceDataScript
+
+TreeFileName     "d:/ymir work/tree/B2_IvySpy_RT4.spt"
+
+Group AttachingData
+{
+    AttachingDataCount       1
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    ""
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           100.000000
+            Position         0.000000 0.000000 50.000000
+        }
+    }
+}

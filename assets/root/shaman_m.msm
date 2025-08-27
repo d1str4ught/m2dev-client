@@ -1,0 +1,1594 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:/YMIR WORK/pc2/shaman/shaman_novice.GR2"
+
+Group HairData
+{
+	PathName	"d:/ymir Work/pc2/shaman/"
+
+	HairDataCount 			61
+	Group HairData00
+	{	
+		HairIndex			0
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"shaman_hair_01.dds"
+	}
+	Group HairData01
+	{	
+		HairIndex			1
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"shaman_hair_01_white.dds"
+	}
+	Group HairData02
+	{	
+		HairIndex			2
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"shaman_hair_01_gold.dds"
+	}
+	Group HairData03
+	{	
+		HairIndex			3
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"shaman_hair_01_red.dds"
+	}
+	Group HairData04
+	{	
+		HairIndex			4
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"shaman_hair_01_brown.dds"
+	}
+	Group HairData05
+	{	
+		HairIndex			5
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"shaman_hair_01_black.dds"
+	}
+	Group HairData06
+	{
+		HairIndex			4001
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_1.dds"
+	}
+	Group HairData07
+	{	
+		HairIndex			4002
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_2.dds"
+	}
+	Group HairData08
+	{	
+		HairIndex			4003
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_3.dds"
+	}
+	Group HairData09
+	{	
+		HairIndex			4004
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_4.dds"
+	}
+	Group HairData10
+	{	
+		HairIndex			4005
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_1.dds"
+	}
+	Group HairData11
+	{	
+		HairIndex			4006
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_2.dds"
+	}
+	Group HairData12
+	{	
+		HairIndex			4007
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_3.dds"
+	}
+	Group HairData13
+	{	
+		HairIndex			4008
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_4.dds"
+	}
+	Group HairData14
+	{	
+		HairIndex			4009
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_1.dds"
+	}
+	Group HairData15
+	{	
+		HairIndex			4010
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_2.dds"
+	}
+	Group HairData16
+	{	
+		HairIndex			4011
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_3.dds"
+	}
+	Group HairData17
+	{	
+		HairIndex			4012
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_4.dds"
+	}
+	Group HairData18
+	{	
+		HairIndex			4013
+		Model				"hair/hair_6_1.gr2"
+		SourceSkin			"hair/hair_6_1.dds"
+		TargetSkin			"hair/hair_6_1.dds"
+	}
+	Group HairData19
+	{	
+		HairIndex			4014
+		Model				"hair/hair_5_1.gr2"
+		SourceSkin			"hair/hair_5_1.dds"
+		TargetSkin			"hair/hair_5_1.dds"
+	}	
+	Group HairData20
+	{	
+		HairIndex			4015
+		Model				"hair/hair_7_1.gr2"
+		SourceSkin			"hair/hair_7_1.dds"
+		TargetSkin			"hair/hair_7_1.dds"
+	}
+	Group HairData21
+	{	
+		HairIndex			4016
+		Model				"hair/hair_8_1.gr2"
+		SourceSkin			"hair/hair_8_1.dds"
+		TargetSkin			"hair/hair_8_1.dds"
+	}	
+	Group HairData22
+	{	
+
+		HairIndex			4017
+		Model				"hair/hair_9_1.gr2"
+		SourceSkin			"hair/hair_9_1.dds"
+		TargetSkin			"hair/hair_9_1.dds"
+	}
+	Group HairData23
+	{	
+
+		HairIndex			4018
+		Model				"hair/hair_10_1.gr2"
+		SourceSkin			"hair/hair_10_1.dds"
+		TargetSkin			"hair/hair_10_1.dds"
+	}
+	Group HairData24
+	{	
+
+		HairIndex			5001
+		Model				"hair/hair_11_1.gr2"
+		SourceSkin			"hair/hair_11_1.dds"
+		TargetSkin			"hair/hair_11_1.dds"
+	}
+	Group HairData25
+	{	
+
+		HairIndex			5002
+		Model				"hair/hair_14_1.gr2"
+		SourceSkin			"hair/hair_14_1.dds"
+		TargetSkin			"hair/hair_14_1.dds"
+	}
+
+	Group HairData26
+	{	
+
+		HairIndex			5005
+		Model				"hair/hair_15_1.gr2"
+		SourceSkin			"hair/hair_15_1.dds"
+		TargetSkin			"hair/hair_15_1.dds"
+	}
+	Group HairData27
+	{	
+
+		HairIndex			5003
+		Model				"hair/hair_16_1.gr2"
+		SourceSkin			"hair/hair_16_1.dds"
+		TargetSkin			"hair/hair_16_1.dds"
+	}
+	Group HairData28
+	{	
+
+		HairIndex			5004
+		Model				"hair/hair_17_1.gr2"
+		SourceSkin			"hair/hair_17_1.dds"
+		TargetSkin			"hair/hair_17_1.dds"
+	}
+	Group HairData29
+	{	
+
+		HairIndex			5027
+		Model				"hair/hair_20_1.gr2"
+		SourceSkin			"hair/hair_20_1.dds"
+		TargetSkin			"hair/hair_20_1.dds"
+	}
+	Group HairData30
+	{	
+
+		HairIndex			5023
+		Model				"hair/hair_13_1.gr2"
+		SourceSkin			"hair/hair_13_1.dds"
+		TargetSkin			"hair/hair_13_1.dds"
+	}
+	Group HairData31
+	{	
+
+		HairIndex			5024
+		Model				"hair/hair_18_1.gr2"
+		SourceSkin			"hair/hair_18_1.dds"
+		TargetSkin			"hair/hair_18_1.dds"
+	}
+	Group HairData32
+	{	
+
+		HairIndex			5025
+		Model				"hair/hair_19_1.gr2"
+		SourceSkin			"hair/hair_19_1.dds"
+		TargetSkin			"hair/hair_19_1.dds"
+	}
+	Group HairData33
+	{	
+		HairIndex			5028
+		Model				"hair/hair_22_1.gr2"
+		SourceSkin			"hair/hair_22_1.dds"
+		TargetSkin			"hair/hair_22_3.dds"
+	}
+	Group HairData34
+	{	
+		HairIndex			5029
+		Model				"hair/hair_22_1.gr2"
+		SourceSkin			"hair/hair_22_1.dds"
+		TargetSkin			"hair/hair_22_2.dds"
+	}
+	Group HairData35
+	{	
+		HairIndex			5030
+		Model				"hair/hair_22_1.gr2"
+		SourceSkin			"hair/hair_22_1.dds"
+		TargetSkin			"hair/hair_22_1.dds"
+	}
+	Group HairData36
+	{	
+		HairIndex			5031
+		Model				"hair/hair_23_1.gr2"
+		SourceSkin			"hair/hair_23_1.dds"
+		TargetSkin			"hair/hair_23_1.dds"
+	}
+	Group HairData37
+	{	
+		HairIndex			5033
+		Model				"hair/hair_24_1.gr2"
+		SourceSkin			"hair/hair_24_1.dds"
+		TargetSkin			"hair/hair_24_1.dds"
+	}
+	Group HairData38
+	{	
+		HairIndex			5035
+		Model				"hair/hair_24_1.gr2"
+		SourceSkin			"hair/hair_24_1.dds"
+		TargetSkin			"hair/hair_24_2.dds"
+	}
+	Group HairData39
+	{	
+		HairIndex			5037
+		Model				"hair/hair_24_1.gr2"
+		SourceSkin			"hair/hair_24_1.dds"
+		TargetSkin			"hair/hair_24_3.dds"
+	}
+	Group HairData40
+	{	
+		HairIndex			5039
+		Model				"hair/hair_24_1.gr2"
+		SourceSkin			"hair/hair_24_1.dds"
+		TargetSkin			"hair/hair_24_4.dds"
+	}
+	Group HairData41
+	{	
+		HairIndex			5041
+		Model				"hair/hair_24_1.gr2"
+		SourceSkin			"hair/hair_24_1.dds"
+		TargetSkin			"hair/hair_24_5.dds"
+	}
+	Group HairData42
+	{	
+		HairIndex			5026
+		Model				"hair/hair_21_1.gr2"
+		SourceSkin			"hair/hair_21_1.dds"
+		TargetSkin			"hair/hair_21_1.dds"
+	}
+	Group HairData43
+	{	
+		HairIndex			5045
+		Model				"hair/hair_11_1.gr2"
+		SourceSkin			"hair/hair_11_1.dds"
+		TargetSkin			"hair/hair_11_2.dds"
+	}
+	Group HairData44
+	{	
+		HairIndex			5046
+		Model				"hair/hair_11_1.gr2"
+		SourceSkin			"hair/hair_11_1.dds"
+		TargetSkin			"hair/hair_11_3.dds"
+	}
+	Group HairData45
+	{	
+		HairIndex			5047
+		Model				"hair/hair_11_1.gr2"
+		SourceSkin			"hair/hair_11_1.dds"
+		TargetSkin			"hair/hair_11_4.dds"
+	}
+	Group HairData46
+	{	
+		HairIndex			5048
+		Model				"hair/hair_11_1.gr2"
+		SourceSkin			"hair/hair_11_1.dds"
+		TargetSkin			"hair/hair_11_5.dds"
+	}
+	Group HairData47
+	{
+		HairIndex			5049
+		Model				"hair/hair_28_1.gr2"
+		SourceSkin			"hair/hair_28_1.dds"
+		TargetSkin			"hair/hair_28_1.dds"
+	}
+	Group HairData48
+	{
+		HairIndex			5050
+		Model				"hair/hair_28_1.gr2"
+		SourceSkin			"hair/hair_28_1.dds"
+		TargetSkin			"hair/hair_28_1.dds"
+	}
+	Group HairData49
+	{
+		HairIndex			5051
+		Model				"hair/hair_29_1.gr2"
+		SourceSkin			"hair/hair_29_1.dds"
+		TargetSkin			"hair/hair_29_1.dds"
+	}
+	Group HairData50
+	{
+		HairIndex			5052
+		Model				"hair/hair_30_1.gr2"
+		SourceSkin			"hair/hair_30_1.dds"
+		TargetSkin			"hair/hair_30_1.dds"
+	}
+	Group HairData51
+	{
+		HairIndex			5053
+		Model				"hair/hair_31_1.gr2"
+		SourceSkin			"hair/hair_31_1.dds"
+		TargetSkin			"hair/hair_31_1.dds"
+	}
+	Group HairData52
+	{
+		HairIndex			5054
+		Model				"hair/hair_32_1.gr2"
+		SourceSkin			"hair/hair_32_1.dds"
+		TargetSkin			"hair/hair_32_1.dds"
+	}
+	Group HairData53
+	{
+		HairIndex			5055
+		Model				"hair/hair_14_1.gr2"
+		SourceSkin			"hair/hair_14_1.dds"
+		TargetSkin			"hair/hair_14_2.dds"
+	}
+	Group HairData54
+	{
+		HairIndex			5057
+		Model				"hair/hair_33_1.gr2"
+		SourceSkin			"hair/hair_33_1.dds"
+		TargetSkin			"hair/hair_33_1.dds"
+	}
+	Group HairData55
+	{
+		HairIndex			5059
+		Model				"hair/hair_34_1.gr2"
+		SourceSkin			"hair/hair_34_1.dds"
+		TargetSkin			"hair/hair_34_1.dds"
+	}
+	Group HairData56
+	{
+		HairIndex			5061
+		Model				"hair/hair_35_1.gr2"
+		SourceSkin			"hair/hair_35_1.dds"
+		TargetSkin			"hair/hair_35_1.dds"
+	}
+	Group HairData57
+	{
+		HairIndex			5063
+		Model				"hair/hair_37_1.gr2"
+		SourceSkin			"hair/hair_37_1.dds"
+		TargetSkin			"hair/hair_37_1.dds"
+	}
+	Group HairData58
+	{
+		HairIndex			5064
+		Model				"hair/hair_36_1.gr2"
+		SourceSkin			"hair/hair_36_1.dds"
+		TargetSkin			"hair/hair_36_1.dds"
+	}
+	Group HairData59
+	{
+		HairIndex			5065
+		Model				"hair/hair_38_1.gr2"
+		SourceSkin			"hair/hair_38_1.dds"
+		TargetSkin			"hair/hair_38_1.dds"
+	}
+
+	Group HairData60
+	{
+		HairIndex			5022
+		Model				"hair/hair_12_1.gr2"
+		SourceSkin			"hair/hair_12_1.dds"
+		TargetSkin			"hair/hair_12_1.dds"
+	}
+
+}
+
+Group ShapeData
+{
+	PathName	"d:/ymir Work/pc2/shaman/"
+
+	ShapeDataCount				146
+
+	Group ShapeData00
+	{
+		ShapeIndex			0
+
+		Model				"shaman_novice.GR2"
+	}
+	Group ShapeData01
+	{
+		ShapeIndex			1
+
+		Model				"shaman_novice.GR2"
+		SourceSkin			"shaman_novice_red.dds"
+		TargetSkin			"shaman_novice_green.dds"
+	}
+	Group ShapeData02
+	{
+		ShapeIndex			3
+		Model				"shaman_cheongnang.GR2"
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_cheongnang.dds"
+	}
+	Group ShapeData03
+	{
+		ShapeIndex			4
+		Model				"shaman_cheongnang.GR2"
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_nabong.dds"
+	}
+	Group ShapeData04
+	{
+		ShapeIndex			5
+		Model				"shaman_cheongnang.GR2"
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_bihong.dds"
+	}
+	Group ShapeData05
+	{
+		ShapeIndex			6
+		Model				"shaman_miyeom.GR2"
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_miyeom.dds"
+	}
+	Group ShapeData06
+	{
+		ShapeIndex			7
+		Model				"shaman_miyeom.GR2"
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_seocheon.dds"
+	}
+	Group ShapeData07
+	{
+		ShapeIndex			8
+		Model				"shaman_miyeom.GR2"
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_ilseon.dds"
+	}
+	Group ShapeData08
+	{
+		ShapeIndex			9
+		Model				"shaman_cheonryun.GR2"
+		SourceSkin			"shaman_cheonryun.dds"
+		TargetSkin			"shaman_cheonryun.dds"
+	}
+	Group ShapeData09
+	{
+		ShapeIndex			10
+		Model				"shaman_cheonryun.GR2"
+		SourceSkin			"shaman_cheonryun.dds"
+		TargetSkin			"shaman_amyo.dds"
+	}
+	Group ShapeData10
+	{
+		ShapeIndex			11
+		Model				"shaman_cheonryun.GR2"
+		SourceSkin			"shaman_cheonryun.dds"
+		TargetSkin			"shaman_bongsin.dds"
+	}
+	Group ShapeData11
+	{
+		SpecialPath			"d:/ymir work/monster/wolf/"
+
+		ShapeIndex			100
+		Model				"wolf.gr2"
+		SourceSkin			"wolf.dds"
+	}
+	Group ShapeData12
+	{
+		SpecialPath			"d:/ymir work/monster/wild_boar/"
+
+		ShapeIndex			101
+		Model				"wild_boar.gr2"
+		SourceSkin			"wild_boar.dds"
+	}
+	Group ShapeData13
+	{
+		SpecialPath			"d:/ymir work/monster/bear/"
+
+		ShapeIndex			102
+		Model				"bear.gr2"
+		SourceSkin			"bear.dds"
+	}
+	Group ShapeData14
+	{
+		SpecialPath			"d:/ymir work/monster/tiger/"
+
+		ShapeIndex			103
+		Model				"tiger.gr2"
+		SourceSkin			"tiger.dds"
+	}
+	Group ShapeData15
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			201
+		Model				"shaman_marry_01.gr2"
+		SourceSkin			"shaman_marry_01.dds"
+		TargetSkin			"shaman_marry_01.dds"
+	}
+	Group ShapeData16
+	{
+		ShapeIndex			12
+		Model				"shaman_4-1.GR2"
+		SourceSkin			"shaman_4-1.dds"
+		TargetSkin			"shaman_4-1.dds"
+	}
+
+
+	Group ShapeData17
+	{
+		ShapeIndex			14
+		Model				"shaman_cheongnang.GR2"	
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_1-1cheongnang_a.DDS"
+	}
+	Group ShapeData18
+	{
+		ShapeIndex			15
+		Model				"shaman_cheongnang.GR2"	
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_1-2_nabong_a.DDS"
+	}
+	Group ShapeData19
+	{
+		ShapeIndex			16
+		Model				"shaman_cheongnang.GR2"	
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_bihong_a.dds"
+	}
+	Group ShapeData20
+	{
+		ShapeIndex			17
+		Model				"shaman_miyeom.GR2"	
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_2-1_miyeon_a.DDS"
+	}
+	Group ShapeData21
+	{
+		ShapeIndex			18
+		Model				"shaman_miyeom.GR2"	
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_2-2_seocheon_a.DDS"
+	}
+	Group ShapeData22
+	{
+		ShapeIndex			19
+		Model				"shaman_miyeom.GR2"
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_2-3_ilseon_a.DDS"
+	}
+	Group ShapeData23
+	{
+		ShapeIndex			20
+		Model				"shaman_cheonryun.GR2"	
+		SourceSkin			"shaman_cheonryun.dds"
+		TargetSkin			"shaman_3-1_cheonryun_a.DDS"
+	}
+	Group ShapeData24
+	{
+		ShapeIndex			21
+		Model				"shaman_cheonryun.GR2"	
+		SourceSkin			"shaman_cheonryun.dds"
+		TargetSkin			"shaman_3-2_amyo_a.DDS"
+	}
+	Group ShapeData25
+	{
+		ShapeIndex			24	
+		Model				"shaman_lord.GR2"	
+		SourceSkin			"shaman_queen01.dds"
+		TargetSkin			"shaman_queen01.dds"	
+	}
+	Group ShapeData26
+	{
+		ShapeIndex			25	
+		Model				"shaman_lord.GR2"	
+		SourceSkin			"shaman_queen01.dds"
+		TargetSkin			"shaman_queen02.dds"	
+	}
+	Group ShapeData27
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			26
+		Model				"shaman_4-1.GR2"
+		SourceSkin			"shaman_4-1.dds"
+		TargetSkin			"shaman_4-2.dds"
+	}
+	Group ShapeData28
+	{
+
+		ShapeIndex			27	
+		Model				"shaman_event1.GR2"
+		SourceSkin			"shaman_event1_yellow.dds"
+		TargetSkin			"shaman_event1_red.dds"
+	}
+	Group ShapeData29
+	{
+
+		ShapeIndex			28	
+		Model				"shaman_event1.GR2"
+		SourceSkin			"shaman_event1_yellow.dds"
+		TargetSkin			"shaman_event1_yellow.dds"
+	}
+	Group ShapeData30
+	{
+
+		ShapeIndex			29	
+		Model				"shaman_event1.GR2"
+		SourceSkin			"shaman_event1_yellow.dds"
+		TargetSkin			"shaman_event1_blue.dds"
+	}
+	Group ShapeData31
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			30
+		Model				"shaman_cheongnang.gr2"
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_costume1.dds"
+	}	
+	Group ShapeData32
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40031
+		Model				"shaman_rabbit1.GR2"
+		SourceSkin			"shaman_rabbit1.dds"
+		TargetSkin			"shaman_rabbit1.dds"
+	}
+	Group ShapeData33
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40033
+		Model				"shaman_fencing1_Germany.GR2"
+		SourceSkin			"shaman_fencing1_Germany.dds"
+		TargetSkin			"shaman_fencing1_London.dds"
+	}
+	Group ShapeData34
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40034
+		Model				"shaman_fencing1_Germany.GR2"
+		SourceSkin			"shaman_fencing1_Germany.dds"
+		TargetSkin			"shaman_fencing1_Germany.dds"
+	}	
+	Group ShapeData35
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40035
+		Model				"shaman_fencing1_Germany.GR2"
+		SourceSkin			"shaman_fencing1_Germany.dds"
+		TargetSkin			"shaman_fencing1_Turkey.dds"
+	}	
+	Group ShapeData36
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40036
+		Model				"shaman_fencing1_Germany.GR2"
+		SourceSkin			"shaman_fencing1_Germany.dds"
+		TargetSkin			"shaman_fencing1_Brazil.dds"
+	}
+	Group ShapeData37
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40037
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_soccer1_London.dds"
+	}
+	Group ShapeData38
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40038
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_soccer1_Germany.dds"
+	}	
+	Group ShapeData39
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40039
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_soccer1_Turkey.dds"
+	}	
+	Group ShapeData40
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40040
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_soccer1_Brazil.dds"
+	}	
+	Group ShapeData41
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40041
+		Model				"shaman_boxing1_Germany.GR2"
+		SourceSkin			"shaman_boxing1_Germany.dds"
+		TargetSkin			"shaman_boxing1_London.dds"
+	}
+	Group ShapeData42
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40042
+		Model				"shaman_boxing1_Germany.GR2"
+		SourceSkin			"shaman_boxing1_Germany.dds"
+		TargetSkin			"shaman_boxing1_Germany.dds"
+	}	
+	Group ShapeData43
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40043
+		Model				"shaman_boxing1_Germany.GR2"
+		SourceSkin			"shaman_boxing1_Germany.dds"
+		TargetSkin			"shaman_boxing1_Turkey.dds"
+	}	
+	Group ShapeData44
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40044
+		Model				"shaman_boxing1_Germany.GR2"
+		SourceSkin			"shaman_boxing1_Germany.dds"
+		TargetSkin			"shaman_boxing1_Brazil.dds"
+	}
+	Group ShapeData45
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40032
+		Model				"shaman_assasin1.GR2"
+		SourceSkin			"shaman_assassin1.dds"
+		TargetSkin			"shaman_assassin1.dds"
+	}	
+	Group ShapeData46
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40045
+		Model				"shaman_fencing1_Germany.GR2"
+		SourceSkin			"shaman_fencing1_Germany.dds"
+		TargetSkin			"shaman_fencing1_France.dds"
+	}
+	Group ShapeData47
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40046
+		Model				"shaman_fencing1_Germany.GR2"
+		SourceSkin			"shaman_fencing1_Germany.dds"
+		TargetSkin			"shaman_fencing1_Italy.dds"
+	}	
+	Group ShapeData48
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40047
+		Model				"shaman_fencing1_Germany.GR2"
+		SourceSkin			"shaman_fencing1_Germany.dds"
+		TargetSkin			"shaman_fencing1_Poland.dds"
+	}	
+	Group ShapeData49
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40048
+		Model				"shaman_fencing1_Germany.GR2"
+		SourceSkin			"shaman_fencing1_Germany.dds"
+		TargetSkin			"shaman_fencing1_Romania.dds"
+	}
+	Group ShapeData50
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40049
+		Model				"shaman_fencing1_Germany.GR2"
+		SourceSkin			"shaman_fencing1_Germany.dds"
+		TargetSkin			"shaman_fencing1_Spain.dds"
+	}
+	Group ShapeData51
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40050
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_soccer1_France.dds"
+	}
+	Group ShapeData52
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+		ShapeIndex			40051
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_soccer1_Italy.dds"
+	}	
+	Group ShapeData53
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40052
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_soccer1_Poland.dds"
+	}	
+	Group ShapeData54
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40053
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_soccer1_Romania.dds"
+	}
+	Group ShapeData55
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+		ShapeIndex			40054
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_soccer1_Spain.dds"
+	}
+	Group ShapeData56
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40055
+		Model				"shaman_boxing1_Germany.GR2"
+		SourceSkin			"shaman_boxing1_Germany.dds"
+		TargetSkin			"shaman_boxing1_France.dds"
+	}
+	Group ShapeData57
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40056
+		Model				"shaman_boxing1_Germany.GR2"
+		SourceSkin			"shaman_boxing1_Germany.dds"
+		TargetSkin			"shaman_boxing1_Italy.dds"
+	}	
+	Group ShapeData58
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40057
+		Model				"shaman_boxing1_Germany.GR2"
+		SourceSkin			"shaman_boxing1_Germany.dds"
+		TargetSkin			"shaman_boxing1_Poland.dds"
+	}	
+	Group ShapeData59
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+		ShapeIndex			40058
+		Model				"shaman_boxing1_Germany.GR2"
+		SourceSkin			"shaman_boxing1_Germany.dds"
+		TargetSkin			"shaman_boxing1_Romania.dds"
+	}
+	Group ShapeData60
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40059
+		Model				"shaman_boxing1_Germany.GR2"
+		SourceSkin			"shaman_boxing1_Germany.dds"
+		TargetSkin			"shaman_boxing1_Spain.dds"
+	}
+	Group ShapeData61
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			40065
+		Model				"shaman_halloween1.GR2"
+		SourceSkin			"shaman_halloween1.dds"
+		TargetSkin			"shaman_halloween1.dds"
+	}
+	Group ShapeData62
+	{
+		ShapeIndex			13
+		Model				"shaman_5_1.GR2"
+		SourceSkin			"shaman_5_1.dds"
+		TargetSkin			"shaman_5_1.dds"
+	}
+	Group ShapeData63
+	{
+		ShapeIndex			40062
+		Model				"shaman_salsa1.GR2"
+		SourceSkin			"shaman_salsa1.dds"
+		TargetSkin			"shaman_salsa1.dds"
+	}
+	Group ShapeData64
+	{
+		ShapeIndex			40063
+		Model				"shaman_Springwear1.GR2"
+		SourceSkin			"shaman_Springwear1.dds"
+		TargetSkin			"shaman_Springwear1.dds"
+	}
+	Group ShapeData65
+	{
+		ShapeIndex			40061
+		Model				"shaman_tailcoat1.GR2"
+		SourceSkin			"shaman_tailcoat1.dds"
+		TargetSkin			"shaman_tailcoat1.dds"
+	}
+	Group ShapeData66
+	{
+		ShapeIndex			40069
+		Model				"shaman_deer1.gr2"
+		SourceSkin			"shaman_deer1.dds"
+		TargetSkin			"shaman_deer1.dds"
+	}
+	Group ShapeData67
+	{
+		ShapeIndex			40066
+		Model				"shaman_santa1_black.gr2"
+		SourceSkin			"shaman_santa1_black.dds"
+		TargetSkin			"shaman_santa1_red.dds"
+	}
+	Group ShapeData68
+	{
+		ShapeIndex			40067
+		Model				"shaman_santa1_black.gr2"
+		SourceSkin			"shaman_santa1_black.dds"
+		TargetSkin			"shaman_santa1_green.dds"
+	}
+	Group ShapeData69
+	{
+		ShapeIndex			40068
+		Model				"shaman_santa1_black.gr2"
+		SourceSkin			"shaman_santa1_black.dds"
+		TargetSkin			"shaman_santa1_black.dds"
+	}
+	Group ShapeData70
+	{
+		ShapeIndex			40070
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA01.dds"	
+	}
+	Group ShapeData71
+	{
+		ShapeIndex			40071
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA02.dds"	
+	}
+	Group ShapeData72
+	{
+		ShapeIndex			40072
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA03.dds"	
+	}
+	Group ShapeData73
+	{
+		ShapeIndex			40073
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA04.dds"	
+	}
+	Group ShapeData74
+	{
+		ShapeIndex			40074
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA05.dds"	
+	}
+	Group ShapeData75
+	{
+		ShapeIndex			40075
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA06.dds"	
+	}
+	Group ShapeData76
+	{
+		ShapeIndex			40076
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA07.dds"	
+	}
+	Group ShapeData77
+	{
+		ShapeIndex			40077
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA08.dds"	
+	}
+	Group ShapeData78
+	{
+		ShapeIndex			40078
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA09.dds"	
+	}
+	Group ShapeData79
+	{
+		ShapeIndex			40079
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA10.dds"	
+	}
+	Group ShapeData80
+	{
+		ShapeIndex			40080
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA11.dds"	
+	}
+	Group ShapeData81
+	{
+		ShapeIndex			40081
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA12.dds"	
+	}
+	Group ShapeData82
+	{
+		ShapeIndex			40082
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA13.dds"	
+	}
+	Group ShapeData83
+	{
+		ShapeIndex			40083
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA14.dds"	
+	}
+	Group ShapeData84
+	{
+		ShapeIndex			40084
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA15.dds"	
+	}
+	Group ShapeData85
+	{
+		ShapeIndex			40085
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA16.dds"	
+	}
+	Group ShapeData86
+	{
+		ShapeIndex			40086
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA17.dds"	
+	}
+	Group ShapeData87
+	{
+		ShapeIndex			40087
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA18.dds"	
+	}
+	Group ShapeData88
+	{
+		ShapeIndex			40088
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA19.dds"	
+	}
+	Group ShapeData89
+	{
+		ShapeIndex			40089
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA20.dds"	
+	}
+	Group ShapeData90
+	{
+		ShapeIndex			40090
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA21.dds"	
+	}
+	Group ShapeData91
+	{
+		ShapeIndex			40091
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA22.dds"	
+	}
+	Group ShapeData92
+	{
+		ShapeIndex			40092
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA23.dds"	
+	}
+	Group ShapeData93
+	{
+		ShapeIndex			40093
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA24.dds"	
+	}
+	Group ShapeData94
+	{
+		ShapeIndex			40094
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA25.dds"	
+	}
+	Group ShapeData95
+	{
+		ShapeIndex			40095
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA26.dds"	
+	}
+	Group ShapeData96
+	{
+		ShapeIndex			40096
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA27.dds"	
+	}
+	Group ShapeData97
+	{
+		ShapeIndex			40097
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA28.dds"	
+	}
+	Group ShapeData98
+	{
+		ShapeIndex			40098
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA29.dds"	
+	}
+	Group ShapeData99
+	{
+		ShapeIndex			40099
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA30.dds"	
+	}
+	Group ShapeData100
+	{
+		ShapeIndex			40100
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA31.dds"	
+	}
+	Group ShapeData101
+	{
+		ShapeIndex			40101
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_UEFA32.dds"	
+	}
+	Group ShapeData102
+	{
+		ShapeIndex			40064
+		Model				"shaman_samurai1.GR2"
+		SourceSkin			"shaman_samurai1.dds"
+		TargetSkin			"shaman_samurai1.dds"	
+	}
+	Group ShapeData103
+	{
+		ShapeIndex			40106
+		Model				"shaman_rabbit1.GR2"
+		SourceSkin			"shaman_rabbit1.dds"
+		TargetSkin			"shaman_rabbit1_black.dds"	
+	}
+	Group ShapeData104
+	{
+		ShapeIndex			40107
+		Model				"shaman_rabbit1.GR2"
+		SourceSkin			"shaman_rabbit1.dds"
+		TargetSkin			"shaman_rabbit1_blue.dds"	
+	}
+	Group ShapeData105
+	{
+		ShapeIndex			40108
+		Model				"shaman_rabbit1.GR2"
+		SourceSkin			"shaman_rabbit1.dds"
+		TargetSkin			"shaman_rabbit1_green.dds"	
+	}
+	Group ShapeData106
+	{
+		ShapeIndex			40109
+		Model				"shaman_rabbit1.GR2"
+		SourceSkin			"shaman_rabbit1.dds"
+		TargetSkin			"shaman_rabbit1_pink.dds"	
+	}
+	Group ShapeData107
+	{
+		ShapeIndex			40110
+		Model				"shaman_BlackSnake1.GR2"
+		SourceSkin			"shaman_BlackSnake1.dds"
+		TargetSkin			"shaman_BlackSnake1.dds"	
+	}
+	Group ShapeData108
+	{
+		ShapeIndex			40111
+		Model				"shaman_BlackSnake1.GR2"
+		SourceSkin			"shaman_BlackSnake1.dds"
+		TargetSkin			"shaman_BlackSnake1.dds"	
+	}
+	Group ShapeData109
+	{
+		ShapeIndex			40112
+		Model				"shaman_assasin1.GR2"
+		SourceSkin			"shaman_assassin1.dds"
+		TargetSkin			"shaman_assassin2.dds"	
+	}
+	Group ShapeData110
+	{
+		ShapeIndex			40114
+		Model				"shaman_pwahuang1.GR2"
+		SourceSkin			"shaman_pwahuang1.dds"
+		TargetSkin			"shaman_pwahuang1.dds"	
+	}
+	Group ShapeData111
+	{
+		ShapeIndex			40116
+		Model				"shaman_halloween2.GR2"
+		SourceSkin			"shaman_halloween2.dds"
+		TargetSkin			"shaman_halloween2.dds"	
+	}
+	Group ShapeData112
+	{
+		ShapeIndex			40118
+		Model				"shaman_assasin1.GR2"
+		SourceSkin			"shaman_assassin1.dds"
+		TargetSkin			"shaman_assassin3.dds"	
+	}
+	Group ShapeData113
+	{
+		ShapeIndex			40060
+		Model				"shaman_capoeira1.gr2"
+		SourceSkin			"shaman_capoeira1.dds"
+		TargetSkin			"shaman_capoeira1.dds"	
+	}
+	Group ShapeData114
+	{
+		ShapeIndex			40120
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC01.dds"	
+	}
+	Group ShapeData115
+	{
+		ShapeIndex			40122
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC02.dds"	
+	}
+	Group ShapeData116
+	{
+		ShapeIndex			40124
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC03.dds"	
+	}
+	Group ShapeData117
+	{
+		ShapeIndex			40126
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC04.dds"	
+	}
+	Group ShapeData118
+	{
+		ShapeIndex			40128
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC05.dds"	
+	}
+	Group ShapeData119
+	{
+		ShapeIndex			40130
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC06.dds"	
+	}
+	Group ShapeData120
+	{
+		ShapeIndex			40132
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC07.dds"	
+	}
+	Group ShapeData121
+	{
+		ShapeIndex			40134
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC08.dds"	
+	}
+	Group ShapeData122
+	{
+		ShapeIndex			40136
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC09.dds"	
+	}
+	Group ShapeData123
+	{
+		ShapeIndex			40138
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC10.dds"	
+	}
+	Group ShapeData124
+	{
+		ShapeIndex			40140
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC11.dds"	
+	}
+	Group ShapeData125
+	{
+		ShapeIndex			40142
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC12.dds"	
+	}
+	Group ShapeData126
+	{
+		ShapeIndex			40144
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC13.dds"	
+	}
+	Group ShapeData127
+	{
+		ShapeIndex			40146
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC14.dds"	
+	}
+	Group ShapeData128
+	{
+		ShapeIndex			40148
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC15.dds"	
+	}
+	Group ShapeData129
+	{
+		ShapeIndex			40150
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC16.dds"	
+	}
+	Group ShapeData130
+	{
+		ShapeIndex			40152
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC17.dds"	
+	}
+	Group ShapeData131
+	{
+		ShapeIndex			40154
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC18.dds"	
+	}
+	Group ShapeData132
+	{
+		ShapeIndex			40156
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC19.dds"	
+	}
+	Group ShapeData133
+	{
+		ShapeIndex			40158
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC20.dds"	
+	}
+	Group ShapeData134
+	{
+		ShapeIndex			40160
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC21.dds"	
+	}
+	Group ShapeData135
+	{
+		ShapeIndex			40162
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC22.dds"	
+	}
+	Group ShapeData136
+	{
+		ShapeIndex			40164
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC23.dds"	
+	}
+	Group ShapeData137
+	{
+		ShapeIndex			40166
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC24.dds"	
+	}
+	Group ShapeData138
+	{
+		ShapeIndex			40168
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC25.dds"	
+	}
+	Group ShapeData139
+	{
+		ShapeIndex			40170
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC26.dds"	
+	}
+	Group ShapeData140
+	{
+		ShapeIndex			40172
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC27.dds"	
+	}
+	Group ShapeData141
+	{
+		ShapeIndex			40174
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC28.dds"	
+	}
+	Group ShapeData142
+	{
+		ShapeIndex			40176
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC29.dds"	
+	}
+	Group ShapeData143
+	{
+		ShapeIndex			40178
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC30.dds"	
+	}
+	Group ShapeData144
+	{
+		ShapeIndex			40180
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC31.dds"	
+	}
+	Group ShapeData145
+	{
+		ShapeIndex			40182
+		Model				"shaman_soccer1_Germany.GR2"
+		SourceSkin			"shaman_soccer1_Germany.dds"
+		TargetSkin			"shaman_WC32.dds"	
+	}
+}
+
+Group AttachingData
+{
+    AttachingDataCount       2
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           40.000000
+            Position         0.000000 0.000000 90.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           70.000000
+            Position         0.000000 0.000000 90.000000
+        }
+    }
+}

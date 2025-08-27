@@ -1,4 +1,0 @@
-AreaAmbienceDataFile
-
-
-ObjectCount 0

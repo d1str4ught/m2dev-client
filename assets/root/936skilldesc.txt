@@ -1,0 +1,66 @@
+1	WARRIOR	三连斩	快风斩	虎啸风声	以闪电般的速度连续攻击多次，对前方敌人造成巨大伤害	前方范围攻击三次				ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION	SWORD|TWO_HANDED	samyeon	4	34	64			总攻击力 %.0f-%.0f	(1.1*MinATK + (0.3*MinATK + 0.5*STR + MinWEP)*SkillPoint) * 3	(1.1*MaxATK + (0.3*MaxATK + 0.5*STR + MaxWEP)*SkillPoint) * 3								
+2	WARRIOR	火焰旋	真炎斩	龙吟裂天	将力量贯注在剑身上，以旋转的方式攻击周围的敌人，产生伤害	前进范围攻击				ATTACK_SKILL|CAN_CHANGE_DIRECTION|WEAPON_LIMITATION	SWORD|TWO_HANDED	palbang	16	46	76			攻击力 %.0f-%.0f	3*MinATK + (0.8*MinATK + 2*STR + 2*DEX + 3*MinWEP) * SkillPoint	3*MaxATK + (0.8*MaxATK + 2*STR + 2*DEX + 3*MaxWEP) * SkillPoint								
+3	WARRIOR	战魂	金刚怒	破釜沉舟	做为勇士将以牺牲防御为代价来提升可怕的攻击力	提高攻击速度	增加移动速度	受攻击伤害		STANDING_SKILL		jeongwi	12	42	72			攻击速度 +%.0f%%	50 * SkillPoint		移动速度 +%.0f%%	20 * SkillPoint		受攻击伤害 %.0f%%	80 * SkillPoint			
+4	WARRIOR	剑气	藏心剑	身剑合一	将真气灌注于武器之上发挥极致威力，产生可怕的伤害	只适用于近身攻击				STANDING_SKILL|WEAPON_LIMITATION	SWORD|TWO_HANDED	geomgyeong	7	37	67			攻击力 +%.0f	(100 + STR) * SkillPoint									
+5	WARRIOR	猛杀	岩碎	石破天惊	使用坚实的身体，快速靠近敌人并猛击对方，产生巨大伤害	突击范围攻击				ATTACK_SKILL|CHARGE_ATTACK|NEED_TARGET|WEAPON_LIMITATION	SWORD|TWO_HANDED	tanhwan	11	41	71			攻击力 %.0f-%.0f	2*MinATK + (MinATK + 2*DEX + 4*STR + 3*MinWEP)*SkillPoint	2*MaxATK + (MaxATK + 2*DEX + 4*STR + 3*MaxWEP)*SkillPoint								
+16	WARRIOR	飘叶斩	断月波	八风夜雨	飘曳一般快速划出一道弧光，将敌人撕裂	前方范围攻击				ATTACK_SKILL|CAN_CHANGE_DIRECTION|NEED_TARGET|WEAPON_LIMITATION	SWORD|TWO_HANDED	gigongcham	5	35	65			攻击力 %.0f-%.0f	2.3*MinATK + (MinATK*4 + STR + 3*MinWEP + CON)*SkillPoint	2.3*MaxATK + (MaxATK*4 + STR + 3*MaxWEP + CON)*SkillPoint								
+17	WARRIOR	跳斩	虎跃	龙翔九天	集全身之量于兵刃上，高高跃起，劈向前方，使敌人受到猛烈的攻击	直线范围攻击				ATTACK_SKILL|CAN_CHANGE_DIRECTION|WEAPON_LIMITATION	SWORD|TWO_HANDED	gyeoksan	3	33	63			攻击力 %.0f-%.0f	2.3*MinATK + (3*MinATK + 2*STR + 2*MinWEP + 3*CON)*SkillPoint	2.3*MaxATK + (3*MaxATK + 2*STR + 2*MaxWEP + 3*CON)*SkillPoint								
+18	WARRIOR	震撼	狮吼	盘古镇天	运起周身真气，产生巨大气流，对周围敌人造成伤害的同时将他们震飞	原地范围攻击	一定概率产生击晕的效果			ATTACK_SKILL|STANDING_SKILL		daejin	1	31	61			攻击力 %.0f-%.0f	2*MinATK + (2*MinATK + DEX + CON + 2*STR + 3*MinWEP)*SkillPoint	2*MaxATK + (2*MaxATK + DEX + CON + 2*STR + 3*MaxWEP)*SkillPoint	晕击概率 %.0f%%	(100 + 1000*SkillPoint/6)/10						
+19	WARRIOR	千斤坠	铁布衫	固若金汤	瞬间提升防御力，到达一定等级后将稳如泰山，任何猛烈的攻击都无法被打倒。	提升防御力	降低移动速度			STANDING_SKILL		cheongeun	10	40	70			防御力 : +%.0f	7+(40 + 0.2*str + 0.5*con)*k		移动速度 : -%.0f	1 + 9*SkillPoint						
+20	WARRIOR	剑风	斩气诀	剑气冲霄	快速挥动手中武器产生强大的气流，以迅雷不及掩耳之势打击敌人	远程攻击	周边范围攻击	击晕效果	击飞敌人	ATTACK_SKILL|CAN_CHANGE_DIRECTION|WEAPON_LIMITATION	SWORD|TWO_HANDED	geompung	17	47	77			攻击力 %.0f-%.0f	2*minatk + (minatk + 3*(dex + str + MinWEP))*k	2*maxatk + (maxatk + 3*(dex + str + MaxWEP))*k	晕击概率 %.0f	(100+k*1000/6)/10						
+31	ASSASSIN	暗袭	隐击	流光诛仙	隐藏自己的行踪，靠近敌人背后，给予致命一击，产生伤害	后方偷袭时提升攻击力	隐身时增加			ATTACK_SKILL|MELEE_ATTACK|NEED_TARGET|WEAPON_LIMITATION	DAGGER|DOUBLE_SWORD|SWORD	amseup	2	32	62			攻击力 : %.0f-%.0f	minatk + (minatk + 500 + 2*(dex + str + 1.5*MinWEP))*k	maxatk + (maxatk + 700 + 2*(dex + str + 1.5*MaxWEP))*k								
+32	ASSASSIN	魅影	无影剑	乱影降魔	凭借灵敏的身手，快速接近敌人并给对方以致命一击，防不胜防	瞬间移动攻击	隐身时增加			ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION	DAGGER|DOUBLE_SWORD|SWORD	gungsin	0	30	60			攻击力 %.0f-%.0f	(minatk + (1.6*minatk + 200 + 3*(dex + str + 1.5*MinWEP))*k)	(maxatk + (1.6*maxatk + 200 + 3*(dex + str + 1.5*MaxWEP))*k)								
+33	ASSASSIN	乾坤旋	舞轮斩	覆雨翻云	倒转身形，以快速旋转的攻击方式攻击敌人，同时得以逃脱。	逃脱时范围攻击	持续毒攻击			ATTACK_SKILL|CAN_CHANGE_DIRECTION|WEAPON_LIMITATION	DAGGER|DOUBLE_SWORD|SWORD	charyun	6	36	66			攻击力 %.0f-%.0f	2*minatk + (0.5*minatk + dex*7 + str*5 + MinWEP*3)*k	2*maxatk + (0.5*maxatk + dex*7 + str*5 + MaxWEP*3)*k	中毒概率 %.0f%%	1 + 4*k						
+34	ASSASSIN	隐身	千变术	遮天避日	隐藏自己的身形，令敌人无法察觉，更加发挥背后攻击的威力	攻击时解除				STANDING_SKILL		eunhyeong	8	38	68			追加伤害值 : +%.0f%%	50 * SkillPoint									
+35	ASSASSIN	毒雾	碧磷烟	含沙射影	在自己周围制造一片浓密的毒雾，任何靠近它的敌人都难免受到毒的侵袭	远程攻击	周边范围攻击	持续毒攻击		ATTACK_SKILL|NEED_TARGET		sangong	13	43	73			攻击力 %.0f-%.0f	lv*2+(2*minatk + str*3 + dex*14)*k	lv*2+(2*maxatk + str*3 + dex*14)*k	中毒概率 %.0f%%	40*k		中毒时间 %.0f秒	5+25*k			
+46	ASSASSIN	连射	贯日箭	气贯长虹	聚集自身的力量，对同一个敌人连续发出多支威力巨大的弩箭，持续造成伤害	远程攻击	多次攻击			ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION	BOW	yeonsa	1	31	61		2 + floor(6 * SkillPoint)	总攻击力 %.0f-%.0f	minatk + 0.2*minatk*floor(1+k*6)+ (0.8*minatk+(dex*4 + MinWEP)*ar) *k	maxatk + 0.2*maxatk*floor(1+k*6)+ (0.8*maxatk+(dex*4 + MaxWEP)*ar) *k	射%.0f支箭	2 + floor(6 * SkillPoint)			
+47	ASSASSIN	乱箭	雨针箭	千蜂锐刺	一次射出多支弩箭，对前方敌人产生多处伤害，令敌人无法躲避	远程攻击	同时攻击多个对象			ATTACK_SKILL|FAN_RANGE|NEED_TARGET|WEAPON_LIMITATION	BOW	gwangyeok	5	35	65	2 + floor(6 * SkillPoint)		攻击力 %.0f-%0.f	minatk + (minatk + dex + str + 0.5*MinWEP)*k	maxatk + (maxatk + dex + str + 0.5*MaxWEP)*k	最大可以攻击%.0f名	2 + floor(6 * SkillPoint)			
+48	ASSASSIN	怒箭	武力箭	神武镇天	箭矢上带有火焰，并贯以强大的力量，灼烧敌人的同时给予伤害	远程攻击	周边范围攻击	火焰攻击		ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION	BOW	hwajo	10	40	70			攻击力 %.0f-%.0f	1.5*minatk + (2.3*minatk)*k	1.5*maxatk + (2.3*maxatk + 100)*k					
+49	ASSASSIN	轻功	神行	踏雪无痕	身轻如燕，可快速的行走，远离敌人的攻击。	提高移动速度				STANDING_SKILL|TOGGLE		gyeonggong	3	33	63			移动速度 : +%.0f	60*SkillPoint						
+50	ASSASSIN	毒箭	蚀骨箭	追魂夺命	箭矢上涂有剧毒，无人能解，使敌人中箭的同时受到毒的侵蚀	远程攻击	周边范围攻击	击飞敌人	持续毒攻击	ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION	BOW	gigung	15	45	75			攻击力 %.0f-%.0f	minatk + (1.2*minatk + dex*2 + str + MinWEP)*k	maxatk + (1.2*maxatk + 100 + dex*2 + str + MaxWEP)*k	中毒概率 %.0f%%	80*k		中毒时间 %.0f秒	15+30*k
+61	SURA	碎灵指	裂仙爪	天崩地裂	发挥魔指的强大力量，有碎岩切山之力，引起强烈的爆炸，攻击敌人	前方范围攻击	无视对方防御效果	随智力增加伤害		ATTACK_SKILL|MELEE_ATTACK|NEED_TARGET		swaeryeong	11	41	71			攻击力 %.0f-%.0f	minatk + 2*lv + iq*2 + (2*minatk + str*3 + iq*9 + 5*MinWEP) * k	maxatk + 2*lv + iq*2 + (2*maxatk + str*3 + iq*9 + 5*MaxWEP) * k	忽视对方防御概率 %.0f%%	1 + 9*SkillPoint			
+62	SURA	龙卷波	旋风阵	狂神诛仙	借助魔王的力量，召唤猛烈的龙卷风，给周围造成巨大伤害	原地范围攻击	无视对方闪避效果	随智力增加伤害		ATTACK_SKILL|STANDING_SKILL		yonggwon	16	46	76			攻击力 %.0f-%.0f	1.1*minatk + 2*lv + 2*iq + (1.5*minatk + 3*MinWEP + iq*6) * k	1.1*maxatk + 2*lv + 2*iq + (1.5*maxatk + 3*MaxWEP + iq*6) * k	忽视对方闪避概率 %.0f%%	1 + 9*SkillPoint			
+63	SURA	剑魔	斩灵剑	屠龙在天	将黑暗的力量贯注于武器中，使它发挥灵气，以增强伤害	近身物理攻击发挥作用	随智力增加伤害	吸血攻击		STANDING_SKILL|TOGGLE|WEAPON_LIMITATION	SWORD	gwigeom	5	35	65			攻击力 +%.1f	7 + (5*iq+13) * k		把 %.0f%% 伤害值转换成吸收生命力	10*k			
+64	SURA	恐惧	血祭	叱炼狂魔	让敌人感到极度的恐惧，丧失各项能力，变得更加脆弱	降低对方攻击力	对方攻击失败概率增加	受伤害的时候适用		STANDING_SKILL|TOGGLE		gongpo	3	33	63			相对攻击力 -%.0f%%	1 + 29*SkillPoint		使对方攻击失败概率 %.0f%%	1 + 29*SkillPoint			
+65	SURA	噬体	魂盾	天魔附体	呼唤魔王的黑暗盔甲，围绕周身保护自己不受侵害	受到伤害时反射一部分伤害	提高防御力	随智力增加伤害		STANDING_SKILL|TOGGLE		jumagap	6	36	66			防御力 +%.0f	(iq+30)*k		物理攻击反射概率 %.0f%%	(iq/4+10)*k			
+66	SURA	驱散	散元术	腐骨销魂	用邪恶的咒语来诅咒敌人，驱散敌人身上的辅助性魔法	远程攻击	周边范围攻击	驱除对方辅助法术		ATTACK_SKILL|NEED_TARGET		pabeop	10	40	70			魔法攻击力 %.0f-%.0f	40 + 5*lv + 2*iq + (18*iq + 7*minmtk + 50)*ar*k	40 + 5*lv + 2*iq + (18*iq + 7*maxmtk + 100)*ar*k	消除辅助效果概率 %.0f%%	50*k			
+76	SURA	魔灵	鬼怨	夺魂摄魄	从地狱中吸取怨气，集结成黑暗力量给对方造成伤害	远程攻击	对方周边攻击			ATTACK_SKILL|NEED_TARGET		maryeong	1	31	61			魔法攻击力 : %.0f-%.0f	40 + 5*lv + 2*iq + (10*iq + 8*minmtk + 50)*ar*k	40 + 5*lv + 2*iq + (10*iq + 8*maxmtk + 100)*ar*k					
+77	SURA	黑龙咒	狱龙魄	魔龙噬天	从邪恶守护者黑龙体内爆发强烈的火焰，焚烧周围的敌人	原地范围攻击	火焰攻击			ATTACK_SKILL|STANDING_SKILL		hwayeom	17	47	77			魔法攻击力 : %.0f-%.0f	5*lv + 2*iq + (7*iq + 8*mtk + str*4 + con*2 + 180)*k	5*lv + 2*iq + (7*iq + 8*mtk + str*4 + con*2 + 200)*k					
+78	SURA	魂灵	魔焰	狱火焚烧	忠诚而邪恶的魔灵，守护着主人，将攻击所有靠近主人的敌人	远程攻击	任意选择攻击对象	周边范围攻击		ATTACK_SKILL|STANDING_SKILL|TOGGLE		muyeong	15	45	75			魔法攻击力 : %.0f-%.0f	30 + 2*lv + 2*iq + (9*iq + 7*minmtk + 200)*ar*k	30 + 2*lv + 2*iq + (9*iq + 7*maxmtk + 500)*ar*k					
+79	SURA	黑魔咒	御魂术	天哭地泣	瞬间爆发黑暗力量，产生阻挡一切的气流，在消耗大量精力的同时保护自己	精力值代替生命值受到的伤害	提高防御力			STANDING_SKILL|TOGGLE		heuksin	2	32	62			伤害值衰减率 %.0f%%	(15 + iq*0.5)*k		防御力 +%.0f	(0.5*iq+15)*k			
+80	SURA	束缚	困身	寸步难行	运用恶魔的力量控制丛生的荆棘，对敌人造成影响，降低对方的移动速度	远程攻击	对方周边攻击	移动速度减慢		ATTACK_SKILL|NEED_TARGET		tusok	9	39	69			魔法攻击力 : %.0f-%.0f	40 + 2*lv + 2*iq + (2*con + 2*dex + 10*iq + 8*minmtk+ 180)*ar*k	40 + 2 * lv + 2*iq + (2*con + 2*dex + 10*iq + 8*maxmtk + 200)*ar*k	缓慢概率 : %.1f%%	(333 + (300 * k))/10		缓慢时间 : %.0f	10 + (10 * SkillPoint)
+81	SURA	旋魔	血玲珑	乾坤黯然	凌空跃起，将手中的邪恶力量聚集成一道黑色漩涡丢出，攻击远处的敌人	远程攻击	对方周边攻击			ATTACK_SKILL|NEED_TARGET		geomhwan	7	37	67			魔法攻击力 %.0f-%.0f	120 + 6*lv + (5*con + 5*dex + 25*iq + 12*minmtk)*ar*k	120 + 6*lv + (5*con + 5*dex + 25*iq + 12*maxmtk)*ar*k					
+91	SHAMAN	灵光	归元波	五彩云霞	聚集天地间的灵气形成五彩光球，给周围的敌人造成巨大的冲击	远程攻击	周边范围攻击			ATTACK_SKILL|FAN_RANGE|NEED_TARGET		bipabu	0	30	60			魔法攻击力 : %.0f-%.0f	70 + 4*lv + (15*iq+5*minmtk+50)*ar*k	70 + 4*lv + (15*iq+5*maxmtk+50)*ar*k					
+92	SHAMAN	龙影	龙吟	潜龙傲天	祈祷神龙的保护，在身边浮现出多只龙神的影子，保护自己的同时攻击敌人	直线范围攻击	持续火焰效果			ATTACK_SKILL|NEED_TARGET		yongpa	5	35	65			魔法攻击力 : %.0f-%.0f	60 + 5*lv + (15*iq + 6*minmtk + 120)*ar*k	60 + 5*lv + (15*iq + 6*maxmtk + 120)*ar*k	持续火焰概率  %.0f%%	iq*0.2*k		持续火焰攻击力  %.0f	lv+5*iq *k
+93	SHAMAN	龙咒	龙啸	千龙摆尾	听到召唤的神龙，借助元神的强大力量，吞噬所有敌人	原地范围攻击	持续火焰效果			ATTACK_SKILL|STANDING_SKILL		paeryong	6	36	66			魔法攻击力 %.0f-%.0f	70 + 2*lv + (10*iq+15*minmtk+100)*ar*k	70 + 2*lv + (10*iq+15*maxmtk+100)*ar*k	持续火焰概率 %.0f%%	iq*0.2*k		持续火焰攻击力  %.0f	lv+5*iq *k
+94	SHAMAN	结界	天壁	真龙护体	使用龙鳞组成的护甲带有极强的防御力，使得受护者更加安全	抵抗物理攻击	对同伴使用可能			CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE		hosin	4	34	64			物理攻击抵抗 : %.1f%%	(iq*0.3+5)*(2*k+0.5)/(k+1.5)						
+95	SHAMAN	倒影阵	水镜阵	天罡正气	如镜一般的护盾保护着使用者，将反弹敌人的攻击，不受伤害	反射物理攻击	对同伴使用可能			CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE		boho	14	44	74			物理攻击反射概率 %.1f%%	5+(iq*0.3 + 5)*k						
+96	SHAMAN	凝神	天龙魂	龙神圣威	借助龙神的力量与斗志，增强自身的攻击力	致命攻击	对同伴使用可能			CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE		gicheon	12	42	72			致命打击概率 : %.1f%%	(iq*0.3+5)*(2*k+0.5)/(k+1.5)						
+106	SHAMAN	落雷	惊天雷	电闪雷鸣	神女借助天神的威力，给予敌人强大的电击伤害	远程攻击	周边范围攻击	电属性伤害		ATTACK_SKILL|NEED_TARGET		noejeon	23	53	83			魔法攻击力 : %.0f-%.0f	60 + 4*lv + (3*iq+8*minmtk+iq*5)*ar*k	60 + 4*lv + (3*iq+8*maxmtk+iq*15)*ar*k					
+107	SHAMAN	劈雷	燎闪	晴天霹雳	雷神的守护给予神女强大的支配能力，使其具有强大的雷电攻击能力	远程攻击	周边范围攻击	电属性伤害	击晕效果	ATTACK_SKILL|NEED_TARGET		byeorak	17	47	77			魔法攻击力 %.0f-%.0f	40 + 3*lv + (3*iq+12*mtk+iq*5)*ar*k	40 + 4*lv + (3*iq+12*maxmtk+iq*16)*ar*k	晕击概率 %.0f%%	(50+1000*k/6)/10			
+108	SHAMAN	暴雷	怒天雷	五雷轰顶	飞箭一般的雷电，不断穿梭于敌人之中，由此产生持久的的伤害	远程攻击	电属性	连续攻击周边敌人		ATTACK_SKILL|NEED_TARGET		pokroe	7	37	67			魔法攻击力 : %.0f-%.0f	(50 + 5*lv + (6*iq+6*minmtk+1)*ar*k)	(50 + 5*lv + (6*iq+6*maxmtk+800)*ar*k)					
+109	SHAMAN	光浴	光神	佛光普照	大地之母给予使用者更多的精力来帮助恢复生命，免除死亡的威胁	恢复生命力	恢复异常状态	对同伴使用可能		CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE		jeongeop	2	32	62			生命力恢复 %.0f-%.0f	200+4*lv+(10*iq+6*minmtk+600)*k	200+4*lv+(10*iq+6*maxmtk+800)*k	恢复异常状态概率 %.0f%%	20+80*k			
+110	SHAMAN	飘仙	轻衣	飘渺踏云	乘风而飘，如同仙履，增加移动速度	提高移动速度	减少诅咒时间	对同伴使用可能		CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE		kwaesok	9	39	69			移动速度 +%.0f%%	5 + (35 * k)		释放速度 +%.0f%%	3+33*k			
+111	SHAMAN	神曲	强魄术	魂雷圣体	犹如神韵，激发潜能，产生更大的爆发力，提高对敌人的伤害	提高基本攻击力	对同伴使用可能			CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE		jeungryeok	29	59	89			攻击力 : +%.1f	5+(iq*0.2 + 15)*k						
+121	SUPPORT	统帅			提升领导能力，提高组队效率					PASSIVE		tongsol													
+122	SUPPORT	招式			增加招式变化，增加攻击次数					CANNOT_LEVEL_UP|TOGGLE		combo													
+123	SUPPORT	钓鱼			提高钓鱼能力，更容易捕捉到鱼					CANNOT_LEVEL_UP		fishing													
+124	SUPPORT	采矿			提升采矿能力，更容易采集到高级矿石					CANNOT_LEVEL_UP|PASSIVE		mining																
+125	SUPPORT	锻造			提升锻造能力，制作更多的物品					CANNOT_LEVEL_UP|PASSIVE		making																
+126	SUPPORT	唐文宝典			提升盛唐国语言的理解力.					CANNOT_LEVEL_UP|PASSIVE		language1																
+127	SUPPORT	秦文宝典			提升秦皇国语言的理解力.					CANNOT_LEVEL_UP|PASSIVE		language2																
+128	SUPPORT	汉文宝典			提升汉武国语言的理解力.					CANNOT_LEVEL_UP|PASSIVE		language3																
+129	SUPPORT	幻化			角色将随机变幻成怪物的形态,并拥有一些额外的属性.					CANNOT_LEVEL_UP|PASSIVE		polymorph																
+130	SUPPORT	骑乘			骑马的能力					CANNOT_LEVEL_UP|PASSIVE		riding																
+131	SUPPORT	召唤			召唤马匹							summon																10
+137	HORSE	追风斩			骑马奔跑并攻击周围的敌人	马背技能				HORSE_SKILL|MOVING_SKILL|WEAPON_LIMITATION	SWORD|TWO_HANDED|DAGGER|DOUBLE_SWORD|FAN|BELL	wildattack	121	121	121												50	
+138	HORSE	摧敌讨			击倒前方拦截的敌人	马背技能				HORSE_SKILL|SEARCH_TARGET|CHARGE_ATTACK		charge	122	122	122												52	
+139	HORSE	威陵破			攻击周围的敌人	马背技能				HORSE_SKILL|WEAPON_LIMITATION	SWORD|TWO_HANDED|DAGGER|DOUBLE_SWORD|BOW|FAN|BELL	splash	123	123	123												55	
+140	HORSE	秋叶乱箭			射向拦截的前方敌人	马背技能				ATTACK_SKILL|FAN_RANGE|NEED_TARGET|HORSE_SKILL|WEAPON_LIMITATION	BOW	wildattack	121	121	121	5											50	
+151	GUILD	龙魂			增加最大龙神力，能够更好的使用帮会技能					PASSIVE		yongan						最大龙神力 +%.0f	k * 1400									
+152	GUILD	龙血			暂时提升帮会成员的最大生命值	帮会战专用				ONLY_FOR_GUILD_WAR		gaho	101					最大生命值上升 +%.0f%%	k * 20									
+153	GUILD	龙神			暂时提升帮会成员的最大精力值	帮会战专用				ONLY_FOR_GUILD_WAR		chukbok	102					最大精力值上升 +%.0f%%	k * 20									
+154	GUILD	龙铠			暂时提升帮会成员的防御力	帮会战专用				ONLY_FOR_GUILD_WAR		seonghwi	103					防御力上升 +%.1f%%	k * 10									
+155	GUILD	龙腾			暂时提升帮会成员的攻击速度和移动速度	帮会战专用				ONLY_FOR_GUILD_WAR		gasok	104					攻击,移动速度上升 +%.1f%%	k * 15
+156	GUILD	龙怒			暂时提升帮会成员的双倍伤害的概率	帮会战专用				ONLY_FOR_GUILD_WAR		bunno	105					双倍伤害概率 +%.0f%%	k * 50
+157	GUILD	龙佑			暂时缩短帮会成员的技能释放时间	帮会战专用				ONLY_FOR_GUILD_WAR		jumunsul	106					释放速度上升 +%.0f%%	k * 50

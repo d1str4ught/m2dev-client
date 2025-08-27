@@ -1,0 +1,345 @@
+ACCEPT	Aceptar
+ATTACH_METIN_INFO	¿Quieres usar la Piedra Espíritu?
+ATTACH_METIN_TITLE	Usar Piedra Espíritu
+CANCEL	Cancelar
+CHANGE_PASSWORD_CONFIRM	Confirmar la nueva Contraseña
+CHANGE_PASSWORD_NEW	Nueva Contraseña
+CHANGE_PASSWORD_OLD	Vieja Contraseña
+CHANGE_PASSWORD_TITLE	Cambio de Contraseña
+CHARACTER_ACTION	Acción
+CHARACTER_EMOTICON	Emoción
+CHARACTER_MAIN	Carácter
+CHARACTER_MUTUAL_ACTION	Acción Mútua
+CHARACTER_NORMAL_ACTION	Acción Normal
+CHARACTER_QUEST	Misiones
+CHARACTER_SKILL	Habilidades
+CLOSE	Cerrar
+COMB_APPEARANCE	Atuendo 1
+COMB_ATTRIBUTE	Atuendo 2
+COMB_SKILLBOOK_TILE	Canjear libros
+COMB_TITLE	
+COSTUME_TITLE	Atuendos
+COSTUME_WINDOW_TITLE	Atuendos
+CREATE_ATT_GRADE	STR
+CREATE_CREATE	Crear
+CREATE_DEX_GRADE	DEX
+CREATE_HP	HP
+CREATE_LAST_POINT	Puntos
+CREATE_MAN	Hombre
+CREATE_NAME	Nombre
+CREATE_NEXT	Siguiente
+CREATE_PREV	Atrás
+CREATE_SEX	Género
+CREATE_SHAPE	Forma
+CREATE_SP	INT
+CREATE_STAT_RESET	Resetear
+CREATE_WOMAN	Mujer
+CUBE_INFO_TITLE	Manual de refinamiento
+CUBE_REQUIRE_MATERIAL	Materiales necesarios
+CUBE_REQUIRE_MATERIAL_OR	o
+CUBE_TITLE	Ventana de refinamiento
+DO_REFINE	Refinar
+DRAGONSOUL_ACTIVATE	Activar
+DRAGONSOUL_PAGE_BUTTON_1	En bruto
+DRAGONSOUL_PAGE_BUTTON_2	Afilado
+DRAGONSOUL_PAGE_BUTTON_3	Raro
+DRAGONSOUL_PAGE_BUTTON_4	Antiguo
+DRAGONSOUL_PAGE_BUTTON_5	Legendario
+DRAGONSOUL_REFINE_WINDOW_TITLE	Ventana de refinamiento
+DRAGONSOUL_TAP_TITLE_1	Diamante de dragón
+DRAGONSOUL_TAP_TITLE_2	Rubí de dragón
+DRAGONSOUL_TAP_TITLE_3	Jade de dragón
+DRAGONSOUL_TAP_TITLE_4	Zafiro de dragón
+DRAGONSOUL_TAP_TITLE_5	Granate de dragón
+DRAGONSOUL_TAP_TITLE_6	Ónice de dragón
+DRAGONSOUL_TITLE	Alquimia de Piedras dragón
+EMPIRE_EXIT	Salir
+EMPIRE_NEXT	Siguiente
+EMPIRE_PREV	Atrás
+EMPIRE_SELECT	Elegir
+EXCHANGE_ACCEPT	Aceptar
+EXCHANGE_TITLE	Comerciar
+GAMEOPTION_TITLE	Opciones del Juego
+GAME_EXIT_OBSERVER	Finalizar Modo Observador
+GAME_HELP	Ayuda
+GAME_QUEST	Tareas
+GAME_SKILL_UP	Aumentar Habilidades
+GAME_STAT_UP	Aumentar Estado
+GRADE	Clase
+GRADE_SELECT	Clase
+GUILD_BASENAME	Nombre Base
+GUILD_BOARD_ID	Nombre
+GUILD_BOARD_REFRESH	Refrescar (F5)
+GUILD_BOARD_TEXT	Mensaje
+GUILD_BUILDING_CATEGORY_TITLE	Unidades de Construcción
+GUILD_BUILDING_CHANGE	Cambiar
+GUILD_BUILDING_DIRECTION	Orientación
+GUILD_BUILDING_GRADE	Clasificación
+GUILD_BUILDING_INFO	Información de Construcciones y Coste
+GUILD_BUILDING_LIST_TITLE	Lista de Construcciones
+GUILD_BUILDING_LOG	Tronco
+GUILD_BUILDING_NAME	Nombre de Construcción
+GUILD_BUILDING_OPERATE	Operar
+GUILD_BUILDING_PLY	Chapeado
+GUILD_BUILDING_POSITION	Posición
+GUILD_BUILDING_PREVIEW	Vista Previa
+GUILD_BUILDING_PRICE	Precio
+GUILD_BUILDING_REFRESH	Refrescar (F5)
+GUILD_BUILDING_STONE	Piedra
+GUILD_BUILDING_TITLE	Construcción de la Casa del Gremio
+GUILD_CRYSTAL	Cristal
+GUILD_DEPOSIT	Depósito
+GUILD_DROP_RESOURCE1	Aquí
+GUILD_DROP_RESOURCE2	Dejar Recurso
+GUILD_GEM	Gema
+GUILD_GRADE_CHANGE_GRADE_NAME	Nuevo nombre de rango
+GUILD_GRADE_NUM	Nr.
+GUILD_GRADE_PERMISSION_DELETE	Expulsar
+GUILD_GRADE_PERMISSION_JOIN	Invitar
+GUILD_GRADE_PERMISSION_NOTICE	Escribir
+GUILD_GRADE_PERMISSION_SKILL	Habilidades
+GUILD_GRADE_RANK	Rango
+GUILD_GRADE_WRITE	Escribir
+GUILD_INFO	Información del Gremio
+GUILD_INFO_CUR_EXP	Experiencia
+GUILD_INFO_DECALRE_WAR	Declarar Guerra
+GUILD_INFO_ENEMY_GUILD	Gremio Enemigo
+GUILD_INFO_ENEMY_GUILD_EMPTY	Ninguno
+GUILD_INFO_LEVEL	Nivel del Gremio
+GUILD_INFO_MARK	Simbolo del Gremio
+GUILD_INFO_MASTER	Líder
+GUILD_INFO_MASTER_VALUE	Líder
+GUILD_INFO_MEMBER_AVG_LEVEL	Nivel Medio
+GUILD_INFO_MEMBER_NUM	Nº de miembros
+GUILD_INFO_NAME	Nombre Gremio
+GUILD_INFO_NAME_VALUE	Esto es el nombre de un Gremio
+GUILD_INFO_OFFER_EXP	Invertir
+GUILD_INFO_REST_EXP	Exp. Necesaria
+GUILD_INFO_UPLOAD_MARK	Subir Símbolo
+GUILD_INFO_UPLOAD_SYMBOL	Subir Bandera
+GUILD_MARK	Símbolo del Gremio
+GUILD_MEMBER_JOB	Clase
+GUILD_MEMBER_KNIGHT	Líder
+GUILD_MEMBER_LEVEL	Nivel
+GUILD_MEMBER_NAME	Nombre
+GUILD_MEMBER_RANK	Clasificación
+GUILD_MEMBER_SPECIFIC_GRAVITY	Invertido
+GUILD_METIN_STONE	Piedra Espiritu
+GUILD_MINENAL	Mineral
+GUILD_MONEY	Yang
+GUILD_NAME	Gremio
+GUILD_RESOURCE_INFO	Información de los Recursos
+GUILD_SKILL_ACTIVE	Activo
+GUILD_SKIlL_HEAL_GSP	Recobrar Poder
+GUILD_SKILL_PASSIVE	Pasivo
+GUILD_SKILL_POWER	Energía
+GUILD_SKILL_STATE	Habilidades del Gremio
+GUILD_SYMBOL	Bandera del Gremio
+GUILD_WAR_ACCEPT	Aceptar Declaración de Guerra
+GUILD_WAR_BATTLE_TYPE	Tipo de bat.
+GUILD_WAR_CTF	Bandera
+GUILD_WAR_DECLARE	Declarar Guerra de Gremios
+GUILD_WAR_ENEMY	Enemigo
+GUILD_WAR_NORMAL	Campo
+GUILD_WAR_WARP	Arena
+GUILD_WATER	Agua
+GUILD_WATER_STONE	Piedra de Agua
+GUILD_WITHDRAW	Coger
+HELP_ATTACK_KEY	Atacar: botón izquierdo del ratón o barra espaciadora
+HELP_CHANGE_PK_MODE	Cambiar modo de ataque: cambia la configuración del botón izquierdo del ratón
+HELP_CHARACTER_BUTTON1	(Ventana de Personaje, Ventana de Inventario,
+HELP_CHARACTER_BUTTON2	Lista de Amigos y Opciones)
+HELP_CONTROL_CAMERA_BY_MIDDLEBUTTON	Vista de Cámara: botón central o derecho del ratón
+HELP_CONTROL_CAMERA_BY_RIGHTBUTTON	Vista de Cámara: botón derecho o central del ratón
+HELP_EXP	Experiencia
+HELP_FURY	Tienda de objetos en el Juego
+HELP_GUILD_WINDOW	Abrir Ventana del Gremio: Alt + G
+HELP_HELP	Mostrar ayuda: H
+HELP_HP	Puntos de vida (HP)
+HELP_MESSENGER_WINDOW	Abrir Lista de Amigos: Alt + M
+HELP_MOUSE_LEFT	Función del botón izquierdo del ratón
+HELP_MOUSE_RIGHT	Función del botón derecho del ratón,
+HELP_MOVE_KEY	Panel: W, A, S, D o flechas de dirección
+HELP_OPEN_CHARACTER	Abrir ventana de personaje: C
+HELP_OPEN_CHAT	Abrir ventana de chat: Enter
+HELP_OPEN_INVENTORY	Abrir ventana de inventario: I
+HELP_OPEN_LOG	Abrir Log de Chat: L
+HELP_OPEN_MINIMAP	Abrir mini mapa: Shift + M
+HELP_OPEN_QUEST	Abrir Ventana de Tareas: N
+HELP_OPEN_SKILL	Abrir Ventana de Habilidades: V
+HELP_OPEN_WHISPER	Abrir Ventana de Susurros: Shift + Enter
+HELP_OPEN_ZONEMAP	Abrir mapa grande: M
+HELP_PICK_ITEM	Recoger Objetos: º o Z o botón izquierdo del ratón
+HELP_QUICKSLOT	Campos de Acceso Rápido
+HELP_SCREEN_CAPTURE	Guardar Captura de Pantalla: ImprPant (se guardará en la carpeta "Metin2_Spain\Screenshot")
+HELP_SHOW_ALL_NAME	Mostrar Nombres: Alt
+HELP_SP	Puntos de hechizo (SP)
+HELP_SYSTEM_BUTTON	Botones de Sistema
+INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. Inventario
+INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. Inventario
+INVENTORY_TITLE	Inventario
+ITEM_MALL	Tienda de objetos
+LOAD_ERROR	El archivo está dañado. Por favor, reinstálalo de nuevo. Presiona ESC ahora.
+LOGIN_CONNECT	Conectar
+LOGIN_CONNECTING	Serás conectado al servidor
+LOGIN_DEFAULT_SERVERADDR	Nombre del Servidor, Canal 1
+LOGIN_EXIT	Salir
+LOGIN_REGION_TITLE	Escoje el lugar para emitir una factura.
+LOGIN_SELECT_BUTTON	Elegir
+LOGIN_SELECT_EXIT	Salir
+LOGIN_SELECT_OK	OK
+LOGIN_SELECT_TITLE	Elegir Servidor
+MALL_PASSWORD_TITLE	Contraseña
+MALL_TITLE	Almacén de la tienda de objetos
+MARKET_TITLE	Cargar
+MARKLIST_REFRESH	Refrescar
+MARKLIST_TITLE	Registrar Signo de Gremio
+MESSAGE	Esto es un Mensaje
+MESSENGER_ADD_FRIEND	Añadir Amigo
+MESSENGER_DELETE_FRIEND	Borrar Amigo
+MESSENGER_MOBILE	Enviar Mensaje de Texto
+MESSENGER_OPEN_GUILD	Abrir Ventana del Gremio
+MESSENGER_TITLE	Amigos
+MESSENGER_USE_GUILD_MOVE_SKILL	Usar la Habilidad de Movimiento del Gremio
+MESSENGER_WHISPER	Susurro
+MINIMIZE	Minimizar
+MOUSEBUTTON_ATTACK	Atacar
+MOUSEBUTTON_AUTO_ATTACK	Atacar automáticamente
+MOUSEBUTTON_CAMERA	Cámara
+MOUSEBUTTON_SKILL	Habilidades
+MUSICLIST_TITLE	Elección de Música
+NO	No
+OK	OK
+OPTION_ALWAYS_SHOW_NAME	Nombre
+OPTION_ALWAYS_SHOW_NAME_OFF	Limitado
+OPTION_ALWAYS_SHOW_NAME_ON	Siempre
+OPTION_BLOCK	Bloquear
+OPTION_BLOCK_EXCHANGE	Comerciar
+OPTION_BLOCK_FRIEND	Amigos
+OPTION_BLOCK_GUILD	Gremio
+OPTION_BLOCK_PARTY	Grupo
+OPTION_BLOCK_PARTY_REQUEST	Petición
+OPTION_BLOCK_WHISPER	Susurro
+OPTION_CAMERA_DISTANCE	Cámara
+OPTION_CAMERA_DISTANCE_LONG	Lejana
+OPTION_CAMERA_DISTANCE_SHORT	Cercana
+OPTION_DELETE_MOBILE_BUTTON	Borrar Número de Teléfono Móvil
+OPTION_EFFECT	Inf. de golpe
+OPTION_ENV_EFFECT	Entorno
+OPTION_ENV_EFFECT_OFF	No
+OPTION_ENV_EFFECT_ON	Sí
+OPTION_FOG	Niebla
+OPTION_FOG_DENSE	Densa
+OPTION_FOG_LIGHT	Ligera
+OPTION_FOG_MIDDLE	Media
+OPTION_INPUT_MOBILE_BUTTON	Introducir Número de Teléfono Móvil
+OPTION_MOBILE	Teléfono Móvil
+OPTION_MOB_INFO	Monstruos
+OPTION_MOB_INFO_AGGR	Agresivo
+OPTION_MOB_INFO_LEVEL	Nivel
+OPTION_MUSIC	Música
+OPTION_MUSIC_CHANGE	Cambiar
+OPTION_MUSIC_DEFAULT_THEMA	Música Estándar de Metin2
+OPTION_NAME_COLOR	Color del Nombre
+OPTION_NAME_COLOR_EMPIRE	Color de Imp.
+OPTION_NAME_COLOR_NORMAL	Normal
+OPTION_NIGHT_MODE	Noche
+OPTION_NIGHT_MODE_OFF	No
+OPTION_NIGHT_MODE_ON	Sí
+OPTION_PVPMODE	Modo PvP
+OPTION_PVPMODE_FREE	Libre
+OPTION_PVPMODE_FREE_TOOLTIP	Puedes atacar a todos los jugadores.
+OPTION_PVPMODE_GUILD	Gremio
+OPTION_PVPMODE_GUILD_TOOLTIP	Puedes atacar a todos los jugadores menos a los miembros de tu Gremio
+OPTION_PVPMODE_PEACE	Paz
+OPTION_PVPMODE_PEACE_TOOLTIP	No puedes atacar a jugadores de tu reino.
+OPTION_PVPMODE_REVENGE	Hostil
+OPTION_PVPMODE_REVENGE_TOOLTIP	Sólo puedes atacar a aquellos que tienen otro Ethos.
+OPTION_SALESTEXT	Nombre de la tienda
+OPTION_SALESTEXT_VIEW_OFF	Esconder
+OPTION_SALESTEXT_VIEW_ON	Mostrar
+OPTION_SNOW_MODE	Caída nieve
+OPTION_SNOW_MODE_OFF	No
+OPTION_SNOW_MODE_ON	Sí
+OPTION_SNOW_TEXTURE_MODE	Nieve
+OPTION_SNOW_TEXTURE_MODE_OFF	No
+OPTION_SNOW_TEXTURE_MODE_ON	Sí
+OPTION_SOUND	Sonidos
+OPTION_TARGET_BOARD	Menú de Obj.
+OPTION_TARGET_BOARD_NO_VIEW	Cerrar
+OPTION_TARGET_BOARD_VIEW	Mostrar
+OPTION_TILING	Gráficos
+OPTION_TILING_APPLY	Aplicar
+OPTION_TILING_CPU	CPU
+OPTION_TILING_GPU	GPU
+OPTION_TITLE	Opciones
+OPTION_VIEW_CHAT	Línea de Chat
+OPTION_VIEW_CHAT_OFF	Esconder
+OPTION_VIEW_CHAT_ON	Mostrar
+PARTY_MEMBER_INFO_NAME	Nombre del Miembro del Grupo
+PASSWORD_DESC_1	Introduce tu contraseña
+PASSWORD_DESC_2	para abrir el almacén.
+PASSWORD_DESC_3	¿Ya cambiaste la contraseña?
+PASSWORD_DESC_4	Si no, tu contraseña es: "000000".
+PASSWORD_DESC_5	Cambia tu contraseña en el almacén.
+PASSWORD_TITLE	Guardando Contraseña
+PICK_MONEY_TITLE	Dividir
+PRIVATE_SHOP_CLOSE_BUTTON	Cerrar tienda
+PRIVATE_SHOP_NAME	Nombre de la tienda
+PRIVATE_SHOP_TITLE	Abrir tienda privada
+REFINE_COST	Costes de Mejora: 0 Yang
+REFINE_INFO	Probabilidad de mejorar satisfactoriamente: 100%
+REFINE_MONEY	Tasa de refinamiento
+REFINE_SELECT	Refinamiento
+REFINE_TTILE	Mejoras
+REPORT_VIOLENT_WHISPER	
+RESTART_HERE	Volver a Empezar Aquí
+RESTART_TOWN	Volver a Empezar en la Ciudad
+SAFE_CHANGE_PASSWORD	Cambiar Contraseña
+SAFE_TITLE	Almacén
+SELECT_ATT_GRADE	STR
+SELECT_CREATE	Crear
+SELECT_DELETE	Borrar
+SELECT_DEX_GRADE	DEX
+SELECT_EMPIRE_NAME	Nombre del Reino
+SELECT_EXIT	Cerrar
+SELECT_HP	HP
+SELECT_LEVEL	Nivel
+SELECT_METIN_STONE_TITLE	Seleccionar Piedra Espíritu
+SELECT_NAME	Nombre
+SELECT_NO_GUILD	Sin Gremio
+SELECT_PLAYTIME	Tiempo de juego
+SELECT_SELECT	Empezar
+SELECT_SP	SP
+SELECT_TITLE	Elegir Título
+SHOP_BUY	Comprar
+SHOP_SELL	Vender
+SHOP_TITLE	Tienda
+SKILL_SUPPORT_TITLE	Habilidades Estándar
+STEP	Grado de pureza
+STEP_SELECT	Grado de pureza
+STRENGTH	Mejorar
+STRENGTH_SELECT	Nivel
+SYSTEMOPTION_TITLE	Opciones del Sistema
+SYSTEM_CHANGE	Cambiar Personaje
+SYSTEM_EXIT	Fin del Juego
+SYSTEM_HELP	Ayuda
+SYSTEM_LOGOUT	Salir
+SYSTEM_MALL	Tienda de objetos
+SYSTEM_OPTION	Opciones del Sistema
+TASKBAR_CHARACTER	Personaje [C/V/B/N]
+TASKBAR_CHAT	Ventana de chat [Enter]
+TASKBAR_DISABLE	Desactivado
+TASKBAR_DRAGON_SOUL	Alquimia de Piedras dragón
+TASKBAR_EXPAND	Aumentar ventana
+TASKBAR_INVENTORY	Inventario [I]
+TASKBAR_MESSENGER	Amigos [Alt+M]
+TASKBAR_NEXT_QUICKSLOT	Siguiente Campo de Acceso Rápido [Shift+Número, Alt]
+TASKBAR_PREV_QUICKSLOT	Anterior Campo de Acceso Rápido [Shift+Número]
+TASKBAR_SYSTEM	Opciones[ESC]
+WHISPER_BAN	Bloquear
+WHISPER_NAME	Susurro
+WHISPER_REPORT	
+WHISPER_SEND	Enviar
+YES	Sí
+ZONE_MAP	Mapa grande

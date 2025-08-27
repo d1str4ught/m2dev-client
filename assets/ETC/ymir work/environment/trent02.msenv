@@ -1,0 +1,80 @@
+ScriptType         EnvrionmentData
+ScriptVersion      1.0000
+
+Group DirectionalLight
+{
+    Direction     0.590855 0.453329 -0.667370
+
+    Group Background
+    {
+        Enable        1
+        Diffuse       0.560784 0.274510 0.380392 1.000000
+        Ambient       0.890196 0.494118 0.494118 1.000000
+    }
+    
+    Group Character
+    {
+        Enable        1
+        Diffuse       0.560784 0.274510 0.380392 1.000000
+        Ambient       1.040196 0.644118 0.644118 1.000000
+    }
+}
+Group Material
+{
+    Diffuse       0.682353 0.529412 0.866667 1.000000
+    Ambient       0.407843 0.568627 0.321569 1.000000
+    Emissive      0.674510 0.556863 0.556863 1.000000
+}
+
+Group Fog
+{
+    Enable        1
+    NearDistance  500.000000
+    FarDistance   15000.000000
+    Color         0.125490 0.054902 0.054902 1.000000
+}
+
+Group Filter
+{
+    Enable        0
+    Color         0.294118 0.094118 0.094118 0.000000
+    AlphaSrc      2
+    AlphaDest     2
+}
+
+Group SkyBox
+{
+    Scale                 3500.000000 3500.000000 3500.000000
+    GradientLevelUpper    1
+    GradientLevelLower    1
+    
+    CloudScale            200000.000000 200000.000000
+    CloudHeight           30000.000000
+    CloudTextureScale     4.000000 4.000000
+    CloudSpeed            0.001000 0.001000
+    CloudTextureFileName  "D:\Ymir Work\environment\clouds_zone05.tga"
+    List CloudColor
+    {
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+    }
+    List Gradient
+    {
+        0.784314 0.505882 0.564706 0.000000
+        0.325490 0.231373 0.082353 0.000000
+        
+        0.325490 0.231373 0.082353 0.000000
+        1.000000 1.000000 1.000000 0.000000
+    }
+}
+
+Group LensFlare
+{
+    Enable                     0
+    BrightnessColor            0.976471 0.976471 0.976471 1.000000
+    MaxBrightness              1.000000
+    MainFlareEnable            0
+    MainFlareTextureFileName   ""
+    MainFlareSize              0.200000
+}
+

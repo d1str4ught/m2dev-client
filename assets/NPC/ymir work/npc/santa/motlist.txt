@@ -1,0 +1,7 @@
+GENERAL DAMAGE damage.msa 100
+GENERAL DEAD dead.msa 100
+GENERAL RUN run.msa 100
+GENERAL WAIT wait.msa 90
+GENERAL WAIT1 wait_1.msa 10
+GENERAL WALK walk.msa 100
+GENERAL SPECIAL special.msa 100

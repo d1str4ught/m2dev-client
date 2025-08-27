@@ -1,0 +1,376 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:/YMIR WORK/pc2/shaman/shaman_novice.GR2"
+
+Group HairData
+{
+	PathName	"d:/ymir Work/pc2/shaman/"
+
+	HairDataCount 			18
+	Group HairData00
+	{	
+		HairIndex			0
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"shaman_hair_01.dds"
+	}
+	Group HairData01
+	{	
+		HairIndex			1
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"shaman_hair_01_white.dds"
+	}
+	Group HairData02
+	{	
+		HairIndex			2
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"shaman_hair_01_gold.dds"
+	}
+	Group HairData03
+	{	
+		HairIndex			3
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"shaman_hair_01_red.dds"
+	}
+	Group HairData04
+	{	
+		HairIndex			4
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"shaman_hair_01_brown.dds"
+	}
+	Group HairData05
+	{	
+		HairIndex			5
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"shaman_hair_01_black.dds"
+	}
+	Group HairData06
+	{
+		HairIndex			4001
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_1.dds"
+	}
+	Group HairData07
+	{	
+		HairIndex			4002
+		Model				"hair/hair_2_2.gr2"
+		SourceSkin			"hair/hair_2_2.dds"
+		TargetSkin			"hair/hair_2_2.dds"
+	}
+	Group HairData08
+	{	
+		HairIndex			4003
+		Model				"hair/hair_2_3.gr2"
+		SourceSkin			"hair/hair_2_3.dds"
+		TargetSkin			"hair/hair_2_3.dds"
+	}
+	Group HairData09
+	{	
+		HairIndex			4004
+		Model				"hair/hair_2_4.gr2"
+		SourceSkin			"hair/hair_2_4.dds"
+		TargetSkin			"hair/hair_2_4.dds"
+	}
+	Group HairData10
+	{	
+		HairIndex			4005
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_1.dds"
+	}
+	Group HairData11
+	{	
+		HairIndex			4006
+		Model				"hair/hair_3_2.gr2"
+		SourceSkin			"hair/hair_3_2.dds"
+		TargetSkin			"hair/hair_3_2.dds"
+	}
+	Group HairData12
+	{	
+		HairIndex			4007
+		Model				"hair/hair_3_3.gr2"
+		SourceSkin			"hair/hair_3_3.dds"
+		TargetSkin			"hair/hair_3_3.dds"
+	}
+	Group HairData13
+	{	
+		HairIndex			4008
+		Model				"hair/hair_3_4.gr2"
+		SourceSkin			"hair/hair_3_4.dds"
+		TargetSkin			"hair/hair_3_4.dds"
+	}
+	Group HairData14
+	{	
+		HairIndex			4009
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_1.dds"
+	}
+	Group HairData15
+	{	
+		HairIndex			4010
+		Model				"hair/hair_4_2.gr2"
+		SourceSkin			"hair/hair_4_2.dds"
+		TargetSkin			"hair/hair_4_2.dds"
+	}
+	Group HairData16
+	{	
+		HairIndex			4011
+		Model				"hair/hair_4_3.gr2"
+		SourceSkin			"hair/hair_4_3.dds"
+		TargetSkin			"hair/hair_4_3.dds"
+	}
+	Group HairData17
+	{	
+		HairIndex			4012
+		Model				"hair/hair_4_4.gr2"
+		SourceSkin			"hair/hair_4_4.dds"
+		TargetSkin			"hair/hair_4_4.dds"
+	}
+}
+
+
+Group ShapeData
+{
+	PathName	"d:/ymir Work/pc2/shaman/"
+
+	ShapeDataCount				26
+
+	Group ShapeData00
+	{
+		ShapeIndex			0
+
+		Model				"shaman_novice.GR2"
+	}
+	Group ShapeData01
+	{
+		ShapeIndex			1
+
+		Model				"shaman_novice.GR2"
+		SourceSkin			"shaman_novice_red.dds"
+		TargetSkin			"shaman_novice_green.dds"
+	}
+	Group ShapeData02
+	{
+		ShapeIndex			3
+		Model				"shaman_cheongnang.GR2"
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_cheongnang.dds"
+	}
+	Group ShapeData03
+	{
+		ShapeIndex			4
+		Model				"shaman_cheongnang.GR2"
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_nabong.dds"
+	}
+	Group ShapeData04
+	{
+		ShapeIndex			5
+		Model				"shaman_cheongnang.GR2"
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_bihong.dds"
+	}
+	Group ShapeData05
+	{
+		ShapeIndex			6
+		Model				"shaman_miyeom.GR2"
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_miyeom.dds"
+	}
+	Group ShapeData06
+	{
+		ShapeIndex			7
+		Model				"shaman_miyeom.GR2"
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_seocheon.dds"
+	}
+	Group ShapeData07
+	{
+		ShapeIndex			8
+		Model				"shaman_miyeom.GR2"
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_ilseon.dds"
+	}
+	Group ShapeData08
+	{
+		ShapeIndex			9
+		Model				"shaman_cheonryun.GR2"
+		SourceSkin			"shaman_cheonryun.dds"
+		TargetSkin			"shaman_cheonryun.dds"
+	}
+	Group ShapeData09
+	{
+		ShapeIndex			10
+		Model				"shaman_cheonryun.GR2"
+		SourceSkin			"shaman_cheonryun.dds"
+		TargetSkin			"shaman_amyo.dds"
+	}
+	Group ShapeData10
+	{
+		ShapeIndex			11
+		Model				"shaman_cheonryun.GR2"
+		SourceSkin			"shaman_cheonryun.dds"
+		TargetSkin			"shaman_bongsin.dds"
+	}
+	Group ShapeData11
+	{
+		SpecialPath			"d:/ymir work/monster/wolf/"
+
+		ShapeIndex			100
+		Model				"wolf.gr2"
+		SourceSkin			"wolf.dds"
+	}
+	Group ShapeData12
+	{
+		SpecialPath			"d:/ymir work/monster/wild_boar/"
+
+		ShapeIndex			101
+		Model				"wild_boar.gr2"
+		SourceSkin			"wild_boar.dds"
+	}
+	Group ShapeData13
+	{
+		SpecialPath			"d:/ymir work/monster/bear/"
+
+		ShapeIndex			102
+		Model				"bear.gr2"
+		SourceSkin			"bear.dds"
+	}
+	Group ShapeData14
+	{
+		SpecialPath			"d:/ymir work/monster/tiger/"
+
+		ShapeIndex			103
+		Model				"tiger.gr2"
+		SourceSkin			"tiger.dds"
+	}
+	Group ShapeData15
+	{
+		SpecialPath			"d:/ymir Work/pc2/shaman/"
+
+		ShapeIndex			201
+		Model				"shaman_marry_01.gr2"
+		SourceSkin			"shaman_marry_01.dds"
+		TargetSkin			"shaman_marry_01.dds"
+	}
+	Group ShapeData16
+	{
+		ShapeIndex			12
+		Model				"shaman_4-1.GR2"
+		SourceSkin			"shaman_4-1.dds"
+		TargetSkin			"shaman_4-1.dds"
+	}
+
+
+	Group ShapeData17
+	{
+		ShapeIndex			14
+		Model				"shaman_cheongnang.GR2"	
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_1-1cheongnang_a.DDS"
+	}
+	Group ShapeData18
+	{
+		ShapeIndex			15
+		Model				"shaman_cheongnang.GR2"	
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_1-2_nabong_a.DDS"
+	}
+	Group ShapeData19
+	{
+		ShapeIndex			16
+		Model				"shaman_cheongnang.GR2"	
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_bihong_a.dds"
+	}
+	Group ShapeData20
+	{
+		ShapeIndex			17
+		Model				"shaman_miyeom.GR2"	
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_2-1_miyeon_a.DDS"
+	}
+	Group ShapeData21
+	{
+		ShapeIndex			18
+		Model				"shaman_miyeom.GR2"	
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_2-2_seocheon_a.DDS"
+	}
+	Group ShapeData22
+	{
+		ShapeIndex			19
+		Model				"shaman_miyeom.GR2"
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_2-3_ilseon_a.DDS"
+	}
+	Group ShapeData23
+	{
+		ShapeIndex			20
+		Model				"shaman_cheonryun.GR2"	
+		SourceSkin			"shaman_cheonryun.dds"
+		TargetSkin			"shaman_3-1_cheonryun_a.DDS"
+	}
+	Group ShapeData24
+	{
+		ShapeIndex			21
+		Model				"shaman_cheonryun.GR2"	
+		SourceSkin			"shaman_cheonryun.dds"
+		TargetSkin			"shaman_3-2_amyo_a.DDS"
+	}
+	Group ShapeData25
+	{
+		ShapeIndex			24	
+		Model				"shaman_lord.GR2"	
+		SourceSkin			"shaman_queen01.dds"
+		TargetSkin			"shaman_queen01.dds"	
+	}
+}
+
+Group AttachingData
+{
+    AttachingDataCount       2
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           40.000000
+            Position         0.000000 0.000000 90.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           70.000000
+            Position         0.000000 0.000000 90.000000
+        }
+    }
+}

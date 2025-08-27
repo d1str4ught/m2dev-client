@@ -1,0 +1,56 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc/warrior/skill/noegeom.gr2"
+MotionDuration           2.000000
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     3
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         1.107692
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 Footsteps"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/warrior/effect/noegeomdorae.mse"
+        EffectPosition       0.000000 -80.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.600000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "equip_right_hand"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/warrior/effect/elect.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      4
+        StartingTime         1.167883
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        2.000000
+        ExternalForce        0.000000
+        HitLimitCount        18
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           400.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+}

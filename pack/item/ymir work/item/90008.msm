@@ -1,9 +1,0 @@
-ScriptType            ItemDataScript
-
-Type                  1
-
-ModelFileName         ""
-IconImageFileName     "D:\ymir work\ui\items\quest\70010.sub"
-DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
-
-936Description "此物品交易成功后将立即直接充值到交易角色所在帐号中"

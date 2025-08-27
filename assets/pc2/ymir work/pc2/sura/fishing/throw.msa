@@ -1,0 +1,19 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/pc2/sura/fishing/throw.gr2"
+MotionDuration           2.000000
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      10
+        StartingTime         1.128954
+        
+        EffectFileName       "d:/ymir work/effect/etc/fishing/throw.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        FollowingEnable      0
+        FishingEffectFlag    1
+    }
+}

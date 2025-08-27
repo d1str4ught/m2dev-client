@@ -1,0 +1,20 @@
+ScriptType		SkillDataScript
+
+Type			PASSIVE
+949Name			"挤去贱"
+949Description	"弥措 沥脚仿 刘啊"
+MaxLevel		"40"
+
+IconFileName		"skill/warrior/tugi.sub"
+List 949AffectData
+{
+	"弥措 沥脚仿 +%.0f"	"SkillPoint * 30"	""
+}
+
+936Name			"觉醒"
+936Description		"增加最大精力值"
+
+List 936AffectData
+{
+	"最大精力 +%.0f"	"SkillPoint * 30"	""
+}

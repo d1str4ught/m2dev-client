@@ -1,0 +1,7 @@
+title subImage
+version 2.0
+image "empire.dds"
+left 0
+top 0
+right 512
+bottom 90

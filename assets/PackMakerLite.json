@@ -1,0 +1,44 @@
+{
+	//"log_name":"PackMakerLite",
+	//"cs_name":"",
+	"ignore_full_name": [".git", ".svn", ".vs", "desktop.ini"],
+	"ignore_file_extension": ["bak", "db", "wdp"],
+	"force_filename_lowercase": false,
+	"default_pack_type": 2,
+	"pack_type_by_list": [],
+	/*"pack_type_by_list": [
+		["mss", 0],
+		["mse", 1],
+		["msf", 2],
+		["spt", 0],
+		["atr", 1],
+		["dds", 2],
+		["raw", 0],
+		["wtr", 1],
+		["mde", 2],
+		["tga", 0],
+		["txt", 1],
+		["msk", 2],
+		["msa", 0],
+		["msm", 1],
+		["py", 2]
+	],*/
+	//"eter_magic_mcoz":"MCOZ",
+	//"eter_magic_epkd":"EPKD",
+	//"eter_magic_mcsp":"MCSP",
+	//"parallel":true,
+	"eter_pack_index_ext":".eix",
+	"eter_pack_data_ext":".epk",
+	"eter_pack_index_key": [
+		45129401,
+		92367215,
+		681285731,
+		1710201
+	],
+	"eter_pack_data_key": [
+		78952482,
+		527348324,
+		1632942,
+		486274726
+	]
+}

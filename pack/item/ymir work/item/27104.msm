@@ -1,7 +1,0 @@
-ScriptType            ItemDataScript
-
-Type                  1
-
-ModelFileName         ""
-IconImageFileName     "D:\ymir work\ui\items\etc\27104.sub"
-DropModelFileName     "D:\ymir work\item\etc\medicine_V.GR2"

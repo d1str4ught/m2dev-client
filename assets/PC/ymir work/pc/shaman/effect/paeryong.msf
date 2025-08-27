@@ -1,0 +1,27 @@
+SpreadingFlag           0
+InitialVelocity         500.000000
+ConeAngle               -90.000000
+RollAngle               90.000000
+AngularVelocity         0.000000 0.000000 0.000000
+Gravity                 -5.000000
+HitOnBackground         0
+HitOnAnotherMonster     0
+PierceCount             0
+BombRange               10.000000
+BombEffect              "pokroe_c.mse"
+HomingFlag              1
+HomingStartTime         0.000000
+HomingMaxAngle          1.000000
+Range                   3000.000000
+Acceleration            0.000000 0.000000 0.000000
+Group AttachData
+{
+    Type          1
+    FlyType       3
+    AttachFile    "paeryong.mse"
+    TailFlag      0
+    Roll          0.000000
+    Distance      0.000000
+    Period        1.200000
+    Amplitude     50.000000
+}

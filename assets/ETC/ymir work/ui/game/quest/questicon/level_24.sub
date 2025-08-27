@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "Quest.dds"
+left 96
+top 64
+right 128
+bottom 96

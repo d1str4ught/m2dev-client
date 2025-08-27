@@ -1,0 +1,26 @@
+ScriptType		SkillDataScript
+
+Type			MIDDLE
+Attribute		"TOGGLE"
+NeedWeapon		"SWORD" "TWO_HANDED"
+
+IconFileName	"skill/warrior/hwayeom.sub"
+
+MaxLevel				"30"
+LevelUpPoint			"5"
+NeedSPFormula			"100"
+ContinuationSPFormula 	"8" 
+
+949Name			"拳堪曼"
+949Description		"公扁俊 阂狼 加己阑 何咯茄促"
+List 949AffectData
+{
+	"颇鲍仿 : +%.0f%%" "SkillPoint" ""
+}
+
+936Name			"火刃"
+936Description		"可以给武器赋予火的属性"
+List 936AffectData
+{
+	"破坏力 : +%.0f%%" "SkillPoint" ""
+}

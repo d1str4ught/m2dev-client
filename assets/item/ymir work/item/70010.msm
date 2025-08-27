@@ -1,0 +1,10 @@
+ScriptType            ItemDataScript
+
+Type                  1
+
+ModelFileName         ""
+IconImageFileName     "D:\ymir work\ui\items\quest\70010.sub"
+DropModelFileName     "D:\ymir work\item\etc\item_bag.gr2"
+
+949Description "¾ðÁ¦ ¾îµð¼­³ª Ã¢°í¸¦|ÀÌ¿ë ÇÒ ¼ö ÀÖ´Ù"
+936Description "ËæÊ±£¬ËæµØÊ¹ÓÃ²Ö¿â"

@@ -1,0 +1,27 @@
+SpreadingFlag           1
+InitialVelocity         -100.000000
+ConeAngle               90.000000
+RollAngle               0.000000
+AngularVelocity         0.000000 450.000000 0.000000
+Gravity                 0.000000
+HitOnBackground         0
+HitOnAnotherMonster     0
+PierceCount             0
+BombRange               40.000000
+BombEffect              "ga_center.mse"
+HomingFlag              1
+HomingStartTime         1.000000
+HomingMaxAngle          5.000000
+Range                   10000.000000
+Acceleration            0.000000 -500.000000 0.000000
+Group AttachData
+{
+    Type          1
+    FlyType       3
+    AttachFile    "ga_spirit_red.mse"
+    TailFlag      0
+    Roll          0.000000
+    Distance      0.000000
+    Period        1.000000
+    Amplitude     0.000000
+}
