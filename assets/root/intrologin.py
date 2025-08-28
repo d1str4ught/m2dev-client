@@ -272,14 +272,10 @@ class LoginWindow(ui.ScriptWindow):
 		else:
 			connectingIP = self.stream.GetConnectAddr()
 			if connectingIP:
-				if app.USE_OPENID and not app.OPENID_TEST :
-					self.__RefreshServerList()
-					self.__OpenServerBoard()
-				else:
-					self.__OpenLoginBoard()
-					if IsFullBackImage():
-						self.GetChild("bg1").Hide()
-						self.GetChild("bg2").Show()
+				self.__OpenLoginBoard()
+				if IsFullBackImage():
+					self.GetChild("bg1").Hide()
+					self.GetChild("bg2").Show()
 
 			else:
 				self.__RefreshServerList()
@@ -1340,17 +1336,9 @@ class LoginWindow(ui.ScriptWindow):
 		except:
 			import exception
 			exception.Abort("LoginWindow.__OnClickSelectServerButton - 마크 정보 없음")
-
-
-		if app.USE_OPENID and not app.OPENID_TEST :
-			## 2012.07.19 OpenID : 김용욱
-			# 채널 선택 화면에서 "확인"(SelectServerButton) 을 눌렀을때,
-			# 로그인 화면으로 넘어가지 않고 바로 서버에 OpenID 인증키를 보내도록 수정
-			self.stream.SetConnectInfo(ip, tcp_port, account_ip, account_port)
-			self.Connect(0, 0)
-		else :
-			self.stream.SetConnectInfo(ip, tcp_port, account_ip, account_port)
-			self.__OpenLoginBoard()
+			
+		self.stream.SetConnectInfo(ip, tcp_port, account_ip, account_port)
+		self.__OpenLoginBoard()
 		
 
 	def __OnClickSelectConnectButton(self):
