@@ -18,14 +18,11 @@ import ime
 import uiScriptLocale
 
 RUNUP_MATRIX_AUTH = False
-NEWCIBN_PASSPOD_AUTH = False
 
 LOGIN_DELAY_SEC = 0.0
 SKIP_LOGIN_PHASE = False
 SKIP_LOGIN_PHASE_SUPPORT_CHANNEL = False
 FULL_BACK_IMAGE = False
-
-PASSPOD_MSG_DICT = {}
 
 VIRTUAL_KEYBOARD_NUM_KEYS = 46
 VIRTUAL_KEYBOARD_RAND_KEY = True
@@ -46,14 +43,6 @@ def Suffle(src):
 if localeInfo.IsNEWCIBN() or localeInfo.IsCIBN10():
 	LOGIN_DELAY_SEC = 60.0
 	FULL_BACK_IMAGE = True
-	NEWCIBN_PASSPOD_AUTH = True
-	PASSPOD_MSG_DICT = {
-		"PASERR1"	: localeInfo.LOGIN_FAILURE_PASERR1,
-		"PASERR2"	: localeInfo.LOGIN_FAILURE_PASERR2,
-		"PASERR3"	: localeInfo.LOGIN_FAILURE_PASERR3,
-		"PASERR4"	: localeInfo.LOGIN_FAILURE_PASERR4,
-		"PASERR5"	: localeInfo.LOGIN_FAILURE_PASERR5,
-	}
 
 elif localeInfo.IsYMIR() or localeInfo.IsCHEONMA():
 	FULL_BACK_IMAGE = True
@@ -61,9 +50,6 @@ elif localeInfo.IsYMIR() or localeInfo.IsCHEONMA():
 elif localeInfo.IsHONGKONG():
 	FULL_BACK_IMAGE = True
 	RUNUP_MATRIX_AUTH = True 
-	PASSPOD_MSG_DICT = {
-		"NOTELE"	: localeInfo.LOGIN_FAILURE_NOTELEBLOCK,
-	}
 
 elif localeInfo.IsJAPAN():
 	FULL_BACK_IMAGE = True
@@ -85,10 +71,6 @@ def IsLoginDelay():
 def IsRunupMatrixAuth():
 	global RUNUP_MATRIX_AUTH
 	return RUNUP_MATRIX_AUTH	
-
-def IsNEWCIBNPassPodAuth():
-	global NEWCIBN_PASSPOD_AUTH
-	return NEWCIBN_PASSPOD_AUTH
 
 def GetLoginDelay():
 	global LOGIN_DELAY_SEC
@@ -324,13 +306,6 @@ class LoginWindow(ui.ScriptWindow):
 		self.matrixAnswerCancel	= None
 		# RUNUP_MATRIX_AUTH_END
 
-		# NEWCIBN_PASSPOD_AUTH
-		self.passpodBoard	= None
-		self.passpodAnswerInput	= None
-		self.passpodAnswerOK	= None
-		self.passpodAnswerCancel = None
-		# NEWCIBN_PASSPOD_AUTH_END
-
 		self.VIRTUAL_KEY_ALPHABET_LOWERS = None
 		self.VIRTUAL_KEY_ALPHABET_UPPERS = None
 		self.VIRTUAL_KEY_SYMBOLS = None
@@ -452,13 +427,7 @@ class LoginWindow(ui.ScriptWindow):
 		try:
 			loginFailureMsg = self.loginFailureMsgDict[error]
 		except KeyError:
-			if PASSPOD_MSG_DICT:
-				try:
-					loginFailureMsg = PASSPOD_MSG_DICT[error]
-				except KeyError:
-					loginFailureMsg = localeInfo.LOGIN_FAILURE_UNKNOWN + error
-			else:
-				loginFailureMsg = localeInfo.LOGIN_FAILURE_UNKNOWN  + error
+			loginFailureMsg = localeInfo.LOGIN_FAILURE_UNKNOWN  + error
 
 
 		#0000685: [M2EU] 아이디/비밀번호 유추 가능 버그 수정: 무조건 패스워드로 포커스가 가게 만든다
@@ -537,14 +506,6 @@ class LoginWindow(ui.ScriptWindow):
 				self.matrixAnswerCancel	= GetObject("RunupMatrixAnswerCancel")
 			# RUNUP_MATRIX_AUTH_END
 
-			# NEWCIBN_PASSPOD_AUTH
-			if IsNEWCIBNPassPodAuth():
-				self.passpodBoard	= GetObject("NEWCIBN_PASSPOD_BOARD")
-				self.passpodAnswerInput	= GetObject("NEWCIBN_PASSPOD_INPUT")
-				self.passpodAnswerOK	= GetObject("NEWCIBN_PASSPOD_OK")
-				self.passpodAnswerCancel= GetObject("NEWCIBN_PASSPOD_CANCEL")
-			# NEWCIBN_PASSPOD_AUTH_END
-
 			self.virtualKeyboard		= self.GetChild2("VirtualKeyboard")
 
 			if self.virtualKeyboard:
@@ -597,14 +558,6 @@ class LoginWindow(ui.ScriptWindow):
 			self.matrixAnswerCancel.SAFE_SetEvent(self.__OnClickMatrixAnswerCancel)
 			self.matrixAnswerInput.SAFE_SetReturnEvent(self.__OnClickMatrixAnswerOK)
 		# RUNUP_MATRIX_AUTH_END
-
-		# NEWCIBN_PASSPOD_AUTH
-		if IsNEWCIBNPassPodAuth():
-			self.passpodAnswerOK.SAFE_SetEvent(self.__OnClickNEWCIBNPasspodAnswerOK)
-			self.passpodAnswerCancel.SAFE_SetEvent(self.__OnClickNEWCIBNPasspodAnswerCancel)
-			self.passpodAnswerInput.SAFE_SetReturnEvent(self.__OnClickNEWCIBNPasspodAnswerOK)
-
-		# NEWCIBN_PASSPOD_AUTH_END
 
 
 		if IsFullBackImage():
@@ -863,53 +816,6 @@ class LoginWindow(ui.ScriptWindow):
 
 	# RUNUP_MATRIX_AUTH_END
 
-	# NEWCIBN_PASSPOD_AUTH
-	def BINARY_OnNEWCIBNPasspodRequest(self):
-		if not IsNEWCIBNPassPodAuth():
-			return
-
-		if self.connectingDialog:
-			self.connectingDialog.Close()
-		self.connectingDialog = None
-
-		self.stream.popupWindow.Close()
-		self.serverBoard.Hide()
-		self.connectBoard.Hide()
-		self.loginBoard.Hide()
-		self.passpodBoard.Show()
-		self.passpodAnswerInput.SetFocus()
-
-	def BINARY_OnNEWCIBNPasspodFailure(self):
-		if not IsNEWCIBNPassPodAuth():
-			return
-
-	def __OnClickNEWCIBNPasspodAnswerOK(self):
-		answer = self.passpodAnswerInput.GetText()
-
-		print "passpod.ok"
-		net.SendNEWCIBNPasspodAnswerPacket(answer)
-		self.passpodAnswerInput.SetText("")
-		self.passpodBoard.Hide()	
-
-		self.stream.popupWindow.Close()
-		self.stream.popupWindow.Open(localeInfo.WAIT_FOR_PASSPOD, 
-			self.__OnClickNEWCIBNPasspodAnswerCancel, 
-			localeInfo.UI_CANCEL)
-
-	def __OnClickNEWCIBNPasspodAnswerCancel(self):
-		print "passpod.cancel"
-
-		if self.passpodBoard:
-			self.passpodBoard.Hide()	
-
-		if self.connectBoard:
-			self.connectBoard.Show()	
-
-		if self.loginBoard:
-			self.loginBoard.Show()
-
-	# NEWCIBN_PASSPOD_AUTH_END
-
 
 	def OnMatrixCard(self, row1, row2, row3, row4, col1, col2, col3, col4):
 
@@ -1038,11 +944,6 @@ class LoginWindow(ui.ScriptWindow):
 			self.matrixQuizBoard.Hide()
 		# RUNUP_MATRIX_AUTH_END
 
-		# NEWCIBN_PASSPOD_AUTH
-		if IsNEWCIBNPassPodAuth():
-			self.passpodBoard.Hide()
-		# NEWCIBN_PASSPOD_AUTH_END
-
 
 		self.serverList.SelectItem(serverIndex)
 
@@ -1075,11 +976,6 @@ class LoginWindow(ui.ScriptWindow):
 		if IsRunupMatrixAuth():
 			self.matrixQuizBoard.Hide()
 		# RUNUP_MATRIX_AUTH_END
-
-		# NEWCIBN_PASSPOD_AUTH
-		if IsNEWCIBNPassPodAuth():
-			self.passpodBoard.Hide()
-		# NEWCIBN_PASSPOD_AUTH_END
 
 		self.serverBoard.SetPosition(self.xServerBoard, wndMgr.GetScreenHeight())
 		self.serverBoard.Hide()
