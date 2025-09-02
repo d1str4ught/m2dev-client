@@ -17,8 +17,6 @@ import serverCommandParser
 import ime
 import uiScriptLocale
 
-RUNUP_MATRIX_AUTH = False
-
 LOGIN_DELAY_SEC = 0.0
 SKIP_LOGIN_PHASE = False
 SKIP_LOGIN_PHASE_SUPPORT_CHANNEL = False
@@ -49,7 +47,6 @@ elif localeInfo.IsYMIR() or localeInfo.IsCHEONMA():
 
 elif localeInfo.IsHONGKONG():
 	FULL_BACK_IMAGE = True
-	RUNUP_MATRIX_AUTH = True 
 
 elif localeInfo.IsJAPAN():
 	FULL_BACK_IMAGE = True
@@ -67,10 +64,6 @@ def IsLoginDelay():
 		return True
 	else:
 		return False
-
-def IsRunupMatrixAuth():
-	global RUNUP_MATRIX_AUTH
-	return RUNUP_MATRIX_AUTH	
 
 def GetLoginDelay():
 	global LOGIN_DELAY_SEC
@@ -153,7 +146,6 @@ class LoginWindow(ui.ScriptWindow):
 		net.SetPhaseWindow(net.PHASE_WINDOW_LOGIN, self)
 		net.SetAccountConnectorHandler(self)
 
-		self.matrixInputChanceCount = 0
 		self.lastLoginTime = 0
 		self.inputDialog = None
 		self.connectingDialog = None
@@ -192,8 +184,6 @@ class LoginWindow(ui.ScriptWindow):
 			"SHUTDOWN"	: localeInfo.LOGIN_FAILURE_SHUTDOWN,
 			"REPAIR"	: localeInfo.LOGIN_FAILURE_REPAIR_ID,
 			"BLOCK"		: localeInfo.LOGIN_FAILURE_BLOCK_ID,
-			"WRONGMAT"	: localeInfo.LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER,
-			"QUIT"		: localeInfo.LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE,
 			"BESAMEKEY"	: localeInfo.LOGIN_FAILURE_BE_SAME_KEY,
 			"NOTAVAIL"	: localeInfo.LOGIN_FAILURE_NOT_AVAIL,
 			"NOBILL"	: localeInfo.LOGIN_FAILURE_NOBILL,
@@ -205,7 +195,6 @@ class LoginWindow(ui.ScriptWindow):
 
 		self.loginFailureFuncDict = {
 			"WRONGPWD"	: self.__DisconnectAndInputPassword,
-			"WRONGMAT"	: self.__DisconnectAndInputMatrix,
 			"QUIT"		: app.Exit,
 		}
 
@@ -298,13 +287,6 @@ class LoginWindow(ui.ScriptWindow):
 		self.serverBoard				= None
 		self.serverList					= None
 		self.channelList				= None
-
-		# RUNUP_MATRIX_AUTH
-		self.matrixQuizBoard	= None
-		self.matrixAnswerInput	= None
-		self.matrixAnswerOK	= None
-		self.matrixAnswerCancel	= None
-		# RUNUP_MATRIX_AUTH_END
 
 		self.VIRTUAL_KEY_ALPHABET_LOWERS = None
 		self.VIRTUAL_KEY_ALPHABET_UPPERS = None
@@ -456,20 +438,6 @@ class LoginWindow(ui.ScriptWindow):
 		self.SetPasswordEditLineFocus()
 		net.Disconnect()
 
-	def __DisconnectAndInputMatrix(self):
-		if self.connectingDialog:
-			self.connectingDialog.Close()
-		self.connectingDialog = None
-
-		self.stream.popupWindow.Close()
-		self.matrixInputChanceCount -= 1
-
-		if self.matrixInputChanceCount <= 0:
-			self.__OnCloseInputDialog()
-
-		elif self.inputDialog:
-			self.inputDialog.Show()
-
 	def __LoadScript(self, fileName):
 		import dbg
 		try:
@@ -498,14 +466,6 @@ class LoginWindow(ui.ScriptWindow):
 				self.checkButton = GetObject("CheckButton")				
 				self.checkButton.Down()
 			
-			# RUNUP_MATRIX_AUTH
-			if IsRunupMatrixAuth():
-				self.matrixQuizBoard	= GetObject("RunupMatrixQuizBoard")
-				self.matrixAnswerInput	= GetObject("RunupMatrixAnswerInput")
-				self.matrixAnswerOK	= GetObject("RunupMatrixAnswerOK")
-				self.matrixAnswerCancel	= GetObject("RunupMatrixAnswerCancel")
-			# RUNUP_MATRIX_AUTH_END
-
 			self.virtualKeyboard		= self.GetChild2("VirtualKeyboard")
 
 			if self.virtualKeyboard:
@@ -551,14 +511,6 @@ class LoginWindow(ui.ScriptWindow):
 
 		self.pwdEditLine.SetReturnEvent(ui.__mem_func__(self.__OnClickLoginButton))
 		self.pwdEditLine.SetTabEvent(ui.__mem_func__(self.idEditLine.SetFocus))
-
-		# RUNUP_MATRIX_AUTH
-		if IsRunupMatrixAuth():			
-			self.matrixAnswerOK.SAFE_SetEvent(self.__OnClickMatrixAnswerOK)
-			self.matrixAnswerCancel.SAFE_SetEvent(self.__OnClickMatrixAnswerCancel)
-			self.matrixAnswerInput.SAFE_SetReturnEvent(self.__OnClickMatrixAnswerOK)
-		# RUNUP_MATRIX_AUTH_END
-
 
 		if IsFullBackImage():
 			self.GetChild("bg1").Show()
@@ -771,109 +723,6 @@ class LoginWindow(ui.ScriptWindow):
 		self.stream.popupWindow.Close()
 		self.stream.popupWindow.Open(msg, func, localeInfo.UI_OK)
 
-	# RUNUP_MATRIX_AUTH
-	def BINARY_OnRunupMatrixQuiz(self, quiz):
-		if not IsRunupMatrixAuth():
-			return
-
-		id		= self.GetChild("RunupMatrixID")
-		id.SetText(self.idEditLine.GetText())
-		
-		code	= self.GetChild("RunupMatrixCode")
-		
-		code.SetText("".join(["[%c,%c]" % (quiz[i], quiz[i+1]) for i in xrange(0, len(quiz), 2)]))
-
-		self.stream.popupWindow.Close()
-		self.serverBoard.Hide()
-		self.connectBoard.Hide()
-		self.loginBoard.Hide()
-		self.matrixQuizBoard.Show()
-		self.matrixAnswerInput.SetFocus()
-
-	def __OnClickMatrixAnswerOK(self):
-		answer = self.matrixAnswerInput.GetText()
-
-		print "matrix_quiz.ok"
-		net.SendRunupMatrixCardPacket(answer)
-		self.matrixQuizBoard.Hide()	
-
-		self.stream.popupWindow.Close()
-		self.stream.popupWindow.Open("WAITING FOR MATRIX AUTHENTICATION", 
-			self.__OnClickMatrixAnswerCancel, 
-			localeInfo.UI_CANCEL)
-
-	def __OnClickMatrixAnswerCancel(self):
-		print "matrix_quiz.cancel"
-
-		if self.matrixQuizBoard:
-			self.matrixQuizBoard.Hide()	
-
-		if self.connectBoard:
-			self.connectBoard.Show()	
-
-		if self.loginBoard:
-			self.loginBoard.Show()
-
-	# RUNUP_MATRIX_AUTH_END
-
-
-	def OnMatrixCard(self, row1, row2, row3, row4, col1, col2, col3, col4):
-
-		if self.connectingDialog:
-			self.connectingDialog.Close()
-		self.connectingDialog = None
-
-		self.matrixInputChanceCount = 3
-
-		self.stream.popupWindow.Close()
-
-		# CHINA_MATRIX_CARD_BUG_FIX
-		## A~Z 까지 26 이내의 값이 들어있어야만 한다.
-		## Python Exception Log 에서 그 이상의 값이 들어있어서 에러 방지
-		## 헌데 왜 한국쪽 로그에서 이게 활용되는지는 모르겠음
-		row1 = min(30, row1)
-		row2 = min(30, row2)
-		row3 = min(30, row3)
-		row4 = min(30, row4)
-		# END_OF_CHINA_MATRIX_CARD_BUG_FIX
-
-		row1 = chr(row1 + ord('A'))
-		row2 = chr(row2 + ord('A'))
-		row3 = chr(row3 + ord('A'))
-		row4 = chr(row4 + ord('A'))
-		col1 = col1 + 1
-		col2 = col2 + 1
-		col3 = col3 + 1
-		col4 = col4 + 1
-
-		inputDialog = uiCommon.InputDialogWithDescription2()
-		inputDialog.SetMaxLength(8)
-		inputDialog.SetAcceptEvent(ui.__mem_func__(self.__OnAcceptMatrixCardData))
-		inputDialog.SetCancelEvent(ui.__mem_func__(self.__OnCancelMatrixCardData))
-		inputDialog.SetTitle(localeInfo.INPUT_MATRIX_CARD_TITLE)
-		inputDialog.SetDescription1(localeInfo.INPUT_MATRIX_CARD_NUMBER)
-		inputDialog.SetDescription2("%c%d %c%d %c%d %c%d" % (row1, col1,
-															row2, col2,
-															row3, col3,
-															row4, col4))
-
-		inputDialog.Open()
-		self.inputDialog = inputDialog
-
-	def __OnAcceptMatrixCardData(self):
-		text = self.inputDialog.GetText()
-		net.SendChinaMatrixCardPacket(text)
-		if self.inputDialog:
-			self.inputDialog.Hide()
-		self.PopupNotifyMessage(localeInfo.LOGIN_PROCESSING)
-		return True
-
-	def __OnCancelMatrixCardData(self):
-		self.SetPasswordEditLineFocus()
-		self.__OnCloseInputDialog()
-		self.__DisconnectAndInputPassword()
-		return True
-
 	def __OnCloseInputDialog(self):
 		if self.inputDialog:
 			self.inputDialog.Close()
@@ -887,7 +736,6 @@ class LoginWindow(ui.ScriptWindow):
 
 	def OnExit(self):
 		self.stream.popupWindow.Close()
-		self.stream.popupWindow.Open(localeInfo.LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE, app.Exit, localeInfo.UI_OK)
 
 	def OnUpdate(self):
 		ServerStateChecker.Update()
@@ -938,13 +786,6 @@ class LoginWindow(ui.ScriptWindow):
 		
 		serverIndex = self.__ServerIDToServerIndex(loadRegionID, loadServerID)
 		channelIndex = self.__ChannelIDToChannelIndex(loadChannelID)
-		
-		# RUNUP_MATRIX_AUTH
-		if IsRunupMatrixAuth():
-			self.matrixQuizBoard.Hide()
-		# RUNUP_MATRIX_AUTH_END
-
-
 		self.serverList.SelectItem(serverIndex)
 
 		if localeInfo.IsEUROPE():
@@ -969,13 +810,8 @@ class LoginWindow(ui.ScriptWindow):
 
 	def __OpenLoginBoard(self):
 
-		# self.serverExitButton.SetEvent(ui.__mem_func__(self.__OnClickExitServerButton))
+		self.serverExitButton.SetEvent(ui.__mem_func__(self.__OnClickExitServerButton))
 		self.serverExitButton.SetText(localeInfo.UI_CLOSE)
-
-		# RUNUP_MATRIX_AUTH
-		if IsRunupMatrixAuth():
-			self.matrixQuizBoard.Hide()
-		# RUNUP_MATRIX_AUTH_END
 
 		self.serverBoard.SetPosition(self.xServerBoard, wndMgr.GetScreenHeight())
 		self.serverBoard.Hide()
