@@ -1104,28 +1104,7 @@ class GameWindow(ui.ScriptWindow):
 			self.SetFocus()
 
 	def SaveScreen(self):
-		print "save screen"
-
-		# SCREENSHOT_CWDSAVE
-		if SCREENSHOT_CWDSAVE:
-			if not os.path.exists(os.getcwd()+os.sep+"screenshot"):
-				os.mkdir(os.getcwd()+os.sep+"screenshot")
-
-			(succeeded, name) = grp.SaveScreenShotToPath(os.getcwd()+os.sep+"screenshot"+os.sep)
-		elif SCREENSHOT_DIR:
-			(succeeded, name) = grp.SaveScreenShot(SCREENSHOT_DIR)
-		else:
-			(succeeded, name) = grp.SaveScreenShot()
-		# END_OF_SCREENSHOT_CWDSAVE
-
-		if succeeded:
-			pass
-			"""
-			chat.AppendChat(chat.CHAT_TYPE_INFO, name + localeInfo.SCREENSHOT_SAVE1)
-			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.SCREENSHOT_SAVE2)
-			"""
-		else:
-			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.SCREENSHOT_SAVE_FAILURE)
+		grp.SaveScreenShotToPath()
 
 	def ShowConsole(self):
 		if debugInfo.IsDebugMode() or True == self.consoleEnable:
