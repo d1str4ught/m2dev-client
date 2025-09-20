@@ -18,25 +18,10 @@ def pack_folder(folder_path):
         return
 
     try:
-        result = subprocess.run(["PackMakerLite.exe", "--nolog", "--parallel", "-p", folder_name], check=True)
-        # print(f"Packing completed for: {folder_name}")
+        result = subprocess.run(["PackMaker.exe", "--input", folder_name, "--output", output_folder_path], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Error occurred while packing {folder_name}: {e}")
         return
-
-    eix_file = f"{folder_name}.eix"
-    epk_file = f"{folder_name}.epk"
-
-    if not os.path.exists(eix_file) or not os.path.exists(epk_file):
-        print(f"Packing failed: {eix_file} or {epk_file} not found.")
-        return
-
-    try:
-        shutil.move(eix_file, os.path.join(output_folder_path, eix_file))
-        shutil.move(epk_file, os.path.join(output_folder_path, epk_file))
-        print(f"Moved {eix_file} and {epk_file} to {output_folder_path}")
-    except Exception as e:
-        print(f"Error occurred while moving files: {e}")
 
 def pack_all_folders():
     all_folders = [f for f in os.listdir() if os.path.isdir(f) and f not in IGNORE_FOLDERS]
