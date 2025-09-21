@@ -822,6 +822,13 @@ class ImageBox(Window):
 
 		if len(self.eventDict)!=0:
 			print "LOAD IMAGE", self, self.eventDict
+			
+	def LoadImageFromFile(self, imageName):
+		self.name=imageName
+		wndMgr.LoadImageFromFile(self.hWnd, imageName)
+
+		if len(self.eventDict)!=0:
+			print "LOAD IMAGE", self, self.eventDict
 
 	def SetAlpha(self, alpha):
 		wndMgr.SetDiffuseColor(self.hWnd, 1.0, 1.0, 1.0, alpha)

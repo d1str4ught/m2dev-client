@@ -38,7 +38,7 @@ class MarkItem(ui.ListBoxEx.Item):
 				imgBox.AddFlag("not_pick")
 				imgBox.SetParent(self)
 				imgBox.SetPosition(0, 2)
-				imgBox.LoadImage(fileName)
+				imgBox.LoadImageFromFile(fileName)
 				imgBox.Show()
 				return imgBox
 			else:
@@ -221,6 +221,8 @@ class MarkSelectDialog(ui.ScriptWindow):
 		self.__AppendFileList("bmp")
 		self.__AppendFileList("tga")
 		self.__AppendFileList("jpg")
+		self.__AppendFileList("jpeg")
+		self.__AppendFileList("png")
 
 	def __ClearFileList(self):
 		self.markListBox.RemoveAllItems()
