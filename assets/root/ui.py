@@ -131,7 +131,6 @@ class Window(object):
 		self.parentWindow=proxy(parent)
 		wndMgr.SetParent(self.hWnd, parent.hWnd)
 
-	
 	def GetParentProxy(self):
 		return self.parentWindow
 
@@ -225,6 +224,15 @@ class Window(object):
 	def OnMouseLeftButtonUp(self):
 		if self.onMouseLeftButtonUpEvent:
 			self.onMouseLeftButtonUpEvent()
+
+	def EnableScissorRect(self):
+		wndMgr.EnableScissorRect(self.hWnd)
+		
+	def DisableScissorRect(self):
+		wndMgr.DisableScissorRect(self.hWnd)
+		
+	def IsScissorRectEnabled(self):
+		return wndMgr.IsScissorRectEnabled(self.hWnd)
 
 class ListBoxEx(Window):
 
