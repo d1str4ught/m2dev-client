@@ -165,12 +165,6 @@ class MainStream(object):
 
 	## SelectPhase
 	##########################################################################################	
-	def SetLogoPhase(self):
-		net.Disconnect()
-		
-		import introLogo
-		self.SetPhaseWindow(introLogo.LogoWindow(self))
-		
 	def SetLoginPhase(self):
 		net.Disconnect()
 
@@ -179,7 +173,7 @@ class MainStream(object):
 
 	def SameLogin_SetLoginPhase(self):
 		net.Disconnect()
-        
+
 		import introLogin
 		introInst = introLogin.LoginWindow(self)
 		self.SetPhaseWindow(introInst)

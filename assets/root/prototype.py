@@ -45,11 +45,9 @@ def RunApp():
 
 	mainStream = networkModule.MainStream()
 	mainStream.Create()	
-	
-	#mainStream.SetLoadingPhase()
-	mainStream.SetLogoPhase()
 
-	#mainStream.SetLoginPhase()
+	#mainStream.SetLoadingPhase()
+	mainStream.SetLoginPhase()
 	#mainStream.SetSelectCharacterPhase()
 	#mainStream.SetCreateCharacterPhase()
 	#mainStream.SetSelectEmpirePhase()

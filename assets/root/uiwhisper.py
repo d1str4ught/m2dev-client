@@ -217,10 +217,7 @@ class WhisperDialog(ui.ScriptWindow):
 		self.textRenderer.SetTargetName(targetName)
 		self.titleNameEdit.Hide()
 		self.ignoreButton.Hide()
-		if app.IsDevStage():
-			self.reportViolentWhisperButton.Show()
-		else:
-			self.reportViolentWhisperButton.Hide()
+		self.reportViolentWhisperButton.Hide()
 		self.acceptButton.Hide()
 		self.gamemasterMark.Hide()
 		self.minimizeButton.Show()
