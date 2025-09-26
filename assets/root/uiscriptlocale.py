@@ -1,4 +1,5 @@
 import app
+import dbg
 
 OPTION_SHADOW = "SHADOW"
 
@@ -10,11 +11,12 @@ def LoadLocaleFile(srcFileName, localeDict):
 	localeDict["CUBE_INFO_TITLE"] = "Recipe"
 	localeDict["CUBE_REQUIRE_MATERIAL"] = "Requirements"
 	localeDict["CUBE_REQUIRE_MATERIAL_OR"] = "or"
-	
+
 	try:
 		lines = pack_open(srcFileName, "r").readlines()
+		dbg.Trace("LoadLocaleFile: %s" % srcFileName)
+
 	except IOError:
-		import dbg
 		dbg.LogBox("LoadUIScriptLocaleError(%(srcFileName)s)" % locals())
 		app.Abort()
 

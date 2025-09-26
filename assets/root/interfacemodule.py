@@ -1693,7 +1693,7 @@ if __name__ == "__main__":
 		def __init__(self):
 			ui.Window.__init__(self)
 
-			localeInfo.LoadLocaleData()
+			app.LoadLocaleData()
 			player.SetItemData(0, 27001, 10)
 			player.SetItemData(1, 27004, 10)
 
