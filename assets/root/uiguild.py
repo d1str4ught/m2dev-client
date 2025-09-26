@@ -10,7 +10,7 @@ import localeInfo
 import player
 import skill
 import mouseModule
-import uiUploadMark
+import uiuploadmark_new
 import uiCommon
 import uiToolTip
 import playerSettingModule
@@ -1013,10 +1013,10 @@ class GuildWindow(ui.ScriptWindow):
 
 		self.largeMarkBox.AddFlag("not_pick")
 
-		self.markSelectDialog=uiUploadMark.MarkSelectDialog()
+		self.markSelectDialog=uiuploadmark_new.MarkSelectDialog()
 		self.markSelectDialog.SAFE_SetSelectEvent(self.__OnSelectMark)
 
-		self.symbolSelectDialog=uiUploadMark.SymbolSelectDialog()
+		self.symbolSelectDialog=uiuploadmark_new.SymbolSelectDialog()
 		self.symbolSelectDialog.SAFE_SetSelectEvent(self.__OnSelectSymbol)
 
 
@@ -1733,7 +1733,7 @@ class GuildWindow(ui.ScriptWindow):
 		self.inputDialog = inputDialog
 	
 	def __OnSelectMark(self, markFileName):
-		ret = net.UploadMark("upload/"+markFileName)
+		ret = net.SendGuildMarkUpload("upload/"+markFileName)
 
 		# MARK_BUG_FIX
 		if net.ERROR_MARK_UPLOAD_NEED_RECONNECT == ret:
