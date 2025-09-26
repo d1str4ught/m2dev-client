@@ -785,11 +785,14 @@ class TaskBar(ui.ScriptWindow):
 						continue
 
 					skillType = skill.GetSkillType(skillIndex)
+					if 0 == skillType:
+						slot.ClearSlot(slotNumber)
+						continue
+
 					if skill.SKILL_TYPE_GUILD == skillType:
 						import guild
 						skillGrade = 0
 						skillLevel = guild.GetSkillLevel(Position)
-
 					else:
 						skillGrade = player.GetSkillGrade(Position)
 						skillLevel = player.GetSkillLevel(Position)

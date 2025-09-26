@@ -241,12 +241,6 @@ class MiniMap(ui.ScriptWindow):
 
 		self.isLoaded = 0
 		self.canSeeInfo = True
-		
-		# AUTOBAN
-		self.imprisonmentDuration = 0
-		self.imprisonmentEndTime = 0
-		self.imprisonmentEndTimeText = ""
-		# END_OF_AUTOBAN
 
 	def __del__(self):
 		miniMap.Destroy()
@@ -284,22 +278,6 @@ class MiniMap(ui.ScriptWindow):
 			self.canSeeInfo = True
 			self.ShowMiniMap()
 			self.tooltipMiniMapOpen.SetText(localeInfo.MINIMAP)
-			
-	# AUTOBAN
-	def SetImprisonmentDuration(self, duration):
-		self.imprisonmentDuration = duration
-		self.imprisonmentEndTime = app.GetGlobalTimeStamp() + duration				
-		
-		self.__UpdateImprisonmentDurationText()
-		
-	def __UpdateImprisonmentDurationText(self):
-		restTime = max(self.imprisonmentEndTime - app.GetGlobalTimeStamp(), 0)
-		
-		imprisonmentEndTimeText = localeInfo.SecondToDHM(restTime)
-		if imprisonmentEndTimeText != self.imprisonmentEndTimeText:
-			self.imprisonmentEndTimeText = imprisonmentEndTimeText
-			self.serverInfo.SetText("%s: %s" % (uiScriptLocale.AUTOBAN_QUIZ_REST_TIME, self.imprisonmentEndTimeText))
-	# END_OF_AUTOBAN	
 
 	def Show(self):
 		self.__LoadWindow()
@@ -412,11 +390,6 @@ class MiniMap(ui.ScriptWindow):
 					self.tooltipInfo.Show()
 			else:
 				self.tooltipInfo.Hide()
-			
-			# AUTOBAN
-			if self.imprisonmentDuration:
-				self.__UpdateImprisonmentDurationText()				
-			# END_OF_AUTOBAN
 
 		if True == self.MiniMapShowButton.IsIn():
 			self.tooltipMiniMapOpen.Show()

@@ -566,7 +566,7 @@ if __name__ == "__main__":
 		def __init__(self):
 			ui.Window.__init__(self)
 
-			localeInfo.LoadLocaleData()
+			app.LoadLocaleData()
 
 			self.tooltipItem = uiToolTip.ItemToolTip()
 			self.tooltipItem.Hide()

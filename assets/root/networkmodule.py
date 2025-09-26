@@ -204,7 +204,7 @@ class MainStream(object):
 
 	def SetSelectCharacterPhase(self):
 		try:
-			localeInfo.LoadLocaleData()
+			app.LoadLocaleData()
 			import introSelect
 			self.popupWindow.Close()
 			self.SetPhaseWindow(introSelect.SelectCharacterWindow(self))
