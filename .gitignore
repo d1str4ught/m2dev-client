@@ -4,3 +4,7 @@ ErrorLog.txt
 *.eix
 *.epk
 *.pck
+/*.cfg
+/*.exe
+!/config.exe
+!/Metin2.exe
