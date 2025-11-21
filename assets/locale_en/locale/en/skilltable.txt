@@ -5,7 +5,7 @@
 16	기공참	1	1	1	0	HP	-(2.3*atk+(4*atk+str*4+con)*k)	60+120*k			15			ATTACK,USE_MELEE_DAMAGE		NONE				0	0	MELEE	4	1	0	100
 17	격산타우	1	1	1	0	HP	-(2.3*atk+(3*atk+str*4+con*3)*k)	60+150*k			15			ATTACK,USE_MELEE_DAMAGE		NONE				0	0	MELEE	8	1	0	200
 18	대진각	1	1	1	0	HP	-(2*atk+(2*atk+2*dex+2*con+str*4)*k)	50+140*k			25			ATTACK,USE_MELEE_DAMAGE,SELFONLY,SPLASH,ATTACK_STUN		NONE	100+k*1000/6	2		0	0	MELEE	10	1	0	400
-19	천근추	1	1	1	0	DEF_GRADE	(200+str*0.2+con*0.5)*k	80+220*k	60+90*k		63+90*k			SELFONLY	16	MOV_SPEED	-(1+9*k)	60+90*k	16	0	0	NORMAL	1	1	0	0
+19	천근추	1	1	1	0	DEF_GRADE	(200+str*0.2+con*0.5)*k	80+220*k	60+90*k		63+90*k			SELFONLY	16	MOV_SPEED	-(0.375*k)	60+90*k	16	0	0	NORMAL	1	1	0	0
 47	관격술	2	1	1	0	HP	-(atk+(1.7*atk+dex*2+str*2)*k)*0.8	30+130*k			18			ATTACK,USE_ARROW_DAMAGE		NONE				0	0	RANGE	8	1	2500	0
 48	화조파	2	1	1	0	HP	-(1.5*atk+(2.6*atk+number(100,300))*k)	50+130*k			25			ATTACK,SPLASH,USE_ARROW_DAMAGE		NONE				0	0	RANGE	12	0.6	2500	300
 46	연사	2	1	1	0	HP	-(atk+0.2*atk*floor(2+k*6)+(0.8*atk+dex*8*ar)*k)	40+130*k			15			ATTACK,USE_ARROW_DAMAGE		NONE				0	0	RANGE	1	1	2500	0
