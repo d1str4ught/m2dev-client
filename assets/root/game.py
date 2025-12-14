@@ -1016,6 +1016,10 @@ class GameWindow(ui.ScriptWindow):
 		messengerAddFriendQuestion.SetText2(localeInfo.MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2)
 		messengerAddFriendQuestion.SetAcceptEvent(ui.__mem_func__(self.OnAcceptAddFriend))
 		messengerAddFriendQuestion.SetCancelEvent(ui.__mem_func__(self.OnDenyAddFriend))
+
+		if app.FIX_MESSENGER_ACTION_SYNC:
+			messengerAddFriendQuestion.OnPressEscapeKey = ui.__mem_func__(self.OnDenyAddFriend)  # ESC ¡æ deny
+
 		messengerAddFriendQuestion.Open()
 		messengerAddFriendQuestion.name = name
 		self.messengerAddFriendQuestion = messengerAddFriendQuestion
@@ -2180,4 +2184,7 @@ class GameWindow(ui.ScriptWindow):
 
 	# END_OF_WEDDING
 
+	if app.FIX_REFRESH_SKILL_COOLDOWN:
+		def	SkillClearCoolTime(self, slotIndex):
+			self.interface.SkillClearCoolTime(slotIndex)
 

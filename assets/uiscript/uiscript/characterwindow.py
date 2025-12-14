@@ -556,6 +556,22 @@ window = {
 									"down_image" : "d:/ymir work/ui/game/windows/skill_tab_button_03.sub",
 								},
 
+								##horse skill page
+								{
+									"name" : "Skill_Group_Button_3",
+									"type" : "radio_button",
+
+									"x" : 95,
+									"y" : 2,
+
+									"text" : "Group3",
+									"text_color" : 0xFFFFE3AD,
+
+									"default_image" : "d:/ymir work/ui/game/windows/skill_tab_button_01.sub",
+									"over_image" : "d:/ymir work/ui/game/windows/skill_tab_button_02.sub",
+									"down_image" : "d:/ymir work/ui/game/windows/skill_tab_button_03.sub",
+								},
+
 								{
 									"name" : "Active_Skill_Group_Name",
 									"type" : "text",

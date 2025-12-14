@@ -42,6 +42,7 @@ class MessengerItem(ui.Window):
 
 	def SetName(self, name):
 		self.name = name
+		
 		if name:
 			self.text.SetText(name)
 			self.SetSize(20 + 6*len(name) + 4, 16)
@@ -377,6 +378,16 @@ class MessengerWindow(ui.ScriptWindow):
 		self.__AddGroup()
 		messenger.RefreshGuildMember()
 
+	if app.FIX_MESSENGER_ACTION_SYNC:
+		# NEW: Separate initialization from visibility
+		def InitializeHandler(self):
+			"""Load UI and register packet handlers without showing window"""
+			if self.isLoaded == 0:
+				self.__LoadWindow()
+				self.OnRefreshList()
+				self.OnResizeDialog()
+				self.isLoaded = 1
+
 	def Show(self):
 		if self.isLoaded==0:
 			self.isLoaded=1
@@ -390,7 +401,7 @@ class MessengerWindow(ui.ScriptWindow):
 	def __LoadWindow(self):
 
 		pyScrLoader = ui.PythonScriptLoader()
-		pyScrLoader.LoadScriptFile(self, "UIScript/MessengerWindow.py")		
+		pyScrLoader.LoadScriptFile(self, "UIScript/MessengerWindow.py")
 
 		try:
 			self.board = self.GetChild("board")
@@ -669,6 +680,12 @@ class MessengerWindow(ui.ScriptWindow):
 				self.selectedItem.OnRemove()
 				self.selectedItem.UnSelect()
 				self.selectedItem = None
+
+				if app.FIX_MESSENGER_ACTION_SYNC:
+					self.whisperButton.Disable()
+					self.mobileButton.Disable()
+					self.removeButton.Disable()
+
 				self.OnRefreshList()
 
 		self.OnCloseQuestionDialog()
@@ -770,7 +787,27 @@ class MessengerWindow(ui.ScriptWindow):
 
 	def OnRemoveList(self, groupIndex, key):
 		group = self.groupList[groupIndex]
-		group.RemoveMember(group.FindMember(key))
+
+		if app.FIX_MESSENGER_ACTION_SYNC:
+			member = group.FindMember(key)
+
+			if not member:
+				return
+
+			if self.selectedItem is member or member.IsSameKey(key):
+				member.UnSelect()
+				self.selectedItem = None
+
+				# Optional: also disable buttons to mirror local delete flow
+				self.whisperButton.Disable()
+				self.mobileButton.Disable()
+				self.removeButton.Disable()
+
+			member.Hide()
+			group.RemoveMember(member)
+		else:
+			group.RemoveMember(group.FindMember(key))
+
 		self.OnRefreshList()
 
 	def OnRemoveAllList(self, groupIndex):

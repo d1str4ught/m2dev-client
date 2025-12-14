@@ -13,7 +13,7 @@ import uiRefine
 import uiAttachMetin
 import uiPickMoney
 import uiCommon
-import uiPrivateShopBuilder # °³ÀÎ»óÁ¡ ¿­µ¿¾È ItemMove ¹æÁö
+import uiPrivateShopBuilder # ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ItemMove ï¿½ï¿½ï¿½ï¿½
 import localeInfo
 import constInfo
 import ime
@@ -41,7 +41,7 @@ class CostumeWindow(ui.ScriptWindow):
 		ui.ScriptWindow.__init__(self)
 
 		self.isLoaded = 0
-		self.wndInventory = wndInventory;
+		self.wndInventory = wndInventory
 
 		self.__LoadWindow()
 
@@ -113,7 +113,7 @@ class BeltInventoryWindow(ui.ScriptWindow):
 		ui.ScriptWindow.__init__(self)
 
 		self.isLoaded = 0
-		self.wndInventory = wndInventory;
+		self.wndInventory = wndInventory
 		
 		self.wndBeltInventoryLayer = None
 		self.wndBeltInventorySlot = None
@@ -156,7 +156,7 @@ class BeltInventoryWindow(ui.ScriptWindow):
 		if localeInfo.IsARABIC() == 0:
 			self.AdjustPositionAndSize()
 
-	## ÇöÀç ÀÎº¥Åä¸® À§Ä¡¸¦ ±âÁØÀ¸·Î BASE À§Ä¡¸¦ °è»ê, ¸®ÅÏ.. ¼ýÀÚ ÇÏµåÄÚµùÇÏ±â Á¤¸» ½ÈÁö¸¸ ¹æ¹ýÀÌ ¾ø´Ù..
+	## ï¿½ï¿½ï¿½ï¿½ ï¿½Îºï¿½ï¿½ä¸® ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ BASE ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½.. ï¿½ï¿½ï¿½ï¿½ ï¿½Ïµï¿½ï¿½Úµï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½..
 	def GetBasePosition(self):
 		x, y = self.wndInventory.GetGlobalPosition()
 		return x - 148, y + 241
@@ -169,7 +169,7 @@ class BeltInventoryWindow(ui.ScriptWindow):
 			self.SetSize(self.ORIGINAL_WIDTH, self.GetHeight())
 			
 		else:
-			self.SetPosition(bx + 138, by);
+			self.SetPosition(bx + 138, by)
 			self.SetSize(10, self.GetHeight())
 
 	def __LoadWindow(self):
@@ -251,13 +251,13 @@ class InventoryWindow(ui.ScriptWindow):
 	
 	sellingSlotNumber = -1
 	isLoaded = 0
-	isOpenedCostumeWindowWhenClosingInventory = 0		# ÀÎº¥Åä¸® ´ÝÀ» ¶§ ÄÚ½ºÃõÀÌ ¿­·ÁÀÖ¾ú´ÂÁö ¿©ºÎ-_-; ³×ÀÌ¹Ö ¤¸¤µ
-	isOpenedBeltWindowWhenClosingInventory = 0		# ÀÎº¥Åä¸® ´ÝÀ» ¶§ º§Æ® ÀÎº¥Åä¸®°¡ ¿­·ÁÀÖ¾ú´ÂÁö ¿©ºÎ-_-; ³×ÀÌ¹Ö ¤¸¤µ
+	isOpenedCostumeWindowWhenClosingInventory = 0		# ï¿½Îºï¿½ï¿½ä¸® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½-_-; ï¿½ï¿½ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½ï¿½
+	isOpenedBeltWindowWhenClosingInventory = 0		# ï¿½Îºï¿½ï¿½ä¸® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Æ® ï¿½Îºï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½-_-; ï¿½ï¿½ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 	def __init__(self):
 		ui.ScriptWindow.__init__(self)
 
-		self.isOpenedBeltWindowWhenClosingInventory = 0		# ÀÎº¥Åä¸® ´ÝÀ» ¶§ º§Æ® ÀÎº¥Åä¸®°¡ ¿­·ÁÀÖ¾ú´ÂÁö ¿©ºÎ-_-; ³×ÀÌ¹Ö ¤¸¤µ
+		self.isOpenedBeltWindowWhenClosingInventory = 0		# ï¿½Îºï¿½ï¿½ä¸® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Æ® ï¿½Îºï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½-_-; ï¿½ï¿½ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 		self.__LoadWindow()
 
@@ -269,11 +269,11 @@ class InventoryWindow(ui.ScriptWindow):
 
 		ui.ScriptWindow.Show(self)
 
-		# ÀÎº¥Åä¸®¸¦ ´ÝÀ» ¶§ ÄÚ½ºÃõÀÌ ¿­·ÁÀÖ¾ú´Ù¸é ÀÎº¥Åä¸®¸¦ ¿­ ¶§ ÄÚ½ºÃõµµ °°ÀÌ ¿­µµ·Ï ÇÔ.
+		# ï¿½Îºï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½Ù¸ï¿½ ï¿½Îºï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½.
 		if self.isOpenedCostumeWindowWhenClosingInventory and self.wndCostume:
 			self.wndCostume.Show() 
 
-		# ÀÎº¥Åä¸®¸¦ ´ÝÀ» ¶§ º§Æ® ÀÎº¥Åä¸®°¡ ¿­·ÁÀÖ¾ú´Ù¸é °°ÀÌ ¿­µµ·Ï ÇÔ.
+		# ï¿½Îºï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Æ® ï¿½Îºï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½.
 		if self.wndBelt:
 			self.wndBelt.Show(self.isOpenedBeltWindowWhenClosingInventory)
 
@@ -439,11 +439,11 @@ class InventoryWindow(ui.ScriptWindow):
 			self.tooltipItem.HideToolTip()
 
 		if self.wndCostume:
-			self.isOpenedCostumeWindowWhenClosingInventory = self.wndCostume.IsShow()			# ÀÎº¥Åä¸® Ã¢ÀÌ ´ÝÈú ¶§ ÄÚ½ºÃõÀÌ ¿­·Á ÀÖ¾ú´Â°¡?
+			self.isOpenedCostumeWindowWhenClosingInventory = self.wndCostume.IsShow()			# ï¿½Îºï¿½ï¿½ä¸® Ã¢ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½Â°ï¿½?
 			self.wndCostume.Close()
  
 		if self.wndBelt:
-			self.isOpenedBeltWindowWhenClosingInventory = self.wndBelt.IsOpeningInventory()		# ÀÎº¥Åä¸® Ã¢ÀÌ ´ÝÈú ¶§ º§Æ® ÀÎº¥Åä¸®µµ ¿­·Á ÀÖ¾ú´Â°¡?
+			self.isOpenedBeltWindowWhenClosingInventory = self.wndBelt.IsOpeningInventory()		# ï¿½Îºï¿½ï¿½ä¸® Ã¢ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Æ® ï¿½Îºï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½Â°ï¿½?
 			print "Is Opening Belt Inven?? ", self.isOpenedBeltWindowWhenClosingInventory
 			self.wndBelt.Close()
   
@@ -508,7 +508,7 @@ class InventoryWindow(ui.ScriptWindow):
 			self.dlgPickMoney.SetTitleName(localeInfo.PICK_MONEY_TITLE)
 			self.dlgPickMoney.SetAcceptEvent(ui.__mem_func__(self.OnPickMoney))
 			self.dlgPickMoney.Open(curMoney)
-			self.dlgPickMoney.SetMax(7) # ÀÎº¥Åä¸® 990000 Á¦ÇÑ ¹ö±× ¼öÁ¤
+			self.dlgPickMoney.SetMax(7) # ï¿½Îºï¿½ï¿½ä¸® 990000 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 	def OnPickMoney(self, money):
 		mouseModule.mouseController.AttachMoney(self, player.SLOT_TYPE_INVENTORY, money)
@@ -533,7 +533,7 @@ class InventoryWindow(ui.ScriptWindow):
 			slotNumber = self.__InventoryLocalSlotPosToGlobalSlotPos(i)
 			
 			itemCount = getItemCount(slotNumber)
-			# itemCount == 0ÀÌ¸é ¼ÒÄÏÀ» ºñ¿î´Ù.
+			# itemCount == 0ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			if 0 == itemCount:
 				self.wndItem.ClearSlot(i)
 				continue
@@ -543,19 +543,19 @@ class InventoryWindow(ui.ScriptWindow):
 			itemVnum = getItemVNum(slotNumber)
 			setItemVNum(i, itemVnum, itemCount)
 			
-			## ÀÚµ¿¹°¾à (HP: #72723 ~ #72726, SP: #72727 ~ #72730) Æ¯¼öÃ³¸® - ¾ÆÀÌÅÛÀÎµ¥µµ ½½·Ô¿¡ È°¼ºÈ­/ºñÈ°¼ºÈ­ Ç¥½Ã¸¦ À§ÇÑ ÀÛ¾÷ÀÓ - [hyo]
+			## ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ (HP: #72723 ~ #72726, SP: #72727 ~ #72730) Æ¯ï¿½ï¿½Ã³ï¿½ï¿½ - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ô¿ï¿½ È°ï¿½ï¿½È­/ï¿½ï¿½È°ï¿½ï¿½È­ Ç¥ï¿½Ã¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Û¾ï¿½ï¿½ï¿½ - [hyo]
 			if constInfo.IS_AUTO_POTION(itemVnum):
-				# metinSocket - [0] : È°¼ºÈ­ ¿©ºÎ, [1] : »ç¿ëÇÑ ¾ç, [2] : ÃÖ´ë ¿ë·®
+				# metinSocket - [0] : È°ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½, [1] : ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½, [2] : ï¿½Ö´ï¿½ ï¿½ë·®
 				metinSocket = [player.GetItemMetinSocket(slotNumber, j) for j in xrange(player.METIN_SOCKET_MAX_NUM)]	
 				
-				if slotNumber >= player.INVENTORY_PAGE_SIZE:
-					slotNumber -= player.INVENTORY_PAGE_SIZE
+				if slotNumber >= player.INVENTORY_PAGE_SIZE * self.inventoryPageIndex:
+					slotNumber -= player.INVENTORY_PAGE_SIZE * self.inventoryPageIndex
 					
 				isActivated = 0 != metinSocket[0]
 				
 				if isActivated:
 					self.wndItem.ActivateSlot(slotNumber)
-					potionType = 0;
+					potionType = 0
 					if constInfo.IS_AUTO_POTION_HP(itemVnum):
 						potionType = player.AUTO_POTION_TYPE_HP
 					elif constInfo.IS_AUTO_POTION_SP(itemVnum):
@@ -614,7 +614,7 @@ class InventoryWindow(ui.ScriptWindow):
 	def SellItem(self):
 		if self.sellingSlotitemIndex == player.GetItemIndex(self.sellingSlotNumber):
 			if self.sellingSlotitemCount == player.GetItemCount(self.sellingSlotNumber):
-				## ¿ëÈ¥¼®µµ ÆÈ¸®°Ô ÇÏ´Â ±â´É Ãß°¡ÇÏ¸é¼­ ÀÎÀÚ type Ãß°¡
+				## ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ ï¿½È¸ï¿½ï¿½ï¿½ ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½Ï¸é¼­ ï¿½ï¿½ï¿½ï¿½ type ï¿½ß°ï¿½
 				net.SendShopSellPacketNew(self.sellingSlotNumber, self.questionDialog.count, player.INVENTORY)
 				snd.PlaySound("sound/ui/money.wav")
 		self.OnCloseQuestionDialog()
@@ -764,10 +764,10 @@ class InventoryWindow(ui.ScriptWindow):
 		else:
 			#snd.PlaySound("sound/ui/drop.wav")
 
-			## ÀÌµ¿½ÃÅ² °÷ÀÌ ÀåÂø ½½·ÔÀÏ °æ¿ì ¾ÆÀÌÅÛÀ» »ç¿ëÇØ¼­ ÀåÂø ½ÃÅ²´Ù - [levites]
+			## ï¿½Ìµï¿½ï¿½ï¿½Å² ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å²ï¿½ï¿½ - [levites]
 			if player.IsEquipmentSlot(dstItemSlotPos):
 
-				## µé°í ÀÖ´Â ¾ÆÀÌÅÛÀÌ ÀåºñÀÏ¶§¸¸
+				## ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ï¿½ï¿½
 				if item.IsEquipmentVID(srcItemVID):
 					self.__UseItem(srcItemSlotPos)
 
@@ -786,7 +786,7 @@ class InventoryWindow(ui.ScriptWindow):
 			self.sellingSlotitemCount = itemCount
 
 			item.SelectItem(itemIndex)
-			## ¾ÈÆ¼ ÇÃ·¹±× °Ë»ç ºüÁ®¼­ Ãß°¡
+			## ï¿½ï¿½Æ¼ ï¿½Ã·ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 			## 20140220
 			if item.IsAntiFlag(item.ANTIFLAG_SELL):
 				popup = uiCommon.PopupDialog()
@@ -932,7 +932,7 @@ class InventoryWindow(ui.ScriptWindow):
 
 
 	def __IsUsableItemToItem(self, srcItemVNum, srcSlotPos):
-		"´Ù¸¥ ¾ÆÀÌÅÛ¿¡ »ç¿ëÇÒ ¼ö ÀÖ´Â ¾ÆÀÌÅÛÀÎ°¡?"
+		"ï¿½Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Û¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î°ï¿½?"
 
 		if item.IsRefineScroll(srcItemVNum):
 			return True
@@ -951,7 +951,7 @@ class InventoryWindow(ui.ScriptWindow):
 		return False
 
 	def __CanUseSrcItemToDstItem(self, srcItemVNum, srcSlotPos, dstSlotPos):
-		"´ë»ó ¾ÆÀÌÅÛ¿¡ »ç¿ëÇÒ ¼ö ÀÖ´Â°¡?"
+		"ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Û¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´Â°ï¿½?"
 
 		if srcSlotPos == dstSlotPos:
 			return False
@@ -992,7 +992,7 @@ class InventoryWindow(ui.ScriptWindow):
 					return True
 			elif "USE_PUT_INTO_ACCESSORY_SOCKET" == useType:								
 				if self.__CanPutAccessorySocket(dstSlotPos, srcItemVNum):
-					return TRUE;
+					return TRUE
 			elif "USE_PUT_INTO_BELT_SOCKET" == useType:								
 				dstItemVNum = player.GetItemIndex(dstSlotPos)
 				print "USE_PUT_INTO_BELT_SOCKET", srcItemVNum, dstItemVNum
@@ -1158,7 +1158,7 @@ class InventoryWindow(ui.ScriptWindow):
 		self.OnCloseQuestionDialog()		
 
 	def __SendUseItemToItemPacket(self, srcSlotPos, dstSlotPos):
-		# °³ÀÎ»óÁ¡ ¿­°í ÀÖ´Â µ¿¾È ¾ÆÀÌÅÛ »ç¿ë ¹æÁö
+		# ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		if uiPrivateShopBuilder.IsBuildingPrivateShop():
 			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.USE_ITEM_FAILURE_PRIVATE_SHOP)
 			return
@@ -1166,7 +1166,7 @@ class InventoryWindow(ui.ScriptWindow):
 		net.SendItemUseToItemPacket(srcSlotPos, dstSlotPos)
 
 	def __SendUseItemPacket(self, slotPos):
-		# °³ÀÎ»óÁ¡ ¿­°í ÀÖ´Â µ¿¾È ¾ÆÀÌÅÛ »ç¿ë ¹æÁö
+		# ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		if uiPrivateShopBuilder.IsBuildingPrivateShop():
 			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.USE_ITEM_FAILURE_PRIVATE_SHOP)
 			return
@@ -1174,7 +1174,7 @@ class InventoryWindow(ui.ScriptWindow):
 		net.SendItemUsePacket(slotPos)
 	
 	def __SendMoveItemPacket(self, srcSlotPos, dstSlotPos, srcItemCount):
-		# °³ÀÎ»óÁ¡ ¿­°í ÀÖ´Â µ¿¾È ¾ÆÀÌÅÛ »ç¿ë ¹æÁö
+		# ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		if uiPrivateShopBuilder.IsBuildingPrivateShop():
 			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.MOVE_ITEM_FAILURE_PRIVATE_SHOP)
 			return

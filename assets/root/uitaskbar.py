@@ -672,6 +672,23 @@ class TaskBar(ui.ScriptWindow):
 		for button in self.selectSkillButtonList:
 			button.RefreshSkill()
 
+	if app.FIX_REFRESH_SKILL_COOLDOWN:
+		def SkillClearCoolTime(self, usedSlotIndex):
+			QUICK_SLOT_SLOT_COUNT = 4
+			slotIndex = 0
+
+			for slotWindow in self.quickslot:
+				for i in xrange(QUICK_SLOT_SLOT_COUNT):
+					(Type, Position) = player.GetLocalQuickSlot(slotIndex)
+
+					if Type == player.SLOT_TYPE_SKILL:
+						if usedSlotIndex == Position:
+							slotWindow.SetSlotCoolTime(slotIndex, 0)
+
+							return
+
+					slotIndex += 1
+
 	def SetHP(self, curPoint, recoveryPoint, maxPoint):
 		curPoint = min(curPoint, maxPoint)
 		if maxPoint > 0:
@@ -776,17 +793,19 @@ class TaskBar(ui.ScriptWindow):
 							slot.DeactivateSlot(slotNumber)
 					
 					slot.SetItemSlot(slotNumber, itemIndex, itemCount)
-
 				elif player.SLOT_TYPE_SKILL == Type:
-
 					skillIndex = player.GetSkillIndex(Position)
+
 					if 0 == skillIndex:
 						slot.ClearSlot(slotNumber)
+
 						continue
 
 					skillType = skill.GetSkillType(skillIndex)
+
 					if skill.SKILL_TYPE_GUILD == skillType:
 						import guild
+
 						skillGrade = 0
 						skillLevel = guild.GetSkillLevel(Position)
 
@@ -799,13 +818,26 @@ class TaskBar(ui.ScriptWindow):
 					slot.SetCoverButton(slotNumber)
 
 					## NOTE : CoolTime 체크
-					if player.IsSkillCoolTime(Position):
-						(coolTime, elapsedTime) = player.GetSkillCoolTime(Position)
-						slot.SetSlotCoolTime(slotNumber, coolTime, elapsedTime)
+					if app.FIX_REFRESH_SKILL_COOLDOWN:
+						if player.IsSkillCoolTime(Position) and skillLevel > 0:
+							(coolTime, elapsedTime) = player.GetSkillCoolTime(Position)
+
+							slot.SetSlotCoolTime(slotNumber, coolTime, elapsedTime)
+						else:
+							if skillType != skill.SKILL_TYPE_GUILD and skillLevel <= 0:
+								slot.SetSlotCoolTime(slotNumber, 0, 0)
+					else:
+						if player.IsSkillCoolTime(Position):
+							(coolTime, elapsedTime) = player.GetSkillCoolTime(Position)
+
+							slot.SetSlotCoolTime(slotNumber, coolTime, elapsedTime)
 
 					## NOTE : Activate 되어 있다면 아이콘도 업데이트
 					if player.IsSkillActive(Position):
 						slot.ActivateSlot(slotNumber)
+					else:
+						if app.FIX_REFRESH_SKILL_COOLDOWN:
+							slot.DeactivateSlot(slotNumber)
 
 				elif player.SLOT_TYPE_EMOTION == Type:
 
