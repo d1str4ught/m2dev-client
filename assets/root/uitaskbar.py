@@ -152,7 +152,7 @@ class EnergyBar(ui.ScriptWindow):
 	def RefreshStatus(self):
 		pointEnergy = player.GetStatus (player.ENERGY)
 		leftTimeEnergy = player.GetStatus (player.ENERGY_END_TIME) - app.GetGlobalTimeStamp()
-		# Ãæ±âÈ¯ Áö¼Ó ½Ã°£ = 2½Ã°£.
+		# ï¿½ï¿½ï¿½È¯ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ = 2ï¿½Ã°ï¿½.
 		self.SetEnergy (pointEnergy, leftTimeEnergy, 7200)
 			
 	def SetEnergy (self, point, leftTime, maxTime):
@@ -336,7 +336,7 @@ class TaskBar(ui.ScriptWindow):
 				(coolTime, elapsedTime) = player.GetSkillCoolTime(skillSlotNumber)
 				self.SetSlotCoolTime(slotNumber, coolTime, elapsedTime)
 
-			## NOTE : Activate µÇ¾î ÀÖ´Ù¸é ¾ÆÀÌÄÜµµ ¾÷µ¥ÀÌÆ®
+			## NOTE : Activate ï¿½Ç¾ï¿½ ï¿½Ö´Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Üµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
 			if player.IsSkillActive(skillSlotNumber):
 				self.ActivateSlot(slotNumber)
 
@@ -439,7 +439,7 @@ class TaskBar(ui.ScriptWindow):
 		toggleButtonDict[TaskBar.BUTTON_MESSENGER]=self.GetChild("MessengerButton")
 		toggleButtonDict[TaskBar.BUTTON_SYSTEM]=self.GetChild("SystemButton")
 		
-		# ChatButton, ExpandButton µÑ Áß ÇÏ³ª´Â ¹Ýµå½Ã Á¸ÀçÇÑ´Ù.
+		# ChatButton, ExpandButton ï¿½ï¿½ ï¿½ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½Ýµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 		try:
 			toggleButtonDict[TaskBar.BUTTON_CHAT]=self.GetChild("ChatButton")
 		except:
@@ -672,6 +672,22 @@ class TaskBar(ui.ScriptWindow):
 		for button in self.selectSkillButtonList:
 			button.RefreshSkill()
 
+	def SkillClearCoolTime(self, usedSlotIndex):
+		QUICK_SLOT_SLOT_COUNT = 4
+		slotIndex = 0
+
+		for slotWindow in self.quickslot:
+			for i in xrange(QUICK_SLOT_SLOT_COUNT):
+				(Type, Position) = player.GetLocalQuickSlot(slotIndex)
+
+				if Type == player.SLOT_TYPE_SKILL:
+					if usedSlotIndex == Position:
+						slotWindow.SetSlotCoolTime(slotIndex, 0)
+
+						return
+
+				slotIndex += 1
+
 	def SetHP(self, curPoint, recoveryPoint, maxPoint):
 		curPoint = min(curPoint, maxPoint)
 		if maxPoint > 0:
@@ -765,9 +781,9 @@ class TaskBar(ui.ScriptWindow):
 					if itemCount <= 1:
 						itemCount = 0
 					
-					## ÀÚµ¿¹°¾à (#72723, #72724) Æ¯¼öÃ³¸® - ¾ÆÀÌÅÛÀÎµ¥µµ ½½·Ô¿¡ È°¼ºÈ­/ºñÈ°¼ºÈ­ Ç¥½Ã¸¦ À§ÇÑ ÀÛ¾÷ÀÓ - [hyo]
+					## ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ (#72723, #72724) Æ¯ï¿½ï¿½Ã³ï¿½ï¿½ - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ô¿ï¿½ È°ï¿½ï¿½È­/ï¿½ï¿½È°ï¿½ï¿½È­ Ç¥ï¿½Ã¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Û¾ï¿½ï¿½ï¿½ - [hyo]
 					if constInfo.IS_AUTO_POTION(itemIndex):
-						# metinSocket - [0] : È°¼ºÈ­ ¿©ºÎ, [1] : »ç¿ëÇÑ ¾ç, [2] : ÃÖ´ë ¿ë·®
+						# metinSocket - [0] : È°ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½, [1] : ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½, [2] : ï¿½Ö´ï¿½ ï¿½ë·®
 						metinSocket = [player.GetItemMetinSocket(Position, j) for j in xrange(player.METIN_SOCKET_MAX_NUM)]
 						
 						if 0 != int(metinSocket[0]):
@@ -776,17 +792,19 @@ class TaskBar(ui.ScriptWindow):
 							slot.DeactivateSlot(slotNumber)
 					
 					slot.SetItemSlot(slotNumber, itemIndex, itemCount)
-
 				elif player.SLOT_TYPE_SKILL == Type:
-
 					skillIndex = player.GetSkillIndex(Position)
+
 					if 0 == skillIndex:
 						slot.ClearSlot(slotNumber)
+
 						continue
 
 					skillType = skill.GetSkillType(skillIndex)
+
 					if skill.SKILL_TYPE_GUILD == skillType:
 						import guild
+
 						skillGrade = 0
 						skillLevel = guild.GetSkillLevel(Position)
 
@@ -799,13 +817,19 @@ class TaskBar(ui.ScriptWindow):
 					slot.SetCoverButton(slotNumber)
 
 					## NOTE : CoolTime Ã¼Å©
-					if player.IsSkillCoolTime(Position):
+					if player.IsSkillCoolTime(Position) and skillLevel > 0:
 						(coolTime, elapsedTime) = player.GetSkillCoolTime(Position)
-						slot.SetSlotCoolTime(slotNumber, coolTime, elapsedTime)
 
-					## NOTE : Activate µÇ¾î ÀÖ´Ù¸é ¾ÆÀÌÄÜµµ ¾÷µ¥ÀÌÆ®
+						slot.SetSlotCoolTime(slotNumber, coolTime, elapsedTime)
+					else:
+						if skillType != skill.SKILL_TYPE_GUILD and skillLevel <= 0:
+							slot.SetSlotCoolTime(slotNumber, 0, 0)
+
+					## NOTE : Activate ï¿½Ç¾ï¿½ ï¿½Ö´Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Üµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
 					if player.IsSkillActive(Position):
 						slot.ActivateSlot(slotNumber)
+					else:
+						slot.DeactivateSlot(slotNumber)
 
 				elif player.SLOT_TYPE_EMOTION == Type:
 
@@ -1047,8 +1071,8 @@ class TaskBar(ui.ScriptWindow):
 				if skill.IsStandingSkill(skillIndex):
 					continue
 
-				## FIXME : ½ºÅ³ ÇÏ³ª´ç ½½·Ô ÇÏ³ª¾¿ ÇÒ´çÇÏ´Â°Ç ¾Æ¹«¸® ºÁµµ ºÎÇÏ°¡ Å©´Ù.
-				##		 ÀÌ ºÎºÐÀº ½Ã°£À» ³ª¸é °íÄ¡µµ·Ï. - [levites]
+				## FIXME : ï¿½ï¿½Å³ ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½Ò´ï¿½ï¿½Ï´Â°ï¿½ ï¿½Æ¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï°ï¿½ Å©ï¿½ï¿½.
+				##		 ï¿½ï¿½ ï¿½Îºï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½. - [levites]
 				skillButton = self.SkillButton()
 				skillButton.SetSkill(startNumber+i)
 				skillButton.SetPosition(x, y)

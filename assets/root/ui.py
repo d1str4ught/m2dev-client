@@ -885,7 +885,7 @@ class ExpandedImageBox(ImageBox):
 	def SetRenderingMode(self, mode):
 		wndMgr.SetRenderingMode(self.hWnd, mode)
 
-	# [0.0, 1.0] »çÀÌÀÇ °ª¸¸Å­ ÆÛ¼¾Æ®·Î ±×¸®Áö ¾Ê´Â´Ù.
+	# [0.0, 1.0] ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å­ ï¿½Û¼ï¿½Æ®ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ ï¿½Ê´Â´ï¿½.
 	def SetRenderingRect(self, left, top, right, bottom):
 		wndMgr.SetRenderingRect(self.hWnd, left, top, right, bottom)
 
@@ -1374,16 +1374,28 @@ class SlotWindow(Window):
 		return wndMgr.GetSlotCount(self.hWnd)
 
 	def SetUseMode(self, flag):
-		"TrueÀÏ¶§¸¸ ItemToItem ÀÌ °¡´ÉÇÑÁö º¸¿©ÁØ´Ù"
+		"Trueï¿½Ï¶ï¿½ï¿½ï¿½ ItemToItem ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ø´ï¿½"
 		wndMgr.SetUseMode(self.hWnd, flag)
 
 	def SetUsableItem(self, flag): 
-		"True¸é ÇöÀç °¡¸®Å² ¾ÆÀÌÅÛÀÌ ItemToItem Àû¿ë °¡´ÉÇÏ´Ù"
+		"Trueï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å² ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ItemToItem ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½"
 		wndMgr.SetUsableItem(self.hWnd, flag)
 
 	## Slot
 	def SetSlotCoolTime(self, slotIndex, coolTime, elapsedTime = 0.0):
 		wndMgr.SetSlotCoolTime(self.hWnd, slotIndex, coolTime, elapsedTime)
+
+	def StoreSlotCoolTime(self, key, slotIndex, coolTime, elapsedTime = 0.0):
+		wndMgr.StoreSlotCoolTime(self.hWnd, key, slotIndex, coolTime, elapsedTime)
+	
+	def RestoreSlotCoolTime(self, key):
+		wndMgr.RestoreSlotCoolTime(self.hWnd, key)
+
+	def TransferSlotCoolTime(self, slotIndex1, slotIndex2):
+		wndMgr.TransferSlotCoolTime(self.hWnd, slotIndex1, slotIndex2)
+
+	def ClearSlotCoolTime(self, slotIndex):
+		wndMgr.ClearSlotCoolTime(self.hWnd, slotIndex)
 
 	def DisableSlot(self, slotIndex):
 		wndMgr.DisableSlot(self.hWnd, slotIndex)
@@ -1536,7 +1548,7 @@ class TitleBar(Window):
 
 	def MakeTitleBar(self, width, color):
 
-		## ÇöÀç Color´Â »ç¿ëÇÏ°í ÀÖÁö ¾ÊÀ½
+		## ï¿½ï¿½ï¿½ï¿½ Colorï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 		width = max(64, width)
 
@@ -2767,8 +2779,8 @@ class PythonScriptLoader(object):
 		print "===== Load Script File : %s" % (FileName)
 
 		try:
-			# chr, player µîÀº sandbox ³»¿¡¼­ import°¡ Çã¿ëµÇÁö ¾Ê±â ¶§¹®¿¡,(º¿ÀÌ ¾Ç¿ëÇÒ ¿©Áö°¡ ¸Å¿ì Å­.)
-			#  ¹Ì¸® script dictionary¿¡ ÇÊ¿äÇÑ »ó¼ö¸¦ ³Ö¾î³õ´Â´Ù.
+			# chr, player ï¿½ï¿½ï¿½ï¿½ sandbox ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ importï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,(ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å¿ï¿½ Å­.)
+			#  ï¿½Ì¸ï¿½ script dictionaryï¿½ï¿½ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½Â´ï¿½.
 			import chr
 			import player
 			import app
