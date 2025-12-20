@@ -111,41 +111,34 @@ def RegisterSkill(race, group, empire = 0):
 	job = chr.RaceToJob(race)
 
 	# Ensure group 0 exists (horse-only) when cooldown fix is on
-	if app.FIX_REFRESH_SKILL_COOLDOWN and SKILL_INDEX_DICT.has_key(job):
-		if not SKILL_INDEX_DICT[job].has_key(0):
-			# Assassin has 140 as well; others only 137-139
-			SKILL_INDEX_DICT[job][0] = (0, 0, 0, 0, 0, 0, 0, 0,
-										137, 0, 138, 0, 139, 0) + ((140,) if job == JOB_ASSASSIN else ())
+	if not SKILL_INDEX_DICT[job].has_key(0):
+		# Assassin has 140 as well; others only 137-139
+		SKILL_INDEX_DICT[job][0] = (0, 0, 0, 0, 0, 0, 0, 0,
+									137, 0, 138, 0, 139, 0) + ((140,) if job == JOB_ASSASSIN else ())
 
 	## Support Skills (Always register regardless of skill group)
-	if app.FIX_REFRESH_SKILL_COOLDOWN:
-		if SKILL_INDEX_DICT.has_key(job):
-			supportSkillList = SKILL_INDEX_DICT[job].get("SUPPORT", ())
+	if SKILL_INDEX_DICT.has_key(job):
+		supportSkillList = SKILL_INDEX_DICT[job].get("SUPPORT", ())
 
-			for i in xrange(len(supportSkillList)):
-				player.SetSkill(i + 100 + 1, supportSkillList[i])
+		for i in xrange(len(supportSkillList)):
+			player.SetSkill(i + 100 + 1, supportSkillList[i])
 
 	## Character Skill
 	if SKILL_INDEX_DICT.has_key(job):
 		if SKILL_INDEX_DICT[job].has_key(group):
 			activeSkillList = SKILL_INDEX_DICT[job][group]
 
-			if not app.FIX_REFRESH_SKILL_COOLDOWN:
-				for i, idx in enumerate(activeSkillList):
-					if i not in (6, 7):  # keep skipping unused slots
-						player.SetSkill(i + 1, idx)
-			else:
-				for i in xrange(len(activeSkillList)):
-					skillIndex = activeSkillList[i]
-					
-					## 7�� 8�� ��ų�� ���⼭ �����ϸ� �ȵ�
-					if i != 6 and i != 7:
-						player.SetSkill(i + 1, skillIndex)
+			for i in xrange(len(activeSkillList)):
+				skillIndex = activeSkillList[i]
+				
+				## 7�� 8�� ��ų�� ���⼭ �����ϸ� �ȵ�
+				if i != 6 and i != 7:
+					player.SetSkill(i + 1, skillIndex)
 
-				supportSkillList = SKILL_INDEX_DICT[job]["SUPPORT"]
+			supportSkillList = SKILL_INDEX_DICT[job]["SUPPORT"]
 
-				for i in xrange(len(supportSkillList)):
-					player.SetSkill(i + 100 + 1, supportSkillList[i])
+			for i in xrange(len(supportSkillList)):
+				player.SetSkill(i + 100 + 1, supportSkillList[i])
 
 	## Language Skill
 	if 0 != empire:

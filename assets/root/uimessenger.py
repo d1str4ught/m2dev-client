@@ -378,15 +378,13 @@ class MessengerWindow(ui.ScriptWindow):
 		self.__AddGroup()
 		messenger.RefreshGuildMember()
 
-	if app.FIX_MESSENGER_ACTION_SYNC:
-		# NEW: Separate initialization from visibility
-		def InitializeHandler(self):
-			"""Load UI and register packet handlers without showing window"""
-			if self.isLoaded == 0:
-				self.__LoadWindow()
-				self.OnRefreshList()
-				self.OnResizeDialog()
-				self.isLoaded = 1
+	def InitializeHandler(self):
+		"""Load UI and register packet handlers without showing window"""
+		if self.isLoaded == 0:
+			self.isLoaded = 1
+			self.__LoadWindow()
+			self.OnRefreshList()
+			self.OnResizeDialog()
 
 	def Show(self):
 		if self.isLoaded==0:
@@ -681,10 +679,9 @@ class MessengerWindow(ui.ScriptWindow):
 				self.selectedItem.UnSelect()
 				self.selectedItem = None
 
-				if app.FIX_MESSENGER_ACTION_SYNC:
-					self.whisperButton.Disable()
-					self.mobileButton.Disable()
-					self.removeButton.Disable()
+				self.whisperButton.Disable()
+				self.mobileButton.Disable()
+				self.removeButton.Disable()
 
 				self.OnRefreshList()
 
@@ -788,25 +785,22 @@ class MessengerWindow(ui.ScriptWindow):
 	def OnRemoveList(self, groupIndex, key):
 		group = self.groupList[groupIndex]
 
-		if app.FIX_MESSENGER_ACTION_SYNC:
-			member = group.FindMember(key)
+		member = group.FindMember(key)
 
-			if not member:
-				return
+		if not member:
+			return
 
-			if self.selectedItem is member or member.IsSameKey(key):
-				member.UnSelect()
-				self.selectedItem = None
+		if self.selectedItem is member or member.IsSameKey(key):
+			member.UnSelect()
+			self.selectedItem = None
 
-				# Optional: also disable buttons to mirror local delete flow
-				self.whisperButton.Disable()
-				self.mobileButton.Disable()
-				self.removeButton.Disable()
+			# Optional: also disable buttons to mirror local delete flow
+			self.whisperButton.Disable()
+			self.mobileButton.Disable()
+			self.removeButton.Disable()
 
-			member.Hide()
-			group.RemoveMember(member)
-		else:
-			group.RemoveMember(group.FindMember(key))
+		member.Hide()
+		group.RemoveMember(member)
 
 		self.OnRefreshList()
 

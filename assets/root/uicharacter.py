@@ -840,26 +840,24 @@ class CharacterWindow(ui.ScriptWindow):
 						skillPage.SetSlotCount(realSlotIndex, 0)
 						skillPage.DisableCoverButton(realSlotIndex)
 
-						if app.FIX_REFRESH_SKILL_COOLDOWN:
-							if not player.IsSkillActive(slotIndex):
-								skillPage.DeactivateSlot(realSlotIndex)
+						if not player.IsSkillActive(slotIndex):
+							skillPage.DeactivateSlot(realSlotIndex)
 
-							if player.IsSkillCoolTime(slotIndex) and skillGrade != j:
-								skillPage.TransferSlotCoolTime(realSlotIndex, self.__GetRealSkillSlot(skillGrade, i))
-							else:
-								self.SkillClearCoolTime(realSlotIndex)
+						if player.IsSkillCoolTime(slotIndex) and skillGrade != j:
+							skillPage.TransferSlotCoolTime(realSlotIndex, self.__GetRealSkillSlot(skillGrade, i))
+						else:
+							self.SkillClearCoolTime(realSlotIndex)
 					else:
 						skillPage.SetSlotCountNew(realSlotIndex, skillGrade, skillLevel)
 
-					if app.FIX_REFRESH_SKILL_COOLDOWN:
-						# Check if this is the active slot
-						# Grade 3 appears in slot 2, so check both conditions
-						isActiveSlot = (skillGrade == j) or ((skillGrade == skill.SKILL_GRADE_COUNT) and j == (skill.SKILL_GRADE_COUNT - 1))
-						
-						if player.IsSkillActive(slotIndex) and isActiveSlot:
-							skillPage.ActivateSlot(realSlotIndex)
-						else:
-							skillPage.DeactivateSlot(realSlotIndex)
+					# Check if this is the active slot
+					# Grade 3 appears in slot 2, so check both conditions
+					isActiveSlot = (skillGrade == j) or ((skillGrade == skill.SKILL_GRADE_COUNT) and j == (skill.SKILL_GRADE_COUNT - 1))
+					
+					if player.IsSkillActive(slotIndex) and isActiveSlot:
+						skillPage.ActivateSlot(realSlotIndex)
+					else:
+						skillPage.DeactivateSlot(realSlotIndex)
 			else:
 				if not SHOW_LIMIT_SUPPORT_SKILL_LIST or skillIndex in SHOW_LIMIT_SUPPORT_SKILL_LIST:
 					realSlotIndex = self.__GetETCSkillRealSlotIndex(slotIndex)
@@ -870,58 +868,52 @@ class CharacterWindow(ui.ScriptWindow):
 					if skill.CanUseSkill(skillIndex):
 						skillPage.SetCoverButton(realSlotIndex)
 
-					if app.FIX_REFRESH_SKILL_COOLDOWN:
-						# Clear storage for horse skills at level 0 BEFORE restore runs
-						if skillType == skill.SKILL_TYPE_HORSE and skillLevel == 0:
-							player.ResetHorseSkillCoolTime(skillIndex, realSlotIndex)
-							skillPage.SetSlotCoolTime(realSlotIndex, 0)
+					# Clear storage for horse skills at level 0 BEFORE restore runs
+					if skillType == skill.SKILL_TYPE_HORSE and skillLevel == 0:
+						player.ResetHorseSkillCoolTime(skillIndex, realSlotIndex)
+						skillPage.SetSlotCoolTime(realSlotIndex, 0)
 
-						if player.IsSkillActive(slotIndex):
-							skillPage.ActivateSlot(realSlotIndex)
-						else:
-							skillPage.DeactivateSlot(realSlotIndex)
+					if player.IsSkillActive(slotIndex):
+						skillPage.ActivateSlot(realSlotIndex)
 					else:
-						if not player.IsSkillActive(slotIndex):
-							skillPage.DeactivateSlot(realSlotIndex)
+						skillPage.DeactivateSlot(realSlotIndex)
 
 			skillPage.RefreshSlot()
 
-		if app.FIX_REFRESH_SKILL_COOLDOWN:
-			self.__RestoreSlotCoolTime(skillPage)
+		self.__RestoreSlotCoolTime(skillPage)
 
-	if app.FIX_REFRESH_SKILL_COOLDOWN:
-		def __RestoreSlotCoolTime(self, skillPage):
-			restoreType = skill.SKILL_TYPE_NONE
+	def __RestoreSlotCoolTime(self, skillPage):
+		restoreType = skill.SKILL_TYPE_NONE
 
-			if self.PAGE_HORSE == self.curSelectedSkillGroup:
-				restoreType = skill.SKILL_TYPE_HORSE
-			else:
-				restoreType = skill.SKILL_TYPE_ACTIVE
+		if self.PAGE_HORSE == self.curSelectedSkillGroup:
+			restoreType = skill.SKILL_TYPE_HORSE
+		else:
+			restoreType = skill.SKILL_TYPE_ACTIVE
 
-			skillPage.RestoreSlotCoolTime(restoreType)
+		skillPage.RestoreSlotCoolTime(restoreType)
 
-		def __ClearHorseSkillQuickSlots(self):
-			HORSE_SKILL_SET = (137, 138, 139, 140)
+	def __ClearHorseSkillQuickSlots(self):
+		HORSE_SKILL_SET = (137, 138, 139, 140)
 
-			quick_slot_per_page = 8   # two quick_slot windows * 4 slots
-			quick_page_count = 4      # matches QUICKPAGE_NUMBER_FILENAME
-			current_page = player.GetQuickPage()
+		quick_slot_per_page = 8   # two quick_slot windows * 4 slots
+		quick_page_count = 4      # matches QUICKPAGE_NUMBER_FILENAME
+		current_page = player.GetQuickPage()
 
-			for page in xrange(quick_page_count):
-				player.SetQuickPage(page)
+		for page in xrange(quick_page_count):
+			player.SetQuickPage(page)
 
-				for local_slot in xrange(quick_slot_per_page):
-					slotType, position = player.GetLocalQuickSlot(local_slot)
+			for local_slot in xrange(quick_slot_per_page):
+				slotType, position = player.GetLocalQuickSlot(local_slot)
 
-					if slotType != player.SLOT_TYPE_SKILL:
-						continue
+				if slotType != player.SLOT_TYPE_SKILL:
+					continue
 
-					skillIndex = player.GetSkillIndex(position)
+				skillIndex = player.GetSkillIndex(position)
 
-					if skillIndex in HORSE_SKILL_SET:
-						player.RequestDeleteGlobalQuickSlot(page * quick_slot_per_page + local_slot)
+				if skillIndex in HORSE_SKILL_SET:
+					player.RequestDeleteGlobalQuickSlot(page * quick_slot_per_page + local_slot)
 
-			player.SetQuickPage(current_page)
+		player.SetQuickPage(current_page)
 
 	def RefreshSkill(self):
 		if self.isLoaded == 0:
@@ -1089,29 +1081,22 @@ class CharacterWindow(ui.ScriptWindow):
 
 		for slotWindow in self.skillPageDict.values():
 			if slotWindow.HasSlot(slotIndex):
-				if app.FIX_REFRESH_SKILL_COOLDOWN:
-					slotWindow.StoreSlotCoolTime(skillType, slotIndex, coolTime)
-					self.__RestoreSlotCoolTime(slotWindow)
-				else:
-					slotWindow.SetSlotCoolTime(slotIndex, coolTime)
+				slotWindow.StoreSlotCoolTime(skillType, slotIndex, coolTime)
+				self.__RestoreSlotCoolTime(slotWindow)
 
 				return
 
 	def OnActivateSkill(self, slotIndex):
-		if app.FIX_REFRESH_SKILL_COOLDOWN:
-			skillIndex = player.GetSkillIndex(slotIndex)
-			skillType = skill.GetSkillType(skillIndex)
-			
-			## ACTIVE
-			if skill.SKILL_TYPE_ACTIVE == skillType:
-				skillGrade = player.GetSkillGrade(slotIndex)
-				slotIndex = self.__GetRealSkillSlot(skillGrade, slotIndex)
-			## ETC
-			else:
-				slotIndex = self.__GetETCSkillRealSlotIndex(slotIndex)
-		else:
+		skillIndex = player.GetSkillIndex(slotIndex)
+		skillType = skill.GetSkillType(skillIndex)
+		
+		## ACTIVE
+		if skill.SKILL_TYPE_ACTIVE == skillType:
 			skillGrade = player.GetSkillGrade(slotIndex)
 			slotIndex = self.__GetRealSkillSlot(skillGrade, slotIndex)
+		## ETC
+		else:
+			slotIndex = self.__GetETCSkillRealSlotIndex(slotIndex)
 
 		for slotWindow in self.skillPageDict.values():
 			if slotWindow.HasSlot(slotIndex):
@@ -1120,20 +1105,16 @@ class CharacterWindow(ui.ScriptWindow):
 				return
 
 	def OnDeactivateSkill(self, slotIndex):
-		if app.FIX_REFRESH_SKILL_COOLDOWN:
-			skillIndex = player.GetSkillIndex(slotIndex)
-			skillType = skill.GetSkillType(skillIndex)
-			
-			## ACTIVE
-			if skill.SKILL_TYPE_ACTIVE == skillType:
-				skillGrade = player.GetSkillGrade(slotIndex)
-				slotIndex = self.__GetRealSkillSlot(skillGrade, slotIndex)
-			## ETC
-			else:
-				slotIndex = self.__GetETCSkillRealSlotIndex(slotIndex)
-		else:
+		skillIndex = player.GetSkillIndex(slotIndex)
+		skillType = skill.GetSkillType(skillIndex)
+		
+		## ACTIVE
+		if skill.SKILL_TYPE_ACTIVE == skillType:
 			skillGrade = player.GetSkillGrade(slotIndex)
 			slotIndex = self.__GetRealSkillSlot(skillGrade, slotIndex)
+		## ETC
+		else:
+			slotIndex = self.__GetETCSkillRealSlotIndex(slotIndex)
 
 		for slotWindow in self.skillPageDict.values():
 			if slotWindow.HasSlot(slotIndex):
@@ -1144,25 +1125,24 @@ class CharacterWindow(ui.ScriptWindow):
 	def __ShowJobToolTip(self):
 		self.toolTipJob.ShowToolTip()
 
-	if app.FIX_REFRESH_SKILL_COOLDOWN:
-		def SkillClearCoolTime(self, slotIndex):
-			skillIndex = player.GetSkillIndex(slotIndex)
-			
-			if skillIndex < 1:
-				return
+	def SkillClearCoolTime(self, slotIndex):
+		skillIndex = player.GetSkillIndex(slotIndex)
+		
+		if skillIndex < 1:
+			return
 
-			skillType = skill.GetSkillType(skillIndex)
+		skillType = skill.GetSkillType(skillIndex)
 
-			## ACTIVE
-			# Map to the correct visual slot based on skill type
-			if skill.SKILL_TYPE_ACTIVE == skillType:
-				slotIndex = self.__GetRealSkillSlot(player.GetSkillGrade(slotIndex), slotIndex)
-			else:
-				slotIndex = self.__GetETCSkillRealSlotIndex(slotIndex)
+		## ACTIVE
+		# Map to the correct visual slot based on skill type
+		if skill.SKILL_TYPE_ACTIVE == skillType:
+			slotIndex = self.__GetRealSkillSlot(player.GetSkillGrade(slotIndex), slotIndex)
+		else:
+			slotIndex = self.__GetETCSkillRealSlotIndex(slotIndex)
 
-			for slotWindow in self.skillPageDict.values():
-				if slotWindow.HasSlot(slotIndex):
-					slotWindow.SetSlotCoolTime(slotIndex, 0)
+		for slotWindow in self.skillPageDict.values():
+			if slotWindow.HasSlot(slotIndex):
+				slotWindow.SetSlotCoolTime(slotIndex, 0)
 
 	def __HideJobToolTip(self):
 		self.toolTipJob.HideToolTip()
@@ -1248,16 +1228,12 @@ class CharacterWindow(ui.ScriptWindow):
 		## GroupName
 		self.__SetSkillGroupName(race, group)
 
-		if app.FIX_REFRESH_SKILL_COOLDOWN:
-			self.__SetSkillSlotData(race, group, empire)
+		self.__SetSkillSlotData(race, group, empire)
 
 		## Skill
 		if 0 == group:
 			self.__SelectSkillGroup(0)
 		else:
-			if not app.FIX_REFRESH_SKILL_COOLDOWN:
-				self.__SetSkillSlotData(race, group, empire)
-
 			if self.__CanUseHorseSkill():
 				self.__SelectSkillGroup(0)
 
@@ -1318,42 +1294,26 @@ class CharacterWindow(ui.ScriptWindow):
 		## Refresh
 		self.RefreshSkill()
 
-	if app.FIX_HORSE_SKILLS_TAB:
-		def __SelectSkillGroup(self, pageIndex, (PAGE_SKILL_1, PAGE_SKILL_2, PAGE_SKILL_HORSE) = range(3)):
-			for pageButton in self.skillGroupButton:
-				pageButton.SetUp()
+	def __SelectSkillGroup(self, pageIndex, (PAGE_SKILL_1, PAGE_SKILL_2, PAGE_SKILL_HORSE) = range(3)):
+		for pageButton in self.skillGroupButton:
+			pageButton.SetUp()
 
-			self.skillGroupButton[pageIndex].Down()
+		self.skillGroupButton[pageIndex].Down()
 
-			if pageIndex in (PAGE_SKILL_1, PAGE_SKILL_2):
-				skillGroupIndex = net.GetMainActorSkillGroup()
+		if pageIndex in (PAGE_SKILL_1, PAGE_SKILL_2):
+			skillGroupIndex = net.GetMainActorSkillGroup()
 
-				if bool(skillGroupIndex):
-					(tmpCurSkillGroup, tmpSkillGroup) = (skillGroupIndex - 1, skillGroupIndex)
-				else:
-					(tmpCurSkillGroup, tmpSkillGroup) = (pageIndex, pageIndex + 1)
+			if bool(skillGroupIndex):
+				(tmpCurSkillGroup, tmpSkillGroup) = (skillGroupIndex - 1, skillGroupIndex)
+			else:
+				(tmpCurSkillGroup, tmpSkillGroup) = (pageIndex, pageIndex + 1)
 
-				self.curSelectedSkillGroup = tmpCurSkillGroup
-				self.__SetSkillSlotData(net.GetMainActorRace(), tmpSkillGroup, net.GetMainActorEmpire())
-			elif pageIndex == PAGE_SKILL_HORSE and self.__CanUseHorseSkill():
-				self.curSelectedSkillGroup = self.PAGE_HORSE
+			self.curSelectedSkillGroup = tmpCurSkillGroup
+			self.__SetSkillSlotData(net.GetMainActorRace(), tmpSkillGroup, net.GetMainActorEmpire())
+		elif pageIndex == PAGE_SKILL_HORSE and self.__CanUseHorseSkill():
+			self.curSelectedSkillGroup = self.PAGE_HORSE
 
-			self.RefreshSkill()
-	else:
-		def __SelectSkillGroup(self, index):
-			for btn in self.skillGroupButton:
-				btn.SetUp()
-
-			self.skillGroupButton[index].Down()
-
-			if self.__CanUseHorseSkill():
-				if 0 == index:
-					index = net.GetMainActorSkillGroup() - 1
-				elif 1 == index:
-					index = self.PAGE_HORSE
-
-			self.curSelectedSkillGroup = index
-			self.__SetSkillSlotData(net.GetMainActorRace(), index + 1, net.GetMainActorEmpire())
+		self.RefreshSkill()
 
 	def __CanUseSkillNow(self):
 		if 0 == net.GetMainActorSkillGroup():
@@ -1373,29 +1333,23 @@ class CharacterWindow(ui.ScriptWindow):
 		if level < 0:
 			level *= -1
 
-		if app.FIX_REFRESH_SKILL_COOLDOWN:
-			# Map to UI-displayed riding level (matches __RefreshSkillPage logic)
-			# grade 1: base 1..20 shown as 20..39 (offset +19)
-			# grade 2: base 1..10 shown as 30..39 (offset +29)
-			# grade 3: shown as 40
-			effective = 0
+		# Map to UI-displayed riding level (matches __RefreshSkillPage logic)
+		# grade 1: base 1..20 shown as 20..39 (offset +19)
+		# grade 2: base 1..10 shown as 30..39 (offset +29)
+		# grade 3: shown as 40
+		effective = 0
 
-			if grade >= 3:
-				effective = 40
-			elif grade == 2:
-				effective = level + 29
-			elif grade == 1:
-				effective = level + 19
-			else:
-				effective = level
-
-			# Require displayed riding level >= 21 to enable the horse page
-			return effective >= 21
+		if grade >= 3:
+			effective = 40
+		elif grade == 2:
+			effective = level + 29
+		elif grade == 1:
+			effective = level + 19
 		else:
-			if grade >= 1 and level >= 1:
-				return True
+			effective = level
 
-			return False
+		# Require displayed riding level >= 21 to enable the horse page
+		return effective >= 21
 
 	def __IsChangedHorseRidingSkillLevel(self):
 		ret = False

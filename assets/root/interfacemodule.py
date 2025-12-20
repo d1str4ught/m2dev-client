@@ -305,8 +305,7 @@ class Interface(object):
 		self.whisperDialogDict = {}
 		self.privateShopAdvertisementBoardDict = {}
 
-		if app.FIX_MESSENGER_ACTION_SYNC:
-			self.wndMessenger.InitializeHandler()
+		self.wndMessenger.InitializeHandler()
 
 		self.wndInventory.SetItemToolTip(self.tooltipItem)
 
@@ -540,10 +539,9 @@ class Interface(object):
 	def OnChangeCurrentSkill(self, skillSlotNumber):
 		self.wndTaskBar.OnChangeCurrentSkill(skillSlotNumber)
 
-	if app.FIX_REFRESH_SKILL_COOLDOWN:
-		def	SkillClearCoolTime(self, slotIndex):
-			self.wndCharacter.SkillClearCoolTime(slotIndex)
-			self.wndTaskBar.SkillClearCoolTime(slotIndex)
+	def	SkillClearCoolTime(self, slotIndex):
+		self.wndCharacter.SkillClearCoolTime(slotIndex)
+		self.wndTaskBar.SkillClearCoolTime(slotIndex)
 
 	def SelectMouseButtonEvent(self, dir, event):
 		self.wndTaskBar.SelectMouseButtonEvent(dir, event)
