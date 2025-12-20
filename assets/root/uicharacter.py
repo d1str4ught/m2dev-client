@@ -51,10 +51,7 @@ class CharacterWindow(ui.ScriptWindow):
 
 	PAGE_SLOT_COUNT = 12
 
-	if app.FIX_HORSE_SKILLS_TAB:
-		PAGE_HORSE = 3
-	else:
-		PAGE_HORSE = 2
+	PAGE_HORSE = 3
 
 	SKILL_GROUP_NAME_DICT = {
 		playerSettingModule.JOB_WARRIOR	: { 1 : localeInfo.SKILL_GROUP_WARRIOR_1,	2 : localeInfo.SKILL_GROUP_WARRIOR_2, },
@@ -135,9 +132,7 @@ class CharacterWindow(ui.ScriptWindow):
 		self.supportSkillPointValue = None
 		self.skillGroupButton1 = None
 		self.skillGroupButton2 = None
-
-		if app.FIX_HORSE_SKILLS_TAB:
-			self.skillGroupButton3 = None
+		self.skillGroupButton3 = None
 
 		self.activeSkillGroupName = None
 
@@ -186,9 +181,7 @@ class CharacterWindow(ui.ScriptWindow):
 		self.supportSkillPointValue = self.GetChild("Support_Skill_Point_Value")
 		self.skillGroupButton1 = self.GetChild("Skill_Group_Button_1")
 		self.skillGroupButton2 = self.GetChild("Skill_Group_Button_2")
-
-		if app.FIX_HORSE_SKILLS_TAB:
-			self.skillGroupButton3 = self.GetChild("Skill_Group_Button_3")
+		self.skillGroupButton3 = self.GetChild("Skill_Group_Button_3")
 
 		self.activeSkillGroupName = self.GetChild("Active_Skill_Group_Name")
 
@@ -249,9 +242,9 @@ class CharacterWindow(ui.ScriptWindow):
 		self.skillGroupButton = (
 			self.GetChild("Skill_Group_Button_1"),
 			self.GetChild("Skill_Group_Button_2"),
-		) + ((self.GetChild("Skill_Group_Button_3"),) if app.FIX_HORSE_SKILLS_TAB else ())
+			self.GetChild("Skill_Group_Button_3"),
+		)
 
-		
 		global SHOW_ONLY_ACTIVE_SKILL
 		global HIDE_SUPPORT_SKILL_POINT
 
@@ -920,12 +913,11 @@ class CharacterWindow(ui.ScriptWindow):
 			return
 
 		if self.__IsChangedHorseRidingSkillLevel():
-			if app.FIX_HORSE_SKILLS_TAB:
-				if not self.__CanUseHorseSkill():
-					if self.curSelectedSkillGroup == self.PAGE_HORSE:
-						self.__SelectSkillGroup(0)  # fall back to first active tab
+			if not self.__CanUseHorseSkill():
+				if self.curSelectedSkillGroup == self.PAGE_HORSE:
+					self.__SelectSkillGroup(0)  # fall back to first active tab
 
-					self.__ClearHorseSkillQuickSlots()  # remove horse skills from taskbar
+				self.__ClearHorseSkillQuickSlots()  # remove horse skills from taskbar
 
 			self.RefreshCharacter()
 
@@ -1249,13 +1241,12 @@ class CharacterWindow(ui.ScriptWindow):
 			self.skillGroupButton1.SetText(nameList[1])
 			self.skillGroupButton2.SetText(nameList[2])
 
-			if app.FIX_HORSE_SKILLS_TAB:
-				if self.__CanUseHorseSkill():
-					self.skillGroupButton3.SetText(localeInfo.SKILL_GROUP_HORSE)
-					self.skillGroupButton3.Show()
-					self.skillGroupButton3.SetPosition(95, 2)
-				else:
-					self.skillGroupButton3.Hide()
+			if self.__CanUseHorseSkill():
+				self.skillGroupButton3.SetText(localeInfo.SKILL_GROUP_HORSE)
+				self.skillGroupButton3.Show()
+				self.skillGroupButton3.SetPosition(95, 2)
+			else:
+				self.skillGroupButton3.Hide()
 
 			self.skillGroupButton1.Show()
 			self.skillGroupButton2.Show()
@@ -1265,24 +1256,17 @@ class CharacterWindow(ui.ScriptWindow):
 				self.activeSkillGroupName.Hide()
 				self.skillGroupButton1.SetText(nameList.get(group, "Noname"))
 
-				if app.FIX_HORSE_SKILLS_TAB:
-					self.skillGroupButton3.SetText(localeInfo.SKILL_GROUP_HORSE)
-					self.skillGroupButton1.Show()
-					self.skillGroupButton2.Hide()
-					self.skillGroupButton3.Show()
-					self.skillGroupButton3.SetPosition(50, 2)
-				else:
-					self.skillGroupButton2.SetText(localeInfo.SKILL_GROUP_HORSE)
-					self.skillGroupButton1.Show()
-					self.skillGroupButton2.Show()
+				self.skillGroupButton3.SetText(localeInfo.SKILL_GROUP_HORSE)
+				self.skillGroupButton1.Show()
+				self.skillGroupButton2.Hide()
+				self.skillGroupButton3.Show()
+				self.skillGroupButton3.SetPosition(50, 2)
 			else:
 				self.activeSkillGroupName.SetText(nameList.get(group, "Noname"))
 				self.activeSkillGroupName.Show()
 				self.skillGroupButton1.Hide()
 				self.skillGroupButton2.Hide()
-
-				if app.FIX_HORSE_SKILLS_TAB:
-					self.skillGroupButton3.Hide()
+				self.skillGroupButton3.Hide()
 
 	def __SetSkillSlotData(self, race, group, empire=0):
 		## SkillIndex
