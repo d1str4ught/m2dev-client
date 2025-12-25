@@ -309,6 +309,10 @@ class QuestDialog(ui.ScriptWindow):
 		self.editLine = None
 		# END_OF_QUEST_INPUT
 
+		# QUEST_CANCEL - Track if dialog was cancelled
+		self.bCancelled = False
+		# END_OF_QUEST_CANCEL
+
 	def __del__(self):
 		ui.ScriptWindow.__del__(self)
 
@@ -330,11 +334,16 @@ class QuestDialog(ui.ScriptWindow):
 
 	# QUEST_CANCEL
 	def OnCancel(self):
+		self.bCancelled = True
 		self.nextCurtainMode = -1
 		self.CloseSelf()
 	# END_OF_QUEST_CANCEL
 
 	def CloseSelf(self):
+		if self.bCancelled:
+			net.SendQuestCancelPacket()
+			self.bCancelled = False
+
 		QuestDialog.QuestCurtain.CurtainMode = self.nextCurtainMode
 		self.btnNext = None
 		self.descWindow = None
@@ -443,7 +452,7 @@ class QuestDialog(ui.ScriptWindow):
 		
 		import localeInfo
 		if event.BUTTON_TYPE_CANCEL == button_type:
-			b.SetEvent(lambda s=self:event.SelectAnswer(s.descIndex, 254) or s.OnCancel())
+			b.SetEvent(lambda s=self:(setattr(s, 'bCancelled', True) or None) or event.SelectAnswer(s.descIndex, 254) or s.OnCancel())
 			b.SetText(localeInfo.UI_CANCEL)
 		elif event.BUTTON_TYPE_DONE == button_type:
 			b.SetEvent(lambda s=self:s.CloseSelf())
@@ -457,7 +466,7 @@ class QuestDialog(ui.ScriptWindow):
 		
 	# END_OF_QUEST_CANCEL
 	
-	def MakeQuestion(self, n):  # nÀº ¸ğµç Äù½ºÆ® ´ëÈ­Ã¢ÀÇ ¸¶Áö¸· ¹öÆ°ÀÎ "´İ±â"¸¦ Æ÷ÇÔÇÑ ÀüÃ¼ Äù½ºÆ® ¹öÆ° °³¼ö. by ±èÁØÈ£
+	def MakeQuestion(self, n):  # nì€ ëª¨ë“  í€˜ìŠ¤íŠ¸ ëŒ€í™”ì°½ì˜ ë§ˆì§€ë§‰ ë²„íŠ¼ì¸ "ë‹«ê¸°"ë¥¼ í¬í•¨í•œ ì „ì²´ í€˜ìŠ¤íŠ¸ ë²„íŠ¼ ê°œìˆ˜. by ê¹€ì¤€í˜¸
 		global entire_questbutton_number
 		global entire_questpage_number
 		global cur_questpage_number
@@ -548,7 +557,7 @@ class QuestDialog(ui.ScriptWindow):
 		self.prevbutton = None
 		self.CloseSelf()	
 
-	def AppendQuestion(self, name, idx):  # idx´Â 0ºÎÅÍ ½ÃÀÛÇÔ. PythonEventManager.cpp line 881 Âü°í. by ±èÁØÈ£
+	def AppendQuestion(self, name, idx):  # idxëŠ” 0ë¶€í„° ì‹œì‘í•¨. PythonEventManager.cpp line 881 ì°¸ê³ . by ê¹€ì¤€í˜¸
 		if not self.btnAnswer:
 			return
 
@@ -595,7 +604,7 @@ class QuestDialog(ui.ScriptWindow):
 	# QUEST_INPUT
 	def OnKeyDown(self, key):
 		if self.btnAnswer == None:
-			## ¼±ÅÃ¹®ÀÌ ¾ø°í '´ÙÀ½', 'È®ÀÎ' µîÀÇ ÀÏ¹æ ¹öÆ°¸¸ ÀÖ´Â °æ¿ì¿¡ ´ëÇÑ Ã³¸®
+			## ì„ íƒë¬¸ì´ ì—†ê³  'ë‹¤ìŒ', 'í™•ì¸' ë“±ì˜ ì¼ë°© ë²„íŠ¼ë§Œ ìˆëŠ” ê²½ìš°ì— ëŒ€í•œ ì²˜ë¦¬
 			if None != self.btnNext:
 				if app.DIK_RETURN == key:
 					self.OnPressEscapeKey()
@@ -640,21 +649,22 @@ class QuestDialog(ui.ScriptWindow):
 		
 	def OnPressEscapeKey(self):
 
-		# ESCÅ°°¡ ´­¸° °æ¿ì "´ÙÀ½" ¹öÆ°À» ´©¸¥ °Í°ú °°Àº È¿°ú¸¦ ³»µµ·Ï ÇÔ.
+		# ESCí‚¤ê°€ ëˆŒë¦° ê²½ìš° "ë‹¤ìŒ" ë²„íŠ¼ì„ ëˆ„ë¥¸ ê²ƒê³¼ ê°™ì€ íš¨ê³¼ë¥¼ ë‚´ë„ë¡ í•¨.
 		if None != self.btnNext:
-		    ##Äù½ºÆ®¹®ÀÚµéÀÌ ÀüºÎ´Ù ³ª¿ÔÀ»°æ¿ìÀÇ ESC¹öÆ°
+		    ##í€˜ìŠ¤íŠ¸ë¬¸ìë“¤ì´ ì „ë¶€ë‹¤ ë‚˜ì™”ì„ê²½ìš°ì˜ ESCë²„íŠ¼
 			if event.BUTTON_TYPE_CANCEL == self.nextButtonType:
-				event.SelectAnswer(self.descIndex, 254)
+				self.bCancelled = True
+    			event.SelectAnswer(self.descIndex, 254)
 				self.CloseSelf()
-			## ¾Æ¹« ÀÛ¾÷À» ÇÏÁö ¾ÊÀ»¶§
+			## ì•„ë¬´ ì‘ì—…ì„ í•˜ì§€ ì•Šì„ë•Œ
 			elif event.BUTTON_TYPE_DONE == self.nextButtonType:
 				self.CloseSelf()
-			## ¿£ÅÍ³ª ´ÙÀ½È­¸éÀ¸·Î ³Ñ¾î°¡·Á°í ÇÒ°æ¿ì 
+			## ì—”í„°ë‚˜ ë‹¤ìŒí™”ë©´ìœ¼ë¡œ ë„˜ì–´ê°€ë ¤ê³  í• ê²½ìš° 
 			elif event.BUTTON_TYPE_NEXT == self.nextButtonType:
 				event.SelectAnswer(self.descIndex, 254)
 				self.CloseSelf()
 		else:
-		## µµÁß¿¡ ²¨¹ö¸®°Å³ª, ESC¹öÆ°ÀÌ ³ª¿ÓÀ»°æ¿ì 
+		## ë„ì¤‘ì— êº¼ë²„ë¦¬ê±°ë‚˜, ESCë²„íŠ¼ì´ ë‚˜ì™“ì„ê²½ìš° 
 			event.SelectAnswer(self.descIndex, entire_questbutton_number -1 )		
 			self.nextbutton = None
 			self.prevbutton = None
