@@ -20,11 +20,11 @@ import uiInventory
 import sys
 ITEM_FLAG_APPLICABLE = 1 << 14
 
-# ¿ëÈ¥¼® Vnum¿¡ ´ëÇÑ comment	
-# ITEM VNUMÀ» 10¸¸ ÀÚ¸®ºÎÅÍ, FEDCBA¶ó°í ÇÑ´Ù¸é
-# FE : ¿ëÈ¥¼® Á¾·ù.	D : µî±Þ
-# C : ´Ü°è			B : °­È­		
-# A : ¿©¹úÀÇ ¹øÈ£µé...	
+# ï¿½ï¿½È¥ï¿½ï¿½ Vnumï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ comment	
+# ITEM VNUMï¿½ï¿½ 10ï¿½ï¿½ ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½, FEDCBAï¿½ï¿½ï¿½ ï¿½Ñ´Ù¸ï¿½
+# FE : ï¿½ï¿½È¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.	D : ï¿½ï¿½ï¿½
+# C : ï¿½Ü°ï¿½			B : ï¿½ï¿½È­		
+# A : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½...	
 
 class DragonSoulWindow(ui.ScriptWindow):
 	KIND_TAP_TITLES = [uiScriptLocale.DRAGONSOUL_TAP_TITLE_1, uiScriptLocale.DRAGONSOUL_TAP_TITLE_2,
@@ -226,9 +226,9 @@ class DragonSoulWindow(ui.ScriptWindow):
 				for j in xrange(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(j)
 					
-					# ¹Ø¿¡¼­ remain_timeÀÌ 0ÀÌÇÏÀÎÁö Ã¼Å© ÇÏ±â ¶§¹®¿¡ ÀÓÀÇÀÇ ¾ç¼ö·Î ÃÊ±âÈ­
+					# ï¿½Ø¿ï¿½ï¿½ï¿½ remain_timeï¿½ï¿½ 0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã¼Å© ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­
 					remain_time = 999
-					# ÀÏ´Ü ÇöÀç Å¸ÀÌ¸Ó´Â ÀÌ ¼¼°³ »ÓÀÌ´Ù.
+					# ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½Ì¸Ó´ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½.
 					if item.LIMIT_REAL_TIME == limitType:
 						remain_time = player.GetItemMetinSocket(player.INVENTORY, slotNumber, 0) - app.GetGlobalTimeStamp()
 					elif item.LIMIT_REAL_TIME_START_FIRST_USE == limitType:
@@ -275,7 +275,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 				for j in xrange(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(j)
 
-					# ¹Ø¿¡¼­ remain_timeÀÌ À½¼öÀÎÁö Ã¼Å© ÇÏ±â ¶§¹®¿¡ ÀÓÀÇÀÇ ¾ç¼ö·Î ÃÊ±âÈ­
+					# ï¿½Ø¿ï¿½ï¿½ï¿½ remain_timeï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã¼Å© ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­
 					remain_time = 999
 					if item.LIMIT_REAL_TIME == limitType:
 						remain_time = player.GetItemMetinSocket(player.DRAGON_SOUL_INVENTORY, slotNumber, 0)
@@ -306,7 +306,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 		if None != self.tooltipItem:
 			self.tooltipItem.SetTop()
 	
-	# item slot °ü·Ã ÇÔ¼ö				
+	# item slot ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½				
 	def OverOutItem(self):
 		self.wndItem.SetUsableItem(False)
 		if None != self.tooltipItem:
@@ -359,7 +359,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 			mouseModule.mouseController.DeattachObject()
 
 		else:
-			## »óÁ¡¿¡¼­ ÆÈµµ·Ï Ãß°¡
+			## ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Èµï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 			## 20140220
 			curCursorNum = app.GetCursor()
 
@@ -377,8 +377,8 @@ class DragonSoulWindow(ui.ScriptWindow):
 				self.wndItem.SetUseMode(False)
 				snd.PlaySound("sound/ui/pick.wav")
 	
-	## »óÁ¡¿¡ ÆÈ±â
-	## 2014.02.20 Ãß°¡
+	## ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½È±ï¿½
+	## 2014.02.20 ï¿½ß°ï¿½
 	def __SellItem(self, itemSlotPos):
 		if not player.IsDSEquipmentSlot(player.DRAGON_SOUL_INVENTORY, itemSlotPos):
 			self.sellingSlotNumber = itemSlotPos
@@ -412,21 +412,21 @@ class DragonSoulWindow(ui.ScriptWindow):
 			self.questionDialog.Open()
 			self.questionDialog.count = itemCount
 
-	## »óÁ¡¿¡ ÆÈ±â
+	## ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½È±ï¿½
 	def SellItem(self):
 
 		net.SendShopSellPacketNew(self.sellingSlotNumber, self.questionDialog.count, player.DRAGON_SOUL_INVENTORY)
 		snd.PlaySound("sound/ui/money.wav")
 		self.OnCloseQuestionDialog()
 
-	## »óÁ¡¿¡ ÆÈ±â
+	## ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½È±ï¿½
 	def OnCloseQuestionDialog(self):
 		if self.questionDialog:
 			self.questionDialog.Close()
 
 		self.questionDialog = None
 
-	## »óÁ¡¿¡ ÆÈ±â
+	## ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½È±ï¿½
 	def __OnClosePopupDialog(self):
 		self.pop = None
 
@@ -478,7 +478,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 			return
 		slotIndex = self.__InventoryLocalSlotPosToGlobalSlotPos(player.DRAGON_SOUL_INVENTORY, slotIndex)
 		try:
-			# ¿ëÈ¥¼® °­È­Ã¢ÀÌ ¿­·ÁÀÖÀ¸¸é, ¾ÆÀÌÅÛ ¿ìÅ¬¸¯ ½Ã ÀÚµ¿À¸·Î °­È­Ã¢À¸·Î µé¾î°¨.
+			# ï¿½ï¿½È¥ï¿½ï¿½ ï¿½ï¿½È­Ã¢ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å¬ï¿½ï¿½ ï¿½ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­Ã¢ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î°¨.
 			if self.wndDragonSoulRefine.IsShow():
 				if uiPrivateShopBuilder.IsBuildingPrivateShop():
 					chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.MOVE_ITEM_FAILURE_PRIVATE_SHOP)
@@ -500,7 +500,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 		
 		net.SendItemMovePacket(srcSlotWindow , srcSlotPos, dstSlotWindow, dstSlotPos, srcItemCount)
 	
-	# equip ½½·Ô °ü·Ã ÇÔ¼öµé.
+	# equip ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½ï¿½ï¿½.
 	def OverOutEquipItem(self):
 		self.OverOutItem()
 			
@@ -529,7 +529,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 	
 	def SelectEquipItemSlot(self, itemSlotIndex):
 
-		## ¸¶¿ì½º ¹öÆ°ÀÌ sell buy Ã¼Å© ÇØ¼­ return
+		## ï¿½ï¿½ï¿½ì½º ï¿½ï¿½Æ°ï¿½ï¿½ sell buy Ã¼Å© ï¿½Ø¼ï¿½ return
 		curCursorNum = app.GetCursor()
 		if app.SELL == curCursorNum:
 			return
@@ -545,7 +545,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 		if mouseModule.mouseController.isAttached():
 			attachedSlotType = mouseModule.mouseController.GetAttachedType()
 			attachedSlotPos = mouseModule.mouseController.GetAttachedSlotNumber()
-			# ÀÚ±â ÀÚ½ÅÀ» ÀÚ±â ÀÚ½Å¿¡°Ô µå·¡±×ÇÏ´Â °æ¿ì
+			# ï¿½Ú±ï¿½ ï¿½Ú½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ ï¿½Ú½Å¿ï¿½ï¿½ï¿½ ï¿½å·¡ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½
 			if player.SLOT_TYPE_INVENTORY == attachedSlotType and itemSlotIndex == attachedSlotPos:
 				return
  
@@ -592,9 +592,9 @@ class DragonSoulWindow(ui.ScriptWindow):
 					self.__OpenQuestionDialog(True, srcItemPos, dstItemPos)
 
 			mouseModule.mouseController.DeattachObject()
-	# equip ½½·Ô °ü·Ã ÇÔ¼öµé ³¡.
+	# equip ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½.
 	
-	# °æ°íÃ¢ °ü·Ã
+	# ï¿½ï¿½ï¿½Ã¢ ï¿½ï¿½ï¿½ï¿½
 	def __OpenQuestionDialog(self, Equip, srcItemPos, dstItemPos):
 		self.srcItemPos = srcItemPos
 		self.dstItemPos = dstItemPos
@@ -623,7 +623,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 		self.dstItemPos = (0, 0)
 		self.dlgQuestion.Close()
 
-	# °æ°íÃ¢ °ü·Ã ³¡
+	# ï¿½ï¿½ï¿½Ã¢ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 	
 	def SetDSKindIndex(self, kindIndex):
 		if self.DSKindIndex != kindIndex:
@@ -656,7 +656,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 		
 		self.RefreshEquipSlotWindow()
 	
-	# ¿ëÈ¥¼® È°¼ºÈ­ °ü·Ã
+	# ï¿½ï¿½È¥ï¿½ï¿½ È°ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½
 	def ActivateDragonSoulByExtern(self, deck):
 		self.isActivated = True
 		self.activateButton.Down()
@@ -669,16 +669,25 @@ class DragonSoulWindow(ui.ScriptWindow):
 		self.isActivated = False
 		self.activateButton.SetUp()
 
-	def ActivateButtonClick(self):
-		self.isActivated = self.isActivated ^ True
-		if self.isActivated:
+	# MR-3: Keyboard-enabled deck toggling
+	def ActivateButtonClick(self, deckIndex = None):
+		# If deckIndex is not specified, use the current deckPageIndex
+		if deckIndex is None:
+			deckIndex = self.deckPageIndex
+
+		if not self.isActivated or self.deckPageIndex != deckIndex:
 			if self.__CanActivateDeck():
-				net.SendChatPacket("/dragon_soul activate " + str(self.deckPageIndex))
+				net.SendChatPacket("/dragon_soul activate " + str(deckIndex))
+				self.isActivated = True
+				self.activateButton.Down()
 			else:
 				self.isActivated = False
 				self.activateButton.SetUp()
 		else:
 			net.SendChatPacket("/dragon_soul deactivate")
+			self.isActivated = False
+			self.activateButton.SetUp()
+	# MR-3: -- END OF -- Keyboard-enabled deck toggling
 
 	def __CanActivateDeck(self):
 		canActiveNum = 0
@@ -692,24 +701,24 @@ class DragonSoulWindow(ui.ScriptWindow):
 				for i in xrange(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(i)
 					
-					# LIMIT_TIMER_BASED_ON_WEAR´Â ¼ÒÄÏ0¿¡ ³²Àº ½Ã°£À» ¹Ú´Â´Ù.
-					# LIMIT_REAL_TIMEÀº ½Ã°£ ´Ù µÇ¸é ¾ÆÀÌÅÛÀÌ »ç¶óÁö¹Ç·Î ÇÒ ÇÊ¿ä°¡ ¾ø´Ù.
-					# LIMIT_REAL_TIME_START_FIRST_USE´Â ¼­¹ö¿¡ Á¦´ë·Î Á¤ÀÇµÇÁö ¾Ê¾Æ ÀÏ´Ü ³ÀµÐ´Ù.
+					# LIMIT_TIMER_BASED_ON_WEARï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½0ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½Ú´Â´ï¿½.
+					# LIMIT_REAL_TIMEï¿½ï¿½ ï¿½Ã°ï¿½ ï¿½ï¿½ ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ ï¿½ï¿½ ï¿½Ê¿ä°¡ ï¿½ï¿½ï¿½ï¿½.
+					# LIMIT_REAL_TIME_START_FIRST_USEï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½ ï¿½Ê¾ï¿½ ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½Ð´ï¿½.
 					if item.LIMIT_TIMER_BASED_ON_WEAR == limitType:
 						isNoLimit = False
 						remain_time = player.GetItemMetinSocket(player.INVENTORY, slotNumber, 0)
 						if 0 != remain_time:
 							canActiveNum += 1
 							break
-				# Å¸ÀÌ¸Ó°¡ ¾ø´Ù¸é ActivateÇÒ ¼ö ÀÖ´Â ¿ëÈ¥¼®.
+				# Å¸ï¿½Ì¸Ó°ï¿½ ï¿½ï¿½ï¿½Ù¸ï¿½ Activateï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½È¥ï¿½ï¿½.
 				if isNoLimit:
 					canActiveNum += 1
 		
 		return canActiveNum > 0
 	
-	# È°¼ºÈ­ °ü·Ã ³¡
+	# È°ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 	
-	# ½½·Ô highlight °ü·Ã
+	# ï¿½ï¿½ï¿½ï¿½ highlight ï¿½ï¿½ï¿½ï¿½
 	def __HighlightSlot_ClearCurrentPage(self):
 		for i in xrange(self.wndItem.GetSlotCount()):
 			slotNumber = self.__InventoryLocalSlotPosToGlobalSlotPos(player.DRAGON_SOUL_INVENTORY, i)
@@ -726,14 +735,14 @@ class DragonSoulWindow(ui.ScriptWindow):
 	def HighlightSlot(self, slot):
 		if not slot in self.listHighlightedSlot:
 			self.listHighlightedSlot.append (slot)
-	# ½½·Ô highlight °ü·Ã ³¡
+	# ï¿½ï¿½ï¿½ï¿½ highlight ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 	
 	def SetDragonSoulRefineWindow(self, wndDragonSoulRefine):
 		if app.ENABLE_DRAGON_SOUL_SYSTEM:
 			from _weakref import proxy
 			self.wndDragonSoulRefine = proxy(wndDragonSoulRefine)
 
-## °­È­ÇÒ ¼ö ¾ø´Â °æ¿ì ³¯¸®´Â ¿¹¿Ü
+## ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #class DragonSoulRefineException(Exception):
 	#pass
 
@@ -870,7 +879,7 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 	def SetItemToolTip(self, tooltipItem):
 		self.tooltipItem = tooltipItem
 	
-	# ¹öÆ° ´­·Á ÀÖ´Â »óÅÂ¸¦ Á¦¿ÜÇÑ ¸ðµç °­È­Ã¢ °ü·Ã º¯¼öµéÀ» ÃÊ±âÈ­.
+	# ï¿½ï¿½Æ° ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½Â¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½È­Ã¢ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­.
 	def __Initialize(self):
 		self.currentRecipe = {}
 		self.refineItemInfo = {}
@@ -888,7 +897,7 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 
 	def __FlushRefineItemSlot(self):
 		## Item slot settings
-		# ¿ø·¡ ÀÎº¥ÀÇ ¾ÆÀÌÅÛ Ä«¿îÆ® È¸º¹
+		# ï¿½ï¿½ï¿½ï¿½ ï¿½Îºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½Æ® È¸ï¿½ï¿½
 		for invenType, invenPos, itemCount in self.refineItemInfo.values():
 			remainCount = player.GetItemCount(invenType, invenPos)
 			player.SetItemCount(invenType, invenPos, remainCount + itemCount)
@@ -939,33 +948,33 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			raise Exception, ("Invalid attachedItemCount(%d). (base pos (%d, %d), base itemCount(%d))" % (itemCount, invenType, invenPos, maxCount))
 			#return False
 		
-		# strength °­È­ÀÏ °æ¿ì, 0¹ø¿£ °­È­¼®, 1¹ø¿£ ¿ëÈ¥¼®À» ³õµµ·Ï °­Á¦ÇÔ.
+		# strength ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½, 0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½, 1ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 		if DragonSoulRefineWindow.REFINE_TYPE_STRENGTH == self.currentRefineType:
 			if self.__IsDragonSoul(itemVnum):
 				dstSlotIndex = 1
 			else:
 				dstSlotIndex = 0
 		
-		# ºó ½½·ÔÀÌ¾î¾ßÇÔ.
+		# ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ï¿½ï¿½.
 		if dstSlotIndex in self.refineItemInfo:
 			return False
 			
-		# °­È­Ã¢¿¡ ¿Ã¸± ¼ö ÀÖ´Â ¾ÆÀÌÅÛÀÎÁö °Ë»ç.
+		# ï¿½ï¿½È­Ã¢ï¿½ï¿½ ï¿½Ã¸ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 		if False == self.__CheckCanRefine(itemVnum):
 			return False
 		
-		# ²ø¾î´Ù ³õÀº ¾ÆÀÌÅÛ Ä«¿îÆ®¸¸Å­ ¿ø·¡ ÀÚ¸®ÀÇ ¾ÆÀÌÅÛ Ä«¿îÆ® °¨¼Ò
+		# ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½Æ®ï¿½ï¿½Å­ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 		player.SetItemCount(invenType, invenPos, maxCount - itemCount)
 		self.refineItemInfo[dstSlotIndex] = (invenType, invenPos, itemCount)
 		self.Refresh()
 
 		return True
 	
-	# °­È­ °¡´ÉÇÑ ¾ÆÀÌÅÛÀÎÁö Ã¼Å©
-	# ¿ëÈ¥¼® °­È­´Â °­È­ ·¹½ÃÇÇ¸¦ Á¤ÇØ³õ°í ½ÃÀÛÇÏ´Â °ÍÀÌ ¾Æ´Ï¶ó,
-	# Ã³À½¿¡ °­È­Ã¢¿¡ ¿Ã¸° ¿ëÈ¥¼®¿¡ ÀÇÇØ °­È­ ·¹½ÃÇÇ°¡ °áÁ¤µÈ´Ù.
-	# ±×·¡¼­ __CanRefineGrade, __CanRefineStep, __CanRefineStrength ÇÔ¼ö¿¡¼­
-	# °­È­ ·¹½ÃÇÇ°¡ ¾ø´Ù¸é(Ã³À½ ¿Ã¸®´Â ¾ÆÀÌÅÛÀÌ¶ó¸é), °­È­ ·¹½ÃÇÇ¸¦ ¼³Á¤ÇØÁÖ´Â ¿ªÇÒµµ ÇÑ´Ù.
+	# ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã¼Å©
+	# ï¿½ï¿½È¥ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½Ø³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Ï¶ï¿½,
+	# Ã³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­Ã¢ï¿½ï¿½ ï¿½Ã¸ï¿½ ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½.
+	# ï¿½×·ï¿½ï¿½ï¿½ __CanRefineGrade, __CanRefineStep, __CanRefineStrength ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½
+	# ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ ï¿½ï¿½ï¿½Ù¸ï¿½(Ã³ï¿½ï¿½ ï¿½Ã¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¶ï¿½ï¿½), ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½Òµï¿½ ï¿½Ñ´ï¿½.
 	def __CheckCanRefine(self, vnum):
 		if self.REFINE_TYPE_GRADE == self.currentRefineType:
 			return self.__CanRefineGrade(vnum)
@@ -992,10 +1001,10 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			if not (cur_refine_ds_type == ds_type and cur_refine_grade == grade):
 				self.__PopUp(localeInfo.DRAGON_SOUL_INVALID_DRAGON_SOUL)
 				return False
-		# °­È­ Ã¢¿¡ Ã³À½ ¾ÆÀÌÅÛÀ» ¿Ã¸®´Â °æ¿ì, °­È­ Àç·á¿¡ °üÇÑ Á¤º¸°¡ ¾ø´Ù.
-		# ¿ëÈ¥¼® °­È­°¡, ·¹½ÃÇÇ¸¦ °¡Áö°í ½ÃÀÛÇÏ´Â °ÍÀÌ ¾Æ´Ï¶ó, °­È­Ã¢¿¡ Ã³À½ ¿Ã¸®´Â ¾ÆÀÌÅÛÀÌ ¹«¾ùÀÌ³Ä¿¡ µû¶ó,
-		# ¹«¾ùÀ» °­È­ÇÏ°í, Àç·á°¡ ¹«¾ùÀÎÁö(ÀÌÇÏ ·¹½ÃÇÇ)°¡ Á¤ÇØÁø´Ù.
-		# ·¹½ÃÇÇ°¡ ¾ø´Ù¸é, Ã³À½ ¿Ã¸° ¾ÆÀÌÅÛÀÌ¶ó »ý°¢ÇÏ°í, vnumÀ» ¹ÙÅÁÀ¸·Î ·¹½ÃÇÇ¸¦ ¼ÂÆÃ.
+		# ï¿½ï¿½È­ Ã¢ï¿½ï¿½ Ã³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½, ï¿½ï¿½È­ ï¿½ï¿½á¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+		# ï¿½ï¿½È¥ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Ï¶ï¿½, ï¿½ï¿½È­Ã¢ï¿½ï¿½ Ã³ï¿½ï¿½ ï¿½Ã¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì³Ä¿ï¿½ ï¿½ï¿½ï¿½ï¿½,
+		# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½Ï°ï¿½, ï¿½ï¿½á°¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+		# ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ ï¿½ï¿½ï¿½Ù¸ï¿½, Ã³ï¿½ï¿½ ï¿½Ã¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¶ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½, vnumï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		else:
 			self.currentRecipe = self.__GetRefineGradeRecipe(vnum)
 
@@ -1004,7 +1013,7 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 				self.wndMoney.SetText(localeInfo.NumberToMoneyString(self.currentRecipe["fee"]))				
 				return True
 			else:
-			# °­È­ Á¤º¸ ¼ÂÆÃ¿¡ ½ÇÆÐÇÏ¸é ¿Ã¸± ¼ö ¾ø´Â ¾ÆÀÌÅÛÀ¸·Î ÆÇ´Ü.
+			# ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ ï¿½Ã¸ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½.
 				self.__PopUp(localeInfo.DRAGON_SOUL_CANNOT_REFINE)
 				return False
 
@@ -1021,10 +1030,10 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			if not (cur_refine_ds_type == ds_type and cur_refine_grade == grade and cur_refine_step == step):
 				self.__PopUp(localeInfo.DRAGON_SOUL_INVALID_DRAGON_SOUL)
 				return False
-		# °­È­ Ã¢¿¡ Ã³À½ ¾ÆÀÌÅÛÀ» ¿Ã¸®´Â °æ¿ì, Àç·á¿¡ °üÇÑ Á¤º¸°¡ ¾ø´Ù.
-		# ¿ëÈ¥¼® °­È­°¡, ·¹½ÃÇÇ¸¦ °¡Áö°í ½ÃÀÛÇÏ´Â °ÍÀÌ ¾Æ´Ï¶ó, °­È­Ã¢¿¡ Ã³À½ ¿Ã¸®´Â ¾ÆÀÌÅÛÀÌ ¹«¾ùÀÌ³Ä¿¡ µû¶ó,
-		# ¹«¾ùÀ» °­È­ÇÏ°í, Àç·á°¡ ¹«¾ùÀÎÁö(ÀÌÇÏ ·¹½ÃÇÇ)°¡ Á¤ÇØÁø´Ù.
-		# ·¹½ÃÇÇ°¡ ¾ø´Ù¸é, Ã³À½ ¿Ã¸° ¾ÆÀÌÅÛÀÌ¶ó »ý°¢ÇÏ°í, vnumÀ» ¹ÙÅÁÀ¸·Î ·¹½ÃÇÇ¸¦ ¼ÂÆÃ.
+		# ï¿½ï¿½È­ Ã¢ï¿½ï¿½ Ã³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½, ï¿½ï¿½á¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+		# ï¿½ï¿½È¥ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Ï¶ï¿½, ï¿½ï¿½È­Ã¢ï¿½ï¿½ Ã³ï¿½ï¿½ ï¿½Ã¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì³Ä¿ï¿½ ï¿½ï¿½ï¿½ï¿½,
+		# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½Ï°ï¿½, ï¿½ï¿½á°¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+		# ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ ï¿½ï¿½ï¿½Ù¸ï¿½, Ã³ï¿½ï¿½ ï¿½Ã¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¶ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½, vnumï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		else:
 			self.currentRecipe = self.__GetRefineStepRecipe(vnum)
 
@@ -1034,12 +1043,12 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 				return True
 
 			else:
-			# °­È­ Á¤º¸ ¼ÂÆÃ¿¡ ½ÇÆÐÇÏ¸é ¿Ã¸± ¼ö ¾ø´Â ¾ÆÀÌÅÛÀ¸·Î ÆÇ´Ü.
+			# ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ ï¿½Ã¸ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½.
 				self.__PopUp(localeInfo.DRAGON_SOUL_CANNOT_REFINE)
 				return False
 
 	def __CanRefineStrength (self, vnum):
-		# ¿ëÈ¥¼®ÀÎ °æ¿ì, ´õ ÀÌ»ó strength °­È­¸¦ ÇÒ ¼ö ¾ø´ÂÁö Ã¼Å©ÇØ¾ßÇÔ.
+		# ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½Ì»ï¿½ strength ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã¼Å©ï¿½Ø¾ï¿½ï¿½ï¿½.
 		if self.__IsDragonSoul(vnum):
 			ds_type, grade, step, strength = self.__GetDragonSoulTypeInfo(vnum)
 			
@@ -1051,10 +1060,10 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			else:
 				return True
 		
-		# strength °­È­ÀÇ °æ¿ì, refine_recipe°¡ ¿ëÈ¥¼®ÀÇ Á¾·ù°¡ ¾Æ´Ñ, °­È­¼®ÀÇ Á¾·ù¿¡ µû¶ó ´Þ¶óÁø´Ù.
-		# µû¶ó¼­ ¿ëÈ¥¼®ÀÌ ¾Æ´Ï¶ó¸é, 
-		# ÀÌ¹Ì ·¹½ÃÇÇ°¡ ÀÖ´Â °æ¿ì´Â, °­È­¼®ÀÌ °­È­Ã¢¿¡ ÀÖ´Ù´Â °ÍÀÌ¹Ç·Î, return False
-		# ·¹½ÃÇÇ°¡ ¾ø´Â °æ¿ì´Â, °­È­¼®ÀÎÁö È®ÀÎÇÏ°í, ·¹½ÃÇÇ¸¦ ¼ÂÆÃÇÑ´Ù.
+		# strength ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½, refine_recipeï¿½ï¿½ ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´ï¿½, ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¶ï¿½ï¿½ï¿½ï¿½ï¿½.
+		# ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Ï¶ï¿½ï¿½, 
+		# ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­Ã¢ï¿½ï¿½ ï¿½Ö´Ù´ï¿½ ï¿½ï¿½ï¿½Ì¹Ç·ï¿½, return False
+		# ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ï°ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 		else:
 			if self.currentRecipe:
 				self.__PopUp(localeInfo.DRAGON_SOUL_IS_NOT_DRAGON_SOUL)
@@ -1066,7 +1075,7 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 					self.wndMoney.SetText(localeInfo.NumberToMoneyString(self.currentRecipe["fee"]))
 					return True
 				else:
-				# ·¹½ÃÇÇ¸¦ ¼ÂÆÃÇÒ ¼ö ¾ø´Â °æ¿ì
+				# ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 					self.__PopUp(localeInfo.DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE)
 					return False
 
@@ -1096,11 +1105,11 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 		except:
 			return None
 		
-	# strength °­È­ÀÇ °æ¿ì, refineInfo´Â °­È­¼®¿¡ µû¶ó ´Þ¶óÁø´Ù.
+	# strength ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½, refineInfoï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¶ï¿½ï¿½ï¿½ï¿½ï¿½.
 	def __GetRefineStrengthInfo (self, itemVnum):
 		try:
-			# ÀÌ³ðÀÇ À§Ä¡¸¦ ¾îÂîÇÏÁö....
-			# °­È­¼®ÀÌ ¾Æ´Ï¸é ¾ÈµÊ.
+			# ï¿½Ì³ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½....
+			# ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Ï¸ï¿½ ï¿½Èµï¿½.
 			item.SelectItem(itemVnum)
 			if not (item.ITEM_TYPE_MATERIAL == item.GetItemType() \
 					and (item.MATERIAL_DS_REFINE_NORMAL <= item.GetItemSubType() and item.GetItemSubType() <= item.MATERIAL_DS_REFINE_HOLLY)):
@@ -1115,11 +1124,11 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 		item.SelectItem(vnum)
 		return item.GetItemType() == item.ITEM_TYPE_DS
 		
-	# ¿ëÈ¥¼® Vnum¿¡ ´ëÇÑ comment	
-	# ITEM VNUMÀ» 10¸¸ ÀÚ¸®ºÎÅÍ, FEDCBA¶ó°í ÇÑ´Ù¸é
-	# FE : ¿ëÈ¥¼® Á¾·ù.	D : µî±Þ
-	# C : ´Ü°è			B : °­È­		
-	# A : ¿©¹úÀÇ ¹øÈ£µé...	
+	# ï¿½ï¿½È¥ï¿½ï¿½ Vnumï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ comment	
+	# ITEM VNUMï¿½ï¿½ 10ï¿½ï¿½ ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½, FEDCBAï¿½ï¿½ï¿½ ï¿½Ñ´Ù¸ï¿½
+	# FE : ï¿½ï¿½È¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.	D : ï¿½ï¿½ï¿½
+	# C : ï¿½Ü°ï¿½			B : ï¿½ï¿½È­		
+	# A : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½...	
 	def __GetDragonSoulTypeInfo(self, vnum):
 		if not self.__IsDragonSoul(vnum):
 			return DragonSoulRefineWindow.INVALID_DRAGON_SOUL_INFO 
@@ -1133,7 +1142,7 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 	def __MakeDragonSoulVnum(self, ds_type, grade, step, strength):
 		return ds_type * 10000 + grade * 1000 + step * 100 + strength * 10
 
-	## ºó ½½·Ô ¼±ÅÃ Event
+	## ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Event
 	def __SelectRefineEmptySlot(self, selectedSlotPos):
 		try:
 			if constInfo.GET_ITEM_QUESTION_DIALOG_STATUS() == 1:
@@ -1168,14 +1177,14 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			import dbg
 			dbg.TraceError("Exception : __SelectRefineEmptySlot, %s" % e)
 
-	# Å¬¸¯À¸·Î ½½·Ô¿¡¼­ »èÁ¦.
+	# Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	def __SelectRefineItemSlot(self, selectedSlotPos):
 		if constInfo.GET_ITEM_QUESTION_DIALOG_STATUS() == 1:
 			return
 
 		try:
 			if not selectedSlotPos in self.refineItemInfo:
-				# »õ·Î¿î ¾ÆÀÌÅÛÀ» °­È­Ã¢¿¡ ¿Ã¸®´Â ÀÛ¾÷.
+				# ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­Ã¢ï¿½ï¿½ ï¿½Ã¸ï¿½ï¿½ï¿½ ï¿½Û¾ï¿½.
 				if mouseModule.mouseController.isAttached():
 					attachedSlotType = mouseModule.mouseController.GetAttachedType()
 					attachedSlotPos = mouseModule.mouseController.GetAttachedSlotNumber()
@@ -1203,25 +1212,25 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			attachedInvenType, attachedSlotPos, attachedItemCount = self.refineItemInfo[selectedSlotPos]
 			selectedItemVnum = player.GetItemIndex(attachedInvenType, attachedSlotPos)
 				
-			# °­È­Ã¢¿¡¼­ »èÁ¦ ¹× ¿ø·¡ ÀÎº¥ÀÇ ¾ÆÀÌÅÛ Ä«¿îÆ® È¸º¹
+			# ï¿½ï¿½È­Ã¢ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Îºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½Æ® È¸ï¿½ï¿½
 			invenType, invenPos, itemCount = self.refineItemInfo[selectedSlotPos]
 			remainCount = player.GetItemCount(invenType, invenPos)
 			player.SetItemCount(invenType, invenPos, remainCount + itemCount)
 			del self.refineItemInfo[selectedSlotPos]
 				
-			# °­È­Ã¢ÀÌ ºñ¾ú´Ù¸é, ÃÊ±âÈ­
+			# ï¿½ï¿½È­Ã¢ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ù¸ï¿½, ï¿½Ê±ï¿½È­
 			if not self.refineItemInfo:
 				self.__Initialize()
 			else:
 				item.SelectItem(selectedItemVnum)
-				# ¾ø¾Ø ¾ÆÀÌÅÛÀÌ °­È­¼®ÀÌ¾ú´Ù¸é °­È­ ·¹ÇÇ½Ã ÃÊ±âÈ­
+				# ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½Ù¸ï¿½ ï¿½ï¿½È­ ï¿½ï¿½ï¿½Ç½ï¿½ ï¿½Ê±ï¿½È­
 				if (item.ITEM_TYPE_MATERIAL == item.GetItemType() \
 					and (item.MATERIAL_DS_REFINE_NORMAL <= item.GetItemSubType() and item.GetItemSubType() <= item.MATERIAL_DS_REFINE_HOLLY)):
 					self.currentRecipe = {}
 					self.wndMoney.SetText(localeInfo.NumberToMoneyString(0))
-				# ¿ëÈ¥¼®ÀÌ¾ú´Ù¸é, 
-				# strength°­È­°¡ ¾Æ´Ñ °æ¿ì, °­È­Ã¢¿¡ ´Ù¸¥ ¿ëÈ¥¼®ÀÌ ³²¾ÆÀÖÀ¸¹Ç·Î, ·¹½ÃÇÇ¸¦ ÃÊ±âÈ­ÇÏ¸é ¾ÈµÊ.
-				# strength°­È­ÀÇ °æ¿ì, °­È­ ·¹½ÃÇÇ´Â °­È­¼®¿¡ Á¾¼ÓµÈ °ÍÀÌ¹Ç·Î ´Ù¸¥ Ã³¸®ÇÒ ÇÊ¿ä°¡ ¾øÀ½.
+				# ï¿½ï¿½È¥ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½Ù¸ï¿½, 
+				# strengthï¿½ï¿½È­ï¿½ï¿½ ï¿½Æ´ï¿½ ï¿½ï¿½ï¿½, ï¿½ï¿½È­Ã¢ï¿½ï¿½ ï¿½Ù¸ï¿½ ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½Ê±ï¿½È­ï¿½Ï¸ï¿½ ï¿½Èµï¿½.
+				# strengthï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½, ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Óµï¿½ ï¿½ï¿½ï¿½Ì¹Ç·ï¿½ ï¿½Ù¸ï¿½ Ã³ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ä°¡ ï¿½ï¿½ï¿½ï¿½.
 				else:
 					pass
 					
@@ -1268,10 +1277,10 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			for slotPos in xrange(self.wndRefineSlot.GetSlotCount()):
 				self.wndRefineSlot.ClearSlot(slotPos)
 				if slotPos < self.refineSlotLockStartIndex:
-					# self.refineItemInfo[slotPos]ÀÇ Á¤º¸È®ÀÎ
-					# (½ÇÁ¦·Î ¾ÆÀÌÅÛÀÌ Á¸ÀçÇÏ´ÂÁö È®ÀÎ)
-					# Á¸Àç -> ¾ÆÀÌÅÛ ¾ÆÀÌÄÜÀ» ½½·Ô¿¡ ¼ÂÆÃ.
-					# ºñÁ¸Àç -> ¾ÆÀÌÅÛÀÌ ¾øÀ¸¹Ç·Î °­È­Ã¢¿¡¼­ »èÁ¦.
+					# self.refineItemInfo[slotPos]ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È®ï¿½ï¿½
+					# (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ï¿½ï¿½ È®ï¿½ï¿½)
+					# ï¿½ï¿½ï¿½ï¿½ -> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ô¿ï¿½ ï¿½ï¿½ï¿½ï¿½.
+					# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ ï¿½ï¿½È­Ã¢ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 					if slotPos in self.refineItemInfo:
 						invenType, invenPos, itemCount = self.refineItemInfo[slotPos]
 						itemVnum = player.GetItemIndex(invenType, invenPos)
@@ -1282,12 +1291,12 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 						else:
 							del self.refineItemInfo[slotPos]
 
-					# ºó ½½·Ô¿¡ reference ¾ÆÀÌÄÜÀ» alpha 0.5·Î ¼ÂÆÃ.
+					# ï¿½ï¿½ ï¿½ï¿½ï¿½Ô¿ï¿½ reference ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ alpha 0.5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 					if not slotPos in self.refineItemInfo:
 						try:
 							reference_vnum = 0
-							# strength °­È­ÀÏ ¶§´Â,
-							# 0¹ø ½½·Ô¿¡ °­È­¼®À», 1¹ø ½½·Ô¿¡ ¿ëÈ¥¼®À» ³õ´Â´Ù.
+							# strength ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½,
+							# 0ï¿½ï¿½ ï¿½ï¿½ï¿½Ô¿ï¿½ ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½, 1ï¿½ï¿½ ï¿½ï¿½ï¿½Ô¿ï¿½ ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Â´ï¿½.
 							if DragonSoulRefineWindow.REFINE_TYPE_STRENGTH == self.currentRefineType:
 								if DragonSoulRefineWindow.REFINE_STONE_SLOT == slotPos:
 									reference_vnum = 100300
@@ -1298,28 +1307,28 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 								itemIcon = item.GetIconImage()
 								(width, height) = item.GetItemSize()
 								self.wndRefineSlot.SetSlot(slotPos, 0, width, height, itemIcon, (1.0, 1.0, 1.0, 0.5))
-								# slot ¿ìÃø ÇÏ´Ü¿¡ ¼ýÀÚ ¶ß¸é ¾È ¿¹»Ý...
+								# slot ï¿½ï¿½ï¿½ï¿½ ï¿½Ï´Ü¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß¸ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½...
 								self.wndRefineSlot.SetSlotCount(slotPos, 0)
 						except:
 							pass
-					# refineSlotLockStartIndex º¸´Ù ÀÛÀº ½½·ÔÀº ´ÝÈù ÀÌ¹ÌÁö¸¦ º¸¿©ÁÖ¸é ¾ÈµÊ.
+					# refineSlotLockStartIndex ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ ï¿½Èµï¿½.
 					self.wndRefineSlot.HideSlotBaseImage(slotPos)
 				# slotPos >= self.refineSlotLockStartIndex:
 				else:
-					# Á¤»óÀûÀÎ °æ¿ì¶ó¸é ÀÌ if¹®¿¡ µé¾î°¥ ÀÏÀº ¾ø°ÚÁö¸¸,
-					# (¾ÖÃÊ¿¡ ÀÎµ¦½º°¡ refineSlotLockStartIndex ÀÌ»óÀÎ ½½·Ô¿¡´Â ¾ÆÀÌÅÛÀ» ³ÖÁö ¸øÇÏ°Ô Çß±â ¶§¹®)
-					# È¤½Ã ¸ð¸¦ ¿¡·¯¿¡ ´ëºñÇÔ.
+					# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ifï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î°¥ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,
+					# (ï¿½ï¿½ï¿½Ê¿ï¿½ ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ refineSlotLockStartIndex ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ß±ï¿½ ï¿½ï¿½ï¿½ï¿½)
+					# È¤ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½.
 					if slotPos in self.refineItemInfo:
 						invenType, invenPos, itemCount = self.refineItemInfo[slotPos]
 						remainCount = player.GetItemCount(invenType, invenPos)
 						player.SetItemCount(invenType, invenPos, remainCount + itemCount)
 						del self.refineItemInfo[slotPos]
-					# refineSlotLockStartIndex ÀÌ»óÀÎ ½½·ÔÀº ´ÝÈù ÀÌ¹ÌÁö¸¦ º¸¿©Áà¾ßÇÔ.
+					# refineSlotLockStartIndex ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 					self.wndRefineSlot.ShowSlotBaseImage(slotPos)
 			
-			# °­È­Ã¢¿¡ ¾Æ¹«·± ¾ÆÀÌÅÛÀÌ ¾ø´Ù¸é, ÃÊ±âÈ­ÇØÁÜ.
-			# À§¿¡¼­ Áß°£ Áß°£¿¡ "del self.refineItemInfo[slotPos]"¸¦ Çß±â ¶§¹®¿¡,
-			# ¿©±â¼­ ÇÑ¹ø Ã¼Å©ÇØÁà¾ßÇÔ.
+			# ï¿½ï¿½È­Ã¢ï¿½ï¿½ ï¿½Æ¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ù¸ï¿½, ï¿½Ê±ï¿½È­ï¿½ï¿½ï¿½ï¿½.
+			# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ß°ï¿½ï¿½ï¿½ "del self.refineItemInfo[slotPos]"ï¿½ï¿½ ï¿½ß±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,
+			# ï¿½ï¿½ï¿½â¼­ ï¿½Ñ¹ï¿½ Ã¼Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 			if not self.refineItemInfo:
 				self.__Initialize()
  
@@ -1329,8 +1338,8 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			dbg.TraceError("Exception : __RefreshRefineItemSlot, %s" % e)
 	
 	def __GetEmptySlot(self, itemVnum = 0):
-		# STRENGTH °­È­ÀÇ °æ¿ì, ¿ëÈ¥¼® ½½·Ô°ú °­È­¼® ½½·ÔÀÌ ±¸ºÐµÇ¾îÀÖ±â ‹š¹®¿¡
-		# vnumÀ» ¾Ë¾Æ¾ß ÇÑ´Ù.
+		# STRENGTH ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½, ï¿½ï¿½È¥ï¿½ï¿½ ï¿½ï¿½ï¿½Ô°ï¿½ ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ÐµÇ¾ï¿½ï¿½Ö±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		# vnumï¿½ï¿½ ï¿½Ë¾Æ¾ï¿½ ï¿½Ñ´ï¿½.
 		if DragonSoulRefineWindow.REFINE_TYPE_STRENGTH == self.currentRefineType:
 			if 0 == itemVnum:
 				return -1
