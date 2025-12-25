@@ -346,10 +346,7 @@ class GameWindow(ui.ScriptWindow):
 		onPressKeyDict[app.DIK_S]			= lambda : self.MoveDown()
 		onPressKeyDict[app.DIK_A]			= lambda : self.MoveLeft()
 		# MR-3: Keyboard-enabled deck toggling
-		onPressKeyDict[app.DIK_D]			= lambda : (
-			self.MoveRight() if not (app.IsPressed(app.DIK_LCONTROL) or app.IsPressed(app.DIK_RCONTROL))
-			else (self.interface.wndDragonSoul and self.interface.wndDragonSoul.ActivateButtonClick(1))
-		)
+		onPressKeyDict[app.DIK_D]			= lambda : self.__PressDKey()
 		# MR-3: -- END OF -- Keyboard-enabled deck toggling
 
 		onPressKeyDict[app.DIK_E]			= lambda: app.RotateCamera(app.CAMERA_TO_POSITIVE)
@@ -369,10 +366,7 @@ class GameWindow(ui.ScriptWindow):
 		onPressKeyDict[app.DIK_GRAVE]		= lambda : self.PickUpItem()
 		onPressKeyDict[app.DIK_Z]			= lambda : self.PickUpItem()
 		# MR-3: Keyboard-enabled deck toggling
-		onPressKeyDict[app.DIK_C]			= lambda state = "STATUS": (
-			self.interface.ToggleCharacterWindow(state) if not (app.IsPressed(app.DIK_LCONTROL) or app.IsPressed(app.DIK_RCONTROL))
-			else (self.interface.wndDragonSoul and self.interface.wndDragonSoul.ActivateButtonClick(0))
-		)
+		onPressKeyDict[app.DIK_C]			= lambda : self.__PressCKey()
 		# MR-3: -- END OF -- Keyboard-enabled deck toggling
 		onPressKeyDict[app.DIK_V]			= lambda state = "SKILL": self.interface.ToggleCharacterWindow(state)
 		#onPressKeyDict[app.DIK_B]			= lambda state = "EMOTICON": self.interface.ToggleCharacterWindow(state)
@@ -430,9 +424,24 @@ class GameWindow(ui.ScriptWindow):
 
 		self.onClickKeyDict=onClickKeyDict
 
+	# MR-3: Keyboard-enabled deck toggling
+	def __PressCKey(self):
+		if app.IsPressed(app.DIK_LCONTROL) or app.IsPressed(app.DIK_RCONTROL):
+			if self.interface.wndDragonSoul:
+				self.interface.wndDragonSoul.ActivateButtonClick(0)
+		else:
+			self.interface.ToggleCharacterWindow("STATUS")
+
+	def __PressDKey(self):
+		if app.IsPressed(app.DIK_LCONTROL) or app.IsPressed(app.DIK_RCONTROL):
+			if self.interface.wndDragonSoul:
+				self.interface.wndDragonSoul.ActivateButtonClick(1)
+		else:
+			self.MoveRight()
+	# MR-3: -- END OF -- Keyboard-enabled deck toggling
+
 	def __PressNumKey(self,num):
 		if app.IsPressed(app.DIK_LCONTROL) or app.IsPressed(app.DIK_RCONTROL):
-			
 			if num >= 1 and num <= 9:
 				if(chrmgr.IsPossibleEmoticon(-1)):				
 					chrmgr.SetEmoticon(-1,int(num)-1)
