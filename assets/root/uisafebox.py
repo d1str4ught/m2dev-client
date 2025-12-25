@@ -399,16 +399,28 @@ class SafeboxWindow(ui.ScriptWindow):
 
 	## Slot Event
 	def SelectEmptySlot(self, selectedSlotPos):
+		import constInfo
 
 		selectedSlotPos = self.__LocalPosToGlobalPos(selectedSlotPos)
 
 		if mouseModule.mouseController.isAttached():
-
 			attachedSlotType = mouseModule.mouseController.GetAttachedType()
 			attachedSlotPos = mouseModule.mouseController.GetAttachedSlotNumber()
 
-			if player.SLOT_TYPE_SAFEBOX == attachedSlotType:
+			# MR-3: Auto-deactivate auto potions before moving out
+			# Deactivate inventory slot if it's an active auto potion before moving out
+			if attachedSlotType == player.SLOT_TYPE_INVENTORY:
+				itemVnum = player.GetItemIndex(attachedSlotPos)
 
+				if constInfo.IS_AUTO_POTION(itemVnum):
+					metinSocket = [player.GetItemMetinSocket(attachedSlotPos, j) for j in xrange(player.METIN_SOCKET_MAX_NUM)]
+					isActivated = (0 != int(metinSocket[0]))
+
+					if isActivated:
+						net.SendItemUsePacket(attachedSlotPos)
+			# MR-3: -- END OF -- Auto-deactivate auto potions before moving out
+
+			if player.SLOT_TYPE_SAFEBOX == attachedSlotType:
 				net.SendSafeboxItemMovePacket(attachedSlotPos, selectedSlotPos, 0)
 				#snd.PlaySound("sound/ui/drop.wav")
 			else:
@@ -419,8 +431,8 @@ class SafeboxWindow(ui.ScriptWindow):
 				if player.ITEM_MONEY == mouseModule.mouseController.GetAttachedItemIndex():
 					net.SendSafeboxSaveMoneyPacket(mouseModule.mouseController.GetAttachedItemCount())
 					snd.PlaySound("sound/ui/money.wav")
-
 				else:
+					chat
 					net.SendSafeboxCheckinPacket(attachedInvenType, attachedSlotPos, selectedSlotPos)
 					#snd.PlaySound("sound/ui/drop.wav")
 			
