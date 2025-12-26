@@ -1,345 +1,345 @@
-ACCEPT	Αποδοχή
-ATTACH_METIN_INFO	Θέλεις να χρησιμοποιήσεις έναν Λίθο Πνεύματος;
-ATTACH_METIN_TITLE	Χρήση Λίθου Πνεύματος
-CANCEL	Ακύρωση
-CHANGE_PASSWORD_CONFIRM	Επιβεβαίωση νέου Συνθηματικού
-CHANGE_PASSWORD_NEW	Νέο Συνθηματικό
-CHANGE_PASSWORD_OLD	Παλιό Συνθηματικό
-CHANGE_PASSWORD_TITLE	Αλλαγή Συνθηματικού
-CHARACTER_ACTION	Συναίσθημα
-CHARACTER_EMOTICON	Συναίσθημα
-CHARACTER_MAIN	Χαρακτήρας
-CHARACTER_MUTUAL_ACTION	Αμοιβαίο Συναίσθημα
-CHARACTER_NORMAL_ACTION	Κανονικό Συναίσθημα
-CHARACTER_QUEST	Αποστολές
-CHARACTER_SKILL	Ικανότητα
-CLOSE	Κλείσε
-COMB_APPEARANCE	Φορεσιά 1
-COMB_ATTRIBUTE	Φορεσιά 2
-COMB_SKILLBOOK_TILE	Ανταλλαγή βιβλίων
+ACCEPT	Ξ‘Ο€ΞΏΞ΄ΞΏΟ‡Ξ®
+ATTACH_METIN_INFO	ΞΞ­Ξ»ΞµΞΉΟ‚ Ξ½Ξ± Ο‡ΟΞ·ΟƒΞΉΞΌΞΏΟ€ΞΏΞΉΞ®ΟƒΞµΞΉΟ‚ Ξ­Ξ½Ξ±Ξ½ Ξ›Ξ―ΞΈΞΏ Ξ Ξ½ΞµΟΞΌΞ±Ο„ΞΏΟ‚;
+ATTACH_METIN_TITLE	Ξ§ΟΞ®ΟƒΞ· Ξ›Ξ―ΞΈΞΏΟ… Ξ Ξ½ΞµΟΞΌΞ±Ο„ΞΏΟ‚
+CANCEL	Ξ‘ΞΊΟΟΟ‰ΟƒΞ·
+CHANGE_PASSWORD_CONFIRM	Ξ•Ο€ΞΉΞ²ΞµΞ²Ξ±Ξ―Ο‰ΟƒΞ· Ξ½Ξ­ΞΏΟ… Ξ£Ο…Ξ½ΞΈΞ·ΞΌΞ±Ο„ΞΉΞΊΞΏΟ
+CHANGE_PASSWORD_NEW	ΞΞ­ΞΏ Ξ£Ο…Ξ½ΞΈΞ·ΞΌΞ±Ο„ΞΉΞΊΟ
+CHANGE_PASSWORD_OLD	Ξ Ξ±Ξ»ΞΉΟ Ξ£Ο…Ξ½ΞΈΞ·ΞΌΞ±Ο„ΞΉΞΊΟ
+CHANGE_PASSWORD_TITLE	Ξ‘Ξ»Ξ»Ξ±Ξ³Ξ® Ξ£Ο…Ξ½ΞΈΞ·ΞΌΞ±Ο„ΞΉΞΊΞΏΟ
+CHARACTER_ACTION	Ξ£Ο…Ξ½Ξ±Ξ―ΟƒΞΈΞ·ΞΌΞ±
+CHARACTER_EMOTICON	Ξ£Ο…Ξ½Ξ±Ξ―ΟƒΞΈΞ·ΞΌΞ±
+CHARACTER_MAIN	Ξ§Ξ±ΟΞ±ΞΊΟ„Ξ®ΟΞ±Ο‚
+CHARACTER_MUTUAL_ACTION	Ξ‘ΞΌΞΏΞΉΞ²Ξ±Ξ―ΞΏ Ξ£Ο…Ξ½Ξ±Ξ―ΟƒΞΈΞ·ΞΌΞ±
+CHARACTER_NORMAL_ACTION	ΞΞ±Ξ½ΞΏΞ½ΞΉΞΊΟ Ξ£Ο…Ξ½Ξ±Ξ―ΟƒΞΈΞ·ΞΌΞ±
+CHARACTER_QUEST	Ξ‘Ο€ΞΏΟƒΟ„ΞΏΞ»Ξ­Ο‚
+CHARACTER_SKILL	Ξ™ΞΊΞ±Ξ½ΟΟ„Ξ·Ο„Ξ±
+CLOSE	ΞΞ»ΞµΞ―ΟƒΞµ
+COMB_APPEARANCE	Ξ¦ΞΏΟΞµΟƒΞΉΞ¬ 1
+COMB_ATTRIBUTE	Ξ¦ΞΏΟΞµΟƒΞΉΞ¬ 2
+COMB_SKILLBOOK_TILE	Ξ‘Ξ½Ο„Ξ±Ξ»Ξ»Ξ±Ξ³Ξ® Ξ²ΞΉΞ²Ξ»Ξ―Ο‰Ξ½
 COMB_TITLE	
-COSTUME_TITLE	Φορεσιές
-COSTUME_WINDOW_TITLE	Φορεσιές
+COSTUME_TITLE	Ξ¦ΞΏΟΞµΟƒΞΉΞ­Ο‚
+COSTUME_WINDOW_TITLE	Ξ¦ΞΏΟΞµΟƒΞΉΞ­Ο‚
 CREATE_ATT_GRADE	STR
-CREATE_CREATE	Δημιούργησε
+CREATE_CREATE	Ξ”Ξ·ΞΌΞΉΞΏΟΟΞ³Ξ·ΟƒΞµ
 CREATE_DEX_GRADE	DEX
 CREATE_HP	HP
-CREATE_LAST_POINT	Βαθμοί
-CREATE_MAN	Άντρας
-CREATE_NAME	Όνομα
-CREATE_NEXT	Επόμενο
-CREATE_PREV	Πίσω
-CREATE_SEX	Φύλο
-CREATE_SHAPE	Σχήμα
+CREATE_LAST_POINT	Ξ’Ξ±ΞΈΞΌΞΏΞ―
+CREATE_MAN	Ξ†Ξ½Ο„ΟΞ±Ο‚
+CREATE_NAME	ΞΞ½ΞΏΞΌΞ±
+CREATE_NEXT	Ξ•Ο€ΟΞΌΞµΞ½ΞΏ
+CREATE_PREV	Ξ Ξ―ΟƒΟ‰
+CREATE_SEX	Ξ¦ΟΞ»ΞΏ
+CREATE_SHAPE	Ξ£Ο‡Ξ®ΞΌΞ±
 CREATE_SP	INT
-CREATE_STAT_RESET	Επαναφορά
-CREATE_WOMAN	Γυναίκα
-CUBE_INFO_TITLE	Εγχειρίδιο εξευγενισμού
-CUBE_REQUIRE_MATERIAL	Απαιτούμενα υλικά
-CUBE_REQUIRE_MATERIAL_OR	ή
-CUBE_TITLE	Παράθυρο εξευγενισμού
-DO_REFINE	Εξευγενισμός
-DRAGONSOUL_ACTIVATE	Ενεργοποίηση
-DRAGONSOUL_PAGE_BUTTON_1	Ακατέργαστο
-DRAGONSOUL_PAGE_BUTTON_2	Επεξεργασμένο
-DRAGONSOUL_PAGE_BUTTON_3	Σπάνιο
-DRAGONSOUL_PAGE_BUTTON_4	Αρχαίο
-DRAGONSOUL_PAGE_BUTTON_5	Θρυλικό
-DRAGONSOUL_REFINE_WINDOW_TITLE	Παράθυρο εξευγενισμού
-DRAGONSOUL_TAP_TITLE_1	Δρακοδιαμάντι
-DRAGONSOUL_TAP_TITLE_2	Δρακορουμπίνι
-DRAGONSOUL_TAP_TITLE_3	Δρακοϊάδης
-DRAGONSOUL_TAP_TITLE_4	Δρακοζαφείρι
-DRAGONSOUL_TAP_TITLE_5	Δρακογρανάτης
-DRAGONSOUL_TAP_TITLE_6	Δρακόνυχας
-DRAGONSOUL_TITLE	Αλχημεία Δρακόλιθων
-EMPIRE_EXIT	Έξοδος
-EMPIRE_NEXT	Επόμενο
-EMPIRE_PREV	Πίσω
-EMPIRE_SELECT	Επέλεξε
-EXCHANGE_ACCEPT	Αποδοχή
-EXCHANGE_TITLE	Εμπόριο
-GAMEOPTION_TITLE	Επιλογές Παιχνιδιού
-GAME_EXIT_OBSERVER	Τέλος Observer Mode
-GAME_HELP	Βοήθεια
-GAME_QUEST	Καθήκοντα
-GAME_SKILL_UP	Ανέβασε Ικανότητες
-GAME_STAT_UP	Ανέβασε Κατάσταση
-GRADE	Βαθμίδα
-GRADE_SELECT	Βαθμίδα
-GUILD_BASENAME	Βασικό Όνομα
-GUILD_BOARD_ID	Όνομα
-GUILD_BOARD_REFRESH	Ανανέωση (F5)
-GUILD_BOARD_TEXT	Μήνυμα
-GUILD_BUILDING_CATEGORY_TITLE	Κατηγορίες Κτιρίων
-GUILD_BUILDING_CHANGE	Αλλαγή
-GUILD_BUILDING_DIRECTION	Κατεύθυνση
-GUILD_BUILDING_GRADE	Βαθμός
-GUILD_BUILDING_INFO	Πληροφορίες Κτιρίων και Κόστους
-GUILD_BUILDING_LIST_TITLE	Λίστα Κτιρίων
-GUILD_BUILDING_LOG	Κούτσουρο
-GUILD_BUILDING_NAME	Όνομα Κτιρίου
-GUILD_BUILDING_OPERATE	Λειτουργία
-GUILD_BUILDING_PLY	Καπλαμάς
-GUILD_BUILDING_POSITION	Θέση
-GUILD_BUILDING_PREVIEW	Προεπισκόπηση
-GUILD_BUILDING_PRICE	Τιμή
-GUILD_BUILDING_REFRESH	Ανανέωση (F5)
-GUILD_BUILDING_STONE	Λίθος
-GUILD_BUILDING_TITLE	Κτίριο Συντεχνίας
-GUILD_CRYSTAL	Κρύσταλλος
-GUILD_DEPOSIT	Κατάθεση
-GUILD_DROP_RESOURCE1	Εδώ
+CREATE_STAT_RESET	Ξ•Ο€Ξ±Ξ½Ξ±Ο†ΞΏΟΞ¬
+CREATE_WOMAN	Ξ“Ο…Ξ½Ξ±Ξ―ΞΊΞ±
+CUBE_INFO_TITLE	Ξ•Ξ³Ο‡ΞµΞΉΟΞ―Ξ΄ΞΉΞΏ ΞµΞΎΞµΟ…Ξ³ΞµΞ½ΞΉΟƒΞΌΞΏΟ
+CUBE_REQUIRE_MATERIAL	Ξ‘Ο€Ξ±ΞΉΟ„ΞΏΟΞΌΞµΞ½Ξ± Ο…Ξ»ΞΉΞΊΞ¬
+CUBE_REQUIRE_MATERIAL_OR	Ξ®
+CUBE_TITLE	Ξ Ξ±ΟΞ¬ΞΈΟ…ΟΞΏ ΞµΞΎΞµΟ…Ξ³ΞµΞ½ΞΉΟƒΞΌΞΏΟ
+DO_REFINE	Ξ•ΞΎΞµΟ…Ξ³ΞµΞ½ΞΉΟƒΞΌΟΟ‚
+DRAGONSOUL_ACTIVATE	Ξ•Ξ½ΞµΟΞ³ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ·
+DRAGONSOUL_PAGE_BUTTON_1	Ξ‘ΞΊΞ±Ο„Ξ­ΟΞ³Ξ±ΟƒΟ„ΞΏ
+DRAGONSOUL_PAGE_BUTTON_2	Ξ•Ο€ΞµΞΎΞµΟΞ³Ξ±ΟƒΞΌΞ­Ξ½ΞΏ
+DRAGONSOUL_PAGE_BUTTON_3	Ξ£Ο€Ξ¬Ξ½ΞΉΞΏ
+DRAGONSOUL_PAGE_BUTTON_4	Ξ‘ΟΟ‡Ξ±Ξ―ΞΏ
+DRAGONSOUL_PAGE_BUTTON_5	ΞΟΟ…Ξ»ΞΉΞΊΟ
+DRAGONSOUL_REFINE_WINDOW_TITLE	Ξ Ξ±ΟΞ¬ΞΈΟ…ΟΞΏ ΞµΞΎΞµΟ…Ξ³ΞµΞ½ΞΉΟƒΞΌΞΏΟ
+DRAGONSOUL_TAP_TITLE_1	Ξ”ΟΞ±ΞΊΞΏΞ΄ΞΉΞ±ΞΌΞ¬Ξ½Ο„ΞΉ
+DRAGONSOUL_TAP_TITLE_2	Ξ”ΟΞ±ΞΊΞΏΟΞΏΟ…ΞΌΟ€Ξ―Ξ½ΞΉ
+DRAGONSOUL_TAP_TITLE_3	Ξ”ΟΞ±ΞΊΞΏΟΞ¬Ξ΄Ξ·Ο‚
+DRAGONSOUL_TAP_TITLE_4	Ξ”ΟΞ±ΞΊΞΏΞ¶Ξ±Ο†ΞµΞ―ΟΞΉ
+DRAGONSOUL_TAP_TITLE_5	Ξ”ΟΞ±ΞΊΞΏΞ³ΟΞ±Ξ½Ξ¬Ο„Ξ·Ο‚
+DRAGONSOUL_TAP_TITLE_6	Ξ”ΟΞ±ΞΊΟΞ½Ο…Ο‡Ξ±Ο‚
+DRAGONSOUL_TITLE	Ξ‘Ξ»Ο‡Ξ·ΞΌΞµΞ―Ξ± Ξ”ΟΞ±ΞΊΟΞ»ΞΉΞΈΟ‰Ξ½
+EMPIRE_EXIT	ΞΞΎΞΏΞ΄ΞΏΟ‚
+EMPIRE_NEXT	Ξ•Ο€ΟΞΌΞµΞ½ΞΏ
+EMPIRE_PREV	Ξ Ξ―ΟƒΟ‰
+EMPIRE_SELECT	Ξ•Ο€Ξ­Ξ»ΞµΞΎΞµ
+EXCHANGE_ACCEPT	Ξ‘Ο€ΞΏΞ΄ΞΏΟ‡Ξ®
+EXCHANGE_TITLE	Ξ•ΞΌΟ€ΟΟΞΉΞΏ
+GAMEOPTION_TITLE	Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ­Ο‚ Ξ Ξ±ΞΉΟ‡Ξ½ΞΉΞ΄ΞΉΞΏΟ
+GAME_EXIT_OBSERVER	Ξ¤Ξ­Ξ»ΞΏΟ‚ Observer Mode
+GAME_HELP	Ξ’ΞΏΞ®ΞΈΞµΞΉΞ±
+GAME_QUEST	ΞΞ±ΞΈΞ®ΞΊΞΏΞ½Ο„Ξ±
+GAME_SKILL_UP	Ξ‘Ξ½Ξ­Ξ²Ξ±ΟƒΞµ Ξ™ΞΊΞ±Ξ½ΟΟ„Ξ·Ο„ΞµΟ‚
+GAME_STAT_UP	Ξ‘Ξ½Ξ­Ξ²Ξ±ΟƒΞµ ΞΞ±Ο„Ξ¬ΟƒΟ„Ξ±ΟƒΞ·
+GRADE	Ξ’Ξ±ΞΈΞΌΞ―Ξ΄Ξ±
+GRADE_SELECT	Ξ’Ξ±ΞΈΞΌΞ―Ξ΄Ξ±
+GUILD_BASENAME	Ξ’Ξ±ΟƒΞΉΞΊΟ ΞΞ½ΞΏΞΌΞ±
+GUILD_BOARD_ID	ΞΞ½ΞΏΞΌΞ±
+GUILD_BOARD_REFRESH	Ξ‘Ξ½Ξ±Ξ½Ξ­Ο‰ΟƒΞ· (F5)
+GUILD_BOARD_TEXT	ΞΞ®Ξ½Ο…ΞΌΞ±
+GUILD_BUILDING_CATEGORY_TITLE	ΞΞ±Ο„Ξ·Ξ³ΞΏΟΞ―ΞµΟ‚ ΞΟ„ΞΉΟΞ―Ο‰Ξ½
+GUILD_BUILDING_CHANGE	Ξ‘Ξ»Ξ»Ξ±Ξ³Ξ®
+GUILD_BUILDING_DIRECTION	ΞΞ±Ο„ΞµΟΞΈΟ…Ξ½ΟƒΞ·
+GUILD_BUILDING_GRADE	Ξ’Ξ±ΞΈΞΌΟΟ‚
+GUILD_BUILDING_INFO	Ξ Ξ»Ξ·ΟΞΏΟ†ΞΏΟΞ―ΞµΟ‚ ΞΟ„ΞΉΟΞ―Ο‰Ξ½ ΞΊΞ±ΞΉ ΞΟΟƒΟ„ΞΏΟ…Ο‚
+GUILD_BUILDING_LIST_TITLE	Ξ›Ξ―ΟƒΟ„Ξ± ΞΟ„ΞΉΟΞ―Ο‰Ξ½
+GUILD_BUILDING_LOG	ΞΞΏΟΟ„ΟƒΞΏΟ…ΟΞΏ
+GUILD_BUILDING_NAME	ΞΞ½ΞΏΞΌΞ± ΞΟ„ΞΉΟΞ―ΞΏΟ…
+GUILD_BUILDING_OPERATE	Ξ›ΞµΞΉΟ„ΞΏΟ…ΟΞ³Ξ―Ξ±
+GUILD_BUILDING_PLY	ΞΞ±Ο€Ξ»Ξ±ΞΌΞ¬Ο‚
+GUILD_BUILDING_POSITION	ΞΞ­ΟƒΞ·
+GUILD_BUILDING_PREVIEW	Ξ ΟΞΏΞµΟ€ΞΉΟƒΞΊΟΟ€Ξ·ΟƒΞ·
+GUILD_BUILDING_PRICE	Ξ¤ΞΉΞΌΞ®
+GUILD_BUILDING_REFRESH	Ξ‘Ξ½Ξ±Ξ½Ξ­Ο‰ΟƒΞ· (F5)
+GUILD_BUILDING_STONE	Ξ›Ξ―ΞΈΞΏΟ‚
+GUILD_BUILDING_TITLE	ΞΟ„Ξ―ΟΞΉΞΏ Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚
+GUILD_CRYSTAL	ΞΟΟΟƒΟ„Ξ±Ξ»Ξ»ΞΏΟ‚
+GUILD_DEPOSIT	ΞΞ±Ο„Ξ¬ΞΈΞµΟƒΞ·
+GUILD_DROP_RESOURCE1	Ξ•Ξ΄Ο
 GUILD_DROP_RESOURCE2	Drop Resource
-GUILD_GEM	Πετράδι
-GUILD_GRADE_CHANGE_GRADE_NAME	Νέο όνομα Βαθμού
-GUILD_GRADE_NUM	Βαθμός
-GUILD_GRADE_PERMISSION_DELETE	Διώξιμο
-GUILD_GRADE_PERMISSION_JOIN	Πρόσκληση
-GUILD_GRADE_PERMISSION_NOTICE	Μήνυμα
-GUILD_GRADE_PERMISSION_SKILL	Ικανότητες
-GUILD_GRADE_RANK	Βαθμός
-GUILD_GRADE_WRITE	Γράψε
-GUILD_INFO	Πληροφορίες Συντεχνίας
-GUILD_INFO_CUR_EXP	Εμπειρία
-GUILD_INFO_DECALRE_WAR	Κήρυξη Πολέμου
-GUILD_INFO_ENEMY_GUILD	Εχθρική Συντεχνία
-GUILD_INFO_ENEMY_GUILD_EMPTY	Κενό
-GUILD_INFO_LEVEL	Επίπεδο Συντεχνίας
-GUILD_INFO_MARK	Σήμα Συντεχνίας
-GUILD_INFO_MASTER	Ηγέτης
-GUILD_INFO_MASTER_VALUE	Ηγέτης
-GUILD_INFO_MEMBER_AVG_LEVEL	Μέσο Επίπεδο
-GUILD_INFO_MEMBER_NUM	Αριθμός μελών
-GUILD_INFO_NAME	Όνομα Συντεχνίας
-GUILD_INFO_NAME_VALUE	Αυτό είναι Όνομα Συντεχνίας
-GUILD_INFO_OFFER_EXP	Επένδυσε
-GUILD_INFO_REST_EXP	Απαιτούμενη Exp.
-GUILD_INFO_UPLOAD_MARK	Upload Σήμα
-GUILD_INFO_UPLOAD_SYMBOL	Upload Σημαία
-GUILD_MARK	Σήμα Συντεχνίας
-GUILD_MEMBER_JOB	Κλάση
-GUILD_MEMBER_KNIGHT	Ηγέτης
-GUILD_MEMBER_LEVEL	Επίπεδο
-GUILD_MEMBER_NAME	Όνομα
-GUILD_MEMBER_RANK	Βαθμός
-GUILD_MEMBER_SPECIFIC_GRAVITY	Επενδ.
-GUILD_METIN_STONE	Λίθος Metin
-GUILD_MINENAL	Μετάλλευμα
+GUILD_GEM	Ξ ΞµΟ„ΟΞ¬Ξ΄ΞΉ
+GUILD_GRADE_CHANGE_GRADE_NAME	ΞΞ­ΞΏ ΟΞ½ΞΏΞΌΞ± Ξ’Ξ±ΞΈΞΌΞΏΟ
+GUILD_GRADE_NUM	Ξ’Ξ±ΞΈΞΌΟΟ‚
+GUILD_GRADE_PERMISSION_DELETE	Ξ”ΞΉΟΞΎΞΉΞΌΞΏ
+GUILD_GRADE_PERMISSION_JOIN	Ξ ΟΟΟƒΞΊΞ»Ξ·ΟƒΞ·
+GUILD_GRADE_PERMISSION_NOTICE	ΞΞ®Ξ½Ο…ΞΌΞ±
+GUILD_GRADE_PERMISSION_SKILL	Ξ™ΞΊΞ±Ξ½ΟΟ„Ξ·Ο„ΞµΟ‚
+GUILD_GRADE_RANK	Ξ’Ξ±ΞΈΞΌΟΟ‚
+GUILD_GRADE_WRITE	Ξ“ΟΞ¬ΟΞµ
+GUILD_INFO	Ξ Ξ»Ξ·ΟΞΏΟ†ΞΏΟΞ―ΞµΟ‚ Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚
+GUILD_INFO_CUR_EXP	Ξ•ΞΌΟ€ΞµΞΉΟΞ―Ξ±
+GUILD_INFO_DECALRE_WAR	ΞΞ®ΟΟ…ΞΎΞ· Ξ ΞΏΞ»Ξ­ΞΌΞΏΟ…
+GUILD_INFO_ENEMY_GUILD	Ξ•Ο‡ΞΈΟΞΉΞΊΞ® Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±
+GUILD_INFO_ENEMY_GUILD_EMPTY	ΞΞµΞ½Ο
+GUILD_INFO_LEVEL	Ξ•Ο€Ξ―Ο€ΞµΞ΄ΞΏ Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚
+GUILD_INFO_MARK	Ξ£Ξ®ΞΌΞ± Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚
+GUILD_INFO_MASTER	Ξ—Ξ³Ξ­Ο„Ξ·Ο‚
+GUILD_INFO_MASTER_VALUE	Ξ—Ξ³Ξ­Ο„Ξ·Ο‚
+GUILD_INFO_MEMBER_AVG_LEVEL	ΞΞ­ΟƒΞΏ Ξ•Ο€Ξ―Ο€ΞµΞ΄ΞΏ
+GUILD_INFO_MEMBER_NUM	Ξ‘ΟΞΉΞΈΞΌΟΟ‚ ΞΌΞµΞ»ΟΞ½
+GUILD_INFO_NAME	ΞΞ½ΞΏΞΌΞ± Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚
+GUILD_INFO_NAME_VALUE	Ξ‘Ο…Ο„Ο ΞµΞ―Ξ½Ξ±ΞΉ ΞΞ½ΞΏΞΌΞ± Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚
+GUILD_INFO_OFFER_EXP	Ξ•Ο€Ξ­Ξ½Ξ΄Ο…ΟƒΞµ
+GUILD_INFO_REST_EXP	Ξ‘Ο€Ξ±ΞΉΟ„ΞΏΟΞΌΞµΞ½Ξ· Exp.
+GUILD_INFO_UPLOAD_MARK	Upload Ξ£Ξ®ΞΌΞ±
+GUILD_INFO_UPLOAD_SYMBOL	Upload Ξ£Ξ·ΞΌΞ±Ξ―Ξ±
+GUILD_MARK	Ξ£Ξ®ΞΌΞ± Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚
+GUILD_MEMBER_JOB	ΞΞ»Ξ¬ΟƒΞ·
+GUILD_MEMBER_KNIGHT	Ξ—Ξ³Ξ­Ο„Ξ·Ο‚
+GUILD_MEMBER_LEVEL	Ξ•Ο€Ξ―Ο€ΞµΞ΄ΞΏ
+GUILD_MEMBER_NAME	ΞΞ½ΞΏΞΌΞ±
+GUILD_MEMBER_RANK	Ξ’Ξ±ΞΈΞΌΟΟ‚
+GUILD_MEMBER_SPECIFIC_GRAVITY	Ξ•Ο€ΞµΞ½Ξ΄.
+GUILD_METIN_STONE	Ξ›Ξ―ΞΈΞΏΟ‚ Metin
+GUILD_MINENAL	ΞΞµΟ„Ξ¬Ξ»Ξ»ΞµΟ…ΞΌΞ±
 GUILD_MONEY	Yang
-GUILD_NAME	Συντεχνία
-GUILD_RESOURCE_INFO	Πληροφορίες Πόρων
-GUILD_SKILL_ACTIVE	Ενεργητικό
-GUILD_SKIlL_HEAL_GSP	Πάρε Πίσω τη Δύναμη
-GUILD_SKILL_PASSIVE	Παθητικό
-GUILD_SKILL_POWER	Ενέργεια
-GUILD_SKILL_STATE	Ικανότητες της Συντεχνίας
-GUILD_SYMBOL	Σημαία Συντεχνίας
+GUILD_NAME	Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±
+GUILD_RESOURCE_INFO	Ξ Ξ»Ξ·ΟΞΏΟ†ΞΏΟΞ―ΞµΟ‚ Ξ ΟΟΟ‰Ξ½
+GUILD_SKILL_ACTIVE	Ξ•Ξ½ΞµΟΞ³Ξ·Ο„ΞΉΞΊΟ
+GUILD_SKIlL_HEAL_GSP	Ξ Ξ¬ΟΞµ Ξ Ξ―ΟƒΟ‰ Ο„Ξ· Ξ”ΟΞ½Ξ±ΞΌΞ·
+GUILD_SKILL_PASSIVE	Ξ Ξ±ΞΈΞ·Ο„ΞΉΞΊΟ
+GUILD_SKILL_POWER	Ξ•Ξ½Ξ­ΟΞ³ΞµΞΉΞ±
+GUILD_SKILL_STATE	Ξ™ΞΊΞ±Ξ½ΟΟ„Ξ·Ο„ΞµΟ‚ Ο„Ξ·Ο‚ Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚
+GUILD_SYMBOL	Ξ£Ξ·ΞΌΞ±Ξ―Ξ± Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚
 GUILD_WAR_ACCEPT	Accept War Declaration
-GUILD_WAR_BATTLE_TYPE	Τύπος Μάχης
-GUILD_WAR_CTF	Σημαία
-GUILD_WAR_DECLARE	Κήρυξε Πόλεμο Συντεχνιών
-GUILD_WAR_ENEMY	Εχθροί
-GUILD_WAR_NORMAL	Στάδιο
-GUILD_WAR_WARP	Αρένα
-GUILD_WATER	Νερό
-GUILD_WATER_STONE	Νερόλιθος
-GUILD_WITHDRAW	Πάρε
-HELP_ATTACK_KEY	Επίθεση: αριστερό κουμπί ποντικιού ή πλήκτρο space
-HELP_CHANGE_PK_MODE	Αλλαγή τρόπου επίθεσης: αλλαγή ρύθμισης αριστερού ποντικιού
-HELP_CHARACTER_BUTTON1	(Παράθυρο Χαρακτ., Παράθυρο Καταλ.,
-HELP_CHARACTER_BUTTON2	Λίστα φίλων και Ρυθμίσεις)
-HELP_CONTROL_CAMERA_BY_MIDDLEBUTTON	Θέση κάμερας: μεσαίο ή δεξί κουμπί ποντικιού
-HELP_CONTROL_CAMERA_BY_RIGHTBUTTON	Ρυθμίσεις κάμερας: μεσαίο ή δεξί κουμπί ποντικιού
-HELP_EXP	Εμπειρία
+GUILD_WAR_BATTLE_TYPE	Ξ¤ΟΟ€ΞΏΟ‚ ΞΞ¬Ο‡Ξ·Ο‚
+GUILD_WAR_CTF	Ξ£Ξ·ΞΌΞ±Ξ―Ξ±
+GUILD_WAR_DECLARE	ΞΞ®ΟΟ…ΞΎΞµ Ξ ΟΞ»ΞµΞΌΞΏ Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½ΞΉΟΞ½
+GUILD_WAR_ENEMY	Ξ•Ο‡ΞΈΟΞΏΞ―
+GUILD_WAR_NORMAL	Ξ£Ο„Ξ¬Ξ΄ΞΉΞΏ
+GUILD_WAR_WARP	Ξ‘ΟΞ­Ξ½Ξ±
+GUILD_WATER	ΞΞµΟΟ
+GUILD_WATER_STONE	ΞΞµΟΟΞ»ΞΉΞΈΞΏΟ‚
+GUILD_WITHDRAW	Ξ Ξ¬ΟΞµ
+HELP_ATTACK_KEY	Ξ•Ο€Ξ―ΞΈΞµΟƒΞ·: Ξ±ΟΞΉΟƒΟ„ΞµΟΟ ΞΊΞΏΟ…ΞΌΟ€Ξ― Ο€ΞΏΞ½Ο„ΞΉΞΊΞΉΞΏΟ Ξ® Ο€Ξ»Ξ®ΞΊΟ„ΟΞΏ space
+HELP_CHANGE_PK_MODE	Ξ‘Ξ»Ξ»Ξ±Ξ³Ξ® Ο„ΟΟΟ€ΞΏΟ… ΞµΟ€Ξ―ΞΈΞµΟƒΞ·Ο‚: Ξ±Ξ»Ξ»Ξ±Ξ³Ξ® ΟΟΞΈΞΌΞΉΟƒΞ·Ο‚ Ξ±ΟΞΉΟƒΟ„ΞµΟΞΏΟ Ο€ΞΏΞ½Ο„ΞΉΞΊΞΉΞΏΟ
+HELP_CHARACTER_BUTTON1	(Ξ Ξ±ΟΞ¬ΞΈΟ…ΟΞΏ Ξ§Ξ±ΟΞ±ΞΊΟ„., Ξ Ξ±ΟΞ¬ΞΈΟ…ΟΞΏ ΞΞ±Ο„Ξ±Ξ».,
+HELP_CHARACTER_BUTTON2	Ξ›Ξ―ΟƒΟ„Ξ± Ο†Ξ―Ξ»Ο‰Ξ½ ΞΊΞ±ΞΉ Ξ΅Ο…ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚)
+HELP_CONTROL_CAMERA_BY_MIDDLEBUTTON	ΞΞ­ΟƒΞ· ΞΊΞ¬ΞΌΞµΟΞ±Ο‚: ΞΌΞµΟƒΞ±Ξ―ΞΏ Ξ® Ξ΄ΞµΞΎΞ― ΞΊΞΏΟ…ΞΌΟ€Ξ― Ο€ΞΏΞ½Ο„ΞΉΞΊΞΉΞΏΟ
+HELP_CONTROL_CAMERA_BY_RIGHTBUTTON	Ξ΅Ο…ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚ ΞΊΞ¬ΞΌΞµΟΞ±Ο‚: ΞΌΞµΟƒΞ±Ξ―ΞΏ Ξ® Ξ΄ΞµΞΎΞ― ΞΊΞΏΟ…ΞΌΟ€Ξ― Ο€ΞΏΞ½Ο„ΞΉΞΊΞΉΞΏΟ
+HELP_EXP	Ξ•ΞΌΟ€ΞµΞΉΟΞ―Ξ±
 HELP_FURY	Ingame Item Shop
-HELP_GUILD_WINDOW	Άνοιγμα παραθύρου: Alt + G
-HELP_HELP	Προβολή βοήθειας: Η
+HELP_GUILD_WINDOW	Ξ†Ξ½ΞΏΞΉΞ³ΞΌΞ± Ο€Ξ±ΟΞ±ΞΈΟΟΞΏΟ…: Alt + G
+HELP_HELP	Ξ ΟΞΏΞ²ΞΏΞ»Ξ® Ξ²ΞΏΞ®ΞΈΞµΞΉΞ±Ο‚: Ξ—
 HELP_HP	HP
-HELP_MESSENGER_WINDOW	Άνοιγμα λίστας φίλων: Alt + M
-HELP_MOUSE_LEFT	Λειτουργία του αριστερού κουμπιού στο ποντίκι.
-HELP_MOUSE_RIGHT	Λειτουργία του δεξιού κουμπιού στο ποντίκι
-HELP_MOVE_KEY	Κίνηση: W, A, S, D ή βέλη
-HELP_OPEN_CHARACTER	Άνοιγμα παραθύρου χαρακτήρα: C
-HELP_OPEN_CHAT	Άνοιγμα παραθύρου chat: Enter
-HELP_OPEN_INVENTORY	Άνοιγμα παραθύρου καταλόγου: I
-HELP_OPEN_LOG	Εμφάνιση Chatlog: L
-HELP_OPEN_MINIMAP	Άνοιγμα μικρού χάρτη: Shift + M
-HELP_OPEN_QUEST	Άνοιγμα παραθύρου αποστολών: Ν
-HELP_OPEN_SKILL	Άνοιγμα παραθύρου ικανοτήτων: V
-HELP_OPEN_WHISPER	Άνοιγμα παραθύρου Ψιθύρων: Shift + Enter
-HELP_OPEN_ZONEMAP	Άνοιγμα μεγάλου χάρτη: M
-HELP_PICK_ITEM	Συλλογή αντικειμένων: ^ ή Y ή αριστερό κλικ
-HELP_QUICKSLOT	Πεδία Γρήγορης Πρόσβασης
-HELP_SCREEN_CAPTURE	Αποθήκευση στιγμιότυπου: PrtSc (τόπος αποθήκευσης: Φάκελος «Metin2\screenshot»)
-HELP_SHOW_ALL_NAME	Εμφάνιση ονομάτων: Alt
+HELP_MESSENGER_WINDOW	Ξ†Ξ½ΞΏΞΉΞ³ΞΌΞ± Ξ»Ξ―ΟƒΟ„Ξ±Ο‚ Ο†Ξ―Ξ»Ο‰Ξ½: Alt + M
+HELP_MOUSE_LEFT	Ξ›ΞµΞΉΟ„ΞΏΟ…ΟΞ³Ξ―Ξ± Ο„ΞΏΟ… Ξ±ΟΞΉΟƒΟ„ΞµΟΞΏΟ ΞΊΞΏΟ…ΞΌΟ€ΞΉΞΏΟ ΟƒΟ„ΞΏ Ο€ΞΏΞ½Ο„Ξ―ΞΊΞΉ.
+HELP_MOUSE_RIGHT	Ξ›ΞµΞΉΟ„ΞΏΟ…ΟΞ³Ξ―Ξ± Ο„ΞΏΟ… Ξ΄ΞµΞΎΞΉΞΏΟ ΞΊΞΏΟ…ΞΌΟ€ΞΉΞΏΟ ΟƒΟ„ΞΏ Ο€ΞΏΞ½Ο„Ξ―ΞΊΞΉ
+HELP_MOVE_KEY	ΞΞ―Ξ½Ξ·ΟƒΞ·: W, A, S, D Ξ® Ξ²Ξ­Ξ»Ξ·
+HELP_OPEN_CHARACTER	Ξ†Ξ½ΞΏΞΉΞ³ΞΌΞ± Ο€Ξ±ΟΞ±ΞΈΟΟΞΏΟ… Ο‡Ξ±ΟΞ±ΞΊΟ„Ξ®ΟΞ±: C
+HELP_OPEN_CHAT	Ξ†Ξ½ΞΏΞΉΞ³ΞΌΞ± Ο€Ξ±ΟΞ±ΞΈΟΟΞΏΟ… chat: Enter
+HELP_OPEN_INVENTORY	Ξ†Ξ½ΞΏΞΉΞ³ΞΌΞ± Ο€Ξ±ΟΞ±ΞΈΟΟΞΏΟ… ΞΊΞ±Ο„Ξ±Ξ»ΟΞ³ΞΏΟ…: I
+HELP_OPEN_LOG	Ξ•ΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· Chatlog: L
+HELP_OPEN_MINIMAP	Ξ†Ξ½ΞΏΞΉΞ³ΞΌΞ± ΞΌΞΉΞΊΟΞΏΟ Ο‡Ξ¬ΟΟ„Ξ·: Shift + M
+HELP_OPEN_QUEST	Ξ†Ξ½ΞΏΞΉΞ³ΞΌΞ± Ο€Ξ±ΟΞ±ΞΈΟΟΞΏΟ… Ξ±Ο€ΞΏΟƒΟ„ΞΏΞ»ΟΞ½: Ξ
+HELP_OPEN_SKILL	Ξ†Ξ½ΞΏΞΉΞ³ΞΌΞ± Ο€Ξ±ΟΞ±ΞΈΟΟΞΏΟ… ΞΉΞΊΞ±Ξ½ΞΏΟ„Ξ®Ο„Ο‰Ξ½: V
+HELP_OPEN_WHISPER	Ξ†Ξ½ΞΏΞΉΞ³ΞΌΞ± Ο€Ξ±ΟΞ±ΞΈΟΟΞΏΟ… Ξ¨ΞΉΞΈΟΟΟ‰Ξ½: Shift + Enter
+HELP_OPEN_ZONEMAP	Ξ†Ξ½ΞΏΞΉΞ³ΞΌΞ± ΞΌΞµΞ³Ξ¬Ξ»ΞΏΟ… Ο‡Ξ¬ΟΟ„Ξ·: M
+HELP_PICK_ITEM	Ξ£Ο…Ξ»Ξ»ΞΏΞ³Ξ® Ξ±Ξ½Ο„ΞΉΞΊΞµΞΉΞΌΞ­Ξ½Ο‰Ξ½: ^ Ξ® Y Ξ® Ξ±ΟΞΉΟƒΟ„ΞµΟΟ ΞΊΞ»ΞΉΞΊ
+HELP_QUICKSLOT	Ξ ΞµΞ΄Ξ―Ξ± Ξ“ΟΞ®Ξ³ΞΏΟΞ·Ο‚ Ξ ΟΟΟƒΞ²Ξ±ΟƒΞ·Ο‚
+HELP_SCREEN_CAPTURE	Ξ‘Ο€ΞΏΞΈΞ®ΞΊΞµΟ…ΟƒΞ· ΟƒΟ„ΞΉΞ³ΞΌΞΉΟΟ„Ο…Ο€ΞΏΟ…: PrtSc (Ο„ΟΟ€ΞΏΟ‚ Ξ±Ο€ΞΏΞΈΞ®ΞΊΞµΟ…ΟƒΞ·Ο‚: Ξ¦Ξ¬ΞΊΞµΞ»ΞΏΟ‚ Β«Metin2\screenshotΒ»)
+HELP_SHOW_ALL_NAME	Ξ•ΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ· ΞΏΞ½ΞΏΞΌΞ¬Ο„Ο‰Ξ½: Alt
 HELP_SP	SP
-HELP_SYSTEM_BUTTON	Κουμπιά Συστήματος
-INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. Κατάλογος
-INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. Κατάλογος
-INVENTORY_TITLE	Κατάλογος
+HELP_SYSTEM_BUTTON	ΞΞΏΟ…ΞΌΟ€ΞΉΞ¬ Ξ£Ο…ΟƒΟ„Ξ®ΞΌΞ±Ο„ΞΏΟ‚
+INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. ΞΞ±Ο„Ξ¬Ξ»ΞΏΞ³ΞΏΟ‚
+INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. ΞΞ±Ο„Ξ¬Ξ»ΞΏΞ³ΞΏΟ‚
+INVENTORY_TITLE	ΞΞ±Ο„Ξ¬Ξ»ΞΏΞ³ΞΏΟ‚
 ITEM_MALL	Item Shop
-LOAD_ERROR	Το Αρχείο είναι καταστρεμμένο. Παρακαλούμε εγκατάστησε εκ νέου. Πάτα ESC.
-LOGIN_CONNECT	Σύνδεση
-LOGIN_CONNECTING	Θα συνδεθείτε στο Server
-LOGIN_DEFAULT_SERVERADDR	Servername, Κανάλι 1
-LOGIN_EXIT	Έξοδος
-LOGIN_REGION_TITLE	Επιλέξτε Θέση για την έκδοση τιμολογίου.
-LOGIN_SELECT_BUTTON	Επιλογή
-LOGIN_SELECT_EXIT	Έξοδος
+LOAD_ERROR	Ξ¤ΞΏ Ξ‘ΟΟ‡ΞµΞ―ΞΏ ΞµΞ―Ξ½Ξ±ΞΉ ΞΊΞ±Ο„Ξ±ΟƒΟ„ΟΞµΞΌΞΌΞ­Ξ½ΞΏ. Ξ Ξ±ΟΞ±ΞΊΞ±Ξ»ΞΏΟΞΌΞµ ΞµΞ³ΞΊΞ±Ο„Ξ¬ΟƒΟ„Ξ·ΟƒΞµ ΞµΞΊ Ξ½Ξ­ΞΏΟ…. Ξ Ξ¬Ο„Ξ± ESC.
+LOGIN_CONNECT	Ξ£ΟΞ½Ξ΄ΞµΟƒΞ·
+LOGIN_CONNECTING	ΞΞ± ΟƒΟ…Ξ½Ξ΄ΞµΞΈΞµΞ―Ο„Ξµ ΟƒΟ„ΞΏ Server
+LOGIN_DEFAULT_SERVERADDR	Servername, ΞΞ±Ξ½Ξ¬Ξ»ΞΉ 1
+LOGIN_EXIT	ΞΞΎΞΏΞ΄ΞΏΟ‚
+LOGIN_REGION_TITLE	Ξ•Ο€ΞΉΞ»Ξ­ΞΎΟ„Ξµ ΞΞ­ΟƒΞ· Ξ³ΞΉΞ± Ο„Ξ·Ξ½ Ξ­ΞΊΞ΄ΞΏΟƒΞ· Ο„ΞΉΞΌΞΏΞ»ΞΏΞ³Ξ―ΞΏΟ….
+LOGIN_SELECT_BUTTON	Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ®
+LOGIN_SELECT_EXIT	ΞΞΎΞΏΞ΄ΞΏΟ‚
 LOGIN_SELECT_OK	OK
-LOGIN_SELECT_TITLE	Επιλογή Server
-MALL_PASSWORD_TITLE	Συνθηματικό
-MALL_TITLE	Αποθήκη Item Shop
-MARKET_TITLE	Φόρτωση
+LOGIN_SELECT_TITLE	Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ® Server
+MALL_PASSWORD_TITLE	Ξ£Ο…Ξ½ΞΈΞ·ΞΌΞ±Ο„ΞΉΞΊΟ
+MALL_TITLE	Ξ‘Ο€ΞΏΞΈΞ®ΞΊΞ· Item Shop
+MARKET_TITLE	Ξ¦ΟΟΟ„Ο‰ΟƒΞ·
 MARKLIST_REFRESH	Refresh
-MARKLIST_TITLE	Κατχώρηση Σήματος Συντεχνίας
-MESSAGE	Αυτό το μήνυμα είναι
-MESSENGER_ADD_FRIEND	Προσθήκη φίλου
-MESSENGER_DELETE_FRIEND	Διαγραφή φίλου
-MESSENGER_MOBILE	Αποστολή Μηνύματος Κειμένου
-MESSENGER_OPEN_GUILD	Άνοιγμα παραθύρου συντεχνίας
-MESSENGER_TITLE	Φίλοι
-MESSENGER_USE_GUILD_MOVE_SKILL	Χρήση της Ικανότητας Μετακίνησης Συντεχνίας
-MESSENGER_WHISPER	Ψίθυρος
-MINIMIZE	Ελαχιστοποίηση
-MOUSEBUTTON_ATTACK	Επίθεση
-MOUSEBUTTON_AUTO_ATTACK	Αυτόματη επίθεση
-MOUSEBUTTON_CAMERA	Κάμερα
-MOUSEBUTTON_SKILL	Ικανότητες
-MUSICLIST_TITLE	Επιλογές Μουσικής
-NO	Όχι
+MARKLIST_TITLE	ΞΞ±Ο„Ο‡ΟΟΞ·ΟƒΞ· Ξ£Ξ®ΞΌΞ±Ο„ΞΏΟ‚ Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚
+MESSAGE	Ξ‘Ο…Ο„Ο Ο„ΞΏ ΞΌΞ®Ξ½Ο…ΞΌΞ± ΞµΞ―Ξ½Ξ±ΞΉ
+MESSENGER_ADD_FRIEND	Ξ ΟΞΏΟƒΞΈΞ®ΞΊΞ· Ο†Ξ―Ξ»ΞΏΟ…
+MESSENGER_DELETE_FRIEND	Ξ”ΞΉΞ±Ξ³ΟΞ±Ο†Ξ® Ο†Ξ―Ξ»ΞΏΟ…
+MESSENGER_MOBILE	Ξ‘Ο€ΞΏΟƒΟ„ΞΏΞ»Ξ® ΞΞ·Ξ½ΟΞΌΞ±Ο„ΞΏΟ‚ ΞΞµΞΉΞΌΞ­Ξ½ΞΏΟ…
+MESSENGER_OPEN_GUILD	Ξ†Ξ½ΞΏΞΉΞ³ΞΌΞ± Ο€Ξ±ΟΞ±ΞΈΟΟΞΏΟ… ΟƒΟ…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚
+MESSENGER_TITLE	Ξ¦Ξ―Ξ»ΞΏΞΉ
+MESSENGER_USE_GUILD_MOVE_SKILL	Ξ§ΟΞ®ΟƒΞ· Ο„Ξ·Ο‚ Ξ™ΞΊΞ±Ξ½ΟΟ„Ξ·Ο„Ξ±Ο‚ ΞΞµΟ„Ξ±ΞΊΞ―Ξ½Ξ·ΟƒΞ·Ο‚ Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚
+MESSENGER_WHISPER	Ξ¨Ξ―ΞΈΟ…ΟΞΏΟ‚
+MINIMIZE	Ξ•Ξ»Ξ±Ο‡ΞΉΟƒΟ„ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ·
+MOUSEBUTTON_ATTACK	Ξ•Ο€Ξ―ΞΈΞµΟƒΞ·
+MOUSEBUTTON_AUTO_ATTACK	Ξ‘Ο…Ο„ΟΞΌΞ±Ο„Ξ· ΞµΟ€Ξ―ΞΈΞµΟƒΞ·
+MOUSEBUTTON_CAMERA	ΞΞ¬ΞΌΞµΟΞ±
+MOUSEBUTTON_SKILL	Ξ™ΞΊΞ±Ξ½ΟΟ„Ξ·Ο„ΞµΟ‚
+MUSICLIST_TITLE	Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ­Ο‚ ΞΞΏΟ…ΟƒΞΉΞΊΞ®Ο‚
+NO	ΞΟ‡ΞΉ
 OK	OK
-OPTION_ALWAYS_SHOW_NAME	Όνομα
-OPTION_ALWAYS_SHOW_NAME_OFF	Περιορισμένο
-OPTION_ALWAYS_SHOW_NAME_ON	Πάντα
-OPTION_BLOCK	Φραγμός
-OPTION_BLOCK_EXCHANGE	Εμπόριο
-OPTION_BLOCK_FRIEND	Φίλοι
-OPTION_BLOCK_GUILD	Συντεχνία
-OPTION_BLOCK_PARTY	Ομάδα
-OPTION_BLOCK_PARTY_REQUEST	Αίτηση
-OPTION_BLOCK_WHISPER	Ψίθυρος
-OPTION_CAMERA_DISTANCE	Κάμερα
-OPTION_CAMERA_DISTANCE_LONG	Μακριά
-OPTION_CAMERA_DISTANCE_SHORT	Κοντά
-OPTION_DELETE_MOBILE_BUTTON	Διαγραφή Νούμερου Κινητού Τηλεφώνου
-OPTION_EFFECT	Χτυπήματα.
-OPTION_ENV_EFFECT	Περιβάλλον
+OPTION_ALWAYS_SHOW_NAME	ΞΞ½ΞΏΞΌΞ±
+OPTION_ALWAYS_SHOW_NAME_OFF	Ξ ΞµΟΞΉΞΏΟΞΉΟƒΞΌΞ­Ξ½ΞΏ
+OPTION_ALWAYS_SHOW_NAME_ON	Ξ Ξ¬Ξ½Ο„Ξ±
+OPTION_BLOCK	Ξ¦ΟΞ±Ξ³ΞΌΟΟ‚
+OPTION_BLOCK_EXCHANGE	Ξ•ΞΌΟ€ΟΟΞΉΞΏ
+OPTION_BLOCK_FRIEND	Ξ¦Ξ―Ξ»ΞΏΞΉ
+OPTION_BLOCK_GUILD	Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±
+OPTION_BLOCK_PARTY	ΞΞΌΞ¬Ξ΄Ξ±
+OPTION_BLOCK_PARTY_REQUEST	Ξ‘Ξ―Ο„Ξ·ΟƒΞ·
+OPTION_BLOCK_WHISPER	Ξ¨Ξ―ΞΈΟ…ΟΞΏΟ‚
+OPTION_CAMERA_DISTANCE	ΞΞ¬ΞΌΞµΟΞ±
+OPTION_CAMERA_DISTANCE_LONG	ΞΞ±ΞΊΟΞΉΞ¬
+OPTION_CAMERA_DISTANCE_SHORT	ΞΞΏΞ½Ο„Ξ¬
+OPTION_DELETE_MOBILE_BUTTON	Ξ”ΞΉΞ±Ξ³ΟΞ±Ο†Ξ® ΞΞΏΟΞΌΞµΟΞΏΟ… ΞΞΉΞ½Ξ·Ο„ΞΏΟ Ξ¤Ξ·Ξ»ΞµΟ†ΟΞ½ΞΏΟ…
+OPTION_EFFECT	Ξ§Ο„Ο…Ο€Ξ®ΞΌΞ±Ο„Ξ±.
+OPTION_ENV_EFFECT	Ξ ΞµΟΞΉΞ²Ξ¬Ξ»Ξ»ΞΏΞ½
 OPTION_ENV_EFFECT_OFF	Off
 OPTION_ENV_EFFECT_ON	On
-OPTION_FOG	Ομίχλη
-OPTION_FOG_DENSE	Έντονη
-OPTION_FOG_LIGHT	Απαλή
-OPTION_FOG_MIDDLE	Μεσαία
-OPTION_INPUT_MOBILE_BUTTON	Εισαγωγή Νούμερου Κινητού Τηλεφώνου
-OPTION_MOBILE	Κινητό Τηλέφωνο
-OPTION_MOB_INFO	Στοιχ. τέρ.
-OPTION_MOB_INFO_AGGR	Επιθετικό
-OPTION_MOB_INFO_LEVEL	Επίπεδο
-OPTION_MUSIC	Μουσική
-OPTION_MUSIC_CHANGE	Αλλαγή
-OPTION_MUSIC_DEFAULT_THEMA	Συνήθης μουσική του Metin2
-OPTION_NAME_COLOR	Χρώμα
-OPTION_NAME_COLOR_EMPIRE	Χρώμα Βασ/ου
-OPTION_NAME_COLOR_NORMAL	Κανονικό
-OPTION_NIGHT_MODE	Νύχτα
+OPTION_FOG	ΞΞΌΞ―Ο‡Ξ»Ξ·
+OPTION_FOG_DENSE	ΞΞ½Ο„ΞΏΞ½Ξ·
+OPTION_FOG_LIGHT	Ξ‘Ο€Ξ±Ξ»Ξ®
+OPTION_FOG_MIDDLE	ΞΞµΟƒΞ±Ξ―Ξ±
+OPTION_INPUT_MOBILE_BUTTON	Ξ•ΞΉΟƒΞ±Ξ³Ο‰Ξ³Ξ® ΞΞΏΟΞΌΞµΟΞΏΟ… ΞΞΉΞ½Ξ·Ο„ΞΏΟ Ξ¤Ξ·Ξ»ΞµΟ†ΟΞ½ΞΏΟ…
+OPTION_MOBILE	ΞΞΉΞ½Ξ·Ο„Ο Ξ¤Ξ·Ξ»Ξ­Ο†Ο‰Ξ½ΞΏ
+OPTION_MOB_INFO	Ξ£Ο„ΞΏΞΉΟ‡. Ο„Ξ­Ο.
+OPTION_MOB_INFO_AGGR	Ξ•Ο€ΞΉΞΈΞµΟ„ΞΉΞΊΟ
+OPTION_MOB_INFO_LEVEL	Ξ•Ο€Ξ―Ο€ΞµΞ΄ΞΏ
+OPTION_MUSIC	ΞΞΏΟ…ΟƒΞΉΞΊΞ®
+OPTION_MUSIC_CHANGE	Ξ‘Ξ»Ξ»Ξ±Ξ³Ξ®
+OPTION_MUSIC_DEFAULT_THEMA	Ξ£Ο…Ξ½Ξ®ΞΈΞ·Ο‚ ΞΌΞΏΟ…ΟƒΞΉΞΊΞ® Ο„ΞΏΟ… Metin2
+OPTION_NAME_COLOR	Ξ§ΟΟΞΌΞ±
+OPTION_NAME_COLOR_EMPIRE	Ξ§ΟΟΞΌΞ± Ξ’Ξ±Οƒ/ΞΏΟ…
+OPTION_NAME_COLOR_NORMAL	ΞΞ±Ξ½ΞΏΞ½ΞΉΞΊΟ
+OPTION_NIGHT_MODE	ΞΟΟ‡Ο„Ξ±
 OPTION_NIGHT_MODE_OFF	Off
 OPTION_NIGHT_MODE_ON	On
-OPTION_PVPMODE	Εφαρμογή PvP
-OPTION_PVPMODE_FREE	Ελεύθερο
-OPTION_PVPMODE_FREE_TOOLTIP	Μπορείς να επιτεθείς σε όλους τους παίκτες.
-OPTION_PVPMODE_GUILD	Συντεχνία
-OPTION_PVPMODE_GUILD_TOOLTIP	Μπορείς να επιτεθείς σε όλους του παίκτες εκτός από τα μέλη της Συντεχνίας σου.
-OPTION_PVPMODE_PEACE	Ειρήνη
-OPTION_PVPMODE_PEACE_TOOLTIP	Δεν μπορείς να επιτεθείς σε παίκτες του Βασιλείου σου.
-OPTION_PVPMODE_REVENGE	Εχθρικός
-OPTION_PVPMODE_REVENGE_TOOLTIP	Μπορείς να επιτεθείς μόνο αυτούς που έχουν Ethos.
-OPTION_SALESTEXT	Όνομα καταστήματος
-OPTION_SALESTEXT_VIEW_OFF	Κρύψε
-OPTION_SALESTEXT_VIEW_ON	Εμφάνιση
-OPTION_SNOW_MODE	Χιονόπτωση
+OPTION_PVPMODE	Ξ•Ο†Ξ±ΟΞΌΞΏΞ³Ξ® PvP
+OPTION_PVPMODE_FREE	Ξ•Ξ»ΞµΟΞΈΞµΟΞΏ
+OPTION_PVPMODE_FREE_TOOLTIP	ΞΟ€ΞΏΟΞµΞ―Ο‚ Ξ½Ξ± ΞµΟ€ΞΉΟ„ΞµΞΈΞµΞ―Ο‚ ΟƒΞµ ΟΞ»ΞΏΟ…Ο‚ Ο„ΞΏΟ…Ο‚ Ο€Ξ±Ξ―ΞΊΟ„ΞµΟ‚.
+OPTION_PVPMODE_GUILD	Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±
+OPTION_PVPMODE_GUILD_TOOLTIP	ΞΟ€ΞΏΟΞµΞ―Ο‚ Ξ½Ξ± ΞµΟ€ΞΉΟ„ΞµΞΈΞµΞ―Ο‚ ΟƒΞµ ΟΞ»ΞΏΟ…Ο‚ Ο„ΞΏΟ… Ο€Ξ±Ξ―ΞΊΟ„ΞµΟ‚ ΞµΞΊΟ„ΟΟ‚ Ξ±Ο€Ο Ο„Ξ± ΞΌΞ­Ξ»Ξ· Ο„Ξ·Ο‚ Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±Ο‚ ΟƒΞΏΟ….
+OPTION_PVPMODE_PEACE	Ξ•ΞΉΟΞ®Ξ½Ξ·
+OPTION_PVPMODE_PEACE_TOOLTIP	Ξ”ΞµΞ½ ΞΌΟ€ΞΏΟΞµΞ―Ο‚ Ξ½Ξ± ΞµΟ€ΞΉΟ„ΞµΞΈΞµΞ―Ο‚ ΟƒΞµ Ο€Ξ±Ξ―ΞΊΟ„ΞµΟ‚ Ο„ΞΏΟ… Ξ’Ξ±ΟƒΞΉΞ»ΞµΞ―ΞΏΟ… ΟƒΞΏΟ….
+OPTION_PVPMODE_REVENGE	Ξ•Ο‡ΞΈΟΞΉΞΊΟΟ‚
+OPTION_PVPMODE_REVENGE_TOOLTIP	ΞΟ€ΞΏΟΞµΞ―Ο‚ Ξ½Ξ± ΞµΟ€ΞΉΟ„ΞµΞΈΞµΞ―Ο‚ ΞΌΟΞ½ΞΏ Ξ±Ο…Ο„ΞΏΟΟ‚ Ο€ΞΏΟ… Ξ­Ο‡ΞΏΟ…Ξ½ Ethos.
+OPTION_SALESTEXT	ΞΞ½ΞΏΞΌΞ± ΞΊΞ±Ο„Ξ±ΟƒΟ„Ξ®ΞΌΞ±Ο„ΞΏΟ‚
+OPTION_SALESTEXT_VIEW_OFF	ΞΟΟΟΞµ
+OPTION_SALESTEXT_VIEW_ON	Ξ•ΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·
+OPTION_SNOW_MODE	Ξ§ΞΉΞΏΞ½ΟΟ€Ο„Ο‰ΟƒΞ·
 OPTION_SNOW_MODE_OFF	Off
 OPTION_SNOW_MODE_ON	On
-OPTION_SNOW_TEXTURE_MODE	Χιόνι
+OPTION_SNOW_TEXTURE_MODE	Ξ§ΞΉΟΞ½ΞΉ
 OPTION_SNOW_TEXTURE_MODE_OFF	Off
 OPTION_SNOW_TEXTURE_MODE_ON	On
-OPTION_SOUND	Ηχητικά Εφέ
-OPTION_TARGET_BOARD	Επιλογές Στόχου
-OPTION_TARGET_BOARD_NO_VIEW	Κλείσιμο
-OPTION_TARGET_BOARD_VIEW	Εμφάνιση
-OPTION_TILING	Γραφικά
-OPTION_TILING_APPLY	Εφάρμοσε
+OPTION_SOUND	Ξ—Ο‡Ξ·Ο„ΞΉΞΊΞ¬ Ξ•Ο†Ξ­
+OPTION_TARGET_BOARD	Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ­Ο‚ Ξ£Ο„ΟΟ‡ΞΏΟ…
+OPTION_TARGET_BOARD_NO_VIEW	ΞΞ»ΞµΞ―ΟƒΞΉΞΌΞΏ
+OPTION_TARGET_BOARD_VIEW	Ξ•ΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·
+OPTION_TILING	Ξ“ΟΞ±Ο†ΞΉΞΊΞ¬
+OPTION_TILING_APPLY	Ξ•Ο†Ξ¬ΟΞΌΞΏΟƒΞµ
 OPTION_TILING_CPU	CPU
 OPTION_TILING_GPU	GPU
-OPTION_TITLE	Επιλογές
-OPTION_VIEW_CHAT	Βλέπε Chat
-OPTION_VIEW_CHAT_OFF	Κρύψε
-OPTION_VIEW_CHAT_ON	Εμφάνιση
-PARTY_MEMBER_INFO_NAME	Όνομα του μέλους της Ομάδας
-PASSWORD_DESC_1	Πληκτρολογήστε τον κωδικό σας,
-PASSWORD_DESC_2	για να ανοίξετε την αποθήκη.
-PASSWORD_DESC_3	Άλλαξες τον κωδικό σου;
-PASSWORD_DESC_4	Αν όχι, ο κωδικός σου είναι «000000».
-PASSWORD_DESC_5	Άλλαξε τον κωδικό σου στην αποθήκη.
-PASSWORD_TITLE	Σώσιμο Συνθηματικού
+OPTION_TITLE	Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ­Ο‚
+OPTION_VIEW_CHAT	Ξ’Ξ»Ξ­Ο€Ξµ Chat
+OPTION_VIEW_CHAT_OFF	ΞΟΟΟΞµ
+OPTION_VIEW_CHAT_ON	Ξ•ΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·
+PARTY_MEMBER_INFO_NAME	ΞΞ½ΞΏΞΌΞ± Ο„ΞΏΟ… ΞΌΞ­Ξ»ΞΏΟ…Ο‚ Ο„Ξ·Ο‚ ΞΞΌΞ¬Ξ΄Ξ±Ο‚
+PASSWORD_DESC_1	Ξ Ξ»Ξ·ΞΊΟ„ΟΞΏΞ»ΞΏΞ³Ξ®ΟƒΟ„Ξµ Ο„ΞΏΞ½ ΞΊΟ‰Ξ΄ΞΉΞΊΟ ΟƒΞ±Ο‚,
+PASSWORD_DESC_2	Ξ³ΞΉΞ± Ξ½Ξ± Ξ±Ξ½ΞΏΞ―ΞΎΞµΟ„Ξµ Ο„Ξ·Ξ½ Ξ±Ο€ΞΏΞΈΞ®ΞΊΞ·.
+PASSWORD_DESC_3	Ξ†Ξ»Ξ»Ξ±ΞΎΞµΟ‚ Ο„ΞΏΞ½ ΞΊΟ‰Ξ΄ΞΉΞΊΟ ΟƒΞΏΟ…;
+PASSWORD_DESC_4	Ξ‘Ξ½ ΟΟ‡ΞΉ, ΞΏ ΞΊΟ‰Ξ΄ΞΉΞΊΟΟ‚ ΟƒΞΏΟ… ΞµΞ―Ξ½Ξ±ΞΉ Β«000000Β».
+PASSWORD_DESC_5	Ξ†Ξ»Ξ»Ξ±ΞΎΞµ Ο„ΞΏΞ½ ΞΊΟ‰Ξ΄ΞΉΞΊΟ ΟƒΞΏΟ… ΟƒΟ„Ξ·Ξ½ Ξ±Ο€ΞΏΞΈΞ®ΞΊΞ·.
+PASSWORD_TITLE	Ξ£ΟΟƒΞΉΞΌΞΏ Ξ£Ο…Ξ½ΞΈΞ·ΞΌΞ±Ο„ΞΉΞΊΞΏΟ
 PICK_MONEY_TITLE	Divide
-PRIVATE_SHOP_CLOSE_BUTTON	Κλείσιμο καταστήματος
-PRIVATE_SHOP_NAME	Όνομα Καταστήματος
-PRIVATE_SHOP_TITLE	Άνοιξε Ιδιωτικό Κατάστημα
-REFINE_COST	Κόστος Αναβάθμισης: 0 Yang
+PRIVATE_SHOP_CLOSE_BUTTON	ΞΞ»ΞµΞ―ΟƒΞΉΞΌΞΏ ΞΊΞ±Ο„Ξ±ΟƒΟ„Ξ®ΞΌΞ±Ο„ΞΏΟ‚
+PRIVATE_SHOP_NAME	ΞΞ½ΞΏΞΌΞ± ΞΞ±Ο„Ξ±ΟƒΟ„Ξ®ΞΌΞ±Ο„ΞΏΟ‚
+PRIVATE_SHOP_TITLE	Ξ†Ξ½ΞΏΞΉΞΎΞµ Ξ™Ξ΄ΞΉΟ‰Ο„ΞΉΞΊΟ ΞΞ±Ο„Ξ¬ΟƒΟ„Ξ·ΞΌΞ±
+REFINE_COST	ΞΟΟƒΟ„ΞΏΟ‚ Ξ‘Ξ½Ξ±Ξ²Ξ¬ΞΈΞΌΞΉΟƒΞ·Ο‚: 0 Yang
 REFINE_INFO	Chance to upgrade successfully: 100%
-REFINE_MONEY	Κόστος εξευγενισμού
-REFINE_SELECT	Εξευγενισμός
-REFINE_TTILE	Αναβαθμίσεις
+REFINE_MONEY	ΞΟΟƒΟ„ΞΏΟ‚ ΞµΞΎΞµΟ…Ξ³ΞµΞ½ΞΉΟƒΞΌΞΏΟ
+REFINE_SELECT	Ξ•ΞΎΞµΟ…Ξ³ΞµΞ½ΞΉΟƒΞΌΟΟ‚
+REFINE_TTILE	Ξ‘Ξ½Ξ±Ξ²Ξ±ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚
 REPORT_VIOLENT_WHISPER	
-RESTART_HERE	Επανεκκίνηση εδώ
-RESTART_TOWN	Επανεκκίνηση στην Πόλη
-SAFE_CHANGE_PASSWORD	Αλλαγή Συνθηματικού
-SAFE_TITLE	Αποθήκη
+RESTART_HERE	Ξ•Ο€Ξ±Ξ½ΞµΞΊΞΊΞ―Ξ½Ξ·ΟƒΞ· ΞµΞ΄Ο
+RESTART_TOWN	Ξ•Ο€Ξ±Ξ½ΞµΞΊΞΊΞ―Ξ½Ξ·ΟƒΞ· ΟƒΟ„Ξ·Ξ½ Ξ ΟΞ»Ξ·
+SAFE_CHANGE_PASSWORD	Ξ‘Ξ»Ξ»Ξ±Ξ³Ξ® Ξ£Ο…Ξ½ΞΈΞ·ΞΌΞ±Ο„ΞΉΞΊΞΏΟ
+SAFE_TITLE	Ξ‘Ο€ΞΏΞΈΞ®ΞΊΞ·
 SELECT_ATT_GRADE	STR
-SELECT_CREATE	Δημιουργία
-SELECT_DELETE	Διαγραφή
+SELECT_CREATE	Ξ”Ξ·ΞΌΞΉΞΏΟ…ΟΞ³Ξ―Ξ±
+SELECT_DELETE	Ξ”ΞΉΞ±Ξ³ΟΞ±Ο†Ξ®
 SELECT_DEX_GRADE	DEX
-SELECT_EMPIRE_NAME	Όνομα Βασιλείου
-SELECT_EXIT	Κλείσιμο
+SELECT_EMPIRE_NAME	ΞΞ½ΞΏΞΌΞ± Ξ’Ξ±ΟƒΞΉΞ»ΞµΞ―ΞΏΟ…
+SELECT_EXIT	ΞΞ»ΞµΞ―ΟƒΞΉΞΌΞΏ
 SELECT_HP	HP
-SELECT_LEVEL	Επίπεδο
-SELECT_METIN_STONE_TITLE	Επιλογή Λίθου Πνεύματος
-SELECT_NAME	Όνομα
-SELECT_NO_GUILD	Χωρίς Συντεχνία
-SELECT_PLAYTIME	Χρόνος παιχνιδιού
-SELECT_SELECT	Αρχή
+SELECT_LEVEL	Ξ•Ο€Ξ―Ο€ΞµΞ΄ΞΏ
+SELECT_METIN_STONE_TITLE	Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ® Ξ›Ξ―ΞΈΞΏΟ… Ξ Ξ½ΞµΟΞΌΞ±Ο„ΞΏΟ‚
+SELECT_NAME	ΞΞ½ΞΏΞΌΞ±
+SELECT_NO_GUILD	Ξ§Ο‰ΟΞ―Ο‚ Ξ£Ο…Ξ½Ο„ΞµΟ‡Ξ½Ξ―Ξ±
+SELECT_PLAYTIME	Ξ§ΟΟΞ½ΞΏΟ‚ Ο€Ξ±ΞΉΟ‡Ξ½ΞΉΞ΄ΞΉΞΏΟ
+SELECT_SELECT	Ξ‘ΟΟ‡Ξ®
 SELECT_SP	SP
-SELECT_TITLE	Επιλογή Τίτλου
-SHOP_BUY	Αγορά
-SHOP_SELL	Πώληση
-SHOP_TITLE	Κατάστημα
-SKILL_SUPPORT_TITLE	Βασικές Ικανότητες
-STEP	Βαθμός καθαρότητας
-STEP_SELECT	Βαθμός καθαρότητας
-STRENGTH	Ενίσχυση
-STRENGTH_SELECT	Επίπεδο
-SYSTEMOPTION_TITLE	Επιλογές Συστήματος
-SYSTEM_CHANGE	Αλλαγή Χαρακτήρα
-SYSTEM_EXIT	Έξοδος από το Παιχνίδι
-SYSTEM_HELP	Βοήθεια
-SYSTEM_LOGOUT	Αποσύνδεση
+SELECT_TITLE	Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ® Ξ¤Ξ―Ο„Ξ»ΞΏΟ…
+SHOP_BUY	Ξ‘Ξ³ΞΏΟΞ¬
+SHOP_SELL	Ξ ΟΞ»Ξ·ΟƒΞ·
+SHOP_TITLE	ΞΞ±Ο„Ξ¬ΟƒΟ„Ξ·ΞΌΞ±
+SKILL_SUPPORT_TITLE	Ξ’Ξ±ΟƒΞΉΞΊΞ­Ο‚ Ξ™ΞΊΞ±Ξ½ΟΟ„Ξ·Ο„ΞµΟ‚
+STEP	Ξ’Ξ±ΞΈΞΌΟΟ‚ ΞΊΞ±ΞΈΞ±ΟΟΟ„Ξ·Ο„Ξ±Ο‚
+STEP_SELECT	Ξ’Ξ±ΞΈΞΌΟΟ‚ ΞΊΞ±ΞΈΞ±ΟΟΟ„Ξ·Ο„Ξ±Ο‚
+STRENGTH	Ξ•Ξ½Ξ―ΟƒΟ‡Ο…ΟƒΞ·
+STRENGTH_SELECT	Ξ•Ο€Ξ―Ο€ΞµΞ΄ΞΏ
+SYSTEMOPTION_TITLE	Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ­Ο‚ Ξ£Ο…ΟƒΟ„Ξ®ΞΌΞ±Ο„ΞΏΟ‚
+SYSTEM_CHANGE	Ξ‘Ξ»Ξ»Ξ±Ξ³Ξ® Ξ§Ξ±ΟΞ±ΞΊΟ„Ξ®ΟΞ±
+SYSTEM_EXIT	ΞΞΎΞΏΞ΄ΞΏΟ‚ Ξ±Ο€Ο Ο„ΞΏ Ξ Ξ±ΞΉΟ‡Ξ½Ξ―Ξ΄ΞΉ
+SYSTEM_HELP	Ξ’ΞΏΞ®ΞΈΞµΞΉΞ±
+SYSTEM_LOGOUT	Ξ‘Ο€ΞΏΟƒΟΞ½Ξ΄ΞµΟƒΞ·
 SYSTEM_MALL	Item Shop
-SYSTEM_OPTION	Επιλογές Συστήματος
-TASKBAR_CHARACTER	Χαρακτήρας [C/V/B/N]
-TASKBAR_CHAT	Παράθυρο Chat [Enter]
-TASKBAR_DISABLE	Απενεργοποιημένο
-TASKBAR_DRAGON_SOUL	Αλχημεία Δρακόλιθων
-TASKBAR_EXPAND	Μεγέθυνση παραθύρου
-TASKBAR_INVENTORY	Κατάλογος [I]
-TASKBAR_MESSENGER	Φίλοι [Alt+M]
-TASKBAR_NEXT_QUICKSLOT	Επόμενο Πεδίο Γρήγορης Πρόσβασης [Shift+Number, Alt]
-TASKBAR_PREV_QUICKSLOT	Προηγούμενο Πεδίο Γρήγορης Πρόσβασης [Shift+Number]
-TASKBAR_SYSTEM	Επιλογές[ESC]
-WHISPER_BAN	Φραγμός
-WHISPER_NAME	Ψίθυρος
+SYSTEM_OPTION	Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ­Ο‚ Ξ£Ο…ΟƒΟ„Ξ®ΞΌΞ±Ο„ΞΏΟ‚
+TASKBAR_CHARACTER	Ξ§Ξ±ΟΞ±ΞΊΟ„Ξ®ΟΞ±Ο‚ [C/V/B/N]
+TASKBAR_CHAT	Ξ Ξ±ΟΞ¬ΞΈΟ…ΟΞΏ Chat [Enter]
+TASKBAR_DISABLE	Ξ‘Ο€ΞµΞ½ΞµΟΞ³ΞΏΟ€ΞΏΞΉΞ·ΞΌΞ­Ξ½ΞΏ
+TASKBAR_DRAGON_SOUL	Ξ‘Ξ»Ο‡Ξ·ΞΌΞµΞ―Ξ± Ξ”ΟΞ±ΞΊΟΞ»ΞΉΞΈΟ‰Ξ½
+TASKBAR_EXPAND	ΞΞµΞ³Ξ­ΞΈΟ…Ξ½ΟƒΞ· Ο€Ξ±ΟΞ±ΞΈΟΟΞΏΟ…
+TASKBAR_INVENTORY	ΞΞ±Ο„Ξ¬Ξ»ΞΏΞ³ΞΏΟ‚ [I]
+TASKBAR_MESSENGER	Ξ¦Ξ―Ξ»ΞΏΞΉ [Alt+M]
+TASKBAR_NEXT_QUICKSLOT	Ξ•Ο€ΟΞΌΞµΞ½ΞΏ Ξ ΞµΞ΄Ξ―ΞΏ Ξ“ΟΞ®Ξ³ΞΏΟΞ·Ο‚ Ξ ΟΟΟƒΞ²Ξ±ΟƒΞ·Ο‚ [Shift+Number, Alt]
+TASKBAR_PREV_QUICKSLOT	Ξ ΟΞΏΞ·Ξ³ΞΏΟΞΌΞµΞ½ΞΏ Ξ ΞµΞ΄Ξ―ΞΏ Ξ“ΟΞ®Ξ³ΞΏΟΞ·Ο‚ Ξ ΟΟΟƒΞ²Ξ±ΟƒΞ·Ο‚ [Shift+Number]
+TASKBAR_SYSTEM	Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ­Ο‚[ESC]
+WHISPER_BAN	Ξ¦ΟΞ±Ξ³ΞΌΟΟ‚
+WHISPER_NAME	Ξ¨Ξ―ΞΈΟ…ΟΞΏΟ‚
 WHISPER_REPORT	
-WHISPER_SEND	Αποστολή
-YES	Ναι
-ZONE_MAP	Μεγάλος Χάρτης
+WHISPER_SEND	Ξ‘Ο€ΞΏΟƒΟ„ΞΏΞ»Ξ®
+YES	ΞΞ±ΞΉ
+ZONE_MAP	ΞΞµΞ³Ξ¬Ξ»ΞΏΟ‚ Ξ§Ξ¬ΟΟ„Ξ·Ο‚

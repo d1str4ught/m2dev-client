@@ -1255,7 +1255,6 @@ class CharacterWindow(ui.ScriptWindow):
 			if self.__CanUseHorseSkill():
 				self.activeSkillGroupName.Hide()
 				self.skillGroupButton1.SetText(nameList.get(group, "Noname"))
-
 				self.skillGroupButton3.SetText(localeInfo.SKILL_GROUP_HORSE)
 				self.skillGroupButton1.Show()
 				self.skillGroupButton2.Hide()
