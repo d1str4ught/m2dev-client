@@ -1,25 +1,2 @@
-# Standard Western (Windows-1252)
-# Includes English, German, Danish, Spanish, French, Italian, Dutch, Portuguese
-assets/locale_{en,de,dk,es,fr,it,nl,pt}/locale/{en,de,dk,es,fr,it,nl,pt}/locale_game.txt text working-tree-encoding=windows-1252
-assets/locale_{en,de,dk,es,fr,it,nl,pt}/locale/{en,de,dk,es,fr,it,nl,pt}/locale_interface.txt text working-tree-encoding=windows-1252
-
-# Central European (Windows-1250)
-# Includes Czech, Hungarian, Polish, Romanian
-assets/locale_{cz,hu,pl,ro}/locale/{cz,hu,pl,ro}/locale_game.txt text working-tree-encoding=windows-1250
-assets/locale_{cz,hu,pl,ro}/locale/{cz,hu,pl,ro}/locale_interface.txt text working-tree-encoding=windows-1250
-
-# Cyrillic (Windows-1251)
-assets/locale_ru/locale/ru/locale_game.txt text working-tree-encoding=windows-1251
-assets/locale_ru/locale/ru/locale_interface.txt text working-tree-encoding=windows-1251
-
-# Greek (Windows-1253)
-assets/locale_gr/locale/gr/locale_game.txt text working-tree-encoding=windows-1253
-assets/locale_gr/locale/gr/locale_interface.txt text working-tree-encoding=windows-1253
-
-# Turkish (Windows-1254)
-assets/locale_tr/locale/tr/locale_game.txt text working-tree-encoding=windows-1254
-assets/locale_tr/locale/tr/locale_interface.txt text working-tree-encoding=windows-1254
-
-# Arabic (Windows-1256)
-assets/locale_ae/locale/ae/locale_game.txt text working-tree-encoding=windows-1256
-assets/locale_ae/locale/ae/locale_interface.txt text working-tree-encoding=windows-1256
+# Korean (EUC-KR)
+assets/root/*.py text working-tree-encoding=utf-8
