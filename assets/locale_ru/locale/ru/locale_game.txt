@@ -1,936 +1,936 @@
-AFF_LOVE_POINT	Очки любви: %d%%
-ALIGNMENT_NAME	Ранг:
-ATTACK_ERROR_UNKNOWN	Неизвестная ошибка атаки: %s
-CANNOT_ATTACK_DEST_IN_SAFE	Противник слишком далеко.
-CANNOT_ATTACK_SELF_IN_SAFE	Я не могу атаковать.
-CANNOT_EQUIP_IN_EXCHANGE	Вы не можете менять снаряжение во время торга.
-CANNOT_EQUIP_IN_SHOP	Вы не можете менять снаряжение во время торга.
-CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA	Открытие лавки на общем месте невозможно.
-CANNOT_SHOOT_DEST_IN_SAFE	Противник слишком далеко.
-CANNOT_SHOOT_EMPTY_ARROW	Мне нужна стрела.
-CANNOT_SHOOT_SELF_IN_SAFE	Я не могу сделать этого.
-CANNOT_SKILL_APPROACH	Я уверен, что не могу подойти ближе.
-CANNOT_SKILL_ATTACK	Я не могу атаковать.
-CANNOT_SKILL_BLUE	Пока активирована Огненная душа волка, Небесную душу волка активировать невозможно.
-CANNOT_SKILL_DEST_IN_SAFE	Противник слишком далеко.
-CANNOT_SKILL_EQUIP_FISHING_ROD	Мне нужна удочка.
-CANNOT_SKILL_HAVE_TO_RIDE	Мне нужен конь, чтобы применить это.
-CANNOT_SKILL_NEED_EMPTY_BOTTLE	У меня нет пустого кувшина.
-CANNOT_SKILL_NEED_POISON_BOTTLE	У меня нет кувшина с ядом.
-CANNOT_SKILL_NEED_TARGET	Кто цель?
-CANNOT_SKILL_NOT_ENOUGH_HP	Мне не хватает ХП!
-CANNOT_SKILL_NOT_ENOUGH_SP	Мне не хватает MП!
-CANNOT_SKILL_NOT_HORSE_SKILL	Я не могу применить это, когда я на коне.
-CANNOT_SKILL_NOT_MATCHABLE_WEAPON	Я не могу применить этот навык, пользуясь этим оружием.
-CANNOT_SKILL_NOT_YET_LEARN	Я не изучил этот Навык.
-CANNOT_SKILL_ONLY_FOR_ALLIANCE	Это распространяется только на участников группы.
-CANNOT_SKILL_ONLY_FOR_CORPSE	Это распространяется только на убитых.
-CANNOT_SKILL_RED	Пока активирована Небесная душа волка, Огненную душу волка активировать невозможно.
-CANNOT_SKILL_REMOVE_FISHING_ROD	Я не могу применить этот навык, пользуясь удочкой.
-CANNOT_SKILL_SELF_IN_SAFE	Я не могу атаковать противника с этой позиции.
-CANNOT_SKILL_USE_SELF	Я не могу применить это на себе.
-CANNOT_SKILL_WAIT_COOLTIME	Я пока не могу пользоваться этим навыком.
-CANNOT_USE	Использовать его невозможно.
-CANNOT_WHISPER_DEST_REFUSE	%s шептание заблокировано.	SA
-CANNOT_WHISPER_NOT_LOGON	%s вне сети.	SA
-CANNOT_WHISPER_SELF_REFUSE	Вы не можете использовать режим шепнуть, полностью блокировав его.	SNA
-CHANNEL	Канал
-CHANNELING_CANNOT_LOGOUT	Выход обратно к окну регистрации невозможен.
-CHANNEL_EMPTY_SERVER	Сервер отсутствует.
-CHANNEL_NORMAL	Канал %d
-CHANNEL_NOTIFY_FULL	Этот канал перегружен.  Пожалуйста выберите другой.
-CHANNEL_NOT_FIND_INFO	Вы не можете получить информацию на этом канале.
-CHANNEL_PVP	Свободный поединок
-CHANNEL_SELECT_CHANNEL	Выберите канал
-CHANNEL_SELECT_REGION	Выберите регион.
-CHANNEL_SELECT_SERVER	Выбрать сервер
-CHANNEL_TEST_SERVER	Тестовый сервер
-CHANNEL_TEST_SERVER_ADDR	Тест %s:%d
-CHARACTER_CREATE_MODE	Создание персонажа
-CHARACTER_SELECT_MODE	Выбор персонажа
-CHAT_ALL	Все
-CHAT_BLOCK	Заблокировать
-CHAT_GUILD	Гильдия
-CHAT_INFORMATION	Инфо
-CHAT_INSULT_STRING	Фраза содержит недопустимые слова.
-CHAT_LOG	Показывать все сообщения [L]
-CHAT_LOG_TITLE	Показать лог чата.
-CHAT_NORMAL	Норм.
-CHAT_NOTICE	Уведомление
-CHAT_PARTY	Группа
-CHAT_SEND_CHAT	Отправить
-CHAT_SEND_MEMO	Шепнуть [Shift+Enter]
-CHAT_SHOUT	Крикнуть
-CHAT_SHOUT_LIMIT	Крикнуть можно только один раз в 15 секунд.
-CHAT_WHISPER	Шепнуть
+AFF_LOVE_POINT	РћС‡РєРё Р»СЋР±РІРё: %d%%
+ALIGNMENT_NAME	Р Р°РЅРі:
+ATTACK_ERROR_UNKNOWN	РќРµРёР·РІРµСЃС‚РЅР°СЏ РѕС€РёР±РєР° Р°С‚Р°РєРё: %s
+CANNOT_ATTACK_DEST_IN_SAFE	РџСЂРѕС‚РёРІРЅРёРє СЃР»РёС€РєРѕРј РґР°Р»РµРєРѕ.
+CANNOT_ATTACK_SELF_IN_SAFE	РЇ РЅРµ РјРѕРіСѓ Р°С‚Р°РєРѕРІР°С‚СЊ.
+CANNOT_EQUIP_IN_EXCHANGE	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РјРµРЅСЏС‚СЊ СЃРЅР°СЂСЏР¶РµРЅРёРµ РІРѕ РІСЂРµРјСЏ С‚РѕСЂРіР°.
+CANNOT_EQUIP_IN_SHOP	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РјРµРЅСЏС‚СЊ СЃРЅР°СЂСЏР¶РµРЅРёРµ РІРѕ РІСЂРµРјСЏ С‚РѕСЂРіР°.
+CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA	РћС‚РєСЂС‹С‚РёРµ Р»Р°РІРєРё РЅР° РѕР±С‰РµРј РјРµСЃС‚Рµ РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+CANNOT_SHOOT_DEST_IN_SAFE	РџСЂРѕС‚РёРІРЅРёРє СЃР»РёС€РєРѕРј РґР°Р»РµРєРѕ.
+CANNOT_SHOOT_EMPTY_ARROW	РњРЅРµ РЅСѓР¶РЅР° СЃС‚СЂРµР»Р°.
+CANNOT_SHOOT_SELF_IN_SAFE	РЇ РЅРµ РјРѕРіСѓ СЃРґРµР»Р°С‚СЊ СЌС‚РѕРіРѕ.
+CANNOT_SKILL_APPROACH	РЇ СѓРІРµСЂРµРЅ, С‡С‚Рѕ РЅРµ РјРѕРіСѓ РїРѕРґРѕР№С‚Рё Р±Р»РёР¶Рµ.
+CANNOT_SKILL_ATTACK	РЇ РЅРµ РјРѕРіСѓ Р°С‚Р°РєРѕРІР°С‚СЊ.
+CANNOT_SKILL_BLUE	РџРѕРєР° Р°РєС‚РёРІРёСЂРѕРІР°РЅР° РћРіРЅРµРЅРЅР°СЏ РґСѓС€Р° РІРѕР»РєР°, РќРµР±РµСЃРЅСѓСЋ РґСѓС€Сѓ РІРѕР»РєР° Р°РєС‚РёРІРёСЂРѕРІР°С‚СЊ РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+CANNOT_SKILL_DEST_IN_SAFE	РџСЂРѕС‚РёРІРЅРёРє СЃР»РёС€РєРѕРј РґР°Р»РµРєРѕ.
+CANNOT_SKILL_EQUIP_FISHING_ROD	РњРЅРµ РЅСѓР¶РЅР° СѓРґРѕС‡РєР°.
+CANNOT_SKILL_HAVE_TO_RIDE	РњРЅРµ РЅСѓР¶РµРЅ РєРѕРЅСЊ, С‡С‚РѕР±С‹ РїСЂРёРјРµРЅРёС‚СЊ СЌС‚Рѕ.
+CANNOT_SKILL_NEED_EMPTY_BOTTLE	РЈ РјРµРЅСЏ РЅРµС‚ РїСѓСЃС‚РѕРіРѕ РєСѓРІС€РёРЅР°.
+CANNOT_SKILL_NEED_POISON_BOTTLE	РЈ РјРµРЅСЏ РЅРµС‚ РєСѓРІС€РёРЅР° СЃ СЏРґРѕРј.
+CANNOT_SKILL_NEED_TARGET	РљС‚Рѕ С†РµР»СЊ?
+CANNOT_SKILL_NOT_ENOUGH_HP	РњРЅРµ РЅРµ С…РІР°С‚Р°РµС‚ РҐРџ!
+CANNOT_SKILL_NOT_ENOUGH_SP	РњРЅРµ РЅРµ С…РІР°С‚Р°РµС‚ MРџ!
+CANNOT_SKILL_NOT_HORSE_SKILL	РЇ РЅРµ РјРѕРіСѓ РїСЂРёРјРµРЅРёС‚СЊ СЌС‚Рѕ, РєРѕРіРґР° СЏ РЅР° РєРѕРЅРµ.
+CANNOT_SKILL_NOT_MATCHABLE_WEAPON	РЇ РЅРµ РјРѕРіСѓ РїСЂРёРјРµРЅРёС‚СЊ СЌС‚РѕС‚ РЅР°РІС‹Рє, РїРѕР»СЊР·СѓСЏСЃСЊ СЌС‚РёРј РѕСЂСѓР¶РёРµРј.
+CANNOT_SKILL_NOT_YET_LEARN	РЇ РЅРµ РёР·СѓС‡РёР» СЌС‚РѕС‚ РќР°РІС‹Рє.
+CANNOT_SKILL_ONLY_FOR_ALLIANCE	Р­С‚Рѕ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅСЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РЅР° СѓС‡Р°СЃС‚РЅРёРєРѕРІ РіСЂСѓРїРїС‹.
+CANNOT_SKILL_ONLY_FOR_CORPSE	Р­С‚Рѕ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅСЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РЅР° СѓР±РёС‚С‹С….
+CANNOT_SKILL_RED	РџРѕРєР° Р°РєС‚РёРІРёСЂРѕРІР°РЅР° РќРµР±РµСЃРЅР°СЏ РґСѓС€Р° РІРѕР»РєР°, РћРіРЅРµРЅРЅСѓСЋ РґСѓС€Сѓ РІРѕР»РєР° Р°РєС‚РёРІРёСЂРѕРІР°С‚СЊ РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+CANNOT_SKILL_REMOVE_FISHING_ROD	РЇ РЅРµ РјРѕРіСѓ РїСЂРёРјРµРЅРёС‚СЊ СЌС‚РѕС‚ РЅР°РІС‹Рє, РїРѕР»СЊР·СѓСЏСЃСЊ СѓРґРѕС‡РєРѕР№.
+CANNOT_SKILL_SELF_IN_SAFE	РЇ РЅРµ РјРѕРіСѓ Р°С‚Р°РєРѕРІР°С‚СЊ РїСЂРѕС‚РёРІРЅРёРєР° СЃ СЌС‚РѕР№ РїРѕР·РёС†РёРё.
+CANNOT_SKILL_USE_SELF	РЇ РЅРµ РјРѕРіСѓ РїСЂРёРјРµРЅРёС‚СЊ СЌС‚Рѕ РЅР° СЃРµР±Рµ.
+CANNOT_SKILL_WAIT_COOLTIME	РЇ РїРѕРєР° РЅРµ РјРѕРіСѓ РїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ СЌС‚РёРј РЅР°РІС‹РєРѕРј.
+CANNOT_USE	РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РµРіРѕ РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+CANNOT_WHISPER_DEST_REFUSE	%s С€РµРїС‚Р°РЅРёРµ Р·Р°Р±Р»РѕРєРёСЂРѕРІР°РЅРѕ.	SA
+CANNOT_WHISPER_NOT_LOGON	%s РІРЅРµ СЃРµС‚Рё.	SA
+CANNOT_WHISPER_SELF_REFUSE	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЂРµР¶РёРј С€РµРїРЅСѓС‚СЊ, РїРѕР»РЅРѕСЃС‚СЊСЋ Р±Р»РѕРєРёСЂРѕРІР°РІ РµРіРѕ.	SNA
+CHANNEL	РљР°РЅР°Р»
+CHANNELING_CANNOT_LOGOUT	Р’С‹С…РѕРґ РѕР±СЂР°С‚РЅРѕ Рє РѕРєРЅСѓ СЂРµРіРёСЃС‚СЂР°С†РёРё РЅРµРІРѕР·РјРѕР¶РµРЅ.
+CHANNEL_EMPTY_SERVER	РЎРµСЂРІРµСЂ РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚.
+CHANNEL_NORMAL	РљР°РЅР°Р» %d
+CHANNEL_NOTIFY_FULL	Р­С‚РѕС‚ РєР°РЅР°Р» РїРµСЂРµРіСЂСѓР¶РµРЅ.  РџРѕР¶Р°Р»СѓР№СЃС‚Р° РІС‹Р±РµСЂРёС‚Рµ РґСЂСѓРіРѕР№.
+CHANNEL_NOT_FIND_INFO	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РїРѕР»СѓС‡РёС‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ РЅР° СЌС‚РѕРј РєР°РЅР°Р»Рµ.
+CHANNEL_PVP	РЎРІРѕР±РѕРґРЅС‹Р№ РїРѕРµРґРёРЅРѕРє
+CHANNEL_SELECT_CHANNEL	Р’С‹Р±РµСЂРёС‚Рµ РєР°РЅР°Р»
+CHANNEL_SELECT_REGION	Р’С‹Р±РµСЂРёС‚Рµ СЂРµРіРёРѕРЅ.
+CHANNEL_SELECT_SERVER	Р’С‹Р±СЂР°С‚СЊ СЃРµСЂРІРµСЂ
+CHANNEL_TEST_SERVER	РўРµСЃС‚РѕРІС‹Р№ СЃРµСЂРІРµСЂ
+CHANNEL_TEST_SERVER_ADDR	РўРµСЃС‚ %s:%d
+CHARACTER_CREATE_MODE	РЎРѕР·РґР°РЅРёРµ РїРµСЂСЃРѕРЅР°Р¶Р°
+CHARACTER_SELECT_MODE	Р’С‹Р±РѕСЂ РїРµСЂСЃРѕРЅР°Р¶Р°
+CHAT_ALL	Р’СЃРµ
+CHAT_BLOCK	Р—Р°Р±Р»РѕРєРёСЂРѕРІР°С‚СЊ
+CHAT_GUILD	Р“РёР»СЊРґРёСЏ
+CHAT_INFORMATION	РРЅС„Рѕ
+CHAT_INSULT_STRING	Р¤СЂР°Р·Р° СЃРѕРґРµСЂР¶РёС‚ РЅРµРґРѕРїСѓСЃС‚РёРјС‹Рµ СЃР»РѕРІР°.
+CHAT_LOG	РџРѕРєР°Р·С‹РІР°С‚СЊ РІСЃРµ СЃРѕРѕР±С‰РµРЅРёСЏ [L]
+CHAT_LOG_TITLE	РџРѕРєР°Р·Р°С‚СЊ Р»РѕРі С‡Р°С‚Р°.
+CHAT_NORMAL	РќРѕСЂРј.
+CHAT_NOTICE	РЈРІРµРґРѕРјР»РµРЅРёРµ
+CHAT_PARTY	Р“СЂСѓРїРїР°
+CHAT_SEND_CHAT	РћС‚РїСЂР°РІРёС‚СЊ
+CHAT_SEND_MEMO	РЁРµРїРЅСѓС‚СЊ [Shift+Enter]
+CHAT_SHOUT	РљСЂРёРєРЅСѓС‚СЊ
+CHAT_SHOUT_LIMIT	РљСЂРёРєРЅСѓС‚СЊ РјРѕР¶РЅРѕ С‚РѕР»СЊРєРѕ РѕРґРёРЅ СЂР°Р· РІ 15 СЃРµРєСѓРЅРґ.
+CHAT_WHISPER	РЁРµРїРЅСѓС‚СЊ
 COMB_ALREADY_APPEND	
-COMB_CANT_APPEND_ITEM	Этот предмет невозможно использовать.
-COMB_CANT_APPEND_SEALED_ITEM	Предмет зачарованный оковами души невозможно использовать.
-COMB_COST	Цена: %s
-COMB_IS_CONTINUE_PROCESS	Желаете продолжить?
-COMB_NOTICE	Во время обмена книг открыть свою лавку невзоможно.
-COMB_NOTICE_NOT_OPEN	Обмен книг невозможен пока у вас открыта лавка.
-COMB_NOT_ALL_SLOT_APPEND_ITEM	Для поглощения бонусов вам нужен второй костюм.
-COMB_NOT_FULL_BOOK	Нет, так сделка не получится. Как я уже говорил, для обмена вы должны принести 10 книг.
-COMB_NOT_ITEM_IN_INVENTORY	Вы не можете использовать снаряженные предметы.
-COMB_NOT_MEDIUM_ITEM	Этот предмет невозможно использовать.
-COMB_WILL_REMOVE_MATERIAL	Костюм 2 будет уничтожен.
-CREATE_ERROR_GM_NAME	Имя персонажа не должно содержать ,ГМ‘ .
-CREATE_ERROR_INSULT_NAME	Это имя недопустимо.
-CREATE_ERROR_LIMIT_LEVEL	Ваш персонаж должен достигнуть как минимум 80 уровня.
-CREATE_ERROR_TIME_LIMIT	Создание персонажа возможно лишь каждые 30 сек.
-CREATE_ERROR_WRONG_STRING	Название персонажа не должно содержать специальных символов.
-CREATE_EXIST_SAME_NAME	Персонаж с таким именем уже существует.
-CREATE_FAILURE	Создание персонажа невозможно.
-CREATE_FULL	Создание дальнейших персонажей невозможно.
-CREATE_GM_NAME	ГМ
-CREATE_INPUT_NAME	Введите имя.
-CREATE_PLUS_STAT	Очки статуса пока доступны.
-DAY	Дней
-DONT_USE_ITEM_WHEN_SHOW_CONFIRM	Во время запроса невозможно перемещать предметы.
-DO_YOU_BUY_ITEM1	Хотите купить %s за %s?
-DO_YOU_BUY_ITEM2	Купить %s %s за %s?
-DO_YOU_DROP_MONEY	Хотите выбросить %d янг?
-DO_YOU_SELL_ITEM1	Хотите продать %s за %s?
-DO_YOU_SELL_ITEM2	Хотите продать %s %s за %s ?
-DRAGON_SOUL_CANNOT_REFINE	Улучшение этого Камня Дракона невозможно.
-DRAGON_SOUL_CANNOT_REFINE_MORE	Этот Камень Дракона уже достиг наивысшего уровня.
-DRAGON_SOUL_EQUIP_WARNING1	Удаление Камня Дракона, сложный процесс.
-DRAGON_SOUL_EQUIP_WARNING2	И все же вы желаете попробовать?
-DRAGON_SOUL_EXPIRED	Использованный Камень Дракона
-DRAGON_SOUL_INVALID_DRAGON_SOUL	Это не тот Камень Дракона.
-DRAGON_SOUL_IS_NOT_DRAGON_SOUL	Это не Камень Дракона.
-DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	Это не тот Камень Дракона.
-DRAGON_SOUL_NOT_ENOUGH_MATERIAL	У вас недостаточно материалов для улучшения.
-DRAGON_SOUL_NOT_MATCHED_SLOT	Камень Дракона не помещается в эту ячейку.
-DRAGON_SOUL_STEP_LEVEL1	Чистота: матовый.
-DRAGON_SOUL_STEP_LEVEL2	Чистота: прозрачный.
-DRAGON_SOUL_STEP_LEVEL3	Чистота: безупречный.
-DRAGON_SOUL_STEP_LEVEL4	Чистота: бриллиантовый.
-DRAGON_SOUL_STEP_LEVEL5	Чистота: великолепный.
-DRAGON_SOUL_STRENGTH	Уровень: +%d 	SA
-DRAGON_SOUL_UNEQUIP_WARNING1	Камень Дракона может быть уничтожен.
-DRAGON_SOUL_UNEQUIP_WARNING2	И все же вы желаете попробовать?
-DRAGON_SOUL_UNMATCHED_SLOT	Это не та ячейка.
-DRAGON_SOUL_UNQUALIFIED	Вы пока не можете использовать алхимию Дракона.
-DROP_ITEM_FAILURE_EQUIP_ITEM	Вы не можете выбросить снаряженный предмет.
-DROP_ITEM_FAILURE_PRIVATE_SHOP	Вы не можете выбросить снаряженный предмет во время открытия лавки.
-DROP_MONEY_FAILURE_1000_OVER	Вы можете выбросить не больше 999 янг.
-EMOTION_ANGRY	Досада
-EMOTION_ATTRACTIVE	Соблазнение
-EMOTION_BANTER	Ирония
-EMOTION_CHEERS_1	Ликование
-EMOTION_CHEERS_2	Ликование 2
-EMOTION_CHEERUP	Ликование
-EMOTION_CHOOSE_ONE	Выберите цель.
-EMOTION_CLAP	Апплодисмент
-EMOTION_CLAP_KISS	Поцелуй
-EMOTION_CONGRATULATION	Одобрение
-EMOTION_DANCE_1	Танец 1
-EMOTION_DANCE_2	Танец 2
-EMOTION_DANCE_3	Танец 3
-EMOTION_DANCE_4	Танец 4
-EMOTION_DANCE_5	Танец 5
+COMB_CANT_APPEND_ITEM	Р­С‚РѕС‚ РїСЂРµРґРјРµС‚ РЅРµРІРѕР·РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ.
+COMB_CANT_APPEND_SEALED_ITEM	РџСЂРµРґРјРµС‚ Р·Р°С‡Р°СЂРѕРІР°РЅРЅС‹Р№ РѕРєРѕРІР°РјРё РґСѓС€Рё РЅРµРІРѕР·РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ.
+COMB_COST	Р¦РµРЅР°: %s
+COMB_IS_CONTINUE_PROCESS	Р–РµР»Р°РµС‚Рµ РїСЂРѕРґРѕР»Р¶РёС‚СЊ?
+COMB_NOTICE	Р’Рѕ РІСЂРµРјСЏ РѕР±РјРµРЅР° РєРЅРёРі РѕС‚РєСЂС‹С‚СЊ СЃРІРѕСЋ Р»Р°РІРєСѓ РЅРµРІР·РѕРјРѕР¶РЅРѕ.
+COMB_NOTICE_NOT_OPEN	РћР±РјРµРЅ РєРЅРёРі РЅРµРІРѕР·РјРѕР¶РµРЅ РїРѕРєР° Сѓ РІР°СЃ РѕС‚РєСЂС‹С‚Р° Р»Р°РІРєР°.
+COMB_NOT_ALL_SLOT_APPEND_ITEM	Р”Р»СЏ РїРѕРіР»РѕС‰РµРЅРёСЏ Р±РѕРЅСѓСЃРѕРІ РІР°Рј РЅСѓР¶РµРЅ РІС‚РѕСЂРѕР№ РєРѕСЃС‚СЋРј.
+COMB_NOT_FULL_BOOK	РќРµС‚, С‚Р°Рє СЃРґРµР»РєР° РЅРµ РїРѕР»СѓС‡РёС‚СЃСЏ. РљР°Рє СЏ СѓР¶Рµ РіРѕРІРѕСЂРёР», РґР»СЏ РѕР±РјРµРЅР° РІС‹ РґРѕР»Р¶РЅС‹ РїСЂРёРЅРµСЃС‚Рё 10 РєРЅРёРі.
+COMB_NOT_ITEM_IN_INVENTORY	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРЅР°СЂСЏР¶РµРЅРЅС‹Рµ РїСЂРµРґРјРµС‚С‹.
+COMB_NOT_MEDIUM_ITEM	Р­С‚РѕС‚ РїСЂРµРґРјРµС‚ РЅРµРІРѕР·РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ.
+COMB_WILL_REMOVE_MATERIAL	РљРѕСЃС‚СЋРј 2 Р±СѓРґРµС‚ СѓРЅРёС‡С‚РѕР¶РµРЅ.
+CREATE_ERROR_GM_NAME	РРјСЏ РїРµСЂСЃРѕРЅР°Р¶Р° РЅРµ РґРѕР»Р¶РЅРѕ СЃРѕРґРµСЂР¶Р°С‚СЊ ,Р“РњвЂ .
+CREATE_ERROR_INSULT_NAME	Р­С‚Рѕ РёРјСЏ РЅРµРґРѕРїСѓСЃС‚РёРјРѕ.
+CREATE_ERROR_LIMIT_LEVEL	Р’Р°С€ РїРµСЂСЃРѕРЅР°Р¶ РґРѕР»Р¶РµРЅ РґРѕСЃС‚РёРіРЅСѓС‚СЊ РєР°Рє РјРёРЅРёРјСѓРј 80 СѓСЂРѕРІРЅСЏ.
+CREATE_ERROR_TIME_LIMIT	РЎРѕР·РґР°РЅРёРµ РїРµСЂСЃРѕРЅР°Р¶Р° РІРѕР·РјРѕР¶РЅРѕ Р»РёС€СЊ РєР°Р¶РґС‹Рµ 30 СЃРµРє.
+CREATE_ERROR_WRONG_STRING	РќР°Р·РІР°РЅРёРµ РїРµСЂСЃРѕРЅР°Р¶Р° РЅРµ РґРѕР»Р¶РЅРѕ СЃРѕРґРµСЂР¶Р°С‚СЊ СЃРїРµС†РёР°Р»СЊРЅС‹С… СЃРёРјРІРѕР»РѕРІ.
+CREATE_EXIST_SAME_NAME	РџРµСЂСЃРѕРЅР°Р¶ СЃ С‚Р°РєРёРј РёРјРµРЅРµРј СѓР¶Рµ СЃСѓС‰РµСЃС‚РІСѓРµС‚.
+CREATE_FAILURE	РЎРѕР·РґР°РЅРёРµ РїРµСЂСЃРѕРЅР°Р¶Р° РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+CREATE_FULL	РЎРѕР·РґР°РЅРёРµ РґР°Р»СЊРЅРµР№С€РёС… РїРµСЂСЃРѕРЅР°Р¶РµР№ РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+CREATE_GM_NAME	Р“Рњ
+CREATE_INPUT_NAME	Р’РІРµРґРёС‚Рµ РёРјСЏ.
+CREATE_PLUS_STAT	РћС‡РєРё СЃС‚Р°С‚СѓСЃР° РїРѕРєР° РґРѕСЃС‚СѓРїРЅС‹.
+DAY	Р”РЅРµР№
+DONT_USE_ITEM_WHEN_SHOW_CONFIRM	Р’Рѕ РІСЂРµРјСЏ Р·Р°РїСЂРѕСЃР° РЅРµРІРѕР·РјРѕР¶РЅРѕ РїРµСЂРµРјРµС‰Р°С‚СЊ РїСЂРµРґРјРµС‚С‹.
+DO_YOU_BUY_ITEM1	РҐРѕС‚РёС‚Рµ РєСѓРїРёС‚СЊ %s Р·Р° %s?
+DO_YOU_BUY_ITEM2	РљСѓРїРёС‚СЊ %s %s Р·Р° %s?
+DO_YOU_DROP_MONEY	РҐРѕС‚РёС‚Рµ РІС‹Р±СЂРѕСЃРёС‚СЊ %d СЏРЅРі?
+DO_YOU_SELL_ITEM1	РҐРѕС‚РёС‚Рµ РїСЂРѕРґР°С‚СЊ %s Р·Р° %s?
+DO_YOU_SELL_ITEM2	РҐРѕС‚РёС‚Рµ РїСЂРѕРґР°С‚СЊ %s %s Р·Р° %s ?
+DRAGON_SOUL_CANNOT_REFINE	РЈР»СѓС‡С€РµРЅРёРµ СЌС‚РѕРіРѕ РљР°РјРЅСЏ Р”СЂР°РєРѕРЅР° РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+DRAGON_SOUL_CANNOT_REFINE_MORE	Р­С‚РѕС‚ РљР°РјРµРЅСЊ Р”СЂР°РєРѕРЅР° СѓР¶Рµ РґРѕСЃС‚РёРі РЅР°РёРІС‹СЃС€РµРіРѕ СѓСЂРѕРІРЅСЏ.
+DRAGON_SOUL_EQUIP_WARNING1	РЈРґР°Р»РµРЅРёРµ РљР°РјРЅСЏ Р”СЂР°РєРѕРЅР°, СЃР»РѕР¶РЅС‹Р№ РїСЂРѕС†РµСЃСЃ.
+DRAGON_SOUL_EQUIP_WARNING2	Р РІСЃРµ Р¶Рµ РІС‹ Р¶РµР»Р°РµС‚Рµ РїРѕРїСЂРѕР±РѕРІР°С‚СЊ?
+DRAGON_SOUL_EXPIRED	РСЃРїРѕР»СЊР·РѕРІР°РЅРЅС‹Р№ РљР°РјРµРЅСЊ Р”СЂР°РєРѕРЅР°
+DRAGON_SOUL_INVALID_DRAGON_SOUL	Р­С‚Рѕ РЅРµ С‚РѕС‚ РљР°РјРµРЅСЊ Р”СЂР°РєРѕРЅР°.
+DRAGON_SOUL_IS_NOT_DRAGON_SOUL	Р­С‚Рѕ РЅРµ РљР°РјРµРЅСЊ Р”СЂР°РєРѕРЅР°.
+DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	Р­С‚Рѕ РЅРµ С‚РѕС‚ РљР°РјРµРЅСЊ Р”СЂР°РєРѕРЅР°.
+DRAGON_SOUL_NOT_ENOUGH_MATERIAL	РЈ РІР°СЃ РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РјР°С‚РµСЂРёР°Р»РѕРІ РґР»СЏ СѓР»СѓС‡С€РµРЅРёСЏ.
+DRAGON_SOUL_NOT_MATCHED_SLOT	РљР°РјРµРЅСЊ Р”СЂР°РєРѕРЅР° РЅРµ РїРѕРјРµС‰Р°РµС‚СЃСЏ РІ СЌС‚Сѓ СЏС‡РµР№РєСѓ.
+DRAGON_SOUL_STEP_LEVEL1	Р§РёСЃС‚РѕС‚Р°: РјР°С‚РѕРІС‹Р№.
+DRAGON_SOUL_STEP_LEVEL2	Р§РёСЃС‚РѕС‚Р°: РїСЂРѕР·СЂР°С‡РЅС‹Р№.
+DRAGON_SOUL_STEP_LEVEL3	Р§РёСЃС‚РѕС‚Р°: Р±РµР·СѓРїСЂРµС‡РЅС‹Р№.
+DRAGON_SOUL_STEP_LEVEL4	Р§РёСЃС‚РѕС‚Р°: Р±СЂРёР»Р»РёР°РЅС‚РѕРІС‹Р№.
+DRAGON_SOUL_STEP_LEVEL5	Р§РёСЃС‚РѕС‚Р°: РІРµР»РёРєРѕР»РµРїРЅС‹Р№.
+DRAGON_SOUL_STRENGTH	РЈСЂРѕРІРµРЅСЊ: +%d 	SA
+DRAGON_SOUL_UNEQUIP_WARNING1	РљР°РјРµРЅСЊ Р”СЂР°РєРѕРЅР° РјРѕР¶РµС‚ Р±С‹С‚СЊ СѓРЅРёС‡С‚РѕР¶РµРЅ.
+DRAGON_SOUL_UNEQUIP_WARNING2	Р РІСЃРµ Р¶Рµ РІС‹ Р¶РµР»Р°РµС‚Рµ РїРѕРїСЂРѕР±РѕРІР°С‚СЊ?
+DRAGON_SOUL_UNMATCHED_SLOT	Р­С‚Рѕ РЅРµ С‚Р° СЏС‡РµР№РєР°.
+DRAGON_SOUL_UNQUALIFIED	Р’С‹ РїРѕРєР° РЅРµ РјРѕР¶РµС‚Рµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ Р°Р»С…РёРјРёСЋ Р”СЂР°РєРѕРЅР°.
+DROP_ITEM_FAILURE_EQUIP_ITEM	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РІС‹Р±СЂРѕСЃРёС‚СЊ СЃРЅР°СЂСЏР¶РµРЅРЅС‹Р№ РїСЂРµРґРјРµС‚.
+DROP_ITEM_FAILURE_PRIVATE_SHOP	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РІС‹Р±СЂРѕСЃРёС‚СЊ СЃРЅР°СЂСЏР¶РµРЅРЅС‹Р№ РїСЂРµРґРјРµС‚ РІРѕ РІСЂРµРјСЏ РѕС‚РєСЂС‹С‚РёСЏ Р»Р°РІРєРё.
+DROP_MONEY_FAILURE_1000_OVER	Р’С‹ РјРѕР¶РµС‚Рµ РІС‹Р±СЂРѕСЃРёС‚СЊ РЅРµ Р±РѕР»СЊС€Рµ 999 СЏРЅРі.
+EMOTION_ANGRY	Р”РѕСЃР°РґР°
+EMOTION_ATTRACTIVE	РЎРѕР±Р»Р°Р·РЅРµРЅРёРµ
+EMOTION_BANTER	РСЂРѕРЅРёСЏ
+EMOTION_CHEERS_1	Р›РёРєРѕРІР°РЅРёРµ
+EMOTION_CHEERS_2	Р›РёРєРѕРІР°РЅРёРµ 2
+EMOTION_CHEERUP	Р›РёРєРѕРІР°РЅРёРµ
+EMOTION_CHOOSE_ONE	Р’С‹Р±РµСЂРёС‚Рµ С†РµР»СЊ.
+EMOTION_CLAP	РђРїРїР»РѕРґРёСЃРјРµРЅС‚
+EMOTION_CLAP_KISS	РџРѕС†РµР»СѓР№
+EMOTION_CONGRATULATION	РћРґРѕР±СЂРµРЅРёРµ
+EMOTION_DANCE_1	РўР°РЅРµС† 1
+EMOTION_DANCE_2	РўР°РЅРµС† 2
+EMOTION_DANCE_3	РўР°РЅРµС† 3
+EMOTION_DANCE_4	РўР°РЅРµС† 4
+EMOTION_DANCE_5	РўР°РЅРµС† 5
 EMOTION_DANCE_6	Gumsan Style
-EMOTION_FORGIVE	Мольба о прощении
-EMOTION_FRENCH_KISS	Поцелуй языками
-EMOTION_JOY	Радость
-EMOTION_SAD	Печаль
-EMOTION_SHY	Отказ
-EMOTION_SLAP	Удар
-EMPIRE_A	Империя Шиньзо
-EMPIRE_B	Империя Хунджо
-EMPIRE_C	Империя Джинно
-EMPIRE_SELECT_MODE	Выбор империи
-EXCHANGE_CANNOT_GIVE	Торговать этим предметом нельзя.
-EXCHANGE_CANT_EDIT_MONEY	Изменить стоимость в данный момент невозможно.
-EXCHANGE_FAILURE_EQUIP_ITEM	Вы не можете сменить используемые предметы..
-EXCHANGE_MONEY	Стоимость
-EXCHANGE_TITLE	Произвести сделку с %s
-FISHING_FAILURE	Вы потеряли наживку.
-FISHING_NOTIFY1	Похоже, что %s клюнула.
-FISHING_NOTIFY2	Похоже, что %s поймана.
-FISHING_SUCCESS1	Вы поймали %s!
-FISHING_SUCCESS2	%s принадлежит вам!
-FISHING_UNKNOWN	Я немогу разглядеть что я поймал.
-FISHING_WRONG_PLACE	Я не могу здесь рыбачить.
-FOR_FEMALE	Для женщин
-FOR_MALE	Для мужчин
-GAME_CANNOT_MINING	Сбор руды невозможен, пока вы на коне.
-GAME_CANNOT_PICK_ITEM	Забрать предмет невозможно, поскольку он был захвачен не вами.
-GAME_INIT_ERROR_CURSOR	Курсор не установлен.
-GAME_INIT_ERROR_DIRECTX	Для игры необходимо установить DirectX 8.1. \nУстановите DirectX версии 8.1 или выше.
-GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	Видеоадаптер не найден. \nПроверьте правильность установки видеокарты.
-GAME_INIT_ERROR_GRAPHICS_NOT_EXIST	Видеоадаптер не установлен.\nПроверьте, вставлена ли видеокарта.\nЛибо включите аппаратное ускорение.\n(Установите ползунок аппаратного ускорения на максимум в \nПанель управления - Экран - Параметры - Дополнительно - Диагностика)
-GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	Ваша видеокарта не поддерживает 32-битную цветопередачу в оконном режиме. \nУстановите 16-битную цветопередачу или полноэкранный режим.
-GAME_INIT_ERROR_ITEM_PROTO	Не найдены данные о предметах. \nПереустановите игру.
-GAME_INIT_ERROR_MAIN_WINDOW	Приложение вызвало ошибку и будет закрыто.
-GAME_INIT_ERROR_MOB_PROTO	Не найдены данные о существах. \nПереустановите игру.
-GAME_INIT_ERROR_NETWORK	Сетевые устройства не установлены. \nПроверьте соединение с интернетом.
-GAME_PICK_MONEY	Вы получили %d янг.
-GUILDMARK_UPLOADER_ERROR_128_HEIGHT	Высота изображения не 128 пикселей.
-GUILDMARK_UPLOADER_ERROR_12_HEIGHT	Высота изображения не 12 пикселей.
-GUILDMARK_UPLOADER_ERROR_16_WIDTH	Ширина изображения не 16 пикселей.
-GUILDMARK_UPLOADER_ERROR_64_WIDTH	Ширина изображения не 64 пикселей
-GUILDMARK_UPLOADER_ERROR_FILE_FORMAT	Игра не поддерживает данное изображение.
-GUILDMARK_UPLOADER_ERROR_PATH	Скопируйте файлы в папку metin2/upload.
-GUILDMARK_UPLOADER_ERROR_SELECT	Файл изображения не выбран.
-GUILDWAR_CTF_TITLE	Флаг захвачен.
-GUILDWAR_NORMAL_TITLE	Поле битвы
-GUILDWAR_QUESTION_LINE_1	Гильдия %s объявила войну вашей гильдии.
-GUILDWAR_QUESTION_LINE_2	Принять? (%s)
+EMOTION_FORGIVE	РњРѕР»СЊР±Р° Рѕ РїСЂРѕС‰РµРЅРёРё
+EMOTION_FRENCH_KISS	РџРѕС†РµР»СѓР№ СЏР·С‹РєР°РјРё
+EMOTION_JOY	Р Р°РґРѕСЃС‚СЊ
+EMOTION_SAD	РџРµС‡Р°Р»СЊ
+EMOTION_SHY	РћС‚РєР°Р·
+EMOTION_SLAP	РЈРґР°СЂ
+EMPIRE_A	РРјРїРµСЂРёСЏ РЁРёРЅСЊР·Рѕ
+EMPIRE_B	РРјРїРµСЂРёСЏ РҐСѓРЅРґР¶Рѕ
+EMPIRE_C	РРјРїРµСЂРёСЏ Р”Р¶РёРЅРЅРѕ
+EMPIRE_SELECT_MODE	Р’С‹Р±РѕСЂ РёРјРїРµСЂРёРё
+EXCHANGE_CANNOT_GIVE	РўРѕСЂРіРѕРІР°С‚СЊ СЌС‚РёРј РїСЂРµРґРјРµС‚РѕРј РЅРµР»СЊР·СЏ.
+EXCHANGE_CANT_EDIT_MONEY	РР·РјРµРЅРёС‚СЊ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ РґР°РЅРЅС‹Р№ РјРѕРјРµРЅС‚ РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+EXCHANGE_FAILURE_EQUIP_ITEM	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ СЃРјРµРЅРёС‚СЊ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ РїСЂРµРґРјРµС‚С‹..
+EXCHANGE_MONEY	РЎС‚РѕРёРјРѕСЃС‚СЊ
+EXCHANGE_TITLE	РџСЂРѕРёР·РІРµСЃС‚Рё СЃРґРµР»РєСѓ СЃ %s
+FISHING_FAILURE	Р’С‹ РїРѕС‚РµСЂСЏР»Рё РЅР°Р¶РёРІРєСѓ.
+FISHING_NOTIFY1	РџРѕС…РѕР¶Рµ, С‡С‚Рѕ %s РєР»СЋРЅСѓР»Р°.
+FISHING_NOTIFY2	РџРѕС…РѕР¶Рµ, С‡С‚Рѕ %s РїРѕР№РјР°РЅР°.
+FISHING_SUCCESS1	Р’С‹ РїРѕР№РјР°Р»Рё %s!
+FISHING_SUCCESS2	%s РїСЂРёРЅР°РґР»РµР¶РёС‚ РІР°Рј!
+FISHING_UNKNOWN	РЇ РЅРµРјРѕРіСѓ СЂР°Р·РіР»СЏРґРµС‚СЊ С‡С‚Рѕ СЏ РїРѕР№РјР°Р».
+FISHING_WRONG_PLACE	РЇ РЅРµ РјРѕРіСѓ Р·РґРµСЃСЊ СЂС‹Р±Р°С‡РёС‚СЊ.
+FOR_FEMALE	Р”Р»СЏ Р¶РµРЅС‰РёРЅ
+FOR_MALE	Р”Р»СЏ РјСѓР¶С‡РёРЅ
+GAME_CANNOT_MINING	РЎР±РѕСЂ СЂСѓРґС‹ РЅРµРІРѕР·РјРѕР¶РµРЅ, РїРѕРєР° РІС‹ РЅР° РєРѕРЅРµ.
+GAME_CANNOT_PICK_ITEM	Р—Р°Р±СЂР°С‚СЊ РїСЂРµРґРјРµС‚ РЅРµРІРѕР·РјРѕР¶РЅРѕ, РїРѕСЃРєРѕР»СЊРєСѓ РѕРЅ Р±С‹Р» Р·Р°С…РІР°С‡РµРЅ РЅРµ РІР°РјРё.
+GAME_INIT_ERROR_CURSOR	РљСѓСЂСЃРѕСЂ РЅРµ СѓСЃС‚Р°РЅРѕРІР»РµРЅ.
+GAME_INIT_ERROR_DIRECTX	Р”Р»СЏ РёРіСЂС‹ РЅРµРѕР±С…РѕРґРёРјРѕ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ DirectX 8.1. \nРЈСЃС‚Р°РЅРѕРІРёС‚Рµ DirectX РІРµСЂСЃРёРё 8.1 РёР»Рё РІС‹С€Рµ.
+GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	Р’РёРґРµРѕР°РґР°РїС‚РµСЂ РЅРµ РЅР°Р№РґРµРЅ. \nРџСЂРѕРІРµСЂСЊС‚Рµ РїСЂР°РІРёР»СЊРЅРѕСЃС‚СЊ СѓСЃС‚Р°РЅРѕРІРєРё РІРёРґРµРѕРєР°СЂС‚С‹.
+GAME_INIT_ERROR_GRAPHICS_NOT_EXIST	Р’РёРґРµРѕР°РґР°РїС‚РµСЂ РЅРµ СѓСЃС‚Р°РЅРѕРІР»РµРЅ.\nРџСЂРѕРІРµСЂСЊС‚Рµ, РІСЃС‚Р°РІР»РµРЅР° Р»Рё РІРёРґРµРѕРєР°СЂС‚Р°.\nР›РёР±Рѕ РІРєР»СЋС‡РёС‚Рµ Р°РїРїР°СЂР°С‚РЅРѕРµ СѓСЃРєРѕСЂРµРЅРёРµ.\n(РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РїРѕР»Р·СѓРЅРѕРє Р°РїРїР°СЂР°С‚РЅРѕРіРѕ СѓСЃРєРѕСЂРµРЅРёСЏ РЅР° РјР°РєСЃРёРјСѓРј РІ \nРџР°РЅРµР»СЊ СѓРїСЂР°РІР»РµРЅРёСЏ - Р­РєСЂР°РЅ - РџР°СЂР°РјРµС‚СЂС‹ - Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕ - Р”РёР°РіРЅРѕСЃС‚РёРєР°)
+GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	Р’Р°С€Р° РІРёРґРµРѕРєР°СЂС‚Р° РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚ 32-Р±РёС‚РЅСѓСЋ С†РІРµС‚РѕРїРµСЂРµРґР°С‡Сѓ РІ РѕРєРѕРЅРЅРѕРј СЂРµР¶РёРјРµ. \nРЈСЃС‚Р°РЅРѕРІРёС‚Рµ 16-Р±РёС‚РЅСѓСЋ С†РІРµС‚РѕРїРµСЂРµРґР°С‡Сѓ РёР»Рё РїРѕР»РЅРѕСЌРєСЂР°РЅРЅС‹Р№ СЂРµР¶РёРј.
+GAME_INIT_ERROR_ITEM_PROTO	РќРµ РЅР°Р№РґРµРЅС‹ РґР°РЅРЅС‹Рµ Рѕ РїСЂРµРґРјРµС‚Р°С…. \nРџРµСЂРµСѓСЃС‚Р°РЅРѕРІРёС‚Рµ РёРіСЂСѓ.
+GAME_INIT_ERROR_MAIN_WINDOW	РџСЂРёР»РѕР¶РµРЅРёРµ РІС‹Р·РІР°Р»Рѕ РѕС€РёР±РєСѓ Рё Р±СѓРґРµС‚ Р·Р°РєСЂС‹С‚Рѕ.
+GAME_INIT_ERROR_MOB_PROTO	РќРµ РЅР°Р№РґРµРЅС‹ РґР°РЅРЅС‹Рµ Рѕ СЃСѓС‰РµСЃС‚РІР°С…. \nРџРµСЂРµСѓСЃС‚Р°РЅРѕРІРёС‚Рµ РёРіСЂСѓ.
+GAME_INIT_ERROR_NETWORK	РЎРµС‚РµРІС‹Рµ СѓСЃС‚СЂРѕР№СЃС‚РІР° РЅРµ СѓСЃС‚Р°РЅРѕРІР»РµРЅС‹. \nРџСЂРѕРІРµСЂСЊС‚Рµ СЃРѕРµРґРёРЅРµРЅРёРµ СЃ РёРЅС‚РµСЂРЅРµС‚РѕРј.
+GAME_PICK_MONEY	Р’С‹ РїРѕР»СѓС‡РёР»Рё %d СЏРЅРі.
+GUILDMARK_UPLOADER_ERROR_128_HEIGHT	Р’С‹СЃРѕС‚Р° РёР·РѕР±СЂР°Р¶РµРЅРёСЏ РЅРµ 128 РїРёРєСЃРµР»РµР№.
+GUILDMARK_UPLOADER_ERROR_12_HEIGHT	Р’С‹СЃРѕС‚Р° РёР·РѕР±СЂР°Р¶РµРЅРёСЏ РЅРµ 12 РїРёРєСЃРµР»РµР№.
+GUILDMARK_UPLOADER_ERROR_16_WIDTH	РЁРёСЂРёРЅР° РёР·РѕР±СЂР°Р¶РµРЅРёСЏ РЅРµ 16 РїРёРєСЃРµР»РµР№.
+GUILDMARK_UPLOADER_ERROR_64_WIDTH	РЁРёСЂРёРЅР° РёР·РѕР±СЂР°Р¶РµРЅРёСЏ РЅРµ 64 РїРёРєСЃРµР»РµР№
+GUILDMARK_UPLOADER_ERROR_FILE_FORMAT	РРіСЂР° РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚ РґР°РЅРЅРѕРµ РёР·РѕР±СЂР°Р¶РµРЅРёРµ.
+GUILDMARK_UPLOADER_ERROR_PATH	РЎРєРѕРїРёСЂСѓР№С‚Рµ С„Р°Р№Р»С‹ РІ РїР°РїРєСѓ metin2/upload.
+GUILDMARK_UPLOADER_ERROR_SELECT	Р¤Р°Р№Р» РёР·РѕР±СЂР°Р¶РµРЅРёСЏ РЅРµ РІС‹Р±СЂР°РЅ.
+GUILDWAR_CTF_TITLE	Р¤Р»Р°Рі Р·Р°С…РІР°С‡РµРЅ.
+GUILDWAR_NORMAL_TITLE	РџРѕР»Рµ Р±РёС‚РІС‹
+GUILDWAR_QUESTION_LINE_1	Р“РёР»СЊРґРёСЏ %s РѕР±СЉСЏРІРёР»Р° РІРѕР№РЅСѓ РІР°С€РµР№ РіРёР»СЊРґРёРё.
+GUILDWAR_QUESTION_LINE_2	РџСЂРёРЅСЏС‚СЊ? (%s)
 GUILDWAR_UNKNOWN_TITLE	...
-GUILDWAR_WARP_TITLE	Арена войны гильдий
-GUILD_BUILDING_GRADE	Ранг
-GUILD_BUILDING_NAME	Название здания
-GUILD_CANNOT_HEAL_GSP_ANYMORE	Энергия Духа Дракона полностью востановлена.
-GUILD_COMMENT	Писать
-GUILD_CREATE_ERROR_INSULT_NAME	Имя гильдии недопустимо.
-GUILD_DEFAULT_GRADE	Член гильдии
-GUILD_DELETE	Удалить
-GUILD_DEPOSIT	Отложить
-GUILD_DO_YOU_HEAL_GSP	Желаете восстановить за %d янг %d Духа Дракона?
-GUILD_DO_YOU_JOIN	 хотите присоединиться к гильдии?
-GUILD_EMPTY_AREA	Пустая Земля
-GUILD_ENEMY_GUILD_NAME	Имя гильдии противника
-GUILD_FACILITY	Пристройка
-GUILD_GEM	Самоцвет
-GUILD_HEADQUARTER	Главный корпус
-GUILD_HEAL_GSP	Восстановить Дух Дракона
-GUILD_INFO_ENEMY_GUILD_EMPTY	нет
-GUILD_MARK_NOT_ENOUGH_LEVEL	Требуется мин. 3 уровень
-GUILD_NAME	Имя гильдии
-GUILD_NOT_ENOUGH_MATERIAL	У вас недостаточно строительного материала, чтобы построить это здание.
-GUILD_NOT_ENOUGH_MONEY	У вас недостаточно янг для  этого сооружения.
-GUILD_NO_NOTICE_PERMISSION	Вы не вправе делать уведомления.
-GUILD_OBJECT	Объекты
-GUILD_OFFER_EXP	Инвестировать опыт
-GUILD_SHORT_EXP	Недостаточно опыта
-GUILD_TILE_BASEINFO	Базовая информация
-GUILD_TILE_BOARD	Плитка
-GUILD_TILE_GRADE	Управление позицией
-GUILD_TILE_INFO	Гильдия-инфо
-GUILD_TILE_MEMBER	Члены гильдии
-GUILD_TILE_SKILL	Навыки гильдии
-GUILD_VILLAGE_01	Мирйанг
-GUILD_VILLAGE_02	Сонгпа
-GUILD_VILLAGE_03	Даэйами
-GUILD_WAR1	Территория войны гильдий
-GUILD_WAR2	Территория войны гильдий
-GUILD_WAR3	Территория войны гильдий
-GUILD_WAR4	Территория войны гильдий
-GUILD_WAR_LIMIT_30MIN	Время: 30 минут
-GUILD_WAR_REWARD_POTION	Награда: победитель получает зелье
-GUILD_WAR_USE_BATTLE_MAP	Местность: арена войны гильдий
-GUILD_WAR_USE_NORMAL_MAP	Местонахождение: стандартная карта
-GUILD_WAR_WIN_CHECK_SCORE	Лучший результат приносит победу в войне.
-GUILD_WAR_WIN_TAKE_AWAY_FLAG1	Захватите флаг противника
-GUILD_WAR_WIN_TAKE_AWAY_FLAG2	и принесите его к Вашей базе.
-GUILD_WAR_WIN_WIPE_OUT_GUILD	Устраните всех противников, чтобы победить.
-GUILD_WITHDRAW	Отвод
-GUILD_YOU_DO_NOT_JOIN	Вы не состоите ни в одной гильдии.
-HORSE_HEALTH0	Убит
-HORSE_HEALTH1	Голоден
-HORSE_HEALTH2	Умирает от голода
-HORSE_HEALTH3	перегружен
-HORSE_LEVEL1	Обычный конь
-HORSE_LEVEL2	Броневой конь
-HORSE_LEVEL3	Боевой конь
-HOUR	Час.
-HOW_MANY_ITEM_DO_YOU_DROP1	Хотите выбросить %s?
-HOW_MANY_ITEM_DO_YOU_DROP2	Хотите выбросить %s %d ?
-INPUT_MATRIX_CARD_NUMBER	Введите номер "матрица"-карты.
-INPUT_MATRIX_CARD_TITLE	"Матрица"-карта
-INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Введите код удаления из управления учётной записью.
-INPUT_PRIVATE_CODE_DIALOG_TITLE	Удалить персонаж
-INVENTORY_DO_NOT_PACK_WARP_SCROLL	Комбинирование свитка Возвращения невозможно.
-INVENTORY_REALLY_USE_ITEM	Применить на этом предмете?
-JOB_ASSASSIN	Ниндзя
-JOB_ASSASSIN0	Ниндзя-новичок
-JOB_ASSASSIN1	Сила Ниндзя
-JOB_ASSASSIN2	Нежить
-JOB_SHAMAN	Шаман
-JOB_SHAMAN0	Шаман-новичок
-JOB_SHAMAN1	Могущество Дракона
-JOB_SHAMAN2	Сила молнии
-JOB_SURA	Сура
-JOB_SURA0	Сура-новичок
-JOB_SURA1	Могущество Фата Моргана
-JOB_SURA2	Могущество Чёрной магии
-JOB_WARRIOR	Воин
-JOB_WARRIOR0	Воин-новичок
-JOB_WARRIOR1	Могущество Арахана
-JOB_WARRIOR2	Могущество Партизанов
-LEFT_TIME	Остав.время
-LOGIN_CONNECT_FAILURE	Ошибка при соединении с сервером.
-LOGIN_CONNECT_SUCCESS	Вы соединены с сервером.
-LOGIN_CONNETING	Происходит соединение с сервером...
-LOGIN_FAILURE_ALREAY	Ваша учётная запись  уже соединена.
-LOGIN_FAILURE_BE_SAME_KEY	Проблема с регистрацией
-LOGIN_FAILURE_BLOCK_ID	Учетная запись заблокирована.
-LOGIN_FAILURE_BLOCK_LOGIN	Выберите другой сервер!
-LOGIN_FAILURE_NOBILL	В вашей учётной записи нет игрового времени.
-LOGIN_FAILURE_NOT_AVAIL	Учётная запись недоступна.
-LOGIN_FAILURE_NOT_EXIST_ID	Неверное имя или пароль.
-LOGIN_FAILURE_REPAIR_ID	Предметы для данного учётной записи  сейчас восстанавливаются.
-LOGIN_FAILURE_SAMELOGIN	Кто-то зашел на ваш аккаунт.
-LOGIN_FAILURE_SHUTDOWN	Сервер пока ещё закрыт.
-LOGIN_FAILURE_TOO_MANY_USER	В соединении отказано. Сервер переполнен.
-LOGIN_FAILURE_UNKNOWN	Регистрация  не состоялась по неизвестным причинам.
-LOGIN_FAILURE_WEB_BLOCK	Вас заблокировали на сайте. Пожалуйста проверьте  свой Email.
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	Введён неверный номер.
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	Неверный номер введён трижды. Связь будет прервана.
-LOGIN_FAILURE_WRONG_PASSWORD	Неправильное имя или пароль.
-LOGIN_INPUT_ID	Введите номер идентификации.
-LOGIN_INPUT_PASSWORD	Введите пароль.
-LOGIN_PROCESSING	Происходит регистрация...
-MALL_CANNOT_INSERT	Вы не можете  внести предмет.
-MALL_PASSWORD_TITLE	Пароль
-MAP_A1	Земля Йонган
-MAP_A2	Долина Сеунгрийонг
+GUILDWAR_WARP_TITLE	РђСЂРµРЅР° РІРѕР№РЅС‹ РіРёР»СЊРґРёР№
+GUILD_BUILDING_GRADE	Р Р°РЅРі
+GUILD_BUILDING_NAME	РќР°Р·РІР°РЅРёРµ Р·РґР°РЅРёСЏ
+GUILD_CANNOT_HEAL_GSP_ANYMORE	Р­РЅРµСЂРіРёСЏ Р”СѓС…Р° Р”СЂР°РєРѕРЅР° РїРѕР»РЅРѕСЃС‚СЊСЋ РІРѕСЃС‚Р°РЅРѕРІР»РµРЅР°.
+GUILD_COMMENT	РџРёСЃР°С‚СЊ
+GUILD_CREATE_ERROR_INSULT_NAME	РРјСЏ РіРёР»СЊРґРёРё РЅРµРґРѕРїСѓСЃС‚РёРјРѕ.
+GUILD_DEFAULT_GRADE	Р§Р»РµРЅ РіРёР»СЊРґРёРё
+GUILD_DELETE	РЈРґР°Р»РёС‚СЊ
+GUILD_DEPOSIT	РћС‚Р»РѕР¶РёС‚СЊ
+GUILD_DO_YOU_HEAL_GSP	Р–РµР»Р°РµС‚Рµ РІРѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ Р·Р° %d СЏРЅРі %d Р”СѓС…Р° Р”СЂР°РєРѕРЅР°?
+GUILD_DO_YOU_JOIN	 С…РѕС‚РёС‚Рµ РїСЂРёСЃРѕРµРґРёРЅРёС‚СЊСЃСЏ Рє РіРёР»СЊРґРёРё?
+GUILD_EMPTY_AREA	РџСѓСЃС‚Р°СЏ Р—РµРјР»СЏ
+GUILD_ENEMY_GUILD_NAME	РРјСЏ РіРёР»СЊРґРёРё РїСЂРѕС‚РёРІРЅРёРєР°
+GUILD_FACILITY	РџСЂРёСЃС‚СЂРѕР№РєР°
+GUILD_GEM	РЎР°РјРѕС†РІРµС‚
+GUILD_HEADQUARTER	Р“Р»Р°РІРЅС‹Р№ РєРѕСЂРїСѓСЃ
+GUILD_HEAL_GSP	Р’РѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ Р”СѓС… Р”СЂР°РєРѕРЅР°
+GUILD_INFO_ENEMY_GUILD_EMPTY	РЅРµС‚
+GUILD_MARK_NOT_ENOUGH_LEVEL	РўСЂРµР±СѓРµС‚СЃСЏ РјРёРЅ. 3 СѓСЂРѕРІРµРЅСЊ
+GUILD_NAME	РРјСЏ РіРёР»СЊРґРёРё
+GUILD_NOT_ENOUGH_MATERIAL	РЈ РІР°СЃ РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ СЃС‚СЂРѕРёС‚РµР»СЊРЅРѕРіРѕ РјР°С‚РµСЂРёР°Р»Р°, С‡С‚РѕР±С‹ РїРѕСЃС‚СЂРѕРёС‚СЊ СЌС‚Рѕ Р·РґР°РЅРёРµ.
+GUILD_NOT_ENOUGH_MONEY	РЈ РІР°СЃ РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ СЏРЅРі РґР»СЏ  СЌС‚РѕРіРѕ СЃРѕРѕСЂСѓР¶РµРЅРёСЏ.
+GUILD_NO_NOTICE_PERMISSION	Р’С‹ РЅРµ РІРїСЂР°РІРµ РґРµР»Р°С‚СЊ СѓРІРµРґРѕРјР»РµРЅРёСЏ.
+GUILD_OBJECT	РћР±СЉРµРєС‚С‹
+GUILD_OFFER_EXP	РРЅРІРµСЃС‚РёСЂРѕРІР°С‚СЊ РѕРїС‹С‚
+GUILD_SHORT_EXP	РќРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РѕРїС‹С‚Р°
+GUILD_TILE_BASEINFO	Р‘Р°Р·РѕРІР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+GUILD_TILE_BOARD	РџР»РёС‚РєР°
+GUILD_TILE_GRADE	РЈРїСЂР°РІР»РµРЅРёРµ РїРѕР·РёС†РёРµР№
+GUILD_TILE_INFO	Р“РёР»СЊРґРёСЏ-РёРЅС„Рѕ
+GUILD_TILE_MEMBER	Р§Р»РµРЅС‹ РіРёР»СЊРґРёРё
+GUILD_TILE_SKILL	РќР°РІС‹РєРё РіРёР»СЊРґРёРё
+GUILD_VILLAGE_01	РњРёСЂР№Р°РЅРі
+GUILD_VILLAGE_02	РЎРѕРЅРіРїР°
+GUILD_VILLAGE_03	Р”Р°СЌР№Р°РјРё
+GUILD_WAR1	РўРµСЂСЂРёС‚РѕСЂРёСЏ РІРѕР№РЅС‹ РіРёР»СЊРґРёР№
+GUILD_WAR2	РўРµСЂСЂРёС‚РѕСЂРёСЏ РІРѕР№РЅС‹ РіРёР»СЊРґРёР№
+GUILD_WAR3	РўРµСЂСЂРёС‚РѕСЂРёСЏ РІРѕР№РЅС‹ РіРёР»СЊРґРёР№
+GUILD_WAR4	РўРµСЂСЂРёС‚РѕСЂРёСЏ РІРѕР№РЅС‹ РіРёР»СЊРґРёР№
+GUILD_WAR_LIMIT_30MIN	Р’СЂРµРјСЏ: 30 РјРёРЅСѓС‚
+GUILD_WAR_REWARD_POTION	РќР°РіСЂР°РґР°: РїРѕР±РµРґРёС‚РµР»СЊ РїРѕР»СѓС‡Р°РµС‚ Р·РµР»СЊРµ
+GUILD_WAR_USE_BATTLE_MAP	РњРµСЃС‚РЅРѕСЃС‚СЊ: Р°СЂРµРЅР° РІРѕР№РЅС‹ РіРёР»СЊРґРёР№
+GUILD_WAR_USE_NORMAL_MAP	РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ: СЃС‚Р°РЅРґР°СЂС‚РЅР°СЏ РєР°СЂС‚Р°
+GUILD_WAR_WIN_CHECK_SCORE	Р›СѓС‡С€РёР№ СЂРµР·СѓР»СЊС‚Р°С‚ РїСЂРёРЅРѕСЃРёС‚ РїРѕР±РµРґСѓ РІ РІРѕР№РЅРµ.
+GUILD_WAR_WIN_TAKE_AWAY_FLAG1	Р—Р°С…РІР°С‚РёС‚Рµ С„Р»Р°Рі РїСЂРѕС‚РёРІРЅРёРєР°
+GUILD_WAR_WIN_TAKE_AWAY_FLAG2	Рё РїСЂРёРЅРµСЃРёС‚Рµ РµРіРѕ Рє Р’Р°С€РµР№ Р±Р°Р·Рµ.
+GUILD_WAR_WIN_WIPE_OUT_GUILD	РЈСЃС‚СЂР°РЅРёС‚Рµ РІСЃРµС… РїСЂРѕС‚РёРІРЅРёРєРѕРІ, С‡С‚РѕР±С‹ РїРѕР±РµРґРёС‚СЊ.
+GUILD_WITHDRAW	РћС‚РІРѕРґ
+GUILD_YOU_DO_NOT_JOIN	Р’С‹ РЅРµ СЃРѕСЃС‚РѕРёС‚Рµ РЅРё РІ РѕРґРЅРѕР№ РіРёР»СЊРґРёРё.
+HORSE_HEALTH0	РЈР±РёС‚
+HORSE_HEALTH1	Р“РѕР»РѕРґРµРЅ
+HORSE_HEALTH2	РЈРјРёСЂР°РµС‚ РѕС‚ РіРѕР»РѕРґР°
+HORSE_HEALTH3	РїРµСЂРµРіСЂСѓР¶РµРЅ
+HORSE_LEVEL1	РћР±С‹С‡РЅС‹Р№ РєРѕРЅСЊ
+HORSE_LEVEL2	Р‘СЂРѕРЅРµРІРѕР№ РєРѕРЅСЊ
+HORSE_LEVEL3	Р‘РѕРµРІРѕР№ РєРѕРЅСЊ
+HOUR	Р§Р°СЃ.
+HOW_MANY_ITEM_DO_YOU_DROP1	РҐРѕС‚РёС‚Рµ РІС‹Р±СЂРѕСЃРёС‚СЊ %s?
+HOW_MANY_ITEM_DO_YOU_DROP2	РҐРѕС‚РёС‚Рµ РІС‹Р±СЂРѕСЃРёС‚СЊ %s %d ?
+INPUT_MATRIX_CARD_NUMBER	Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ "РјР°С‚СЂРёС†Р°"-РєР°СЂС‚С‹.
+INPUT_MATRIX_CARD_TITLE	"РњР°С‚СЂРёС†Р°"-РєР°СЂС‚Р°
+INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Р’РІРµРґРёС‚Рµ РєРѕРґ СѓРґР°Р»РµРЅРёСЏ РёР· СѓРїСЂР°РІР»РµРЅРёСЏ СѓС‡С‘С‚РЅРѕР№ Р·Р°РїРёСЃСЊСЋ.
+INPUT_PRIVATE_CODE_DIALOG_TITLE	РЈРґР°Р»РёС‚СЊ РїРµСЂСЃРѕРЅР°Р¶
+INVENTORY_DO_NOT_PACK_WARP_SCROLL	РљРѕРјР±РёРЅРёСЂРѕРІР°РЅРёРµ СЃРІРёС‚РєР° Р’РѕР·РІСЂР°С‰РµРЅРёСЏ РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+INVENTORY_REALLY_USE_ITEM	РџСЂРёРјРµРЅРёС‚СЊ РЅР° СЌС‚РѕРј РїСЂРµРґРјРµС‚Рµ?
+JOB_ASSASSIN	РќРёРЅРґР·СЏ
+JOB_ASSASSIN0	РќРёРЅРґР·СЏ-РЅРѕРІРёС‡РѕРє
+JOB_ASSASSIN1	РЎРёР»Р° РќРёРЅРґР·СЏ
+JOB_ASSASSIN2	РќРµР¶РёС‚СЊ
+JOB_SHAMAN	РЁР°РјР°РЅ
+JOB_SHAMAN0	РЁР°РјР°РЅ-РЅРѕРІРёС‡РѕРє
+JOB_SHAMAN1	РњРѕРіСѓС‰РµСЃС‚РІРѕ Р”СЂР°РєРѕРЅР°
+JOB_SHAMAN2	РЎРёР»Р° РјРѕР»РЅРёРё
+JOB_SURA	РЎСѓСЂР°
+JOB_SURA0	РЎСѓСЂР°-РЅРѕРІРёС‡РѕРє
+JOB_SURA1	РњРѕРіСѓС‰РµСЃС‚РІРѕ Р¤Р°С‚Р° РњРѕСЂРіР°РЅР°
+JOB_SURA2	РњРѕРіСѓС‰РµСЃС‚РІРѕ Р§С‘СЂРЅРѕР№ РјР°РіРёРё
+JOB_WARRIOR	Р’РѕРёРЅ
+JOB_WARRIOR0	Р’РѕРёРЅ-РЅРѕРІРёС‡РѕРє
+JOB_WARRIOR1	РњРѕРіСѓС‰РµСЃС‚РІРѕ РђСЂР°С…Р°РЅР°
+JOB_WARRIOR2	РњРѕРіСѓС‰РµСЃС‚РІРѕ РџР°СЂС‚РёР·Р°РЅРѕРІ
+LEFT_TIME	РћСЃС‚Р°РІ.РІСЂРµРјСЏ
+LOGIN_CONNECT_FAILURE	РћС€РёР±РєР° РїСЂРё СЃРѕРµРґРёРЅРµРЅРёРё СЃ СЃРµСЂРІРµСЂРѕРј.
+LOGIN_CONNECT_SUCCESS	Р’С‹ СЃРѕРµРґРёРЅРµРЅС‹ СЃ СЃРµСЂРІРµСЂРѕРј.
+LOGIN_CONNETING	РџСЂРѕРёСЃС…РѕРґРёС‚ СЃРѕРµРґРёРЅРµРЅРёРµ СЃ СЃРµСЂРІРµСЂРѕРј...
+LOGIN_FAILURE_ALREAY	Р’Р°С€Р° СѓС‡С‘С‚РЅР°СЏ Р·Р°РїРёСЃСЊ  СѓР¶Рµ СЃРѕРµРґРёРЅРµРЅР°.
+LOGIN_FAILURE_BE_SAME_KEY	РџСЂРѕР±Р»РµРјР° СЃ СЂРµРіРёСЃС‚СЂР°С†РёРµР№
+LOGIN_FAILURE_BLOCK_ID	РЈС‡РµС‚РЅР°СЏ Р·Р°РїРёСЃСЊ Р·Р°Р±Р»РѕРєРёСЂРѕРІР°РЅР°.
+LOGIN_FAILURE_BLOCK_LOGIN	Р’С‹Р±РµСЂРёС‚Рµ РґСЂСѓРіРѕР№ СЃРµСЂРІРµСЂ!
+LOGIN_FAILURE_NOBILL	Р’ РІР°С€РµР№ СѓС‡С‘С‚РЅРѕР№ Р·Р°РїРёСЃРё РЅРµС‚ РёРіСЂРѕРІРѕРіРѕ РІСЂРµРјРµРЅРё.
+LOGIN_FAILURE_NOT_AVAIL	РЈС‡С‘С‚РЅР°СЏ Р·Р°РїРёСЃСЊ РЅРµРґРѕСЃС‚СѓРїРЅР°.
+LOGIN_FAILURE_NOT_EXIST_ID	РќРµРІРµСЂРЅРѕРµ РёРјСЏ РёР»Рё РїР°СЂРѕР»СЊ.
+LOGIN_FAILURE_REPAIR_ID	РџСЂРµРґРјРµС‚С‹ РґР»СЏ РґР°РЅРЅРѕРіРѕ СѓС‡С‘С‚РЅРѕР№ Р·Р°РїРёСЃРё  СЃРµР№С‡Р°СЃ РІРѕСЃСЃС‚Р°РЅР°РІР»РёРІР°СЋС‚СЃСЏ.
+LOGIN_FAILURE_SAMELOGIN	РљС‚Рѕ-С‚Рѕ Р·Р°С€РµР» РЅР° РІР°С€ Р°РєРєР°СѓРЅС‚.
+LOGIN_FAILURE_SHUTDOWN	РЎРµСЂРІРµСЂ РїРѕРєР° РµС‰С‘ Р·Р°РєСЂС‹С‚.
+LOGIN_FAILURE_TOO_MANY_USER	Р’ СЃРѕРµРґРёРЅРµРЅРёРё РѕС‚РєР°Р·Р°РЅРѕ. РЎРµСЂРІРµСЂ РїРµСЂРµРїРѕР»РЅРµРЅ.
+LOGIN_FAILURE_UNKNOWN	Р РµРіРёСЃС‚СЂР°С†РёСЏ  РЅРµ СЃРѕСЃС‚РѕСЏР»Р°СЃСЊ РїРѕ РЅРµРёР·РІРµСЃС‚РЅС‹Рј РїСЂРёС‡РёРЅР°Рј.
+LOGIN_FAILURE_WEB_BLOCK	Р’Р°СЃ Р·Р°Р±Р»РѕРєРёСЂРѕРІР°Р»Рё РЅР° СЃР°Р№С‚Рµ. РџРѕР¶Р°Р»СѓР№СЃС‚Р° РїСЂРѕРІРµСЂСЊС‚Рµ  СЃРІРѕР№ Email.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	Р’РІРµРґС‘РЅ РЅРµРІРµСЂРЅС‹Р№ РЅРѕРјРµСЂ.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	РќРµРІРµСЂРЅС‹Р№ РЅРѕРјРµСЂ РІРІРµРґС‘РЅ С‚СЂРёР¶РґС‹. РЎРІСЏР·СЊ Р±СѓРґРµС‚ РїСЂРµСЂРІР°РЅР°.
+LOGIN_FAILURE_WRONG_PASSWORD	РќРµРїСЂР°РІРёР»СЊРЅРѕРµ РёРјСЏ РёР»Рё РїР°СЂРѕР»СЊ.
+LOGIN_INPUT_ID	Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РёРґРµРЅС‚РёС„РёРєР°С†РёРё.
+LOGIN_INPUT_PASSWORD	Р’РІРµРґРёС‚Рµ РїР°СЂРѕР»СЊ.
+LOGIN_PROCESSING	РџСЂРѕРёСЃС…РѕРґРёС‚ СЂРµРіРёСЃС‚СЂР°С†РёСЏ...
+MALL_CANNOT_INSERT	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ  РІРЅРµСЃС‚Рё РїСЂРµРґРјРµС‚.
+MALL_PASSWORD_TITLE	РџР°СЂРѕР»СЊ
+MAP_A1	Р—РµРјР»СЏ Р™РѕРЅРіР°РЅ
+MAP_A2	Р”РѕР»РёРЅР° РЎРµСѓРЅРіСЂРёР№РѕРЅРі
 MAP_A2_1	
-MAP_A3	Земля Яянг
-MAP_AG	Юнгранг
-MAP_B1	Земля Йоан
-MAP_B2	Долина Имджи
-MAP_B3	Земля Бокъюнг
-MAP_BAY	Нефритовый залив
-MAP_BAYBLACKSAND	Нефритовый залив
-MAP_BG	Варйонг
-MAP_C1	Земля Пуингмо
-MAP_C2	Долина Бангзан
-MAP_C3	Земля Бакра
-MAP_CAPE	Мыс пламя дракона
-MAP_CAPEDRAGONHEAD	Мыс пламя дракона
-MAP_CG	Имха
-MAP_DAWN	Утес Гаутама
-MAP_DAWNMISTWOOD	Утес Гаутама
-MAP_DESERT	Пустыня Йонгби
-MAP_DEVILCATACOMB	Катакомбы дьявола
-MAP_DEVILTOWER1	Башня демонов
-MAP_DUEL	Арена для учебных боев
-MAP_E	Колония
-MAP_EMPIREWAR01	Битва Замков
-MAP_EMPIREWAR02	Битва Замков
-MAP_EMPIREWAR03	Битва Замков
-MAP_FLAME	Доюмхван
-MAP_GUILD_01	Юнгранг
-MAP_GUILD_02	Варйонг
-MAP_GUILD_03	Имха
-MAP_HOLYPLACE_DESERT	Битва Империй-Пустынные земли
-MAP_HOLYPLACE_FLAME	Битва Империй-Огненные земли
-MAP_HOLYPLACE_ICE	Битва Империй-Ледяные земли
-MAP_MILGYO	Храм Хванг
+MAP_A3	Р—РµРјР»СЏ РЇСЏРЅРі
+MAP_AG	Р®РЅРіСЂР°РЅРі
+MAP_B1	Р—РµРјР»СЏ Р™РѕР°РЅ
+MAP_B2	Р”РѕР»РёРЅР° РРјРґР¶Рё
+MAP_B3	Р—РµРјР»СЏ Р‘РѕРєСЉСЋРЅРі
+MAP_BAY	РќРµС„СЂРёС‚РѕРІС‹Р№ Р·Р°Р»РёРІ
+MAP_BAYBLACKSAND	РќРµС„СЂРёС‚РѕРІС‹Р№ Р·Р°Р»РёРІ
+MAP_BG	Р’Р°СЂР№РѕРЅРі
+MAP_C1	Р—РµРјР»СЏ РџСѓРёРЅРіРјРѕ
+MAP_C2	Р”РѕР»РёРЅР° Р‘Р°РЅРіР·Р°РЅ
+MAP_C3	Р—РµРјР»СЏ Р‘Р°РєСЂР°
+MAP_CAPE	РњС‹СЃ РїР»Р°РјСЏ РґСЂР°РєРѕРЅР°
+MAP_CAPEDRAGONHEAD	РњС‹СЃ РїР»Р°РјСЏ РґСЂР°РєРѕРЅР°
+MAP_CG	РРјС…Р°
+MAP_DAWN	РЈС‚РµСЃ Р“Р°СѓС‚Р°РјР°
+MAP_DAWNMISTWOOD	РЈС‚РµСЃ Р“Р°СѓС‚Р°РјР°
+MAP_DESERT	РџСѓСЃС‚С‹РЅСЏ Р™РѕРЅРіР±Рё
+MAP_DEVILCATACOMB	РљР°С‚Р°РєРѕРјР±С‹ РґСЊСЏРІРѕР»Р°
+MAP_DEVILTOWER1	Р‘Р°С€РЅСЏ РґРµРјРѕРЅРѕРІ
+MAP_DUEL	РђСЂРµРЅР° РґР»СЏ СѓС‡РµР±РЅС‹С… Р±РѕРµРІ
+MAP_E	РљРѕР»РѕРЅРёСЏ
+MAP_EMPIREWAR01	Р‘РёС‚РІР° Р—Р°РјРєРѕРІ
+MAP_EMPIREWAR02	Р‘РёС‚РІР° Р—Р°РјРєРѕРІ
+MAP_EMPIREWAR03	Р‘РёС‚РІР° Р—Р°РјРєРѕРІ
+MAP_FLAME	Р”РѕСЋРјС…РІР°РЅ
+MAP_GUILD_01	Р®РЅРіСЂР°РЅРі
+MAP_GUILD_02	Р’Р°СЂР№РѕРЅРі
+MAP_GUILD_03	РРјС…Р°
+MAP_HOLYPLACE_DESERT	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РџСѓСЃС‚С‹РЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_HOLYPLACE_FLAME	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РћРіРЅРµРЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_HOLYPLACE_ICE	Р‘РёС‚РІР° РРјРїРµСЂРёР№-Р›РµРґСЏРЅС‹Рµ Р·РµРјР»Рё
+MAP_MILGYO	РҐСЂР°Рј РҐРІР°РЅРі
 MAP_MILGYO_A	
-MAP_MONKEY_DUNGEON	Хасун Донг
-MAP_MONKEY_DUNGEON2	Юнгсун Донг
-MAP_MONKEY_DUNGEON3	Сангсун Донг
-MAP_MONKEY_DUNGEON_11	Хасун Донг
-MAP_MONKEY_DUNGEON_12	Хасун Донг
-MAP_MONKEY_DUNGEON_13	Хасун Донг
-MAP_MT_THUNDER	Горы грома
-MAP_NUSLUCK	Земля Громил
-MAP_NUSLUCK01	Земля Громил
-MAP_N_DESERT_01	Пустыня Йонгби
+MAP_MONKEY_DUNGEON	РҐР°СЃСѓРЅ Р”РѕРЅРі
+MAP_MONKEY_DUNGEON2	Р®РЅРіСЃСѓРЅ Р”РѕРЅРі
+MAP_MONKEY_DUNGEON3	РЎР°РЅРіСЃСѓРЅ Р”РѕРЅРі
+MAP_MONKEY_DUNGEON_11	РҐР°СЃСѓРЅ Р”РѕРЅРі
+MAP_MONKEY_DUNGEON_12	РҐР°СЃСѓРЅ Р”РѕРЅРі
+MAP_MONKEY_DUNGEON_13	РҐР°СЃСѓРЅ Р”РѕРЅРі
+MAP_MT_THUNDER	Р“РѕСЂС‹ РіСЂРѕРјР°
+MAP_NUSLUCK	Р—РµРјР»СЏ Р“СЂРѕРјРёР»
+MAP_NUSLUCK01	Р—РµРјР»СЏ Р“СЂРѕРјРёР»
+MAP_N_DESERT_01	РџСѓСЃС‚С‹РЅСЏ Р™РѕРЅРіР±Рё
 MAP_N_DESERT_02	
-MAP_N_FLAME_01	Огненные земли
+MAP_N_FLAME_01	РћРіРЅРµРЅРЅС‹Рµ Р·РµРјР»Рё
 MAP_N_FLAME_02	
-MAP_N_FLAME_DUNGEON_01	Крепость красного дракона
-MAP_N_SNOWM_01	Гора Сохан
+MAP_N_FLAME_DUNGEON_01	РљСЂРµРїРѕСЃС‚СЊ РєСЂР°СЃРЅРѕРіРѕ РґСЂР°РєРѕРЅР°
+MAP_N_SNOWM_01	Р“РѕСЂР° РЎРѕС…Р°РЅ
 MAP_N_SNOWM_02	
-MAP_N_SNOW_DUNGEON_01	Башня Немера
-MAP_N_THREEWAY	Долина Сеунгрийонг
-MAP_OXEVENT	OX-соревнование
-MAP_PATHWAY_DESERT_01	Битва Империй-Пустынные земли
-MAP_PATHWAY_DESERT_02	Битва Империй-Пустынные земли
-MAP_PATHWAY_DESERT_03	Битва Империй-Пустынные земли
-MAP_PATHWAY_FLAME_01	Битва Империй-Огненные земли
-MAP_PATHWAY_FLAME_02	Битва Империй-Огненные земли
-MAP_PATHWAY_FLAME_03	Битва Империй-Огненные земли
-MAP_PATHWAY_ICE_01	Битва Империй-Ледяные земли
-MAP_PATHWAY_ICE_02	Страна Развлечений
-MAP_PATHWAY_ICE_03	Битва Империй-Ледяные земли
-MAP_SKELTOWER	Башня Гумсан
-MAP_SKIPIA_DUNGEON_01	Грот изгнанников
+MAP_N_SNOW_DUNGEON_01	Р‘Р°С€РЅСЏ РќРµРјРµСЂР°
+MAP_N_THREEWAY	Р”РѕР»РёРЅР° РЎРµСѓРЅРіСЂРёР№РѕРЅРі
+MAP_OXEVENT	OX-СЃРѕСЂРµРІРЅРѕРІР°РЅРёРµ
+MAP_PATHWAY_DESERT_01	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РџСѓСЃС‚С‹РЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_PATHWAY_DESERT_02	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РџСѓСЃС‚С‹РЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_PATHWAY_DESERT_03	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РџСѓСЃС‚С‹РЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_PATHWAY_FLAME_01	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РћРіРЅРµРЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_PATHWAY_FLAME_02	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РћРіРЅРµРЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_PATHWAY_FLAME_03	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РћРіРЅРµРЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_PATHWAY_ICE_01	Р‘РёС‚РІР° РРјРїРµСЂРёР№-Р›РµРґСЏРЅС‹Рµ Р·РµРјР»Рё
+MAP_PATHWAY_ICE_02	РЎС‚СЂР°РЅР° Р Р°Р·РІР»РµС‡РµРЅРёР№
+MAP_PATHWAY_ICE_03	Р‘РёС‚РІР° РРјРїРµСЂРёР№-Р›РµРґСЏРЅС‹Рµ Р·РµРјР»Рё
+MAP_SKELTOWER	Р‘Р°С€РЅСЏ Р“СѓРјСЃР°РЅ
+MAP_SKIPIA_DUNGEON_01	Р“СЂРѕС‚ РёР·РіРЅР°РЅРЅРёРєРѕРІ
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
-MAP_SKIPIA_DUNGEON_02	Грот изгнанников 2
+MAP_SKIPIA_DUNGEON_02	Р“СЂРѕС‚ РёР·РіРЅР°РЅРЅРёРєРѕРІ 2
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
-MAP_SKIPIA_DUNGEON_BOSS	Логово дракона
-MAP_SKIPIA_DUNGEON_BOSS_1	Подземелье пауков 1
-MAP_SKIPIA_DUNGEON_BOSS_2	Подземелье пауков 2
-MAP_SKIPIA_DUNGEON_BOSS_3	Подземелье пауков 3
-MAP_SNOW	Гора Сохан
-MAP_SPIDER	Куало Донг
-MAP_SPIDERDUNGEON	Подземелье пауков 1
-MAP_SPIDERDUNGEON_02	Подземелье пауков 2
-MAP_SPIDERDUNGEON_02_1	Подземелье пауков 2
-MAP_SPIDERDUNGEON_03	Подземелье пауков 3
-MAP_SUNGZI	Битва Империй
-MAP_SUNGZI_DESERT_01	Битва Империй-Пустынные земли
-MAP_SUNGZI_DESERT_HILL_01	Битва Империй-Пустынные земли
-MAP_SUNGZI_DESERT_HILL_02	Битва Империй-Пустынные земли
-MAP_SUNGZI_DESERT_HILL_03	Битва Империй-Пустынные земли
-MAP_SUNGZI_FLAME_HILL_01	Битва Империй-Огненные земли
-MAP_SUNGZI_FLAME_HILL_02	Битва Империй-Огненные земли
-MAP_SUNGZI_FLAME_HILL_03	Битва Империй-Огненные земли
-MAP_SUNGZI_SNOW	Битва Империй-Ледяные земли
-MAP_SUNGZI_SNOW_PASS01	Битва Империй-Ледяные земли
-MAP_SUNGZI_SNOW_PASS02	Битва Империй-Ледяные земли
-MAP_SUNGZI_SNOW_PASS03	Битва Империй-Ледяные земли
-MAP_T1	Территория войны гильдий
-MAP_T2	Территория войны гильдий
-MAP_T3	Территория войны гильдий
-MAP_T4	Территория войны гильдий
-MAP_TEMPLE	Храм Хванг
-MAP_THUNDER	Горы грома
-MAP_TREE	Лунгсам
-MAP_TRENT	Призрачный лес
-MAP_TRENT02	Красный лес
-MAP_TRENT02_A	Красный лес
+MAP_SKIPIA_DUNGEON_BOSS	Р›РѕРіРѕРІРѕ РґСЂР°РєРѕРЅР°
+MAP_SKIPIA_DUNGEON_BOSS_1	РџРѕРґР·РµРјРµР»СЊРµ РїР°СѓРєРѕРІ 1
+MAP_SKIPIA_DUNGEON_BOSS_2	РџРѕРґР·РµРјРµР»СЊРµ РїР°СѓРєРѕРІ 2
+MAP_SKIPIA_DUNGEON_BOSS_3	РџРѕРґР·РµРјРµР»СЊРµ РїР°СѓРєРѕРІ 3
+MAP_SNOW	Р“РѕСЂР° РЎРѕС…Р°РЅ
+MAP_SPIDER	РљСѓР°Р»Рѕ Р”РѕРЅРі
+MAP_SPIDERDUNGEON	РџРѕРґР·РµРјРµР»СЊРµ РїР°СѓРєРѕРІ 1
+MAP_SPIDERDUNGEON_02	РџРѕРґР·РµРјРµР»СЊРµ РїР°СѓРєРѕРІ 2
+MAP_SPIDERDUNGEON_02_1	РџРѕРґР·РµРјРµР»СЊРµ РїР°СѓРєРѕРІ 2
+MAP_SPIDERDUNGEON_03	РџРѕРґР·РµРјРµР»СЊРµ РїР°СѓРєРѕРІ 3
+MAP_SUNGZI	Р‘РёС‚РІР° РРјРїРµСЂРёР№
+MAP_SUNGZI_DESERT_01	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РџСѓСЃС‚С‹РЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_SUNGZI_DESERT_HILL_01	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РџСѓСЃС‚С‹РЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_SUNGZI_DESERT_HILL_02	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РџСѓСЃС‚С‹РЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_SUNGZI_DESERT_HILL_03	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РџСѓСЃС‚С‹РЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_SUNGZI_FLAME_HILL_01	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РћРіРЅРµРЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_SUNGZI_FLAME_HILL_02	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РћРіРЅРµРЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_SUNGZI_FLAME_HILL_03	Р‘РёС‚РІР° РРјРїРµСЂРёР№-РћРіРЅРµРЅРЅС‹Рµ Р·РµРјР»Рё
+MAP_SUNGZI_SNOW	Р‘РёС‚РІР° РРјРїРµСЂРёР№-Р›РµРґСЏРЅС‹Рµ Р·РµРјР»Рё
+MAP_SUNGZI_SNOW_PASS01	Р‘РёС‚РІР° РРјРїРµСЂРёР№-Р›РµРґСЏРЅС‹Рµ Р·РµРјР»Рё
+MAP_SUNGZI_SNOW_PASS02	Р‘РёС‚РІР° РРјРїРµСЂРёР№-Р›РµРґСЏРЅС‹Рµ Р·РµРјР»Рё
+MAP_SUNGZI_SNOW_PASS03	Р‘РёС‚РІР° РРјРїРµСЂРёР№-Р›РµРґСЏРЅС‹Рµ Р·РµРјР»Рё
+MAP_T1	РўРµСЂСЂРёС‚РѕСЂРёСЏ РІРѕР№РЅС‹ РіРёР»СЊРґРёР№
+MAP_T2	РўРµСЂСЂРёС‚РѕСЂРёСЏ РІРѕР№РЅС‹ РіРёР»СЊРґРёР№
+MAP_T3	РўРµСЂСЂРёС‚РѕСЂРёСЏ РІРѕР№РЅС‹ РіРёР»СЊРґРёР№
+MAP_T4	РўРµСЂСЂРёС‚РѕСЂРёСЏ РІРѕР№РЅС‹ РіРёР»СЊРґРёР№
+MAP_TEMPLE	РҐСЂР°Рј РҐРІР°РЅРі
+MAP_THUNDER	Р“РѕСЂС‹ РіСЂРѕРјР°
+MAP_TREE	Р›СѓРЅРіСЃР°Рј
+MAP_TRENT	РџСЂРёР·СЂР°С‡РЅС‹Р№ Р»РµСЃ
+MAP_TRENT02	РљСЂР°СЃРЅС‹Р№ Р»РµСЃ
+MAP_TRENT02_A	РљСЂР°СЃРЅС‹Р№ Р»РµСЃ
 MAP_TRENT_A	
-MAP_WEDDING_01	Свадебная локация
-MAP_WL	Змеиное поле
-MAP_WL_01	Змеиное Поле
-MESSENGER_ADD_FRIEND	Добавить друга
-MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s принял вас в список друзей.
-MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Принять?
-MESSENGER_DO_YOU_DELETE	Удалить?
-MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Удалить номер моб.телефона?
-MESSENGER_DO_YOU_MOVE	Дальше?
-MESSENGER_EMPTY_LIST	Пусто
-MESSENGER_FAMILY	Семья
-MESSENGER_FRIEND	Друзья
-MESSENGER_GUILD	Гильдия
-MESSENGER_INPUT_MOBILE_AUTHORITY_DESCRIPTION	Введите номер подтверждения, посланный на ваш мобильный.
-MESSENGER_INPUT_MOBILE_AUTHORITY_TITLE	Ввести номер подтверждения.
-MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Введите номер своего мобильного тел.для передачи смс.
-MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Ввести номер сейчас?
-MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Ввести номер мобильного телефона
-MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Отправить сообщение.
+MAP_WEDDING_01	РЎРІР°РґРµР±РЅР°СЏ Р»РѕРєР°С†РёСЏ
+MAP_WL	Р—РјРµРёРЅРѕРµ РїРѕР»Рµ
+MAP_WL_01	Р—РјРµРёРЅРѕРµ РџРѕР»Рµ
+MESSENGER_ADD_FRIEND	Р”РѕР±Р°РІРёС‚СЊ РґСЂСѓРіР°
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s РїСЂРёРЅСЏР» РІР°СЃ РІ СЃРїРёСЃРѕРє РґСЂСѓР·РµР№.
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	РџСЂРёРЅСЏС‚СЊ?
+MESSENGER_DO_YOU_DELETE	РЈРґР°Р»РёС‚СЊ?
+MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	РЈРґР°Р»РёС‚СЊ РЅРѕРјРµСЂ РјРѕР±.С‚РµР»РµС„РѕРЅР°?
+MESSENGER_DO_YOU_MOVE	Р”Р°Р»СЊС€Рµ?
+MESSENGER_EMPTY_LIST	РџСѓСЃС‚Рѕ
+MESSENGER_FAMILY	РЎРµРјСЊСЏ
+MESSENGER_FRIEND	Р”СЂСѓР·СЊСЏ
+MESSENGER_GUILD	Р“РёР»СЊРґРёСЏ
+MESSENGER_INPUT_MOBILE_AUTHORITY_DESCRIPTION	Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ, РїРѕСЃР»Р°РЅРЅС‹Р№ РЅР° РІР°С€ РјРѕР±РёР»СЊРЅС‹Р№.
+MESSENGER_INPUT_MOBILE_AUTHORITY_TITLE	Р’РІРµСЃС‚Рё РЅРѕРјРµСЂ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ.
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ СЃРІРѕРµРіРѕ РјРѕР±РёР»СЊРЅРѕРіРѕ С‚РµР».РґР»СЏ РїРµСЂРµРґР°С‡Рё СЃРјСЃ.
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Р’РІРµСЃС‚Рё РЅРѕРјРµСЂ СЃРµР№С‡Р°СЃ?
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Р’РІРµСЃС‚Рё РЅРѕРјРµСЂ РјРѕР±РёР»СЊРЅРѕРіРѕ С‚РµР»РµС„РѕРЅР°
+MESSENGER_SEND_MOBILE_MESSAGE_TITLE	РћС‚РїСЂР°РІРёС‚СЊ СЃРѕРѕР±С‰РµРЅРёРµ.
 METIN_TEST	
-MINIMAP	Открыть мини-карту
-MINIMAP_CANNOT_SEE	Показ мини-карты невозможен.
-MINIMAP_CAN_NOT_SHOW_AREAMAP	Показ карты невозможен.
-MINIMAP_DEC_SCALE	Уменьшить
-MINIMAP_INC_SCALE	Увеличить
-MINIMAP_OBSERVER_COUNT	%d Наблюдатель
-MINIMAP_SHOW_AREAMAP	Открыть большую карту
-MINUTE	Мин.
-MONETARY_UNIT0	янг
-MONETARY_UNIT1	десять тысяч
-MONETARY_UNIT2	сто миллионов
-MONEY_INPUT_DIALOG_SELLPRICE	Продажная цена:
-MOVE_ITEM_FAILURE_PRIVATE_SHOP	Вы не можешь перемещать предмет, когда открыта ваша лавка.
-MUSIC_EMPTY_MUSIC_LIST	Без фоновой музыки.
-MUSIC_METIN2_DEFAULT_THEMA	Метин 2-стандартная музыка
-MUSIC_NOT_SELECT_MUSIC	Музыкальный файл не выбран.
-NEEFD_REST	Сперва вы должны отдохнуть.
-NOT_YET_SUPPORT	Не поддерживается.
-OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	Вы не можете активировать режим Гильдии, пока не являетесь её членом.
-OPTION_PVPMODE_NOT_SUPPORT	Вы не можете выбрать режим PvP.
-OPTION_PVPMODE_PROTECT	Чтобы использовать PvP Режим, нужно достигнуть хотя бы уровень %d.
-PARTY_ANSWER_TIMEOVER	Приглашение отклонено.
-PARTY_BONUS_ATTACKER	Атака: +%d	SA
-PARTY_BONUS_BERSERKER	Скорость атаки: +%d	SA
-PARTY_BONUS_BUFFER	Продолжительность действия навыков: +%d	SA
-PARTY_BONUS_DEFENDER	Защита: +%d	SA
-PARTY_BONUS_EXP	Бонус к опыту: %d%%	SA
-PARTY_BONUS_SKILL_MASTER	Макс. МП: +%d	SA
-PARTY_BONUS_TANKER	Макс. ХП: +%d	SA
-PARTY_BREAK_UP	Ликвидировать группу
-PARTY_DO_YOU_ACCEPT	---LOCA::SPACE--хотел бы присоединиться к группе.
-PARTY_DO_YOU_JOIN	 пригласил вас в группу. Принять приглашение?
-PARTY_EXP_DISTRIBUTION_MODE	Распределение опыта
-PARTY_EXP_DISTRIBUTION_MODE_LEVEL	В зависимости от уровня
-PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	Участники группы с более высоким уровнем получают больше опыта.
-PARTY_EXP_DISTRIBUTION_MODE_PARITY	равномерно
-PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	Все участники группы получают одинаковое количество опыта.
-PARTY_HEAL_ALL_MEMBER	Восстановить всё
-PARTY_INCREASE_AREA_150	Диапазон группы увеличен в 1,5 раза.	SNA
-PARTY_INCREASE_AREA_200	Диапазон группы увеличен в 2 раза.	SNA
-PARTY_LEAVE	Покинуть группу
-PARTY_LONGTIME_BONUS_EXP	Бонус к опыту за долгую групповую игру: +%d%%	SA
-PARTY_MEMBER_OFFLINE	[оффлайн]
-PARTY_RECALL_MEMBER	Позвать участника группы.
-PARTY_REGEN_BONUS	Бонус за ХП- + МП-регенерация: +%d%%	SA
-PARTY_REQUEST_DENIED	Ваше приглашение не принято.
-PARTY_SET_ATTACKER	Определить Бойцом атаки.
-PARTY_SET_BERSERKER	Определить  Берсеркером.
-PARTY_SET_BUFFER	Определить  Блокирующим.
-PARTY_SET_DEFENDER	Определить Защитником.
-PARTY_SET_NORMAL	Отменить установку.
-PARTY_SET_SKILL_MASTER	Определить  Мастером навыков.
-PARTY_SET_TANKER	Определить Бойцом ближнего боя.
-PARTY_SKILL_ATTACKER	Базовый показатель Боец атаки +%.0f
-PARTY_SKILL_BERSERKER	Скорость атаки Берсеркер +%.0f
-PARTY_SKILL_BUFFER	Длительность навыка Блокирущий +%.0f
-PARTY_SKILL_DEFENDER	Защита Защитник +%.0f
-PARTY_SKILL_HP_REGEN	ХП-регенерация +%.0f%%
-PARTY_SKILL_PARTY_AREA	Диапазон группы +%d%%
-PARTY_SKILL_SKILL_MASTER	Максим. МП Мастер навыков +%.0f
-PARTY_SKILL_SP_REGEN	МП-регенерация +%.0f%%
-PARTY_SKILL_TANKER	Максим. ХП Боец ближнего боя +%.0f
-PARTY_SKILL_WARP	Вправе вызвать участника группы.
-PASSWORD_TITLE	Пароль для склада
-PICK_ITEM_TITLE	Номер предмета
-PICK_MONEY_TITLE	Стоимость
-PRIVATE_SHOP_CANNOT_SELL_ITEM	Этот предмет нельзя купить в лавке.
-PRIVATE_SHOP_CLOSE_QUESTION	Хотите закрыть лавку?
-PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	Имя лавки
-PRIVATE_SHOP_INPUT_PRICE_DIALOG_TITLE	Цена
-PVP_LEVEL0	по-рыцарски
-PVP_LEVEL1	благородно
-PVP_LEVEL2	хорошо
-PVP_LEVEL3	дружелюбный
-PVP_LEVEL4	нейтральный
-PVP_LEVEL5	агрессивный
-PVP_LEVEL6	коварный
-PVP_LEVEL7	злобный
-PVP_LEVEL8	жестокий
-PVP_MODE_GUILD	PvP-Режим гильдии активирован
-PVP_MODE_KILL	Свободное PvP активировано
-PVP_MODE_NORMAL	PvP-мир активирован
-PVP_MODE_PROTECT	PvP-защита активирована
-PVP_MODE_REVENGE	PvP-враждебный активировано
-PVP_OPTION_KILL	Свободный
-PVP_OPTION_NORMAL	Мир
-PVP_OPTION_PROTECT	Защита
-PVP_OPTION_REVENGE	враждебный
-QUEST_APPEND	Новое задание  принято.
-QUEST_MIN	Мин.
-QUEST_SEC	Сек.
-QUEST_TIMEOVER	Время исстекло.
-QUEST_UNLIMITED_TIME	Без ограничения времени
-QUEST_ZEROSEC	0 сек.
-QUICKSLOT_REGISTER_DISABLE_ITEM	Этот предмет не может быть добавлен в поле быстрого доступа.
-RECEIVE_MESSAGE	%s отправил вам сообщение.
-REFINE_COST	Затраты на улучшение: %d янг
-REFINE_DESTROY_WARNING	Вероятность разрушения предмета при его улучшении.
-REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1	Это повышает вероятность улучшения,
-REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	но в случае неудачи предмет будет разрушен. Вы уверенны, что хотите продолжить?
-REFINE_DOWN_GRADE_WARNING	Вероятность потери некоторых свойств предмета при попытке его улучшить.
-REFINE_DO_YOU_SEPARATE_METIN	Вы хотите удалить Камень духа?
-REFINE_FAILURE	Да уж, не сработало. Мы не справились.
-REFINE_FAILURE_CAN_NOT_ATTACH	%s нельзя приложить к этому предмету.
-REFINE_FAILURE_EQUIP_ITEM	Вы не можете улучшить снаряженный предмет.
-REFINE_FAILURE_METIN_INSEPARABLE_ITEM	Нет камня духа для удаления.
-REFINE_FAILURE_NEED_BETTER_SCROLL	Вам необходим лучший Свиток улучшения.
-REFINE_FAILURE_NO_GOLD_SOCKET	Добавление %s невыполнимо из-за отсутствия золотой оправы.
-REFINE_FAILURE_NO_MORE_SOCKET	Добавление последующих ячеек невозможно.
-REFINE_FAILURE_NO_SOCKET0	Добавление %s невыполнимо из-за отсутствия ячейки.
-REFINE_FAILURE_SOCKET_DISABLE_ITEM	Добавление ячеек к этому предмету невозможно.
-REFINE_FAILURE_UPGRADE_DISABLE_ITEM	Этот предмет нельзя улучшить.
-REFINE_SUCCESS	Улучшение предмета прошло успешно.
-REFINE_SUCCESS_PROBALITY	Шанс на улучшение: %d%%
-REFINE_WARNING2	Продолжить?
-SAFEBOX_ERROR	Введён неверный пароль.
-SAFEBOX_SELL_DISABLE_SAFEITEM	Продажа сохраннёных предметов невозможна.
-SAFEBOX_WRONG_PASSWORD	Пароли должны быть идентичными.
-SCREENSHOT_SAVE1	сохранен в
-SCREENSHOT_SAVE2	Файл скриншота
-SCREENSHOT_SAVE_FAILURE	Скриншот не сохранён.
-SECOND	Сек
-SELECT_CAN_NOT_DELETE	Удаление персонажа невозможно.
-SELECT_CHANGED_NAME	Вы изменили имя персонажа.
-SELECT_CHANGE_FAILURE_ALREADY_EXIST_NAME	Персонаж с таким именем уже существует.
-SELECT_CHANGE_FAILURE_STRANGE_INDEX	Попробуйте еще раз.
-SELECT_CHANGE_FAILURE_STRANGE_NAME	Это неверное имя персонажа.
-SELECT_CHANGE_NAME_TITLE	Изменить имя персонажа.
-SELECT_DELEING	Персонаж будет удалён
-SELECT_DELETED	Удаление прошло успешно.
-SELECT_DO_YOU_DELETE_REALLY	Продолжить?
-SELECT_EMPTY_SLOT	Это пустое поле.
-SELECT_GM_NAME	ГМ
-SELECT_INPUT_CHANGING_NAME	Введите новое имя персонажа.
-SELECT_NOT_JOIN_GUILD	Гильдия отсутсвует
-SHOP_BUY_INFO	Выберите в окне магазина, предмет который хотите купить.
-SHOP_CANNOT_SELL_EQUIPMENT	Вы не можете продать снаряженный предмет.
-SHOP_CANNOT_SELL_ITEM	Этот предмет не продаётся.
-SHOP_ERROR_UNKNOWN	Неизвестная ошибка магазина: %s
-SHOP_INVALID_POS	Применить этот предмет невозможно.
-SHOP_INVENTORY_FULL	В инвентаре нет свободного места.
-SHOP_NOT_ENOUGH_MONEY	Недостаточно янг.
-SHOP_NOT_ENOUGH_MONEY_EX	У вас недостаточно янг.
-SHOP_SELL_INFO	Выберите в окне инвентаря предмет, который хотите продать.
-SHOP_SOLDOUT	Продано
-SHOT_ERROR_UNKNOWN	Неизвестная ошибка дальней атаки: %s
-SKILL_BLEEDING	Кровотечение
-SKILL_BOHO	Отражать
-SKILL_BUDONG	Больше не используется
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	Вам необходим опыт, чтобы обучиться этому навыку.
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	Вам необходима книга, обучающая этому навыку.
-SKILL_CHEONGEUN	Сильное тело.
-SKILL_CRITICAL	Критический удар
-SKILL_ENCHANT_POISON	Использовать яд
-SKILL_EUNHYEONG	Невидимый
-SKILL_FAINT	Головокружение
-SKILL_FIND_TRAP	Искать западню
-SKILL_FIRE	Сжечь
-SKILL_FISHMIND	Рыба-шар активен
-SKILL_GAMJI	взять
-SKILL_GEOMGYEONG	Аура меча
-SKILL_GEONGON	SKILL_GEONGON больше не применяется
-SKILL_GICHEON	Помощь Дракона
-SKILL_GIGONG	Циркуляция Ши
-SKILL_GONGPO	Страх
-SKILL_GRADE_NAME_GRAND_MASTER	%s Большой мастер
-SKILL_GRADE_NAME_MASTER	%s Мастер
-SKILL_GRADE_NAME_PERFECT_MASTER	%s  Великий мастер
-SKILL_GROUP_ASSASSIN_1	Клинок
-SKILL_GROUP_ASSASSIN_2	Лук
-SKILL_GROUP_HORSE	Исскуство наездника
-SKILL_GROUP_SHAMAN_1	Драконы
-SKILL_GROUP_SHAMAN_2	Исцеление
-SKILL_GROUP_SURA_1	Оружие
-SKILL_GROUP_SURA_2	Магия
-SKILL_GROUP_WARRIOR_1	Тело
-SKILL_GROUP_WARRIOR_2	Умственный
-SKILL_GWIGEOM	Заколдованный клинок
-SKILL_GYEONGGONG	Легкая походка
-SKILL_HEUKSIN	Защита тёмных сил
-SKILL_HOSIN	Благословение
-SKILL_HWAYEOM	SKILL_HWAYEOM больше не применятся
-SKILL_HYEOLMA	SKILL_HYEOLMA больше не применяется
-SKILL_INC_ATKSPD	Скорость атаки повышена
-SKILL_INC_MOVSPD	Скорость движения повышена
-SKILL_INMA	SKILL_INMA больше не применяется
-SKILL_JEOJU	Заклинание
-SKILL_JEONGEOP	Лечение
-SKILL_JEONGWI	Берсерк
-SKILL_JEONSINBANGEO	Полная защита
-SKILL_JEONSINGONGGYEOK	Полная атака	
-SKILL_JEUNGCHE	SKILL_JEUNGCHE больше не применяется
-SKILL_JEUNGHON	SKILL_JEUNGHON больше не применяется
-SKILL_JEUNGRYEOK	Атака+
-SKILL_JEUNGSOK	Скорость+
-SKILL_JIGAM	SKILL_JIGAM больше не применяется
-SKILL_JIPJUNG	SKILL_JIPJUNG больше не применяется
-SKILL_JUMAGAP	Заколдованная броня
-SKILL_JUMAGEOM	SKILL_JUMAGEOM больше не применяется
-SKILL_KWAEGEOM	SKILL_KWAEGEOM больше не применяется
-SKILL_KWAESOK	Быстрота
-SKILL_LEGBOUND	SKILL_LEGBOUND больше не применяется
-SKILL_MUSA	SKILL_MUSA больше не применяется
-SKILL_MUYEONG	Дух Огня
-SKILL_NEED_EMPTY_BOTTLE	У меня нет пустого кувшина.
-SKILL_NEED_POISON_BOTTLE	У меня нет бутылки с ядом.
-SKILL_ONLY_FOR_GUILD_WAR	Вы  можете пользоваться этим навыком только в Войне Гильдий.
-SKILL_PABEOP	Отменить волшебство.
-SKILL_POWERFUL_STRIKE	Парализирующая атака
-SKILL_SEOMGWANG	Бомба-молния
-SKILL_SINCHAK	SKILL_SINCHAK больше не применяется
-SKILL_SLEEP	Сон
-SKILL_SLOW	Медленно
-SKILL_STUN	Парализовать
-SKILL_SUHO	Стражник
-SKILL_SUMMON_DESCRIPTION	Шанс на вызов: %d%%
-SKILL_TOOLTIP_INT	Интеллект
-SKILL_TOOLTIP_LEVEL	Уровень
-SKILL_TOXICDIE	Отравление
-SKILL_TOXICPOWER	Показатель атаки ядом улучшен
-SKILL_TUSOK	Удар Духа
-SKILL_WONSIN	SKILL_WONSIN больше не применяется
-SKILL_YONGSIN	SKILL_YONGSIN больше не применяется
-STAT_MINUS_CON	Регулировка здоровья (Остающ. шанс: %d)
-STAT_MINUS_DEX	Регулировка подвижности ( Оставш. шанс: %d)
-STAT_MINUS_INT	Регулировка интеллекта (Оставш. шанс:%d)
-STAT_MINUS_STR	Регулировка силы (Оставш.шанс: %d)
-STAT_TOOLTIP_CON	Повышает ХП и защиту
-STAT_TOOLTIP_DEX	Повышает Атаку и Уклон
-STAT_TOOLTIP_INT	Повышает МП, магическую атаку и магическую защиту.
-STAT_TOOLTIP_STR	Повышает Показатель Атаки и Урон
-SYMBOLLIST_TITLE	Регистрировать флаг Гильдии
-SYSTEM_OPTION_CPU_TILING_1	Фрагментационный режим может улучшить скорость слабого компьютера.
-SYSTEM_OPTION_CPU_TILING_2	Если есть проблемы с графикой, выберите 'Системные Опции' или файл ,CONFIG.exe‘
-SYSTEM_OPTION_CPU_TILING_3	и перейдите таким образом на Фрагментационный режим (GPU-Tiling).
-SYSTEM_OPTION_GPU_TILING_1	Фрагментационный режим (GPU-Tiling) работает на слабом PC довольно медленно.
-SYSTEM_OPTION_GPU_TILING_2	Если возникли проблемы с графикой, выберите  'Системные Опции' или файл 'CONFIG.exe'
-SYSTEM_OPTION_GPU_TILING_3	и перейдите таким образом на Фрагментационный режим( CPU-Tiling).
-SYSTEM_OPTION_TILING_EXIT	Для замены Фрагментационного режима необходимо прервать игру.
-TARGET_BUTTON_ACCEPT_FIGHT	Согласиться
-TARGET_BUTTON_AVENGE	Отмщение
-TARGET_BUTTON_BUILDING_DESTROY	Разрушить
-TARGET_BUTTON_DISMOUNT	Пасовать
-TARGET_BUTTON_EMOTION_ALLOW	Эмоции
-TARGET_BUTTON_EXCHANGE	Торговать
-TARGET_BUTTON_EXCLUDE	Исключить
-TARGET_BUTTON_EXIT_OBSERVER	Прервать Режим наблюдателя
-TARGET_BUTTON_FIGHT	Поединок
-TARGET_BUTTON_FRIEND	Друг
-TARGET_BUTTON_INVITE_GUILD	Приглашение гильдии
-TARGET_BUTTON_INVITE_PARTY	Пригласить
-TARGET_BUTTON_LEAVE_PARTY	Покинуть группу
-TARGET_BUTTON_REQUEST_ENTER_PARTY	Вступить в группу
-TARGET_BUTTON_VIEW_EQUIPMENT	Снаряжение
-TARGET_BUTTON_WHISPER	Шептание
-TARGET_LEVEL_BOSS	Босс
-TARGET_LEVEL_KING	Уровень 5.
-TARGET_LEVEL_KNIGHT	Уровень 3.
-TARGET_LEVEL_PAWN	Уровень 1.
-TARGET_LEVEL_S_KNIGHT	Уровень 4.
-TARGET_LEVEL_S_PAWN	Уровень 2.
-TASKBAR_ATTACK	Атаковать
-TASKBAR_AUTO	Нападать автоматически
-TASKBAR_CAMERA	Камера
-TASKBAR_EXP	Опыт
-TASKBAR_HP	ХП
-TASKBAR_MOVE	Двигать
-TASKBAR_SKILL	Навык
-TASKBAR_SP	МП
-TASKBAR_ST	СП
-THING_COUNT	все
-TOOLTIP_ANTI_CRITICAL_PCT	Сопротивление критическим ударам +%d%%	SA
-TOOLTIP_ANTI_PENETRATE_PCT	Сопротивление пронзающим ударам +%d%%	SA
-TOOLTIP_ANTI_SELL	В магазине не продаётся.
-TOOLTIP_APPLY_ACCEDRAIN_RATE	Количество поглощения: %d%%	SA
-TOOLTIP_APPLY_ATTBONUS_ANIMAL	Сила против зверей +%d%%	SA
-TOOLTIP_APPLY_ATTBONUS_ASSASSIN	Сила против Ниндзя +%d%%	SA
-TOOLTIP_APPLY_ATTBONUS_DEVIL	Сила против Дьявола +%d%%	SA
-TOOLTIP_APPLY_ATTBONUS_HUMAN	Сила против  Полулюдей +%d%%	SA
-TOOLTIP_APPLY_ATTBONUS_MILGYO	Сила против Мистиков +%d%%	SA
-TOOLTIP_APPLY_ATTBONUS_MONSTER	Сила против Монстров +%d%%	SA
-TOOLTIP_APPLY_ATTBONUS_ORC	Сила против Орков +%d%%	SA
-TOOLTIP_APPLY_ATTBONUS_SHAMAN	Сила против Шаманов +%d%%	SA
-TOOLTIP_APPLY_ATTBONUS_SURA	Сила против Сура +%d%%	SA
-TOOLTIP_APPLY_ATTBONUS_UNDEAD	Сила против Нежити +%d%%	SA
-TOOLTIP_APPLY_ATTBONUS_WARRIOR	Сила против Воинов +%d%%	SA
-TOOLTIP_APPLY_BLEEDING_PCT	Вызвать кровотечение + %d%%	SA
-TOOLTIP_APPLY_BLEEDING_REDUCE	Сопротивление кровотечению + %d%%	SA
-TOOLTIP_APPLY_BLOCK	Шанс на блокацию физической атаки %d%%	SA
-TOOLTIP_APPLY_COMBAT_SP_RECOVER	Восстановление МП в бою каждые 5 Сек. %d	SA
-TOOLTIP_APPLY_CRITICAL_PCT	%d%% шансов на Критический удар	SA
-TOOLTIP_APPLY_DAMAGE_SP_RECOVER	%d%% шансов восстановить МП при попадании	SA
-TOOLTIP_APPLY_DODGE	Шанс на увернуться от стрелы %d%%	SA
-TOOLTIP_APPLY_EXP_DOUBLE_BONUS	%d%% шансов на бонус к опыту	SA
-TOOLTIP_APPLY_GOLD_DOUBLE_BONUS	%d%% шансов выбросить вдвое больше янг	SA
-TOOLTIP_APPLY_IMMUNE_FALL	Иммунный против падения	SNA
-TOOLTIP_APPLY_IMMUNE_SLOW	Защита от замедления	SNA
-TOOLTIP_APPLY_IMMUNE_STUN	Защита от головокружения	SNA
-TOOLTIP_APPLY_ITEM_DROP_BONUS	%d%% шансов выбросить вдвое больше предметов	SA
-TOOLTIP_APPLY_KILL_HP_RECOVER	%d%% шансов восстановить ХП	SA
-TOOLTIP_APPLY_KILL_SP_RECOVER	%d%% шансов восстановить МП	SA
-TOOLTIP_APPLY_MANA_BURN_PCT	%d%% шансов забрать MP противника	SA
-TOOLTIP_APPLY_MAX_HP_PCT	Макс. ХП +%d%%	SA
-TOOLTIP_APPLY_MAX_SP_PCT	Макс. МП +%d%%	SA
-TOOLTIP_APPLY_NOAFFECT	Без результата	
-TOOLTIP_APPLY_NO_DEATH_PENALTY	Отсутствие потери опыта в случае смерти.	SNA
-TOOLTIP_APPLY_PENETRATE_PCT	%d%% шансов на нанесение пронзающего удара	SA
-TOOLTIP_APPLY_POISON_PCT	Шансы на отравление :%d%%	SA
-TOOLTIP_APPLY_POISON_REDUCE	Сопротивление яду %d%%	SA
-TOOLTIP_APPLY_POTION_BONUS	Зелье %d%% рост эффекта	SA
-TOOLTIP_APPLY_REFLECT_CURSE	%d%% шансов отразить заклинание	SA
-TOOLTIP_APPLY_REFLECT_MELEE	%d%%  шансов отразить физическую атаку	SA
-TOOLTIP_APPLY_RESIST_ASSASSIN	Шансы на отражение Ниндзя %d%%	SA
-TOOLTIP_APPLY_RESIST_BELL	Защита от удара колокольчиком  %d%%	SA
-TOOLTIP_APPLY_RESIST_DAGGER	Защита от удара кинжалом %d%%	SA
-TOOLTIP_APPLY_RESIST_FAN	Защита от удара веером %d%%	SA
-TOOLTIP_APPLY_RESIST_SHAMAN	Шансы на отражение атаки Шаманов  %d%%	SA
-TOOLTIP_APPLY_RESIST_SURA	Шансы на отражение атаки Сура %d%%	SA
-TOOLTIP_APPLY_RESIST_SWORD	Защита от удара мечом %d%%	SA
-TOOLTIP_APPLY_RESIST_TWOHAND	Защита от двуручного оружия %d%%	SA
-TOOLTIP_APPLY_RESIST_WARRIOR	Шансы на отражение атак Воинов %d%%	SA
-TOOLTIP_APPLY_RESIST_WIND	Сопротивляемость ветру %d%%	SA
-TOOLTIP_APPLY_SKILL_BOOK_BONUS	Шансы при обучении по книгам увеличены в 2,5 раза.	SNA
-TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY	Если обучение не удалось, Вы можете тут же попробовать еще раз.	SNA
-TOOLTIP_APPLY_SLOW_PCT	Шансы на замедление: %d%%	SA
-TOOLTIP_APPLY_STEAL_HP	Урон %d%% добавляется к ХП.	SA
-TOOLTIP_APPLY_STEAL_SP	Урон %d%% добавляется к МП.	SA
-TOOLTIP_APPLY_STUN_PCT	Шансы на головокружение:  %d%%	SA
-TOOLTIP_ARMOR	Броня
-TOOLTIP_ARROW	Стрела
-TOOLTIP_ASSASSIN	Ниндзя
-TOOLTIP_ATT_GRADE	Показатель атаки +%d	SA
-TOOLTIP_ATT_SPEED	Скорость атаки +%d%%	SA
-TOOLTIP_AUTO_POTION_HP	Эликсир солнца
-TOOLTIP_AUTO_POTION_REST	Остаток: %.2f%%
-TOOLTIP_AUTO_POTION_SP	Эликсир луны
-TOOLTIP_AUTO_POTION_USING	Активен
-TOOLTIP_BOW_DISTANCE	Диапазон стрельбы +%dm	SA
-TOOLTIP_BUYPRICE	Цена: %s
-TOOLTIP_CAST_SPEED	Скорость заклинания +%d%%	SA
-TOOLTIP_CON	Здоровье +%d	SA
-TOOLTIP_COSTUME_ATTR_BONUS	Бонус костюма %d%%	SA
-TOOLTIP_DEF_GRADE	Защита +%d	SA
-TOOLTIP_DEX	Подвижность+%d	SA
-TOOLTIP_DRAGON_SOUL_DECK1	Земля	SNA
-TOOLTIP_DRAGON_SOUL_DECK2	Небеса	SNA
-TOOLTIP_EAR	Серьги
-TOOLTIP_ENERGY	Энергия %d	SA
-TOOLTIP_ETC	и т.д.
-TOOLTIP_FISHINGROD_EXP	Очки: %d / %d
-TOOLTIP_FISHINGROD_LEVEL	Уровень:  %d
-TOOLTIP_FISHINGROD_UPGRADE1	Отдать рыбаку,
-TOOLTIP_FISHINGROD_UPGRADE2	чтобы получить
-TOOLTIP_FISHINGROD_UPGRADE3	улучшеное удилище.
-TOOLTIP_FISH_LEN	Длина: %.2f см.
-TOOLTIP_HELMET	Шлем
-TOOLTIP_HP_REGEN	ХП-регенерация +%d%%	SA
-TOOLTIP_INT	Интеллект +%d	SA
-TOOLTIP_ITEM_ATT_GRADE	Показатель атаки %d
-TOOLTIP_ITEM_ATT_POWER	Показатель атаки %d - %d
-TOOLTIP_ITEM_ATT_POWER_ONE_ARG	Показатель атаки  %d
-TOOLTIP_ITEM_ATT_POWER_REFINE	Показатель атаки %d - %d (+%d)
-TOOLTIP_ITEM_ATT_SPEED	Скорость атаки %s
-TOOLTIP_ITEM_DEF_GRADE	Защита %d
-TOOLTIP_ITEM_FAST	Быстро
-TOOLTIP_ITEM_LIMIT_CON	Предел здоровья: %d
-TOOLTIP_ITEM_LIMIT_DEX	Предел подвижности: %d
-TOOLTIP_ITEM_LIMIT_INT	Предел интеллекта: %d
-TOOLTIP_ITEM_LIMIT_LEVEL	с уровня: %d
-TOOLTIP_ITEM_LIMIT_STR	Предел силы: %d
-TOOLTIP_ITEM_MAGIC_ATT_POWER	Показатель магической атаки %d - %d
-TOOLTIP_ITEM_MAGIC_ATT_POWER_ONE_ARG	Показатель магической атаки %d
-TOOLTIP_ITEM_MAGIC_DEF_POWER	Магическая защита %d
-TOOLTIP_ITEM_NORMAL	нормально
-TOOLTIP_ITEM_SLOW	медленно
-TOOLTIP_ITEM_VERY_FAST	очень быстро
-TOOLTIP_ITEM_VERY_SLOW	очень медленно
-TOOLTIP_ITEM_WEARABLE_JOB	[можно снаряжать]
+MINIMAP	РћС‚РєСЂС‹С‚СЊ РјРёРЅРё-РєР°СЂС‚Сѓ
+MINIMAP_CANNOT_SEE	РџРѕРєР°Р· РјРёРЅРё-РєР°СЂС‚С‹ РЅРµРІРѕР·РјРѕР¶РµРЅ.
+MINIMAP_CAN_NOT_SHOW_AREAMAP	РџРѕРєР°Р· РєР°СЂС‚С‹ РЅРµРІРѕР·РјРѕР¶РµРЅ.
+MINIMAP_DEC_SCALE	РЈРјРµРЅСЊС€РёС‚СЊ
+MINIMAP_INC_SCALE	РЈРІРµР»РёС‡РёС‚СЊ
+MINIMAP_OBSERVER_COUNT	%d РќР°Р±Р»СЋРґР°С‚РµР»СЊ
+MINIMAP_SHOW_AREAMAP	РћС‚РєСЂС‹С‚СЊ Р±РѕР»СЊС€СѓСЋ РєР°СЂС‚Сѓ
+MINUTE	РњРёРЅ.
+MONETARY_UNIT0	СЏРЅРі
+MONETARY_UNIT1	РґРµСЃСЏС‚СЊ С‚С‹СЃСЏС‡
+MONETARY_UNIT2	СЃС‚Рѕ РјРёР»Р»РёРѕРЅРѕРІ
+MONEY_INPUT_DIALOG_SELLPRICE	РџСЂРѕРґР°Р¶РЅР°СЏ С†РµРЅР°:
+MOVE_ITEM_FAILURE_PRIVATE_SHOP	Р’С‹ РЅРµ РјРѕР¶РµС€СЊ РїРµСЂРµРјРµС‰Р°С‚СЊ РїСЂРµРґРјРµС‚, РєРѕРіРґР° РѕС‚РєСЂС‹С‚Р° РІР°С€Р° Р»Р°РІРєР°.
+MUSIC_EMPTY_MUSIC_LIST	Р‘РµР· С„РѕРЅРѕРІРѕР№ РјСѓР·С‹РєРё.
+MUSIC_METIN2_DEFAULT_THEMA	РњРµС‚РёРЅ 2-СЃС‚Р°РЅРґР°СЂС‚РЅР°СЏ РјСѓР·С‹РєР°
+MUSIC_NOT_SELECT_MUSIC	РњСѓР·С‹РєР°Р»СЊРЅС‹Р№ С„Р°Р№Р» РЅРµ РІС‹Р±СЂР°РЅ.
+NEEFD_REST	РЎРїРµСЂРІР° РІС‹ РґРѕР»Р¶РЅС‹ РѕС‚РґРѕС…РЅСѓС‚СЊ.
+NOT_YET_SUPPORT	РќРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚СЃСЏ.
+OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ Р°РєС‚РёРІРёСЂРѕРІР°С‚СЊ СЂРµР¶РёРј Р“РёР»СЊРґРёРё, РїРѕРєР° РЅРµ СЏРІР»СЏРµС‚РµСЃСЊ РµС‘ С‡Р»РµРЅРѕРј.
+OPTION_PVPMODE_NOT_SUPPORT	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РІС‹Р±СЂР°С‚СЊ СЂРµР¶РёРј PvP.
+OPTION_PVPMODE_PROTECT	Р§С‚РѕР±С‹ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ PvP Р РµР¶РёРј, РЅСѓР¶РЅРѕ РґРѕСЃС‚РёРіРЅСѓС‚СЊ С…РѕС‚СЏ Р±С‹ СѓСЂРѕРІРµРЅСЊ %d.
+PARTY_ANSWER_TIMEOVER	РџСЂРёРіР»Р°С€РµРЅРёРµ РѕС‚РєР»РѕРЅРµРЅРѕ.
+PARTY_BONUS_ATTACKER	РђС‚Р°РєР°: +%d	SA
+PARTY_BONUS_BERSERKER	РЎРєРѕСЂРѕСЃС‚СЊ Р°С‚Р°РєРё: +%d	SA
+PARTY_BONUS_BUFFER	РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚СЊ РґРµР№СЃС‚РІРёСЏ РЅР°РІС‹РєРѕРІ: +%d	SA
+PARTY_BONUS_DEFENDER	Р—Р°С‰РёС‚Р°: +%d	SA
+PARTY_BONUS_EXP	Р‘РѕРЅСѓСЃ Рє РѕРїС‹С‚Сѓ: %d%%	SA
+PARTY_BONUS_SKILL_MASTER	РњР°РєСЃ. РњРџ: +%d	SA
+PARTY_BONUS_TANKER	РњР°РєСЃ. РҐРџ: +%d	SA
+PARTY_BREAK_UP	Р›РёРєРІРёРґРёСЂРѕРІР°С‚СЊ РіСЂСѓРїРїСѓ
+PARTY_DO_YOU_ACCEPT	---LOCA::SPACE--С…РѕС‚РµР» Р±С‹ РїСЂРёСЃРѕРµРґРёРЅРёС‚СЊСЃСЏ Рє РіСЂСѓРїРїРµ.
+PARTY_DO_YOU_JOIN	 РїСЂРёРіР»Р°СЃРёР» РІР°СЃ РІ РіСЂСѓРїРїСѓ. РџСЂРёРЅСЏС‚СЊ РїСЂРёРіР»Р°С€РµРЅРёРµ?
+PARTY_EXP_DISTRIBUTION_MODE	Р Р°СЃРїСЂРµРґРµР»РµРЅРёРµ РѕРїС‹С‚Р°
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL	Р’ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ СѓСЂРѕРІРЅСЏ
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	РЈС‡Р°СЃС‚РЅРёРєРё РіСЂСѓРїРїС‹ СЃ Р±РѕР»РµРµ РІС‹СЃРѕРєРёРј СѓСЂРѕРІРЅРµРј РїРѕР»СѓС‡Р°СЋС‚ Р±РѕР»СЊС€Рµ РѕРїС‹С‚Р°.
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	СЂР°РІРЅРѕРјРµСЂРЅРѕ
+PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	Р’СЃРµ СѓС‡Р°СЃС‚РЅРёРєРё РіСЂСѓРїРїС‹ РїРѕР»СѓС‡Р°СЋС‚ РѕРґРёРЅР°РєРѕРІРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РѕРїС‹С‚Р°.
+PARTY_HEAL_ALL_MEMBER	Р’РѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ РІСЃС‘
+PARTY_INCREASE_AREA_150	Р”РёР°РїР°Р·РѕРЅ РіСЂСѓРїРїС‹ СѓРІРµР»РёС‡РµРЅ РІ 1,5 СЂР°Р·Р°.	SNA
+PARTY_INCREASE_AREA_200	Р”РёР°РїР°Р·РѕРЅ РіСЂСѓРїРїС‹ СѓРІРµР»РёС‡РµРЅ РІ 2 СЂР°Р·Р°.	SNA
+PARTY_LEAVE	РџРѕРєРёРЅСѓС‚СЊ РіСЂСѓРїРїСѓ
+PARTY_LONGTIME_BONUS_EXP	Р‘РѕРЅСѓСЃ Рє РѕРїС‹С‚Сѓ Р·Р° РґРѕР»РіСѓСЋ РіСЂСѓРїРїРѕРІСѓСЋ РёРіСЂСѓ: +%d%%	SA
+PARTY_MEMBER_OFFLINE	[РѕС„С„Р»Р°Р№РЅ]
+PARTY_RECALL_MEMBER	РџРѕР·РІР°С‚СЊ СѓС‡Р°СЃС‚РЅРёРєР° РіСЂСѓРїРїС‹.
+PARTY_REGEN_BONUS	Р‘РѕРЅСѓСЃ Р·Р° РҐРџ- + РњРџ-СЂРµРіРµРЅРµСЂР°С†РёСЏ: +%d%%	SA
+PARTY_REQUEST_DENIED	Р’Р°С€Рµ РїСЂРёРіР»Р°С€РµРЅРёРµ РЅРµ РїСЂРёРЅСЏС‚Рѕ.
+PARTY_SET_ATTACKER	РћРїСЂРµРґРµР»РёС‚СЊ Р‘РѕР№С†РѕРј Р°С‚Р°РєРё.
+PARTY_SET_BERSERKER	РћРїСЂРµРґРµР»РёС‚СЊ  Р‘РµСЂСЃРµСЂРєРµСЂРѕРј.
+PARTY_SET_BUFFER	РћРїСЂРµРґРµР»РёС‚СЊ  Р‘Р»РѕРєРёСЂСѓСЋС‰РёРј.
+PARTY_SET_DEFENDER	РћРїСЂРµРґРµР»РёС‚СЊ Р—Р°С‰РёС‚РЅРёРєРѕРј.
+PARTY_SET_NORMAL	РћС‚РјРµРЅРёС‚СЊ СѓСЃС‚Р°РЅРѕРІРєСѓ.
+PARTY_SET_SKILL_MASTER	РћРїСЂРµРґРµР»РёС‚СЊ  РњР°СЃС‚РµСЂРѕРј РЅР°РІС‹РєРѕРІ.
+PARTY_SET_TANKER	РћРїСЂРµРґРµР»РёС‚СЊ Р‘РѕР№С†РѕРј Р±Р»РёР¶РЅРµРіРѕ Р±РѕСЏ.
+PARTY_SKILL_ATTACKER	Р‘Р°Р·РѕРІС‹Р№ РїРѕРєР°Р·Р°С‚РµР»СЊ Р‘РѕРµС† Р°С‚Р°РєРё +%.0f
+PARTY_SKILL_BERSERKER	РЎРєРѕСЂРѕСЃС‚СЊ Р°С‚Р°РєРё Р‘РµСЂСЃРµСЂРєРµСЂ +%.0f
+PARTY_SKILL_BUFFER	Р”Р»РёС‚РµР»СЊРЅРѕСЃС‚СЊ РЅР°РІС‹РєР° Р‘Р»РѕРєРёСЂСѓС‰РёР№ +%.0f
+PARTY_SKILL_DEFENDER	Р—Р°С‰РёС‚Р° Р—Р°С‰РёС‚РЅРёРє +%.0f
+PARTY_SKILL_HP_REGEN	РҐРџ-СЂРµРіРµРЅРµСЂР°С†РёСЏ +%.0f%%
+PARTY_SKILL_PARTY_AREA	Р”РёР°РїР°Р·РѕРЅ РіСЂСѓРїРїС‹ +%d%%
+PARTY_SKILL_SKILL_MASTER	РњР°РєСЃРёРј. РњРџ РњР°СЃС‚РµСЂ РЅР°РІС‹РєРѕРІ +%.0f
+PARTY_SKILL_SP_REGEN	РњРџ-СЂРµРіРµРЅРµСЂР°С†РёСЏ +%.0f%%
+PARTY_SKILL_TANKER	РњР°РєСЃРёРј. РҐРџ Р‘РѕРµС† Р±Р»РёР¶РЅРµРіРѕ Р±РѕСЏ +%.0f
+PARTY_SKILL_WARP	Р’РїСЂР°РІРµ РІС‹Р·РІР°С‚СЊ СѓС‡Р°СЃС‚РЅРёРєР° РіСЂСѓРїРїС‹.
+PASSWORD_TITLE	РџР°СЂРѕР»СЊ РґР»СЏ СЃРєР»Р°РґР°
+PICK_ITEM_TITLE	РќРѕРјРµСЂ РїСЂРµРґРјРµС‚Р°
+PICK_MONEY_TITLE	РЎС‚РѕРёРјРѕСЃС‚СЊ
+PRIVATE_SHOP_CANNOT_SELL_ITEM	Р­С‚РѕС‚ РїСЂРµРґРјРµС‚ РЅРµР»СЊР·СЏ РєСѓРїРёС‚СЊ РІ Р»Р°РІРєРµ.
+PRIVATE_SHOP_CLOSE_QUESTION	РҐРѕС‚РёС‚Рµ Р·Р°РєСЂС‹С‚СЊ Р»Р°РІРєСѓ?
+PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	РРјСЏ Р»Р°РІРєРё
+PRIVATE_SHOP_INPUT_PRICE_DIALOG_TITLE	Р¦РµРЅР°
+PVP_LEVEL0	РїРѕ-СЂС‹С†Р°СЂСЃРєРё
+PVP_LEVEL1	Р±Р»Р°РіРѕСЂРѕРґРЅРѕ
+PVP_LEVEL2	С…РѕСЂРѕС€Рѕ
+PVP_LEVEL3	РґСЂСѓР¶РµР»СЋР±РЅС‹Р№
+PVP_LEVEL4	РЅРµР№С‚СЂР°Р»СЊРЅС‹Р№
+PVP_LEVEL5	Р°РіСЂРµСЃСЃРёРІРЅС‹Р№
+PVP_LEVEL6	РєРѕРІР°СЂРЅС‹Р№
+PVP_LEVEL7	Р·Р»РѕР±РЅС‹Р№
+PVP_LEVEL8	Р¶РµСЃС‚РѕРєРёР№
+PVP_MODE_GUILD	PvP-Р РµР¶РёРј РіРёР»СЊРґРёРё Р°РєС‚РёРІРёСЂРѕРІР°РЅ
+PVP_MODE_KILL	РЎРІРѕР±РѕРґРЅРѕРµ PvP Р°РєС‚РёРІРёСЂРѕРІР°РЅРѕ
+PVP_MODE_NORMAL	PvP-РјРёСЂ Р°РєС‚РёРІРёСЂРѕРІР°РЅ
+PVP_MODE_PROTECT	PvP-Р·Р°С‰РёС‚Р° Р°РєС‚РёРІРёСЂРѕРІР°РЅР°
+PVP_MODE_REVENGE	PvP-РІСЂР°Р¶РґРµР±РЅС‹Р№ Р°РєС‚РёРІРёСЂРѕРІР°РЅРѕ
+PVP_OPTION_KILL	РЎРІРѕР±РѕРґРЅС‹Р№
+PVP_OPTION_NORMAL	РњРёСЂ
+PVP_OPTION_PROTECT	Р—Р°С‰РёС‚Р°
+PVP_OPTION_REVENGE	РІСЂР°Р¶РґРµР±РЅС‹Р№
+QUEST_APPEND	РќРѕРІРѕРµ Р·Р°РґР°РЅРёРµ  РїСЂРёРЅСЏС‚Рѕ.
+QUEST_MIN	РњРёРЅ.
+QUEST_SEC	РЎРµРє.
+QUEST_TIMEOVER	Р’СЂРµРјСЏ РёСЃСЃС‚РµРєР»Рѕ.
+QUEST_UNLIMITED_TIME	Р‘РµР· РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РІСЂРµРјРµРЅРё
+QUEST_ZEROSEC	0 СЃРµРє.
+QUICKSLOT_REGISTER_DISABLE_ITEM	Р­С‚РѕС‚ РїСЂРµРґРјРµС‚ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РґРѕР±Р°РІР»РµРЅ РІ РїРѕР»Рµ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР°.
+RECEIVE_MESSAGE	%s РѕС‚РїСЂР°РІРёР» РІР°Рј СЃРѕРѕР±С‰РµРЅРёРµ.
+REFINE_COST	Р—Р°С‚СЂР°С‚С‹ РЅР° СѓР»СѓС‡С€РµРЅРёРµ: %d СЏРЅРі
+REFINE_DESTROY_WARNING	Р’РµСЂРѕСЏС‚РЅРѕСЃС‚СЊ СЂР°Р·СЂСѓС€РµРЅРёСЏ РїСЂРµРґРјРµС‚Р° РїСЂРё РµРіРѕ СѓР»СѓС‡С€РµРЅРёРё.
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1	Р­С‚Рѕ РїРѕРІС‹С€Р°РµС‚ РІРµСЂРѕСЏС‚РЅРѕСЃС‚СЊ СѓР»СѓС‡С€РµРЅРёСЏ,
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	РЅРѕ РІ СЃР»СѓС‡Р°Рµ РЅРµСѓРґР°С‡Рё РїСЂРµРґРјРµС‚ Р±СѓРґРµС‚ СЂР°Р·СЂСѓС€РµРЅ. Р’С‹ СѓРІРµСЂРµРЅРЅС‹, С‡С‚Рѕ С…РѕС‚РёС‚Рµ РїСЂРѕРґРѕР»Р¶РёС‚СЊ?
+REFINE_DOWN_GRADE_WARNING	Р’РµСЂРѕСЏС‚РЅРѕСЃС‚СЊ РїРѕС‚РµСЂРё РЅРµРєРѕС‚РѕСЂС‹С… СЃРІРѕР№СЃС‚РІ РїСЂРµРґРјРµС‚Р° РїСЂРё РїРѕРїС‹С‚РєРµ РµРіРѕ СѓР»СѓС‡С€РёС‚СЊ.
+REFINE_DO_YOU_SEPARATE_METIN	Р’С‹ С…РѕС‚РёС‚Рµ СѓРґР°Р»РёС‚СЊ РљР°РјРµРЅСЊ РґСѓС…Р°?
+REFINE_FAILURE	Р”Р° СѓР¶, РЅРµ СЃСЂР°Р±РѕС‚Р°Р»Рѕ. РњС‹ РЅРµ СЃРїСЂР°РІРёР»РёСЃСЊ.
+REFINE_FAILURE_CAN_NOT_ATTACH	%s РЅРµР»СЊР·СЏ РїСЂРёР»РѕР¶РёС‚СЊ Рє СЌС‚РѕРјСѓ РїСЂРµРґРјРµС‚Сѓ.
+REFINE_FAILURE_EQUIP_ITEM	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ СѓР»СѓС‡С€РёС‚СЊ СЃРЅР°СЂСЏР¶РµРЅРЅС‹Р№ РїСЂРµРґРјРµС‚.
+REFINE_FAILURE_METIN_INSEPARABLE_ITEM	РќРµС‚ РєР°РјРЅСЏ РґСѓС…Р° РґР»СЏ СѓРґР°Р»РµРЅРёСЏ.
+REFINE_FAILURE_NEED_BETTER_SCROLL	Р’Р°Рј РЅРµРѕР±С…РѕРґРёРј Р»СѓС‡С€РёР№ РЎРІРёС‚РѕРє СѓР»СѓС‡С€РµРЅРёСЏ.
+REFINE_FAILURE_NO_GOLD_SOCKET	Р”РѕР±Р°РІР»РµРЅРёРµ %s РЅРµРІС‹РїРѕР»РЅРёРјРѕ РёР·-Р·Р° РѕС‚СЃСѓС‚СЃС‚РІРёСЏ Р·РѕР»РѕС‚РѕР№ РѕРїСЂР°РІС‹.
+REFINE_FAILURE_NO_MORE_SOCKET	Р”РѕР±Р°РІР»РµРЅРёРµ РїРѕСЃР»РµРґСѓСЋС‰РёС… СЏС‡РµРµРє РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+REFINE_FAILURE_NO_SOCKET0	Р”РѕР±Р°РІР»РµРЅРёРµ %s РЅРµРІС‹РїРѕР»РЅРёРјРѕ РёР·-Р·Р° РѕС‚СЃСѓС‚СЃС‚РІРёСЏ СЏС‡РµР№РєРё.
+REFINE_FAILURE_SOCKET_DISABLE_ITEM	Р”РѕР±Р°РІР»РµРЅРёРµ СЏС‡РµРµРє Рє СЌС‚РѕРјСѓ РїСЂРµРґРјРµС‚Сѓ РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+REFINE_FAILURE_UPGRADE_DISABLE_ITEM	Р­С‚РѕС‚ РїСЂРµРґРјРµС‚ РЅРµР»СЊР·СЏ СѓР»СѓС‡С€РёС‚СЊ.
+REFINE_SUCCESS	РЈР»СѓС‡С€РµРЅРёРµ РїСЂРµРґРјРµС‚Р° РїСЂРѕС€Р»Рѕ СѓСЃРїРµС€РЅРѕ.
+REFINE_SUCCESS_PROBALITY	РЁР°РЅСЃ РЅР° СѓР»СѓС‡С€РµРЅРёРµ: %d%%
+REFINE_WARNING2	РџСЂРѕРґРѕР»Р¶РёС‚СЊ?
+SAFEBOX_ERROR	Р’РІРµРґС‘РЅ РЅРµРІРµСЂРЅС‹Р№ РїР°СЂРѕР»СЊ.
+SAFEBOX_SELL_DISABLE_SAFEITEM	РџСЂРѕРґР°Р¶Р° СЃРѕС…СЂР°РЅРЅС‘РЅС‹С… РїСЂРµРґРјРµС‚РѕРІ РЅРµРІРѕР·РјРѕР¶РЅР°.
+SAFEBOX_WRONG_PASSWORD	РџР°СЂРѕР»Рё РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РёРґРµРЅС‚РёС‡РЅС‹РјРё.
+SCREENSHOT_SAVE1	СЃРѕС…СЂР°РЅРµРЅ РІ
+SCREENSHOT_SAVE2	Р¤Р°Р№Р» СЃРєСЂРёРЅС€РѕС‚Р°
+SCREENSHOT_SAVE_FAILURE	РЎРєСЂРёРЅС€РѕС‚ РЅРµ СЃРѕС…СЂР°РЅС‘РЅ.
+SECOND	РЎРµРє
+SELECT_CAN_NOT_DELETE	РЈРґР°Р»РµРЅРёРµ РїРµСЂСЃРѕРЅР°Р¶Р° РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+SELECT_CHANGED_NAME	Р’С‹ РёР·РјРµРЅРёР»Рё РёРјСЏ РїРµСЂСЃРѕРЅР°Р¶Р°.
+SELECT_CHANGE_FAILURE_ALREADY_EXIST_NAME	РџРµСЂСЃРѕРЅР°Р¶ СЃ С‚Р°РєРёРј РёРјРµРЅРµРј СѓР¶Рµ СЃСѓС‰РµСЃС‚РІСѓРµС‚.
+SELECT_CHANGE_FAILURE_STRANGE_INDEX	РџРѕРїСЂРѕР±СѓР№С‚Рµ РµС‰Рµ СЂР°Р·.
+SELECT_CHANGE_FAILURE_STRANGE_NAME	Р­С‚Рѕ РЅРµРІРµСЂРЅРѕРµ РёРјСЏ РїРµСЂСЃРѕРЅР°Р¶Р°.
+SELECT_CHANGE_NAME_TITLE	РР·РјРµРЅРёС‚СЊ РёРјСЏ РїРµСЂСЃРѕРЅР°Р¶Р°.
+SELECT_DELEING	РџРµСЂСЃРѕРЅР°Р¶ Р±СѓРґРµС‚ СѓРґР°Р»С‘РЅ
+SELECT_DELETED	РЈРґР°Р»РµРЅРёРµ РїСЂРѕС€Р»Рѕ СѓСЃРїРµС€РЅРѕ.
+SELECT_DO_YOU_DELETE_REALLY	РџСЂРѕРґРѕР»Р¶РёС‚СЊ?
+SELECT_EMPTY_SLOT	Р­С‚Рѕ РїСѓСЃС‚РѕРµ РїРѕР»Рµ.
+SELECT_GM_NAME	Р“Рњ
+SELECT_INPUT_CHANGING_NAME	Р’РІРµРґРёС‚Рµ РЅРѕРІРѕРµ РёРјСЏ РїРµСЂСЃРѕРЅР°Р¶Р°.
+SELECT_NOT_JOIN_GUILD	Р“РёР»СЊРґРёСЏ РѕС‚СЃСѓС‚СЃРІСѓРµС‚
+SHOP_BUY_INFO	Р’С‹Р±РµСЂРёС‚Рµ РІ РѕРєРЅРµ РјР°РіР°Р·РёРЅР°, РїСЂРµРґРјРµС‚ РєРѕС‚РѕСЂС‹Р№ С…РѕС‚РёС‚Рµ РєСѓРїРёС‚СЊ.
+SHOP_CANNOT_SELL_EQUIPMENT	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РїСЂРѕРґР°С‚СЊ СЃРЅР°СЂСЏР¶РµРЅРЅС‹Р№ РїСЂРµРґРјРµС‚.
+SHOP_CANNOT_SELL_ITEM	Р­С‚РѕС‚ РїСЂРµРґРјРµС‚ РЅРµ РїСЂРѕРґР°С‘С‚СЃСЏ.
+SHOP_ERROR_UNKNOWN	РќРµРёР·РІРµСЃС‚РЅР°СЏ РѕС€РёР±РєР° РјР°РіР°Р·РёРЅР°: %s
+SHOP_INVALID_POS	РџСЂРёРјРµРЅРёС‚СЊ СЌС‚РѕС‚ РїСЂРµРґРјРµС‚ РЅРµРІРѕР·РјРѕР¶РЅРѕ.
+SHOP_INVENTORY_FULL	Р’ РёРЅРІРµРЅС‚Р°СЂРµ РЅРµС‚ СЃРІРѕР±РѕРґРЅРѕРіРѕ РјРµСЃС‚Р°.
+SHOP_NOT_ENOUGH_MONEY	РќРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ СЏРЅРі.
+SHOP_NOT_ENOUGH_MONEY_EX	РЈ РІР°СЃ РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ СЏРЅРі.
+SHOP_SELL_INFO	Р’С‹Р±РµСЂРёС‚Рµ РІ РѕРєРЅРµ РёРЅРІРµРЅС‚Р°СЂСЏ РїСЂРµРґРјРµС‚, РєРѕС‚РѕСЂС‹Р№ С…РѕС‚РёС‚Рµ РїСЂРѕРґР°С‚СЊ.
+SHOP_SOLDOUT	РџСЂРѕРґР°РЅРѕ
+SHOT_ERROR_UNKNOWN	РќРµРёР·РІРµСЃС‚РЅР°СЏ РѕС€РёР±РєР° РґР°Р»СЊРЅРµР№ Р°С‚Р°РєРё: %s
+SKILL_BLEEDING	РљСЂРѕРІРѕС‚РµС‡РµРЅРёРµ
+SKILL_BOHO	РћС‚СЂР°Р¶Р°С‚СЊ
+SKILL_BUDONG	Р‘РѕР»СЊС€Рµ РЅРµ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	Р’Р°Рј РЅРµРѕР±С…РѕРґРёРј РѕРїС‹С‚, С‡С‚РѕР±С‹ РѕР±СѓС‡РёС‚СЊСЃСЏ СЌС‚РѕРјСѓ РЅР°РІС‹РєСѓ.
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	Р’Р°Рј РЅРµРѕР±С…РѕРґРёРјР° РєРЅРёРіР°, РѕР±СѓС‡Р°СЋС‰Р°СЏ СЌС‚РѕРјСѓ РЅР°РІС‹РєСѓ.
+SKILL_CHEONGEUN	РЎРёР»СЊРЅРѕРµ С‚РµР»Рѕ.
+SKILL_CRITICAL	РљСЂРёС‚РёС‡РµСЃРєРёР№ СѓРґР°СЂ
+SKILL_ENCHANT_POISON	РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЏРґ
+SKILL_EUNHYEONG	РќРµРІРёРґРёРјС‹Р№
+SKILL_FAINT	Р“РѕР»РѕРІРѕРєСЂСѓР¶РµРЅРёРµ
+SKILL_FIND_TRAP	РСЃРєР°С‚СЊ Р·Р°РїР°РґРЅСЋ
+SKILL_FIRE	РЎР¶РµС‡СЊ
+SKILL_FISHMIND	Р С‹Р±Р°-С€Р°СЂ Р°РєС‚РёРІРµРЅ
+SKILL_GAMJI	РІР·СЏС‚СЊ
+SKILL_GEOMGYEONG	РђСѓСЂР° РјРµС‡Р°
+SKILL_GEONGON	SKILL_GEONGON Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_GICHEON	РџРѕРјРѕС‰СЊ Р”СЂР°РєРѕРЅР°
+SKILL_GIGONG	Р¦РёСЂРєСѓР»СЏС†РёСЏ РЁРё
+SKILL_GONGPO	РЎС‚СЂР°С…
+SKILL_GRADE_NAME_GRAND_MASTER	%s Р‘РѕР»СЊС€РѕР№ РјР°СЃС‚РµСЂ
+SKILL_GRADE_NAME_MASTER	%s РњР°СЃС‚РµСЂ
+SKILL_GRADE_NAME_PERFECT_MASTER	%s  Р’РµР»РёРєРёР№ РјР°СЃС‚РµСЂ
+SKILL_GROUP_ASSASSIN_1	РљР»РёРЅРѕРє
+SKILL_GROUP_ASSASSIN_2	Р›СѓРє
+SKILL_GROUP_HORSE	РСЃСЃРєСѓСЃС‚РІРѕ РЅР°РµР·РґРЅРёРєР°
+SKILL_GROUP_SHAMAN_1	Р”СЂР°РєРѕРЅС‹
+SKILL_GROUP_SHAMAN_2	РСЃС†РµР»РµРЅРёРµ
+SKILL_GROUP_SURA_1	РћСЂСѓР¶РёРµ
+SKILL_GROUP_SURA_2	РњР°РіРёСЏ
+SKILL_GROUP_WARRIOR_1	РўРµР»Рѕ
+SKILL_GROUP_WARRIOR_2	РЈРјСЃС‚РІРµРЅРЅС‹Р№
+SKILL_GWIGEOM	Р—Р°РєРѕР»РґРѕРІР°РЅРЅС‹Р№ РєР»РёРЅРѕРє
+SKILL_GYEONGGONG	Р›РµРіРєР°СЏ РїРѕС…РѕРґРєР°
+SKILL_HEUKSIN	Р—Р°С‰РёС‚Р° С‚С‘РјРЅС‹С… СЃРёР»
+SKILL_HOSIN	Р‘Р»Р°РіРѕСЃР»РѕРІРµРЅРёРµ
+SKILL_HWAYEOM	SKILL_HWAYEOM Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏС‚СЃСЏ
+SKILL_HYEOLMA	SKILL_HYEOLMA Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_INC_ATKSPD	РЎРєРѕСЂРѕСЃС‚СЊ Р°С‚Р°РєРё РїРѕРІС‹С€РµРЅР°
+SKILL_INC_MOVSPD	РЎРєРѕСЂРѕСЃС‚СЊ РґРІРёР¶РµРЅРёСЏ РїРѕРІС‹С€РµРЅР°
+SKILL_INMA	SKILL_INMA Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_JEOJU	Р—Р°РєР»РёРЅР°РЅРёРµ
+SKILL_JEONGEOP	Р›РµС‡РµРЅРёРµ
+SKILL_JEONGWI	Р‘РµСЂСЃРµСЂРє
+SKILL_JEONSINBANGEO	РџРѕР»РЅР°СЏ Р·Р°С‰РёС‚Р°
+SKILL_JEONSINGONGGYEOK	РџРѕР»РЅР°СЏ Р°С‚Р°РєР°	
+SKILL_JEUNGCHE	SKILL_JEUNGCHE Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_JEUNGHON	SKILL_JEUNGHON Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_JEUNGRYEOK	РђС‚Р°РєР°+
+SKILL_JEUNGSOK	РЎРєРѕСЂРѕСЃС‚СЊ+
+SKILL_JIGAM	SKILL_JIGAM Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_JIPJUNG	SKILL_JIPJUNG Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_JUMAGAP	Р—Р°РєРѕР»РґРѕРІР°РЅРЅР°СЏ Р±СЂРѕРЅСЏ
+SKILL_JUMAGEOM	SKILL_JUMAGEOM Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_KWAEGEOM	SKILL_KWAEGEOM Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_KWAESOK	Р‘С‹СЃС‚СЂРѕС‚Р°
+SKILL_LEGBOUND	SKILL_LEGBOUND Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_MUSA	SKILL_MUSA Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_MUYEONG	Р”СѓС… РћРіРЅСЏ
+SKILL_NEED_EMPTY_BOTTLE	РЈ РјРµРЅСЏ РЅРµС‚ РїСѓСЃС‚РѕРіРѕ РєСѓРІС€РёРЅР°.
+SKILL_NEED_POISON_BOTTLE	РЈ РјРµРЅСЏ РЅРµС‚ Р±СѓС‚С‹Р»РєРё СЃ СЏРґРѕРј.
+SKILL_ONLY_FOR_GUILD_WAR	Р’С‹  РјРѕР¶РµС‚Рµ РїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ СЌС‚РёРј РЅР°РІС‹РєРѕРј С‚РѕР»СЊРєРѕ РІ Р’РѕР№РЅРµ Р“РёР»СЊРґРёР№.
+SKILL_PABEOP	РћС‚РјРµРЅРёС‚СЊ РІРѕР»С€РµР±СЃС‚РІРѕ.
+SKILL_POWERFUL_STRIKE	РџР°СЂР°Р»РёР·РёСЂСѓСЋС‰Р°СЏ Р°С‚Р°РєР°
+SKILL_SEOMGWANG	Р‘РѕРјР±Р°-РјРѕР»РЅРёСЏ
+SKILL_SINCHAK	SKILL_SINCHAK Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_SLEEP	РЎРѕРЅ
+SKILL_SLOW	РњРµРґР»РµРЅРЅРѕ
+SKILL_STUN	РџР°СЂР°Р»РёР·РѕРІР°С‚СЊ
+SKILL_SUHO	РЎС‚СЂР°Р¶РЅРёРє
+SKILL_SUMMON_DESCRIPTION	РЁР°РЅСЃ РЅР° РІС‹Р·РѕРІ: %d%%
+SKILL_TOOLTIP_INT	РРЅС‚РµР»Р»РµРєС‚
+SKILL_TOOLTIP_LEVEL	РЈСЂРѕРІРµРЅСЊ
+SKILL_TOXICDIE	РћС‚СЂР°РІР»РµРЅРёРµ
+SKILL_TOXICPOWER	РџРѕРєР°Р·Р°С‚РµР»СЊ Р°С‚Р°РєРё СЏРґРѕРј СѓР»СѓС‡С€РµРЅ
+SKILL_TUSOK	РЈРґР°СЂ Р”СѓС…Р°
+SKILL_WONSIN	SKILL_WONSIN Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+SKILL_YONGSIN	SKILL_YONGSIN Р±РѕР»СЊС€Рµ РЅРµ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ
+STAT_MINUS_CON	Р РµРіСѓР»РёСЂРѕРІРєР° Р·РґРѕСЂРѕРІСЊСЏ (РћСЃС‚Р°СЋС‰. С€Р°РЅСЃ: %d)
+STAT_MINUS_DEX	Р РµРіСѓР»РёСЂРѕРІРєР° РїРѕРґРІРёР¶РЅРѕСЃС‚Рё ( РћСЃС‚Р°РІС€. С€Р°РЅСЃ: %d)
+STAT_MINUS_INT	Р РµРіСѓР»РёСЂРѕРІРєР° РёРЅС‚РµР»Р»РµРєС‚Р° (РћСЃС‚Р°РІС€. С€Р°РЅСЃ:%d)
+STAT_MINUS_STR	Р РµРіСѓР»РёСЂРѕРІРєР° СЃРёР»С‹ (РћСЃС‚Р°РІС€.С€Р°РЅСЃ: %d)
+STAT_TOOLTIP_CON	РџРѕРІС‹С€Р°РµС‚ РҐРџ Рё Р·Р°С‰РёС‚Сѓ
+STAT_TOOLTIP_DEX	РџРѕРІС‹С€Р°РµС‚ РђС‚Р°РєСѓ Рё РЈРєР»РѕРЅ
+STAT_TOOLTIP_INT	РџРѕРІС‹С€Р°РµС‚ РњРџ, РјР°РіРёС‡РµСЃРєСѓСЋ Р°С‚Р°РєСѓ Рё РјР°РіРёС‡РµСЃРєСѓСЋ Р·Р°С‰РёС‚Сѓ.
+STAT_TOOLTIP_STR	РџРѕРІС‹С€Р°РµС‚ РџРѕРєР°Р·Р°С‚РµР»СЊ РђС‚Р°РєРё Рё РЈСЂРѕРЅ
+SYMBOLLIST_TITLE	Р РµРіРёСЃС‚СЂРёСЂРѕРІР°С‚СЊ С„Р»Р°Рі Р“РёР»СЊРґРёРё
+SYSTEM_OPTION_CPU_TILING_1	Р¤СЂР°РіРјРµРЅС‚Р°С†РёРѕРЅРЅС‹Р№ СЂРµР¶РёРј РјРѕР¶РµС‚ СѓР»СѓС‡С€РёС‚СЊ СЃРєРѕСЂРѕСЃС‚СЊ СЃР»Р°Р±РѕРіРѕ РєРѕРјРїСЊСЋС‚РµСЂР°.
+SYSTEM_OPTION_CPU_TILING_2	Р•СЃР»Рё РµСЃС‚СЊ РїСЂРѕР±Р»РµРјС‹ СЃ РіСЂР°С„РёРєРѕР№, РІС‹Р±РµСЂРёС‚Рµ 'РЎРёСЃС‚РµРјРЅС‹Рµ РћРїС†РёРё' РёР»Рё С„Р°Р№Р» ,CONFIG.exeвЂ
+SYSTEM_OPTION_CPU_TILING_3	Рё РїРµСЂРµР№РґРёС‚Рµ С‚Р°РєРёРј РѕР±СЂР°Р·РѕРј РЅР° Р¤СЂР°РіРјРµРЅС‚Р°С†РёРѕРЅРЅС‹Р№ СЂРµР¶РёРј (GPU-Tiling).
+SYSTEM_OPTION_GPU_TILING_1	Р¤СЂР°РіРјРµРЅС‚Р°С†РёРѕРЅРЅС‹Р№ СЂРµР¶РёРј (GPU-Tiling) СЂР°Р±РѕС‚Р°РµС‚ РЅР° СЃР»Р°Р±РѕРј PC РґРѕРІРѕР»СЊРЅРѕ РјРµРґР»РµРЅРЅРѕ.
+SYSTEM_OPTION_GPU_TILING_2	Р•СЃР»Рё РІРѕР·РЅРёРєР»Рё РїСЂРѕР±Р»РµРјС‹ СЃ РіСЂР°С„РёРєРѕР№, РІС‹Р±РµСЂРёС‚Рµ  'РЎРёСЃС‚РµРјРЅС‹Рµ РћРїС†РёРё' РёР»Рё С„Р°Р№Р» 'CONFIG.exe'
+SYSTEM_OPTION_GPU_TILING_3	Рё РїРµСЂРµР№РґРёС‚Рµ С‚Р°РєРёРј РѕР±СЂР°Р·РѕРј РЅР° Р¤СЂР°РіРјРµРЅС‚Р°С†РёРѕРЅРЅС‹Р№ СЂРµР¶РёРј( CPU-Tiling).
+SYSTEM_OPTION_TILING_EXIT	Р”Р»СЏ Р·Р°РјРµРЅС‹ Р¤СЂР°РіРјРµРЅС‚Р°С†РёРѕРЅРЅРѕРіРѕ СЂРµР¶РёРјР° РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРµСЂРІР°С‚СЊ РёРіСЂСѓ.
+TARGET_BUTTON_ACCEPT_FIGHT	РЎРѕРіР»Р°СЃРёС‚СЊСЃСЏ
+TARGET_BUTTON_AVENGE	РћС‚РјС‰РµРЅРёРµ
+TARGET_BUTTON_BUILDING_DESTROY	Р Р°Р·СЂСѓС€РёС‚СЊ
+TARGET_BUTTON_DISMOUNT	РџР°СЃРѕРІР°С‚СЊ
+TARGET_BUTTON_EMOTION_ALLOW	Р­РјРѕС†РёРё
+TARGET_BUTTON_EXCHANGE	РўРѕСЂРіРѕРІР°С‚СЊ
+TARGET_BUTTON_EXCLUDE	РСЃРєР»СЋС‡РёС‚СЊ
+TARGET_BUTTON_EXIT_OBSERVER	РџСЂРµСЂРІР°С‚СЊ Р РµР¶РёРј РЅР°Р±Р»СЋРґР°С‚РµР»СЏ
+TARGET_BUTTON_FIGHT	РџРѕРµРґРёРЅРѕРє
+TARGET_BUTTON_FRIEND	Р”СЂСѓРі
+TARGET_BUTTON_INVITE_GUILD	РџСЂРёРіР»Р°С€РµРЅРёРµ РіРёР»СЊРґРёРё
+TARGET_BUTTON_INVITE_PARTY	РџСЂРёРіР»Р°СЃРёС‚СЊ
+TARGET_BUTTON_LEAVE_PARTY	РџРѕРєРёРЅСѓС‚СЊ РіСЂСѓРїРїСѓ
+TARGET_BUTTON_REQUEST_ENTER_PARTY	Р’СЃС‚СѓРїРёС‚СЊ РІ РіСЂСѓРїРїСѓ
+TARGET_BUTTON_VIEW_EQUIPMENT	РЎРЅР°СЂСЏР¶РµРЅРёРµ
+TARGET_BUTTON_WHISPER	РЁРµРїС‚Р°РЅРёРµ
+TARGET_LEVEL_BOSS	Р‘РѕСЃСЃ
+TARGET_LEVEL_KING	РЈСЂРѕРІРµРЅСЊ 5.
+TARGET_LEVEL_KNIGHT	РЈСЂРѕРІРµРЅСЊ 3.
+TARGET_LEVEL_PAWN	РЈСЂРѕРІРµРЅСЊ 1.
+TARGET_LEVEL_S_KNIGHT	РЈСЂРѕРІРµРЅСЊ 4.
+TARGET_LEVEL_S_PAWN	РЈСЂРѕРІРµРЅСЊ 2.
+TASKBAR_ATTACK	РђС‚Р°РєРѕРІР°С‚СЊ
+TASKBAR_AUTO	РќР°РїР°РґР°С‚СЊ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё
+TASKBAR_CAMERA	РљР°РјРµСЂР°
+TASKBAR_EXP	РћРїС‹С‚
+TASKBAR_HP	РҐРџ
+TASKBAR_MOVE	Р”РІРёРіР°С‚СЊ
+TASKBAR_SKILL	РќР°РІС‹Рє
+TASKBAR_SP	РњРџ
+TASKBAR_ST	РЎРџ
+THING_COUNT	РІСЃРµ
+TOOLTIP_ANTI_CRITICAL_PCT	РЎРѕРїСЂРѕС‚РёРІР»РµРЅРёРµ РєСЂРёС‚РёС‡РµСЃРєРёРј СѓРґР°СЂР°Рј +%d%%	SA
+TOOLTIP_ANTI_PENETRATE_PCT	РЎРѕРїСЂРѕС‚РёРІР»РµРЅРёРµ РїСЂРѕРЅР·Р°СЋС‰РёРј СѓРґР°СЂР°Рј +%d%%	SA
+TOOLTIP_ANTI_SELL	Р’ РјР°РіР°Р·РёРЅРµ РЅРµ РїСЂРѕРґР°С‘С‚СЃСЏ.
+TOOLTIP_APPLY_ACCEDRAIN_RATE	РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРіР»РѕС‰РµРЅРёСЏ: %d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ANIMAL	РЎРёР»Р° РїСЂРѕС‚РёРІ Р·РІРµСЂРµР№ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ASSASSIN	РЎРёР»Р° РїСЂРѕС‚РёРІ РќРёРЅРґР·СЏ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_DEVIL	РЎРёР»Р° РїСЂРѕС‚РёРІ Р”СЊСЏРІРѕР»Р° +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_HUMAN	РЎРёР»Р° РїСЂРѕС‚РёРІ  РџРѕР»СѓР»СЋРґРµР№ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MILGYO	РЎРёР»Р° РїСЂРѕС‚РёРІ РњРёСЃС‚РёРєРѕРІ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MONSTER	РЎРёР»Р° РїСЂРѕС‚РёРІ РњРѕРЅСЃС‚СЂРѕРІ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ORC	РЎРёР»Р° РїСЂРѕС‚РёРІ РћСЂРєРѕРІ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SHAMAN	РЎРёР»Р° РїСЂРѕС‚РёРІ РЁР°РјР°РЅРѕРІ +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SURA	РЎРёР»Р° РїСЂРѕС‚РёРІ РЎСѓСЂР° +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_UNDEAD	РЎРёР»Р° РїСЂРѕС‚РёРІ РќРµР¶РёС‚Рё +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_WARRIOR	РЎРёР»Р° РїСЂРѕС‚РёРІ Р’РѕРёРЅРѕРІ +%d%%	SA
+TOOLTIP_APPLY_BLEEDING_PCT	Р’С‹Р·РІР°С‚СЊ РєСЂРѕРІРѕС‚РµС‡РµРЅРёРµ + %d%%	SA
+TOOLTIP_APPLY_BLEEDING_REDUCE	РЎРѕРїСЂРѕС‚РёРІР»РµРЅРёРµ РєСЂРѕРІРѕС‚РµС‡РµРЅРёСЋ + %d%%	SA
+TOOLTIP_APPLY_BLOCK	РЁР°РЅСЃ РЅР° Р±Р»РѕРєР°С†РёСЋ С„РёР·РёС‡РµСЃРєРѕР№ Р°С‚Р°РєРё %d%%	SA
+TOOLTIP_APPLY_COMBAT_SP_RECOVER	Р’РѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёРµ РњРџ РІ Р±РѕСЋ РєР°Р¶РґС‹Рµ 5 РЎРµРє. %d	SA
+TOOLTIP_APPLY_CRITICAL_PCT	%d%% С€Р°РЅСЃРѕРІ РЅР° РљСЂРёС‚РёС‡РµСЃРєРёР№ СѓРґР°СЂ	SA
+TOOLTIP_APPLY_DAMAGE_SP_RECOVER	%d%% С€Р°РЅСЃРѕРІ РІРѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ РњРџ РїСЂРё РїРѕРїР°РґР°РЅРёРё	SA
+TOOLTIP_APPLY_DODGE	РЁР°РЅСЃ РЅР° СѓРІРµСЂРЅСѓС‚СЊСЃСЏ РѕС‚ СЃС‚СЂРµР»С‹ %d%%	SA
+TOOLTIP_APPLY_EXP_DOUBLE_BONUS	%d%% С€Р°РЅСЃРѕРІ РЅР° Р±РѕРЅСѓСЃ Рє РѕРїС‹С‚Сѓ	SA
+TOOLTIP_APPLY_GOLD_DOUBLE_BONUS	%d%% С€Р°РЅСЃРѕРІ РІС‹Р±СЂРѕСЃРёС‚СЊ РІРґРІРѕРµ Р±РѕР»СЊС€Рµ СЏРЅРі	SA
+TOOLTIP_APPLY_IMMUNE_FALL	РРјРјСѓРЅРЅС‹Р№ РїСЂРѕС‚РёРІ РїР°РґРµРЅРёСЏ	SNA
+TOOLTIP_APPLY_IMMUNE_SLOW	Р—Р°С‰РёС‚Р° РѕС‚ Р·Р°РјРµРґР»РµРЅРёСЏ	SNA
+TOOLTIP_APPLY_IMMUNE_STUN	Р—Р°С‰РёС‚Р° РѕС‚ РіРѕР»РѕРІРѕРєСЂСѓР¶РµРЅРёСЏ	SNA
+TOOLTIP_APPLY_ITEM_DROP_BONUS	%d%% С€Р°РЅСЃРѕРІ РІС‹Р±СЂРѕСЃРёС‚СЊ РІРґРІРѕРµ Р±РѕР»СЊС€Рµ РїСЂРµРґРјРµС‚РѕРІ	SA
+TOOLTIP_APPLY_KILL_HP_RECOVER	%d%% С€Р°РЅСЃРѕРІ РІРѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ РҐРџ	SA
+TOOLTIP_APPLY_KILL_SP_RECOVER	%d%% С€Р°РЅСЃРѕРІ РІРѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ РњРџ	SA
+TOOLTIP_APPLY_MANA_BURN_PCT	%d%% С€Р°РЅСЃРѕРІ Р·Р°Р±СЂР°С‚СЊ MP РїСЂРѕС‚РёРІРЅРёРєР°	SA
+TOOLTIP_APPLY_MAX_HP_PCT	РњР°РєСЃ. РҐРџ +%d%%	SA
+TOOLTIP_APPLY_MAX_SP_PCT	РњР°РєСЃ. РњРџ +%d%%	SA
+TOOLTIP_APPLY_NOAFFECT	Р‘РµР· СЂРµР·СѓР»СЊС‚Р°С‚Р°	
+TOOLTIP_APPLY_NO_DEATH_PENALTY	РћС‚СЃСѓС‚СЃС‚РІРёРµ РїРѕС‚РµСЂРё РѕРїС‹С‚Р° РІ СЃР»СѓС‡Р°Рµ СЃРјРµСЂС‚Рё.	SNA
+TOOLTIP_APPLY_PENETRATE_PCT	%d%% С€Р°РЅСЃРѕРІ РЅР° РЅР°РЅРµСЃРµРЅРёРµ РїСЂРѕРЅР·Р°СЋС‰РµРіРѕ СѓРґР°СЂР°	SA
+TOOLTIP_APPLY_POISON_PCT	РЁР°РЅСЃС‹ РЅР° РѕС‚СЂР°РІР»РµРЅРёРµ :%d%%	SA
+TOOLTIP_APPLY_POISON_REDUCE	РЎРѕРїСЂРѕС‚РёРІР»РµРЅРёРµ СЏРґСѓ %d%%	SA
+TOOLTIP_APPLY_POTION_BONUS	Р—РµР»СЊРµ %d%% СЂРѕСЃС‚ СЌС„С„РµРєС‚Р°	SA
+TOOLTIP_APPLY_REFLECT_CURSE	%d%% С€Р°РЅСЃРѕРІ РѕС‚СЂР°Р·РёС‚СЊ Р·Р°РєР»РёРЅР°РЅРёРµ	SA
+TOOLTIP_APPLY_REFLECT_MELEE	%d%%  С€Р°РЅСЃРѕРІ РѕС‚СЂР°Р·РёС‚СЊ С„РёР·РёС‡РµСЃРєСѓСЋ Р°С‚Р°РєСѓ	SA
+TOOLTIP_APPLY_RESIST_ASSASSIN	РЁР°РЅСЃС‹ РЅР° РѕС‚СЂР°Р¶РµРЅРёРµ РќРёРЅРґР·СЏ %d%%	SA
+TOOLTIP_APPLY_RESIST_BELL	Р—Р°С‰РёС‚Р° РѕС‚ СѓРґР°СЂР° РєРѕР»РѕРєРѕР»СЊС‡РёРєРѕРј  %d%%	SA
+TOOLTIP_APPLY_RESIST_DAGGER	Р—Р°С‰РёС‚Р° РѕС‚ СѓРґР°СЂР° РєРёРЅР¶Р°Р»РѕРј %d%%	SA
+TOOLTIP_APPLY_RESIST_FAN	Р—Р°С‰РёС‚Р° РѕС‚ СѓРґР°СЂР° РІРµРµСЂРѕРј %d%%	SA
+TOOLTIP_APPLY_RESIST_SHAMAN	РЁР°РЅСЃС‹ РЅР° РѕС‚СЂР°Р¶РµРЅРёРµ Р°С‚Р°РєРё РЁР°РјР°РЅРѕРІ  %d%%	SA
+TOOLTIP_APPLY_RESIST_SURA	РЁР°РЅСЃС‹ РЅР° РѕС‚СЂР°Р¶РµРЅРёРµ Р°С‚Р°РєРё РЎСѓСЂР° %d%%	SA
+TOOLTIP_APPLY_RESIST_SWORD	Р—Р°С‰РёС‚Р° РѕС‚ СѓРґР°СЂР° РјРµС‡РѕРј %d%%	SA
+TOOLTIP_APPLY_RESIST_TWOHAND	Р—Р°С‰РёС‚Р° РѕС‚ РґРІСѓСЂСѓС‡РЅРѕРіРѕ РѕСЂСѓР¶РёСЏ %d%%	SA
+TOOLTIP_APPLY_RESIST_WARRIOR	РЁР°РЅСЃС‹ РЅР° РѕС‚СЂР°Р¶РµРЅРёРµ Р°С‚Р°Рє Р’РѕРёРЅРѕРІ %d%%	SA
+TOOLTIP_APPLY_RESIST_WIND	РЎРѕРїСЂРѕС‚РёРІР»СЏРµРјРѕСЃС‚СЊ РІРµС‚СЂСѓ %d%%	SA
+TOOLTIP_APPLY_SKILL_BOOK_BONUS	РЁР°РЅСЃС‹ РїСЂРё РѕР±СѓС‡РµРЅРёРё РїРѕ РєРЅРёРіР°Рј СѓРІРµР»РёС‡РµРЅС‹ РІ 2,5 СЂР°Р·Р°.	SNA
+TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY	Р•СЃР»Рё РѕР±СѓС‡РµРЅРёРµ РЅРµ СѓРґР°Р»РѕСЃСЊ, Р’С‹ РјРѕР¶РµС‚Рµ С‚СѓС‚ Р¶Рµ РїРѕРїСЂРѕР±РѕРІР°С‚СЊ РµС‰Рµ СЂР°Р·.	SNA
+TOOLTIP_APPLY_SLOW_PCT	РЁР°РЅСЃС‹ РЅР° Р·Р°РјРµРґР»РµРЅРёРµ: %d%%	SA
+TOOLTIP_APPLY_STEAL_HP	РЈСЂРѕРЅ %d%% РґРѕР±Р°РІР»СЏРµС‚СЃСЏ Рє РҐРџ.	SA
+TOOLTIP_APPLY_STEAL_SP	РЈСЂРѕРЅ %d%% РґРѕР±Р°РІР»СЏРµС‚СЃСЏ Рє РњРџ.	SA
+TOOLTIP_APPLY_STUN_PCT	РЁР°РЅСЃС‹ РЅР° РіРѕР»РѕРІРѕРєСЂСѓР¶РµРЅРёРµ:  %d%%	SA
+TOOLTIP_ARMOR	Р‘СЂРѕРЅСЏ
+TOOLTIP_ARROW	РЎС‚СЂРµР»Р°
+TOOLTIP_ASSASSIN	РќРёРЅРґР·СЏ
+TOOLTIP_ATT_GRADE	РџРѕРєР°Р·Р°С‚РµР»СЊ Р°С‚Р°РєРё +%d	SA
+TOOLTIP_ATT_SPEED	РЎРєРѕСЂРѕСЃС‚СЊ Р°С‚Р°РєРё +%d%%	SA
+TOOLTIP_AUTO_POTION_HP	Р­Р»РёРєСЃРёСЂ СЃРѕР»РЅС†Р°
+TOOLTIP_AUTO_POTION_REST	РћСЃС‚Р°С‚РѕРє: %.2f%%
+TOOLTIP_AUTO_POTION_SP	Р­Р»РёРєСЃРёСЂ Р»СѓРЅС‹
+TOOLTIP_AUTO_POTION_USING	РђРєС‚РёРІРµРЅ
+TOOLTIP_BOW_DISTANCE	Р”РёР°РїР°Р·РѕРЅ СЃС‚СЂРµР»СЊР±С‹ +%dm	SA
+TOOLTIP_BUYPRICE	Р¦РµРЅР°: %s
+TOOLTIP_CAST_SPEED	РЎРєРѕСЂРѕСЃС‚СЊ Р·Р°РєР»РёРЅР°РЅРёСЏ +%d%%	SA
+TOOLTIP_CON	Р—РґРѕСЂРѕРІСЊРµ +%d	SA
+TOOLTIP_COSTUME_ATTR_BONUS	Р‘РѕРЅСѓСЃ РєРѕСЃС‚СЋРјР° %d%%	SA
+TOOLTIP_DEF_GRADE	Р—Р°С‰РёС‚Р° +%d	SA
+TOOLTIP_DEX	РџРѕРґРІРёР¶РЅРѕСЃС‚СЊ+%d	SA
+TOOLTIP_DRAGON_SOUL_DECK1	Р—РµРјР»СЏ	SNA
+TOOLTIP_DRAGON_SOUL_DECK2	РќРµР±РµСЃР°	SNA
+TOOLTIP_EAR	РЎРµСЂСЊРіРё
+TOOLTIP_ENERGY	Р­РЅРµСЂРіРёСЏ %d	SA
+TOOLTIP_ETC	Рё С‚.Рґ.
+TOOLTIP_FISHINGROD_EXP	РћС‡РєРё: %d / %d
+TOOLTIP_FISHINGROD_LEVEL	РЈСЂРѕРІРµРЅСЊ:  %d
+TOOLTIP_FISHINGROD_UPGRADE1	РћС‚РґР°С‚СЊ СЂС‹Р±Р°РєСѓ,
+TOOLTIP_FISHINGROD_UPGRADE2	С‡С‚РѕР±С‹ РїРѕР»СѓС‡РёС‚СЊ
+TOOLTIP_FISHINGROD_UPGRADE3	СѓР»СѓС‡С€РµРЅРѕРµ СѓРґРёР»РёС‰Рµ.
+TOOLTIP_FISH_LEN	Р”Р»РёРЅР°: %.2f СЃРј.
+TOOLTIP_HELMET	РЁР»РµРј
+TOOLTIP_HP_REGEN	РҐРџ-СЂРµРіРµРЅРµСЂР°С†РёСЏ +%d%%	SA
+TOOLTIP_INT	РРЅС‚РµР»Р»РµРєС‚ +%d	SA
+TOOLTIP_ITEM_ATT_GRADE	РџРѕРєР°Р·Р°С‚РµР»СЊ Р°С‚Р°РєРё %d
+TOOLTIP_ITEM_ATT_POWER	РџРѕРєР°Р·Р°С‚РµР»СЊ Р°С‚Р°РєРё %d - %d
+TOOLTIP_ITEM_ATT_POWER_ONE_ARG	РџРѕРєР°Р·Р°С‚РµР»СЊ Р°С‚Р°РєРё  %d
+TOOLTIP_ITEM_ATT_POWER_REFINE	РџРѕРєР°Р·Р°С‚РµР»СЊ Р°С‚Р°РєРё %d - %d (+%d)
+TOOLTIP_ITEM_ATT_SPEED	РЎРєРѕСЂРѕСЃС‚СЊ Р°С‚Р°РєРё %s
+TOOLTIP_ITEM_DEF_GRADE	Р—Р°С‰РёС‚Р° %d
+TOOLTIP_ITEM_FAST	Р‘С‹СЃС‚СЂРѕ
+TOOLTIP_ITEM_LIMIT_CON	РџСЂРµРґРµР» Р·РґРѕСЂРѕРІСЊСЏ: %d
+TOOLTIP_ITEM_LIMIT_DEX	РџСЂРµРґРµР» РїРѕРґРІРёР¶РЅРѕСЃС‚Рё: %d
+TOOLTIP_ITEM_LIMIT_INT	РџСЂРµРґРµР» РёРЅС‚РµР»Р»РµРєС‚Р°: %d
+TOOLTIP_ITEM_LIMIT_LEVEL	СЃ СѓСЂРѕРІРЅСЏ: %d
+TOOLTIP_ITEM_LIMIT_STR	РџСЂРµРґРµР» СЃРёР»С‹: %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER	РџРѕРєР°Р·Р°С‚РµР»СЊ РјР°РіРёС‡РµСЃРєРѕР№ Р°С‚Р°РєРё %d - %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER_ONE_ARG	РџРѕРєР°Р·Р°С‚РµР»СЊ РјР°РіРёС‡РµСЃРєРѕР№ Р°С‚Р°РєРё %d
+TOOLTIP_ITEM_MAGIC_DEF_POWER	РњР°РіРёС‡РµСЃРєР°СЏ Р·Р°С‰РёС‚Р° %d
+TOOLTIP_ITEM_NORMAL	РЅРѕСЂРјР°Р»СЊРЅРѕ
+TOOLTIP_ITEM_SLOW	РјРµРґР»РµРЅРЅРѕ
+TOOLTIP_ITEM_VERY_FAST	РѕС‡РµРЅСЊ Р±С‹СЃС‚СЂРѕ
+TOOLTIP_ITEM_VERY_SLOW	РѕС‡РµРЅСЊ РјРµРґР»РµРЅРЅРѕ
+TOOLTIP_ITEM_WEARABLE_JOB	[РјРѕР¶РЅРѕ СЃРЅР°СЂСЏР¶Р°С‚СЊ]
 TOOLTIP_LOTTERY_STEP_NUMBER	%d
-TOOLTIP_LOTTO_NUMBER	Счастливое число: %d
-TOOLTIP_MAGIC_ATTBONUS_PER	Магическая атака +%d%%	SA
-TOOLTIP_MAGIC_ATT_GRADE	Показатель магической атаки +%d	SA
-TOOLTIP_MAGIC_DEF_GRADE	Магическая защита +%d	SA
-TOOLTIP_MALL_ATTBONUS	Показатель атаки +%d%%	SA
-TOOLTIP_MALL_ATTBONUS_STATIC	Показатель атаки +12~15%	SNA
-TOOLTIP_MALL_AUTOLOOT	Янг принимается автом.	SNA
-TOOLTIP_MALL_DEFBONUS	Защита +%d%%	SA
-TOOLTIP_MALL_DEFBONUS_STATIC	Защита +12~15%	SNA
-TOOLTIP_MALL_EXPBONUS	Опыт +%d%%	SA
-TOOLTIP_MALL_EXPBONUS_P_STATIC	иКафе бонус к опыту +%d%%	SA
-TOOLTIP_MALL_EXPBONUS_STATIC	на 50% больше опыта	SNA
-TOOLTIP_MALL_FISH_MIND	Повышенный шанс поймать рыбу.	SNA
-TOOLTIP_MALL_GOLDBONUS	Шансы на выпадение янг (%.1f)	SA
-TOOLTIP_MALL_GOLDBONUS_STATIC	Удвоенные шансы на выпадение янг	SNA
-TOOLTIP_MALL_ITEMBONUS	Шансы на выпадение предметов (%.1f)	SA
-TOOLTIP_MALL_ITEMBONUS_P_STATIC	иКафе шанс на захват предметов плюс %.1f%%	SA
-TOOLTIP_MALL_ITEMBONUS_STATIC	Удвоенные шансы на выпадение предметов	SNA
-TOOLTIP_MALL_MARRIAGE_FAST	Очки любви возрастают быстрее.	SNA
-TOOLTIP_MALL_SAFEBOX	В вашем распоряжении больше складских помещений.	SNA
-TOOLTIP_MAX_HP	Максим. ХП +%d	SA
-TOOLTIP_MAX_HP_PCT	Максим. ХП +%d%%	SA
-TOOLTIP_MAX_SP	Максим. МП +%d	SA
-TOOLTIP_MAX_SP_PCT	Максим. МП +%d%%	SA
-TOOLTIP_MAX_STAMINA	Максим. выносливость +%d	SA
-TOOLTIP_MELEE_MAGIC_ATTBONUS_PER	Магическая, ближняя атака +%d%%	SA
+TOOLTIP_LOTTO_NUMBER	РЎС‡Р°СЃС‚Р»РёРІРѕРµ С‡РёСЃР»Рѕ: %d
+TOOLTIP_MAGIC_ATTBONUS_PER	РњР°РіРёС‡РµСЃРєР°СЏ Р°С‚Р°РєР° +%d%%	SA
+TOOLTIP_MAGIC_ATT_GRADE	РџРѕРєР°Р·Р°С‚РµР»СЊ РјР°РіРёС‡РµСЃРєРѕР№ Р°С‚Р°РєРё +%d	SA
+TOOLTIP_MAGIC_DEF_GRADE	РњР°РіРёС‡РµСЃРєР°СЏ Р·Р°С‰РёС‚Р° +%d	SA
+TOOLTIP_MALL_ATTBONUS	РџРѕРєР°Р·Р°С‚РµР»СЊ Р°С‚Р°РєРё +%d%%	SA
+TOOLTIP_MALL_ATTBONUS_STATIC	РџРѕРєР°Р·Р°С‚РµР»СЊ Р°С‚Р°РєРё +12~15%	SNA
+TOOLTIP_MALL_AUTOLOOT	РЇРЅРі РїСЂРёРЅРёРјР°РµС‚СЃСЏ Р°РІС‚РѕРј.	SNA
+TOOLTIP_MALL_DEFBONUS	Р—Р°С‰РёС‚Р° +%d%%	SA
+TOOLTIP_MALL_DEFBONUS_STATIC	Р—Р°С‰РёС‚Р° +12~15%	SNA
+TOOLTIP_MALL_EXPBONUS	РћРїС‹С‚ +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_P_STATIC	РёРљР°С„Рµ Р±РѕРЅСѓСЃ Рє РѕРїС‹С‚Сѓ +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_STATIC	РЅР° 50% Р±РѕР»СЊС€Рµ РѕРїС‹С‚Р°	SNA
+TOOLTIP_MALL_FISH_MIND	РџРѕРІС‹С€РµРЅРЅС‹Р№ С€Р°РЅСЃ РїРѕР№РјР°С‚СЊ СЂС‹Р±Сѓ.	SNA
+TOOLTIP_MALL_GOLDBONUS	РЁР°РЅСЃС‹ РЅР° РІС‹РїР°РґРµРЅРёРµ СЏРЅРі (%.1f)	SA
+TOOLTIP_MALL_GOLDBONUS_STATIC	РЈРґРІРѕРµРЅРЅС‹Рµ С€Р°РЅСЃС‹ РЅР° РІС‹РїР°РґРµРЅРёРµ СЏРЅРі	SNA
+TOOLTIP_MALL_ITEMBONUS	РЁР°РЅСЃС‹ РЅР° РІС‹РїР°РґРµРЅРёРµ РїСЂРµРґРјРµС‚РѕРІ (%.1f)	SA
+TOOLTIP_MALL_ITEMBONUS_P_STATIC	РёРљР°С„Рµ С€Р°РЅСЃ РЅР° Р·Р°С…РІР°С‚ РїСЂРµРґРјРµС‚РѕРІ РїР»СЋСЃ %.1f%%	SA
+TOOLTIP_MALL_ITEMBONUS_STATIC	РЈРґРІРѕРµРЅРЅС‹Рµ С€Р°РЅСЃС‹ РЅР° РІС‹РїР°РґРµРЅРёРµ РїСЂРµРґРјРµС‚РѕРІ	SNA
+TOOLTIP_MALL_MARRIAGE_FAST	РћС‡РєРё Р»СЋР±РІРё РІРѕР·СЂР°СЃС‚Р°СЋС‚ Р±С‹СЃС‚СЂРµРµ.	SNA
+TOOLTIP_MALL_SAFEBOX	Р’ РІР°С€РµРј СЂР°СЃРїРѕСЂСЏР¶РµРЅРёРё Р±РѕР»СЊС€Рµ СЃРєР»Р°РґСЃРєРёС… РїРѕРјРµС‰РµРЅРёР№.	SNA
+TOOLTIP_MAX_HP	РњР°РєСЃРёРј. РҐРџ +%d	SA
+TOOLTIP_MAX_HP_PCT	РњР°РєСЃРёРј. РҐРџ +%d%%	SA
+TOOLTIP_MAX_SP	РњР°РєСЃРёРј. РњРџ +%d	SA
+TOOLTIP_MAX_SP_PCT	РњР°РєСЃРёРј. РњРџ +%d%%	SA
+TOOLTIP_MAX_STAMINA	РњР°РєСЃРёРј. РІС‹РЅРѕСЃР»РёРІРѕСЃС‚СЊ +%d	SA
+TOOLTIP_MELEE_MAGIC_ATTBONUS_PER	РњР°РіРёС‡РµСЃРєР°СЏ, Р±Р»РёР¶РЅСЏСЏ Р°С‚Р°РєР° +%d%%	SA
 TOOLTIP_MEMORIZED_POSITION	%s(%d, %d)
-TOOLTIP_MEMORIZED_POSITION_ERROR	GPS-ошибка(%d, %d)
-TOOLTIP_MOV_SPEED	Скорость движения %d%%	SA
-TOOLTIP_NECK	Ожерелье
-TOOLTIP_NEED_ALL_SP	Необходимые МП: Максим.
-TOOLTIP_NEED_GSP	Необходимо Дух Дракона: %d
-TOOLTIP_NEED_HP	Необходимые ХП: %d
-TOOLTIP_NEED_HP_PER_SEC	ХП: %d / Сек.
-TOOLTIP_NEED_SKILL_POINT	Необходимые очки навыков:
-TOOLTIP_NEED_SP	Необходимые МП: %d
-TOOLTIP_NEED_SP_PER_SEC	МП / Сек.: %d
-TOOLTIP_NEXT_SKILL_LEVEL_1	Следующий уровень:%d (Максим. %d)
-TOOLTIP_NEXT_SKILL_LEVEL_2	Следующий уровень: %d (Максим. %d-%d)
-TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	Средний урон %d%%	SA
-TOOLTIP_NORMAL_HIT_DEFEND_BONUS	Средн.устойчивость урону %d%%	SA
-TOOLTIP_PARTY_INFO_GRADE_UP1	Больше чем %d участников группы
-TOOLTIP_PARTY_INFO_GRADE_UP2	Ступень атаки +%d
-TOOLTIP_PARTY_INFO_GRADE_UP3	Ступень защиты +%d
-TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	Восстановить ХП/МП всех участников группы через 60 Минут.
-TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	Восстановить ХП/МП всех участников группы через 30 Минут.
-TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	Время ожидания после смерти участника группы составляет 3 минуты.
-TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	Созвать участников группы на одном и том же сервере можно в любое время.
-TOOLTIP_PARTY_INFO_SET_ATTACKER	Ступень атаки +(кол.участников группы/ 2) Бойцы атаки %d могут быть выбранны.
-TOOLTIP_PARTY_INFO_SET_TANKER	Ступень защиты+(кол.участников группы). Бойцы ближнего боя 1 могут быть выбраны.
-TOOLTIP_PARTY_SKILL_LEVEL	Актуальный уровень: %d
-TOOLTIP_PARTY_TITLE_GRADE_UP	[Атака/Защита улучшены]
-TOOLTIP_PARTY_TITLE_HEAL	[Восстановить]
-TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Больше %d  участников группы дают бонус к опыту %d%%.
-TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Бонус к опыту]
-TOOLTIP_PARTY_TITLE_RECALL	[Созвать]
-TOOLTIP_PARTY_TITLE_SET_ATTACKER	[Определить бойцов атаки]
-TOOLTIP_PARTY_TITLE_SET_TANKER	[Определить Бойцом ближнего боя]
-TOOLTIP_PICK_EXP	Очки:  %d / %d
-TOOLTIP_PICK_LEVEL	Уровень: %d
-TOOLTIP_PICK_UPGRADE1	Отдать лесорубу
-TOOLTIP_PICK_UPGRADE2	чтобы к лучшей
-TOOLTIP_PICK_UPGRADE3	Улучшить Кирку
-TOOLTIP_POTION_CURE	Убрать негативные эффекты.
-TOOLTIP_POTION_MIN	Мин.
-TOOLTIP_POTION_PLUS_ATTACK_SPEED	Скорость атаки: +%d
-TOOLTIP_POTION_PLUS_HP_PERCENT	ХП: +%d%%
-TOOLTIP_POTION_PLUS_HP_POINT	ХП: +%d
-TOOLTIP_POTION_PLUS_MOVING_SPEED	Скорость движения +%d
-TOOLTIP_POTION_PLUS_SP_PERCENT	МП +%d%%
-TOOLTIP_POTION_PLUS_SP_POINT	МП +%d
-TOOLTIP_POTION_SEC	Сек.
-TOOLTIP_POTION_TIME	Длительность:
-TOOLTIP_REQUIREMENT_21_LEVEL	Необходимо достигнуть хотя бы 21 уровень.
-TOOLTIP_REQUIREMENT_41_LEVEL	Необходимо достигнуть хотя бы 41 уровень.
-TOOLTIP_REQUIREMENT_LEVEL	Необходимо достигнуть хотя бы уровень %d
-TOOLTIP_REQUIREMENT_SKILL_LEVEL	%s уровень %d обязателен.
-TOOLTIP_REQUIREMENT_STAT_LEVEL	%s %d обязателен
-TOOLTIP_RESIST_BOW	Сопротивляемость стрелам %d%%	SA
-TOOLTIP_RESIST_DARK	Сопротивление темноте +%d%%	SA
-TOOLTIP_RESIST_EARTH	Сопротивление земле +%d%%	SA
-TOOLTIP_RESIST_ELEC	Сопротивляемость молниям %d%%	SA
-TOOLTIP_RESIST_FIRE	Сопротивляемость огню %d%%	SA
-TOOLTIP_RESIST_ICE	Сопротивление льду +%d%%	SA
-TOOLTIP_RESIST_MAGIC	Сопротивляемость Магии %d%%	SA
-TOOLTIP_REST_USABLE_COUNT	Осталось: %d
-TOOLTIP_SEALED	Предмет зачарован оковами души
-TOOLTIP_SELLPRICE	Цена: %s
-TOOLTIP_SHAMAN	Шаман
-TOOLTIP_SHIELD	Щит
-TOOLTIP_SHOES	Туфли
-TOOLTIP_SKILL	Навык	SNA
-TOOLTIP_SKILLBOOK_NAME	Книга навыков
-TOOLTIP_SKILL_AFFECT_ATT_GRADE	Показатель атаки: +
-TOOLTIP_SKILL_AFFECT_ATT_POWER	Показатель атаки:
-TOOLTIP_SKILL_AFFECT_ATT_SPEED	Скорость атаки: +
-TOOLTIP_SKILL_AFFECT_DEF_GRADE	Защита:
-TOOLTIP_SKILL_AFFECT_DODGE	Показатель атаки противника: -
-TOOLTIP_SKILL_AFFECT_HEAL	Восстановить ХП:
-TOOLTIP_SKILL_AFFECT_MOV_SPEED	Скорость движения: +
-TOOLTIP_SKILL_AFFECT_REFLECT_MELEE	Шанс отразить физическую атаку:
-TOOLTIP_SKILL_AFFECT_RESIST_NORMAL	Сопротивляемость физическому урону:
-TOOLTIP_SKILL_COOL_TIME	Время загрузки: 
-TOOLTIP_SKILL_DAMAGE_BONUS	Урон навыков %d%%	SA
-TOOLTIP_SKILL_DEFEND_BONUS	Сопротивляемость урону навыков %d%%	SA
-TOOLTIP_SKILL_DURATION	Длительность: %d Сек.
-TOOLTIP_SKILL_FORGET_BOOK_NAME	Лента забвения
-TOOLTIP_SKILL_LEVEL	Актуальный уровень: %d
-TOOLTIP_SKILL_LEVEL_MASTER	Актуальный уровень: %d (Мастер)
-TOOLTIP_SKILL_LEVEL_WITH_MAX	Актуальный уровень: %d ( Макс. %d)
-TOOLTIP_SOCKET_EMPTY	Пусто
-TOOLTIP_SOCKET_REFINABLE_ITEM	[Предмет с ячейкой]
-TOOLTIP_SP_REGEN	МП-регенерация +%d%%	SA
-TOOLTIP_STR	Сила +%d	SA
-TOOLTIP_SURA	Сура
-TOOLTIP_TIME_CHARGER_FIX	Время восстановления %d сек.	SA
-TOOLTIP_TIME_CHARGER_PER	Время восстановления %d%%	SA
-TOOLTIP_UNIQUE	Уникальный
-TOOLTIP_UNSEAL_LEFT_TIME	Разрушение оков души через: %dH %dM
-TOOLTIP_WARRIOR	Воин
-TOOLTIP_WEAPON	Оружие
-TOOLTIP_WRISTLET	Браслет
-UI_ACCEPT	Принять
-UI_CANCEL	Отмена
-UI_CLOSE	Закрыть
+TOOLTIP_MEMORIZED_POSITION_ERROR	GPS-РѕС€РёР±РєР°(%d, %d)
+TOOLTIP_MOV_SPEED	РЎРєРѕСЂРѕСЃС‚СЊ РґРІРёР¶РµРЅРёСЏ %d%%	SA
+TOOLTIP_NECK	РћР¶РµСЂРµР»СЊРµ
+TOOLTIP_NEED_ALL_SP	РќРµРѕР±С…РѕРґРёРјС‹Рµ РњРџ: РњР°РєСЃРёРј.
+TOOLTIP_NEED_GSP	РќРµРѕР±С…РѕРґРёРјРѕ Р”СѓС… Р”СЂР°РєРѕРЅР°: %d
+TOOLTIP_NEED_HP	РќРµРѕР±С…РѕРґРёРјС‹Рµ РҐРџ: %d
+TOOLTIP_NEED_HP_PER_SEC	РҐРџ: %d / РЎРµРє.
+TOOLTIP_NEED_SKILL_POINT	РќРµРѕР±С…РѕРґРёРјС‹Рµ РѕС‡РєРё РЅР°РІС‹РєРѕРІ:
+TOOLTIP_NEED_SP	РќРµРѕР±С…РѕРґРёРјС‹Рµ РњРџ: %d
+TOOLTIP_NEED_SP_PER_SEC	РњРџ / РЎРµРє.: %d
+TOOLTIP_NEXT_SKILL_LEVEL_1	РЎР»РµРґСѓСЋС‰РёР№ СѓСЂРѕРІРµРЅСЊ:%d (РњР°РєСЃРёРј. %d)
+TOOLTIP_NEXT_SKILL_LEVEL_2	РЎР»РµРґСѓСЋС‰РёР№ СѓСЂРѕРІРµРЅСЊ: %d (РњР°РєСЃРёРј. %d-%d)
+TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	РЎСЂРµРґРЅРёР№ СѓСЂРѕРЅ %d%%	SA
+TOOLTIP_NORMAL_HIT_DEFEND_BONUS	РЎСЂРµРґРЅ.СѓСЃС‚РѕР№С‡РёРІРѕСЃС‚СЊ СѓСЂРѕРЅСѓ %d%%	SA
+TOOLTIP_PARTY_INFO_GRADE_UP1	Р‘РѕР»СЊС€Рµ С‡РµРј %d СѓС‡Р°СЃС‚РЅРёРєРѕРІ РіСЂСѓРїРїС‹
+TOOLTIP_PARTY_INFO_GRADE_UP2	РЎС‚СѓРїРµРЅСЊ Р°С‚Р°РєРё +%d
+TOOLTIP_PARTY_INFO_GRADE_UP3	РЎС‚СѓРїРµРЅСЊ Р·Р°С‰РёС‚С‹ +%d
+TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	Р’РѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ РҐРџ/РњРџ РІСЃРµС… СѓС‡Р°СЃС‚РЅРёРєРѕРІ РіСЂСѓРїРїС‹ С‡РµСЂРµР· 60 РњРёРЅСѓС‚.
+TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	Р’РѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ РҐРџ/РњРџ РІСЃРµС… СѓС‡Р°СЃС‚РЅРёРєРѕРІ РіСЂСѓРїРїС‹ С‡РµСЂРµР· 30 РњРёРЅСѓС‚.
+TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	Р’СЂРµРјСЏ РѕР¶РёРґР°РЅРёСЏ РїРѕСЃР»Рµ СЃРјРµСЂС‚Рё СѓС‡Р°СЃС‚РЅРёРєР° РіСЂСѓРїРїС‹ СЃРѕСЃС‚Р°РІР»СЏРµС‚ 3 РјРёРЅСѓС‚С‹.
+TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	РЎРѕР·РІР°С‚СЊ СѓС‡Р°СЃС‚РЅРёРєРѕРІ РіСЂСѓРїРїС‹ РЅР° РѕРґРЅРѕРј Рё С‚РѕРј Р¶Рµ СЃРµСЂРІРµСЂРµ РјРѕР¶РЅРѕ РІ Р»СЋР±РѕРµ РІСЂРµРјСЏ.
+TOOLTIP_PARTY_INFO_SET_ATTACKER	РЎС‚СѓРїРµРЅСЊ Р°С‚Р°РєРё +(РєРѕР».СѓС‡Р°СЃС‚РЅРёРєРѕРІ РіСЂСѓРїРїС‹/ 2) Р‘РѕР№С†С‹ Р°С‚Р°РєРё %d РјРѕРіСѓС‚ Р±С‹С‚СЊ РІС‹Р±СЂР°РЅРЅС‹.
+TOOLTIP_PARTY_INFO_SET_TANKER	РЎС‚СѓРїРµРЅСЊ Р·Р°С‰РёС‚С‹+(РєРѕР».СѓС‡Р°СЃС‚РЅРёРєРѕРІ РіСЂСѓРїРїС‹). Р‘РѕР№С†С‹ Р±Р»РёР¶РЅРµРіРѕ Р±РѕСЏ 1 РјРѕРіСѓС‚ Р±С‹С‚СЊ РІС‹Р±СЂР°РЅС‹.
+TOOLTIP_PARTY_SKILL_LEVEL	РђРєС‚СѓР°Р»СЊРЅС‹Р№ СѓСЂРѕРІРµРЅСЊ: %d
+TOOLTIP_PARTY_TITLE_GRADE_UP	[РђС‚Р°РєР°/Р—Р°С‰РёС‚Р° СѓР»СѓС‡С€РµРЅС‹]
+TOOLTIP_PARTY_TITLE_HEAL	[Р’РѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ]
+TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Р‘РѕР»СЊС€Рµ %d  СѓС‡Р°СЃС‚РЅРёРєРѕРІ РіСЂСѓРїРїС‹ РґР°СЋС‚ Р±РѕРЅСѓСЃ Рє РѕРїС‹С‚Сѓ %d%%.
+TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Р‘РѕРЅСѓСЃ Рє РѕРїС‹С‚Сѓ]
+TOOLTIP_PARTY_TITLE_RECALL	[РЎРѕР·РІР°С‚СЊ]
+TOOLTIP_PARTY_TITLE_SET_ATTACKER	[РћРїСЂРµРґРµР»РёС‚СЊ Р±РѕР№С†РѕРІ Р°С‚Р°РєРё]
+TOOLTIP_PARTY_TITLE_SET_TANKER	[РћРїСЂРµРґРµР»РёС‚СЊ Р‘РѕР№С†РѕРј Р±Р»РёР¶РЅРµРіРѕ Р±РѕСЏ]
+TOOLTIP_PICK_EXP	РћС‡РєРё:  %d / %d
+TOOLTIP_PICK_LEVEL	РЈСЂРѕРІРµРЅСЊ: %d
+TOOLTIP_PICK_UPGRADE1	РћС‚РґР°С‚СЊ Р»РµСЃРѕСЂСѓР±Сѓ
+TOOLTIP_PICK_UPGRADE2	С‡С‚РѕР±С‹ Рє Р»СѓС‡С€РµР№
+TOOLTIP_PICK_UPGRADE3	РЈР»СѓС‡С€РёС‚СЊ РљРёСЂРєСѓ
+TOOLTIP_POTION_CURE	РЈР±СЂР°С‚СЊ РЅРµРіР°С‚РёРІРЅС‹Рµ СЌС„С„РµРєС‚С‹.
+TOOLTIP_POTION_MIN	РњРёРЅ.
+TOOLTIP_POTION_PLUS_ATTACK_SPEED	РЎРєРѕСЂРѕСЃС‚СЊ Р°С‚Р°РєРё: +%d
+TOOLTIP_POTION_PLUS_HP_PERCENT	РҐРџ: +%d%%
+TOOLTIP_POTION_PLUS_HP_POINT	РҐРџ: +%d
+TOOLTIP_POTION_PLUS_MOVING_SPEED	РЎРєРѕСЂРѕСЃС‚СЊ РґРІРёР¶РµРЅРёСЏ +%d
+TOOLTIP_POTION_PLUS_SP_PERCENT	РњРџ +%d%%
+TOOLTIP_POTION_PLUS_SP_POINT	РњРџ +%d
+TOOLTIP_POTION_SEC	РЎРµРє.
+TOOLTIP_POTION_TIME	Р”Р»РёС‚РµР»СЊРЅРѕСЃС‚СЊ:
+TOOLTIP_REQUIREMENT_21_LEVEL	РќРµРѕР±С…РѕРґРёРјРѕ РґРѕСЃС‚РёРіРЅСѓС‚СЊ С…РѕС‚СЏ Р±С‹ 21 СѓСЂРѕРІРµРЅСЊ.
+TOOLTIP_REQUIREMENT_41_LEVEL	РќРµРѕР±С…РѕРґРёРјРѕ РґРѕСЃС‚РёРіРЅСѓС‚СЊ С…РѕС‚СЏ Р±С‹ 41 СѓСЂРѕРІРµРЅСЊ.
+TOOLTIP_REQUIREMENT_LEVEL	РќРµРѕР±С…РѕРґРёРјРѕ РґРѕСЃС‚РёРіРЅСѓС‚СЊ С…РѕС‚СЏ Р±С‹ СѓСЂРѕРІРµРЅСЊ %d
+TOOLTIP_REQUIREMENT_SKILL_LEVEL	%s СѓСЂРѕРІРµРЅСЊ %d РѕР±СЏР·Р°С‚РµР»РµРЅ.
+TOOLTIP_REQUIREMENT_STAT_LEVEL	%s %d РѕР±СЏР·Р°С‚РµР»РµРЅ
+TOOLTIP_RESIST_BOW	РЎРѕРїСЂРѕС‚РёРІР»СЏРµРјРѕСЃС‚СЊ СЃС‚СЂРµР»Р°Рј %d%%	SA
+TOOLTIP_RESIST_DARK	РЎРѕРїСЂРѕС‚РёРІР»РµРЅРёРµ С‚РµРјРЅРѕС‚Рµ +%d%%	SA
+TOOLTIP_RESIST_EARTH	РЎРѕРїСЂРѕС‚РёРІР»РµРЅРёРµ Р·РµРјР»Рµ +%d%%	SA
+TOOLTIP_RESIST_ELEC	РЎРѕРїСЂРѕС‚РёРІР»СЏРµРјРѕСЃС‚СЊ РјРѕР»РЅРёСЏРј %d%%	SA
+TOOLTIP_RESIST_FIRE	РЎРѕРїСЂРѕС‚РёРІР»СЏРµРјРѕСЃС‚СЊ РѕРіРЅСЋ %d%%	SA
+TOOLTIP_RESIST_ICE	РЎРѕРїСЂРѕС‚РёРІР»РµРЅРёРµ Р»СЊРґСѓ +%d%%	SA
+TOOLTIP_RESIST_MAGIC	РЎРѕРїСЂРѕС‚РёРІР»СЏРµРјРѕСЃС‚СЊ РњР°РіРёРё %d%%	SA
+TOOLTIP_REST_USABLE_COUNT	РћСЃС‚Р°Р»РѕСЃСЊ: %d
+TOOLTIP_SEALED	РџСЂРµРґРјРµС‚ Р·Р°С‡Р°СЂРѕРІР°РЅ РѕРєРѕРІР°РјРё РґСѓС€Рё
+TOOLTIP_SELLPRICE	Р¦РµРЅР°: %s
+TOOLTIP_SHAMAN	РЁР°РјР°РЅ
+TOOLTIP_SHIELD	Р©РёС‚
+TOOLTIP_SHOES	РўСѓС„Р»Рё
+TOOLTIP_SKILL	РќР°РІС‹Рє	SNA
+TOOLTIP_SKILLBOOK_NAME	РљРЅРёРіР° РЅР°РІС‹РєРѕРІ
+TOOLTIP_SKILL_AFFECT_ATT_GRADE	РџРѕРєР°Р·Р°С‚РµР»СЊ Р°С‚Р°РєРё: +
+TOOLTIP_SKILL_AFFECT_ATT_POWER	РџРѕРєР°Р·Р°С‚РµР»СЊ Р°С‚Р°РєРё:
+TOOLTIP_SKILL_AFFECT_ATT_SPEED	РЎРєРѕСЂРѕСЃС‚СЊ Р°С‚Р°РєРё: +
+TOOLTIP_SKILL_AFFECT_DEF_GRADE	Р—Р°С‰РёС‚Р°:
+TOOLTIP_SKILL_AFFECT_DODGE	РџРѕРєР°Р·Р°С‚РµР»СЊ Р°С‚Р°РєРё РїСЂРѕС‚РёРІРЅРёРєР°: -
+TOOLTIP_SKILL_AFFECT_HEAL	Р’РѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ РҐРџ:
+TOOLTIP_SKILL_AFFECT_MOV_SPEED	РЎРєРѕСЂРѕСЃС‚СЊ РґРІРёР¶РµРЅРёСЏ: +
+TOOLTIP_SKILL_AFFECT_REFLECT_MELEE	РЁР°РЅСЃ РѕС‚СЂР°Р·РёС‚СЊ С„РёР·РёС‡РµСЃРєСѓСЋ Р°С‚Р°РєСѓ:
+TOOLTIP_SKILL_AFFECT_RESIST_NORMAL	РЎРѕРїСЂРѕС‚РёРІР»СЏРµРјРѕСЃС‚СЊ С„РёР·РёС‡РµСЃРєРѕРјСѓ СѓСЂРѕРЅСѓ:
+TOOLTIP_SKILL_COOL_TIME	Р’СЂРµРјСЏ Р·Р°РіСЂСѓР·РєРё: 
+TOOLTIP_SKILL_DAMAGE_BONUS	РЈСЂРѕРЅ РЅР°РІС‹РєРѕРІ %d%%	SA
+TOOLTIP_SKILL_DEFEND_BONUS	РЎРѕРїСЂРѕС‚РёРІР»СЏРµРјРѕСЃС‚СЊ СѓСЂРѕРЅСѓ РЅР°РІС‹РєРѕРІ %d%%	SA
+TOOLTIP_SKILL_DURATION	Р”Р»РёС‚РµР»СЊРЅРѕСЃС‚СЊ: %d РЎРµРє.
+TOOLTIP_SKILL_FORGET_BOOK_NAME	Р›РµРЅС‚Р° Р·Р°Р±РІРµРЅРёСЏ
+TOOLTIP_SKILL_LEVEL	РђРєС‚СѓР°Р»СЊРЅС‹Р№ СѓСЂРѕРІРµРЅСЊ: %d
+TOOLTIP_SKILL_LEVEL_MASTER	РђРєС‚СѓР°Р»СЊРЅС‹Р№ СѓСЂРѕРІРµРЅСЊ: %d (РњР°СЃС‚РµСЂ)
+TOOLTIP_SKILL_LEVEL_WITH_MAX	РђРєС‚СѓР°Р»СЊРЅС‹Р№ СѓСЂРѕРІРµРЅСЊ: %d ( РњР°РєСЃ. %d)
+TOOLTIP_SOCKET_EMPTY	РџСѓСЃС‚Рѕ
+TOOLTIP_SOCKET_REFINABLE_ITEM	[РџСЂРµРґРјРµС‚ СЃ СЏС‡РµР№РєРѕР№]
+TOOLTIP_SP_REGEN	РњРџ-СЂРµРіРµРЅРµСЂР°С†РёСЏ +%d%%	SA
+TOOLTIP_STR	РЎРёР»Р° +%d	SA
+TOOLTIP_SURA	РЎСѓСЂР°
+TOOLTIP_TIME_CHARGER_FIX	Р’СЂРµРјСЏ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ %d СЃРµРє.	SA
+TOOLTIP_TIME_CHARGER_PER	Р’СЂРµРјСЏ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ %d%%	SA
+TOOLTIP_UNIQUE	РЈРЅРёРєР°Р»СЊРЅС‹Р№
+TOOLTIP_UNSEAL_LEFT_TIME	Р Р°Р·СЂСѓС€РµРЅРёРµ РѕРєРѕРІ РґСѓС€Рё С‡РµСЂРµР·: %dH %dM
+TOOLTIP_WARRIOR	Р’РѕРёРЅ
+TOOLTIP_WEAPON	РћСЂСѓР¶РёРµ
+TOOLTIP_WRISTLET	Р‘СЂР°СЃР»РµС‚
+UI_ACCEPT	РџСЂРёРЅСЏС‚СЊ
+UI_CANCEL	РћС‚РјРµРЅР°
+UI_CLOSE	Р—Р°РєСЂС‹С‚СЊ
 UI_DEF_FONT	Tahoma:12
 UI_DEF_FONT_LARGE	Tahoma:14
 UI_DEF_FONT_SMALL	Tahoma:9
-UI_DENY	Отказать
-UI_ITEM	Предмет
-UI_LEFT_TIME	Оставш.время: %d Сек.
-UI_NEXT	Дальше
-UI_NEXTPAGE	Далее
-UI_NOCONTENTS	Содержание отсутствует
-UI_NONAME	Имя отсутсвует
-UI_OK	ОК
-UI_POS_UNKNOWN	Неизвестное место
-UI_PREVPAGE	Назад
-UI_UNKNOWN	Неизвестно
-UPLOAD_MARK_CHECK_NEED_RECONNECT	Необходимо запустить аплоад повторно.
-UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Необходимо запустить аплоад повторно.
-USE_ITEM_FAILURE_PRIVATE_SHOP	Вы не можете пользоваться предметом, когда ваша лавка открыта.
-USE_SKILL_ERROR_UNKNOWN	Неизвестная ошибка навыков: %s
+UI_DENY	РћС‚РєР°Р·Р°С‚СЊ
+UI_ITEM	РџСЂРµРґРјРµС‚
+UI_LEFT_TIME	РћСЃС‚Р°РІС€.РІСЂРµРјСЏ: %d РЎРµРє.
+UI_NEXT	Р”Р°Р»СЊС€Рµ
+UI_NEXTPAGE	Р”Р°Р»РµРµ
+UI_NOCONTENTS	РЎРѕРґРµСЂР¶Р°РЅРёРµ РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚
+UI_NONAME	РРјСЏ РѕС‚СЃСѓС‚СЃРІСѓРµС‚
+UI_OK	РћРљ
+UI_POS_UNKNOWN	РќРµРёР·РІРµСЃС‚РЅРѕРµ РјРµСЃС‚Рѕ
+UI_PREVPAGE	РќР°Р·Р°Рґ
+UI_UNKNOWN	РќРµРёР·РІРµСЃС‚РЅРѕ
+UPLOAD_MARK_CHECK_NEED_RECONNECT	РќРµРѕР±С…РѕРґРёРјРѕ Р·Р°РїСѓСЃС‚РёС‚СЊ Р°РїР»РѕР°Рґ РїРѕРІС‚РѕСЂРЅРѕ.
+UPLOAD_MARK_UPLOAD_NEED_RECONNECT	РќРµРѕР±С…РѕРґРёРјРѕ Р·Р°РїСѓСЃС‚РёС‚СЊ Р°РїР»РѕР°Рґ РїРѕРІС‚РѕСЂРЅРѕ.
+USE_ITEM_FAILURE_PRIVATE_SHOP	Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ РїСЂРµРґРјРµС‚РѕРј, РєРѕРіРґР° РІР°С€Р° Р»Р°РІРєР° РѕС‚РєСЂС‹С‚Р°.
+USE_SKILL_ERROR_UNKNOWN	РќРµРёР·РІРµСЃС‚РЅР°СЏ РѕС€РёР±РєР° РЅР°РІС‹РєРѕРІ: %s

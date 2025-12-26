@@ -330,9 +330,9 @@ PARTY_BREAK_UP	Delete Group
 PARTY_DO_YOU_ACCEPT	 would like to join the Group.	
 PARTY_DO_YOU_JOIN	 has invited you to join his group. Accept?
 PARTY_EXP_DISTRIBUTION_MODE	EXP Distribution	
-PARTY_EXP_DISTRIBUTION_MODE_LEVEL	Level dependant
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL	Level-dependent
 PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	Higher level group members receive more EXP.
-PARTY_EXP_DISTRIBUTION_MODE_PARITY	even
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	Even
 PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	All Group members receive the same EXP.	
 PARTY_HEAL_ALL_MEMBER	Restore everything.	
 PARTY_INCREASE_AREA_150	Range of the group heightened of the factor 1.5 .	SNA
@@ -529,7 +529,7 @@ STAT_TOOLTIP_INT	Increases SP, magic attack and defence
 STAT_TOOLTIP_STR	Increases attack value and damage
 SYMBOLLIST_TITLE	Register Guild flag	
 SYSTEM_OPTION_CPU_TILING_1	CPU Tiling Mode can upgrade the speed of a weaker PC.	
-SYSTEM_OPTION_CPU_TILING_2	If there are problem with the graphics choose either ,Systemoption‘ or ,CONFIG.exe‘	
+SYSTEM_OPTION_CPU_TILING_2	If there are problem with the graphics choose either ,Systemoption  or ,CONFIG.exe 	
 SYSTEM_OPTION_CPU_TILING_3	and change to GPU Tiling Mode.	
 SYSTEM_OPTION_GPU_TILING_1	GPU Tiling Mode can run slow on a weaker PC.
 SYSTEM_OPTION_GPU_TILING_2	If there are problems with the graphics choose either 'System Options' or 'CONFIG.exe'

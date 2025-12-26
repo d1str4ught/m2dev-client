@@ -54,6 +54,10 @@ LOGIN_COUNT_LIMIT_ENABLE = 0
 PVPMODE_PROTECTED_LEVEL = 15
 TWO_HANDED_WEAPON_ATT_SPEED_DECREASE_VALUE = 10
 
+# MR-3: Define max quickslot slots number for scripts
+QUICKSLOT_MAX_NUM = 36
+# MR-3: -- END OF -- Define max quickslot slots number for scripts
+
 isItemQuestionDialog = 0
 
 def GET_ITEM_QUESTION_DIALOG_STATUS():
@@ -202,36 +206,36 @@ def GET_ACCESSORY_MATERIAL_VNUM(vnum, subType):
 	return ACCESSORY_MATERIAL_LIST[type]
 
 ##################################################################
-## »õ·Î Ãß°¡µÈ 'º§Æ®' ¾ÆÀÌÅÛ Å¸ÀÔ°ú, º§Æ®ÀÇ ¼ÒÄÏ¿¡ ²ÈÀ» ¾ÆÀÌÅÛ °ü·Ã.. 
-## º§Æ®ÀÇ ¼ÒÄÏ½Ã½ºÅÛÀº ¾Ç¼¼¼­¸®¿Í µ¿ÀÏÇÏ±â ¶§¹®¿¡, À§ ¾Ç¼¼¼­¸® °ü·Ã ÇÏµåÄÚµùÃ³·³ ÀÌ·±½ÄÀ¸·Î ÇÒ ¼ö¹Û¿¡ ¾ø´Ù..
+## ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½ï¿½ 'ï¿½ï¿½Æ®' ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½Ô°ï¿½, ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.. 
+## ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½Ï½Ã½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½Ç¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ïµï¿½ï¿½Úµï¿½Ã³ï¿½ï¿½ ï¿½Ì·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Û¿ï¿½ ï¿½ï¿½ï¿½ï¿½..
 
 def GET_BELT_MATERIAL_VNUM(vnum, subType = 0):
-	# ÇöÀç´Â ¸ðµç º§Æ®¿¡´Â ÇÏ³ªÀÇ ¾ÆÀÌÅÛ(#18900)¸¸ »ðÀÔ °¡´É
+	# ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(#18900)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	return 18900
 
 ##################################################################
-## ÀÚµ¿¹°¾à (HP: #72723 ~ #72726, SP: #72727 ~ #72730)
+## ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ (HP: #72723 ~ #72726, SP: #72727 ~ #72730)
 
-# ÇØ´ç vnumÀÌ ÀÚµ¿¹°¾àÀÎ°¡?
+# ï¿½Ø´ï¿½ vnumï¿½ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î°ï¿½?
 def IS_AUTO_POTION(itemVnum):
 	return IS_AUTO_POTION_HP(itemVnum) or IS_AUTO_POTION_SP(itemVnum)
 	
-# ÇØ´ç vnumÀÌ HP ÀÚµ¿¹°¾àÀÎ°¡?
+# ï¿½Ø´ï¿½ vnumï¿½ï¿½ HP ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î°ï¿½?
 def IS_AUTO_POTION_HP(itemVnum):
 	if 72723 <= itemVnum and 72726 >= itemVnum:
 		return 1
-	elif itemVnum >= 76021 and itemVnum <= 76022:		## »õ·Î µé¾î°£ ¼±¹°¿ë È­·æÀÇ Ãàº¹
+	elif itemVnum >= 76021 and itemVnum <= 76022:		## ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î°£ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È­ï¿½ï¿½ï¿½ï¿½ ï¿½àº¹
 		return 1
 	elif itemVnum == 79012:
 		return 1
 		
 	return 0
 	
-# ÇØ´ç vnumÀÌ SP ÀÚµ¿¹°¾àÀÎ°¡?
+# ï¿½Ø´ï¿½ vnumï¿½ï¿½ SP ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î°ï¿½?
 def IS_AUTO_POTION_SP(itemVnum):
 	if 72727 <= itemVnum and 72730 >= itemVnum:
 		return 1
-	elif itemVnum >= 76004 and itemVnum <= 76005:		## »õ·Î µé¾î°£ ¼±¹°¿ë ¼ö·æÀÇ Ãàº¹
+	elif itemVnum >= 76004 and itemVnum <= 76005:		## ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î°£ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½àº¹
 		return 1
 	elif itemVnum == 79013:
 		return 1

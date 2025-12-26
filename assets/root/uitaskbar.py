@@ -762,11 +762,10 @@ class TaskBar(ui.ScriptWindow):
 			pass
 
 		startNumber = 0
+
 		for slot in self.quickslot:
-
 			for i in xrange(4):
-
-				slotNumber = i+startNumber
+				slotNumber = i + startNumber
 
 				(Type, Position) = player.GetLocalQuickSlot(slotNumber)
 
@@ -775,11 +774,13 @@ class TaskBar(ui.ScriptWindow):
 					continue
 
 				if player.SLOT_TYPE_INVENTORY == Type:
-
 					itemIndex = player.GetItemIndex(Position)
 					itemCount = player.GetItemCount(Position)
+
 					if itemCount <= 1:
 						itemCount = 0
+					
+					slot.SetItemSlot(slotNumber, itemIndex, itemCount)
 					
 					## �ڵ����� (#72723, #72724) Ư��ó�� - �������ε��� ���Կ� Ȱ��ȭ/��Ȱ��ȭ ǥ�ø� ���� �۾��� - [hyo]
 					if constInfo.IS_AUTO_POTION(itemIndex):
@@ -790,8 +791,6 @@ class TaskBar(ui.ScriptWindow):
 							slot.ActivateSlot(slotNumber)
 						else:
 							slot.DeactivateSlot(slotNumber)
-					
-					slot.SetItemSlot(slotNumber, itemIndex, itemCount)
 				elif player.SLOT_TYPE_SKILL == Type:
 					skillIndex = player.GetSkillIndex(Position)
 
@@ -854,6 +853,19 @@ class TaskBar(ui.ScriptWindow):
 		AttachedSlotType = mouseModule.mouseController.GetAttachedType()
 		AttachedSlotNumber = mouseModule.mouseController.GetAttachedSlotNumber()
 		AttachedItemIndex = mouseModule.mouseController.GetAttachedItemIndex()
+
+		# MR-3: Swap slots if dragging an item from another window already exists in quickslots and tries to replace another one
+		if AttachedSlotType != player.SLOT_TYPE_QUICK_SLOT:
+			# Search for the same item/skill/emotion in quickslots
+			for slotIdx in range(constInfo.QUICKSLOT_MAX_NUM):  # Use your actual max quickslot count
+				(Type, Position) = player.GetLocalQuickSlot(slotIdx)
+				if Type == AttachedSlotType and Position == AttachedSlotNumber:
+					# Found, swap instead of replace
+					player.RequestMoveGlobalQuickSlotToLocalQuickSlot(slotIdx, localSlotIndex)
+					mouseModule.mouseController.DeattachObject()
+					self.RefreshQuickSlot()
+					return
+		# MR-3: -- END OF -- Swap slots if dragging an item from another window already exists in quickslots and tries to replace another one
 
 		if player.SLOT_TYPE_QUICK_SLOT == AttachedSlotType:
 			player.RequestMoveGlobalQuickSlotToLocalQuickSlot(AttachedSlotNumber, localSlotIndex)
