@@ -611,15 +611,6 @@ class AffectShower(ui.Window):
 	def SetPlayTime(self, playTime):
 		self.serverPlayTime = playTime
 		self.clientPlayTime = app.GetTime()
-		
-		if localeInfo.IsVIETNAM():		
-			image = PlayTimeImage()
-			image.SetParent(self)
-			image.SetPlayTime(playTime)
-			image.Show()
-
-			self.playTimeImage=image
-			self.__ArrangeImageList()
 
 	def __AppendAffect(self, affect):
 

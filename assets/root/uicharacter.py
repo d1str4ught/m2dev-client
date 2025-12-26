@@ -18,18 +18,7 @@ import chr
 
 SHOW_ONLY_ACTIVE_SKILL = False
 SHOW_LIMIT_SUPPORT_SKILL_LIST = []
-HIDE_SUPPORT_SKILL_POINT = False
-
-if localeInfo.IsYMIR():
-	SHOW_LIMIT_SUPPORT_SKILL_LIST = [121, 122, 123, 124, 126, 127, 129, 128, 131, 137, 138, 139, 140,141,142]
-	if not localeInfo.IsCHEONMA():
-		HIDE_SUPPORT_SKILL_POINT = True 
-		SHOW_LIMIT_SUPPORT_SKILL_LIST = [121, 122, 123, 124, 126, 127, 129, 128, 131, 137, 138, 139, 140,141,142]
-elif localeInfo.IsJAPAN() or   (localeInfo.IsEUROPE() and app.GetLocalePath() != "locale/ca") and (localeInfo.IsEUROPE() and app.GetLocalePath() != "locale/br"):
-	HIDE_SUPPORT_SKILL_POINT = True	
-	SHOW_LIMIT_SUPPORT_SKILL_LIST = [121, 122, 123, 124, 126, 127, 129, 128, 131, 137, 138, 139, 140]
-else:
-	HIDE_SUPPORT_SKILL_POINT = True
+HIDE_SUPPORT_SKILL_POINT = True
 
 FACE_IMAGE_DICT = {
 	playerSettingModule.RACE_WARRIOR_M	: "icon/face/warrior_m.tga",
@@ -162,9 +151,6 @@ class CharacterWindow(ui.ScriptWindow):
 		self.faceImage = self.GetChild("Face_Image")
 
 		faceSlot=self.GetChild("Face_Slot")
-		if 949 == app.GetDefaultCodePage():
-			faceSlot.SAFE_SetStringEvent("MOUSE_OVER_IN", self.__ShowJobToolTip)
-			faceSlot.SAFE_SetStringEvent("MOUSE_OVER_OUT", self.__HideJobToolTip)
 
 		self.statusPlusLabel = self.GetChild("Status_Plus_Label")
 		self.statusPlusValue = self.GetChild("Status_Plus_Value")		
@@ -347,7 +333,6 @@ class CharacterWindow(ui.ScriptWindow):
 			if 0 == vid or vid == player.GetMainCharacterIndex() or chr.IsNPC(vid) or chr.IsEnemy(vid):
 				import chat
 				chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.EMOTION_CHOOSE_ONE)
-
 				return
 
 			command += " " + chr.GetNameByVID(vid)
@@ -405,11 +390,11 @@ class CharacterWindow(ui.ScriptWindow):
 		self.isLoaded = 1
 
 		try:
-			if localeInfo.IsARABIC() or localeInfo.IsVIETNAM() or localeInfo.IsJAPAN():
+			if app.IsRTL():
 				self.__LoadScript(uiScriptLocale.LOCALE_UISCRIPT_PATH + "CharacterWindow.py")
 			else:
 				self.__LoadScript("UIScript/CharacterWindow.py")
-				
+
 			self.__BindObject()
 			self.__BindEvent()
 		except:
@@ -533,7 +518,7 @@ class CharacterWindow(ui.ScriptWindow):
 		except:
 			#import exception
 			#exception.Abort("CharacterWindow.RefreshStatus.BindObject")
-			## ������ ƨ�� ����
+			## 게임이 튕겨 버림
 			pass
 
 		self.__RefreshStatusPlusButtonList()
@@ -807,7 +792,7 @@ class CharacterWindow(ui.ScriptWindow):
 			skillLevel = getSkillLevel(slotIndex)
 			skillType = getSkillType(skillIndex)
 
-			## �¸� ��ų ���� ó��
+			## 승마 스킬 예외 처리
 			if player.SKILL_INDEX_RIDING == skillIndex:
 				if 1 == skillGrade:
 					skillLevel += 19
@@ -934,11 +919,12 @@ class CharacterWindow(ui.ScriptWindow):
 		self.RefreshSkillPlusButtonList()
 
 	def CanShowPlusButton(self, skillIndex, skillLevel, curStatPoint):
-		## ��ų�� ������
+
+		## 스킬이 있으면
 		if 0 == skillIndex:
 			return False
 
-		## ������ ������ �����Ѵٸ�
+		## 레벨업 조건을 만족한다면
 		if not skill.CanLevelUpSkill(skillIndex, skillLevel):
 			return False
 
@@ -1057,8 +1043,8 @@ class CharacterWindow(ui.ScriptWindow):
 
 		mouseModule.mouseController.DeattachObject()
 
-	## FIXME : ��ų�� ��������� ���� ��ȣ�� ������ �ش� ������ ã�Ƽ� ������Ʈ �Ѵ�.
-	##         �ſ� ���ո�. ���� ��ü�� �����ؾ� �ҵ�.
+	## FIXME : 스킬을 사용했을때 슬롯 번호를 가지고 해당 슬롯을 찾아서 업데이트 한다.
+	##         매우 불합리. 구조 자체를 개선해야 할듯.
 	def OnUseSkill(self, slotIndex, coolTime):
 		skillIndex = player.GetSkillIndex(slotIndex)
 		skillType = skill.GetSkillType(skillIndex)
@@ -1143,25 +1129,6 @@ class CharacterWindow(ui.ScriptWindow):
 		if player.GetStatus(player.LEVEL)<5:
 			subJob=0
 
-		if 949 == app.GetDefaultCodePage():
-			self.toolTipJob.ClearToolTip()
-
-			try:
-				jobInfoTitle=localeInfo.JOBINFO_TITLE[mainJob][subJob]
-				jobInfoData=localeInfo.JOBINFO_DATA_LIST[mainJob][subJob]
-			except IndexError:
-				print "uiCharacter.CharacterWindow.__SetJobText(mainJob=%d, subJob=%d)" % (mainJob, subJob)
-
-				return
-
-			self.toolTipJob.AutoAppendTextLine(jobInfoTitle)
-			self.toolTipJob.AppendSpace(5)
-
-			for jobInfoDataLine in jobInfoData:
-				self.toolTipJob.AutoAppendTextLine(jobInfoDataLine)
-
-			self.toolTipJob.AlignHorizonalCenter()
-
 	def __ShowAlignmentToolTip(self):
 		self.toolTipAlignment.ShowToolTip()
 
@@ -1180,17 +1147,14 @@ class CharacterWindow(ui.ScriptWindow):
 			self.characterNameValue.SetText(characterName)
 			self.guildNameValue.SetText(guildName)
 			if not guildName:
-				if localeInfo.IsARABIC():
+				if app.IsRTL():
 					self.characterNameSlot.SetPosition(190, 34)
 				else:
 					self.characterNameSlot.SetPosition(109, 34)
 
 				self.guildNameSlot.Hide()
 			else:
-				if localeInfo.IsJAPAN():
-					self.characterNameSlot.SetPosition(143, 34)
-				else:
-					self.characterNameSlot.SetPosition(153, 34)
+				self.characterNameSlot.SetPosition(153, 34)
 				self.guildNameSlot.Show()
 		except:
 			import exception

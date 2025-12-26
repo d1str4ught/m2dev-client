@@ -22,10 +22,7 @@ class PasswordDialog(ui.ScriptWindow):
 	def __LoadDialog(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-#			if localeInfo.IsEUROPE()and app.GetLocalePath() != "locale/ca"and app.GetLocalePath() != "locale/sg" :
-			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "passworddialog.py")
-#			else:
-#				pyScrLoader.LoadScriptFile(self, "uiscript/passworddialog.py")
+			pyScrLoader.LoadScriptFile(self, "uiscript/passworddialog.py")
 		except:
 			import exception
 			exception.Abort("PasswordDialog.__LoadDialog.LoadObject")

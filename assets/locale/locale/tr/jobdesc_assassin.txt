@@ -1,0 +1,12 @@
+[DELAY value;10]
+Ninjalar her zaman[ENTER]
+gizlenerek ve sessizce[ENTER]
+öldüren profesyonel[ENTER]
+katillerdir. Çeviklik ve[ENTER]
+tekrarlanan vuruşları için[ENTER]
+[WAIT]
+hafif zırhlar giyerler.[ENTER]
+Böylece hareketleri[ENTER]
+kısıtlanmaz. Eğitimlerine[ENTER]
+göre hançer veya yayı[ENTER]
+ustalıkla kullanabilirler.

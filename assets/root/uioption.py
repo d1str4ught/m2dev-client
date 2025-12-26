@@ -11,9 +11,6 @@ import player
 
 MOBILE = False
 
-if localeInfo.IsYMIR():
-	MOBILE = True
-	
 blockMode = 0
 
 class OptionDialog(ui.ScriptWindow):

@@ -46,8 +46,6 @@ class RefineDialog(ui.ScriptWindow):
 			import exception
 			exception.Abort("RefineDialog.__LoadScript.BindObject")
 
-		## 936 : 개량 확률 표시 안함
-		##if 936 == app.GetDefaultCodePage():
 		self.successPercentage.Hide()
 
 		toolTip = uiToolTip.ItemToolTip()
@@ -220,8 +218,6 @@ class RefineDialogNew(ui.ScriptWindow):
 			import exception
 			exception.Abort("RefineDialog.__LoadScript.BindObject")
 
-		## 936 : 개량 확률 표시 안함
-		##if 936 == app.GetDefaultCodePage():
 		self.successPercentage.Hide()
 
 		toolTip = uiToolTip.ItemToolTip()
@@ -351,7 +347,7 @@ class RefineDialogNew(ui.ScriptWindow):
 		textLine.SetWindowVerticalAlignCenter()
 		textLine.SetVerticalAlignCenter()
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			(x,y) = textLine.GetTextSize()
 			textLine.SetPosition(x, 0)
 		else:
@@ -367,11 +363,9 @@ class RefineDialogNew(ui.ScriptWindow):
 		newWidth = self.toolTip.GetWidth() + 60
 		newHeight = self.dialogHeight + 69
 
-		## 936 : 개량 확률 표시 안함
-		##if 936 == app.GetDefaultCodePage():
 		newHeight -= 8
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			self.board.SetPosition( newWidth, 0 )
 
 			(x, y) = self.titleBar.GetLocalPosition()

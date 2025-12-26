@@ -160,10 +160,7 @@ class MarkSelectDialog(ui.ScriptWindow):
 
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-			if localeInfo.IsVIETNAM():
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "MarkListWindow.py")
-			else:
-				pyScrLoader.LoadScriptFile(self, "UIScript/MarkListWindow.py")
+			pyScrLoader.LoadScriptFile(self, "UIScript/MarkListWindow.py")
 		except:
 			import exception
 			exception.Abort("MarkListBox.__Load")

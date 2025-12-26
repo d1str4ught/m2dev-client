@@ -14,15 +14,6 @@ ENABLE_CHAT_COMMAND = True
 ENABLE_LAST_SENTENCE_STACK = True
 ENABLE_INSULT_CHECK = True
 
-if localeInfo.IsHONGKONG():
-	ENABLE_LAST_SENTENCE_STACK = True
-
-if localeInfo.IsEUROPE():
-	ENABLE_CHAT_COMMAND = False
-
-if localeInfo.IsCANADA():
-	ENABLE_LAST_SENTENCE_STACK = False
-
 chatInputSetList = []
 def InsertChatInputSetWindow(wnd):
 	global chatInputSetList
@@ -125,7 +116,6 @@ class ChatLine(ui.EditLine):
 		self.eventReturn = lambda *arg: None
 		self.eventTab = None
 		self.chatMode = chat.CHAT_TYPE_TALKING
-		self.bCodePage = True
 
 		self.overTextLine = ui.TextLine()
 		self.overTextLine.SetParent(self)
@@ -209,12 +199,6 @@ class ChatLine(ui.EditLine):
 		
 
 	def __SendChatPacket(self, text, type):
-#		if text[0] == '/':
-#			if ENABLE_CHAT_COMMAND or constInfo.CONSOLE_ENABLE:
-#				pass
-#			else:
-#				return
-
 		if net.IsChatInsultIn(text):
 			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.CHAT_INSULT_STRING)
 		else:
@@ -259,9 +243,6 @@ class ChatLine(ui.EditLine):
 		self.__ResetChat()
 
 	def OnIMETab(self):
-		#if None != self.eventTab:
-		#	self.eventTab()
-		#return True
 		return False
 
 	def OnIMEUpdate(self):
@@ -410,6 +391,11 @@ class ChatInputSet(ui.Window):
 		chatLine.SetMax(512)
 		chatLine.SetUserMax(76)
 		chatLine.SetText("")
+		# Keep cursor on right in RTL UI, left in LTR UI
+		if app.IsRTL():
+			chatLine.SetBaseDirectionRTL()
+		else:
+			chatLine.SetBaseDirectionLTR()
 		chatLine.SAFE_SetTabEvent(self.OnChangeChatMode)
 		chatLine.x = 0
 		chatLine.y = 0
@@ -477,7 +463,7 @@ class ChatInputSet(ui.Window):
 		self.chatLine.SetUserMax(max)
 
 	def RefreshPosition(self):
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			self.chatLine.SetSize(self.GetWidth() - 93, 18)
 		else:
 			self.chatLine.SetSize(self.GetWidth() - 93, 13)
@@ -657,9 +643,11 @@ class ChatWindow(ui.Window):
 		(x, y, width, height) = self.GetRect()
 		(btnX, btnY) = self.btnChatSizing.GetGlobalPosition()
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
+			chat.SetAlign(self.chatID, 1)
 			chat.SetPosition(self.chatID, x + width - 10, y)
-		else:	
+		else:
+			chat.SetAlign(self.chatID, 0)
 			chat.SetPosition(self.chatID, x + 10, y)
 
 		chat.SetHeight(self.chatID, y - btnY - self.EDIT_LINE_HEIGHT + 100)
@@ -685,9 +673,11 @@ class ChatWindow(ui.Window):
 
 		(x, y, width, height) = self.GetRect()
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
+			chat.SetAlign(self.chatID, 1)
 			chat.SetPosition(self.chatID, x + width - 10, y + self.EDIT_LINE_HEIGHT)
 		else:
+			chat.SetAlign(self.chatID, 0)
 			chat.SetPosition(self.chatID, x + 10, y + self.EDIT_LINE_HEIGHT)
 
 		self.SetSize(self.CHAT_WINDOW_WIDTH, 0)
@@ -752,9 +742,11 @@ class ChatWindow(ui.Window):
 		self.heightBar = y - btnY + self.EDIT_LINE_HEIGHT
 		self.curHeightBar = self.heightBar
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
+			chat.SetAlign(self.chatID, 1)
 			chat.SetPosition(self.chatID, x + width - 10, y)
 		else:
+			chat.SetAlign(self.chatID, 0)
 			chat.SetPosition(self.chatID, x + 10, y)
 
 		chat.SetHeight(self.chatID, y - btnY - self.EDIT_LINE_HEIGHT)
@@ -769,9 +761,11 @@ class ChatWindow(ui.Window):
 		(btnX, btnY) = self.btnChatSizing.GetGlobalPosition()
 		textAreaHeight = self.visibleLineCount * chat.GetLineStep(self.chatID)
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
+			chat.SetAlign(self.chatID, 1)
 			chat.SetPosition(self.chatID, x + width - 10, y + self.EDIT_LINE_HEIGHT)
 		else:
+			chat.SetAlign(self.chatID, 0)
 			chat.SetPosition(self.chatID, x + 10, y + self.EDIT_LINE_HEIGHT)
 
 		chat.SetHeight(self.chatID, y - btnY - self.EDIT_LINE_HEIGHT + 100)
@@ -876,7 +870,9 @@ class ChatLogWindow(ui.Window):
 		ui.Window.__init__(self)
 		self.AddFlag("float")
 		self.AddFlag("movable")
+
 		self.SetWindowName("ChatLogWindow")
+
 		self.__CreateChatInputSet()
 		self.__CreateWindow()
 		self.__CreateButton()
@@ -904,7 +900,7 @@ class ChatLogWindow(ui.Window):
 	def __CreateWindow(self):
 		imgLeft = ui.ImageBox()
 		imgLeft.AddFlag("not_pick")
-		imgLeft.SetParent(self)				
+		imgLeft.SetParent(self)
 
 		imgCenter = ui.ExpandedImageBox()
 		imgCenter.AddFlag("not_pick")
@@ -912,16 +908,16 @@ class ChatLogWindow(ui.Window):
 		
 		imgRight = ui.ImageBox()
 		imgRight.AddFlag("not_pick")
-		imgRight.SetParent(self)			
-		
-		if localeInfo.IsARABIC():
+		imgRight.SetParent(self)
+
+		if app.IsRTL():
 			imgLeft.LoadImage("locale/ae/ui/pattern/titlebar_left.tga")
 			imgCenter.LoadImage("locale/ae/ui/pattern/titlebar_center.tga")
 			imgRight.LoadImage("locale/ae/ui/pattern/titlebar_right.tga")
 		else:
 			imgLeft.LoadImage("d:/ymir work/ui/pattern/chatlogwindow_titlebar_left.tga")
 			imgCenter.LoadImage("d:/ymir work/ui/pattern/chatlogwindow_titlebar_middle.tga")
-			imgRight.LoadImage("d:/ymir work/ui/pattern/chatlogwindow_titlebar_right.tga")		
+			imgRight.LoadImage("d:/ymir work/ui/pattern/chatlogwindow_titlebar_right.tga")
 
 		imgLeft.Show()
 		imgCenter.Show()
@@ -944,12 +940,12 @@ class ChatLogWindow(ui.Window):
 
 		titleName = ui.TextLine()
 		titleName.SetParent(self)
-		
-		if localeInfo.IsARABIC():
+
+		if app.IsRTL():
 			titleName.SetPosition(self.GetWidth()-20, 6)
 		else:
 			titleName.SetPosition(20, 6)
-			
+
 		titleName.SetText(localeInfo.CHAT_LOG_TITLE)
 		titleName.Show()
 
@@ -961,8 +957,7 @@ class ChatLogWindow(ui.Window):
 		self.titleName = titleName
 
 	def __CreateButton(self):
-	
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			bx = 20
 		else:
 			bx = 13
@@ -1047,15 +1042,15 @@ class ChatLogWindow(ui.Window):
 		self.imgCenter.SetRenderingRect(0.0, 0.0, float((width - self.BLOCK_WIDTH*2) - self.BLOCK_WIDTH) / self.BLOCK_WIDTH, 0.0)
 		self.imgCenter.SetPosition(self.BLOCK_WIDTH, 0)
 		self.imgRight.SetPosition(width - self.BLOCK_WIDTH, 0)
-		
-		if localeInfo.IsARABIC():
+
+		if app.IsRTL():
 			self.titleName.SetPosition(self.GetWidth()-20, 3)
 			self.btnClose.SetPosition(3, 3)
 			self.scrollBar.SetPosition(1, 45)
 		else:
-			self.btnClose.SetPosition(width - self.btnClose.GetWidth() - 5, 5)			
+			self.btnClose.SetPosition(width - self.btnClose.GetWidth() - 5, 5)
 			self.scrollBar.SetPosition(width - 15, 45)
-			
+
 		self.scrollBar.SetScrollBarSize(height - 45 - 12)
 		self.scrollBar.SetPos(self.scrollBarPos)
 		ui.Window.SetSize(self, width, height)
@@ -1086,7 +1081,7 @@ class ChatLogWindow(ui.Window):
 		self.SetSize(x + width, y + height)
 		self.scrollBar.UnlockScroll()
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			self.chatInputSet.SetPosition(20, 25)
 		else:
 			self.chatInputSet.SetPosition(0, 25)
@@ -1106,11 +1101,11 @@ class ChatLogWindow(ui.Window):
 
 	def OnRender(self):
 		(x, y, width, height) = self.GetRect()
-		
-		if localeInfo.IsARABIC():
+
+		if app.IsRTL():
 			grp.SetColor(0x77000000)
 			grp.RenderBar(x+2, y+45, 13, height-45)
-			
+
 			grp.SetColor(0x77000000)
 			grp.RenderBar(x, y, width, height)
 			grp.SetColor(0x77000000)
@@ -1142,9 +1137,11 @@ class ChatLogWindow(ui.Window):
 
 		chat.ArrangeShowingChat(self.chatID)
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
+			chat.SetAlign(self.chatID, 1)
 			chat.SetPosition(self.chatID, x + width - 10, y + height - 25)
 		else:
+			chat.SetAlign(self.chatID, 0)
 			chat.SetPosition(self.chatID, x + 10, y + height - 25)
 
 		chat.SetHeight(self.chatID, height - 45 - 25)

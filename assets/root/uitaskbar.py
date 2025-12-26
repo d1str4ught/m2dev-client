@@ -152,7 +152,7 @@ class EnergyBar(ui.ScriptWindow):
 	def RefreshStatus(self):
 		pointEnergy = player.GetStatus (player.ENERGY)
 		leftTimeEnergy = player.GetStatus (player.ENERGY_END_TIME) - app.GetGlobalTimeStamp()
-		# ���ȯ ���� �ð� = 2�ð�.
+		# 충기환 지속 시간 = 2시간.
 		self.SetEnergy (pointEnergy, leftTimeEnergy, 7200)
 			
 	def SetEnergy (self, point, leftTime, maxTime):
@@ -253,9 +253,8 @@ class TaskBar(ui.ScriptWindow):
 
 	#gift icon show and hide
 	def ShowGift(self):
-		if not localeInfo.IsBRAZIL():
-			self.wndGiftBox.Show()
-	
+		self.wndGiftBox.Show()
+
 	def HideGift(self):
 		self.wndGiftBox.Hide()
 
@@ -331,12 +330,12 @@ class TaskBar(ui.ScriptWindow):
 			self.SetSkillSlotNew(slotNumber, skillIndex, skillGrade, skillLevel)
 			self.SetSlotCountNew(slotNumber, skillGrade, skillLevel)
 
-			## NOTE : CoolTime üũ
+			## NOTE : CoolTime 체크
 			if player.IsSkillCoolTime(skillSlotNumber):
 				(coolTime, elapsedTime) = player.GetSkillCoolTime(skillSlotNumber)
 				self.SetSlotCoolTime(slotNumber, coolTime, elapsedTime)
 
-			## NOTE : Activate �Ǿ� �ִٸ� �����ܵ� ������Ʈ
+			## NOTE : Activate 되어 있다면 아이콘도 업데이트
 			if player.IsSkillActive(skillSlotNumber):
 				self.ActivateSlot(slotNumber)
 
@@ -439,21 +438,19 @@ class TaskBar(ui.ScriptWindow):
 		toggleButtonDict[TaskBar.BUTTON_MESSENGER]=self.GetChild("MessengerButton")
 		toggleButtonDict[TaskBar.BUTTON_SYSTEM]=self.GetChild("SystemButton")
 		
-		# ChatButton, ExpandButton �� �� �ϳ��� �ݵ�� �����Ѵ�.
+		# ChatButton, ExpandButton 둘 중 하나는 반드시 존재한다.
 		try:
 			toggleButtonDict[TaskBar.BUTTON_CHAT]=self.GetChild("ChatButton")
 		except:
 			toggleButtonDict[TaskBar.BUTTON_EXPAND]=self.GetChild("ExpandButton")
 			TaskBar.IS_EXPANDED = True
-		
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			systemButton = toggleButtonDict[TaskBar.BUTTON_SYSTEM]
 			if systemButton.ToolTipText:
 				tx, ty = systemButton.ToolTipText.GetLocalPosition()
 				tw = systemButton.ToolTipText.GetWidth() 
 				systemButton.ToolTipText.SetPosition(-tw/2, ty)
-
 
 		expGauge = []
 		expGauge.append(self.GetChild("EXPGauge_01"))
@@ -464,7 +461,6 @@ class TaskBar(ui.ScriptWindow):
 		for exp in expGauge:
 			exp.SetSize(0, 0)
 
-	  
 		self.quickPageNumImageBox=self.GetChild("QuickPageNumber")
 
 		self.GetChild("QuickPageUpButton").SetEvent(ui.__mem_func__(self.__OnClickQuickPageUpButton))
@@ -782,9 +778,9 @@ class TaskBar(ui.ScriptWindow):
 					
 					slot.SetItemSlot(slotNumber, itemIndex, itemCount)
 					
-					## �ڵ����� (#72723, #72724) Ư��ó�� - �������ε��� ���Կ� Ȱ��ȭ/��Ȱ��ȭ ǥ�ø� ���� �۾��� - [hyo]
+					## 자동물약 (#72723, #72724) 특수처리 - 아이템인데도 슬롯에 활성화/비활성화 표시를 위한 작업임 - [hyo]
 					if constInfo.IS_AUTO_POTION(itemIndex):
-						# metinSocket - [0] : Ȱ��ȭ ����, [1] : ����� ��, [2] : �ִ� �뷮
+						# metinSocket - [0] : 활성화 여부, [1] : 사용한 양, [2] : 최대 용량
 						metinSocket = [player.GetItemMetinSocket(Position, j) for j in xrange(player.METIN_SOCKET_MAX_NUM)]
 						
 						if 0 != int(metinSocket[0]):
@@ -815,7 +811,7 @@ class TaskBar(ui.ScriptWindow):
 					slot.SetSlotCountNew(slotNumber, skillGrade, skillLevel)
 					slot.SetCoverButton(slotNumber)
 
-					## NOTE : CoolTime üũ
+					## NOTE : CoolTime 체크
 					if player.IsSkillCoolTime(Position) and skillLevel > 0:
 						(coolTime, elapsedTime) = player.GetSkillCoolTime(Position)
 
@@ -824,7 +820,7 @@ class TaskBar(ui.ScriptWindow):
 						if skillType != skill.SKILL_TYPE_GUILD and skillLevel <= 0:
 							slot.SetSlotCoolTime(slotNumber, 0, 0)
 
-					## NOTE : Activate �Ǿ� �ִٸ� �����ܵ� ������Ʈ
+					## NOTE : Activate 되어 있다면 아이콘도 업데이트
 					if player.IsSkillActive(Position):
 						slot.ActivateSlot(slotNumber)
 					else:
@@ -1083,8 +1079,8 @@ class TaskBar(ui.ScriptWindow):
 				if skill.IsStandingSkill(skillIndex):
 					continue
 
-				## FIXME : ��ų �ϳ��� ���� �ϳ��� �Ҵ��ϴ°� �ƹ��� ���� ���ϰ� ũ��.
-				##		 �� �κ��� �ð��� ���� ��ġ����. - [levites]
+				## FIXME : 스킬 하나당 슬롯 하나씩 할당하는건 아무리 봐도 부하가 크다.
+				##		 이 부분은 시간을 나면 고치도록. - [levites]
 				skillButton = self.SkillButton()
 				skillButton.SetSkill(startNumber+i)
 				skillButton.SetPosition(x, y)

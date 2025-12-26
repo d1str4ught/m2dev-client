@@ -56,11 +56,7 @@ class PickMoneyDialog(ui.ScriptWindow):
 	def SetMax(self, max):
 		self.pickValueEditLine.SetMax(max)
 
-	def Open(self, maxValue, unitValue=1):
-
-		if localeInfo.IsYMIR() or localeInfo.IsCHEONMA() or localeInfo.IsHONGKONG():
-			unitValue = ""
-
+	def Open(self, maxValue, unitValue = 1):
 		width = self.GetWidth()
 		(mouseX, mouseY) = wndMgr.GetMousePosition()
 
@@ -73,7 +69,7 @@ class PickMoneyDialog(ui.ScriptWindow):
 
 		self.SetPosition(xPos, mouseY - self.GetHeight() - 20)
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			self.maxValueTextLine.SetText("/" + str(maxValue))
 		else:
 			self.maxValueTextLine.SetText(" / " + str(maxValue))

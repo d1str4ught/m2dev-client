@@ -1,0 +1,3679 @@
+ACCE_ABSORB_COST	تكاليف الدمج: %d
+ACCE_ALREADY_REGISTER	تم استعمال هذا البند من قبل.
+ACCE_DEL_ABSORDITEM	هل تريد استيعاب الشيء وبالتالي تدميره؟
+ACCE_DEL_SERVEITEM	إذا ما فشلت عملية المزج، فإن الوشاح 2 سيدمّر.
+ACCE_DEL_SERVEITEM2	سيدمّر الوشاح 2 إذا ما فشلت عملية المزج.
+ACCE_INITEM	اسحب الأشياء نحو النافذة.
+ACCE_MAXGRADE	إن هذا الوشاح مُفصّل.
+ACCE_MAX_DRAINRATE	قيمة الاستيعاب القصوى
+ACCE_NOTABSORBITEM	لا يمكنك استعمال أسلحة أو دروع استوعبت من قبل.
+ACCE_NOT_SEALITEM	لا يمكنك استعمال بند مُرتبط بالروح.
+ACCE_NOT_USINGITEM	لا يمكنك مزج بُند مُزوّد.
+ACCE_NOT_WINDOWOPEN	لا يمكنك استعمال البند، طالما أن نافذة المزج مفتوحة.
+ACCE_POSSIBLE_ACCE	لا يمكنك استعمال شيء آخر غير الأوشحة.
+ACCE_POSSIBLE_ACCEITEM	لا يمكنك استخراج العلاوات من أشياء أخرى غير الأسلحة والدروع.
+AFF_LOVE_POINT	نقاط الحب: %d%%
+ALIGNMENT_NAME	نقاط الترتيب:
+alsoExportToCharset	
+ATTACK_ERROR_UNKNOWN	خطأ هجومي مجهول:  %s
+ATTENDANCE_REWARD_QUESTION	هل ترغب في الحصول على مكافأتك الآن؟
+ATTR_6TH_7TH_ADD_QUESTION1	لا يمكنك استخدام هذا البند أثناء إضافة علاوة.
+ATTR_6TH_7TH_ADD_QUESTION2	هل أنت متأكد أنك تريد إضافة العلاوة؟
+ATTR_6TH_7TH_CHANGE_FAIL	لا يمكنك تغيير العلاوة.
+ATTR_6TH_7TH_DESC1	أ. يجب عليك وضع المواد اللازمة لإضافة العلاوة 6 و 7.
+ATTR_6TH_7TH_DESC2	ب. سترفع كل شظية معدل النجاح بنسبة 2%.
+ATTR_6TH_7TH_DESC3	ج. إستخدم إضافات لزيادة معدل النجاح.
+ATTR_6TH_7TH_DESC4	د. ستحتاج عملية إضافة العلاوة إلى 24 ساعة. سيحتفظ لاعب الحاسوب بالبند المراد إضافة العلاوة إليه. بمجرد إكتمال العملية، سمكنك إستعادة البند مجددا.
+ATTR_6TH_7TH_POSSIBILITY	يمكنك إضافة علاوة إضافية.
+ATTR_6TH_7TH_TOTAL_SUCCESS_PERCENT	فُرصة النجاح: %.1f%%
+AURA_CLEAR_CANNOT_USE_SEALED_ITEM	لا يمكن تغيير القيم الخاصة بالبنود المربوطة بالروح.
+AURA_CLEAR_QUESTION_WHEN_USE	هل تريد إزالة القيم المسجلة؟ لا يمكن استعادتها بعد ذلك.
+AURA_DRAIN_PER	قيمة الاستيعاب %.1f%%
+AURA_EVOLUTION_GOLD	[هالة] ليس لديك يانغ كافٍ للتطوير.
+AURA_IMPOSSIBLE_ABSORBITEM	[هالة] لا يمكن نقل المزيد من العلاوات.
+AURA_IMPOSSIBLE_EQUIPITEM	[هالة] لا يمكن نقل البند المجهز.
+AURA_IMPOSSIBLE_EVOLUTION_ITEM	[هالة] لا يمكن تطويره.
+AURA_IMPOSSIBLE_EVOLUTION_ITEMCOUNT	[هالة] عدد البنود غير كاف للتطوير.
+AURA_IMPOSSIBLE_GROWTHITEM	[هالة] لا يمكن تحسينه.
+AURA_IMPOSSIBLE_REFINEITEM	[هالة] يمكنك استخدام ملابس الهالة، ترس، قلادة، حلق سوار فقط.
+AURA_IMPOSSIBLE_SEALITEM	[هالة] لا يمكنك نقل البنود المربوطة بالروح.
+AURA_ITEM_NEED_REGISTER	[هالة] يجب إدراج البنود.
+AURA_LEVEL_STEP	المستوى %d (الرتبة %d)
+AURA_MAX_LEVEL	[هالة] لقد وصلت ملابس الهالة إلى المستوى الأقصى.
+AURA_NOTICE_DEL_ABSORDITEM	[هالة] لقد تم تدمير البند المنقول.
+AURA_OPEN_OTHER_WINDOW	لا يمكنك القيام بذلك إن كانت نافذة التحسين أو التطوير أو نقل الإحصائيات مفتوحة.
+AURA_POSSIBLE_AURAITEM	[هالة] يمكن فقط لملابس الهالة.
+AURA_POSSIBLE_REGISTER_AURAITEM	[هالة] يجب إدراج ملابس الهالة أولا.
+AURA_TITLE_ABSORB	نقل قيم الى ملابس الهالة
+AURA_TITLE_EVOLUTION	تطوير ملابس الهالة
+AURA_TITLE_GROWTH	تحسين ملابس الهالة
+AURA_TOOLTIP_EXP	خبرة (%d%% / 100%%)
+AURA_TOOLTIP_LEVEL	المستوى %d (الرتبة %d) (قيمة الاستيعاب %.1f%%)
+AURA_TOOLTIP_NEED_YANG	%s يانغ
+AURA_TOOLTIP_NEXT	جديد
+AURA_TOOLTIP_NOW	حالي
+AURA_TOOLTIP_RESOURCE	أشياء استهلاكية
+AURA_TOOLTIP_RESOURCE_ITEM	%s * %d
+AUTO_TOOLTIP_CLEAR	إعادة
+AUTO_TOOLTIP_LINE1	مهارات: اختر إحدى المهارات وضعها في الفتحات المُخصصة لذلك. (حساب ممتاز)
+AUTO_TOOLTIP_LINE2	تنبيه: يمكنك تعديل المدة الزمنية (بالثواني) لكل مهارة من المهارات.
+AUTO_TOOLTIP_LINE3	جرعات: اختر إحدى الجرعات وضعها في الفتحات المُخصصة لذلك. (حساب ممتاز)
+AUTO_TOOLTIP_LINE4	تنبيه: سيتم تفعيل جرعات الحياة والأسلوب بمُجرد هبوط قيمتها تحت القيمة المئوية المُدرجة.
+AUTO_TOOLTIP_LINE5	ملاحظة: يمكن تفعيل الاستخدام التلقائي للمهارات والجرعات والإحياء في متجر اللعبة.
+AUTO_TOOLTIP_TITLE	مساعدة الصيد التلقائي
+BATTLE_MAP_NAME_AREA_1	منطقة 1
+BATTLE_MAP_NAME_AREA_2	منطقة 2
+BATTLE_MAP_NAME_AREA_3	منطقة 3
+BATTLE_MAP_NAME_AREA_4	منطقة 4
+BATTLE_MAP_NAME_AREA_5	منطقة 5
+BATTLE_MAP_NAME_AREA_6	منطقة 6
+BATTLE_MAP_NAME_AREA_7	منطقة 7
+BATTLE_MAP_NAME_AREA_8	منطقة 8
+BATTLE_MAP_NAME_AREA_9	منطقة 9
+BATTLE_POINT	نقاط المعركة
+BATTLE_ROYALE_ALIVE_COUNT	الناجون: %d
+BATTLE_ROYALE_APPLICATION_TITLE	باتل رويال
+BATTLE_ROYALE_CANNOT_OPEN_MALL	لا يمكنك فتح هذا هنا.
+BATTLE_ROYALE_KILL_COUNT	هزم الخصم: %d
+BATTLE_ROYALE_MAINBUTTON_APPLICATION	مشاركة
+BATTLE_ROYALE_MAINBUTTON_CANCEL	إلغاء
+BATTLE_ROYALE_MAINBUTTON_EXIT	خروج
+BATTLE_ROYALE_MAINBUTTON_STARTABLE	ابدأ
+BATTLE_ROYALE_NOTIFY_APPLICATED	لقد قمت بالتسجيل في باتل رويال. بمجرد وجود عدد كافٍ من المشاركين، يمكنك الانضمام.
+BATTLE_ROYALE_NOTIFY_ENTRY_CLOSED	تم إغلاق التسجيل في باتل رويال.
+BATTLE_ROYALE_NOTIFY_STARTABLE	يمكنك الآن الدخول إلى باتل رويال. انقر فوق زر الاحتفالية للمشاركة.
+BATTLE_ROYALE_NOTIFY_WINNER	لقد ربحت.
+BATTLE_ROYALE_PERSONAL_RANK	الرتبة الشخصية: %d
+BATTLE_ROYALE_QUESTION_USE_INFINITE_STAMINA	هل تريد استخدام القدرة على التحمّل التي لا نهاية لها؟
+BATTLE_ROYALE_WHO_KILLED	اللاعب الذي قتلك: %s
+BATTLE_ROYALE_WINNER_1	لقد ربحت باتل رويال!
+BATTLE_ROYALE_WINNER_2	في غضون لحظات قليلة سيتم نقلك الفوري إلى القرية.
+BEAD	النجم الروحي
+BEAD_TIME_REMAINING_TO_GET	سيتم شحن النجم الروحي في خلال: %d دقيقة/دقائق.
+BELT_RENEWAL_BANN_SIGN	لا يمكنك الاستمرار.
+BELT_RENEWAL_INVENTORY_FULL	ليس لديك مساحة كافية في قائمة الجرد.
+BNW_COIN	عملة العراف
+BUY_LIMIT_LEVEL	حد الشراء: %s
+CANNOT_ATTACK_DEST_IN_SAFE	إن الخصم بعيد جداً.
+CANNOT_ATTACK_SELF_IN_SAFE	لا استطيع مهاجمة الخصم من هنا.
+CANNOT_DOING_PRIVATE_SHOP_OPEN	لا يمكنك القيام بأي أمر آخر طالما تقوم بفتح متجر خاص.
+CANNOT_EQUIP_IN_EXCHANGE	لا يمكنك استبدال الدرع أثناء المتاجرة.
+CANNOT_EQUIP_IN_SHOP	لا يمكنك استبدال الدرع أثناء المتاجرة.
+CANNOT_FISHING_RIDE_MOUNT	لا يمكنك الصيد أثناء ركوب الدابة.
+CANNOT_FISHING_WHILE_POLY	لا يمكنك الصيد أثناء التحول.
+CANNOT_ILLUSTRATIONPAGE_WARP	لا يمكنك استعمال النقل الآني لبطاقات الوحوش هنا.
+CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA	لا يمكنك فتح متجر خاص بك في مكان عام.
+CANNOT_PVP_MAP_MESSAGE	لا يمكنك فعل ذلك في هذه المنطقة.
+CANNOT_SHOOT_DEST_IN_SAFE	إن الخصم بعيد جداً.
+CANNOT_SHOOT_EMPTY_ARROW	إنني بحاجة إلى سهم.
+CANNOT_SHOOT_SELF_IN_SAFE	لا يمكنني مهاجمة الخصم من هنا.
+CANNOT_SKILL_APPROACH	أنا متأكد بأنني لن اقترب منه.
+CANNOT_SKILL_ATTACK	لا يمكنني مهاجمتك.
+CANNOT_SKILL_BLUE	لا يمكنك استعمال روح الذئب النّيلي إذا كانت روح الذئب الكرزي مُفعّلة.
+CANNOT_SKILL_DEST_IN_SAFE	إن الخصم بعيد جداً.
+CANNOT_SKILL_EQUIP_FISHING_ROD	دون إستخدام صنارة صيد مجهزة لا يمكنك صيد السمك.
+CANNOT_SKILL_HAVE_TO_RIDE	إنني بحاجة إلى حصان لاستعماله.
+CANNOT_SKILL_NEED_EMPTY_BOTTLE	إنني لا أملك قارورة فارغة.
+CANNOT_SKILL_NEED_POISON_BOTTLE	إنني لا أملك قارورة سم.
+CANNOT_SKILL_NEED_TARGET	منِ الهدف؟
+CANNOT_SKILL_NOT_ENOUGH_HP	إنني لا أملك ما يكفي من نقاط الحياة!
+CANNOT_SKILL_NOT_ENOUGH_SP	إنني لا أملك نقاط أسلوب كافية!
+CANNOT_SKILL_NOT_HORSE_SKILL	لا أستطيع استعماله أثناء ركوبي الحصان.
+CANNOT_SKILL_NOT_MATCHABLE_WEAPON	لا استطيع استعمال هذه المهارة بهذا السلاح.
+CANNOT_SKILL_NOT_STANDING_HORSE_SKILL	لا يمكنك استخدام هذه المهارة على هذه الدابة.
+CANNOT_SKILL_NOT_YET_LEARN	إنني لم أتعلم هذه المهارة بعد.
+CANNOT_SKILL_ONLY_FOR_ALLIANCE	هذا يؤثر فقط على أعضاء الفريق.
+CANNOT_SKILL_ONLY_FOR_CORPSE	إن هذا يؤثر فقط على الموتى.
+CANNOT_SKILL_RED	لا يمكنك استعمال روح الذئب الكرزي إذا كانت روح الذئب النّيلي مُفعّلة.
+CANNOT_SKILL_REMOVE_FISHING_ROD	لا يمكنني استعمال هذه المهارة مع صنارة صيد.
+CANNOT_SKILL_SELF_IN_SAFE	لا استطيع المهاجمة من هنا.
+CANNOT_SKILL_USE_SELF	لا يمكنني استعماله على نفسي.
+CANNOT_SKILL_WAIT_COOLTIME	لا يمكنني استعمال هذه المهارة بعد.
+CANNOT_USE	لا يمكنك استعماله.
+CANNOT_USE_SUTRA_TO_GOOD_ALIGNMENT	لا يمكنك استخدام حبة فاصوليا زن لأنه لا يمكن خفض لتصنيف العدائي الخاص بك أكثر من ذلك.
+CANNOT_WHISPER_DEST_REFUSE	أغلق %s الهمس بالكامل.	SA
+CANNOT_WHISPER_NOT_LOGON	إن %s غير مُتصل	SA
+CANNOT_WHISPER_SELF_REFUSE	لا يمكنك الهمس لأحد إذا أغلقت الهمس بالكامل.	SNA
+CANT_USE_MESSAGE_WHEN_EQUIP	لا يمكنك تطبيق هذا على بند مجهز.
+CATCHKING_EVENT_MESSAGE_CARD_GAIN	احصل على طقم ورق لعب.
+CATCHKING_EVENT_MESSAGE_CARD_PEICE_GAIN	احصل على أوراق لعب ملكية.
+CATCHKING_EVENT_MESSAGE_NOT_ENOUGHT_ITEM	ليس لديك ما يكفي من البنود أو المال للعب.
+CATCHKING_EVENT_MESSAGE_NO_MORE_GAIN	لا يمكنك الحصول على المزيد من أطقم ورق اللعب الملكية.
+CATEGORY_ARMOR_ARMOR_BODY	دروع
+CATEGORY_ARMOR_ARMOR_GLOVE	قفازات
+CATEGORY_ARMOR_ARMOR_HEAD	خوذ
+CATEGORY_ARMOR_ARMOR_SHIELD	دروع
+CATEGORY_COSTUMES	أزياء
+CATEGORY_COSTUMES_AURA	ملابس الهالة
+CATEGORY_COSTUMES_COSTUME_BODY	أزياء
+CATEGORY_COSTUMES_COSTUME_HAIR	تسريحات
+CATEGORY_COSTUMES_COSTUME_WEAPON	طراز الأسلحة
+CATEGORY_COSTUMES_ETC	غيره
+CATEGORY_COSTUMES_SASH	أوشحة
+CATEGORY_DRAGON_STONE	كيمياء حجر التنين
+CATEGORY_DRAGON_STONE_DEMON	جمشت
+CATEGORY_DRAGON_STONE_DRAGON_DIAMOND	ماس
+CATEGORY_DRAGON_STONE_DRAGON_GARNET	عقيق
+CATEGORY_DRAGON_STONE_DRAGON_JADE	يشم
+CATEGORY_DRAGON_STONE_DRAGON_ONYX	جزع
+CATEGORY_DRAGON_STONE_DRAGON_RUBY	ياقوت
+CATEGORY_DRAGON_STONE_DRAGON_SAPPHIRE	ياقوت أزرق
+CATEGORY_DRAGON_STONE_ETC	غيره
+CATEGORY_EQUIPMENT_ARMOR	دروع وعتاد
+CATEGORY_EQUIPMENT_JEWELRY	حلي
+CATEGORY_EQUIPMENT_WEAPON	أسلحة
+CATEGORY_ETC	غيره
+CATEGORY_ETC_ALL	الكل
+CATEGORY_ETC_ETC	غيره
+CATEGORY_ETC_EVENT	بنود الاحتفالية
+CATEGORY_ETC_GIFTBOX	صناديق | علب
+CATEGORY_ETC_MATRIMORY	عُرس
+CATEGORY_ETC_PARTI	كتب فنون الحرب
+CATEGORY_ETC_POLYMORPH	كرة التحول
+CATEGORY_ETC_RECIPE	خلط الجرعات
+CATEGORY_ETC_SEAL	الربط بالروح
+CATEGORY_FISHING_PICK	صيد السمك | استغلال المناجم
+CATEGORY_FISHING_PICK_EQUIPMENT_PICK	مناكيش
+CATEGORY_FISHING_PICK_ETC	غيره
+CATEGORY_FISHING_PICK_FISHING_POLE	صنارة الصيد
+CATEGORY_FISHING_PICK_FOOD	سمك
+CATEGORY_FISHING_PICK_PICK_BOOK	كتب التعدين
+CATEGORY_FISHING_PICK_STONE	معادن
+CATEGORY_JEWELRY_ARMOR_EAR	حلق
+CATEGORY_JEWELRY_ARMOR_FOOTS	أحذية
+CATEGORY_JEWELRY_ARMOR_NECK	قلائد
+CATEGORY_JEWELRY_ARMOR_PENDANT	تعويذة
+CATEGORY_JEWELRY_ARMOR_WRIST	أساور
+CATEGORY_JEWELRY_ITEM_BELT	أحزمة
+CATEGORY_MOUNT_PET	دواب | رفاق
+CATEGORY_MOUNT_PET_CHARGED_PET	رفاق
+CATEGORY_MOUNT_PET_EGG	بيض الرّفاق
+CATEGORY_MOUNT_PET_FREE_PET	رفاق يمكن تطويرها
+CATEGORY_MOUNT_PET_MOUNT	دواب
+CATEGORY_POTION	جرعات
+CATEGORY_POTION_ABILITY	مواد استهلاكية
+CATEGORY_POTION_ETC	غيره
+CATEGORY_POTION_HAIRDYE	صباغة شعر
+CATEGORY_SKILL	مهارات
+CATEGORY_SKILL_BOOK_OF_OBLIVION	كُتب النسيان
+CATEGORY_SKILL_ETC	غيره
+CATEGORY_SKILL_HORSE_SKILL_BOOK	كتاب مهارات الحصان
+CATEGORY_SKILL_PAHAE	صد | دفع
+CATEGORY_SKILL_SKILL_BOOK	كُتب المهارات
+CATEGORY_SORT_LOWEST_ALL_PRICE	أدنى سعر إجمالي
+CATEGORY_SORT_LOWEST_COUNT	الكمية (من الأقل إلى الأعلى)
+CATEGORY_SORT_LOWEST_PER_PRICE	أدنى سعر للوحدة
+CATEGORY_SORT_MAXIMUN_ALL_PRICE	أعلى سعر إجمالي
+CATEGORY_SORT_MAXIMUN_COUNT	الكمية (من الأعلى إلى الأقل)
+CATEGORY_SORT_MAXIMUN_PER_PRICE	أعلى سعر للوحدة
+CATEGORY_SORT_RECENT	الأحدث
+CATEGORY_TUNING	تحسينات
+CATEGORY_TUNING_ALCHEMY	زيادة فرص النجاح
+CATEGORY_TUNING_ETC	غيره
+CATEGORY_TUNING_RESOURCE	مواد
+CATEGORY_TUNING_STONE	حجر شبحي
+CATEGORY_UNIQUE	بنود خاصة
+CATEGORY_UNIQUE_ABILITY	مواد استهلاكية
+CATEGORY_UNIQUE_ETC	غيره
+CATEGORY_WEAPON_WEAPON_ARROW	أسهم
+CATEGORY_WEAPON_WEAPON_BELL	أجراس
+CATEGORY_WEAPON_WEAPON_BOW	أقواس
+CATEGORY_WEAPON_WEAPON_CLAW	مخالب
+CATEGORY_WEAPON_WEAPON_DAGGER	خناجر
+CATEGORY_WEAPON_WEAPON_FAN	مراوح
+CATEGORY_WEAPON_WEAPON_MOUNT_SPEAR	رماح
+CATEGORY_WEAPON_WEAPON_QUIVER	جعبة السهام
+CATEGORY_WEAPON_WEAPON_SWORD	أسلحة يد واحدة
+CATEGORY_WEAPON_WEAPON_TWO_HANDED	أسلحة يدين
+CHANGE_ALREADY_REGISTER	[تشكيل] تم استعمال هذا الشئ من قبل.
+CHANGE_LOOK_CHANGE_ITEM	هل تريد تشكيل الشئ؟
+CHANGE_LOOK_CHECK_OUT_REGISTER_ITEM	[تشكيل] يرجى أولاً إزالة الشئ الذي تود تشكيله.
+CHANGE_LOOK_COST	ثمن التشكيل: %s يانغ
+CHANGE_LOOK_DEL_ITEM	سيتم تدمير هذا الشيء
+CHANGE_LOOK_DO_NOT_CHANGE_LOOK_ITEM	[تشكيل] لا يمكن عمل تشكيل لهذا الشئ.
+CHANGE_LOOK_DO_NOT_EQUIP_ITEM	[تشكيل] لا يمكنك عمل تشكيل لهذا الشئ أثناء تجهيزه.
+CHANGE_LOOK_DO_NOT_REGISTER_ITEM	[تشكيل] لا يمكن تسجيل هذا الشئ.
+CHANGE_LOOK_DO_NOT_SEAL_ITEM	[تشكيل] هذا الشئ مربوط بالروح.
+CHANGE_LOOK_INSERT_CHANGE_LOOK_ITEM	[تشكيل] يرجى تسجيل الشئ الذي تريد عمل تشكيل له.
+CHANGE_LOOK_INSERT_ITEM	[تشكيل] عليك تسجيل الشئ أولًا
+CHANGE_LOOK_NEED_MONEY	ليس لديك يانغ كافي أو ليس لديك ما يكفي من البنود.
+CHANGE_LOOK_OPEN_OTHER_WINDOW	[تشكيل] لا يتم إتاحة هذه العملية عند فتح نافذة "تشكيل".
+CHANGE_LOOK_TITLE	تشكيل
+CHANGE_LOOK_TITLE2	تحويل-الدواب
+CHANGE_PET_PLEASE_APPEND_FIRST	يجب استدعاء الرفيق أولا.
+CHANGE_TOOLTIP2_LINE1	ضع البند الهدف على اليسار والمواد اللازمة على اليمين.
+CHANGE_TOOLTIP2_LINE2	أنقر علامة الإختيار لإستخدام اليانغ أو علامة التحويل لتغيير شكل الدابة.
+CHANGE_TOOLTIP2_LINE3	علامة التحويل تقوم بتغيير شكل الدابة بدون استهلاك اليانغ. (لقد تم تدمير العلامة)
+CHANGE_TOOLTIP2_LINE4	إذا تم تغيير شكل الدابة بمدة صلاحية، فستستمر مدة الصلاحية الأصلية.
+CHANGE_TOOLTIP2_LINE5	في حال كانت الدابة الهدف دائمة والدابة المستخدمة تحمل مدة صلاحية، ستكون مدة صلاحية التغيير مساوية لمدة صلاحية الدابة المستخدمة.
+CHANGE_TOOLTIP_LINE1	ضع الشئ الذي ينبغي إجراء التشكيل عليه إلى اليسار.
+CHANGE_TOOLTIP_LINE2	ضع الشئ الآخر إلى اليمين.
+CHANGE_TOOLTIP_LINE3	سيتغير شكل الشئ الموجود إلى اليسار، عندما
+CHANGE_TOOLTIP_LINE4	تقوم بتأكيد التشكيل ويتم سحب يانغ من رصيدك.
+CHANGE_TOOLTIP_LINE5	عند استخدامك لهذا الشيء،
+CHANGE_TOOLTIP_LINE6	يمكنك تشكيل بنودك بدون إستخدام اليانغ.
+CHANGE_TOOLTIP_TITLE	تشكيل
+CHANNEL	قناة
+CHANNELING_CANNOT_LOGOUT	لا يمكنك العودة إلى نافذة التسجيل.
+CHANNEL_EMPTY_SERVER	لا وجود لخادم
+CHANNEL_NORMAL	قناة %d
+CHANNEL_NOTIFY_FULL	إن هذه القناة ممتلئة! الرجاء اختيار قناة أخرى.
+CHANNEL_NOT_FIND_INFO	لا توجد هناك معلومات عن هذه القناة.
+CHANNEL_PVP	مبارزة حرة
+CHANNEL_SELECT_CHANNEL	اختر القناة
+CHANNEL_SELECT_REGION	اختر مكان وضع الفاتورة
+CHANNEL_SELECT_SERVER	اختيار الخادم
+CHANNEL_STATUS_BUSY	مشغول
+CHANNEL_STATUS_FULL	مملوء
+CHANNEL_STATUS_OFFLINE	غير معروف
+CHANNEL_STATUS_RECOMMENDED	نوصي بـه
+CHANNEL_STATUS_VACANT	خفيف
+CHANNEL_TEST_SERVER	تجريب الخادم
+CHANNEL_TEST_SERVER_ADDR	اختبار %s:%d
+CHARACTER_CREATE_MODE	إنشاء شخصية
+CHARACTER_NAME	اسم
+CHARACTER_SELECT_MODE	اختيار شخصية
+CHARGE_BEAD_QUESTION	تحتاج إلى: %d نجم روحي. هل ترغب في المتابعة؟
+CHATTING_SETTING_ADD	إضافة علامة تبويب
+CHATTING_SETTING_ADD_MAX	لا يمكنك إضافة المزيد.
+CHATTING_SETTING_CHANGE_TITLE_NAME	هل تريد حفظ الاسم لهذه الدردشة؟
+CHATTING_SETTING_CHANGE_TITLE_NOT	لا يمكن تغيير اسم الدردشة العامة.
+CHATTING_SETTING_CLEAR_QUESTION	إعادة تعيين إلى الافتراضي؟
+CHATTING_SETTING_DEL	إزالة الحقل
+CHATTING_SETTING_LANGUAGE_OFF	إيقاف
+CHATTING_SETTING_LANGUAGE_ON	شغِّل
+CHATTING_SETTING_QUESTION_DESC_1	1. قم بتعيين رسالة لـ الخبرة المستلمة عند قتل الوحوش أو الخبرة المفقودة.
+CHATTING_SETTING_QUESTION_DESC_2	2. قم بتعيين رسالة إسقاط الغنائم واليانغ المكتسب.
+CHATTING_SETTING_RETURN	استرجاع الحقل
+CHATTING_SETTING_SETTING	خيارات
+CHAT_ALL	الجميع
+CHAT_BLOCK	حظر
+CHAT_DICE_INFO	رمية
+CHAT_GUILD	رابطة
+CHAT_INFORMATION	معلومة
+CHAT_INSULT_STRING	الجملة تحتوي على كلمات مُخلة بالأدب.
+CHAT_LOG	إظهار الرسائل القديمة [L]
+CHAT_LOG_TITLE	سِجلُّ الدردشة
+CHAT_NORMAL	عادي
+CHAT_NOTICE	خادم
+CHAT_PARTY	مجموعة
+CHAT_SEND_CHAT	إرسال الدردشة
+CHAT_SEND_MEMO	إرسال همس [Shift+Enter]
+CHAT_SHOUT	نداء
+CHAT_SHOUT_LIMIT	يُمكنك النداء كل 15 ثانية فقط
+CHAT_WHISPER	همس
+CHEQUE_SYSTEM_DO_NOT_DROP_MONEY	لا يمكنك إسقاط المال.
+CHEQUE_SYSTEM_PICK_WON	لقد حصلت على %s وون.
+CHEQUE_SYSTEM_SELL_PRICE	[ثمن البيع]
+CHEQUE_SYSTEM_UNIT_WON	وون
+CHEQUE_SYSTEM_UNIT_YANG	يانغ
+CHEQUE_SYSTEM_WON	%s وون
+CHEQUE_SYSTEM_YANG	%s يانغ
+CHEQUE_USE_WON	تم إنفاق %s وون.
+CLEAR_FLOOR	المستوى
+CLEAR_TIME	الوقت
+CLICK_BEAD_DESCRIPTION	النجم الروحي مطلوب لتتمكن من دخول معبد زودياك. اذهب إلى الناقل في القرية.
+ClosePetChangeWndButton	أغلق
+COMB_ACCE_IS_CONTINUE_PROCESS	هل ترغب في المتابعة؟
+COMB_ACCE_WARNING_MESSAGE	النجاح أو النجاح الجزئي يؤدي الى تدمير الأصل. يمكن لعملية النقل أن تفشل. في حال الفشل أو النجاح الجزئي ستنخفض قيمة الاستيعاب في الهدف.
+COMB_ACCE_WARNING_MESSAGE1	النجاح أو النجاح الجزئي يؤدي الى تدمير الأصل.
+COMB_ACCE_WARNING_MESSAGE2	يمكن لعملية النقل أن تفشل.
+COMB_ACCE_WARNING_MESSAGE3	في حال الفشل أو النجاح الجزئي ستنخفض قيمة الاستيعاب في الهدف.
+COMB_ACCE_WILL_REMOVE_MATERIAL	النجاح أو النجاح الجزئي يؤدي الى تدمير الأصل.
+COMB_ALREADY_APPEND	تم اختيار هذا البند من قبل.
+COMB_CANT_APPEND_ITEM	لا يمكنك استعمال هذا البند.
+COMB_CANT_APPEND_SEALED_ITEM	لا يمكنك استعمال بند مُرتبط بالروح.
+COMB_CANT_BASE_ITEM	لا يمكن لوشاح يحتوي علاوات أن يكون هدفا.
+COMB_CANT_MATCH_DRAINRATE	للقيام بعملية نقل العلاوات على قيمة الأستيعاب أن تكون متطابقة في الطرفين.
+COMB_CANT_MATCH_GRADE	للقيام بعملية نقل العلاوات على المستوى أن يكون متطابقا في الطرفين.
+COMB_CANT_MATERIAL_ITEM	على الوشاح الأصلي أن يحتوي على علاوة على الأقل.
+COMB_COST	السعر: %s
+COMB_IS_CONTINUE_PROCESS	هل ترغب في المتابعة؟
+COMB_NOTICE	لا يمكنك افتتاح متجر خاص، طاما أنك بصدد استبدال الكتب.
+COMB_NOTICE_NOT_OPEN	لا يمكنك استبدال أية كُتب إذا افتحت متجرك الخاص.
+COMB_NOT_ALL_SLOT_APPEND_ITEM	ستحتاج إلى الأصل، الهدف وبند النقل لنقل العلاوات.
+COMB_NOT_FULL_BOOK	لا، غير ممكن. إنني وكما سبق الذكر لن استبدل معك إلاّ إذا أحضرت لي 10 كتب.
+COMB_NOT_ITEM_IN_INVENTORY	لا يمكنك استعمال بنود مُزوّدة.
+COMB_NOT_MEDIUM_ITEM	لا يمكنك استعمال هذا البند.
+COMB_WILL_REMOVE_MATERIAL	سيتم تدمير الأصل عند نجاح العملية.
+CREATE_ERROR_GM_NAME	لا يسمح باستخدام حروف ’’GM’’ (سيد اللعبة) في اسم اللاعب.
+CREATE_ERROR_INSULT_NAME	الاسم غير صالح.
+CREATE_ERROR_LIMIT_LEVEL	يجب أن لا يقل مستوى شخصيتك عن 80.
+CREATE_ERROR_TIME_LIMIT	لا يمكنك إنشاء شخصية إضافية إلّا بعد 30 ثانية.
+CREATE_ERROR_WRONG_STRING	ممنوع استخدام اسم الشخصية هذا.
+CREATE_EXIST_SAME_NAME	هناك شخصية أخرى تحمل هذا الاسم.
+CREATE_FAILURE	لا يمكنك إنشاء هذه الشخصية.
+CREATE_FULL	لا يمكنك إنشاء شخصية إضافية.
+CREATE_GM_NAME	مشرف اللعبة
+CREATE_INPUT_NAME	ضع اسمك.
+CREATE_PLUS_STAT	ما تزال نقاط الوضع مُتاحة.
+CUBE_ALCHEMY_BANN_SIGN	لا يمكنك فعل ذلك الآن.
+CUBE_CATEGORY_ACCESSORY	حلي
+CUBE_CATEGORY_ALCHEMY	حجر الصقل
+CUBE_CATEGORY_ARMOR	دروع
+CUBE_CATEGORY_ARMOR_GLOVE	قفازات
+CUBE_CATEGORY_BELT	أحزمة
+CUBE_CATEGORY_ETC	الخ.
+CUBE_CATEGORY_EVENT	احتفالية
+CUBE_CATEGORY_JOB	طبقة
+CUBE_CATEGORY_MAP	خرائط كاملة
+CUBE_CATEGORY_PET	رفيق
+CUBE_CATEGORY_SETADD_ARMOR	إنشاء طقم الدرع
+CUBE_CATEGORY_SETADD_HELMET	إنشاء طقم الخوذة
+CUBE_CATEGORY_SETADD_WEAPON	إنشاء طقم السلاح
+CUBE_CATEGORY_WEAPON	سلاح
+CUBE_CATEGOR_SKILL_BOOK	كتاب المهارات
+CUBE_DO_NOT_SAME_ALCHEMY_KINDS	الرجاء استخدام حجر صقل من النوع المناسب
+CUBE_FAIL	لقد فشلت عملية الصقل.
+CUBE_LIST_TEXT_ITEM_INFO	%sح (%d%%)
+CUBE_LIST_TEXT_MAKE_QUANTITY	[%d]
+CUBE_MAKE_CONFIRM_QUESTION_1	هناك بند واحد مستخدم على الأقل ذو قيمة مرتفعة (يحتوي على أكثر من %d علاوة).
+CUBE_MAKE_CONFIRM_QUESTION_2	هل تريد ذلك فعلاً؟
+CUBE_NOT_ENOUGHT_ALCHEMY_COUNT	ليس لديك %s، لذا لا يمكنك صقل هذا الآن.
+CUBE_NOT_ENOUGH_GEM	ليس لديك مايكفي من الغايا.
+CUBE_NOT_ENOUGH_GOLD	لا تمتلك ما يكفي من يانغ.
+CUBE_NOT_ENOUGH_MATERIAL	لا تمتلك ما يكفي من مواد.
+CUBE_PLEASE_SELECT	لم يتم اختيار أي بنود.
+CUBE_SELECT_ITEM_FIRST	حدد أولاً بندا لصقله.
+CUBE_TOOLTIP_PASSIVE_JOB_LEFT_TIME	الوقت المتبقي: {0} ~ {1} ساعات
+CUBE_USING_ALCHEMY_INFO	تم استخدام %s لصناعة (%d قطعة)
+CZ_REWARD_QUESTION_COMPLETE	هل تود تحويله؟
+CZ_REWARD_TOOLTIP_10GAN	وسام زودياك
+CZ_REWARD_TOOLTIP_10GAN_COUNT	العدد في قائمة الجرد
+CZ_REWARD_TOOLTIP_10GAN_NEED_COUNT	العدد المطلوب
+CZ_REWARD_TOOLTIP_12ZI	وسام الحارس
+CZ_REWARD_TOOLTIP_12ZI_COUNT	العدد في قائمة الجرد
+CZ_REWARD_TOOLTIP_12ZI_NEED_COUNT	العدد المطلوب
+CZ_REWARD_TOOLTIP_ALL_BOX	كنز نجمي
+CZ_REWARD_TOOLTIP_CAN_GET_ALL_BOX	انقر هنا لتحصل على الكنز النجمي كمكافئة.
+CZ_REWARD_TOOLTIP_CAN_GET_GREEN_BOX	انقر هنا لتحصل على كنز افينتورين كمكافئة.
+CZ_REWARD_TOOLTIP_CAN_GET_YELLOW_BOX	انقر هنا لتحصل على كنز أوريُولين كمكافئة.
+CZ_REWARD_TOOLTIP_COMPLETABLE	تحويل
+CZ_REWARD_TOOLTIP_GREEN_BOX	كنز افينتورين
+CZ_REWARD_TOOLTIP_GREEN_BOX_COMP_CNT	حصلت على: %d كنز أوريُولين
+CZ_REWARD_TOOLTIP_WEEKLY	يوم
+CZ_REWARD_TOOLTIP_WEEKLY_FRI	الجمعة
+CZ_REWARD_TOOLTIP_WEEKLY_MON	الاثنين
+CZ_REWARD_TOOLTIP_WEEKLY_SAT	السبت
+CZ_REWARD_TOOLTIP_WEEKLY_SAT_SUN	السبت/الأحد
+CZ_REWARD_TOOLTIP_WEEKLY_THU	الخميس
+CZ_REWARD_TOOLTIP_WEEKLY_TUE	الثلاثاء
+CZ_REWARD_TOOLTIP_WEEKLY_WED	الأربعاء
+CZ_REWARD_TOOLTIP_YELLOW_BOX	كنز أوريُولين
+CZ_REWARD_TOOLTIP_YELLOW_BOX_COMP_CNT	حصلت على: %d كنز أوريُولين
+DAY	ي
+DETAILS_0	قوي ضد الماتين
+DETAILS_1	قوي ضد نصف البشر
+DETAILS_2	مقاومة نصف البشر
+DETAILS_3	قوي ضد الغيلان
+DETAILS_4	قوي ضد الزومبي
+DETAILS_5	قوي ضد الوحوش
+DETAILS_6	قوي ضد وحوش زودياك
+DETAILS_7	قوي ضد الحيوانات
+DETAILS_8	ق.ض. الطائفة السرية
+DETAILS_9	قوي ضد الشيطان
+DETAILS_10	قوي ضد وحوش الصحراء
+DETAILS_11	قوي ضد الحشرات
+DETAILS_12	قيمة الهجوم
+DETAILS_13	قيمة الدفاع
+DETAILS_14	معدل الضرر
+DETAILS_15	مقاومة معدل الضرر
+DETAILS_16	أضرار المهارة
+DETAILS_17	مقاومة المهارة.
+DETAILS_18	هجوم سحري/جسدي
+DETAILS_19	هجوم سحري
+DETAILS_20	فرصة الضربة الحرجة
+DETAILS_21	ضربة خارقة
+DETAILS_22	م. الضربات الحرجة
+DETAILS_23	م. الضربات الخارقة
+DETAILS_24	مقاومة البرق
+DETAILS_25	مقاومة الثلج
+DETAILS_26	مقاومة الظلام
+DETAILS_27	مقاومة النار
+DETAILS_28	مقاومة الرياح
+DETAILS_29	مقاومة الأرض
+DETAILS_30	قوة البرق
+DETAILS_31	قوة الجليد
+DETAILS_32	قوة الظلام
+DETAILS_33	قوة النار
+DETAILS_34	قوة الرياح
+DETAILS_35	قوة الأرض
+DETAILS_36	قوي ضد المحارب
+DETAILS_37	قوي ضد النينجا
+DETAILS_38	قوي ضد السورا
+DETAILS_39	قوي ضد الشامان
+DETAILS_40	قوي ضد الليكانر
+DETAILS_41	دفاع ضد المحارب
+DETAILS_42	دفاع ضد النينجا
+DETAILS_43	دفاع ضد السورا
+DETAILS_44	دفاع ضد الشامان
+DETAILS_45	دفاع ضد الليكانر
+DETAILS_46	الدفاع السيفي
+DETAILS_47	دفاع سيف اليدين
+DETAILS_48	دفاع خنجري
+DETAILS_49	دفاع مخلبي
+DETAILS_50	دفاع جرسي
+DETAILS_51	دفاع مروحي
+DETAILS_52	مقاومة السهم
+DETAILS_53	فُرص الإغماء
+DETAILS_54	فرص التبطيء
+DETAILS_55	فرصة التسمم
+DETAILS_56	مقاومة السموم
+DETAILS_57	هجوم مُنزف
+DETAILS_58	م. الهجوم المُنزف
+DETAILS_59	سرقة نقاط الحياة
+DETAILS_60	سرقة نقاط الأسلوب
+DETAILS_61	إستعادة نقاط الحياة
+DETAILS_62	إستعادة نقاط الأسلوب
+DETAILS_63	صد الهجوم الجسدي
+DETAILS_64	تفادي الهجوم السهمي
+DETAILS_65	عكس الهجوم الجسدي
+DETAILS_66	إ.ن.ح عند القتل
+DETAILS_67	إ.ن.أ عند القتل
+DETAILS_68	مضاعفة الخبرة EXP
+DETAILS_69	مضاعفة اليانغ
+DETAILS_70	فرصة الإسقاط
+DETAILS_71	قيمة الهجوم
+DETAILS_72	دفاع
+DETAILS_73	خبرة EXP
+DETAILS_74	فرصة الإسقاط
+DETAILS_75	مضاعفة اليانغ
+DETAILS_76	مقاومة السحر
+DETAILS_77	كسر السّحر
+DETAILS_78	مقاومة الوحوش
+DETAILS_79	علاوة الهجوم السحري
+DETAILS_ATTBONUS_BELL	كسر الجرس
+DETAILS_ATTBONUS_BOW	كسر السهم
+DETAILS_ATTBONUS_CLAW	كسر المخلب
+DETAILS_ATTBONUS_DAGGER	كسر الخنجر
+DETAILS_ATTBONUS_FAN	كسر المروحة
+DETAILS_ATTBONUS_SWORD	كسر السيف
+DETAILS_ATTBONUS_TWOHAND	كسر سيف اليدين
+DETAILS_CATE_1	ضرر/دفاع
+DETAILS_CATE_2	علاوات العناصر
+DETAILS_CATE_3	علاوات الطبقات
+DETAILS_CATE_4	علاوات السلاح
+DETAILS_CATE_5	علاوات أخرى
+DETAILS_CATE_6	علاوات خاصة
+DETAILS_HIT_PCT	الدقة
+DETAILS_RESIST_MOUNT_FALL	مقاومة السقوط
+DETAILS_TITLE	التفاصيل
+DETAILS_TOOLTIP_0	قوي ضد أحجار الماتين: يسبب ضررا اكبر على أحجار الماتين.
+DETAILS_TOOLTIP_1	قوي ضد نصف البشر: تلحق ضرر أكبر بنصف البشر.
+DETAILS_TOOLTIP_2	مقاومة نصف البشر: يقلل من الضرر الذي تتعرض له عند مهاجمتك من نصف البشر.
+DETAILS_TOOLTIP_3	قوي ضد الغيلان: يرفع من قيمة الضر ضد الغيلان.
+DETAILS_TOOLTIP_4	قوي ضد الزومبي: يرفع من قيمة الضر ضد الزومبي.
+DETAILS_TOOLTIP_5	قوي ضد الوحوش: يرفع من قيمة الضر ضد الوحوش.
+DETAILS_TOOLTIP_6	قوي ضد وحوش زودياك: يرفع من الضرر المتسبب ضد وحوش زودياك
+DETAILS_TOOLTIP_7	قوي ضد الحيوانات: يرفع من قيمة الضر ضد الحيوانات.
+DETAILS_TOOLTIP_8	قوي ضد الطائفة السرية: يرفع من قيمة الضر ضد الطائفة السرية.
+DETAILS_TOOLTIP_9	قوي ضد الشيطان: يرفع من قيمة الضر ضد الشياطين.
+DETAILS_TOOLTIP_10	قوي ضد وحوش الصحراء: يسبب ضررا أكبر ضد وحوش الصحراء.
+DETAILS_TOOLTIP_11	قوي ضد الحشرات: يسبب ضررا أكبر ضد الحشرات
+DETAILS_TOOLTIP_12	يرفع قيمة الهجوم الخاصة بك.
+DETAILS_TOOLTIP_13	يرفع من قيمة الدفاع الخاصة بك.
+DETAILS_TOOLTIP_14	يرفع من قيمة معدل الضرر الذي تسببه أثناء الهجوم.
+DETAILS_TOOLTIP_15	مقاومة معدل الضرر: يقلل من قيمة معدل الضرر الذي تتعرض له أثناء الهجوم.
+DETAILS_TOOLTIP_16	يرفع من قيمة أضرار المهارة.
+DETAILS_TOOLTIP_17	مقاومة أضرار المهارة: يقلل من قيمة أضرار المهارة التي تتعرض لها عند الهجوم.
+DETAILS_TOOLTIP_18	يرفع من قيمة الهجوم الجسدي والسحري.
+DETAILS_TOOLTIP_19	يرفع من قيمة الضرر الذي تلحقه لخصومك عند إستخدام هجوم سحري.
+DETAILS_TOOLTIP_20	يرفع من فرص تحقيق إصابة حرجة.
+DETAILS_TOOLTIP_21	فرصة تحقيق ضربة خارقة: يرفع من فرص تحقيق ضربة خارقة.
+DETAILS_TOOLTIP_22	مقاومة الإصابة الحرجة: يقلل من الضرر الذي تتعرض له عند تعرضك لإصابة حرجة.
+DETAILS_TOOLTIP_23	مقاومة الضربة الخارقة: يقلل من الضرر الذي تتعرض له عند إصابتك بضربة خارقة.
+DETAILS_TOOLTIP_24	يقلل من الضرر الذي تتسبب به وحوش معينة.
+DETAILS_TOOLTIP_25	يقلل من الضرر الذي تتسبب به وحوش معينة.
+DETAILS_TOOLTIP_26	مقاومة الظلام: يقلل من الضرر الذي تتسبب به وحوش معينة.
+DETAILS_TOOLTIP_27	يقلل من الضرر الذي تتسبب به وحوش معينة.
+DETAILS_TOOLTIP_28	يقلل من الضرر الذي تتسبب به وحوش معينة.
+DETAILS_TOOLTIP_29	يقلل من الضرر الذي تتسبب به وحوش معينة.
+DETAILS_TOOLTIP_30	يرفع من الضرر الذي تسببه بقوة الضوء.
+DETAILS_TOOLTIP_31	يرفع من الضرر الذي تسببه بقوة الجليد.
+DETAILS_TOOLTIP_32	يرفع من الضرر الذي تسببه بقوة الظلام.
+DETAILS_TOOLTIP_33	يرفع من الضرر الذي تسببه بقوة النار.
+DETAILS_TOOLTIP_34	يرفع من الضرر الذي تسببه بقوة الرياح.
+DETAILS_TOOLTIP_35	يرفع من الضرر الذي تسببه بقوة الأرض.
+DETAILS_TOOLTIP_36	قوي ضد المحارب: يرفع من قيمة الضر ضد المحاربين.
+DETAILS_TOOLTIP_37	قوي ضد النينجا: يرفع من قيمة الضر ضد النينجا.
+DETAILS_TOOLTIP_38	قوي ضد السورا: يرفع من قيمة الضر ضد السورا.
+DETAILS_TOOLTIP_39	قوي ضد الشامان: يرفع من قيمة الضر ضد الشامان.
+DETAILS_TOOLTIP_40	قوي ضد الليكانر: يرفع من قيمة الضر ضد الليكانر.
+DETAILS_TOOLTIP_41	مقاومة هجمات المحارب: يقلل من الضرر الذي يسببه هجوم المحارب.
+DETAILS_TOOLTIP_42	مقاومة هجمات نينجا: يقلل من الضرر الذي يسببه هجوم النينجا.
+DETAILS_TOOLTIP_43	مقاومة هجمات السورا: يقلل من الضرر الذي يسببه هجوم السورا.
+DETAILS_TOOLTIP_44	مقاومة هجمات الشامان: يقلل من الضرر الذي يسببه هجوم الشامان.
+DETAILS_TOOLTIP_45	مقاومة هجمات الليكانر: يقلل من الضرر الذي يسببه هجوم الليكانر.
+DETAILS_TOOLTIP_46	يقلل من الضرر الذي يسببه السيف.
+DETAILS_TOOLTIP_47	يقلل من الضرر الذي يسببه سيف اليدين.
+DETAILS_TOOLTIP_48	يقلل من الضرر الذي يسببه الخنجر.
+DETAILS_TOOLTIP_49	يقلل من الضرر الذي يسببه المخلب.
+DETAILS_TOOLTIP_50	يقلل من الضرر الذي يسببه الجرس.
+DETAILS_TOOLTIP_51	يقلل من الضرر الذي تسببه المروحة.
+DETAILS_TOOLTIP_52	يقلل من الضرر الذي يسببه القوس.
+DETAILS_TOOLTIP_53	يرفع من فرص التسبب بإغماء للخصم.
+DETAILS_TOOLTIP_54	يرفع من فرص التسبب بإبطاء للخصم.
+DETAILS_TOOLTIP_55	يرفع من فرص التسبب بتسمم للخصم.
+DETAILS_TOOLTIP_56	يقلل من الضرر الذي يسببه السم.
+DETAILS_TOOLTIP_57	يرفع من فرص تحقيق هجوم مُنزف.
+DETAILS_TOOLTIP_58	مقاومة الهجوم المنزف: يقلل من الضرر الذي يسببه الهجوم المنزف.
+DETAILS_TOOLTIP_59	سرقة نقاط الحياة من خصمك عند قيامك بضربه.
+DETAILS_TOOLTIP_60	سرقة نقاط الأسلوب من خصمك عند قيامك بضربه.
+DETAILS_TOOLTIP_61	يرفع من سرعة إستعادة نقاط الحياة.
+DETAILS_TOOLTIP_62	يرفع من سرعة إستعادة نقاط الأسلوب.
+DETAILS_TOOLTIP_63	فرصة صَد الهجوم عن قرب: ترفع من فرصة صد الهجوم عن قرب.
+DETAILS_TOOLTIP_64	فرص تفادي الهجوم بالسهام: ترفع من فرص تفادي هجوم بالسهام من الوحوش.
+DETAILS_TOOLTIP_65	فرصُ عكس ضربات الهجمات عن قرب: ترفع من فرص عكس ضربات الهجمات عن قرب إلى الخصم.
+DETAILS_TOOLTIP_66	إستعادة نقاط الحياة أثناء القتال: عند قيامك بقتل الخصم، فإن نقاط حياتك تزداد.
+DETAILS_TOOLTIP_67	إستعادة نقاط الأسلوب أثناء القتال: عند قيامك بقتل الخصم، فإن نقاط أسلوبك تزداد.
+DETAILS_TOOLTIP_68	فرصة مضاعفة الخبرة EXP: ترفع من فرصة الحصول على علاوة خبرة مضاعفة عند قيامك بقتل الخصم.
+DETAILS_TOOLTIP_69	فرصة إسقاط ضعف كمية اليانغ: ترفع من فرصة الحصول على ضعف كمية اليانغ عند قيامك بقتل الخصم.
+DETAILS_TOOLTIP_70	فرصة إسقاط الأدوات: ترفع من فرصة الحصول على أدوات مضاعفة عند قيامك بقتل الخصم.
+DETAILS_TOOLTIP_71	يرفع قيمة الهجوم الخاصة بك.
+DETAILS_TOOLTIP_72	يرفع من قيمة الدفاع الخاصة بك.
+DETAILS_TOOLTIP_73	يرفع من جمع نقاط الخبرة.
+DETAILS_TOOLTIP_74	فرص إسقاط الأشياء: ترفع من فرص سلب الأشياء.
+DETAILS_TOOLTIP_75	فرص إسقاط اليانغ: ترفع من فرص الحصول على يانغ مضاعف.
+DETAILS_TOOLTIP_76	يقلل من الضرر الذي يلحقه الخصم عند تعرضك لهجوم سحري.
+DETAILS_TOOLTIP_77	يقلل من مقاومة السحر لدى خصومك.
+DETAILS_TOOLTIP_78	يتم تقليل الضرر المتسبب من الوحوش.
+DETAILS_TOOLTIP_79	تزيد من قيمة الهجوم السحري.
+DETAILS_TOOLTIP_ATTBONUS_BELL	كسر دفاع الجرس: يقلل من الدفاع الجرسي لدى خصمك.
+DETAILS_TOOLTIP_ATTBONUS_BOW	كسر دفاع السهم: يقلل من مقاومة السهام لدى خصمك
+DETAILS_TOOLTIP_ATTBONUS_CLAW	كسر دفاع المخلب: يقلل من الدفاع المخلبي لدى خصمك.
+DETAILS_TOOLTIP_ATTBONUS_DAGGER	كسر دفاع الخنجر: يقلل من الدفاع الخنجري لدى خصمك.
+DETAILS_TOOLTIP_ATTBONUS_FAN	كسر دفاع المروحة: يقلل من الدفاع المروحي لدى خصمك.
+DETAILS_TOOLTIP_ATTBONUS_SWORD	كسر دفاع السيف: يقلل من الدفاع السيفي لدى خصمك.
+DETAILS_TOOLTIP_ATTBONUS_TWOHAND	كسر دفاع سيف اليدين: يقلل من دفاع سيف اليدين لدى خصمك.
+DETAILS_TOOLTIP_HIT_PCT	يرفع من فرص إصابة الخصم
+DETAILS_TOOLTIP_RESIST_MOUNT_FALL	مقاومة السقوط: تقلل من فرص سقوطك من على ظهر دابتك.
+DONT_USE_ITEM_WHEN_SHOW_CONFIRM	لا يمكنك أثناء الاستفسار تحريك البنود.
+DO_NOT_INSERT_UPBRINGING_PET	لا يمكن اختيار الرفيق المفعل.
+DO_YOU_BUY_ITEM1	هل ترغب في شراء %s مقابل %s يانغ؟
+DO_YOU_BUY_ITEM2	هل ترغب في شراء %s (%s قطعة) مقابل %s يانغ؟
+DO_YOU_BUY_ITEM3	هل ترغب في شراء %s مقابل %s وون و %s يانغ؟
+DO_YOU_BUY_ITEM4	هل ترغب في شراء %s (%s قسيمة) مقابل %s وون و %s يانغ؟
+DO_YOU_BUY_ITEM_SECONDARY_COIN_1	هل ترغب في شراء %s مقابل %s؟
+DO_YOU_BUY_ITEM_SECONDARY_COIN_2	هل ترغب في شراء %s (%s قطعة) مقابل %s؟
+DO_YOU_DROP_MONEY	هل تريد إسقاط %d يانغ؟
+DO_YOU_SELL_ITEM1	هل ترغب في بيع %s مقابل %s يانغ؟
+DO_YOU_SELL_ITEM2	هل ترغب في بيع %s (%s قطعة) مقابل %s يانغ؟
+DRAGON_GATE_AUTO_REINFORCE_QUESTION	
+DRAGON_GATE_CLEAR	
+DRAGON_GATE_CLEAR_NOT_ENOUGH_MAX_REINFORCE	
+DRAGON_GATE_CLEAR_QUESTION	
+DRAGON_GATE_CLEAR_SELECT	
+DRAGON_GATE_CLEAR_TOOLTIP	
+DRAGON_GATE_DEFENSE	
+DRAGON_GATE_ENCHANT_DARK	
+DRAGON_GATE_ENCHANT_EARTH	
+DRAGON_GATE_ENCHANT_ELECTRIC	
+DRAGON_GATE_ENCHANT_FIRE	
+DRAGON_GATE_ENCHANT_ICE	
+DRAGON_GATE_ENCHANT_WIND	
+DRAGON_GATE_EXPERIENCE	
+DRAGON_GATE_HEALTH	
+DRAGON_GATE_ITEM_CLEAR	
+DRAGON_GATE_ITEM_CLEAR_QUESTION	
+DRAGON_GATE_MARK	
+DRAGON_GATE_MASTER_STEP_CHECK	
+DRAGON_GATE_MY_POINT_TOOLTIP	
+DRAGON_GATE_NEED_POINT_TOOLTIP	
+DRAGON_GATE_PAEWANG	
+DRAGON_GATE_POINT_CLEAR	
+DRAGON_GATE_POINT_CLEAR_NOT_ENOUGH_POINT	
+DRAGON_GATE_POINT_CLEAR_QUESTION	
+DRAGON_GATE_POWER	
+DRAGON_GATE_REINFORCE_APPLY_DEFAULT_TOOLTIP	
+DRAGON_GATE_REINFORCE_BONUS	
+DRAGON_GATE_REINFORCE_BONUS_APPLY	
+DRAGON_GATE_REINFORCE_COUNT_TOOLTIP	
+DRAGON_GATE_REINFORCE_MAX	
+DRAGON_GATE_REINFORCE_NOT_BONUS_APPLY	
+DRAGON_GATE_REINFORCE_NOT_BONUS_APPLY2	
+DRAGON_GATE_REINFORCE_NOT_ENOUGH_POINT	
+DRAGON_GATE_REINFORCE_QUESTION	
+DRAGON_GATE_REINFORCE_RESULT	
+DRAGON_GATE_REINFORCE_TOOLTIP	
+DRAGON_GATE_REINFORCE_TOOLTIP_LINE1	
+DRAGON_GATE_REINFORCE_TOOLTIP_LINE2	
+DRAGON_GATE_REINFORCE_TOOLTIP_TITLE	
+DRAGON_GATE_RESIST_DARK	
+DRAGON_GATE_RESIST_EARTH	
+DRAGON_GATE_RESIST_ELECTRIC	
+DRAGON_GATE_RESIST_FIRE	
+DRAGON_GATE_RESIST_ICE	
+DRAGON_GATE_RESIST_WIND	
+DRAGON_GATE_STEP_CLEAR_INITIALIZE_FIRST	
+DRAGON_GATE_STEP_CLEAR_QUESTION_1	
+DRAGON_GATE_STEP_CLEAR_QUESTION_2	
+DRAGON_GATE_STEP_CLEAR_TOOLTIP	
+DRAGON_GATE_STEP_CLEAR_WARNING_QUESTION_1	
+DRAGON_GATE_STEP_CLEAR_WARNING_QUESTION_2	
+DRAGON_GATE_STEP_UPGRADE_NOT_ENOUGH_POINT	
+DRAGON_GATE_STEP_UPGRADE_QUESTION_1	
+DRAGON_GATE_STEP_UPGRADE_QUESTION_2	
+DRAGON_GATE_STEP_UPGRADE_TOOLTIP	
+DRAGON_GATE_SUNGMA_HP	
+DRAGON_GATE_SUNGMA_IMMUNE	
+DRAGON_GATE_SUNGMA_MOVE	
+DRAGON_GATE_SUNGMA_STR	
+DRAGON_GATE_TOOLTIP_LINE1	
+DRAGON_GATE_TOOLTIP_LINE2	
+DRAGON_GATE_TOOLTIP_LINE3	
+DRAGON_GATE_TOOLTIP_LINE4	
+DRAGON_GATE_TOOLTIP_LINE5	
+DRAGON_GATE_TOOLTIP_LINE6	
+DRAGON_GATE_TOOLTIP_LINE7	
+DRAGON_GATE_TOOLTIP_LINE8	
+DRAGON_GATE_TOOLTIP_LINE9	
+DRAGON_GATE_TOOLTIP_LINE10	
+DRAGON_GATE_TOOLTIP_LINE11	
+DRAGON_GATE_TOOLTIP_NOT_ENOUGH_REINFORCE	
+DRAGON_GATE_TOOLTIP_TITLE	
+DRAGON_GATE_TUGWI	
+DRAGON_SOUL_CANNOT_REFINE	لا يمكنك صقل حجر التنين هذا.
+DRAGON_SOUL_CANNOT_REFINE_MORE	لقد وصل حجر التنين هذا أعلى مستوى يُمكن وصوله.
+DRAGON_SOUL_EQUIP_WARNING1	إن حذف حجر التنين من جديد في غاية الصعوبة.
+DRAGON_SOUL_EQUIP_WARNING2	هل ترغب رغم ذلك في الاستمرار؟
+DRAGON_SOUL_EXPIRED	حجر تنين مُنتهي الصلاحية
+DRAGON_SOUL_INVALID_DRAGON_SOUL	إنه ليس حجر التنين الحقيقي.
+DRAGON_SOUL_IS_NOT_DRAGON_SOUL	إنه ليس بحجر تنين.
+DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	إن هذا ليس هو حجر التنين الحقيقي.
+DRAGON_SOUL_NOT_ENOUGH_MATERIAL	إنك لا تملك ما يكفي من المواد لتنفيذ عملية الصقل.
+DRAGON_SOUL_NOT_ENOUGH_MATERIAL2	من أجل %s\n ستحتاج إلى: %s %dx
+DRAGON_SOUL_NOT_ENOUGH_MONEY	أنت لا تمتلك ما يكفي من اليانغ لتحويل العلاوة.
+DRAGON_SOUL_NOT_MATCHED_SLOT	إن حجر التنين لا يُناسب هذه الفتحة.
+DRAGON_SOUL_SEAL_CANNOT_CHANGE_ATTR	لا يمكن تغيير البنود المرتبطة بالأرواح.
+DRAGON_SOUL_SEAL_CANNOT_EQUIP	لا يمكن تجهيز حجر التنين المرتبط بالأرواح.
+DRAGON_SOUL_SEAL_CANNOT_EXTRACT	لا يمكنك تطبيق هذا على أحجار التنين المربوطة بالروح.
+DRAGON_SOUL_SEAL_CANNOT_REFINE	لا يمكن تحسين البنود المرتبطة بالأرواح.
+DRAGON_SOUL_SEAL_CANNOT_UN_EQUIP	لا يمكن رمي حجر التنين المرتبط بالأرواح.
+DRAGON_SOUL_STEP_LEVEL1	صفاء: لامس،
+DRAGON_SOUL_STEP_LEVEL2	صفاء: خالص،
+DRAGON_SOUL_STEP_LEVEL3	صفاء: ناصع،
+DRAGON_SOUL_STEP_LEVEL4	صفاء: لامع،
+DRAGON_SOUL_STEP_LEVEL5	صفاء: ممتاز،
+DRAGON_SOUL_STRENGTH	المستوى: +%d	SA
+DRAGON_SOUL_UNEQUIP_WARNING1	قد يُدمّر حجر التنين أثناءها.
+DRAGON_SOUL_UNEQUIP_WARNING2	هل ترغب رغم ذلك في الاستمرار؟
+DRAGON_SOUL_UNMATCHED_SLOT	إنها ليست الفتحة الصحيحة.
+DRAGON_SOUL_UNQUALIFIED	لا يمكنك استعمال كيمياء حجر التنين بعد.
+DROP_ITEM_FAILURE_EQUIP_ITEM	لا تستطيع إسقاط الأشياء المجهزة.
+DROP_ITEM_FAILURE_PRIVATE_SHOP	لا يمكنك إسقاط أي شيء، طالما أنك تملك متجراً شخصياً.
+DROP_MONEY_FAILURE_1000_OVER	لا يمكنك إسقاط أكثر من 999 يانغ.
+DS_SYSTEM_MSG_1	انت بحاجة إلى %s %d مرات.
+DUTCH_AUCTION_CLOSE_OTHER_WINDOW	يرجى اغلاق جميع النوافذ قبل فتح نافذة المزاد السريع.
+ELEMENT_BUFF_DARK_TOOLTIP	يمكنك أن تسبب ضررًا إضافيًا وأنت تحت تأثير زهرة قوة الظلام.
+ELEMENT_BUFF_EARTH_TOOLTIP	يمكنك أن تسبب ضررًا إضافيًا وأنت تحت تأثير زهرة قوة الأرض.
+ELEMENT_BUFF_ELECT_TOOLTIP	يمكنك أن تسبب ضررًا إضافيًا وأنت تحت تأثير زهرة قوة البرق.
+ELEMENT_BUFF_FIRE_TOOLTIP	يمكنك أن تسبب ضررًا إضافيًا وأنت تحت تأثير زهرة قوة النار.
+ELEMENT_BUFF_ICE_TOOLTIP	يمكنك أن تسبب ضررًا إضافيًا وأنت تحت تأثير زهرة قوة الجليد.
+ELEMENT_BUFF_NONE_TOOLTIP	يمكنك أن تسبب ضررًا إضافيًا وأنت تحت تأثير زهرة قوة الطاقة.
+ELEMENT_BUFF_WIND_TOOLTIP	يمكنك أن تسبب ضررًا إضافيًا وأنت تحت تأثير زهرة قوة الرياح.
+EMOTION_ALCOHOL	سخيف!
+EMOTION_ANGRY	مُغضب
+EMOTION_ATTRACTIVE	إغراء
+EMOTION_BANTER	هازئ
+EMOTION_BUSY	إنشغال
+EMOTION_CALL	مكالمة هاتفية
+EMOTION_CELEBRATION	احتفال
+EMOTION_CHARGING	إعادة شحن
+EMOTION_CHEERS_1	تهليل 1
+EMOTION_CHEERS_2	تهليل 2
+EMOTION_CHEERUP	تهليل
+EMOTION_CHOOSE_ONE	اختر هدفاً ما.
+EMOTION_CLAP	تصفيق
+EMOTION_CLAP_KISS	قبلة
+EMOTION_CONGRATULATION	القبول
+EMOTION_DANCE_1	رقصة 1
+EMOTION_DANCE_2	الرقصة 2
+EMOTION_DANCE_3	رقصة 3
+EMOTION_DANCE_4	الرقصة 4
+EMOTION_DANCE_5	الرقصة 5
+EMOTION_DANCE_6	Gumsan Style
+EMOTION_DANCE_7	سامبا
+EMOTION_DOZE	نعاس
+EMOTION_EXERCISE	تمرين
+EMOTION_FORGIVE	السماح
+EMOTION_FRENCH_KISS	قبلة حارة
+EMOTION_HUNGRY	جائع
+EMOTION_JOY	فرح
+EMOTION_LETTER	رسالة حب
+EMOTION_NOSAY	عاجز عن الكلام
+EMOTION_PUSH_UP	تمرين رفع
+EMOTION_SAD	حزين
+EMOTION_SELFIE	سيلفي
+EMOTION_SHY	رفض
+EMOTION_SIREN	إنذار
+EMOTION_SLAP	ضربة
+EMOTION_SMH	برج جحيم سونغ ماهي
+EMOTION_WEATHER_1	شمس
+EMOTION_WEATHER_2	قوس قزح
+EMOTION_WEATHER_3	قمر
+EMOTION_WHIRL	مرتبك
+EMPIRE_A	امبراطورية الشينسو
+EMPIRE_B	امبراطورية الشونجو
+EMPIRE_C	امبراطورية الجينو
+EMPIRE_SELECT_MODE	اختيار إمبراطورية
+EQUIPMENT_ADDITIONAL_PAGE_ACTIVE	تم تنشيط صفحة العتاد الإضافية. يمكنك العثور عليها في نافذة العتاد.
+EQUIPMENT_ALREADY_USE_ITEM	لا يمكنك إستخدامها مجددا.
+EQUIPMENT_CANNOT_ADDITIONAL_EQUIPMENT_PAGE	لا يمكنك تبديل العتاد الجانبي أثناء انشغالك بشيء آخر.
+EQUIPMENT_CANNOT_ADDITIONAL_EQUIPMENT_PAGE_ITEM	لا يمكنك تغيير العتاد الجانبي عندما يكون لديك بند غير صحيح مجهز.
+EQUIPMENT_CHANGE_PAGE_COOLTIME_FAIL	يرجى المحاولة مرة أخرى بعد دقيقة.
+EQUIPMENT_CHANGE_PAGE_SUCCESS	تم تغيير العتاد الجانبي.
+EQUIPMENT_TITLE_NAME	نافذة العتاد
+EXCHANGE_CANNOT_GIVE	لا يمكن المتاجرة بهذا الشيء.
+EXCHANGE_CANT_EDIT_MONEY	لا يمكنك تغير المبلغ الآن.
+EXCHANGE_FAILURE_EQUIP_ITEM	لا يُمكنك استبدال المعدات المدججة.
+EXCHANGE_MONEY	مبلغ
+EXCHANGE_TITLE	تاجِرْ مع %s (%d)
+EXINVEN_USE_ITEM_FAIL_FALL_SHORT	لا زلت بحاجة إلى %d بند من بنود توسيع قائمة الجرد.
+EXINVEN_USE_ITEM_FAIL_FOURTH_PAGE_STAGE_MAX	استنفذت قائمة الجرد الخاصة بك عدد بنود التوسيع الممكن الاستفادة منها لتوسيعها.
+EXINVEN_USE_ITEM_QUESTION	هل ترغب في زيادة سعة قائمة الجرد الخاصة بك بـاستعمال %d من بنود توسيع قائمة الجرد؟
+FAILED_WARP_MAP_CHECK	لا يمكنك استعمال هذا هنا.
+FISHING_FAILURE	لقد أضعت الطُّعم.
+FISHING_NOTIFY1	يبدو أن %s علِق في الطُّعم.
+FISHING_NOTIFY2	يبدو أن %s سُجن.
+FISHING_RENEWAL_CANNOT_EMOTION	لا يمكنك إستخدام العاطفة أثناء الصيد.
+FISHING_RENEWAL_CANNOT_OPEN_1	لا يمكنك فتحه أثناء الصيد.
+FISHING_RENEWAL_CANNOT_OPEN_2	لا يمكنك القيام بهذا الأمر طالما تقوم بالصيد.
+FISHING_RENEWAL_QUESTION	لقد أمسكت السمكة بالطعم. هل تريد الإمساك بها؟
+FISHING_RENEWAL_TIMEOUT	ترددت كثيرا. لقد هربت السمكة.
+FISHING_SUCCESS1	لقد نجحت في أسر %s!
+FISHING_SUCCESS2	لقد سحبت %s من الماء!
+FISHING_UNKNOWN	يبدو أن شيئاً ما عضّ السنارة، لكني أجهل ماهيته.
+FISHING_WRONG_PLACE	لا يمكنك الصيد هنا.
+FLOWER_EVENT_ENVELOPE_MAX	لم يعد بإمكانك الحصول على بذور الزهور.
+FLOWER_EVENT_GET_SHOOT_CHRYSANTHEMUM	لقد حصلت على براعم أقحوان.
+FLOWER_EVENT_GET_SHOOT_CHRYSANTHEMUM_COUNT	لقد حصلت على %d من براعم أقحوان.
+FLOWER_EVENT_GET_SHOOT_DAFFODIL	لقد حصلت على براعم النرجس.
+FLOWER_EVENT_GET_SHOOT_DAFFODIL_COUNT	لقد حصلت على %d من براعم النرجس.
+FLOWER_EVENT_GET_SHOOT_ENVELOPE	لقد حصلت على بذور زهرة.
+FLOWER_EVENT_GET_SHOOT_LILY	لقد حصلت على براعم الزنبق.
+FLOWER_EVENT_GET_SHOOT_LILY_COUNT	لقد حصلت على %d من براعم الزنبق.
+FLOWER_EVENT_GET_SHOOT_MAY_BELL	لقد حصلت على براعم زنبق الوادي.
+FLOWER_EVENT_GET_SHOOT_MAY_BELL_COUNT	لقد حصلت على %d من براعم زنبق الوادي.
+FLOWER_EVENT_GET_SHOOT_SUNFLOWER	لقد حصلت على براعم دوار الشمس.
+FLOWER_EVENT_GET_SHOOT_SUNFLOWER_COUNT	لقد حصلت على %d من براعم دوار الشمس.
+FLOWER_EVENT_ITEM_FULL_AND_NOT_USE	لا يمكنك المتاجرة بهذا البند لأن لديك بالفعل الحد الأقصى من البراعم.
+FLOWER_EVENT_NOT_ENOUGH_EVENTORY_SPACE	ليس لديك مكان فارغ في قائمة الجرد.
+FLOWER_EVENT_NOT_ENOUGH_SHOOT_COUNT	ليس لديك العدد الصحيح من البراعم.
+FLOWER_EVENT_NOT_ENOUGH_SHOOT_ENVELOPE	ليس لديك ما يكفي من بذور زهرة.
+FLOWER_EVENT_USE_ITEM_TEXT1	هل تود استبدال التأثير الفعال؟
+FLOWER_EVENT_USE_ITEM_TEXT2	يمكن للعملية أن تفشل مسببة ذبول الزهرة.
+FOOTBALL_EVENT_MESSAGE_BUTTON_COOLTIME	الرجاء إعادة المحاولة لاحقًا.
+FOOTBALL_EVENT_MESSAGE_CANNOT_GET_FOOTBALL	لم يعد بإمكانك الحصول على كرات القدم.
+FOOTBALL_EVENT_MESSAGE_GET_FOOTBALL	لقد حصلت على 1 كرة القدم.
+FOOTBALL_EVENT_MESSAGE_NOT_ENOUGH_FOOTBALL	لا تمتلك ما يكفي من كرات القدم.
+FOOTBALL_EVENT_MESSAGE_NOT_ENOUGH_INVENTORY	لا يوجد مكان كافي في قائمة الجرد.
+FORCE_EVENT_CANNOT_OPEN_UI	لقد انتهت احتفالية "اصداء القوة".
+FORCE_EVENT_CAN_USE_BUTTON	صدى صوتك قوي بما يكفي ليتم تفعيله!
+FORCE_EVENT_EMPTY_NORMAL_FORCE_SLOT_TOOLTIP	يمكنك تحديد صدى القوة الخاص بك عن طريق سحبه من قائمة الجرد.
+FORCE_EVENT_EMPTY_SKILL_FORCE_SLOT_TOOLTIP	يمكنك تحديد صدى المهارة الخاص بك عن طريق سحبه من قائمة الجرد.
+FORCE_EVENT_END_NOTICE	لقد انتهت احتفالية "اصداء القوة".
+FORCE_EVENT_FORCE_CHANGE_BUFF	لقد قمت بالفعل باختيار صدى. هل تريد تغييره؟
+FORCE_EVENT_FORCE_GAGUE_REMAIN_TIME	%d / %d دقيقة
+FORCE_EVENT_FORCE_GAUGE_REFINE_TOOLTIP	الصدى الخاص بك يكتسب قوة.
+FORCE_EVENT_FORCE_NOTICE_CAN_USE_FORCE_BUFF	يمكن تفعيل %s. تحقق من القائمة ذات الصلة.
+FORCE_EVENT_FORCE_SLOT_REMAIN_TIME	الوقت المتبقي:
+FORCE_EVENT_INVALIED_SLOT_ITEM	يجب عليك تفعيل هذه الخاصية في الفتحة الأخرى.
+FORCE_EVENT_NOTICE_REMAIN_PLAY_TIME	لقد أوصلت %s المحددة إلى %d / %d
+FORCE_EVENT_NOT_ENOUGH_FORCE_CANNOT_USE_BUTTON	صدى صوتك ليس قويًا بما يكفي لاستخدام هذا بعد.
+FORCE_EVENT_NOT_ENOUGH_LEVEL	يجب أن تكون قد بلغت المستوى 70 على الأقل للمشاركة.
+FORCE_EVENT_READY_TO_USE_FORCE_BUFF	يمكن تفعيل %s. تحقق من قائمة الصدى.
+FORCE_EVENT_REMOVE_REGIST_FORCE	هل تريد إزالة الصدى المحدد؟ سيؤدي هذا إلى إعادة ضبط وقت اللعب وتدمير الصدى.
+FORCE_EVENT_START_NOTICE	لقد بدأت احتفالية أصداء القوة.
+FOR_FEMALE	للإناث
+FOR_MALE	للذكور
+FRAGMENT_COMB_COST	تكاليف الدمج: %s
+GAME_CANNOT_MINING	لا يمكنك استخراج المعدن الخام أثناء ركوب الخيل.
+GAME_CANNOT_PICK_ITEM	لا تستطيع الحصول على هذا الشيء لأن لاعباً آخر غنمه.
+GAME_GUILDWAR_NOW_JOIN	هل ترغب في الانضمام إلى حرب الروابط؟
+GAME_INIT_ERROR_CURSOR	تعذر رسم مؤشر الماوس.
+GAME_INIT_ERROR_DIRECTX	يجب تثبيت DirectX 8.1 لتشغيل اللعبة.\nتبِّث DirectX 8.1 أو أعلى.
+GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	تعذر العثور على بطاقة صور لتشغيل اللعبة. \nالرجاء التأكد من أن بطاقة الصور في حاسوبك تشتغل بشكل صحيح VGA CARD.
+GAME_INIT_ERROR_GRAPHICS_NOT_EXIST	لقد تعذر العثور على بطاقة الصور. \nتحقق إذا لديك VGA-Card. \n يمكنك بدلا عن ذلك استعمال مسرع الأجهزة. \n(ضع مسرع الأجهزة في سرعتها القصوى \nلوحة التحكم -> عرض> الخيارات > متطور> بطاقة التسجيل استكشاف الأخطاء وإصلاحه)
+GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	لا تدعم بطاقة الرسومات للكمبيوتر نظام النافذة في مود 32 bit.\nاختر مود 16 bit أو استعمل نظام الشاشة الكاملة.
+GAME_INIT_ERROR_ITEM_PROTO	لا توجد هناك معلومات عن هذا الشيء.\nالرجاء إعادة تثبيت اللعبة.
+GAME_INIT_ERROR_MAIN_WINDOW	تعذر عرض النافذة الرئيسية.
+GAME_INIT_ERROR_MOB_PROTO	لا توجد أي معلومات عن الوحش.\nالرجاء إعادة تثبيت اللعبة.
+GAME_INIT_ERROR_NETWORK	لا يمكن تسجيل بطاقة الاتصال.\nالرجاء التحقق من الاتصال عبر الإنترنت.
+GAME_PICK_MONEY	لقد حصلت على %s من اليانغ.
+GAME_USE_MONEY	تم إنفاق %s يانغ.
+GEM_CONVERTER_MESSAGE_CONVERT_SUCCESS_CONVERTER	لقد استخدمت %d محولات غايا.
+GEM_CONVERTER_MESSAGE_CONVERT_SUCCESS_GEM_STONE	تم استهلاك %d من الأحجار الكريمة.
+GEM_CONVERTER_MESSAGE_GEM_MAX	لقد وصلت إلى الحد الأقصى الممكن من الغايا.
+GEM_CONVERTER_MESSAGE_NOT_ENOUGH_GEMSTONE	لا زلت بحاجة إلى %s من الأحجار الكريمة.
+GEM_CONVERTER_MESSAGE_NOT_ENOUGH_GOLD	ليس لديك ما يكفي من اليانغ.
+GEM_CONVERTER_MESSAGE_USE_CONVERTER_QUESTION	هل تريد استخدام محول غايا؟
+GEM_SYSTEM_ADD_SLOT	البند المطلوب: %s.\nهل تود إستخدام %d الآن لفتح خانة أخرى؟
+GEM_SYSTEM_BUY_ITEM	هل تود شراء هذا الشيء؟
+GEM_SYSTEM_NAME	غايا
+GEM_SYSTEM_NOT_ENOUGHT_REFRESHITEM	[غايا] ليس لديك ما يكفي من "إعادة تعيين متجر الغايا".
+GEM_SYSTEM_NOT_ENOUGH_HP_GEM	[غايا] ليس لديك ما يكفي من الغايا.
+GEM_SYSTEM_NO_MORE_ADDSLOT	[غايا] لا يمكنك فتح المزيد من الخانات.
+GEM_SYSTEM_OPEN_GEMSHOP	[غايا] عليك فتح متجر الغايا أولا.
+GEM_SYSTEM_PICK_GEM	لقد حصلت على %s غايا.
+GEM_SYSTEM_REFRESH_SHOP_ITEMS	هل ترغب في إعادة التعيين؟
+GEM_USE_GEM	تم إنفاق %s غايا.
+GIVEUP_QUESTION	هل تريد الاستسلام حقاً؟
+GOLDEN_LAND_CHAT_MESSAGE_CANNOT_USE_FRUIT_BOX_EVENT_CLOSED	لم يعد بإمكانك استخدام هذا البند لأن الاحتفالية انتهت.
+GOLDEN_LAND_CHAT_MESSAGE_CANNOT_USE_MINE_TOWER_SKILL_PROCESSING	لا يمكن استخدام هذا إذا تم بالفعل تنشيط البرج المتفجر.
+GOLDEN_LAND_CHAT_MESSAGE_FIND_CARD_CLEAR	لقد وجدت كل حقول التوت الذهبي! سوف تتلقى مكافأتك في البريد.
+GOLDEN_LAND_CHAT_MESSAGE_FIND_CARD_GOLDEN_FRUIT_FOUND	لقد وجدت حقل التوت الذهبي!
+GOLDEN_LAND_CHAT_MESSAGE_FIND_CARD_GOLDEN_FRUIT_NOT_FOUND	ربما لم يكن ذلك حقل التوت الذهبي.
+GOLDEN_LAND_CHAT_MESSAGE_FIND_CARD_NOT_ENOUGH_YELLOW_FRUIT	ليس لديك ما يكفي من التوت الذهبي.
+GOLDEN_LAND_CHAT_MESSAGE_MINE_TOWER_GUARD_CREATED	تم تنشيط الحماية ضد الانفجار. أنت محمي من البرج المتفجر التالي.
+GOLDEN_LAND_CHAT_MESSAGE_MINE_TOWER_SKILL_GUARDED	الحماية من الانفجار تحميك وتم استهلاكها. يمكن للأبراج المتفجرة الآن إلحاق الضرر بك مرة أخرى.
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_BATTLE_STAGE_START	سيتم نقلك إلى المستوى التالي.
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_DUNGEON_REMAIN_TIME_MIN	يمكنك البقاء في الأرض الذهبية مدة %d دقيقة.
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_EVENT_END	انتهت بعثة بريمورديا.
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_EVENT_START	بدأت بعثة بريمورديا. اهزم حارس بريمورديا وسافر إلى الأرض الذهبية!
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_OASIS_SHOP	يمكنك شراء بنود من تاجر القافلة.
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_OASIS_STAGE_START	سوف يتم نقلك إلى الواحة.
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_STONE_SPAWN_AFTER_10SEC	ستظهر تماثيل بريمورديا خلال 10 ثوانٍ.
+GOLDEN_LAND_CHAT_MESSAGE_NOT_ENOUGH_LEVEL	لا يمكنك استخدام هذا البند لأن مستواك منخفض جدًا.
+GOLDEN_LAND_CHAT_MESSAGE_RESET_ALREADY_RESET	قمت بالفعل بإعادة تعيين ذلك.
+GOLDEN_LAND_CHAT_MESSAGE_RESET_NOT_ENOUGH_ITEM	إنك لا تملك بداية بريمورديا جديدة.
+GOLDEN_LAND_CHAT_MESSAGE_RESET_SUCCESS	تم إعادة تعيين دخولاتك ولوحة اللعبة بنجاح.
+GOLDEN_LAND_CHAT_MESSAGE_SHOP_NOT_ENOUGH_INVENTORY_SPACE	لا يوجد مكان كافي في قائمة الجرد.
+GOLDEN_LAND_CHAT_MESSAGE_SHOP_NOT_ENOUGH_TREE_FRUIT	ليس لديك ما يكفي من التوت.
+GOLDEN_LAND_CHAT_MESSAGE_SHOP_YELLOW_FRUIT_EXCEED	لا يمكنك شراء المزيد من التوت الذهبي لأنك تجاوزت بالفعل الحد الأقصى للعدد.
+GOLDEN_LAND_CHAT_MESSAGE_TREE_FRUIT_GAINED	ستحصل على %d توت بري.
+GOLDEN_LAND_CHAT_MESSAGE_TREE_FRUIT_GAINED_WITH_POSSESS_INFO	ستحصل على %d توت بري. (لديك %d توت بري.)
+GOLDEN_LAND_CHAT_MESSAGE_YELLOW_FRUIT_GAINED	حصلت على %d توت ذهبي.
+GOLDEN_LAND_FIND_CARD_QUESTION_OPEN_CARD	هل ترغب في الكشف عن حقل مقابل %d توت ذهبي؟
+GOLDEN_LAND_FIND_CARD_QUESTION_RESET	سيؤدي استخدام هذا إلى إعادة تعيين كل دخولاتك إلى الأرض الذهبية ولوحة اللعبة في مهمة التوت الذهبي. هل ترغب في المتابعة؟
+GOLDEN_LAND_REMAIN_MINE_TOWER_KILL_COUNT	الأبراج المتفجرة المتبقية: %d
+GOLDEN_LAND_REMAIN_STONE_KILL_COUNT	تماثيل بريمورديا المتبقية: %d
+GUILDBANK_CLEARBANK	تحذير: يجب إفراغ مستودع الرابطة!
+GUILDBANK_DONT_MONEY_OUT	ليس هناك يانغ في بنك الرابطة!
+GUILDBANK_GOLD_IN	إيداع
+GUILDBANK_GOLD_OUT	سحب
+GUILDBANK_ITEM_IN	إدخال
+GUILDBANK_ITEM_OUT	إخراج
+GUILDBANK_MONEYIN	إيداع يانغ
+GUILDBANK_MONEYOUT	سحب يانغ
+GUILDBANK_NOTUSE	لا تملك الحقوق اللازمة.
+GUILDBANK_NOT_ENOUGH_MONEY	لا تملك ما يكفي من اليانغ لإيداعه.
+GUILDBANK_OVER_INCOME	وصلت الحد الأقصى لحسابك.
+GUILDBANK_OVER_MONEY	حساب الرابطة ممتلئ عن آخره.
+GUILDLAND_ABANDON	تفويت أرض الرابطة
+GUILDLAND_ABANDON_TEXT1	هل تريد التخلي عن أرض الرابطة؟
+GUILDLAND_ABANDON_TEXT2	هل أنت متأكد أنك تريد التخلي عن أرض الرابطة؟
+GUILDLAND_ABANDON_TEXT3	لقد تم إزالة مستودع الرابطة وجميع المباني.
+GUILDLAND_ACCEPT	نعم
+GUILDLAND_DONTHAVE_LAND	إنك لا تملك أي أرض رابطة.
+GUILDLAND_NOT	كلّا
+GUILDLIST_APPLICANT	هل ترغب في تقديم طلب الانضمام للرابطة؟
+GUILDMARK_UPLOADER_ERROR_12_HEIGHT	العلو ليس 12 بكسل
+GUILDMARK_UPLOADER_ERROR_16_WIDTH	العرض  ليس 16 بكسل
+GUILDMARK_UPLOADER_ERROR_64_WIDTH	إن العرض أقل من 64 بيكسل
+GUILDMARK_UPLOADER_ERROR_128_HEIGHT	نسبة العلو ليست 128 بكسل
+GUILDMARK_UPLOADER_ERROR_FILE_FORMAT	إن هذه اللعبة لا تدعم هذه الصورة.
+GUILDMARK_UPLOADER_ERROR_PATH	الرجاء نقل المعطيات إلى الملف في metin2/upload.
+GUILDMARK_UPLOADER_ERROR_SELECT	لم يتم اختيار أي ملف للصورة.
+GUILDWAR_ALL	معارك (معك.)
+GUILDWAR_CTF_TITLE	قتال الأعلام
+GUILDWAR_DRAW	تعادلات (تع.)
+GUILDWAR_GAINSCORE_FIFTY	50 نقطة
+GUILDWAR_GAINSCORE_HUNDRED	100 نقطة
+GUILDWAR_GAINSCORE_THIRTY	30 نقطة
+GUILDWAR_GAMETIME_SIXTY	60 دقيقة
+GUILDWAR_GAMETIME_TEN	10 دقائق
+GUILDWAR_GAMETIME_THIRTY	30 دقيقة
+GUILDWAR_INPUT_OTHERGUILD	الرجاء إدخال الرابطة الخصم.
+GUILDWAR_LADDER	نقاط الترتيب
+GUILDWAR_LIMIT_MEMBER_FIVE	أدنى عدد من المشاركين مسموح به هو 5.
+GUILDWAR_LOSE	هزائم (هز.)
+GUILDWAR_NORMAL_TITLE	ميدان القتال
+GUILDWAR_OVER_MEMBERCOUNT	وصلت الحد الأقصى المسموح به من الأعضاء.
+GUILDWAR_QUESTION_LINE_1	أعلنت الرابطة %s الحرب على رابطتك.
+GUILDWAR_QUESTION_LINE_2	هل تقبل؟ (%s)
+GUILDWAR_RANKING	رتبة
+GUILDWAR_RECODE_ALL	%d معك.، %d انت.، %d هز.، %d تع.
+GUILDWAR_SELECT_MEMBER_COUNT	اختر عدد المشاركين.
+GUILDWAR_TYPE_DEFENSE	قتال الدروع
+GUILDWAR_TYPE_TIGER	معركة الإبادة
+GUILDWAR_TYPE_TIME	هجوم زمني
+GUILDWAR_UNKNOWN_TITLE	...
+GUILDWAR_WARP_TITLE	ساحة الحرب
+GUILDWAR_WIN	انتصارات (انت.)
+GUILDWAR_WIN_FIVE	خمس جولات
+GUILDWAR_WIN_ONE	جولة
+GUILDWAR_WIN_THREE	ثلاث جولات
+GUILDWINDOW_BUTTON_BANKGOLDINFO	سجل مستودع الرابطة
+GUILDWINDOW_BUTTON_BASEABANDON	تفويت أرض الرابطة
+GUILDWINDOW_BUTTON_BASEDEAL	بيع أرض الرابطة
+GUILDWINDOW_BUTTON_BOARD	مذكرات خاصة بالرابطة
+GUILDWINDOW_BUTTON_CHANGEMASTER	تغيير قائد الرابطة
+GUILDWINDOW_BUTTON_DECLARE	إعلان الحرب
+GUILDWINDOW_BUTTON_DONATE	التبرع
+GUILDWINDOW_BUTTON_GOLDIN	إيداع
+GUILDWINDOW_BUTTON_GOLDOUT	سحب
+GUILDWINDOW_BUTTON_GRADE	إدارة الحقوق
+GUILDWINDOW_BUTTON_GUILDLIST	لائحة الرابطة
+GUILDWINDOW_BUTTON_GUILD_BATTLE	معركة الرابطة
+GUILDWINDOW_BUTTON_GUILD_CONTENTS_LIST	العودة إلى نافذة معركة الرابطة
+GUILDWINDOW_BUTTON_HEALGSP	استرجاع قوة التنين
+GUILDWINDOW_BUTTON_INFO	معلومات عن الرابطة
+GUILDWINDOW_BUTTON_LANDINFO	معلومات عن الأرض
+GUILDWINDOW_BUTTON_MARK	تحميل علامة الرابطة
+GUILDWINDOW_BUTTON_MEMBER	الأعضاء
+GUILDWINDOW_BUTTON_OFFER	تبرع بالخبرة EXP
+GUILDWINDOW_BUTTON_OUTMEMBER	حذف عضو
+GUILDWINDOW_BUTTON_SKILL	مهارات الروابط
+GUILDWINDOW_BUTTON_SYMBOL	تحميل علامة الرابطة
+GUILDWINDOW_BUY_GUILD_LAND	شراء أرض
+GUILDWINDOW_CHANGE_BLACKSMITH	تغيير التخصص
+GUILDWINDOW_CHANGE_OBJECT	تجديد
+GUILDWINDOW_CHANGE_SMELTER	إعادة بناء الفرن
+GUILDWINDOW_CREATE_OBJECT	بناء مبنى
+GUILDWINDOW_DEAL_GUILD_LAND	بيع الأرض
+GUILDWINDOW_GRADE_BANK	يمكنه استخدام بنك الرابطة ومستودع الرابطة
+GUILDWINDOW_GRADE_DRIVEOUTAUTHORITY	يمكنه حذف عضو من أعضاء الرابطة؟
+GUILDWINDOW_GRADE_GRADENAME	اسم الرتبة
+GUILDWINDOW_GRADE_GRADENUMBER	رقم الرتبة
+GUILDWINDOW_GRADE_GUILDWAR	يمكنه اختيار الأعضاء المسموح لهم المشاركة في القتال.
+GUILDWINDOW_GRADE_INVITEAUTHORITY	يمكنه ضم لاعبين آخرين إلى الرابطة
+GUILDWINDOW_GRADE_NOTICEAUTHORITY	يمكنه إلصاق المذكرات الخاصة بالرابطة
+GUILDWINDOW_GRADE_SKILLAUTHORITY	يمكنه استعمال مهارات الروابط
+GUILDWINDOW_INFO_LEVEL5	+5% EXP على تبرع الرابطة
+GUILDWINDOW_INFO_LEVEL10	يرفع العدد الأقصى للأعضاء
+GUILDWINDOW_INFO_LEVEL15	تخفيض على السعر: قوة التنين
+GUILDWINDOW_INFO_LEVEL20	بنك: إعفاء ضرائبي
+GUILDWINDOW_LAND_TAX	الإيجار
+GUILDWINDOW_LIST_ALL	جميع الإمبراطوريات
+GUILDWINDOW_LIST_ALREADY_REGISTER	[رابطة] لقد قدّمت طلب الانضمام من قبل.
+GUILDWINDOW_LIST_APPLICANT_LIST	قائمة المرشحين
+GUILDWINDOW_LIST_CHRACTER_JOB	طبقة
+GUILDWINDOW_LIST_CHRACTER_LV	مستوى
+GUILDWINDOW_LIST_CHRACTER_NAME	اسم الشخصية
+GUILDWINDOW_LIST_CHRACTER_SUB_JOB	تدريب
+GUILDWINDOW_LIST_EMPIRE_A	شينسو
+GUILDWINDOW_LIST_EMPIRE_B	شونجو
+GUILDWINDOW_LIST_EMPIRE_C	جينو
+GUILDWINDOW_LIST_GUILDMEMBER	الأعضاء
+GUILDWINDOW_LIST_GUILD_LIST	لائحة الرابطة
+GUILDWINDOW_LIST_GUILD_LV	مستوى
+GUILDWINDOW_LIST_GUILD_NAME	رابطة
+GUILDWINDOW_LIST_INPUT_GUILDNAME	[رابطة] الرجاء إدخال اسم الرابطة.
+GUILDWINDOW_LIST_LADDER	نقاط الترتيب
+GUILDWINDOW_LIST_NOTPROMOTEGUILD	[رابطة] لم تنشر هذه الرابطة أية إعلان.
+GUILDWINDOW_LIST_PROMOTE_GUILD	طلب انضمام
+GUILDWINDOW_LIST_PROMOTE_GUILD_LIST	لائحة الرابطة
+GUILDWINDOW_LIST_RANKING	الرتبة
+GUILDWINDOW_LIST_RANKING_COUNT	الرتبة
+GUILDWINDOW_LIST_REGISTER	انضم
+GUILDWINDOW_LIST_REGISTER_GUILD	طلب انضمام للرابطة
+GUILDWINDOW_LIST_SEARCH	بحث
+GUILDWINDOW_LIST_SELECT_GUILD	[رابطة] الرجاء اختيار رابطة لتقديم طلب الانضمام.
+GUILDWINDOW_PROMOTE_REFRESH	إشهار
+GUILDWINDOW_PROMOTE_REGISTER	إشهار
+GUILDWINDOW_SP_RECOVER	قوة التّنين الاسطوري
+GUILDWINDOW_UPGRADE_ALTEROFPOWER	توسيع المذبح
+GUILDWINDOW_UPGRADE_GUILDBANK	توسيع البنك
+GUILD_ATTENDANCE_FAIL_ALREADY	لقد شاركت بالفعل اليوم.
+GUILD_ATTENDANCE_FAIL_JOIN_TIME	لا يمكنك المشاركة الآن. تتم إعادة تعيين المشاركة دائمًا في الساعة 5:00.
+GUILD_BANKINFO_CLOSE	أغلق
+GUILD_BANKINFO_NAME	عضو
+GUILD_BANKINFO_TYPE	أشياء/عملة
+GUILD_BANKINFO_USETYPE	عملية
+GUILD_BANK_CLOSE	أغلق
+GUILD_BANK_INFO	سجل مستودع الرابطة
+GUILD_BATTLE_APPLY_SUCCESS_MESSAGE	لقد تم بنجاح تسجيلك في معركة الرابطة.
+GUILD_BATTLE_AREA_INFO_TEXT	الوقت المُتبقّي: %s\nالوحوش المتبقية (%d/61)\nالأزرق: (%s) الأصفر: (%s) الأخضر: (%s) الأحمر: (%s)
+GUILD_BATTLE_AREA_INFO_TEXT_FONT	Tahoma:16
+GUILD_BATTLE_AREA_UNDER_ATTCK_MESSAGE	سيتم مهاجمة الوحوش في %s.
+GUILD_BATTLE_CANNOT_APPLY_TIME_MESSAGE	لا يمكنك المشاركة في معركة الرابطة هذه المرة لأن جميع الأماكن مأخوذة بالفعل. حاول مرة أخرى في المرة القادمة!
+GUILD_BATTLE_CANNOT_ENTER_JOIN_TIME	لا يمكنك المشاركة بعد. الوقت المتبقّي: %d دقائق.
+GUILD_BATTLE_CANNOT_ENTER_MAP_MESSAGE	يمكنك الدخول فقط من القرية الأولى أو من سهول دونج جوانج.
+GUILD_BATTLE_CANNOT_ENTER_NOT_MATCHING_MESSAGE	لا يمكن العثور على منافس مناسب لرابطتك. يرجى إعادة المحاولة مرة أخرى في المرة القادمة.
+GUILD_BATTLE_CANNOT_GET_REWARD_NOT_ENOUGH_INEVENTORY	لا يوجد مكان كافي في قائمة الجرد.
+GUILD_BATTLE_CANNOT_GUILD_ACTION_MESSAGE	
+GUILD_BATTLE_CANNOT_PARTICIPATION_MESSAGE	أنت لا تستوفي جميع متطلبات المشاركة في معركة الرابطة.
+GUILD_BATTLE_CANNOT_USE_MOVE_TICKET_NOT_OCCUPY_MESSAGE	لا يمكنك دخول هذه المنطقة لأنها قد تم احتلالها من قبل رابطة أخرى.
+GUILD_BATTLE_CANNOT_USE_PORTAL_NOT_OCCUPY	يمكنك فقط استخدام هذا بمجرد احتلال المنطقة من قبل رابطتك.
+GUILD_BATTLE_CANNOT_USE_TICKET_NOT_MASTER	لا يُسمح باستخدام هذا الشيء، سوى لقائد الرابطة.
+GUILD_BATTLE_CANNOT_USE_TICKET_NOT_OPEN	لا يمكنك استخدام تذكرة معركة الرابطة.
+GUILD_BATTLE_CAN_NOT_USE_TICKET_MESSAGE	تم تطبيق هذا بالفعل ولا يمكن استخدامه مرة أخرى.
+GUILD_BATTLE_CMD_FAIL_IMMEDIATELY_START	عليك الانتظار حتى انضمام 2 من الروابط الأخرى على الأقل.
+GUILD_BATTLE_DEAD_TO_PLAYER	لقد هزمك أحد أعضاء الرابطة %s.
+GUILD_BATTLE_DROP_ITEM_BY_REWARD_BOX_MESSAGE	لقد حصلت على %s %s.
+GUILD_BATTLE_ENCOURAGE_MESSAGE	ستبدأ معركة الرابطة بعد %d دقيقة/دقائق. أنت مسجل للمشاركة. استعد وابذل قصارى جهدك!
+GUILD_BATTLE_END_MESSAGE	انتهت معركة الرابطة.
+GUILD_BATTLE_END_REMAIN_TIME_MESSAGE	ستنتهي معركة الرابطة بعد %d دقيقة/دقائق.
+GUILD_BATTLE_ENTER_AREA_MESSAGE	لقد دخلت إلى %s. اهزم جميع الوحوش!
+GUILD_BATTLE_ENTER_BUTTON_TOOLTIP	الدخول
+GUILD_BATTLE_ENTER_MESSAGE	سيتم تسجيلك في معركة الرابطة قريبًا.
+GUILD_BATTLE_ENTER_OCCUPY_AREA_MESSAGE	لقد دخلت إلى %s.
+GUILD_BATTLE_ENTER_OUTPOST_BLUE	أنت جزء من الفريق الأزرق. استخدم البوابة للذهاب إلى منطقة معركة الرابطة.
+GUILD_BATTLE_ENTER_OUTPOST_GREEN	أنت جزء من الفريق الأخضر. استخدم البوابة للذهاب إلى منطقة معركة الرابطة.
+GUILD_BATTLE_ENTER_OUTPOST_RED	أنت جزء من الفريق الأحمر. استخدم البوابة للذهاب إلى منطقة معركة الرابطة.
+GUILD_BATTLE_ENTER_OUTPOST_YELLOW	أنت جزء من الفريق الأصفر. استخدم البوابة للذهاب إلى منطقة معركة الرابطة.
+GUILD_BATTLE_GET_GUILD_REWARD_MESSAGE	لقد تلقيت مكافأة الرابطة. يمكنك العثور عليها في قائمة الجرد.
+GUILD_BATTLE_GET_PERSONAL_REWARD_BUFF_MESSAGE	لقد تلقيت علاوة كمكافأة. انظر إلى أيقونة العلاوات لمعرفة المزيد.
+GUILD_BATTLE_GUILD_REWARD_BUTTON_TOOLTIP	احصل على مكافأة الرابطة
+GUILD_BATTLE_LIST_REMAIN_TIME	الوقت المتبقي: %s
+GUILD_BATTLE_MONSTER_KILL_GUILD_MESSAGE	%s هزم %d من الوحوش
+GUILD_BATTLE_NEED_REWARD_OPEN_KEY_MESSAGE	ليس لديك مفتاح المنتصر لفتح هذا الصندوق. اهزم الوحوش للعثور على المفتاح.
+GUILD_BATTLE_NOT_ENOUGH_INEVENTORY_MESSAGE	أفسح المجال في قائمة الجرد الخاصة بك وحاول مرة أخرى.
+GUILD_BATTLE_NOT_ENOUGH_MOVE_TICKET_MESSAGE	ليس لديك تذكرة بوابة الرابطة.
+GUILD_BATTLE_NOT_ENOUGH_TIME_OF_CREATE_TO_APPLY	لا يمكنك المشاركة بعد لأن رابطتك تم تشكيلها في آخر 24 ساعة.
+GUILD_BATTLE_OCCUPY_AREA_MESSAGE	تم احتلال المنطقة. سيتم فتح بوابة قريبًا وستظهر الوحوش للدفاع عن هذه المنطقة.
+GUILD_BATTLE_OCCUPY_AREA_MESSAGE_IN_OUTPOST	تم احتلال %s. سيتم فتح بوابة قريبًا وستظهر الوحوش للدفاع عن هذه المنطقة.
+GUILD_BATTLE_OCCUPY_AREA_OTHERS_GUILD_MESSAGE	تم احتلال هذه المنطقة بالفعل من قبل رابطة أخرى. سيتم نقلك فورًا إلى موقع الروابط الأمامي.
+GUILD_BATTLE_ONGOING	المعركة جارية
+GUILD_BATTLE_OPEN_REWARD_BOX	هل ترغب في فتح %s؟
+GUILD_BATTLE_OTHER_GUILD_ONGOING	الروابط الأخرى تقاتل بالفعل.
+GUILD_BATTLE_OUTPOST_REMAIN_TIME	الوقت المتبقي: %s
+GUILD_BATTLE_OUTPOST_REMAIN_TIME_FONT	Tahoma:16
+GUILD_BATTLE_PAGE_ENTER_REQUIRMENTS	تأهلت؟
+GUILD_BATTLE_PAGE_START_REMAIN_TIME	تبدأ المعركة في: %s
+GUILD_BATTLE_PERSONAL_BUFF	علاوة مكافأة
+GUILD_BATTLE_PERSONAL_REWARD_BUTTON_TOOLTIP	احصل على علاوة مكافأة
+GUILD_BATTLE_PK_GUILD_MESSAGE	%s هزم %d لاعبين من روابط أخرى.
+GUILD_BATTLE_PLAYER_KILL	لقد هزمت عضو في رابطة %s.
+GUILD_BATTLE_QUALIFICATION	اهزم ملك التنانين للمشاركة\nأو استخدم تذكرة معركة الرابطة.
+GUILD_BATTLE_RELOAD_BUTTON_COOLTIME_MESSAGE	الرجاء المحاولة مجددًا.
+GUILD_BATTLE_RESULT_BOARD_REMAIN_TIME_MESSAGE	سيتم نقلك فوريًا إلى %s.
+GUILD_BATTLE_REVIVE_USE_SCROLL_MESSAGE	لقد تم إحيائك بإعادة احياء الروابط
+GUILD_BATTLE_START_MESSAGE	بدأت معركة الرابطة! واجه التحدي بالضغط على "دخول" في قائمة معركة الرابطة!
+GUILD_BATTLE_STATUS_BOARD_PK	اللاعبين القتلى: %d
+GUILD_BATTLE_STATUS_BOARD_REMAIN_MONSTER_COUNT	%s: %d / %d
+GUILD_BATTLE_TEAM_NAME_BLUE	أزرق
+GUILD_BATTLE_TEAM_NAME_GREEN	أخضر
+GUILD_BATTLE_TEAM_NAME_RED	أحمر
+GUILD_BATTLE_TEAM_NAME_YELLOW	أصفر
+GUILD_BATTLE_USE_MOVE_TICKET_MESSAGE	لقد استخدمت تذكرة نقل الرابطة وسيتم نقلك فورا إلى %s.
+GUILD_BATTLE_USE_SCROLL	هل تريد المشاركة في معركة الرابطة؟
+GUILD_BATTLE_USE_TICKET_CANCEL_MESSAGE	تم إلغاء تسجيلك في معركة الرابطة.
+GUILD_BOARD_ID	عضو
+GUILD_BOARD_TEXT	رسالة
+GUILD_BUILDING_FIX_CHANGE	هل تريد حقا تغيير الموقع؟
+GUILD_BUILDING_FIX_CHANGE_GOLD	السعر: 1.000.000 يانغ!
+GUILD_BUILDING_FIX_DELETE	هل تريد حقا حذف هذا الشيء؟
+GUILD_BUILDING_FIX_NEED_BUILDING	لا وجود لمباني.
+GUILD_BUILDING_GRADE	رتبة
+GUILD_BUILDING_LOG_PLUS	جذع+
+GUILD_BUILDING_NAME	اسم المبنى
+GUILD_BUILDING_PLY_PLUS	خشب رقائقي+
+GUILD_BUILDING_SMELT_STONE	حجر الغموض
+GUILD_BUILDING_STONE_PLUS	حجر الأساس+
+GUILD_CANNOT_HEAL_GSP_ANYMORE	امتلأت طاقة شبح التنين إلى آخرها.
+GUILD_CHANGEMASTER_TEXT1	أصبح القائد الجديد: %s
+GUILD_CHANGEMASTER_TEXT2	هل تريد تعيين قائد جديد للرابطة؟
+GUILD_CHANGEMASTER_TEXT3	هل أنت متأكد انك تريد تسليم
+GUILD_CHANGEMASTER_TEXT4	منصب قائد الرابطة؟
+GUILD_COMMENT	اكتب
+GUILD_CONTENTS_ONGOING	المعركة جارية
+GUILD_CREATE_ERROR_INSULT_NAME	اسم الرابطة غير مسموح به.
+GUILD_DEFAULT_GRADE	أعضاء الرابطة
+GUILD_DELETE	احذف
+GUILD_DEPOSIT	ودائع
+GUILD_DISBAND_OR_LEAVE_OR_OUT_FAIL_MESSAGE	لا يمكنك ترك الرابطة الآن كونك في المعركة.
+GUILD_DISBAND_SUCCESS_MESSAGE	تم حل الرابطة.
+GUILD_DONATE_FAIL_NOT_ENOUGH_HIGH_ITEM	ليس لديك تبرعات كافية.
+GUILD_DONATE_FAIL_NOT_ENOUGH_INVENTORY	قائمة الجرد الخاصة بك ممتلئة. لا يمكنك التبرع.
+GUILD_DONATE_FAIL_NOT_ENOUGH_LEVEL	يجب أن تكون قد بلغت المستوى 30 على الأقل للتبرع.
+GUILD_DONATE_FAIL_NOT_ENOUGH_MIDDLE_ITEM	ليس لديك ما يكفي من مذكرات التبرع المتوسطة!
+GUILD_DONATE_FAIL_NOT_ENOUGH_YANG	ليس لديك يانغ كافٍ.
+GUILD_DONATE_FAIL_TIME	لا يمكنك التبرع خلال 24 ساعة من دخولك للرابطة.
+GUILD_DONATE_QUESTION_HIGH	هل ترغب في تقديم تبرع كبير؟
+GUILD_DONATE_QUESTION_MIDDLE	هل ترغب في تقديم تبرع متوسط؟
+GUILD_DONATE_QUESTION_NORMAL	هل ترغب في تقديم تبرع صغير؟
+GUILD_DO_YOU_HEAL_GSP	هل ترغب مقابل %d من اليانغ في استرجاع %d من شبح التنين؟
+GUILD_DO_YOU_JOIN	 قامت بدعوتك. هل ترغب في الانضمام إلى الرابطة؟
+GUILD_DRAGONLAIR_MIN	دقيقة
+GUILD_DRAGONLAIR_PARTY_ALL	لائحة المتصدرين العامة
+GUILD_DRAGONLAIR_PARTY_LINE_FOUR	ابتداء من المرتبة 11: 100 غايا
+GUILD_DRAGONLAIR_PARTY_LINE_HELP	مساعدة
+GUILD_DRAGONLAIR_PARTY_LINE_ONE	المرتبة 1: 400 غايا
+GUILD_DRAGONLAIR_PARTY_LINE_THREE	المرتبة 4 إلى 10: 200 غايا
+GUILD_DRAGONLAIR_PARTY_LINE_TWO	المرتبة 2 إلى 3: 300 غايا
+GUILD_DRAGONLAIR_PARTY_MEMBER	الأعضاء
+GUILD_DRAGONLAIR_PARTY_NOW	لائحة المتصدرين الأسبوعية
+GUILD_DRAGONLAIR_PARTY_PAST	لائحة المتصدرين السابقة
+GUILD_DRAGONLAIR_PARTY_TIME	الوقت
+GUILD_DRAGONLAIR_PARTY_TOOLTIP_TITLE	مكافأة
+GUILD_DRAGONLAIR_RANKING_FAIL	فشلتم!
+GUILD_DRAGONLAIR_RANKING_NONE	جديد
+GUILD_DRAGONLAIR_RANKING_SUCCESS	نجحتم!
+GUILD_DRAGONLAIR_SECOND	ثانية
+GUILD_EMPTY_AREA	أرض خالية
+GUILD_ENEMY_GUILD_NAME	اسم الرابطة الخصم
+GUILD_FACILITY	مبنى جانبي
+GUILD_GEM	حجر كريم
+GUILD_HEADQUARTER	المبنى الرئيسي
+GUILD_HEAL_GSP	إعادة شبح التنين
+GUILD_INFO_ENEMY_GUILD_EMPTY	لا يوجد
+GUILD_MARK_NOT_ENOUGH_LEVEL	أدنى مستوى مطلوب 3
+GUILD_MARK_UPLOAD_NOTICE	أرجوك انتظر لحظة حتى تتمكن من تسجيل شعار الرابطة.
+GUILD_MEMBEROUT_AUTH	لا يمكنك إزالة الأعضاء.
+GUILD_MEMBEROUT_NOMAL	هل تريد إزالة هذا العضو؟
+GUILD_MEMBER_JOB	طبقة
+GUILD_MEMBER_KNIGHT	مقاتل
+GUILD_MEMBER_LEVEL	مستوى
+GUILD_MEMBER_NAME	عضو
+GUILD_MEMBER_RANK	رتبة
+GUILD_MEMBER_SPECIFIC_GRAVITY	نقاط الخبرة EXP المُتبرّع بها
+GUILD_NAME	اسم الرابطة
+GUILD_NOT_ENOUGH_MATERIAL	لا تملك مواد بناء كافية لهذا المبنى.
+GUILD_NOT_ENOUGH_MONEY	لا تملك يانغ كافٍ لبناء هذا المبنى.
+GUILD_NO_NOTICE_PERMISSION	إنك غير مُؤهل لتقديم إعلانٍ ما.
+GUILD_OBJECT	أشياء
+GUILD_OBJECT_POSSIBLE_NEWWORLD	هذا المبنى متاح فقط في قارة يوهارا.
+GUILD_OFFER_EXP	استثمار الخبرة
+GUILD_SELECT_ONE	إختر عضو الرابطة.
+GUILD_SHORT_EXP	عدد نقاط الخبرة غير كافٍ.
+GUILD_SITE_AUCTION_END_TIME	مزاد الأراضي: %02d/%02d (الشهر/اليوم) في تمام الساعة %02d:%02d
+GUILD_SITE_AUCTION_END_TIME_DEFAULT	مزاد الأراضي: N/A
+GUILD_SITE_AUCTION_INFO	الأرض المعروضة: %s / %d،%d
+GUILD_SITE_AUCTION_INFO_DEFAULT	الأرض المعروضة: N/A
+GUILD_SITE_AUCTION_MAP_INFO	التاريخ (الشهر/اليوم): %02d/%02d، الوقت: الساعة %02d:%02d
+GUILD_SITE_AUCTION_STATE_NONE	تم تقديم جميع العروض.
+GUILD_SITE_AUCTION_STATE_REGIST	تم في %s عر الأرض %s،%s للمزاد. يمكن فقط لقائد الرابطة التسجيل لمزاد الأراضي.
+GUILD_SITE_AUCTION_STATE_RUN	ينتهي مزاد الأراضي في: %02d/%02d (الشهر/اليوم) في تمام الساعة %02d:%02d.
+GUILD_SITE_AUCTION_STATE_WAIT	سيبدأ مزاد الأراضي في: %02d/%02d (الشهر/اليوم) في تمام الساعة %02d:%02d للأرض %s، الواقعة في %d,%d.
+GUILD_SITE_AUTO_ABNDON_TIME	التخلي التلقائي عن الأرض: %s
+GUILD_SITE_TAX_INFO	سيتم التخلي عن أرض الرابطة في %s. سيتم حذف جميع البنود في مستودع الرابطة.
+GUILD_TILE_BASEINFO	معلومات عن الأرض
+GUILD_TILE_BOARD	مذكرات خاصة بالرابطة
+GUILD_TILE_GRADE	إدارة الحقوق
+GUILD_TILE_GUILD_BATTLE	معركة الرابطة
+GUILD_TILE_GUILD_CONTENTS_LIST	معركة الرابطة
+GUILD_TILE_INFO	معلومات الرابطة
+GUILD_TILE_MEMBER	الأعضاء
+GUILD_TILE_SKILL	مهارات الروابط
+GUILD_USE_MASTER_ONLY	إن هذا الحق هو من ملك قائد الرابطة فقط.
+GUILD_VILLAGE_01	ميريانغ
+GUILD_VILLAGE_02	سونغبا
+GUILD_VILLAGE_03	دايامي
+GUILD_WAR1	منطقة حرب الرابطة
+GUILD_WAR2	منطقة حرب الرابطة
+GUILD_WAR3	منطقة حرب الرابطة
+GUILD_WAR4	منطقة حرب الرابطة
+GUILD_WAR_GAINSCORE_FIFTY	50 نقطة
+GUILD_WAR_GAINSCORE_HUNDRED	100 نقطة
+GUILD_WAR_GAINSCORE_THIRTY	30 نقطة
+GUILD_WAR_GAMETIME_SIXTY	60 دقيقة
+GUILD_WAR_GAMETIME_TEN	10 دقائق
+GUILD_WAR_GAMETIME_THIRTY	30 دقيقة
+GUILD_WAR_LIMIT_30MIN	الوقت: 30 دقيقة
+GUILD_WAR_REWARD_POTION	مكافأة: سيحصل الفائز على جرع
+GUILD_WAR_SELECT_WAR	اختيار نوعية القتال
+GUILD_WAR_TYPE_DEFENSE	قتال الدروع
+GUILD_WAR_TYPE_DIE	ساحة الحرب
+GUILD_WAR_TYPE_FLAG	قتال الأعلام
+GUILD_WAR_TYPE_NORMAL	ميدان القتال
+GUILD_WAR_TYPE_TIGER	معركة الإبادة
+GUILD_WAR_TYPE_TIME	هجوم زمني
+GUILD_WAR_USE_BATTLE_MAP	المكان: ساحة الحرب للرابطة
+GUILD_WAR_USE_NORMAL_MAP	مكان: خريطة عادية
+GUILD_WAR_WIN_CHECK_SCORE	ستفوز الرابطة التي حصلت على أكبر عدد من الانتصارات بالحرب.
+GUILD_WAR_WIN_FIVE	خمس جولات
+GUILD_WAR_WIN_ONE	جولة
+GUILD_WAR_WIN_TAKE_AWAY_FLAG1	استولي على علم الخصم
+GUILD_WAR_WIN_TAKE_AWAY_FLAG2	وخذه إلى مقرك.
+GUILD_WAR_WIN_THREE	ثلاث جولات
+GUILD_WAR_WIN_WIPE_OUT_GUILD	عليك القضاء على جميع الخصوم لكي تفوز.
+GUILD_WITHDRAW	انسحاب
+GUILD_YOU_DO_NOT_JOIN	إنك لا تنتمي إلى أي رابطة.
+HACK_USER_MESSAGE	هذه الميزة غير متاحة لأنه تم العثور على برنامج غش.
+HORSE_HEALTH0	ميت
+HORSE_HEALTH1	يموت جوعاً
+HORSE_HEALTH2	جائع
+HORSE_HEALTH3	مملوء
+HORSE_LEVEL1	حصان عادي
+HORSE_LEVEL2	حصان مدرع
+HORSE_LEVEL3	حصان الجيش
+HORSE_LEVEL4	حصان حربي عظيم
+HOUR	س
+HOW_MANY_ITEM_DO_YOU_DROP1	هل ترغب في إسقاط  %s؟
+HOW_MANY_ITEM_DO_YOU_DROP2	هل ترغب في إسقاط %s لـ%d؟
+ICECREAM_EVENT_EXCHANGE_SCOOP_SUCCESS	لقد قمت بنقل %d كرات ثلجية إلى قائمة الاحتفاليات الجديدة.
+ICECREAM_EVENT_GET_SCOOP	لقد حصلت على كرة ثلجية.
+ICECREAM_EVENT_SCOOP_MAX_COUNT	لا يمكنك الحصول على المزيد من الكرات الثلجية.
+INPUT_MATRIX_CARD_NUMBER	أدخل رقم بطاقة الماتريكس
+INPUT_MATRIX_CARD_TITLE	بطاقة الماتريكس
+INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	أدخل شفرة الحذف من خيار إدارة الحساب.
+INPUT_PRIVATE_CODE_DIALOG_TITLE	حذف الشخصية
+INVENTORY_DO_NOT_PACK_WARP_SCROLL	لا يمكن دمج اللفائف.
+INVENTORY_REALLY_USE_ITEM	هل ترغب في تفعيل هذا البند على هذا الشيء؟
+INVENTORY_REALLY_USE_ITEM2	هل تريد استعمال هذا البند؟
+INVENTORY_REALLY_USE_PET_BAG_ITEM	هل ترغب حقّا في وضع الرفيق في قفص النقل؟
+INVENTORY_REALLY_USE_PET_BAG_TAKE_OUT	هل ترغب في فتح قفص النقل؟
+INVENTORY_REALLY_USE_PET_FEEDSTUFF_ITEM	هل ترغب في إطعام %s بــ %s؟
+IS_NOT_PET_CHANGE_ITEM	هذا ليس بند سحر الرفيق.
+IS_NOT_PET_ITEM	هذا ليس رفيق.
+ITEM_CANNOT_REFINE	لا يمكن تحسين هذا الشيء.
+ITEM_TOOLTIP_DESC_GEM_BAG_DEFAULT	بعد استخدامه، يمكنك تعبئته بما يصل إلى 9.999 غايا. | يختفي بعد 30 يومًا.\nكيس غايا قابل للمتاجرة.
+ITEM_TOOLTIP_DESC_GEM_BAG_HAVE_GEM	كيس غايا (%d غايا، قابل للمتاجرة). \nعندما تفتح الكيس، ستحصل على %d غايا.
+ITEM_TOOLTIP_DESC_GEM_BAG_REWARD	كمكافأة على تشجيع الفريق الفائز، ستحصل على حقيبة غايا الرياضية.\nالغير قابلة للمتاجرة.
+ITEM_TOOLTIP_DESC_GEM_BAG_REWARD_HAVE_GEM	حقيبة الغايا الرياضية (%d غايا، غير قابل للمُتاجرة). \nعندما تفتح الحقيبة، ستحصل على %d غايا.
+JOB_ASSASSIN	نينجا
+JOB_ASSASSIN0	لا شيء
+JOB_ASSASSIN1	نينجا القتال عن قرب
+JOB_ASSASSIN2	نينجا القتال عن بعد
+JOB_SHAMAN	شامان
+JOB_SHAMAN0	لا شيء
+JOB_SHAMAN1	شامان التنين
+JOB_SHAMAN2	شامان الشفاء
+JOB_SURA	سورا
+JOB_SURA0	لا شيء
+JOB_SURA1	سورا القتال السحري
+JOB_SURA2	سورا السّحر الأسود
+JOB_WARRIOR	محارب
+JOB_WARRIOR0	لا شيء
+JOB_WARRIOR1	مصارع
+JOB_WARRIOR2	مقاتل ذهني
+JOB_WOLFMAN	ليكانر
+JOB_WOLFMAN0	ليكانر هاوي
+JOB_WOLFMAN1	غريزة
+JOB_WOLFMAN2	غير متاح
+KEYCHANGE_DONT_SAVE_EXIT	إغلاق بدون حفظ؟
+KEYCHANGE_IMPOSSIBLE_CHANGE	لا يسمح هنا باستعمال [CTRL]، [ALT]، و [SHIFT]!
+KEYCHANGE_SAVE_EXIT	احفظ واغلق؟
+KEY_0	0
+KEY_0_LALT	ALT + 0
+KEY_0_LCONTROL	CTRL + 0
+KEY_0_LSHIFT	SHIFT + 0
+KEY_1	1
+KEY_1_LALT	ALT + 1
+KEY_1_LCONTROL	CTRL + 1
+KEY_1_LSHIFT	SHIFT + 1
+KEY_2	2
+KEY_2_LALT	ALT + 2
+KEY_2_LCONTROL	CTRL + 2
+KEY_2_LSHIFT	SHIFT + 2
+KEY_3	3
+KEY_3_LALT	ALT + 3
+KEY_3_LCONTROL	CTRL + 3
+KEY_3_LSHIFT	SHIFT + 3
+KEY_4	4
+KEY_4_LALT	ALT + 4
+KEY_4_LCONTROL	CTRL + 4
+KEY_4_LSHIFT	SHIFT + 4
+KEY_5	5
+KEY_5_LALT	ALT + 5
+KEY_5_LCONTROL	CTRL + 5
+KEY_5_LSHIFT	SHIFT + 5
+KEY_6	6
+KEY_6_LALT	ALT + 6
+KEY_6_LCONTROL	CTRL + 6
+KEY_6_LSHIFT	SHIFT + 6
+KEY_7	7
+KEY_7_LALT	ALT + 7
+KEY_7_LCONTROL	CTRL + 7
+KEY_7_LSHIFT	SHIFT + 7
+KEY_8	8
+KEY_8_LALT	ALT + 8
+KEY_8_LCONTROL	CTRL + 8
+KEY_8_LSHIFT	SHIFT + 8
+KEY_9	9
+KEY_9_LALT	ALT + 9
+KEY_9_LCONTROL	CTRL + 9
+KEY_9_LSHIFT	SHIFT + 9
+KEY_A	A
+KEY_ADD	+
+KEY_A_LALT	ALT + A
+KEY_A_LCONTROL	CTRL + A
+KEY_A_LSHIFT	SHIFT + A
+KEY_B	B
+KEY_B_LALT	ALT + B
+KEY_B_LCONTROL	CTRL + B
+KEY_B_LSHIFT	SHIFT + B
+KEY_C	C
+KEY_COMMA	,
+KEY_COMMA_LALT	ALT + ,
+KEY_COMMA_LCONTROL	CTRL + ,
+KEY_COMMA_LSHIFT	SHIFT + ,
+KEY_C_LALT	ALT + C
+KEY_C_LCONTROL	CTRL + C
+KEY_C_LSHIFT	SHIFT + C
+KEY_D	D
+KEY_DOWN	إلى الأسفل
+KEY_D_LALT	ALT + D
+KEY_D_LCONTROL	CTRL + D
+KEY_D_LSHIFT	SHIFT + D
+KEY_E	E
+KEY_E_LALT	ALT + E
+KEY_E_LCONTROL	CTRL + E
+KEY_E_LSHIFT	SHIFT + E
+KEY_F	F
+KEY_F1	F1
+KEY_F1_LALT	ALT + F1
+KEY_F1_LCONTROL	CTRL + F1
+KEY_F1_LSHIFT	SHIFT + F1
+KEY_F2	F2
+KEY_F2_LALT	ALT + F2
+KEY_F2_LCONTROL	CTRL + F2
+KEY_F2_LSHIFT	SHIFT + F2
+KEY_F3	F3
+KEY_F3_LALT	ALT + F3
+KEY_F3_LCONTROL	F3
+KEY_F3_LSHIFT	SHIFT + F3
+KEY_F4	F4
+KEY_F4_LALT	ALT + F4
+KEY_F4_LCONTROL	CTRL + F4
+KEY_F4_LSHIFT	SHIFT + F4
+KEY_F5	F5
+KEY_F5_LALT	ALT + F5
+KEY_F5_LCONTROL	CTRL + F5
+KEY_F5_LSHIFT	SHIFT + F5
+KEY_F6	F6
+KEY_F6_LALT	ALT + F6
+KEY_F6_LCONTROL	CTRL + F6
+KEY_F6_LSHIFT	SHIFT + F6
+KEY_F7	F7
+KEY_F7_LALT	ALT + F7
+KEY_F7_LCONTROL	CTRL + F7
+KEY_F7_LSHIFT	SHIFT + F7
+KEY_F8	F8
+KEY_F8_LALT	ALT + F8
+KEY_F8_LCONTROL	CTRL + F8
+KEY_F8_LSHIFT	SHIFT + F8
+KEY_F9	F9
+KEY_F9_LALT	ALT + F9
+KEY_F9_LCONTROL	CTRL + F9
+KEY_F9_LSHIFT	SHIFT + F9
+KEY_F10	F10
+KEY_F10_LALT	ALT + F10
+KEY_F10_LCONTROL	CTRL + F10
+KEY_F10_LSHIFT	SHIFT + F10
+KEY_F_LALT	ALT + F
+KEY_F_LCONTROL	CTRL + F
+KEY_F_LSHIFT	SHIFT + F
+KEY_G	G
+KEY_GRAVE	~
+KEY_GRAVE_LALT	ALT + ~
+KEY_GRAVE_LCONTROL	CTRL + ~
+KEY_GRAVE_LSHIFT	SHIFT + ~
+KEY_G_LALT	ALT + G
+KEY_G_LCONTROL	CTRL + G
+KEY_G_LSHIFT	SHIFT + G
+KEY_H	H
+KEY_H_LALT	ALT + H
+KEY_H_LCONTROL	CTRL + H
+KEY_H_LSHIFT	SHIFT + H
+KEY_I	I
+KEY_I_LALT	ALT + I
+KEY_I_LCONTROL	CTRL + I
+KEY_I_LSHIFT	SHIFT + I
+KEY_J	J
+KEY_J_LALT	ALT + J
+KEY_J_LCONTROL	CTRL + J
+KEY_J_LSHIFT	SHIFT + J
+KEY_K	K
+KEY_K_LALT	ALT + K
+KEY_K_LCONTROL	CTRL + K
+KEY_K_LSHIFT	SHIFT + K
+KEY_L	L
+KEY_LALT	ALT
+KEY_LCONTROL	CTRL
+KEY_LEFT	إلى اليسار
+KEY_LSHIFT	SHIFT
+KEY_L_LALT	ALT + L
+KEY_L_LCONTROL	CTRL + L
+KEY_L_LSHIFT	SHIFT + L
+KEY_M	M
+KEY_M_LALT	ALT + M
+KEY_M_LCONTROL	CTRL + M
+KEY_M_LSHIFT	SHIFT + M
+KEY_N	N
+KEY_NUMLOCK	NUMLOCK
+KEY_NUMPAD0	NUMPAD 0
+KEY_NUMPAD1	NUMPAD 1
+KEY_NUMPAD2	NUMPAD 2
+KEY_NUMPAD3	NUMPAD 3
+KEY_NUMPAD4	NUMPAD 4
+KEY_NUMPAD5	NUMPAD 5
+KEY_NUMPAD6	NUMPAD 6
+KEY_NUMPAD7	NUMPAD 7
+KEY_NUMPAD8	NUMPAD 8
+KEY_NUMPAD9	NUMPAD 9
+KEY_N_LALT	ALT + N
+KEY_N_LCONTROL	CTRL + N
+KEY_N_LSHIFT	SHIFT + N
+KEY_O	O
+KEY_O_LALT	ALT + O
+KEY_O_LCONTROL	CTRL + O
+KEY_O_LSHIFT	SHIFT + O
+KEY_P	P
+KEY_PERIOD	.
+KEY_PERIOD_LALT	ALT + .
+KEY_PERIOD_LCONTROL	CTRL + .
+KEY_PERIOD_LSHIFT	SHIFT + .
+KEY_PGDN	PAGE DOWN
+KEY_PGUP	PAGE UP
+KEY_P_LALT	ALT + P
+KEY_P_LCONTROL	CTRL + P
+KEY_P_LSHIFT	SHIFT + P
+KEY_Q	Q
+KEY_Q_LALT	ALT + Q
+KEY_Q_LCONTROL	CTRL + Q
+KEY_Q_LSHIFT	SHIFT + Q
+KEY_R	R
+KEY_RIGHT	إلى اليمين
+KEY_R_LALT	ALT + R
+KEY_R_LCONTROL	CTRL + R
+KEY_R_LSHIFT	SHIFT + R
+KEY_S	S
+KEY_SPACE	مساحة
+KEY_SUBTRACT	-
+KEY_SYSRQ	PRT SCN
+KEY_S_LALT	ALT + S
+KEY_S_LCONTROL	CTRL + S
+KEY_S_LSHIFT	SHIFT + S
+KEY_T	T
+KEY_TAB	TAB
+KEY_T_LALT	ALT + T
+KEY_T_LCONTROL	CTRL + T
+KEY_T_LSHIFT	SHIFT + T
+KEY_U	U
+KEY_UP	إلى الأعلى
+KEY_U_LALT	ALT + U
+KEY_U_LCONTROL	CTRL + U
+KEY_U_LSHIFT	SHIFT + U
+KEY_V	V
+KEY_V_LALT	ALT + V
+KEY_V_LCONTROL	CTRL + V
+KEY_V_LSHIFT	SHIFT + V
+KEY_W	W
+KEY_W_LALT	ALT + W
+KEY_W_LCONTROL	CTRL + W
+KEY_W_LSHIFT	SHIFT + W
+KEY_X	X
+KEY_X_LALT	ALT + X
+KEY_X_LCONTROL	CTRL + X
+KEY_X_LSHIFT	SHIFT + X
+KEY_Y	Y
+KEY_Y_LALT	ALT + Y
+KEY_Y_LCONTROL	CTRL + Y
+KEY_Y_LSHIFT	SHIFT + Y
+KEY_Z	Z
+KEY_Z_LALT	ALT + Z
+KEY_Z_LCONTROL	CTRL + Z
+KEY_Z_LSHIFT	SHIFT + Z
+LEADER_NAME	إسم القائد
+LEAVE_FROM_GUILD_SUCCESS_MESSAGE	لقد قمت بترك الرابطة.
+LEFT_SEAT	[AFK]
+LEFT_SEAT_IMPOSSIBLE_ACTION	هذا اللاعب في وضع AFK.
+LEFT_SEAT_LOGOUT	لقد تم تسجيل خروجك بعد انتهاء وقت AFK الذي قمت بتحديده.
+LEFT_SEAT_LOGOUT_WAIT_TIME_TOOLTIP	بعد أن تدخل شخصيتك وضع AFK، ستظل AFK حتى الوصول إلى المدة المحددة. سيتم بعد ذلك تسجيل خروجك تلقائيًا.
+LEFT_SEAT_RELEASE_ASK	أنت في وضع AFK. هل تريد أن تصبح نشطا مرة أخرى؟
+LEFT_SEAT_STATE_OFF	أنت نشط مرة أخرى.
+LEFT_SEAT_STATE_ON	أنت في وضع AFK.
+LEFT_SEAT_WAIT_TIME_TOOLTIP	إذا كنت غير نشط، فسوف يظهر [AFK] تحت اسم شخصيتك بعد المدة المحددة.
+LEFT_TIME	الوقت المتبقي
+LIMIT_LEVEL_GUILD	مستوى الرابطة: %d
+LOGIN_CONNECT_FAILURE	حصل خطأ عند الاتصال بالخادم.
+LOGIN_CONNECT_SUCCESS	تم ربط الاتصال بالخادم.
+LOGIN_CONNETING	انتظر من فضلك. سيتم ربط الاتصال بالخادم.
+LOGIN_FAILURE_ALREAY	حسابك متصل بالفعل.
+LOGIN_FAILURE_BACKEND_ERR	حصل خطأ. يرجى الاتصال بفريق الدعم.
+LOGIN_FAILURE_BE_SAME_KEY	خطأ في التسجيل
+LOGIN_FAILURE_BLOCK_ID	تم حظر هذا الحساب.
+LOGIN_FAILURE_BLOCK_LOGIN	خادم مغلق: الرجاء اختيار خادم آخر!
+LOGIN_FAILURE_COUNTRY_ERR	رمز الدولة غير صحيح.\nيرجى الاتصال بفريق الدعم.
+LOGIN_FAILURE_INTEGRTING	يتم حاليًا نقل حسابك. \nيرجى المحاولة مرة أخرى في بضع دقائق.
+LOGIN_FAILURE_IOVATION_ERR	يرجى تفعيل المصادقة الثنائية للدخول إلى هذا الخادم.
+LOGIN_FAILURE_NOBILL	لم يُسجل في هذا الحساب وقتُ لعب بعد.
+LOGIN_FAILURE_NOT_AVAIL	هذا الحساب ليس متاحًا.
+LOGIN_FAILURE_NOT_EXIST_ID	خطأ في اسم الحساب أو في كلمة السر.
+LOGIN_FAILURE_NOT_MAIL_CONFIRM	يجب عليك تأكيد حسابك عبر البريد الإلكتروني.
+LOGIN_FAILURE_REPAIR_ID	سيتم إرجاع المعدات لهذا الحساب.
+LOGIN_FAILURE_SAMELOGIN	سجل أحد الأشخاص الدخول بحسابك.
+LOGIN_FAILURE_SERVER_CLOSED	خادم مغلق: يمكن فقط للحسابات التي تم انشائها قبل إغلاق الخادم الدخول اليه. الرجاء اختيار خادم آخر!
+LOGIN_FAILURE_SERVER_GRADE	هذا خادم حصري، ولا يمكن للأسف لهذا الحساب الوصول إليه.
+LOGIN_FAILURE_SHUTDOWN	الخادم غير متوفر.
+LOGIN_FAILURE_STEAM_SESSION	تسجيل الدخول للحسابات المنقولة / التسجيل الجديد غير ممكن.
+LOGIN_FAILURE_TNT_SESSION	لقد تعذر فتح العميل. يرجى اعادة تشغيل المشغل وتسجيل الدخول.
+LOGIN_FAILURE_TOO_MANY_USER	لقد تعذر ربط الاتصال بسبب العدد الكبير للاعبين.
+LOGIN_FAILURE_UNKNOWN	إنك لم تنجح في تسجيل الدخول نظراً لأسباب مجهولة.
+LOGIN_FAILURE_WEB_BLOCK	لقد تم فرض حظر عليك في هذه الصفحة. الرجاء مراجعة صندوق بريدك الإلكتروني.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	إن الرقم المُدرج غير صحيح.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	لقد أدخلت ثلاث مرات رقماً خاطئاً. سيتم الآن فصل الاتصال.
+LOGIN_FAILURE_WRONG_PASSWORD	خطأ في اسم الحساب أو في كلمة السر.
+LOGIN_INPUT_ID	الرجاء إدخال المُعرِّف.
+LOGIN_INPUT_PASSWORD	الرجاء إدخال كلمة السّر.
+LOGIN_PROCESSING	جاري التسجيل...
+LOOTING_SYSTEM_CANNOT_OPEN_MAP	لا يمكن فتح هذا هنا.
+LOOTING_TICKET_DURATION	الوقت المتبقي: %s
+LUCKY_BOX_DIALOG_RECV_TEXT	هل تريد قبول البند؟
+LUCKY_BOX_DIALOG_RETRY_TEXT	هل تود تجربة حظك مجددا؟
+MAILBOX_FAIL_USE_TIME_LIMIT	يتم تحديث صندوق البريد. الرجاء إعادة المحاولة لاحقًا.
+MAILBOX_POST_ALL_DELETE_FAIL_EMPTY	لا رسائل جديدة
+MAILBOX_POST_ALL_DELETE_QUESTION1	حذف جميع الرسائل؟
+MAILBOX_POST_ALL_DELETE_QUESTION2	لن يتم حذف الرسائل التي تحتوي على مرفقات.
+MAILBOX_POST_ALL_GET_ITEMS_FAIL_EMPTY	لا يوجد لديك اي رسائل تحتوي مرفقات في صندوق البريد الخاص بك.
+MAILBOX_POST_ALL_GET_ITEMS_QUESTION	قبول المرفقات؟ (سيتم إقتطاع 5% يانغ كضرائب)
+MAILBOX_POST_DELETE_FAIL_EXIST_ITEMS	لا يمكن حذف الرسالة. يرجى قبول المرفقات أولا.
+MAILBOX_POST_DELETE_QUESTION	هل تريد بالفعل حذف هذه الرسالة؟
+MAILBOX_POST_GET_ITEMS_NOT_ENOUGHT_INVENTORY	لا يمكن قبول البنود. قائمة الجرد الخاصة بك ممتلئة.
+MAILBOX_POST_GET_ITEMS_QUESTION	قبول المرفقات؟ (سيتم إقتطاع 5% يانغ كضرائب)
+MAILBOX_POST_GET_ITEMS_WON_OVERFLOW	لا يمكنك قبول المزيد من الوون.
+MAILBOX_POST_GET_ITEMS_YANG_OVERFLOW	لا يمكنك قبول المزيد من اليانغ.
+MAILBOX_POST_GM_ARRIVE	رسالة مشرف اللعبة
+MAILBOX_POST_NOT_CONFIRM_INFO_1	رسائل غير مقروءة: %d
+MAILBOX_POST_NOT_CONFIRM_INFO_2	بمرفقات: %d / بدون مرفقات: %d
+MAILBOX_POST_READ_BLOCK	هل أنت متأكد بأنك تود حظر %s؟
+MAILBOX_POST_WRITE_ALREADY_ITEM	يمكنك فقط ارسال بند واحد في الرسالة.
+MAILBOX_POST_WRITE_CAN_NOT_SPLIT_ITEM	قم بفصل البنود المجمعة في قائمة الجرد الخاصة بك قبل إرسال احدها في رسالة.
+MAILBOX_POST_WRITE_CONFIRM_FAIL	المتلقي غير معروف. لا يمكن إرسال الرسالة.
+MAILBOX_POST_WRITE_CONFIRM_FULL_MAILBOX	صندوق البريد الخاص بالمتلقي ممتليء. لا يمكن إرسال الرسالة.
+MAILBOX_POST_WRITE_LEVEL_LIMIT	يمكنك إرسال الرسائل ابتداءً من المستوى 20.
+MAILBOX_POST_WRITE_MONEY_NOT_ENOUGHT	ليس لديك ما يكفي من اليانغ لإرسال هذه الرسالة.
+MAILBOX_POST_WRITE_NAME_CHECK	قم بتأكيد اسم متلقي الرسالة عبر الضغط على "التحقق من المتلقي".
+MAILBOX_POST_WRITE_NAME_EMPTY	أدخل اسم المتلقي.
+MAILBOX_POST_WRITE_OK	تم إرسال الرسالة بنجاح.
+MAILBOX_POST_WRITE_QUESTION1	هل تود ارسال الرسالة إلى %s الآن؟
+MAILBOX_POST_WRITE_QUESTION2	رسوم التوصيل: %d يانغ
+MAILBOX_POST_WRITE_SEND_FAIL_EMPTY_NAME	أدخل اسم المتلقي.
+MAILBOX_POST_WRITE_SEND_FAIL_EMPTY_TITLE	أدخل العنوان.
+MAILBOX_POST_WRITE_SEND_MONEY_TITLE	مبلغ من المال
+MAILBOX_POST_WRITE_WRONG_ITEM	لا يمكنك ارسال بند مُرتبط بالروح.
+MAILBOX_POST_WRITE_WRONG_MESSAGE	الرسالة تحتوي على كلمات مُخلة بالأدب.
+MAILBOX_POST_WRITE_WRONG_TITLE	العنوان يحتوي على كلمات مُخلة بالأدب.
+MALL_CANNOT_INSERT	لا يمكنك وضع الشيء.
+MALL_PASSWORD_DESC1	الرجاء إدخال كلمة المرور،
+MALL_PASSWORD_DESC2	لفتح مستودع متجر البنود.
+MALL_PASSWORD_TITLE	كلمة السّر
+MAP_12ZI_STAGE	معبد زودياك
+MAP_A1	منطقة يونغان
+MAP_A2	وادي سوينغريونغ
+MAP_A2_1	
+MAP_A3	منطقة يايانغ
+MAP_AG	جونغرانغ
+MAP_B1	منطقة جوان
+MAP_B2	وادي إمجي
+MAP_B3	إقليم بوكيونغ
+MAP_BATTLEARENA_01	معركة الحصن
+MAP_BATTLEARENA_02	معركة الحصن
+MAP_BATTLEARENA_03	معركة الحصن
+MAP_BATTLE_FIELD	منطقة المعركة
+MAP_BATTLE_ROYALE	باتل رويال
+MAP_BAY	خليج نيفريت
+MAP_BAYBLACKSAND	خليج نيفريت
+MAP_BG	واريونغ
+MAP_BOSS_AWAKEN_DAWNMIST	ا.ح: غابة مسحورة
+MAP_BOSS_AWAKEN_FLAME	ا.ح: قلعة التنين الأحمر
+MAP_BOSS_AWAKEN_SKIPIA	ا.ح: كهف اللعنة
+MAP_BOSS_AWAKEN_SNOW	ا.ح: بُرج النمير
+MAP_BOSS_CRACK_DAWNMIST	ف.ز: غابة مسحورة
+MAP_BOSS_CRACK_FLAME	ف.ز: قلعة التنين الأحمر
+MAP_BOSS_CRACK_SKIPIA	ف.ز: كهف اللعنة
+MAP_BOSS_CRACK_SNOW	ف.ز: بُرج النمير
+MAP_BOSS_LABYRINTH	تلة الأوهام
+MAP_C1	منطقة بيونغمو
+MAP_C2	وادي بانغسان
+MAP_C3	منطقة باكرا
+MAP_CAPE	رأس نار التنين
+MAP_CAPEDRAGONHEAD	رأس نار التنين
+MAP_CG	إمها
+MAP_CZ_DUNGEON	معبد زودياك
+MAP_DAWN	جرف غواتاما
+MAP_DAWNMISTWOOD	جرف غواتاما
+MAP_DAWNMIST_DUNGEON_01	غابة مسحورة
+MAP_DEFENSE_WAVE	الدفاع عن السفينة
+MAP_DEFENSE_WAVE_PORT	ميناء
+MAP_DESERT	صحراء يونغبي
+MAP_DEVILCATACOMB	سرداب الموت
+MAP_DEVILTOWER1	برج الشياطين
+MAP_DUEL	ساحة تداريب القتال
+MAP_E	منطقة الليكانر
+MAP_EASTPLAIN_01	دونج_جوانج
+MAP_EASTPLAIN_02	أراضي سيوغان
+MAP_EASTPLAIN_03	نام_جوانج
+MAP_ELEMENTAL_DUNGEON	عالم العناصر
+MAP_ELEMENTAL_DUNGEON_DARK	عالم العناصر (ظلام)
+MAP_ELEMENTAL_DUNGEON_ELECTRICITY	عالم العناصر (برق)
+MAP_ELEMENTAL_DUNGEON_FIRE	عالم العناصر (نار)
+MAP_EMPIRECASTLE	القلعة المهجورة
+MAP_EMPIREWAR01	معركة الحصن
+MAP_EMPIREWAR02	معركة الحصن
+MAP_EMPIREWAR03	معركة الحصن
+MAP_FARMING_DUNGEON	برج محصن غامض
+MAP_FLAME	دويومهوان
+MAP_GOLDEN_LAND	الأرض الذهبية - المدخل
+MAP_GOLDEN_LAND_STAGE	الأرض الذهبية
+MAP_GUILD_01	جونغرانغ
+MAP_GUILD_02	واريونغ
+MAP_GUILD_03	إمها
+MAP_GUILD_BATTLE	منطقة معركة الرابطة
+MAP_GUILD_BATTLE_AREA	منطقة معركة الرابطة
+MAP_GUILD_BATTLE_BASE	قاعدة الرابطة الأمامية
+MAP_GUILD_BATTLE_OUTPOST	قاعدة الرابطة الأمامية
+MAP_GUILD_PVE	قصر ملك التنانين
+MAP_HOLYPLACE_DESERT	معركة الإمبراطورية-أرض الصحراء
+MAP_HOLYPLACE_FLAME	معركة الإمبراطورية-أرض النار
+MAP_HOLYPLACE_ICE	معركة الإمبراطورية الأرض الجليدية
+MAP_ICE_CRYSTALS_CAVE	مضيق الرياح الشمالية
+MAP_MAZE_DUNGEON_01	كهف الغنيز المستوى 1
+MAP_MAZE_DUNGEON_02	كهف الغنيز المستوى 2
+MAP_MAZE_DUNGEON_03	كهف الغنيز المستوى 3
+MAP_MILGYO	معبد هوانغ
+MAP_MILGYO_A	
+MAP_MINIBOSS_01	البرج المحصن الأزرق - المستوى 40-80
+MAP_MINIBOSS_02	البرج المحصن الأحمر – ابتداء من المستوى 81
+MAP_MISTS_OF_ISLAND	جزر الضباب
+MAP_MONKEY_DUNGEON	هاسون دونغ
+MAP_MONKEY_DUNGEON2	جانغسون دونغ
+MAP_MONKEY_DUNGEON3	سانغسون دونغ
+MAP_MONKEY_DUNGEON_11	هاسون دونغ
+MAP_MONKEY_DUNGEON_12	هاسون دونغ
+MAP_MONKEY_DUNGEON_13	هاسون دونغ
+MAP_MT_THUNDER	جبال الرعد
+MAP_MT_TH_DUNGEON_01	معبد الآشاو
+MAP_NUSLUCK	أرض العمالقة
+MAP_NUSLUCK01	أرض العمالقة
+MAP_N_DESERT_01	صحراء يونغبي
+MAP_N_DESERT_02	
+MAP_N_FLAME_01	أرض النار
+MAP_N_FLAME_02	
+MAP_N_FLAME_DRAGON	كهف ميلي
+MAP_N_FLAME_DUNGEON_01	قلعة التنين الأحمر
+MAP_N_SNOWM_01	جبل سوهان
+MAP_N_SNOWM_02	
+MAP_N_SNOW_DUNGEON_01	بُرج النمير
+MAP_N_THREEWAY	وادي سوينغريونغ
+MAP_OTHER_WORLD_01	الإنجاز
+MAP_OTHER_WORLD_02	العالم الآخر
+MAP_OTHER_WORLD_03	غرفة الاختبار
+MAP_OTHER_WORLD_04	الإدانة
+MAP_OXEVENT	مسابقة OX
+MAP_PATHWAY_DESERT_01	معركة الإمبراطورية-أرض الصحراء
+MAP_PATHWAY_DESERT_02	معركة الإمبراطورية-أرض الصحراء
+MAP_PATHWAY_DESERT_03	معركة الإمبراطورية-أرض الصحراء
+MAP_PATHWAY_FLAME_01	معركة الإمبراطورية-أرض النار
+MAP_PATHWAY_FLAME_02	معركة الإمبراطورية-أرض النار
+MAP_PATHWAY_FLAME_03	معركة الإمبراطورية-أرض النار
+MAP_PATHWAY_ICE_01	معركة الإمبراطورية-الأرض الجليدية
+MAP_PATHWAY_ICE_02	ساحة اللعب
+MAP_PATHWAY_ICE_03	معركة الإمبراطورية-الأرض الجليدية
+MAP_PRIVATE_SHOP_MAP	البازار
+MAP_PVP_ARENA	منطقة-لاعب ضد لاعب
+MAP_SECRET_DUNGEON	معبد الألغاز
+MAP_SKELTOWER	برج غومسان
+MAP_SKIPIA_DUNGEON_01	كهف اللعنة
+MAP_SKIPIA_DUNGEON_011	
+MAP_SKIPIA_DUNGEON_012	
+MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	كهف اللعنة 2
+MAP_SKIPIA_DUNGEON_021	
+MAP_SKIPIA_DUNGEON_022	
+MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS	معبد التنين
+MAP_SKIPIA_DUNGEON_BOSS_1	برج العناكب المحصن 1
+MAP_SKIPIA_DUNGEON_BOSS_2	برج العناكب المحصن 2
+MAP_SKIPIA_DUNGEON_BOSS_3	برج العناكب المحصن 3
+MAP_SNAKE_TEMPLE_1	المستوى الأول من معبد الأفاعي
+MAP_SNAKE_TEMPLE_2	معبد الأفاعي
+MAP_SNAKE_VALLEY	ممر ييلاد
+MAP_SNOW	جبل سوهان
+MAP_SPIDER	كواهلو دونغ
+MAP_SPIDERDUNGEON	برج العناكب المحصن 1
+MAP_SPIDERDUNGEON_02	برج العناكب المحصن 2
+MAP_SPIDERDUNGEON_02_1	برج العناكب المحصن 2
+MAP_SPIDERDUNGEON_03	برج العناكب المحصن 3
+MAP_SUNGMAHEE_GATE_A1	منطقة يونغان (غزو سونغ ماهي)
+MAP_SUNGMAHEE_GATE_B1	منطقة جوان (غزو سونغ ماهي)
+MAP_SUNGMAHEE_GATE_C1	منطقة بيونغمو (غزو سونغ ماهي)
+MAP_SUNGMAHEE_GATE_DAWNMIST	غابة مسحورة (غزو سونغ ماهي)
+MAP_SUNGMAHEE_GATE_DESERT	صحراء يونغبي (غزو سونغ ماهي)
+MAP_SUNGMAHEE_GATE_DEVILS	سرداب الموت (غزو سونغ ماهي)
+MAP_SUNGMAHEE_GATE_FLAME	دويومهوان (غزو سونغ ماهي)
+MAP_SUNGMAHEE_GATE_SNOW	جبل سوهان (غزو سونغ ماهي)
+MAP_SUNGMAHEE_GATE_THREEWAY	وادي سوينغريونغ (غزو سونغ ماهي)
+MAP_SUNGMAHEE_TOWER_DUNGEON	برج جحيم سونغ ماهي
+MAP_SUNGMAHEE_TOWER_WAIT	قاعة_الدخول
+MAP_SUNGZI	معركة الإمبراطورية
+MAP_SUNGZI_DESERT_01	معركة الإمبراطورية-أرض الصحراء
+MAP_SUNGZI_DESERT_HILL_01	معركة الإمبراطورية-أرض الصحراء
+MAP_SUNGZI_DESERT_HILL_02	معركة الإمبراطورية-أرض الصحراء
+MAP_SUNGZI_DESERT_HILL_03	معركة الإمبراطورية-أرض الصحراء
+MAP_SUNGZI_FLAME_HILL_01	معركة الإمبراطورية-أرض النار
+MAP_SUNGZI_FLAME_HILL_02	معركة الإمبراطورية-أرض النار
+MAP_SUNGZI_FLAME_HILL_03	معركة الإمبراطورية-أرض النار
+MAP_SUNGZI_SNOW	معركة الإمبراطورية-الأرض الجليدية
+MAP_SUNGZI_SNOW_PASS01	معركة الإمبراطورية-الأرض الجليدية
+MAP_SUNGZI_SNOW_PASS02	معركة الإمبراطورية-الأرض الجليدية
+MAP_SUNGZI_SNOW_PASS03	معركة الإمبراطورية-الأرض الجليدية
+MAP_T1	منطقة حرب الرابطة
+MAP_T2	منطقة حرب الرابطة
+MAP_T3	منطقة حرب الرابطة
+MAP_T4	منطقة حرب الرابطة
+MAP_TEMPLE	معبد هوانغ
+MAP_THUNDER	جبال الرعد
+MAP_TREASURE_ISLAND	جزيرة الكنز
+MAP_TREE	لونغسام (غابة الأشباح)
+MAP_TRENT	غابة الأشباح
+MAP_TRENT02	الغابة الحمراء
+MAP_TRENT02_A	الغابة الحمراء
+MAP_TRENT_A	
+MAP_WEDDING_01	خريطة الزواج
+MAP_WHITE_DRAGON_CAVE_01	حصن الرياح الشمالية
+MAP_WHITE_DRAGON_CAVE_02	طريق الرياح الشمالية
+MAP_WHITE_DRAGON_CAVE_BOSS	أعماق الرياح الشمالية
+MAP_WHITE_DRAGON_VALLEY	تلال الروح
+MAP_WL	ميدان الأفاعي
+MAP_WL_01	ميدان الأفاعي
+MC_ACCUMULATION_COUNT	عدد بطاقات الوحوش التي تم جمعها: %d
+MC_ACHIEV_NAME	%s (%d)
+MC_ACHIEV_REGIST_ABLE	لقد استوفيت متطلبات النجاح %s (%d نجمة).
+MC_ACHIEV_REGIST_FAIL	لا يمكنك المطالبة بالنجاح الآن.
+MC_ACHIEV_REGIST_FAIL_CHECK_COUNT	لا يمكنك المطالبة بالنجاح. أغلق النافذة وأعد المُحاولة من جديد.
+MC_ACHIEV_REGIST_QUESTION_1	هل تريد الحصول على النجاح %s؟ ستحتاج إلى %d أوراق لعب من الوحوش المخصصة.
+MC_ACHIEV_REGIST_QUESTION_2	لا يمكن التراجع عن العملية! هل ترغب في المتابعة؟
+MC_ACHIEV_SHOW_APPLYS	إظهار الحالة
+MC_ACHIEV_SHOW_MONSTER	إظهار الصورة
+MC_ALTER_TEXT	المهمة %d
+MC_CARD_FALL_SHORT	عدد البطاقات المسجلة غير كافي.
+MC_CARD_SHUFFLE	هل تريد إعادة خلط البطاقات من جديد؟
+MC_INIT_ITEM_FALL_SHORT	أنت بحاجة إلى %d بطاقة(ات) البدايات الجديدة.
+MC_MISSION_FAIL_MSG	لا توجد مهمة نشطة أو تم تخطي الحد المسموح.
+MC_MISSION_INIT	هل تريد استعادة مهمة المستوى 1؟
+MC_MISSION_NO_CLEAR	عليك أولًا إنجاز المهمة.
+MC_MOTION_BUTTON_OVER_MSG	هذا الخيار متاح ابتداءً من النجمة 2.
+MC_POLY_BUTTON_OVER_MSG	هذا الخيار متاح ابتداءً من النجمة 3.
+MC_POLY_FAIL	لا يمكنك التحول الآن.
+MC_POLY_QUESTION	هل تريد تحويل نفسك إلى هذا الوحش؟
+MC_PROMOTION_MAX	التحسين لم يعد متاحًا
+MC_PROMOTION_QUESTION	هل تريد زيادة المستوى؟
+MC_QUESTION_BUTTON_DESC1	الاستعادة متاحة فقط 6 مرات خلال كل 24 ساعة.
+MC_QUESTION_BUTTON_DESC2	تتطلب كل استعادة جديدة بعد ذلك إلى المزيد من بطاقات البدايات الجديدة.
+MC_QUESTION_BUTTON_DESC3	انقر هنا لعرض المتبق من زمن الاستراحة الإجبارية.
+MC_REWARD_FAIL	لا يوجد مكان كافي في قائمة الجرد.
+MC_REWARD_MISSION	هل تريد الحصول على بطاقة الوحوش الخاصة بك الآن؟
+MC_SHUFFLE_NO_ITEM	أنت لا تملك بطاقة خلط المهمة من الجديد.
+MC_TIME	استراحة إجبارية: %s
+MC_TRADE_QUESTION	سيتم خصم %d بطاقات منك. هل ترغب في المتابعة؟
+MC_USE_ITEM_FAIL	لا يمكن إضافة هذه البطاقة.
+MC_USE_ITEM_QUESTION	هل تريد إضافة بطاقة الوحوش هذه؟
+MC_WARP_BUTTON_OVER_MSG	هذا الخيار متاح ابتداءً من النجمة 4.
+MC_WARP_FAIL	لم يعد بإمكانك أن تنقل نفسك.
+MC_WARP_LIMIT_LEVEL	لا يزال مستواك ضعيفًا لكي تنقل نفسك.
+MC_WARP_QUESTION	هل تريد أن تنتقل إلى منطقة هذا الوحش؟
+MD_POPUP_MSG_1	يمكنك الدخول من خلال معبد زودياك فقط.
+MD_POPUP_MSG_2	إن حراس معبد زودياك بحاجة لإعادة بناء قوتهم.\nإمنحهم بعض الوقت.
+MD_SYSTEM_MSG_1	أنت لست زومبي. لا يمكنك القتال وأنت ميت.
+MEDAL_OF_HONOR	ميدالية الشرف
+MEDAL_OF_HONOR_SYSTEM_PICK	أحصل على بند: ميدالية الشرف x %d
+MERCENARY_ADD_REWARD	فرصة علاوة إضافية + %.1f%%
+MERCENARY_CHAT_AUTO_DISPATCH_FAIL	ليس لديك مرتزق للقيام بهذه المهمة.
+MERCENARY_CHAT_DISPATCH	ارسل الى %s
+MERCENARY_CHAT_DISPATCH_JOIN_WARNING	لقد اخترت مرتزق غير مؤهل.
+MERCENARY_CHAT_DISPATCH_MAX_COUNT	لقد اخترت الكثير من المرتزقة.
+MERCENARY_CHAT_DISPATCH_NOT_ENOUGHT_ACTIVE	ليس لديك ما يكفي من القدرة على التحمّل.
+MERCENARY_CHAT_DISPATCH_SELECT_MERCENARY	عليك أن تختار مرتزقا.
+MERCENARY_CHAT_DISPATCH_SELECT_MISSION	لم يتم تحديد مهام
+MERCENARY_CHAT_DONT_CLEAR_QUEST	أنت لم تكمل بعد متطلبات المهمة.
+MERCENARY_CHAT_DRAIN_MAIN_EXP_MERCENARY	لا يمكن استخدام هذا المرتزق إلا لتدريب الآخرين.
+MERCENARY_CHAT_DRAIN_MAX_LEVEL	لقد وصل هذا المرتزق بالفعل إلى المستوى الأقصى.
+MERCENARY_CHAT_DRAIN_MERCENARY_REGISTER	اختر المرتزق الذي تريد تدريبه وذلك الذي تريد منه القيام بالتدريب.
+MERCENARY_CHAT_DRAIN_NEED_MAIN	اختر متدرب مرتزق
+MERCENARY_CHAT_DRAIN_SUB_MAX_COUNT	يمكنك تسجيل ما يصل إلى 10 مرتزقة.
+MERCENARY_CHAT_EXIST_COMPLETE_MISSION	[مرتزقة] لديك المزيد من المهام المكتملة.
+MERCENARY_CHAT_GIVEUP	ألغيت مهمات %s
+MERCENARY_CHAT_MAIN_DRAIN_MERCENARY_WARNING	أصيب أحد المرتزقة المختارين.
+MERCENARY_CHAT_MAX_ACTIVE_INCREASE_FOR_LEVELUP	ستزداد قدرتك على التحمّل كلما صعدت في مستوى البطل.
+MERCENARY_CHAT_MAX_EXPAND_SLOT	لقد وصلت إلى الحد الأقصى الممكن من الأماكن.
+MERCENARY_CHAT_MAX_MERCENARY_EMPLOY	لم يعد بإمكانك تجنيد المرتزقة.
+MERCENARY_CHAT_MAX_YANG	لا يمكنك إلقاء نظرة على النتائج إذا كان لديك أكثر من 2 مليار يانغ.
+MERCENARY_CHAT_MERCENARY_ADD_DONE	لقد تم توظيف %s.
+MERCENARY_CHAT_MERCENARY_CURE_DONE	لقد تم شفاء %s.
+MERCENARY_CHAT_MERCENARY_DRAIN_DONE	لقد وصل %s إلى المستوى %d.
+MERCENARY_CHAT_MERCENARY_FIRE_DONE	لقد تم طرد %s.
+MERCENARY_CHAT_MERCENARY_NO_MORE_REGIST	لم يعد بإمكانك استخدام المرتزقة للتدريب.
+MERCENARY_CHAT_MERCENARY_SKILL_ADD_DONE	لقد وظفت %s بالقدرة %s.
+MERCENARY_CHAT_MERCENARY_SLOT_EXPAND	تم توسيع أماكن المرتزقة.
+MERCENARY_CHAT_MISSION_ACTIVE_GAIN	لقد حصلت على %d تحمّل. إجمالي نقاط التحمّل: %d
+MERCENARY_CHAT_MISSION_COMPLETE_NOTICE	[مرتزقة] لديك المزيد من المهام المكتملة.
+MERCENARY_CHAT_MISSION_REFRESH_FAIL_STATE_COMPLETE	لا يمكنك القيام بذلك بسبب وجود مهام مكتملة.
+MERCENARY_CHAT_MISSION_REFRESH_FAIL_STATE_RUN	لا يمكنك القيام بذلك لأنك قمت بإرسال المرتزقة.
+MERCENARY_CHAT_NOT_ENOUGHT_CONQUEROR_LEVEL	هذا متاح فقط للاعبي مستوى البطل.
+MERCENARY_CHAT_NOT_ENOUGHT_EXPAND_ITEM	لا زلت بحاجة إلى %d رخص تمديد.
+MERCENARY_CHAT_NOT_ENOUGHT_INVENTORY	قائمة الجرد الخاصة بك ممتلئة.
+MERCENARY_CHAT_NOT_ENOUGHT_YANG	هنالك %s يانغ مفقود.
+MERCENARY_CHAT_OVER_MAX_ACTIVE	لا يمكنك استخدام هذا لأنك وصلت بالفعل إلى أقصى قدر ممكن من التحمّل.
+MERCENARY_CHAT_SPECIFICITY_GAIN	حصلت على %s %s
+MERCENARY_CHAT_SUB_DRAIN_MERCENARY_WARNING	تم اختيار مرتزق تم إرساله أو مصاب.
+MERCENARY_CHAT_TIME_CURE_START	ابدأ العلاج باستخدام %s.
+MERCENARY_CONQUEROR_EXP_BONUS	خبرة البطل: %.1f%%
+MERCENARY_CURE_ALREADY	هذا المرتزق يتم شفاؤه بالفعل.
+MERCENARY_CURE_DELAY_ASK	هل تريد شفاء %s ببطء؟
+MERCENARY_CURE_DELAY_NEED_ITEM	أنت بحاجة إلى شفاء المرتزقة البطيء.
+MERCENARY_CURE_DONE	لقد تم بالفعل شفاء هذا المرتزق.
+MERCENARY_CURE_IMMEDIATELY_ASK	هل تريد شفاء %s على الفور؟
+MERCENARY_CURE_IMMEDIATELY_NEED_ITEM	أنت بحاجة إلى شفاء المرتزقة الفوري.
+MERCENARY_CURE_NOT_INJURY	لم يصب هذا المرتزق.
+MERCENARY_CURE_WILL_DONE	لا يمكنك شفاء المرتزق الذي يتم شفاؤه ببطء بالفعل.
+MERCENARY_DECREASE_INJURY_PCT	خطر الإصابة - %.1f%%
+MERCENARY_DECREASE_TIME	مدة الاستخدام - %.1f%%
+MERCENARY_EXP	نقاط خبرة المرتزقة:
+MERCENARY_EXP_MAX	الحد الأقصى
+MERCENARY_FIRA_DISPATCH	لا يمكنك طرد المرتزق المرسل.
+MERCENARY_FIRE_ASK	هل ترغب في طرد %s؟ لا يمكنك إعادة توظيف المرتزقة الذين تم إطلاقهم.
+MERCENARY_INCREASE_SUCCESS_PCT	فرصة النجاح + %.1f%%
+MERCENARY_INJURY_DANGER_BENEFITS	خطر الإصابة + %.1f%%
+MERCENARY_LEVEL	مستوى: %d
+MERCENARY_LOCK_SLOT_INFO	يمكنك توسيع فتحات المرتزقة الخاصة بك من خلال تراخيص التوسيع.
+MERCENARY_MISSION	استخدام
+MERCENARY_MISSION_BUTTON_GIVEUP	الإستسلام
+MERCENARY_MISSION_BUTTON_RESULT	النتائج
+MERCENARY_MISSION_BUTTON_START	إبدأ المهمة
+MERCENARY_MISSION_MAP_DAWNMIST	غابة مسحورة
+MERCENARY_MISSION_MAP_DESERT	صحراء يونغبي
+MERCENARY_MISSION_MAP_DEVILCATACOMB	سرداب الموت
+MERCENARY_MISSION_MAP_DEVILTOWER	برج الشياطين
+MERCENARY_MISSION_MAP_EASTPLAIN	دونج جوانج
+MERCENARY_MISSION_MAP_FLAME	كهف ميلي
+MERCENARY_MISSION_MAP_MAZE	كهوف الغنيز
+MERCENARY_MISSION_MAP_MILLGYO	معبد هوانغ
+MERCENARY_MISSION_MAP_NONE	لا شيء
+MERCENARY_MISSION_MAP_SKIPIA	كهف اللعنة
+MERCENARY_MISSION_MAP_SNAKETEMPLE	معبد الأفاعي
+MERCENARY_MISSION_MAP_SNAKEVALLEY	ممر ييلاد
+MERCENARY_MISSION_MAP_SNOW	بُرج النمير
+MERCENARY_MISSION_MAP_SPIDER	كوالو دونغ (برج العناكب المحصن)
+MERCENARY_MISSION_MAP_THREE	وادي سوينغريونغ
+MERCENARY_MISSION_MAP_WHITECAVE	حصن الرياح الشمالية
+MERCENARY_MISSION_NAME_PUNITIVE_DESTROY	تدمير
+MERCENARY_MISSION_NAME_PUNITIVE_EXPLORE	استكشاف
+MERCENARY_MISSION_NAME_PUNITIVE_LOW	تسليم (سهل)
+MERCENARY_MISSION_NAME_PUNITIVE_NONE	لا شيء
+MERCENARY_MISSION_NAME_PUNITIVE_UPPER	تسليم (صعب)
+MERCENARY_MISSION_REFRESH_FAIL_MERCENARY	لا يمكن التحديث إذا لم يكن هناك مرتزقة متاحون.
+MERCENARY_MISSION_STATE_COMPLETE_1	%s%s اكنملت.
+MERCENARY_MISSION_STATE_COMPLETE_2	أختر "النتائج"
+MERCENARY_MISSION_STATE_END	انتهت المهمة
+MERCENARY_MISSION_STATE_GIVEUP	لا يمكنك إعادة محاولة مهمة معينة.
+MERCENARY_MISSION_STATE_NONE	يمكنك بدء المهمة.
+MERCENARY_MISSION_STATE_RUN	%s %s يتم تنفيذه حاليا.
+MERCENARY_NAME_COLLECTOR	جامع
+MERCENARY_NAME_EXP	معلم
+MERCENARY_NAME_LUCKY	محظوظ
+MERCENARY_NAME_NIMBLE	أكثر مهارة
+MERCENARY_NAME_NORMAL	عادي
+MERCENARY_NAME_STRONG	قوي
+MERCENARY_NAME_TRAINED	خبير
+MERCENARY_NONE	لا شيء
+MERCENARY_POPUP_DISPATCH_DONT_USING_ITEM	هل ترغب في بدء المهمة دون تقليل قدرة التحمّل المطلوبة؟
+MERCENARY_POPUP_DISPATCH_START	هل ترغب في بدء المهمة؟
+MERCENARY_POPUP_DISPATCH_USING_ITEM	هل ترغب في تقليل قدرة التحمّل المطلوبة لهذه المهمة؟
+MERCENARY_POPUP_DRAIN_ASK	المرتزق المتدرب سيترك خدمته ويرحل. هل ترغب في المتابعة؟
+MERCENARY_POPUP_DRAIN_ASK_EXP	ضاعت خبرة المرتزق المتدرب. هل ترغب في المتابعة؟
+MERCENARY_POPUP_DRAIN_DEL_LEFT_EXP	ضاعت الخبرة المتبقية.
+MERCENARY_POPUP_DRAIN_NEED_SUB	اختر المرتزق الذي يجب أن يتدرب.
+MERCENARY_POPUP_DRAIN_SUB_LEVEL_WARNING	لقد اخترت مرتزقا رفيع المستوى. هل ترغب في المتابعة؟
+MERCENARY_POPUP_EMPLOY_ASK_1	هل تريد استئجار مرتزق؟
+MERCENARY_POPUP_EMPLOY_ASK_2	أنت بحاجة إلى رخصة مرتزقة وإلى %s يانغ.
+MERCENARY_POPUP_EXPAND_SLOT_QUESTION	هل تريد توسيع فتحات المرتزقة الخاصة بك؟ أنت بحاجة إلى %d.
+MERCENARY_POPUP_MISSION_FAIL	لقد فشلت المهمة %s!
+MERCENARY_POPUP_MISSION_GIVEUP_1	هل ترغب في إلغاء المهمة؟
+MERCENARY_POPUP_MISSION_GIVEUP_2	لا يمكنك إعادة محاولة مهمة معينة.
+MERCENARY_POPUP_MISSION_MERCENARY_INJURE	أصيب واحد أو أكثر من مرتزقتك.
+MERCENARY_POPUP_MISSION_REFRESH	تم تحديث جميع المخاطر. هل ترغب في المتابعة؟
+MERCENARY_POPUP_MISSION_RESULT	هل ترغب في رؤية نتيجة المهمة المكتملة؟
+MERCENARY_POPUP_MISSION_RESULT_DONT_USING_ITEM	هل ترغب في رؤية النتائج دون استخدام خلاصة قيادة الفيلق؟
+MERCENARY_POPUP_MISSION_RESULT_USING_ITEM	هل ترغب في استخدام خلاصة قيادة الفيلق للحصول على مكافآت إضافية؟\nلن تضيع إذا فشل مرتزقتك في إكمال المهمة.
+MERCENARY_POPUP_MISSION_REWARD_EXP	لقد ربحت خبرة البطل: %s
+MERCENARY_POPUP_MISSION_REWARD_YANG	لقد حصلت على %s من اليانغ.
+MERCENARY_POPUP_MISSION_SUCCESS	تم إنهاء المهمة %s بنجاح!
+MERCENARY_POPUP_MISSION_USE_ITEM	لقد حصلت على مكافأة إضافية من خلاصة قيادة الفيلق.
+MERCENARY_SKILL	المهارات: %s
+MERCENARY_SKILL_CONQUEROR_EXP_BONUS	نقاط خبرة إضافية من مستوى البطل
+MERCENARY_SKILL_DECREASE_INJURY_PCT	تقليل فرصة الاصابة
+MERCENARY_SKILL_DECREASE_TIME	تقليل مدة الاستخدام.
+MERCENARY_SKILL_INCREASE_SUCCESS_PCT	ترفع فرصة النجاح.
+MERCENARY_SKILL_INJURY_DANGER_BENEFITS	ميزة محفوفة بالمخاطر
+MERCENARY_SKILL_UNIQUE	فريد من نوعه
+MERCENARY_SPECIFICITY	تخصص: %s
+MERCENARY_SPECIFICITY_COLLECTOR	جامع
+MERCENARY_SPECIFICITY_EXPLAIN_GAIN	لدى المرتزق فرصة 50%% للحصول على تخصص عندما يصل إلى المستوى %d.
+MERCENARY_SPECIFICITY_EXPLAIN_UP	إذا وصلت إلى المستوى %d ، فهناك احتمال 50%% أن تحصل على %s.
+MERCENARY_SPECIFICITY_FIGHTER	مقاتل
+MERCENARY_SPECIFICITY_GRADE_LOWER	(سهل)
+MERCENARY_SPECIFICITY_GRADE_MIDDLE	(متوسط)
+MERCENARY_SPECIFICITY_GRADE_UPPER	(مرتفع)
+MERCENARY_SPECIFICITY_LUCKY	محظوظ
+MERCENARY_SPECIFICITY_NONE	لا شيء
+MERCENARY_SPECIFICITY_RESCUE	المنقذ
+MERCENARY_SPECIFICITY_SPY	كشاف
+MERCENARY_TOOLTIP_CLOSE	أغلق
+MERCENARY_TOOLTIP_DISPATCH	تم الإرسال
+MERCENARY_TOOLTIP_INJURE	إصابة
+MERCENARY_TOOLTIP_MANAGE	إدارة المرتزقة
+MERCENARY_TOOLTIP_MISSION	قائمة المهام
+MERCENARY_TOOLTIP_MISSION_COMPLETE	مُستَكمل
+MERCENARY_TOOLTIP_MISSION_DISPATCH	تم الإرسال
+MERCENARY_TOOLTIP_MISSION_END	إنهاء
+MERCENARY_TOOLTIP_MISSION_GIVEUP	إلغاء
+MERCENARY_TOOLTIP_MISSION_LOCKSLOT_1	يجب أن يكون مستوى بطلك قد تجاوز %d لفتح هذا.
+MERCENARY_TOOLTIP_MISSION_LOCKSLOT_2	كلما ارتفع المستوى الخاص بك، كانت المكافآت التي تحصل عليها من المهمات أفضل.
+MERCENARY_TOOLTIP_MISSION_REFRESH	كرر المهمة
+MERCENARY_TOOLTIP_MISSION_WAIT	متاح
+MERCENARY_TOOLTIP_POSSIBLE_MERCENARY	مرتزقة متاحة
+MERCENARY_UNDER_TREATMENT	شُفي المرتزق. (%02d ساعة %02d دقيقة متبقية)
+MERCENARY_UNIQUE_1	فرصة النجاح + %.1f%%
+MERCENARY_UNIQUE_2	فرصة النجاح + %.1f%%
+MESSAGE_CANNOT_USE_BEAD_ITEM	لا يمكنك استخدام هذا البند.
+MESSENGER_ADD_BLOCK_FRIEND	إضافة
+MESSENGER_ADD_FRIEND	إضافة صديق
+MESSENGER_BLOCK	تم الحظر
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	لقد اتخذك %s صديقاً له.
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	موافق؟
+MESSENGER_DO_YOU_DELETE	هل تريد حذفه؟
+MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	هل ترغب حذف رقم الهاتف المحمول؟
+MESSENGER_DO_YOU_MOVE	هل تريد الاستمرار؟
+MESSENGER_EMPTY_LIST	فارغ
+MESSENGER_FAMILY	عائلة
+MESSENGER_FRIEND	أصدقاء
+MESSENGER_GUILD	رابطة
+MESSENGER_INPUT_MOBILE_AUTHORITY_DESCRIPTION	أدخل رقم الشفرة الذي توصلت بها على هاتفك المحمول.
+MESSENGER_INPUT_MOBILE_AUTHORITY_TITLE	أدخل رقم الشفرة
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	الرجاء إدخال رقم هاتفك المحمول لإرسال الرسائل القصيرة.
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	هل ترغب في إدخال الرقم الآن؟
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	أدخل رقم الهاتف المحمول
+MESSENGER_SEND_MOBILE_MESSAGE_TITLE	إرسال الرسالة
+METIN_TEST	
+MINIGAMEUI_CALENDAR	تقويم الاحتفاليات
+MINIGAME_FISH_EVENT_ADD_ACCEPT	هل ترغب بإضافة هذا الشيء؟
+MINIGAME_FISH_EVENT_DROP_ACCEPT	هل تريد إسقاط هذا البند؟
+MINIGAME_FISH_EVENT_REWARD_MSG	لقد حصلت على %s.
+MINIGAME_FISH_EVENT_USE_ACCEPT	هل تريد إستخدام هذا البند؟
+MINIMAP	فتح الخريطة الصغيرة
+MINIMAP_CANNOT_SEE	لا يمكن إظهار الخريطة الصغيرة.
+MINIMAP_CAN_NOT_SHOW_AREAMAP	لا يمكن عرض الخريطة الكبيرة.
+MINIMAP_DEC_SCALE	تصغير
+MINIMAP_INC_SCALE	تكبير
+MINIMAP_OBSERVER_COUNT	مُشاهد %d
+MINIMAP_OPEN_INGAMEEVENT	احتفاليات
+MINIMAP_SHOW_AREAMAP	فتح الخريطة الكبيرة
+MINI_GAME_BNW_DONATE_QUESTION1	هل تريد التبرع؟
+MINI_GAME_BNW_DONATE_QUESTION2	التبرع الواحد سيستهلك 15 عملة معدنية.
+MINI_GAME_BNW_FONT	Arial:15
+MINI_GAME_BNW_GAME_GIVEUP_MSG1	هل أنت متأكد من أنك تريد إلغاء اللعبة؟
+MINI_GAME_BNW_GAME_GIVEUP_MSG2	تذكر أنك ستحصل على مكافآت عند الفوز.
+MINI_GAME_BNW_GAME_RESULT_DRAW	تعادل! لقد حصلت على %d عملة العراف.
+MINI_GAME_BNW_GAME_RESULT_LOSE	هزيمة! لقد حصلت على %d عملة العراف.
+MINI_GAME_BNW_GAME_RESULT_SCORE	النتيجة النهائية: %d
+MINI_GAME_BNW_GAME_RESULT_WIN	إنتصار! لقد حصلت على %d عملة العراف.
+MINI_GAME_BNW_NOT_ENOUGH_INVEN	لا يوجد مكان كافي في قائمة الجرد.
+MINI_GAME_BNW_NOT_ENOUGH_ITEM	أنت بحاجة إلى طقم ورق تاروت لتلعب.
+MINI_GAME_BNW_NOT_ENOUGH_YANG	ليس لديك يانغ كافي لتبدأ اللعبة.
+MINI_GAME_BNW_RESULT_DRAW1	رقمك متشابه.
+MINI_GAME_BNW_RESULT_DRAW2	تعادل!
+MINI_GAME_BNW_RESULT_LOSE1	رقمك أصغر.
+MINI_GAME_BNW_RESULT_LOSE2	هزيمة!
+MINI_GAME_BNW_RESULT_WIN1	رقمك أكبر.
+MINI_GAME_BNW_RESULT_WIN2	إنتصار!
+MINI_GAME_BNW_START_QUESTION	أنت بحاجة إلى 30000 يانغ وطقم ورق تاروت لتلعب. هل ترغب في المشاركة في المسابقة؟
+MINI_GAME_CATCHKING_CHALLENGE_TOOLTIP1	إذا قمت باستخدام أكثر من %s ستحصل على نفس العدد من الصناديق كجوائز.
+MINI_GAME_CATCHKING_CHALLENGE_TOOLTIP2	الحد الأقصى هو %d أطقم لعب ملكية.
+MINI_GAME_CATCHKING_HELP_MSG1	يا للأسف! قيمة بطاقتك أقل. لن تحصل على أي نقاط.\n يمكنك المتابعة ببطاقة أخرى من طقم أوراقك.
+MINI_GAME_CATCHKING_HELP_MSG2	أحسنت! البطاقتان متساويتان. لقد إنتهت جولتك.\n يمكنك المتابعة ببطاقة أخرى من طقم أوراقك.
+MINI_GAME_CATCHKING_HELP_MSG3	استمر! قيمة بطاقتك أعلى. \nقم بالكشف عن بطاقة أخرى.
+MINI_GAME_CATCHKING_HELP_MSG4	يوجد [5] في مدى البطاقة المقلوبة. للأسف لن تحصل على أي نقاط.\n إختر الملك [K] الآن.
+MINI_GAME_CATCHKING_POPUP_CATCH_FAIL	لقد تمكن الملك من الفرار! لقد إنتهت اللعبة. في حال حصولك\n على 10 نقاط على الأقل يمكنك الآن إستبدالها بجوائز.
+MINI_GAME_CATCHKING_POPUP_REWARD_FAIL	لا يمكنك الحصول على أي جوائز.
+MINI_GAME_CATCHKING_SEARCH_NUMBER5	يوجد [5] في المدى القريب.
+MINI_GAME_CATCHKING_START_QUESTION	يجب عليك دفع التالي للعب: %d يانغ و%s:%d قطعة\nهل تريد اللعب الآن؟
+MINI_GAME_CATCHKING_TOOLTIP_CARD1	يمكنها احتجاز البطاقة التالية: 1
+MINI_GAME_CATCHKING_TOOLTIP_CARD2	يمكنها احتجاز البطاقات التالية: 1، 2
+MINI_GAME_CATCHKING_TOOLTIP_CARD3	يمكنها احتجاز البطاقات التالية: 1، 2، 3
+MINI_GAME_CATCHKING_TOOLTIP_CARD4	يمكنها احتجاز البطاقات التالية: 1، 2، 3، 4
+MINI_GAME_CATCHKING_TOOLTIP_CARD5	يمكنها احتجاز البطاقات التالية: 1، 2، 3، 4، 5\nفي حال وجود [5] أخرى في المدى القريب للبطاقة التي تقوم بكشفها،\nستنتهي الجولة الخاصة بك ولن تحصل على أي نقاط.
+MINI_GAME_CATCHKING_TOOLTIP_CARD6	يمكنها احتجاز البطاقة التالية: K
+MINI_GAME_CATCHKING_TOOLTIP_SCORE1	%s: 550 نقطة أو أكثر
+MINI_GAME_CATCHKING_TOOLTIP_SCORE2	%s: 400 - 549 نقطة
+MINI_GAME_CATCHKING_TOOLTIP_SCORE3	%s: 10 - 399 نقطة
+MINI_GAME_CATCHKING_TOOLTIP_SCORE4	ستحصل على 10 نقاط إضافية عند كشفك عن جميع البطاقات في نفس الجولة.
+MINI_GAME_GIVEUP_QUESTION	هل أنت متأكد من أنك تريد إلغاء اللعبة؟ ستتخلى عن مكافئتك.
+MINI_GAME_NOTICE_1	أنقر "رمي" لمعرفة اللاعب الذي سيبدأ.
+MINI_GAME_NOTICE_2	رمي عصي يوت.
+MINI_GAME_NOTICE_3	لقد قام الحاسوب برمي عصي يوت لمعرفة اللاعب الذي سيبدأ.
+MINI_GAME_NOTICE_4	لقد حصل الحاسوب على الرقم الأقل وهو من سيبدأ.
+MINI_GAME_NOTICE_5	بقد حصلت على الرقم الأقل وأنت من سيبدأ.
+MINI_GAME_NOTICE_6	رميتك: %s. تحرك %d خانة/خانات إلى الأمام.
+MINI_GAME_NOTICE_7	رميتك: %s. عليك العودة خانة واحدة.
+MINI_GAME_NOTICE_8	رمية: %s
+MINI_GAME_NOTICE_9	لاعب الحاسوب يتحرك الآن.
+MINI_GAME_NOTICE_10	ها! لقد تغلبت على الحاسوب.
+MINI_GAME_NOTICE_11	يا لسوء الحظ! لقد تغلب عليك الحاسوب.
+MINI_GAME_NOTICE_12	لقد حصلت على يوت أو مو ويمكنك الرمي من جديد.
+MINI_GAME_NOTICE_13	لقد إنتهت اللعبة أحصل على مكافئتك.
+MINI_GAME_RUMI_DISCARD_QUESTION	هل تريد حقّا حذف هذه الورقة؟
+MINI_GAME_RUMI_EXIT_QUESTION	هل ترغب في إنهاء جولتك والحصول على جائزتك؟\nسيتم بذلك تصفير نقاطك وما إلغاء ما تبقى من ورقك!
+MINI_GAME_RUMI_START_QUESTION	عليك للمشاركة في اللعب دفع رسوم بقيمة %d يانغ. كما أنك ستحتاج لـ %d طقم/طقوم ورق.\nهل تريد بدأ اللعب؟
+MINI_GAME_YUTNORI_COM_WIN	مرّة ينهزم فيها المرء ومرّة يفوز الآخرون.
+MINI_GAME_YUTNORI_PC_WIN	وإلى المنتصر تذهب الغنائم.
+MINI_GAME_YUTNORI_PC_WIN_SCORE	النتيجة: %d
+MINI_GAME_YUTNORI_RETHROW_BUTTON	رمي
+MINI_GAME_YUTNORI_RETHROW_POPUP	محظوظ! إنه دورك مجددا.
+MINI_GAME_YUTNORI_SCORE_FONT	Tahoma:24b
+MINI_GAME_YUTNORI_START_QUESTION	لتبدأ يوتنوري، تحتاج إلى %d يانغ وإلى %d لوحة لعب يوتنوري. \n العب الآن؟
+MINUTE	د
+MISTS_ISLAND_BUFF_MSG_01	طاقة +2
+MISTS_ISLAND_BUFF_MSG_02	معدل إسقاط البنود +10%
+MISTS_ISLAND_BUFF_MSG_03	قوة، ذكاء، حيوية، مناورة +3
+MISTS_ISLAND_BUFF_MSG_04	معدل إسقاط اليانغ +10%
+MISTS_ISLAND_BUFF_MSG_05	زيادة علاوات الأزياء بنسبة 3%
+MISTS_ISLAND_INFO_01	مستواك ما زال ضعيفًا.
+MISTS_ISLAND_INFO_02	ليس لديك يانغ كافٍ.
+MISTS_ISLAND_INFO_03	لا توجد معركة حالية.
+MISTS_ISLAND_MSG_01	لقد تم تدمير %s بواسطة %s!
+MISTS_ISLAND_MSG_02	قام %s بغزو %s!
+MISTS_ISLAND_MSG_03	لقد قام %s بإحتلال %s!
+MISTS_ISLAND_MSG_04	لقد حصل %s على %s!
+MISTS_ISLAND_MSG_05	لقد قام %s بتطوير %s إلى المستوى %d بنجاح!
+MISTS_ISLAND_MSG_06	لقد ظهر %s في ساحة المعركة!
+MISTS_ISLAND_QUESTION_01	هل تريد أن تغادر معركة الأضرحة الخمسة؟
+MISTS_ISLAND_QUESTION_02	هل ترغب بالإنتقال فورا إلى الضريح الذي تعرض للهجوم مؤخرًا؟ \n السعر: %s يانغ
+MISTS_ISLAND_TOOLTIP_01	[%s]
+MISTS_ISLAND_TOOLTIP_02	إحتلال الإمبراطورية: %s
+MISTS_ISLAND_TOOLTIP_03	مستوى التحسين: +%d
+MISTS_ISLAND_TOOLTIP_04	علاوة الإحتلال: %s
+MISTS_ISLAND_TOOLTIP_05	غزو الأضرحة
+MISTS_ISLAND_TOOLTIP_06	1. للسيطرة على ضريح، يجب أولا أن يتم تدميره.
+MISTS_ISLAND_TOOLTIP_07	2. المملكة التي لديها أكبر عدد من المقاتلين في مكان قريب بعد دقيقة واحدة، ستحتل الضريح.
+MISTS_ISLAND_TOOLTIP_08	3. بعد 3 دقائق، يظهر الضريح بلون الإمبراطورية التي قامت بغزوه.
+MISTS_ISLAND_TOOLTIP_09	4. كلما زادت مدة سيطرت الإمبراطورية نفسها على الضريح، كلما كان من الصعب على الضريح تدمير نفسه.
+MONETARY_UNIT0	يانغ
+MONETARY_UNIT1	عشرة ألف
+MONETARY_UNIT2	مئة مليون
+MONEY_INPUT_DIALOG_SELLPRICE	سعر البيع:
+MOUNT_UPGRADE_SYSTEM_BANN_WHILE_MOUNTING	لا يمكنك القيام بهذا من فوق دابة.
+MOUNT_UPGRADE_SYSTEM_CONQUEROR_LEVEL_MSG	يمكنك زيادة مستوى حصانك بمجرد وصولك إلى مستوى البطل.
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_POPUP_COST	تحتاج إلى %d علف الحصان و %d يانغ.
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_POPUP_MSG_LEVEL	هل تريد محاولة رفع مستوى حصانك إلى %d؟
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_POPUP_RETRY_COST	لرفع مستوى الحصان الخاص بك تحتاج إلى %d علف الحصان، %d غايا و %d يانغ.
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_RESULT_GEM_NOT_ENOUGH	ليس لديك ما يكفي من الغايا.
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_RESULT_PERCENT_FAIL	فشل في رفع مستوى الحصان
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_RESULT_PERCENT_SUCCESS	تم رفع مستوى الحصان إلى %d.
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_RESULT_YANG_OR_FEED_NOT_ENOUGH	ليس لديك ما يكفي من علف الحصان أو اليانغ.
+MOUNT_UPGRADE_TOOLTIP_SKILL_NEXT_LEVEL	المستوى التالي: %d (الأقصى %d)
+MOVE_CHANNEL_99	CH0
+MOVE_CHANNEL_CANCEL	إلغاء
+MOVE_CHANNEL_NOTICE	أنت متصلًا بالقناة %d.
+MOVE_CHANNEL_NOT_MOVE	لا يمكنك تغيير قناتك.
+MOVE_CHANNEL_SELECT	موافق
+MOVE_CHANNEL_TITLE	اختيار القناة
+MOVE_ITEM_FAILURE_PRIVATE_SHOP	لا يمكنك تغيير مكان أي شيء، طالما أنك تملك متجراً شخصياً.
+MUSIC_EMPTY_MUSIC_LIST	بدون موسيقى مرافقة.
+MUSIC_METIN2_DEFAULT_THEMA	موسيقى Metin2
+MUSIC_NOT_SELECT_MUSIC	لم يتم اختيار ملف موسيقي.
+NEEFD_REST	عليك أولاً الاستراحة.
+NOT_YET_SUPPORT	لا يتم دعمه.
+NPC_LOCATION_HELPER_ATLAS_DONT_SHOW_MAP	هذه الخريطة غير مُتاحة.
+NPC_LOCATION_HELPER_ATLAS_UNLOCKED_MAP_1	لا يمكنك رؤية الخريطة بأكملها.
+NPC_LOCATION_HELPER_ATLAS_UNLOCKED_MAP_2	أكملها أولا: %s.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_CAN_ONLY_WARP_FROM_SAME_MAP	لا يمكنك الانتقال مباشرةً إلى شخصية ما (وليس لاعبًا) إلا إذا كنت على نفس الخريطة.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_CONQUEROR_LEVEL_LIMIT	الخريطة المحددة غير متاحة لمستواك الحالي.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_COOLTIME	يمكنك الانتقال فوريًا مرة أخرى خلال %d دقيقة.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_COOLTIME_LESS_THAN_1M	يمكنك الانتقال فوريا مرة أخرى في أقل من دقيقة واحدة.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_DEAD	لا يمكنك الانتقال الفوري وأنت ميت.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_DIFFERENT_EMPIRE	لا يمكنك الانتقال فوريًا إلى شخصية موجودة في امبراطورية اخرى.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_GOLD	ليس لديك مايكفي من %s.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_GOTO_OR_WARP	لا يمكنك الانتقال فوريًا إلى هذه الشخصية.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_INSTANCE_DUNGEON	لا يمكنك النقل الفوري إلى برج محصن.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_ITEM	ليس لديك مايكفي من %s.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_LEVEL_LIMIT	الخريطة المحددة غير متاحة لمستواك الحالي.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_MOUNT	لا يمكنك الانتقال الفوري اثناء الركوب.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_NEW_WORLD	يجب أن تكون في مستوى البطل 1 لتتمكن من النقل فوريًا.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_PLAYER_IN_INSTANCE_DUNGEON	لا يمكنك الانتقال الفوري من مكان وجودك.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_STONE_OF_WARP	ليس لديك ما يكفي من أحجار النقل الفوري.
+NPC_LOCATION_HELPER_CAN_WARP_TO_NPC_STATE_FALSE_WINDOW_OPENED	لا يمكنك النقل فوريًا أثناء فتح قوائم أخرى.
+NPC_LOCATION_HELPER_MAP_LOCKED	غير مُتاح
+NPC_LOCATION_HELPER_MESSAGE_ALREADY_OPENED_MAP	لقد فتحت هذه الخريطة بالفعل.
+NPC_LOCATION_HELPER_MESSAGE_CANNOT_TOGGLE_ATLAS_DISABLED	يجب أن يكون مكتشف الشخصيات لديك مفعلاً.
+NPC_LOCATION_HELPER_MESSAGE_CANNOT_TOGGLE_ATLAS_HERE	لا يمكن استخدام مكتشف الشخصيات هنا.
+NPC_LOCATION_HELPER_MESSAGE_CANNOT_TOGGLE_TO_SMALL_ATLAS	لا يمكن تبديل الخريطة في هذه المنطقة.
+NPC_LOCATION_HELPER_MESSAGE_CANNOT_USE_MAP_DISABLED	يجب أن يكون مكتشف الشخصيات لديك مفعلاً.
+NPC_LOCATION_HELPER_MESSAGE_CANNOT_USE_STONE_OF_WARP_DISABLED	يجب أن يكون مكتشف الشخصيات لديك مفعلاً.
+NPC_LOCATION_HELPER_MESSAGE_CANNOT_WARP_TO_NPC_NOW	لا يمكنك نقل نفسك الآن.
+NPC_LOCATION_HELPER_MESSAGE_GUILD_LAND_UPDATE_COOLTIME	الرجاء المحاولة مجددًا.
+NPC_LOCATION_HELPER_MESSAGE_MAP_NOT_PROVIDED	لا توجد خريطة متاحة هنا.
+NPC_LOCATION_HELPER_MESSAGE_MAP_UNLOCKED	%s اكتملت. الآن يمكنك استخدام جميع وظائف %s.
+NPC_LOCATION_HELPER_MESSAGE_MOB_SPAWN_POS_SEARCH_ALREADY_SEARCHED	لقد تم عرض منطقة هذا الوحش لك بالفعل.
+NPC_LOCATION_HELPER_MESSAGE_MOB_SPAWN_POS_SEARCH_CANNOT_SHOW_OTHER_MAP	لا يمكنك عرض المنطقة المحددة للوحش الذي يظهر فقط على خريطة أخرى.
+NPC_LOCATION_HELPER_MESSAGE_MOB_SPAWN_POS_SEARCH_NOT_AVAILABLE	منطقة الوحش المحدد غير معروفة.
+NPC_LOCATION_HELPER_MESSAGE_MOB_SPAWN_POS_SEARCH_NOT_ENOUGH_ITEM	ليس لديك البند المطلوب لمعرفة مكان وجود هذا الوحش.
+NPC_LOCATION_HELPER_MESSAGE_MOB_SPAWN_POS_SEARCH_NOT_SELECTED	حدد الوحش الذي ترغب في معرفة مكان وجوده.
+NPC_LOCATION_HELPER_MESSAGE_MOB_SPAWN_POS_SEARCH_SUCCESS	المنطقة التي يتواجد فيها %s موضحة على الخريطة.
+NPC_LOCATION_HELPER_MESSAGE_NOT_ENOUGH_STONE_OF_WARP	ليس لديك ما يكفي من أحجار النقل الفوري.
+NPC_LOCATION_HELPER_MESSAGE_SELECTED_NPC_IS_NEAR	الشخصية المختارة قريبة.
+NPC_LOCATION_HELPER_MESSAGE_SHOULD_SELECT_CATEGORY	حدد المنطقة.
+NPC_LOCATION_HELPER_MESSAGE_TICKET_ALREADY_USED	لا يمكنك استعمال هذا الشيء بعد الآن.
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_ALCHEMY_DS	كيمياء حجر التنين
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_COMBINE	مزج
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_CUBE	صناعة
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_DUNGEON	مدخل البرج المحصن
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_EQUIPMENT_SHOP	تجار العتاد
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_EVENT	احتفالية
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_FISHING	ادوات صيد
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_GEM	غايا
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_GENERAL_SHOP	مواد استهلاكية
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_GUILD_LAND	أرض الرابطة
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_JOB	المعلم
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_MAIL	بريد
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_MINING	التعدين
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_MOUNT	دواب
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_NPC	شخصيات أخرى
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_PORTAL	بوّابة
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_REFINE	تحسين
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_TELEPORT	انتقال
+NPC_LOCATION_HELPER_NPC_ROLE_TOOLTIP_WAREHOUSE	أمين المستودع
+NPC_LOCATION_HELPER_QUESTION_USE_TICKET	هل تريد تفعيل مكتشف الشخصيات؟
+NPC_LOCATION_HELPER_WARP_TO_NPC_NEED_ITEM	%s x %d
+NPC_LOCATION_HELPER_WARP_TO_NPC_NEED_ITEM_OR	أو
+NPC_LOCATION_HELPER_WARP_TO_NPC_NEED_YANG	%d يانغ
+NPC_LOCATION_HELPER_WARP_TO_NPC_QUESTION_1	هل تريد استخدام %d حجر النقل/حجر النقل+ للانتقال فوريًا إلى %s؟
+NPC_LOCATION_HELPER_WARP_TO_NPC_QUESTION_2	المطلوب للنقل الفوري:
+OKEY_EVENT_MESSAGE_CARD_GAIN	حصلت على مجموعة (مجموعات) بطاقة Okey.
+OKEY_EVENT_MESSAGE_CARD_PEICE_GAIN	حصلت على بطاقات Okey.
+OKEY_EVENT_MESSAGE_IN_EXCHANGE	لا يمكنك لعب Okey عندما يكون لديك نافذة أخرى مفتوحة.
+OKEY_EVENT_MESSAGE_LEVEL_LIMIT	يجب أن يكون مستواك 70 على الأقل للمشاركة.
+OKEY_EVENT_MESSAGE_NOT_ENOUGHT_ITEM	ليس لديك ما يكفي من البنود أو المال للعب.
+OKEY_EVENT_MESSAGE_NO_MORE_GAIN	لا يمكنك استلام المزيد من مجموعات Okey.
+OPEN_THE_SPECIAL_ACTION_KIT	تم إضافة %s إلى العاطفة.
+OPTION_ESCAPE_BUTTON_COOLTIME	الرجاء إعادة المحاولة لاحقًا.
+OPTION_ESCAPE_CANNOT_ESCAPE_STATE	لا يمكنك تحرير نفسك الآن. الرجاء إعادة المحاولة لاحقًا.
+OPTION_ESCAPE_FAR_DISTANCE	لا يمكنك تحرير نفسك لأنك تحركت أكثر من 10 أمتار.
+OPTION_ESCAPE_QUESTION_ANSWER_NO	أنت لم تحرر نفسك.
+OPTION_ESCAPE_QUESTION_MESSAGE	سيتم نقلك إما إلى مكان فارغ أو إلى القرية.\n هل تريد تحرير شخصيتك؟
+OPTION_ESCAPE_SYSTEM_BUTTON_TOOLTIP	استخدم هذا الخيار إذا واجهتك مشكلة.
+OPTION_ESCAPE_WAIT_MESSAGE	سيتم إطلاق سراحك في غضون %d ثانية.
+OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	لا يمكنك تفعيل خدمة الرابطة إذا لم تكُن عضواً فيها.
+OPTION_PVPMODE_NOT_SUPPORT	لا يمكنك استعمال خيار لاعب ضد لاعب.
+OPTION_PVPMODE_PROTECT	يجب أن يصل مستواك %d كأدنى حد لكي تتمكن من تغيير نظام لاعب ضد لاعب.
+OTHER_WORLD_DUNGEON_EXIT_QUESTION	هل تريد التوقّف عن القتال؟
+OTHER_WORLD_EXCHANGE_COOLTIME	الرجاء إعادة المحاولة لاحقًا.
+OTHER_WORLD_EXCHANGE_FAIL	للأسف، لم تحصل على أي شيء في المقابل.
+OTHER_WORLD_EXCHANGE_MAX_OVER_FAIL	لا يمكنك استخدام أكثر من الحد الأقصى لعدد البنود.
+OTHER_WORLD_EXCHANGE_WISP_TOOLTIP	استبدال لهب الموت
+OTHER_WORLD_GET_DEAD_SOUL	لقد تلقيت %d أرواح الموتى.
+OTHER_WORLD_GET_HELL_GATE_KEY	لقد تلقيت %d مفاتيح أزموديوس.
+OTHER_WORLD_GET_LIFE_AND_DEATH_LIST	لقد تلقيت %d رسائل سوداء.
+OTHER_WORLD_GET_REINCARNATION_WATER	لقد تلقيت %d ماء الحياة.
+OTHER_WORLD_GET_WISP	لقد تلقيت %d لهب الموتى.
+OTHER_WORLD_INFO_BOARD_TYPE_EAST_REAPER_ROOM	اختر حارس الأرض الذي تريد مواجهته.
+OTHER_WORLD_INFO_BOARD_TYPE_NORTH_REAPER_ROOM	كلما ماتت شخصية، يتم تقليل مؤقت الأبراج المحصنة بمقدار دقيقة واحدة.
+OTHER_WORLD_INFO_BOARD_TYPE_PARADISE	ماء الحياة غير متاح.
+OTHER_WORLD_INFO_BOARD_TYPE_SOUTH_REAPER_ROOM	اقتل كل الوحوش في الوقت المحدد.
+OTHER_WORLD_INFO_BOARD_TYPE_WEST_REAPER_ROOM	إهزم حارس الظلام، دون أن تتعرض للموت.
+OTHER_WORLD_INFO_BOARD_TYPE_YEOMWANG_ROOM	إهزم أزموديوس قبل نفاذ الوقت.
+PARTY_ANSWER_TIMEOVER	رُفضت الدّعوة.
+PARTY_BONUS_ATTACKER	قيمة الهجوم: +%d	SA
+PARTY_BONUS_BERSERKER	سرعة الهجوم: +%d	SA
+PARTY_BONUS_BUFFER	مدة المهارة: +%d	SA
+PARTY_BONUS_DEFENDER	الدفاع +%d%%	SA
+PARTY_BONUS_EXP	نقاط إضافية في الخبرة: %d%%	SA
+PARTY_BONUS_SKILL_MASTER	إستعادة نقاط الحياة عند القتل +%d%%	SA
+PARTY_BONUS_TANKER	نقاط حياة قصوى:+%d	SA
+PARTY_BREAK_UP	حذف المجموعة
+PARTY_DO_YOU_ACCEPT	 يرغب في الانضمام إلى المجموعة.
+PARTY_DO_YOU_JOIN	 دعاك إلى المجموعة. هل تريد قبول الدعوة؟
+PARTY_EXP_DISTRIBUTION_MODE	تقسيم نقاط الخبرة
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL	حسب المستوى
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	سيحصل أعضاء المجموعة ذوي المستويات المرتفعة على نقاط خبرة إضافية.
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	مُتساو
+PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	ينال جميع أعضاء المجموعة نقاط الأسلوب بالتساوي.
+PARTY_HEAL_ALL_MEMBER	استرجاع الوضع الأولي للجميع
+PARTY_INCREASE_AREA_150	ارتفاع مدى المجموعة بعامل 1,5.	SNA
+PARTY_INCREASE_AREA_200	ارتفاع مدى المجموعة بعامل 2	SNA
+PARTY_LEAVE	مغادرة المجموعة
+PARTY_LONGTIME_BONUS_EXP	علاوة إضافية على نقاط الخبرة لتمديد مدة اللعب الجماعي: +%d%%	SA
+PARTY_MATCH_CANCEL	تم إلغاء عملية البحث عن مجموعة ل[%s].
+PARTY_MATCH_FAIL_FULL_MEMBER	لا يمكن لمجموعتك إضافة عضو جديد.
+PARTY_MATCH_FAIL_IMPOSSIBLE_MAP	لا يمكنك التسجيل لهذا البرج المحصن.
+PARTY_MATCH_FAIL_LEVEL	مستواك ما زال ضعيفًا.
+PARTY_MATCH_FAIL_MEMBER_NOT_CONDITION	العضو %s لا تتوفر فيه الشروط اللازمة.
+PARTY_MATCH_FAIL_NONE_MAP_INDEX	يرجى إختيار برج محصن أولا.
+PARTY_MATCH_FAIL_NOT_LEADER	يمكن فقط لقائد المجموعة التسجيل.
+PARTY_MATCH_FAIL_NO_ITEM	ليس لديك ما يكفي من %s.
+PARTY_MATCH_SEARCHING	بحث
+PARTY_MATCH_START	لقد قمت بتسجيل مجموعتك لهذا البرج المحصن: [%s]!
+PARTY_MEMBER_OFFLINE	[غير متصل]
+PARTY_RECALL_MEMBER	استدعاء  أعضاء المجموعة.
+PARTY_REGEN_BONUS	نقاط حياة إضافية- + تجديد نقاط الأسلوب:+%d%%	SA
+PARTY_REQUEST_DENIED	لقد رُفض طلبك.
+PARTY_RK_CATEGORY_CZ_CHICKEN	لائحة رُّتب الحارس يو
+PARTY_RK_CATEGORY_CZ_COW	لائحة رُّتب الحارس تشاو
+PARTY_RK_CATEGORY_CZ_DOG	لائحة رُّتب الحارس زو
+PARTY_RK_CATEGORY_CZ_DRAGON	لائحة رُّتب الحارس تشن
+PARTY_RK_CATEGORY_CZ_HORSE	لائحة رُّتب الحارس وو
+PARTY_RK_CATEGORY_CZ_MONKEY	لائحة رُّتب الحارس شين
+PARTY_RK_CATEGORY_CZ_MOUSE	لائحة رُّتب الحارس تسي
+PARTY_RK_CATEGORY_CZ_PIG	لائحة رُّتب الحارس هاي
+PARTY_RK_CATEGORY_CZ_RABBIT	لائحة رُّتب الحارس ماو
+PARTY_RK_CATEGORY_CZ_SHEEP	لائحة رُّتب الحارس وي
+PARTY_RK_CATEGORY_CZ_SNAKE	لائحة رُّتب الحارس سي
+PARTY_RK_CATEGORY_CZ_TIGER	لائحة رُّتب الحارس يين
+PARTY_SET_ATTACKER	وظِّفهُ كمهاجم.
+PARTY_SET_BERSERKER	تعيينه كهائج.
+PARTY_SET_BUFFER	وظِّفه كمُتصدِّي.
+PARTY_SET_DEFENDER	وظفه كمدافع.
+PARTY_SET_NORMAL	إلغاء التعديل.
+PARTY_SET_SKILL_MASTER	تعينه بصفته سيد المهارات.
+PARTY_SET_TANKER	تعيين كمحارب في القتال عن قرب.
+PARTY_SKILL_ATTACKER	قيمة الهجوم الأساسية مهاجم +%.0f
+PARTY_SKILL_BERSERKER	سرعة هجوم الهائج +%.0f
+PARTY_SKILL_BUFFER	مدة مهارة المتصدي +%.0f
+PARTY_SKILL_DEFENDER	الدفاع كمُدافع +%.0f%%
+PARTY_SKILL_HP_REGEN	تجديد نقاط الحياة +%.0f%%
+PARTY_SKILL_PARTY_AREA	مدى المجموعة +%d%%
+PARTY_SKILL_SKILL_MASTER	استعادة نقاط الحياة سيد المهارة+: %.0f%%
+PARTY_SKILL_SP_REGEN	تجديد نقاط الأسلوب +%.0f%%
+PARTY_SKILL_TANKER	نقاط الحياة القصوى للمقاتل عن قرب +%.0f.
+PARTY_SKILL_WARP	بإمكانه نداء أعضاء المجموعة.
+PASSIVE_ATTR_ADD_FAIL	فشل! لم يتم نقل العلاوات إلى أثر الروح.
+PASSIVE_ATTR_ADD_FAIL_MAX_ATTR	لا يمكن لأثر الروح هذا استيعاب المزيد من العلاوات.
+PASSIVE_ATTR_ADD_FAIL_NOT_ENOUGH_JOB_ITEM	تحتاج إلى أثر روح لطبقتك.
+PASSIVE_ATTR_ADD_SUCCESS	نجاح! لقد تم نقل العلاوات إلى أثر الروح.
+PASSIVE_ATTR_CHARGE_FAIL_FULL_TIME	أثر الروح مشحون بالفعل.
+PASSIVE_ATTR_CHARGE_FAIL_NOT_ENOUGH_JOB_ITEM	لا يوجد أثر روح ليتم شحنه.
+PASSIVE_ATTR_CHARGE_QUESTION	هل تريد إعادة شحن أثر الروح؟
+PASSIVE_ATTR_CHARGE_SUCCESS_MSG	لقد تم غعادة شحن وقت أثر الروح بالكامل.
+PASSIVE_ATTR_CONTROL_FAIL_MSG	لا يمكنك القيام بهذا أثناء التفعيل.
+PASSIVE_ATTR_COOLTIME_FAIL_MSG	الرجاء إعادة المحاولة لاحقًا.
+PASSIVE_ATTR_NOT_ENOUGH_SUB_ITEM	أنت بحاجة إلى روح مناسبة لهذا.
+PASSIVE_JOB_ACTIVATE_FAIL_NOT_FOUND_ITEM	تحتاج إلى أثر روح لطبقتك.
+PASSIVE_JOB_DESTROY_POPUP	إذا قمت برمي أثر الروح، فسيتم تدميره. هل أنت متأكد؟
+PASSIVE_JOB_FIRST_ACTIVATE_POPUP1	بمجرد التفعيل، لا يمكنك نقل الأثر.
+PASSIVE_JOB_FIRST_ACTIVATE_POPUP2	سيتم فقدان البنود. هل أنت متأكد؟
+PASSIVE_JOB_LEFT_TIME	الوقت المتبقي: %s
+PASSIVE_JOB_MAX_TIME	الحد الأقصى للوقت المتبقي: %s
+PASSWORD_TITLE	كلمة سر المستودع
+PET_ATTR_CHANGE_DIALOG_TEXT	هل تود تغيير سمات رفيقك الآن؟\n سيتم استهلاك بند "سحر الرفيق".\n يمكن للعملية أن تفشل.
+PET_ATTR_CHANGE_USE	لا يمكن تنفيذ هذا الأمر اثناء عملية تحويل سمات الرفيق.
+PET_ATTR_DETERMINE_TYPE1	النوع 1: أخرق ليس قويا جدا.\nلكن مع مرور الوقت يمكنك زيادة مهاراته.
+PET_ATTR_DETERMINE_TYPE2	النوع 2: فضولي. ليس قويا جدا.\nرفيق وفي تزداد مهاراته مع مرور الوقت.
+PET_ATTR_DETERMINE_TYPE3	النوع 3: شجاع. قوي الى حد ما.\nمع مرور الوقت يمكنك زيادة مهاراته.
+PET_ATTR_DETERMINE_TYPE4	النوع 4: شجاع. قوي الى حد ما.\nرفيق وفي تزداد مهاراته مع مرور الوقت.
+PET_ATTR_DETERMINE_TYPE5	النوع 5: متهور. قوي.\nلكن مع مرور الوقت يمكنك زيادة مهاراته.
+PET_ATTR_DETERMINE_TYPE6	النوع 6: أسطوري. قوي.\nرفيق وفي تزداد مهاراته مع مرور الوقت.
+PET_ATTR_DETERMINE_TYPE7	النوع 7: خرافي. قوي جدا.\nسيظهر قواه الحقيقة مع مرور الوقت.
+PET_ATTR_DETERMINE_TYPE8	النوع 8: براق. قوي للغاية.\nرفيق وفي يمكنك الإعتماد عليه دائما.
+PET_BAG_DESC	%s
+PET_CANNOT_FEED_CUBEOPEN	لا يمكنك إطعام الرفيق أثناء فتح نافذة الصقل.
+PET_CAN_NOT_ATTRCHANGE_BECUASE_LIFE_TIME_END	لا يمكنك تحويل سمات رفيق ميت.
+PET_CAN_NOT_EGG_ITEM_USE	لا يمكنك فتح قفص النقل أثناء المتاجرة، أو عندما يكون مخزنك أو متجرك مفتوحان.
+PET_CAN_NOT_FEED_SPLIT_ITEM	لا يمكنك وضع أي شيء مقسوم في هذه النافذة.
+PET_CAN_NOT_FEED_TYPE	لا يُمكنك إطعام رفيقك بهذه الطريقة. يرجى المحاولة من خلال استخدام عملية أخرى.
+PET_CAN_NOT_OPEN_EVOL_BUTTON	لتدريب الرفيق وتطويره إلى المستوى التالي يجب أن يكون مستواه %d.
+PET_CAN_NOT_OPEN_EVOL_BUTTON_EXP_LACK	لتدريب الرفيق وتطويره إلى المستوى التالي يجب أن تكون نسبة خبرته 100%.
+PET_CAN_NOT_OPEN_EVOL_BUTTON_LEVEL_MAX	لقد وصل مستوى رفيقك أعلى مستوى مُمكن.
+PET_CAN_NOT_OPEN_SHOP_BECAUSE_SUMMON	لا يمكنك فتح متجر خاص إذا قُمت بتحضير رفيقك.
+PET_CAN_NOT_OPEN_SPECIAL_EVOL_BUTTON	لتدريب الرفيق وتطويره إلى المستوى التالي يجب أن يكون عُمره %d يومًا.
+PET_CAN_NOT_SUMMON_BECAUSE_LIFE_TIME_END	لا يمكنك تحضير رفيقك، لأن مدة استعماله انتهت.
+PET_CAN_NOT_USE_BAG	لا يمكنك استعمال قفص النقل لأن مدة استعمال رفيقك انتهت.
+PET_EMPTY_SKILL_SLOT_USE_ITEM	لا يمتلك هذا الرفيق أي مهارات ليتم إعادة تعيينها.
+PET_HATCHING_ACCEPT	هل ترغب في تسمية رفيقك "%s"؟
+PET_HATCHING_MONEY	الثمن: %s
+PET_HATCHING_WINDOW_OPEN_CAN_NOT_USE	لا يمكنك التفاعل مع أي كان طالما أن قفص النقل مفتوح.
+PET_INFORMATION_STAGE1	بري
+PET_INFORMATION_STAGE2	بري وحشي
+PET_INFORMATION_STAGE3	برّي قوي
+PET_INFORMATION_STAGE4	بطل
+PET_INFO_EXP	الخبرة الحالية:
+PET_INFO_ITEM_EXP	بند EXP الحالي
+PET_INFO_NEXT_EXP	الخبرة المتبقّية:
+PET_INFO_NEXT_ITEM_EXP	ما تبقى من بند EXP
+PET_MSG_NOT_ENOUGH_MONEY	إنك لا تملك ما يكفي من اليانغ.
+PET_NAME_CHANGE_ACCEPT	هل تريد تغيير اسم رفيقك إلى "%s"؟
+PET_NAME_MIN	الاسم قصير.
+PET_REVIVE_FAIL_EMPTY_PET_SLOT	لا يوجد رفيق لاسترجاع حياته.
+PET_REVIVE_FAIL_NOT_ENOUGHT_MATERIAL	ليس لديك مواد كافية.
+PET_REVIVE_UI_MATERIAL_COUNT	%d/%d
+PET_SKILL_DELETE_QUESTION_DLG_MSG	أصبحت المهارات مُتاحة الآن.
+PET_SKILL_DELETE_QUESTION_DLG_MSG1	إعادة توزيع مهارة رفيقك لا رجعة فيه.
+PET_SKILL_DELETE_QUESTION_DLG_MSG2	هل ترغب في المتابعة؟
+PET_SKILL_LEARN_FAIL_CONDITIONS	رفيقك ليس كبيرا بما يكفي، او لم يصل الى المستوى المطلوب بعد. يمكن فقط للرفاق الأبطال تعلم المهارات.
+PET_SKILL_LEARN_QUESTION_DLG_MSG	هل ترغب في بدء تدريب الأبطال مع "%s"؟
+PET_SKILL_TOOLTIP_COOLTIME	الاستراحة الإجبارية: %d ثوان
+PET_SKILL_TOOLTIP_DURATION	المدة: %d ثوان
+PET_SKILL_TOOLTIP_FEATHER	يقوم هذا الرفيق بتفعيل المشي بخفة بفرصة %d%% لمدة %.1f ثانية.\n هجوم %d - %d	SAAAA
+PET_SKILL_TOOLTIP_HEAL	ستحصل على فرصة بقيمة \n %d%% لرفع نقاط الحياة TP بنسبة %d، وذلك بمجرد هبوطها تحت مستوى 20%%.	SAA
+PET_SKILL_TOOLTIP_INVINVIBILITY	سيُصبح لاعبك لا يقهر وذلك بفرص نجاح بنسبة %d%% ،\n إذا ما تدنّت نقاط حياتك تحت 10%%. \n مدة المفعول: %.1f ثانية.	SAA
+PET_SKILL_TOOLTIP_REMOVAL	يُبعد فورًا جميع المؤثرات كالتسمم، والتبطيء \n أو النزيف، وذلك بنسبة نجاح تصل إلى %d%%،\n إذا كانت شخصيتك قد أصيبت.	SAN
+PET_SKILL_UPGRADE_QUESTION_DLG_MSG1	هل ترغب في رفع تدريب الأبطال إلى المستوى التالي؟
+PET_SKILL_UPGRADE_QUESTION_DLG_MSG2	التكلفة: %s
+PET_TOOLTIP_COSTUME_BONUS	
+PET_TOOLTIP_DEF	دفاع
+PET_TOOLTIP_HP	نقاط الحياة
+PET_TOOLTIP_LEVEL	مستوى
+PET_TOOLTIP_LIFETIME_OVER	انتهت الصلاحية
+PET_TOOLTIP_SKILL_BONUS_VALUE	في تدريب الأبطال
+PET_TOOLTIP_SKILL_CUR_LEVEL	مستوى: %d
+PET_TOOLTIP_SKILL_NEXT_LEVEL	المستوى التالي: %d (max. %d)
+PET_TOOLTIP_SP	MP
+PET_TOOLTIP_TRADABLE	قابل للمتاجرة
+PET_TOOLTUP_SKILL	%s (مستوى %d)
+PICK_ITEM_TITLE	رقم الشيء
+PICK_MONEY_TITLE	المبلغ
+POPUP_NOTICE_CHECKBOX_TEXT	لا تقم بعرضه مجددا اليوم
+PREMIUM_PRIVATE_ITEM_ADD_LIMIT_WON	لا يجوز أن تتجاوز البنود المعروضة للبيع إجمالي القيمة المسموح بها.
+PREMIUM_PRIVATE_ITEM_ADD_LIMIT_YANG	لا يجوز أن تتجاوز البنود المعروضة للبيع إجمالي القيمة المسموح بها.
+PREMIUM_PRIVATE_MODIFY_LIMIT_WON	هذا أكثر من 3000 وون. الرجاء جمع الأموال أولا.
+PREMIUM_PRIVATE_MODIFY_LIMIT_YANG	هذا أكثر من 2 مليار يانغ. الرجاء جمع الأموال أولا.
+PREMIUM_PRIVATE_SHOP_CANNOT_OPEN_MAP	لا يمكنك فتح ذلك على هذه الخريطة.
+PREMIUM_PRIVATE_SHOP_CLOSE_QUESTIONG	هل تريد إغلاق المتجر الشخصي؟
+PREMIUM_PRIVATE_SHOP_DURATION	المدة: %s
+PREMIUM_PRIVATE_SHOP_MODIFY_STATE_OPEN_FAIL	المتجر غير مفتوح حاليا لأنه تحت الإدارة.
+PREMIUM_PRIVATE_SHOP_NO_BUFF	هذا الزر للمتجر الشخصي المميز. عليك شرائه من المتجر لاستخدامه.
+PREMIUM_PRIVATE_SHOP_PASSWORD_DESC1	الرجاء إدخال كلمة المرور،
+PREMIUM_PRIVATE_SHOP_PASSWORD_DESC2	لفتح المتجر الشخصي المميز.
+PREMIUM_PRIVATE_SHOP_PASSWORD_TITLE	كلمة السر
+PREMIUM_PRIVATE_SHOP_POSITION	%s (%d،%d) - CH-%d
+PREMIUM_PRIVATE_SHOP_USE_ITEM	هل تريد استخدام بند "المتجر الشخصي المميز"؟
+PREMIUM_PRIVATE_TAX_ADJUSTMENT_LIMIT_WON	لا يمكنك تحصيل الأموال حيث سيكون لديك أكثر من 3000 وون.
+PREMIUM_PRIVATE_TAX_ADJUSTMENT_LIMIT_YANG	لا يمكنك تحصيل الأموال لأنه سيكون لديك أكثر من 2 مليار يانغ.
+PREMIUM_PRIVATE_TAX_ADJUSTMENT_NONE	لا يوجد نقود لجمعها.
+PREMIUM_PRIVATE_TAX_ADJUSTMENT_OVERFLOW_WON	لقد أودعت وون أكثر مما يمكنك سحبه.
+PREMIUM_PRIVATE_TAX_ADJUSTMENT_OVERFLOW_YANG	لقد أودعت يانغ أكثر مما يمكنك سحبه.
+PREMIUM_PRIVATE_TAX_ADJUSTMENT_WRONG_INPUT	لا يمكنك تحصيل الأموال لأنك أدخلت مبلغًا كبيرًا جدًا.
+PRIVATESHOPSEARCH_ABLITY_POTION	ندى
+PRIVATESHOPSEARCH_ACCESSORY_SOCKET	ثوب رفيع
+PRIVATESHOPSEARCH_ARMOR	دروع
+PRIVATESHOPSEARCH_ARROW	سهام
+PRIVATESHOPSEARCH_BELL	أجراس
+PRIVATESHOPSEARCH_BELT	أحزمة
+PRIVATESHOPSEARCH_BLEND	جرعات
+PRIVATESHOPSEARCH_BLOOD_PEARL	لؤلؤة كرزية
+PRIVATESHOPSEARCH_BLUE_PEARL	لؤلؤة زرقاء
+PRIVATESHOPSEARCH_BODY	دروع
+PRIVATESHOPSEARCH_BOW	أقواس
+PRIVATESHOPSEARCH_BUYTIME	هل ترغب في شراء هذا البند الذي اخترته؟
+PRIVATESHOPSEARCH_CLAW	مخالب
+PRIVATESHOPSEARCH_CLEAR_POTION	إكسيرات
+PRIVATESHOPSEARCH_COSTUME	أزياء
+PRIVATESHOPSEARCH_COSTUMEBODY	زي
+PRIVATESHOPSEARCH_COSTUMEHAIR	تسريحة شعر
+PRIVATESHOPSEARCH_COSTUME_ACCE	أوشحة
+PRIVATESHOPSEARCH_COSTUME_MOUNT	دابّة
+PRIVATESHOPSEARCH_CRYSTAL	بلُّور
+PRIVATESHOPSEARCH_DAGGER	خناجر
+PRIVATESHOPSEARCH_DEAD	ميّت
+PRIVATESHOPSEARCH_DETACHMENT	دليل الحجر
+PRIVATESHOPSEARCH_DIAMOND	ماسة
+PRIVATESHOPSEARCH_DS	كيمياء حجر التنين
+PRIVATESHOPSEARCH_DS_BLACK	جزع
+PRIVATESHOPSEARCH_DS_BLUE	ياقوت
+PRIVATESHOPSEARCH_DS_GREEN	يشم
+PRIVATESHOPSEARCH_DS_RED	ياقوت
+PRIVATESHOPSEARCH_DS_WHITE	ماسة
+PRIVATESHOPSEARCH_DS_YELLOW	عقيق
+PRIVATESHOPSEARCH_EAR	حلق
+PRIVATESHOPSEARCH_FAN	مراوح
+PRIVATESHOPSEARCH_FISH	أسماك
+PRIVATESHOPSEARCH_FOOTS	أحذية
+PRIVATESHOPSEARCH_GEM	مجوهرات
+PRIVATESHOPSEARCH_GIFTBOX	صناديق الهدايا
+PRIVATESHOPSEARCH_HEAD	خوذات
+PRIVATESHOPSEARCH_LIVE	حيّ
+PRIVATESHOPSEARCH_MATERIAL	مواد
+PRIVATESHOPSEARCH_METIN	أحجار شبحية
+PRIVATESHOPSEARCH_NECK	قلائد
+PRIVATESHOPSEARCH_NEED_ITEM_BUY	لا يمكنك شراء أشياء دون الحزمة الصحيحة.
+PRIVATESHOPSEARCH_NEED_ITEM_FIND	لا يمكنك البحث عن أشياء دون الحزمة الصحيحة.
+PRIVATESHOPSEARCH_NEED_ITEM_NAME	البحث عن طريق الإسم
+PRIVATESHOPSEARCH_NODELAY_POTION	بنود نقاط الحياة
+PRIVATESHOPSEARCH_ORE	معدن خام
+PRIVATESHOPSEARCH_PET	نظام الرّفاق
+PRIVATESHOPSEARCH_PETAGG	بيض الرّفاق
+PRIVATESHOPSEARCH_PETSKILLBOOK	كتاب مهارات الرفيق
+PRIVATESHOPSEARCH_PICK	مَناكِيش
+PRIVATESHOPSEARCH_POTION	جرعات
+PRIVATESHOPSEARCH_QUEST	مهمة
+PRIVATESHOPSEARCH_QUIVER	جعبة السّهام
+PRIVATESHOPSEARCH_RESOURCE	تحسين البنود
+PRIVATESHOPSEARCH_ROD	صيد السمك
+PRIVATESHOPSEARCH_SELECTITEM	قم باختيار بند.
+PRIVATESHOPSEARCH_SHIELD	أتراس
+PRIVATESHOPSEARCH_SKILLBOOK	كُتب المهارات
+PRIVATESHOPSEARCH_SKILLFORGET	كتاب النسيان
+PRIVATESHOPSEARCH_SPECIAL	غيره
+PRIVATESHOPSEARCH_STONE	شظايا الطاقة
+PRIVATESHOPSEARCH_SWORD	سيف يد واحدة
+PRIVATESHOPSEARCH_TREASUREBOX	صناديق
+PRIVATESHOPSEARCH_TUNING	لفائف
+PRIVATESHOPSEARCH_TWOSWORD	سيف اليدين
+PRIVATESHOPSEARCH_UNIQUE	فريد من نوعه
+PRIVATESHOPSEARCH_USEITEM	أشياء استهلاكية
+PRIVATESHOPSEARCH_USESPECIAL	غيره
+PRIVATESHOPSEARCH_WEAPON	أسلحة
+PRIVATESHOPSEARCH_WHITE_PEARL	لؤلؤة بيضاء
+PRIVATESHOPSEARCH_WRIST	أساور
+PRIVATE_SHOP_CANNOT_SELL_ITEM	لا يُمكنك بيع هذا الشيء في متجر خاص.
+PRIVATE_SHOP_CLOSE_QUESTION	هل تريد إغلاق المتجر الخاص؟
+PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	اسم المتجر الخاص
+PRIVATE_SHOP_INPUT_PRICE_DIALOG_TITLE	سعر
+PRIVATE_SHOP_NEED_MONEY	البحث حسب السعر
+PRIVATE_SHOP_SEARCH_VNUM_ITEM_NOT_FOUND	لم يتم العثور على أي نتيجة.
+PRIVATE_SHOP_SEARCH_VNUM_ITEM_NOT_SELECTED	اختر بندا للبحث.
+PVP_LEVEL0	فارسي
+PVP_LEVEL1	نَبِيل
+PVP_LEVEL2	جَيِّد
+PVP_LEVEL3	لطيف
+PVP_LEVEL4	محايد
+PVP_LEVEL5	عدائي
+PVP_LEVEL6	ماكر
+PVP_LEVEL7	خبيث
+PVP_LEVEL8	فَظِيع
+PVP_MODE_GUILD	تفعيل الرابطة - نظام لاعب ضد لاعب
+PVP_MODE_KILL	نظام لاعب ضد لاعب - بدون قيد
+PVP_MODE_NORMAL	نظام لاعب ضد لاعب - تشغيل السلام
+PVP_MODE_PROTECT	لاعب ضد لاعب - تفعيل الحماية
+PVP_MODE_REVENGE	لاعب ضد لاعب - نظام عدائي
+PVP_OPTION_KILL	بدون قيد
+PVP_OPTION_NORMAL	السلام
+PVP_OPTION_PROTECT	الحماية
+PVP_OPTION_REVENGE	عدائي
+PVP_TOURNAMENT_DO_NOT_AUTO	لا يمكنك استخدام الهجوم التلقائي خلال بطولة المبارزة PvP.
+QUEST_APPEND	تم تسجيل أمر جديد.
+QUEST_HOUR	ساعة/ساعات
+QUEST_MIN	دقيقة
+QUEST_SEC	ثانية
+QUEST_TIMEOVER	انتهى الوقت
+QUEST_UNLIMITED_TIME	بدون قيدٍ زمني
+QUEST_ZEROSEC	0 ثانية
+QUICKSLOT_REGISTER_DISABLE_ITEM	لا يمكن زيادة هذا الغرض إلى ساحة الهجوم السريع.
+RAMADAN_EVENT_BREAD_MAX_COUNT	لقد وصلت إلى الحد الأقصى الممكن من الخبز.
+RAMADAN_EVENT_FIG_MAX_COUNT	لقد وصلت إلى الحد الأقصى الممكن من ثمرة الثواب.
+RAMADAN_EVENT_GET_BREAD	لقد حصلت على 1 خبز.
+RAMADAN_EVENT_GET_FIG	لقد حصلت على 1 ثمرة الثواب.
+RAMADAN_EVENT_NOT_ENOUGH_BREAD	أنت بحاجة إلى 10 من الخبز.
+RANKING	رتبة
+RANKING_BOARD_MEMBER	الأعضاء
+RECEIVE_MESSAGE	%s أرسل لك رسالة.
+REFINE_COST	تكاليف التحسين: %d يانغ
+REFINE_DESTROY_WARNING	قد يؤدي تحسين هذا الشيء إلى تدميره.
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1	هل تريد بالفعل تحسين هذا الشئ؟
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	قد يتعرض هذا الشيء للتدمير عند الفشل. هل ترغب رغم ذلك في الاستمرار؟
+REFINE_DOWN_GRADE_WARNING	قد تتسبب عملية التحسين في التخفيض من قيمة هذا الشيء.
+REFINE_DO_YOU_SEPARATE_METIN	حذف جميع الأحجار الشّبحية؟
+REFINE_ELEMENT_CHANGE_TEXT	لقد حصل %s على العنصر %s!
+REFINE_ELEMENT_DOWNGRADE_TEXT	تم تخفيض مستوى سحر العناصر.
+REFINE_ELEMENT_EXIST	يحتوي البند بالفعل على عنصر آخر.
+REFINE_ELEMENT_GRADE_MAX	تم الوصول إلى الحد الأقصى لمستوى سحر العناصر.
+REFINE_ELEMENT_NOT_ENOUGHT_GRADE	يتوفر سحر العناصر للأسلحة في مستوى +7 فأعلى.
+REFINE_ELEMENT_NOT_ENOUGHT_YANG	ليس لديك يانغ كافٍ.
+REFINE_ELEMENT_NOT_EXSIT	لا يمكن استخدامه مع هذا البند.
+REFINE_ELEMENT_TEXT_DARK	ظلام +%d
+REFINE_ELEMENT_TEXT_EARTH	أرض +%d
+REFINE_ELEMENT_TEXT_ELECT	برق +%d
+REFINE_ELEMENT_TEXT_FIRE	نار +%d
+REFINE_ELEMENT_TEXT_ICE	جليد +%d
+REFINE_ELEMENT_TEXT_WIND	رياح +%d
+REFINE_ELEMENT_UPGRADE_FAIL_TEXT	لقد فشلت سحر العناصر.
+REFINE_ELEMENT_UPGRADE_SUCCESS_TEXT	لقد نجح سحر العناصر.
+REFINE_FAILURE	للأسف،لم ننجح! لقد فشلنا.
+REFINE_FAILURE_CAN_NOT_ATTACH0	لا يستطيع %s إضافة أي شيء لهذا البند.
+REFINE_FAILURE_DEL_ITEM	لقد فشلت عملية الصقل. لقد تم تدمير هذا الشيء.
+REFINE_FAILURE_EQUIP_ITEM	لا يمكنك تحسين الأشياء المُدرعة.
+REFINE_FAILURE_GEM_SELECT_WINDOW_OPENED	لا يمكنك استخدام الحجر الشّبحي أثناء فتح هذه النافذة.
+REFINE_FAILURE_GRADE_DOWN	لقد فشلت عملية الصقل. لقد تم تخفيض مستوى هذا الشيء.
+REFINE_FAILURE_KEEP_GRADE	لقد فشلت عملية الصقل.\nلحسن الحظ، لقد تم الحفاظ على هذا الشيء.
+REFINE_FAILURE_METIN_INSEPARABLE_ITEM	لا يمحنك حذف حجر الشبح.
+REFINE_FAILURE_NEED_BETTER_SCROLL	إنك بحاجة إلى لفيفة تحسين أحسن من هذه.
+REFINE_FAILURE_NO_GOLD_SOCKET	لا يوجد هناك مقبس ذهبي، لإضافة %s.
+REFINE_FAILURE_NO_MORE_REINFORCE	لا يمكنك تحسين ذلك أكثر.
+REFINE_FAILURE_NO_MORE_SOCKET	لا يُمكنك إضافة مقابس جديدة.
+REFINE_FAILURE_NO_SOCKET0	لا يوجد مقبس فارغ من أجل %s.
+REFINE_FAILURE_SOCKET_DISABLE_ITEM	لا يمكنك إضافة مقابس إضافية لهذا البند.
+REFINE_FAILURE_UPGRADE_DISABLE_ITEM	لا يمكن تحسين هذا البند.
+REFINE_POPUP_NO_DOWNGRADE_MESSAGE	لن يتعرض الشيء الذي تم تحسينه إلى التدمير أو التشويه.
+REFINE_QUESTION_CONFIRM	هل ترغب في المتابعة؟
+REFINE_QUESTION_WARNING_DOWN_GRADE_AND_REFIX_REMOVE	إذا فشلت عملية التحسين، سينخفض المستوى لدرجة أقل من الحد الأدنى لتأثير الطقم، وسيتم الغاء تأثير الطقم.
+REFINE_QUESTION_WARNING_PREFIX_REMOVE	إذا قمت بتحسين البند فسيتم حذف تأثير الطقم.
+REFINE_SUCCESS	لقد تم تحسين هذا البند بنجاح.
+REFINE_SUCCESS_PROBALITY	فرص التحسين: %d%%
+REFINE_WARNING2	هل تريد الاستمرار بالتحسين؟
+RESTART_HERE_BUTTON_TEXT_SUNGMAHEE_GATE	إعادة احياء
+RESTART_POPUP_GIVEUP_ELEMENTAL_DUNGEON	لقد مت. \nعد من عالم العناصر!
+RESTART_POPUP_GIVEUP_GOLDEN_LAND_STAGE	إذا مت، سيتم نقلك فورًا إلى الأرض الذهبية.\n\n نصيحة: يمكنك تجنب التعرض للقتل بسبب الأبراج المتفجرة باستخدام تذكرة حماية من الانفجار.\n
+RESTART_POPUP_GIVEUP_MIST_ISLAND	لقد وقعت في معركة الأضرحة الخمسة.\n أنت الآن تعود إلى القرية.
+RESTART_POPUP_GIVEUP_OTHER_WORLD_DUNGEON	شخصيتك ميتة. \nسيتم نقلك قريبًا إلى المدينة.
+RESTART_POPUP_GIVEUP_SUNGMAHEE_TOWER	هزيمة مريرة! رحلتك تنتهي هنا.
+RESTART_POPUP_RESTART_HERE_SUNGMAHEE_GATE	باستخدام قوة تأثير الإزهار أو استرجاع الحياة يمكنك إحياء نفسك على الفور.\n\nأو سيتم إحياؤك في مكان عشوائي في هذه المنطقة.
+REVIVE_QUESTION	هل ترغب في إعادة إحياء %s؟ عدد مناشير الإحياء: %d قطعة
+REVIVE_SELF_QUESTION	هل ترغب في إعادة إحياء نفسك؟ عدد مناشير الإحياء: %d قطعة
+ROULETTE_REWARD_TEXT	احصل على بند
+SAFEBOX_ERROR	إن كلمة السر غير صحيحة.
+SAFEBOX_NEED_CHANGE_PASSWORD	انتهت صلاحية كلمة السر الخاصة بك.\nيرجى اختيار كلمة سر جديدة.
+SAFEBOX_SELL_DISABLE_SAFEITEM	لا يُمكنك بيع أي من الأشياء المَحفُوظة.
+SAFEBOX_UNAVILABLE_PASSWORD_01	لا يمكنك استخدام كلمة السّر هذه.
+SAFEBOX_UNAVILABLE_PASSWORD_02	يجب أن تحتوي كلمة السر على %d أحرف على الأقل.
+SAFEBOX_UNAVILABLE_PASSWORD_03	لقد قمت بإدخال كلمة سرك الحالية. يرجى اختيار كلمة سر جديدة.
+SAFEBOX_UNAVILABLE_PASSWORD_04	لا يمكن لكلمة السر الخاصة بك أن تحتوي على رقم مكرر %d مرات أو على أرقام متسلسلة.
+SAFEBOX_UNAVILABLE_PASSWORD_05	لا يمكنك إستخدام رموز خاصة. الأحرف المسموح بها: a-z، A-Z، 0-9
+SAFEBOX_WRONG_PASSWORD	يجب أن تكون كلمات السر متطابقة.
+SCREENSHOT_SAVE1	حُفظت في
+SCREENSHOT_SAVE2	ملف صور اللعبة
+SCREENSHOT_SAVE_FAILURE	فشِل حِفظ صور اللعبة
+SEAL_SCROLL_USE_SUCCESS	تم ربط %s بالروح بنجاح.
+SECOND	ثانية
+SECOND_CONFIRM_PET_FEED_QUESTION_1	يحتوي البند على %d أو أكثر من العلاوات.
+SECOND_CONFIRM_PET_FEED_QUESTION_2	هل أنت متأكد بأنك تود إطعام الرفيق هذا البند؟
+SECOND_CONFIRM_SELL_ITEM_QUESTION_1	يحتوي البند على %d أو أكثر من العلاوات.
+SECOND_CONFIRM_SELL_ITEM_QUESTION_2	هل أنت متأكد بأنك تود بيع هذا البند؟
+SECRET_DUNGEON_CREATE_REWARD_IMPOSSIBLE	هل ترغب في دخول معبد الألغاز؟\nلم يعد بإمكانك الحصول على مكافأة يومية (الوقت المتبقي: %s)
+SECRET_DUNGEON_CREATE_REWARD_POSSIBLE	هل ترغب في دخول معبد الألغاز؟\nيمكنك الحصول على مكافأة يومية.
+SECRET_DUNGEON_ENTER_DUNGEON_RE_REQUEST	عليك مغادرة المجموعة إذا لم تدخل.\nهل تريد الدخول؟
+SECRET_DUNGEON_ENTER_LIMIT_TIME	الوقت المتبقي للدخول: %d ثانية
+SECRET_DUNGEON_ENTER_MEMBER_REWARD_IMPOSSIBLE	تم إنشاء نموذج لمعبد الألغاز. هل ترغب في الدخول؟\nلم يعد بإمكانك الحصول على مكافأة يومية (الوقت المتبقي: %s)
+SECRET_DUNGEON_ENTER_MEMBER_REWARD_POSSIBLE	تم إنشاء نموذج لمعبد الألغاز. هل ترغب في الدخول؟\nيمكنك الحصول على مكافأة يومية.
+SECRET_DUNGEON_ENTER_QUESTION_ANSWER_TIMEOVER	لقد رفضت الدخول.
+SECRET_DUNGEON_ENTER_QUESTION_NO	كلّا
+SECRET_DUNGEON_ENTER_QUESTION_YES	نعم
+SELECT_ATTR_NOTICE	لا يمكنك فتح متجر خاص أثناء استعمالك لوظيفة سحر الشيء+.
+SELECT_ATTR_NOT_OPEN	لا يمكنك استعمال وظيفة سحر الشيء+ إذا كنت قد فتحت متجرًا خاصًّا بك مُسبقًا.
+SELECT_ATTR_NOT_SELECT	قرّر إذا كُنت ترغب في الاحتفاظ بالعلاوات أو استبدالها.
+SELECT_CAN_NOT_DELETE	لا يُمكنك حذف هذه الشخصية.
+SELECT_CAN_NOT_DELETE_ATTR67	لا يمكنك حذف الشخصية،\n أثناء إضافة علاوة.
+SELECT_CAN_NOT_DELETE_GUILD_MEMBER	لا يمكنك حذف الشخصية طالما أنت عضو في رابطة.
+SELECT_CAN_NOT_DELETE_HAVE_SEALED_ITEM	لا يمكنك حذف الشخصية طالما يوجد لديك بنود مربوطة بالروح.
+SELECT_CAN_NOT_DELETE_LAST_CHAR_SAFEBOX	لا يمكنك حذف الشخصية طالما لديك بنود في المستودع.
+SELECT_CAN_NOT_DELETE_LIMITE_LEVEL	يمكنك حذف شخصيتك حتى مستوى 119 كحد أقصى.
+SELECT_CAN_NOT_DELETE_MARRIAGE	لا يمكنك حذف شخصية متزوجة.
+SELECT_CAN_NOT_DELETE_PREMIUM_PRIVATE_SHOP	لا يزال لديك سلع في متجرك الشخصي.
+SELECT_CAN_NOT_DELETE_PRIVATE_CODE_ERROR	رمز الحذف غير صحيح.
+SELECT_CAN_NOT_DELETE_REMAIN_TIME	لا يمكنك حذف الشخصية مباشرة بعد انشائها. وقت الانتظار: %s
+SELECT_CHANGED_NAME	لقد قُمت بتغيير اسم هذه الشخصية.
+SELECT_CHANGE_FAILURE_ALREADY_EXIST_NAME	إن اسم الشخصية المختار مُستعمل.
+SELECT_CHANGE_FAILURE_STRANGE_INDEX	حاول مجدداً.
+SELECT_CHANGE_FAILURE_STRANGE_NAME	اسم الشخصية غير صحيح.
+SELECT_CHANGE_NAME_TITLE	تغيير اسم الشخصية
+SELECT_DELEING	بدأت عملية الحذف ...
+SELECT_DELETED	تم الحذف بنجاح.
+SELECT_DO_YOU_DELETE_REALLY	هل ترغب في المتابعة؟
+SELECT_EMPTY_SLOT	إن هذه الخانة فارغة.
+SELECT_GM_NAME	سيد اللعبة
+SELECT_INPUT_CHANGING_NAME	الرجاء إدخال اسم جديد للشخصية.
+SELECT_METINSTONE_NOT_ENOUGH_INVENTORY_SPACE	لا يوجد مكان كافي في قائمة الجرد.
+SELECT_NOT_JOIN_GUILD	بدون رابطة
+SERVER_NOTIFY_CLOSED	خادم مغلق: يمكن فقط للحسابات التي تم انشائها قبل إغلاق الخادم الدخول اليه.
+SERVER_STATUS_CLOSE	مغلق
+SERVER_STATUS_NEW	جديد
+SERVER_STATUS_SPECIAL	خاص
+SERVER_STATUS_STANDBY	مغلق
+SET_ITEM_CLEAR_CONFIRM_QUESTION	هل تريد إزالة تأثير الطقم؟
+SET_ITEM_CLEAR_CONFIRM_QUESTION_1	يحتوي هذا البند على %d علاوة/حجر شبحي
+SET_ITEM_CLEAR_CONFIRM_QUESTION_2	هل أنت متأكد؟
+SET_ITEM_DO_NOT_EQUIP_ITEM	لا يمكنك منح تأثير الطقم للعتاد المجهز.
+SET_ITEM_DO_NOT_SEAL_ITEM	لا يمكنك القيام بهذا الأمر مع بند مربوط بالروح.
+SHOP_BUY_INFO	اختر في نافذة المتجر الشيء الذي ترغب في شرائه.
+SHOP_CANNOT_SELL_EQUIPMENT	لا يمكنك بيع الأشياء المدرعة.
+SHOP_CANNOT_SELL_ITEM	هذا الشيء غير معروض للبيع.
+SHOP_ERROR_UNKNOWN	عطب مجهول في المتجر: %s
+SHOP_EXCEED_LIMIT_TODAY	لقد تخطيت الحد اليومي لاستخدام النقاط.
+SHOP_INVALID_POS	إن هذا الشيء غير مناسب.
+SHOP_INVENTORY_FULL	لم يعُد هناك مكان فارغ في قائمة الجرد.
+SHOP_LIMITED_DATA_LOADING	يتم الآن تحميل البيانات. الرجاء إعادة المحاولة لاحقا.
+SHOP_LIMITED_ITEM_REMAIN_COUNT	البنود المتبقية: %d
+SHOP_LIMITED_PURCHASE_OVER	تم بيعه
+SHOP_LIMIT_TODAY	الحد اليومي: %d / %d
+SHOP_MY_BATTLE_POINT	نقاط المعركة: %d
+SHOP_MY_MEDAL_OF_HONOR	ميدالية الشرف: %d
+SHOP_MY_TREE_FRUIT	التوت البري: %d
+SHOP_MY_YELLOW_FRUIT	التوت الذهبي: %d
+SHOP_NOT_ENOUGH_10TH_COIN	ليس لديك ما يكفي من عملات العيد السنوي!
+SHOP_NOT_ENOUGH_BATTLE_POINT	ليس لديك ما يكفي من نقاط المعركة!
+SHOP_NOT_ENOUGH_BNW	ليس لديك مايكفي من عملة العراف.
+SHOP_NOT_ENOUGH_GUILD_LEVEL	مستوى الرابطة منخفض جدّاً.
+SHOP_NOT_ENOUGH_MEDAL_OF_HONOR	لا تمتلك ما يكفي من ميدالية الشرف.
+SHOP_NOT_ENOUGH_MONEY	لا تملك ما يكفي من الوون أو اليانغ
+SHOP_NOT_ENOUGH_MONEY_EX	إنك لا تملك ما يكفي من اليانغ.
+SHOP_SELL_INFO	اختر في جدول قائمة الجرد الشيء الذي ترغب في بيعه.
+SHOP_SOLDOUT	تم بيعه
+SHOT_ERROR_UNKNOWN	خطأ مجهول أثناء الهجوم عن بعد: %s
+SKILL_BLEEDING	نزْف
+SKILL_BOHO	انعكاس
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	ستحتاج إلى نقاط الأسلوب لتعلم هذه المهارة.
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	إنك بحاجة إلى كتاب لتعلم هذه المهارة.
+SKILL_CHEONGEUN	جسد قوي
+SKILL_CRITICAL	إصابة حرجة
+SKILL_ENCHANT_POISON	استعمل السم
+SKILL_EUNHYEONG	غير مرئي
+SKILL_FAINT	إغماء
+SKILL_FIND_TRAP	ابحث عن الفخ
+SKILL_FIRE	إحراق
+SKILL_FISHMIND	تم تفعيل كرة السمك
+SKILL_GAMJI	إدراك
+SKILL_GEOMGYEONG	هالة السيف
+SKILL_GICHEON	مساعدة التنين
+SKILL_GIGONG	دوران شي
+SKILL_GONGPO	خوف
+SKILL_GRADE_NAME_GRAND_MASTER	%s الخبير المحترف
+SKILL_GRADE_NAME_MASTER	%s سيد
+SKILL_GRADE_NAME_PERFECT_MASTER	%s سيد متكامل
+SKILL_GROUP_ASSASSIN_1	شفرة
+SKILL_GROUP_ASSASSIN_2	قوس
+SKILL_GROUP_HORSE	فن الفروسية
+SKILL_GROUP_SHAMAN_1	تنين
+SKILL_GROUP_SHAMAN_2	شفاء
+SKILL_GROUP_SURA_1	سلاح
+SKILL_GROUP_SURA_2	سحر
+SKILL_GROUP_WARRIOR_1	جسد
+SKILL_GROUP_WARRIOR_2	ذهني
+SKILL_GWIGEOM	شفرة مسحورة
+SKILL_GYEONGGONG	مشي الريش
+SKILL_HEUKSIN	الحماية الظلامية
+SKILL_HOSIN	بركة
+SKILL_INC_ATKSPD	ارتفاع سرعة الهجوم
+SKILL_INC_MOVSPD	ارتفاع سرعة التحرك
+SKILL_JEOJU	لعنة
+SKILL_JEONGEOP	شفاء
+SKILL_JEONGWI	نشوة القتال
+SKILL_JEONSINBANGEO	دفاع كامل
+SKILL_JEONSINGONGGYEOK	هجوم كامل
+SKILL_JEUNGRYEOK	هجوم +
+SKILL_JEUNGSOK	سرعة +
+SKILL_JUMAGAP	درع مسحور
+SKILL_KWAESOK	سرعة
+SKILL_MUYEONG	شبح اللهب
+SKILL_NEED_EMPTY_BOTTLE	لا أملك قارورة فارغة.
+SKILL_NEED_POISON_BOTTLE	لا أملك قارورة سم.
+SKILL_ONLY_FOR_GUILD_WAR	لا يمكنك استعمال هذه المهارة إلاّ في حروب الروابط.
+SKILL_PABEOP	إزالة السحر
+SKILL_POWERFUL_STRIKE	هجوم مُخدِّر
+SKILL_SEOMGWANG	قنبلة البرق
+SKILL_SLEEP	نوم
+SKILL_SLOW	بطيء
+SKILL_STUN	تخدير
+SKILL_SUHO	حارس
+SKILL_SUMMON_DESCRIPTION	فرصة للشعوذة: %d%%
+SKILL_TOOLTIP_INT	ذكاء
+SKILL_TOOLTIP_LEVEL	مستوى
+SKILL_TOXICDIE	تسمم
+SKILL_TOXICPOWER	تم تحسين قيمة الهجوم السام
+SKILL_TUSOK	ضربة شبح
+SNOWFLAKE_STICK_EVENT_MESSAGE_ADD_SNOW_BALL	لقد حصلت على 1 كرة ثلجية.
+SNOWFLAKE_STICK_EVENT_MESSAGE_ADD_TREE_BRANCH	لقد حصلت على 1 غصن ثلجي.
+SNOWFLAKE_STICK_EVENT_MESSAGE_CANNOT_USE_STICK_COOLTIME	يرجى المحاولة مرة أخرى في غضون %d دقيقة.
+SNOWFLAKE_STICK_EVENT_MESSAGE_EVENT_END	انتهت احتفالية ندفة الثلج.
+SNOWFLAKE_STICK_EVENT_MESSAGE_EVENT_START	لقد بدأت احتفالية ندفة الثلج.
+SNOWFLAKE_STICK_EVENT_MESSAGE_EXCHANGE_COOLTIME	الرجاء إعادة المحاولة لاحقًا.
+SNOWFLAKE_STICK_EVENT_MESSAGE_EXCHANGE_EVENT_DURATION_EXPIRED	لم يعد بإمكانك القيام بذلك لأن الاحتفالية قد انتهت.
+SNOWFLAKE_STICK_EVENT_MESSAGE_EXCHANGE_MOUNT_MAX	لم يعد بإمكانك استبدال هذا.
+SNOWFLAKE_STICK_EVENT_MESSAGE_EXCHANGE_MOUNT_NOT_ENOUGH_MATERIAL	ما زلت بحاجة إلى 15 عصا ندفة الثلج.
+SNOWFLAKE_STICK_EVENT_MESSAGE_EXCHANGE_NOT_ENOUGH_INVENTORY	لا يوجد مكان كافي في قائمة الجرد.
+SNOWFLAKE_STICK_EVENT_MESSAGE_EXCHANGE_PET_MAX	لم يعد بإمكانك استبدال هذا.
+SNOWFLAKE_STICK_EVENT_MESSAGE_EXCHANGE_PET_NOT_ENOUGH_MATERIAL	ما زلت بحاجة إلى 15 عصا ندفة الثلج.
+SNOWFLAKE_STICK_EVENT_MESSAGE_EXCHANGE_STICK_MAX	الاستبدال غير ممكن. يمكنك الاستبدال مرة أخرى في:
+SNOWFLAKE_STICK_EVENT_MESSAGE_EXCHANGE_STICK_NOT_ENOUGH_MATERIAL	ليس لديك ما يكفي من كرات الثلج أو أغصان ثلج.
+SNOWFLAKE_STICK_EVENT_MESSAGE_NOT_ENOUGH_LEVEL	يمكن فقط للشخصيات من المستوى 60 المشاركة.
+SNOWFLAKE_STICK_EVENT_MESSAGE_RANK_BUFF_GET	احتفالية ندفة الثلج: تحصل على تقوية %s.
+SNOWFLAKE_STICK_EVENT_MESSAGE_SNOWFLAKE_BUFF_GET	احتفالية ندفة الثلج: ستحصل على تعويذة ندفة الثلج
+SNOWFLAKE_STICK_EVENT_MESSAGE_SNOW_BALL_MAX	لا يمكنك امتلاك المزيد من كرات الثلج.
+SNOWFLAKE_STICK_EVENT_MESSAGE_TREE_BRANCH_MAX	لا يمكنك امتلاك المزيد من أغصان الثلج.
+SNOWFLAKE_STICK_EVENT_MESSAGE_USE_STICK_FAILED_1	الشروط (برج محصن، خريطة الاحتفاليات، عدم تطابق مستوى الوحش، لا يوجد وحوش في الجوار)
+SNOWFLAKE_STICK_EVENT_MESSAGE_USE_STICK_FAILED_2	لم تتحقق شروط التحويل.
+SNOWFLAKE_STICK_EVENT_RANK_BUFF_TYPE_STONE	حجر الماتين
+SOLO_RK_CATEGORY_BATTLE_ROYALE	باتل رويال
+SOLO_RK_CATEGORY_BATTLE_ROYALE_RECORD_0	انتصارات
+SOLO_RK_CATEGORY_GUILD_BATTLE	معركة الرابطة
+SOLO_RK_CATEGORY_GUILD_BATTLE_MOB_KILL	الوحوش المقتولة
+SOLO_RK_CATEGORY_GUILD_BATTLE_PC_DEAD	الموت
+SOLO_RK_CATEGORY_GUILD_BATTLE_PC_KILL	اللاعبين المقتولين
+SOLO_RK_CATEGORY_GUILD_BATTLE_TEAM	فريق
+SOLO_RK_CATEGORY_TREASURE_HUNT	لوحة المتصدرين للبحث عن الكنز
+SOLO_RK_CATEGORY_TREASURE_HUNT_RECORD_0	جولات
+SOUL_ITEM_TOOLTIP_APPLY	التأثير مُفعّل.
+SOUL_ITEM_TOOLTIP_BLUE1	وقت اللعب: %d/%d دقيقة/دقائق.  
+SOUL_ITEM_TOOLTIP_BLUE2	عند الوصول إلى وقت اللعب المحدد، ستزداد أضرار المهارة بمقدار x%.1f
+SOUL_ITEM_TOOLTIP_COMMON	ليس ل: مبارزات PvP، التحول
+SOUL_ITEM_TOOLTIP_RED1	وقت اللعب: %d/%d دقيقة/دقائق.  
+SOUL_ITEM_TOOLTIP_RED2	عند الوصول إلى وقت اللعب المحدد، ستزداد أضرار الهجوم بمقدار x%.1f
+SOUL_ITEM_TOOLTIP_REMAIN_COUNT	الهجمات المتبقية: %d
+SOUL_ITEM_TOOLTIP_REMOVE_TIME	ستنتهي الروح في:
+SOUL_ITEM_TOOLTIP_UNAPPLIED	التأثير غير مُفعّل.
+SOUL_REFINE_FAILURE	فشل التطوير.
+SOUL_REFINE_SUCCESS	تم التطوير بنجاح!
+SPORTS_MATCH_EVENT_APPOINT	موافق
+SPORTS_MATCH_EVENT_APPOINT_POPUP_MESSAGE	اخترت %s هل ترغب في اختيار هذا البلد؟
+SPORTS_MATCH_EVENT_CHEER	تشجيع
+SPORTS_MATCH_EVENT_CHEER_POPUP_MESSAGE	اخترت %s هل ترغب في تشجيع هذا البلد؟
+SPORTS_MATCH_EVENT_OFF	انتهت احتفالية البطولة.
+SPORTS_MATCH_EVENT_ON	بدأت احتفالية البطولة.
+SPORTS_MATCH_EVENT_PREDICT_UI_TITLE	احتفالية التشجيع
+SPORTS_MATCH_EVENT_REWARD	الحصول على مكافأة
+SPORTS_MATCH_EVENT_SOURCE_ITEM_FLAG_IMG_MESSAGE	عندما تقوم بجمع 8 قصاصات تذاكر، سيتم تجميعها في تذكرة كرة قدم.\nيمكنك استبدال تذكرة كرة القدم بمكافآت وبنود الاحتفالية.
+SPORTS_MATCH_EVENT_TIME_END	غير قابل للاستخدام بعد انتهاء الاحتفالية.
+SPORTS_MATCH_EVENT_WORLDCUP_CHAT_TYPE_APPOINT_ITEM_NOT_ENOUGH	أنت بحاجة إلى تذكرة الدولة.
+SPORTS_MATCH_EVENT_WORLDCUP_CHAT_TYPE_CHEER_ITEM_NOT_ENOUGH	أنت بحاجة إلى تذكرة التشجيع.
+SPORTS_MATCH_EVENT_WORLDCUP_CHAT_TYPE_CHEER_MAX	لا يمكنك التشجيع بعد الآن.
+SPORTS_MATCH_EVENT_WORLDCUP_CHAT_TYPE_COOLTIME_NOT_END_MSG	الرجاء إعادة المحاولة لاحقًا.
+SPORTS_MATCH_EVENT_WORLDCUP_CHAT_TYPE_INVENTORY_FULL_MSG	لا يوجد مكان كافي في قائمة الجرد.
+SPORTS_MATCH_EVENT_WORLDCUP_CHAT_TYPE_MIN_LEVEL_MSG	يمكن فقط للشخصيات من المستوى 60 المشاركة.
+SPORTS_MATCH_EVENT_WORLDCUP_CHAT_TYPE_RESULT_ITEM_FLAG_MAX	لا يمكنك استلام المزيد من بنود الاحتفالية.
+SPORTS_MATCH_EVENT_WORLDCUP_CHAT_TYPE_TICKET_ITEM_ADD	الحصول على البند: %dx تذكرة كرة القدم
+SPORTS_MATCH_EVENT_WORLDCUP_CHAT_TYPE_TICKET_ITEM_LACK	تحتاج %d المزيد من تذاكر كرة القدم.
+SPORTS_MATCH_EVENT_WORLDCUP_CHAT_TYPE_TICKET_PIECE_ITEM_ADD	البند الذي تم الحصول عليه: قصاصات التذاكر
+SPORTS_MATCH_EXCHANGE_END_TIME	الوقت المتبقي للاستبدال: %s
+SPORTS_MATCH_ITEM_FLAG_TICKET_DESC	يمكنك استبدالها بمكافآت وبنود الاحتفالية.
+SPORTS_MATCH_ITEM_FLAG_TICKET_NAME	تذكرة كرة القدم
+SPORTS_MATCH_ITEM_FLAG_TICKET_PIECE_NAME	قصاصات التذاكر
+SPORTS_MATCH_PREDICT_ENABLE_REWARD	يمكنك الحصول على مكافآت من احتفالية التشجيع. افتح نافذة احتفالية التشجيع.
+SPORTS_MATCH_PREDICT_EVENT_OFF	انتهت احتفالية التشجيع.
+SPORTS_MATCH_PREDICT_GET_REWARD	المكافأة المستلمة: حقيبة الغايا الرياضية. يعتمد مقدار غايا المتضمن على مدى تشجيعك للفريق.
+SPORTS_MATCH_TICKET_COUNT_NOT_ENOUGH	ليس لديك مايكفي من تذاكر كرة القدم.
+SPORTS_MATCH_UI_ITEM_EXCHANGE_BUTTON	تبادل
+SPORTS_MATCH_UI_ITEM_FLAG_COUNT	العدد المملوك
+SPORTS_MATCH_UI_ITEM_FLAG_EXCHANGE_LIST	قائمة المبادلة
+SPORTS_MATCH_UI_ITEM_USE_BUTTON	تحويل
+SPORTS_MATCH_UI_MATCH_PREDICT_BUTTON	تشجيع
+SPORTS_MATCH_WORLDCUP_EVENT_OFF	انتهت احتفالية البطولة.
+SPORTS_MATCH_WORLDCUP_EVENT_ON	بدأت احتفالية البطولة.
+SPORTS_MATCH_WORLDCUP_EVENT_UI_TITLE	احتفالية البطولة
+STAT_MINUS_CON	تعديل طاقة الحياة (الوقت المتبقي: %d)
+STAT_MINUS_DEX	تعديل المناورة (الفرص المتبقية: %d)
+STAT_MINUS_INT	تعديل الذكاء (الفرص المتبقية: %d)
+STAT_MINUS_STR	تعديل القوة (الفرص المتبقية: %d)
+STAT_TOOLTIP_ACTION	نشاطات
+STAT_TOOLTIP_ATT	قيمة الهجوم
+STAT_TOOLTIP_ATT_SPEED	سرعة الهجوم
+STAT_TOOLTIP_BASE_LEVEL	مستوى
+STAT_TOOLTIP_CAST_SPEED	سرعة السحر
+STAT_TOOLTIP_CON	يرفع نقاط الحياة و الدفاع
+STAT_TOOLTIP_CONQUEROR_LEVEL	مستوى البطل
+STAT_TOOLTIP_DEF	دفاع
+STAT_TOOLTIP_DEX	ارتفاع الهجوم والمناورة
+STAT_TOOLTIP_DODGE_PER	فرص تفادي الهجوم بالسهام
+STAT_TOOLTIP_EXP	خبرة EXP
+STAT_TOOLTIP_HP	نقاط الحياة
+STAT_TOOLTIP_IMG_CON	حيوية: يرفع نقاط الحياة و الدفاع
+STAT_TOOLTIP_IMG_DEX	مناورة: يرفع نقاط الهجوم والمناورة
+STAT_TOOLTIP_IMG_INT	ذكاء: يرفع من نقاط الأسلوب، وقوة الدفاع والهجوم السحري.
+STAT_TOOLTIP_IMG_STR	قوة: يرفع من قيمة الهجوم والضرر
+STAT_TOOLTIP_INT	يرفع من نقاط الأسلوب، وقوة الهجوم السحري والدفاع السحري.
+STAT_TOOLTIP_LEVEL	مستوى
+STAT_TOOLTIP_MAG_ATT	قيمة الهجوم السحري
+STAT_TOOLTIP_MAG_DEF	الدفاع السحري
+STAT_TOOLTIP_MOVE_SPEED	سرعة التحرك
+STAT_TOOLTIP_PASSIVE	علاوة الأثر القديم
+STAT_TOOLTIP_POINT	نقاط
+STAT_TOOLTIP_REACTION	ردود فعل
+STAT_TOOLTIP_SHP	ستحصل على تخفيض بسيط على الحد الأعلى لنقاط الحياة الخاصة بك في يوهارا.
+STAT_TOOLTIP_SIMMUNE	ستحصل على تخفيض بسيط على مقاومتك ضد تغير الحالة في يوهارا.
+STAT_TOOLTIP_SMOVE	ستحصل على تخفيض بسيط على سرعة التحرك الخاصة بك في يوهارا.
+STAT_TOOLTIP_SP	نقاط الأسلوب
+STAT_TOOLTIP_SPECIAL_ACTION	نشاط خاص
+STAT_TOOLTIP_SSTR	ستحصل على تخفيض بسيط على قيمة الهجوم الخاصة بك في يوهارا.
+STAT_TOOLTIP_STAT	القيم
+STAT_TOOLTIP_STR	يرفع من قيمة الهجوم والضرر
+STAT_TOOLTIP_SUNGMA_HP	يغير نقاط الحياة اعتمادا على إرادة سونغ ماهي (حيوية) الخاصة بالمنافس والخريطة
+STAT_TOOLTIP_SUNGMA_IMMUNE	يغير قابلية التأثر بالتأثيرات المختلفة اعتمادا على إرادة سونغ ماهي (ذكاء) الخاصة بالمنافس والخريطة
+STAT_TOOLTIP_SUNGMA_MOVE	يغير سرعة التحرك اعتمادا على إرادة سونغ ماهي (مقاومة) الخاصة بالمنافس والخريطة
+STAT_TOOLTIP_SUNGMA_STR	يغير قيمة الهجوم اعتمادا على إرادة سونغ ماهي (قوة) الخاصة بالمنافس والخريطة
+STAT_TOOLTIP_SUPPORT_SKILL	المهارات الثانوية
+STAT_TOOLTIP_TAB_CHARACTER	شخصية
+STAT_TOOLTIP_TAB_EMOTICON	مشاعر
+STAT_TOOLTIP_TAB_QUEST	المهام
+STAT_TOOLTIP_TAB_SKILL	المهارات
+SUNGMAHEE_GATE_ACHIEV_TOOLTIP_ACHIEV_0	يمكن ربح هذه الكأس في بوابة غزو سونغ ماهي في منطقة يونغان.
+SUNGMAHEE_GATE_ACHIEV_TOOLTIP_ACHIEV_1	يمكن ربح هذه الكأس في بوابة غزو سونغ ماهي في منطقة جوان.
+SUNGMAHEE_GATE_ACHIEV_TOOLTIP_ACHIEV_2	يمكن ربح هذه الكأس في بوابة غزو سونغ ماهي في منطقة بيونغمو.
+SUNGMAHEE_GATE_ACHIEV_TOOLTIP_ACHIEV_3	يمكن ربح هذه الكأس في بوابة غزو سونغ ماهي في وادي سوينغريونغ.
+SUNGMAHEE_GATE_ACHIEV_TOOLTIP_ACHIEV_4	يمكن ربح هذه الكأس في بوابة غزو سونغ ماهي في صحراء يونغبي.
+SUNGMAHEE_GATE_ACHIEV_TOOLTIP_ACHIEV_5	يمكن ربح هذه الكأس في بوابة غزو سونغ ماهي في أرض النار.
+SUNGMAHEE_GATE_ACHIEV_TOOLTIP_ACHIEV_6	يمكن ربح هذه الكأس في بوابة غزو سونغ ماهي في جبل سوهان.
+SUNGMAHEE_GATE_ACHIEV_TOOLTIP_ACHIEV_7	يمكن ربح هذه الكأس في بوابة غزو سونغ ماهي في سرداب الموت.
+SUNGMAHEE_GATE_ACHIEV_TOOLTIP_ACHIEV_8	يمكن ربح هذه الكأس في بوابة غزو سونغ ماهي في غابة مسحورة.
+SUNGMAHEE_GATE_ACHIEV_TOOLTIP_PROBABILITY	فرصة: %d%%
+SUNGMAHEE_GATE_ALREADY_OPEN	[بوابة غزو سونغ ماهي] تم فتح بوابة سونغ ماهي. اسرع ودمرها! (لا تزال %s مفتوحة)
+SUNGMAHEE_GATE_ALREADY_OPEN_1M	[بوابة غزو سونغ ماهي] تم فتح بوابة غزو سونغ ماهي. اسرع ودمرها! (مفتوحة لأقل من دقيقة واحدة)
+SUNGMAHEE_GATE_ENTER_COUNT_INFO	الدخول الأسبوعي: %d/%d
+SUNGMAHEE_GATE_MAP_ELEMENT_DARK	ظلام
+SUNGMAHEE_GATE_MAP_ELEMENT_EARTH	أرض
+SUNGMAHEE_GATE_MAP_ELEMENT_ELECT	برق
+SUNGMAHEE_GATE_MAP_ELEMENT_FIRE	نار
+SUNGMAHEE_GATE_MAP_ELEMENT_ICE	جليد
+SUNGMAHEE_GATE_MAP_ELEMENT_NONE	لا عنصر
+SUNGMAHEE_GATE_MAP_ELEMENT_WIND	رياح
+SUNGMAHEE_GATE_MESSAGE_CANNOT_OPEN_ACHIEV_CONQUEROR_LEVEL	يجب أن تكون في مستوى البطل لفتح هذا.
+SUNGMAHEE_GATE_MESSAGE_CANNOT_OPEN_ACHIEV_IN_BATTLE_ROYALE	لا يمكنك فتح هذا في هذه المنطقة.
+SUNGMAHEE_GATE_MESSAGE_DUNGEON_ELEMENT_INFO	هذه المنطقة تحت تأثير هذا العنصر: %s
+SUNGMAHEE_GATE_MESSAGE_NOTICE_BEFORE_OPEN_1	سيتم فتح بوابة غزو سونغ ماهي قريبًا في سهول دونج جوانج.
+SUNGMAHEE_GATE_MESSAGE_NOTICE_BEFORE_OPEN_2	يمكنك فتح الخريطة الكبيرة لرؤية المواقع المُتاحٌة لكل إمبراطورية.
+SUNGMAHEE_GATE_MESSAGE_NOTICE_DUNGEON_END_TIME	انتهى الوقت وسيتم نقلك إلى الخارج.
+SUNGMAHEE_GATE_MESSAGE_NOTICE_DUNGEON_REMAIN_TIME	تبقى %d دقيقة حتى يتم إغلاق بوابة غزو سونغ ماهي.
+SUNGMAHEE_GATE_MESSAGE_NOTICE_END	سيتم إغلاق جميع بوابات غزو سونغ ماهي.
+SUNGMAHEE_GATE_MESSAGE_NOTICE_ENTRY_CLOSE	بوابة غزو سونغ ماهي مغلقة.
+SUNGMAHEE_GATE_MESSAGE_NOTICE_ENTRY_OPEN	تم فتح بوابة غزو سونغ ماهي ويمكن الآن دخولها. لا تزال مفتوحة حتى الساعة %d:%d
+SUNGMAHEE_GATE_MESSAGE_REGION_ACHIEVED_SUCCESS	لقد حصلت على الكأس من %s!
+SUNGMAHEE_GATE_REMAIN_TIME_TO_OPEN	[بوابة غزو سونغ ماهي] سيتم فتح بوابة غزو سونغ ماهي \n في غضون %s دقيقة.
+SUNGMAHEE_GATE_REMAIN_TIME_TO_OPEN_1M	[بوابة غزو سونغ ماهي] سيتم فتح بوابة غزو سونغ ماهي \n في أقل من دقيقة واحدة.
+SUNGMAHEE_TOWER_ENTER_FAIL_FLOOR	يجب عليك إنهاء المستوى السابق أولا.
+SUNGMAHEE_TOWER_ENTER_RESULT_FAIL_MOUNT	لا يمكنك الدخول أثناء الركوب.
+SUNGMAHEE_TOWER_ENTER_RESULT_FAIL_NOT_ENOUGH_CONQUEROR_LEVEL	يجب عليك الوصول إلى مستوى البطل للدخول.
+SUNGMAHEE_TOWER_ENTER_RESULT_FAIL_NOT_ENOUGH_ITEM	أنت بحاجة إلى راية الجمجمة للدخول.
+SUNGMAHEE_TOWER_ENTER_RESULT_FAIL_PARTY	لا يمكنك الدخول إلى برج جحيم سونغ ماهي في مجموعة.
+SUNGMAHEE_TOWER_ENTER_RESULT_FAIL_POLYMORPH	لا يمكنك الدخول طالما أنك في وضع التحول.
+SUNGMAHEE_TOWER_FLOOR_TEXT	المستوى {0}
+SUNGMAHEE_TOWER_MY_RANK_TEXT	رتبة {0}
+SYMBOLLIST_TITLE	تسجيل علم الرابطة
+TARGET_BUTTON_ACCEPT_FIGHT	وافَق
+TARGET_BUTTON_AVENGE	ثأر
+TARGET_BUTTON_BLOCK	حظر
+TARGET_BUTTON_BLOCK_REMOVE	فك الحظر
+TARGET_BUTTON_BUILDING_DESTROY	تدمير
+TARGET_BUTTON_DISMOUNT	تَرَجَّلَ
+TARGET_BUTTON_EMOTION_ALLOW	مشاعر
+TARGET_BUTTON_EXCHANGE	متاجرة
+TARGET_BUTTON_EXCLUDE	استبعاد
+TARGET_BUTTON_EXIT_OBSERVER	إنهاء المشاهدة
+TARGET_BUTTON_FIGHT	مُبَارَزة
+TARGET_BUTTON_FRIEND	صديق
+TARGET_BUTTON_INVITE_GUILD	دعوة الرابطة.
+TARGET_BUTTON_INVITE_PARTY	دعوة ج.
+TARGET_BUTTON_LEAVE_PARTY	غادر المجموعة
+TARGET_BUTTON_REQUEST_ENTER_PARTY	الانضمام إلى المجموعة
+TARGET_BUTTON_REVIVE	استرجاع الحياة
+TARGET_BUTTON_VIEW_EQUIPMENT	دروع
+TARGET_BUTTON_WHISPER	همس
+TARGET_LEVEL_BOSS	زَعِيم
+TARGET_LEVEL_KING	مرتبة 5
+TARGET_LEVEL_KNIGHT	مرتبة 3
+TARGET_LEVEL_PAWN	مرتبة 1
+TARGET_LEVEL_S_KNIGHT	مرتبة 4
+TARGET_LEVEL_S_PAWN	مستوى 2
+TARGET_TOOLTIP_ATTACK_COUNT	مجموع النقاط: %d
+TASKBAR_ATTACK	هاجم
+TASKBAR_AUTO	هجوم تلقائي
+TASKBAR_CAMERA	كاميرا
+TASKBAR_EXP	خبرة
+TASKBAR_HP	نقاط الحياة
+TASKBAR_MOVE	تحرك
+TASKBAR_SKILL	مهارة
+TASKBAR_SP	نقاط الأسلوب
+TASKBAR_ST	نقاط التحمل
+TENTH_COIN	عملة العيد السنوي
+TENTH_EVENT_ASK_EXCHANGE	أنت بحاجة إلى %d أعلام العيد السنوي. هل ترغب في الاستمرار؟
+THING_COUNT	الجميع
+TIGER_COIN_ITEM_USE_QUESTION	يمكنك استبدال القسيمة بعملة النمر. هل ترغب في المتابعة؟
+TOOLTIP_AFFECT_ATT_GRADE_DOWN	تقليل الضرر	SNA
+TOOLTIP_AFFECT_CANNOT_APPLY	لا يمكنك استخدام هذا في لاعب ضد لاعب أو عند التحول.
+TOOLTIP_AFFECT_CHEONUN	جناح الأثير	SNA
+TOOLTIP_AFFECT_CONFUSION	لقد تعرضت للإغماء.
+TOOLTIP_AFFECT_CRITICAL_GRADE_DOWN	تقليل فرص الإصابة الحرجة.	SNA
+TOOLTIP_AFFECT_CZ_UNLIMIT_ENTER	رمز الحراس	SNA
+TOOLTIP_AFFECT_DEFENSEWAVE_LASER	لا يمكن إيقاف الشعاع المائي.
+TOOLTIP_AFFECT_DEF_GRADE_DOWN	تقليل الدفاع	SNA
+TOOLTIP_AFFECT_ELECTRIC_SHOCK	برق
+TOOLTIP_AFFECT_ELEMENT_BUFF_CRACK	نوع علاوة الضرر: %s\n\nاذا كان لديك قوة تأثير الإزهار أو استرجاع الحياة نشطًا يمكنك إحياء نفسك على الفور.
+TOOLTIP_AFFECT_ELEMENT_BUFF_CRACK_DARK	قوة الظلام
+TOOLTIP_AFFECT_ELEMENT_BUFF_CRACK_EARTH	قوة الأرض
+TOOLTIP_AFFECT_ELEMENT_BUFF_CRACK_ELECT	قوة البرق
+TOOLTIP_AFFECT_ELEMENT_BUFF_CRACK_FIRE	قوة النار
+TOOLTIP_AFFECT_ELEMENT_BUFF_CRACK_ICE	قوة الجليد
+TOOLTIP_AFFECT_ELEMENT_BUFF_CRACK_NONE	بدون تأثير
+TOOLTIP_AFFECT_ELEMENT_BUFF_CRACK_WIND	قوة الرياح
+TOOLTIP_AFFECT_FISHING_GOLD_TUNA	علاوة التونا الذهبية	SNA
+TOOLTIP_AFFECT_FISHING_MOVE_SPEED_DOWN	ثياب مبللة\nسرعة التحرك -50	SNA
+TOOLTIP_AFFECT_FLAG_CANNOT_ATTACK	يتم صد الهجوم العادي
+TOOLTIP_AFFECT_FLAG_CANNOT_USE_SKILL	يتم صد المهارات
+TOOLTIP_AFFECT_FLOWER_OF_DESTRUCTION	قوة تأثير الإزهار
+TOOLTIP_AFFECT_FLOWER_OF_DESTRUCTION_ANIMAL	قوة تأثير الإزهار: قوي ضد الحيوانات +%d %%\n\nيمكنه إحياء نفسك على الفور.	SA
+TOOLTIP_AFFECT_FLOWER_OF_DESTRUCTION_DARK	قوة تأثير الإزهار: قوي ضد الظلام +%d %%\n\nيمكنه إحياء نفسك على الفور.	SA
+TOOLTIP_AFFECT_FLOWER_OF_DESTRUCTION_EARTH	قوة تأثير الإزهار: قوي ضد الأرض +%d %%\n\nيمكنه إحياء نفسك على الفور.	SA
+TOOLTIP_AFFECT_FLOWER_OF_DESTRUCTION_ELECT	قوة تأثير الإزهار: قوي ضد البرق +%d %%\n\nيمكنه إحياء نفسك على الفور.	SA
+TOOLTIP_AFFECT_FLOWER_OF_DESTRUCTION_FIRE	قوة تأثير الإزهار: قوي ضد النار +%d %%\n\nيمكنه إحياء نفسك على الفور.	SA
+TOOLTIP_AFFECT_FLOWER_OF_DESTRUCTION_ICE	قوة تأثير الإزهار: قوي ضد الجليد +%d %%\n\nيمكنه إحياء نفسك على الفور.	SA
+TOOLTIP_AFFECT_FLOWER_OF_DESTRUCTION_WIND	قوة تأثير الإزهار: قوي ضد الرياح +%d %%\n\nيمكنه إحياء نفسك على الفور.	SA
+TOOLTIP_AFFECT_FLOWER_OF_GALE	تأثير زهرة العاصفة: سرعة التحرك +%d\n\nيمكنه إحياء نفسك على الفور.	SA
+TOOLTIP_AFFECT_FORCE_REMAIN_COUNT	الرسوم المتبقية: %d
+TOOLTIP_AFFECT_GARRISON_BUFF	حصانة من تأثير سونغ ماهي	SNA
+TOOLTIP_AFFECT_GARRISON_DEBUFF	تأثير سونغ ماهي	SNA
+TOOLTIP_AFFECT_ICECREAM	قرن البوظة\nسرعة التحرك +10\nهجوم سحري/جسدي +5 %\nخبرة +10 %\n	SNA
+TOOLTIP_AFFECT_IMMUNE_MINE_TOWER_SKILL	تذكرة حماية من الانفجار	SNA
+TOOLTIP_AFFECT_INCREASE_REFINE_PCT	بمجرد تفعيل البركة ستزيد فرصة نجاح الصقل التالي بمقدار %d%%	SA
+TOOLTIP_AFFECT_IRON_DRAGON_BLESS	الشحنات المتبقية لتقليل الضرر بنسبة 10%%: %d
+TOOLTIP_AFFECT_LATE_SUMMER_EVENT_BUFF	أرواح (%d/20)	SA
+TOOLTIP_AFFECT_LATE_SUMMER_EVENT_PRIMIUM_BUFF	أرواح نفيسة (%d/150)	SA
+TOOLTIP_AFFECT_LOOTING_SYSTEM	تذكرة الغنيمة	SNA
+TOOLTIP_AFFECT_MERCENARY_MAX_ACTIVE_INCREASE	يزيد من القدرة على التحمّل بمقدار +%d	SA
+TOOLTIP_AFFECT_MI_BUFF	علاوة الإحتلال: \n%s
+TOOLTIP_AFFECT_MOUNT_FALL	تسقط من على ظهر الدابة	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_ATTACK_SPEED	(عاصفة غاضبة)	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_EFFECT_UP	يزيد من تأثير الركوب	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_EXP	خبرة EXP	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_GYEONGGONG	المشي بخفة	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_HIT_PCT	الدقة	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_INVINCIBILITY	مناعة	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_JOB_ASSASIN	قوي ضد النينجا
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_JOB_SHAMAN	قوي ضد الشامان
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_JOB_SURA	قوي ضد السورا
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_JOB_WARRIOR	قوي ضد المحارب
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_JOB_WOLF	قوي ضد الليكانر
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_KNOCKBACK	إسقاط الخصم	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_NIMBLE	حوافر ذكية	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_RANDOM_ANIMAL	قوي ضد الحيوانات
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_RANDOM_CZ	قوي ضد وحوش زودياك
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_RANDOM_DESSERT	قوي ضد وحوش الصحراء
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_RANDOM_DEVIL	قوي ضد الشيطان
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_RANDOM_HUMAN	قوي ضد نصف بشر
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_RANDOM_INSECT	قوي ضد الحشرات
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_RANDOM_MILGYO	قوي ضد الطائفة السرية
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_RANDOM_MONSTER	قوي ضد جميعها وحش
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_RANDOM_UNDEAD	قوي ضد الزومبي
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_RANDOM_WONGGUI	قوي ضد الغيلان
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_SUNGMA_HP	إرادة سونغ ماهي (حيوية)	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_SUNGMA_IMMUNE	إرادة سونغ ماهي (ذكاء)	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_SUNGMA_MOVE	إرادة سونغ ماهي (مقاومة)	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_SUNGMA_STR	إرادة سونغ ماهي (قوة)	SNA
+TOOLTIP_AFFECT_MOUNT_UPGRADE_SKILL_TO_STRONG	ركوب الخيل	SNA
+TOOLTIP_AFFECT_NORMAL_ATTACK_DAMAGE_BUFF	%0.1f × ضرر الهجوم العادي
+TOOLTIP_AFFECT_NORMAL_ATTACK_FORCE_TYPE	صدى القوة
+TOOLTIP_AFFECT_NO_FALLEN	مقاومة السقوط	SNA
+TOOLTIP_AFFECT_OTHER_WORLD_DEAD_SOUL	لقد تم خفض الحد الأقصى لنقاط حياة أزموديوس بمقدار %d%%.	SA
+TOOLTIP_AFFECT_OTHER_WORLD_GOBLIN_PROTECTION	لا يمكن أن توضع تحت لعنة أزموديوس في الإدانة.	SNA
+TOOLTIP_AFFECT_OTHER_WORLD_YEOMWANG_CURSE	يتم تقليل الضرر الواقع على الوحوش بنسبة 30 %.	SNA
+TOOLTIP_AFFECT_PASWAE	يقلل سرعة التحرك والدفاع لمدة 5 ثوان.
+TOOLTIP_AFFECT_POLYMORPH	تحويل	SNA
+TOOLTIP_AFFECT_PREMIUM_PRIVATE_SHOP	متجر شخصي مميز	SNA
+TOOLTIP_AFFECT_RAMADNA_CANDY	حلويات \nسرعة التحرك +10 \nضرر الهجوم +5 % \nخبرة +10 %	SNA
+TOOLTIP_AFFECT_RANJU	شراب خولنجان \nسرعة التحرك +10 \nضرر الهجوم +5 % \nخبرة +10 %	SNA
+TOOLTIP_AFFECT_RCAST_SPEED	تقلل من وقت الاستراحة الإجبارية	SNA
+TOOLTIP_AFFECT_RED_DRAGONLAIR_BUFF	مقاومة ضد أضرار المهارة +15% | مقاومة أضرار الهجوم +15%	SNA
+TOOLTIP_AFFECT_REFINE_FREE_MATERIAL	بمجرد تفعيل البركة ستضمن أن الصقل التالي لا يستهلك أي مواد.	SNA
+TOOLTIP_AFFECT_RESEARCHER_ELIXIR	إكسير العالم	SNA
+TOOLTIP_AFFECT_RHP_REGEN	لا يمكن التعافي	SNA
+TOOLTIP_AFFECT_SAFEBOX_BUFF_01	علاوة مخزن\n +3 % خبرة EXP	SNA
+TOOLTIP_AFFECT_SAFEBOX_BUFF_02	علاوة مخزن\n+20 دفاع	SNA
+TOOLTIP_AFFECT_SAFEBOX_BUFF_03	علاوة مخزن\n+1% نقطة الحياة	SNA
+TOOLTIP_AFFECT_SAFEBOX_BUFF_04	علاوة مخزن\n+3% قوة ضد الوحوش	SNA
+TOOLTIP_AFFECT_SECRET_DUNGEON_BUFF_A	ستحصل على صندوق كنز إضافي إذا أكملت بنجاح معبد الأفاعي أو أعماق الرياح الشمالية.	SNA
+TOOLTIP_AFFECT_SECRET_DUNGEON_BUFF_B	ستحصل على صندوق كنز إضافي إذا هزمت جاتون تيرم أو أكملت معبد زودياك بنجاح.	SNA
+TOOLTIP_AFFECT_SECRET_DUNGEON_BUFF_C	ستحصل على صندوق كنز إضافي عندما تهزم فرعائيل أو بيران-سيتاو.	SNA
+TOOLTIP_AFFECT_SECRET_DUNGEON_BUFF_POINT_A	مكافأة التقدم معبد الألغاز علاوة أ: %d	SA
+TOOLTIP_AFFECT_SECRET_DUNGEON_BUFF_POINT_B	مكافأة التقدم معبد الألغاز علاوة ب: %d	SA
+TOOLTIP_AFFECT_SECRET_DUNGEON_BUFF_POINT_C	مكافأة التقدم معبد الألغاز علاوة ج: %d	SA
+TOOLTIP_AFFECT_SET_ITEM_1	علاوة طقم مقدسة	SNA
+TOOLTIP_AFFECT_SET_ITEM_2	علاوة طقم مهيبة	SNA
+TOOLTIP_AFFECT_SET_ITEM_3	علاوة طقم فارسية	SNA
+TOOLTIP_AFFECT_SET_ITEM_4	علاوة طقم ملكية	SNA
+TOOLTIP_AFFECT_SET_ITEM_5	طقم العلاوة عظيمة	SNA
+TOOLTIP_AFFECT_SHACKLE	القيود
+TOOLTIP_AFFECT_SKILL_ATTACK_DAMAGE_BUFF	%0.1f × ضرر المهارة
+TOOLTIP_AFFECT_SKILL_ATTACK_FORCE_TYPE	صدى المهارة
+TOOLTIP_AFFECT_SNOWFLAKE_STICK_EVENT_RANK_BUFF	سحر الشتاء	SNA
+TOOLTIP_AFFECT_SNOWFLAKE_STICK_EVENT_RANK_BUFF_ACQUIRED	: حصلت على\n
+TOOLTIP_AFFECT_SNOWFLAKE_STICK_EVENT_RANK_BUFF_NOT_ACQUIRED	: لم تحصل على\n
+TOOLTIP_AFFECT_SNOWFLAKE_STICK_EVENT_SNOWFLAKE_BUFF_1	سحر ندفة الثلج	SNA
+TOOLTIP_AFFECT_SNOWFLAKE_STICK_EVENT_SNOWFLAKE_BUFF_2	يمكنك الحصول على كرات الثلج وأغصان الثلج من الوحوش المهزومة.
+TOOLTIP_AFFECT_SUNGMAHEE_TOWER_CURSE	لعنة سونغ ماهي (%d-مرات مجمعة). ستنخفض نقاط حياتك بمقدار 10 %% لكل مجموعة وكل 10 ثانية. يمكن تكديسها حتى 10 مرات.	SA
+TOOLTIP_AFFECT_SUNGMA_ALL	يزيد كل قيم سونغ ماهي بنسبة 10 %.	SNA
+TOOLTIP_AFFECT_SUNGMA_DESC	إرادة سونغ ماهي تملأ المكان.
+TOOLTIP_AFFECT_SUNGMA_HP	إرادة سونغ ماهي - حيوية: %d
+TOOLTIP_AFFECT_SUNGMA_HP_BUFF	يزيد إرادة سونغ ماهي (حيوية) بمقدار +%d.	SA
+TOOLTIP_AFFECT_SUNGMA_IMMUNE	إرادة سونغ ماهي - ذكاء: %d
+TOOLTIP_AFFECT_SUNGMA_IMMUNE_BUFF	يزيد إرادة سونغ ماهي (ذكاء) بمقدار +%d.	SA
+TOOLTIP_AFFECT_SUNGMA_MOVE	إرادة سونغ ماهي - مقاومة: %d
+TOOLTIP_AFFECT_SUNGMA_MOVE_BUFF	يزيد إرادة سونغ ماهي (مقاومة) بمقدار +%d.	SA
+TOOLTIP_AFFECT_SUNGMA_MOVE_DEBUFF	-20 إرادة سونغ ماهي (مقاومة)	SNA
+TOOLTIP_AFFECT_SUNGMA_STR	إرادة سونغ ماهي - قوة: %d
+TOOLTIP_AFFECT_SUNGMA_STR_BUFF	يزيد إرادة سونغ ماهي (قوة) بمقدار +%d.	SA
+TOOLTIP_AFFECT_SUNGMA_STR_DEBUFF	-20 إرادة سونغ ماهي (قوة)	SNA
+TOOLTIP_AFFECT_WHITE_DRAGON_BLESS	الشحنات المتبقية لزيادة الضرر بنسبة 10%%: %d
+TOOLTIP_AFFECT_WORLD_BOSS_DAILY_REWARD	علاوة مهمة احتفالية زعيم العالم اليومية\n قيمة الهجوم +%d%%	SA
+TOOLTIP_AFFECT_WORLD_BOSS_REWARD	علاوة ترتيب احتفالية زعيم العالم\n إسقاط البنود +%d	SA
+TOOLTIP_ALIGNMENT_DAMAGE_BONUS	تم زيادة الضرر المسبب عند وجود نقاط تصنيف منخفضة.	SNA
+TOOLTIP_ANTI_CRITICAL_PCT	مقاومة ضد الضربات الحرجة +%d%%	SA
+TOOLTIP_ANTI_PENETRATE_PCT	مقاومة ضد الضربات الخارقة +%d%%	SA
+TOOLTIP_ANTI_SELL	لا يمكنك بيعه في المتجر.
+TOOLTIP_APPLY_ACCEDRAIN_RATE	قيمة الاستيعاب: %d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ANIMAL	قوي ضد الحيوانات +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ASSASSIN	قوي ضد النينجا +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_BELL	كسر الدفاع الجرسي +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_BOW	كسر مقاومة السهم +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_CLAW	كسر الدفاع المخلبي +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_CZ	قوي ضد وحوش زودياك +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_DAGGER	كسر الدفاع الخنجري +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_DESERT	قوي ضد وحوش الصحراء +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_DEVIL	قوي ضد الشيطان +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_FAN	كسر الدفاع المروحي +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_HUMAN	قوي ضد نصف بشر +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_INSECT	قوي ضد الحشرات +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MILGYO	قوي ضد الطائفة السرية +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MONSTER	قوي ضد الوحوش +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ORC	قوي ضد الغيلان +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SHAMAN	قوي ضد شامان +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SURA	قوي ضد سورا +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SWORD	كسر الدفاع السيفي +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_TWOHAND	كسر دفاع سيف اليدين +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_UNDEAD	قوي ضد الزومبي +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_WARRIOR	قوي ضد المحارب +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_WOLFMAN	قوي ضد اللّيكانر + %d%%	SA
+TOOLTIP_APPLY_BLEEDING_PCT	هجوم مُنزف + %d%%	SA
+TOOLTIP_APPLY_BLEEDING_REDUCE	مقاومة ضد الهجوم المُنزف + %d%%	SA
+TOOLTIP_APPLY_BLOCK	فرصة صَد الهجوم عن قرب %d%%	SA
+TOOLTIP_APPLY_COMBAT_SP_RECOVER	استعادة نقاط الاسلوب في القتال كل 5 ثواني %d	SA
+TOOLTIP_APPLY_CRITICAL_PCT	فرص الإصابة بضربة حرجة +%d%%	SA
+TOOLTIP_APPLY_DAMAGE_SP_RECOVER	%d%% فرص استعادة نقاط الأسلوب عند الإصابة	SA
+TOOLTIP_APPLY_DODGE	%d%% فرص تفادي الهجوم بالسهام	SA
+TOOLTIP_APPLY_ENCHANT_DARK	قوة الظلام +%d%%	SA
+TOOLTIP_APPLY_ENCHANT_DARK2	قوة الظلام +%d%% ~ +%d%%
+TOOLTIP_APPLY_ENCHANT_EARTH	قوة الأرض +%d%%	SA
+TOOLTIP_APPLY_ENCHANT_EARTH2	قوة الأرض +%d%% ~ +%d%%
+TOOLTIP_APPLY_ENCHANT_ELECT	قوة البرق +%d%%	SA
+TOOLTIP_APPLY_ENCHANT_ELECT2	قوة البرق +%d%% ~ +%d%%
+TOOLTIP_APPLY_ENCHANT_FIRE	قوة النار +%d%%	SA
+TOOLTIP_APPLY_ENCHANT_FIRE2	قوة النار +%d%% ~ +%d%%
+TOOLTIP_APPLY_ENCHANT_ICE	قوة الجليد +%d%%	SA
+TOOLTIP_APPLY_ENCHANT_ICE2	قوة الجليد +%d%% ~ +%d%%
+TOOLTIP_APPLY_ENCHANT_WIND	قوة الرياح +%d%%	SA
+TOOLTIP_APPLY_ENCHANT_WIND2	قوة الرياح +%d%% ~ +%d%%
+TOOLTIP_APPLY_EXP_DOUBLE_BONUS	%d%% فرص الحصول على نقاط خبرة إضافية	SA
+TOOLTIP_APPLY_GOLD_DOUBLE_BONUS	%d%% فرص إسقاط ضعف كمية اليانغ.	SA
+TOOLTIP_APPLY_IMMUNE_BLEEDING100	مُحصن ضد النزيف	SNA
+TOOLTIP_APPLY_IMMUNE_FALL	مُحصن ضد الوقوع	SNA
+TOOLTIP_APPLY_IMMUNE_POISON100	مُحصن ضد السم	SNA
+TOOLTIP_APPLY_IMMUNE_SLOW	الدفاع ضد التباطؤ	SNA
+TOOLTIP_APPLY_IMMUNE_STUN	دفاع ضد الإغماء	SNA
+TOOLTIP_APPLY_ITEM_DROP_BONUS	%d%% فرص إسقاط ضعف كمية الأشياء.	SA
+TOOLTIP_APPLY_KILL_HP_RECOVER	%d%% فرص استعادة نقاط الحياة	SA
+TOOLTIP_APPLY_KILL_SP_RECOVER	%d%% فرص استعادة نقاط الأسلوب	SA
+TOOLTIP_APPLY_MANA_BURN_PCT	فرص نهب نقاط الأسلوب %d%%	SA
+TOOLTIP_APPLY_MAX_HP_PCT	نقاط الحياة القصوى HP +%d%%	SA
+TOOLTIP_APPLY_MAX_SP_PCT	أقصى MP نقاط الأسلوب +%d%%	SA
+TOOLTIP_APPLY_MONSTER_DEFEND_BONUS	مقاومة ضد هجوم الوحوش %d	SA
+TOOLTIP_APPLY_NOAFFECT	بدون تأثير
+TOOLTIP_APPLY_NO_DEATH_PENALTY	بعد إعادة إحياء اللاعب في مكان الموت، لن يتم خصم أي نقاط للخبرة.	SNA
+TOOLTIP_APPLY_NO_DEATH_PENALTY_PLUS	يأخذك التنين الأسطوري تحت أجنحته الحامية. إذا تم إحيائك في مكان وفاتك، فلن تفقد نقاط الخبرة.	SNA
+TOOLTIP_APPLY_PENETRATE_PCT	%d%% فرص تحصيل ضربة خارقة	SA
+TOOLTIP_APPLY_POISON_PCT	فرصة التسمم: %d%%	SA
+TOOLTIP_APPLY_POISON_REDUCE	مقاومة السموم %d%%	SA
+TOOLTIP_APPLY_POTION_BONUS	زيادة في تأثير الجرعة بنسبة %d%%	SA
+TOOLTIP_APPLY_REFLECT_CURSE	%d%% فرص عكس اللعنة	SA
+TOOLTIP_APPLY_REFLECT_MELEE	%d%% فرصُ عكس ضربات الهجمات عن قرب.	SA
+TOOLTIP_APPLY_RESIST_ASSASSIN	فرص الدفاع ضد هجوم النينجا %d%%	SA
+TOOLTIP_APPLY_RESIST_BELL	دفاع جرسي %d%%	SA
+TOOLTIP_APPLY_RESIST_CLAW	دفاع مخلبي +%d%%	SA
+TOOLTIP_APPLY_RESIST_DAGGER	دفاع خنجري %d%%	SA
+TOOLTIP_APPLY_RESIST_FAN	دفاع مروحي %d%%	SA
+TOOLTIP_APPLY_RESIST_HUMAN	مقاومة نصف البشر %d%%	SA
+TOOLTIP_APPLY_RESIST_MOUNT_FALL	مقاومة السقوط +%d%%	SA
+TOOLTIP_APPLY_RESIST_SHAMAN	فرص الدفاع ضد هجوم الشامان %d%%	SA
+TOOLTIP_APPLY_RESIST_SURA	فرص الدفاع ضد هجوم السورا %d%%	SA
+TOOLTIP_APPLY_RESIST_SWORD	دفاع سيفي %d%%	SA
+TOOLTIP_APPLY_RESIST_TWOHAND	دفاع سيف اليدين %d%%	SA
+TOOLTIP_APPLY_RESIST_WARRIOR	فرص الدفاع ضد هجوم المحاربين %d%%	SA
+TOOLTIP_APPLY_RESIST_WIND	مقاومة الرياح %d%%	SA
+TOOLTIP_APPLY_RESIST_WOLFMAN	فرص الدفاع ضد هجوم اللّيكانر %d%%	SA
+TOOLTIP_APPLY_SKILL_BOOK_BONUS	فرصة الاستفادة من الكتب ترتفع بعامل 2,5	SNA
+TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY	ستحصل إذا فشل التّعلم الحصول على فرصة إضافية لإعادة المحاولة.	SNA
+TOOLTIP_APPLY_SLOW_PCT	فرص التبطيء: %d%%	SA
+TOOLTIP_APPLY_STEAL_HP	تستوعب نقاط الحياة %d%% من الضرر.	SA
+TOOLTIP_APPLY_STEAL_SP	تستوعب نقاط الأسلوب %d%% من الضرر.	SA
+TOOLTIP_APPLY_STUN_PCT	فرص الإغماء %d%%	SA
+TOOLTIP_ARMOR	دروع
+TOOLTIP_ARROW	سهم
+TOOLTIP_ASSASSIN	نينجا
+TOOLTIP_ATTBONUS_PER_ANIMAL	قوي ضد الحيوانات (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ATTBONUS_PER_CZ	قوي ضد وحوش زودياك (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ATTBONUS_PER_DESERT	قوي ضد وحوش الصحراء (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ATTBONUS_PER_DEVIL	قوي ضد الشيطان (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ATTBONUS_PER_HUMAN	قوي ضد نصف بشر (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ATTBONUS_PER_INSECT	قوي ضد الحشرات (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ATTBONUS_PER_MILGYO	قوي ضد الطائفة السرية (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ATTBONUS_PER_MONSTER	قوي ضد الوحوش (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ATTBONUS_PER_ORC	قوي ضد الغيلان (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ATTBONUS_PER_STONE	قوي ضد أحجار الماتين (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ATTBONUS_PER_UNDEAD	قوي ضد الزومبي (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ATTBONUS_STONE	+%d%% قوي ضد أحجار الماتين	SA
+TOOLTIP_ATT_GRADE	قيمة الهجوم +%d	SA
+TOOLTIP_ATT_SPEED	سرعة الهجوم +%d%%	SA
+TOOLTIP_ATT_SPEED_SLOW	خفض سرعة الهجوم	SNA
+TOOLTIP_AUTO_DAMAGE_POTION_REST	الوقت المتبقي: %d
+TOOLTIP_AUTO_PICKUP	لديك فرصة %d%% لألتقاط البنود من حولك لمدة 30 ثانية	SA
+TOOLTIP_AUTO_POTION_HP	إكسير الشمس
+TOOLTIP_AUTO_POTION_REST	الكمية المتبقية: %.2f%%
+TOOLTIP_AUTO_POTION_SP	إكسير القمر
+TOOLTIP_AUTO_POTION_USING	مُفعّل
+TOOLTIP_AUTO_SYSTEM_PRIMIUM	صيد تلقائي	SNA
+TOOLTIP_BATTLE_POTION	جرعة قتال منطقة المعركة	SNA
+TOOLTIP_BATTLE_ROYALE_AFFECT_INFINITE_STAMINA	تحمّل لا ينتهي	SNA
+TOOLTIP_BATTLE_ROYALE_AFFECT_MOVE_SPEED	ارتقعت سرعة التحرك	SNA
+TOOLTIP_BATTLE_ROYALE_AFFECT_SLOW	انخفضت سرعة التحرك	SNA
+TOOLTIP_BOW_DISTANCE	مدى الرماية +%dm	SA
+TOOLTIP_BUYPRICE	السعر: %s
+TOOLTIP_CAST_SPEED	سرعة السحر: +%d%%	SA
+TOOLTIP_CON	قوة الحياة +%d	SA
+TOOLTIP_COSTUME_ATTR_BONUS	علاوة الزي %d%%	SA
+TOOLTIP_CURSE_OF_ELEMENTAL	لعنة العناصر (%dمكدسة) ستنخفض نقاط حياتك باستمرار. يمكن تكديسها حتى 10 مرات.	SA
+TOOLTIP_DAMAGE_HP_RECOVERY	يستوعب الضرر بنسبة %d%% من نقاط الحياة	SA
+TOOLTIP_DAMAGE_SP_RECOVERY	يستوعب الضرر بنسبة %d%% من نقاط الأسلوب	SA
+TOOLTIP_DEF_GRADE	دفاع +%d	SA
+TOOLTIP_DEX	المناورة +%d	SA
+TOOLTIP_DISMOUNT_MOVE_SPEED_BONUS_PER	عند النزول عن ظهر الدابة ستزداد سرعة التحرك بمقدار %d%% لمدة 10 ثواني	SA
+TOOLTIP_DRAGON_SOUL_DECK1	سماء	SNA
+TOOLTIP_DRAGON_SOUL_DECK2	أرض	SNA
+TOOLTIP_DS_SET	تأثير طقم حجر التنين	SNA
+TOOLTIP_DURATION	المدة
+TOOLTIP_EAR	حلق
+TOOLTIP_ENCHANT_PER_DARK	قوة الظلام (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ENCHANT_PER_EARTH	قوة الأرض (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ENCHANT_PER_ELECT	قوة البرق (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ENCHANT_PER_FIRE	قوة النار (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ENCHANT_PER_ICE	قوة الجليد (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ENCHANT_PER_WIND	قوة الرياح (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_ENERGY	طاقة %d	SA
+TOOLTIP_ETC	إلخ.
+TOOLTIP_EXP_BONUS_EVENT	خبرة EXP +%d%%	SA
+TOOLTIP_FIFTH_ATTRIBUTE_BONUS	5. إضافة علاوة +%d%%	SA
+TOOLTIP_FIRST_ATTRIBUTE_BONUS	1. إضافة علاوة +%d%%	SA
+TOOLTIP_FISHINGROD_EXP	نقاط: %d / %d
+TOOLTIP_FISHINGROD_LEVEL	مستوى: %d
+TOOLTIP_FISHINGROD_UPGRADE1	امنحه للصياد
+TOOLTIP_FISHINGROD_UPGRADE2	لكي تحصل على
+TOOLTIP_FISHINGROD_UPGRADE3	صنارة صيد أفضل بكثير.
+TOOLTIP_FISH_LEN	الطول: %.2fcm
+TOOLTIP_FLOWER_EVENT_SHOOT_ENVELOPE	بذور زهرة
+TOOLTIP_FOURTH_ATTRIBUTE_BONUS	4. إضافة علاوة +%d%%	SA
+TOOLTIP_GLOVE	قفازات
+TOOLTIP_GLOVE_BASE_EFFECT_INCREASE	يتم زيادة السمات الأساسية لقفازاتك بمقدار +%d%%.	SA
+TOOLTIP_GOLDEN_LAND_OASIS_SHOP_MERCH_REMAIN_COUNT	المشتريات المتبقية: %d
+TOOLTIP_GUILD_SKILL_ACCEL	تسريع +%d	SA
+TOOLTIP_GUILD_SKILL_BLESS	بركة التنين الأسطوري +%d	SA
+TOOLTIP_GUILD_SKILL_BLOOD	دم التنين الأسطوري +%d	SA
+TOOLTIP_GUILD_SKILL_BUNNO	غضب التنين الأسطوري +%d%%	SA
+TOOLTIP_GUILD_SKILL_JUMUN	مساعدة السحر +%d%%	SA
+TOOLTIP_GUILD_SKILL_SEONGHWI	دروع مقدسة +%d	SA
+TOOLTIP_HALLOWEEN_EVENT_BUFF	+20% EXP خبرة | +5% إسقاط البنود | +10% قوة ضد الوحوش	SNA
+TOOLTIP_HELMET	خوذة
+TOOLTIP_HIT_AREA_ELEC_ATTACK	هاجم الوحوش القريبة بالبرق الذي يسبب ضررًا مساويًا للهجوم العادي.	SNA
+TOOLTIP_HIT_AUTO_HP_RECOVERY	خلال المعركة ستحصل على تأثير إكسير الشمس	SNA
+TOOLTIP_HIT_AUTO_SP_RECOVERY	خلال المعركة ستحصل على تأثير إكسير القمر	SNA
+TOOLTIP_HIT_BUFF_ENCHANT_DARK	أحصل على قوة الظلام لمدة %d ثانية في المعركة	SA
+TOOLTIP_HIT_BUFF_ENCHANT_EARTH	أحصل على قوة الأرض لمدة %d ثانية في المعركة	SA
+TOOLTIP_HIT_BUFF_ENCHANT_ELEC	أحصل على قوة البرق لمدة %d ثانية في المعركة	SA
+TOOLTIP_HIT_BUFF_ENCHANT_FIRE	أحصل على قوة النار لمدة %d ثانية في المعركة	SA
+TOOLTIP_HIT_BUFF_ENCHANT_ICE	أحصل على قوة الثلج لمدة %d ثانية في المعركة	SA
+TOOLTIP_HIT_BUFF_ENCHANT_WIND	أحصل على قوة الرياح لمدة %d ثانية في المعركة	SA
+TOOLTIP_HIT_BUFF_RESIST_DARK	أحصل على مقاومة الظلام لمدة %d ثانية في المعركة	SA
+TOOLTIP_HIT_BUFF_RESIST_EARTH	أحصل على مقاومة الأرض لمدة %d ثانية في المعركة	SA
+TOOLTIP_HIT_BUFF_RESIST_ELEC	أحصل على مقاومة البرق لمدة %d ثانية في المعركة	SA
+TOOLTIP_HIT_BUFF_RESIST_FIRE	أحصل على مقاومة النار لمدة %d ثانية في المعركة	SA
+TOOLTIP_HIT_BUFF_RESIST_ICE	أحصل على مقاومة الثلج لمدة %d ثانية في المعركة	SA
+TOOLTIP_HIT_BUFF_RESIST_WIND	أحصل على مقاومة الرياح لمدة %d ثانية في المعركة	SA
+TOOLTIP_HIT_BUFF_SUNGMA_HP	زيادة إرادة سونغ ماهي (حيوية) بمقدار 15 لمدة %d ثانية	SA
+TOOLTIP_HIT_BUFF_SUNGMA_IMMUNE	زيادة إرادة سونغ ماهي (ذكاء) بمقدار 15 لمدة %d ثانية	SA
+TOOLTIP_HIT_BUFF_SUNGMA_MOVE	زيادة إرادة سونغ ماهي (مقاومة) بمقدار 15 لمدة %d ثانية	SA
+TOOLTIP_HIT_BUFF_SUNGMA_STR	زيادة إرادة سونغ ماهي (قوة) بمقدار 15 لمدة %d ثانية	SA
+TOOLTIP_HIT_PCT	الدقة +%d	SA
+TOOLTIP_HIT_STONE_ATTBONUS_STONE	الهجوم على حجر الماتين يمنحك +%d%% ضرر لمدة 5 ثواني (قوي ضد حجر الماتين)	SA
+TOOLTIP_HIT_STONE_DEF_GRADE_BONUS	الهجوم على حجر الماتين يمنحك +%d دفاع لمدة 5 ثواني	SA
+TOOLTIP_HP_REGEN	تجديد نقاط الحياة +%d%%	SA
+TOOLTIP_INSIGHT_SKILL_LEVEL	المستوى الحالي: %d
+TOOLTIP_INT	ذكاء +%d	SA
+TOOLTIP_ITEM_ATT_GRADE	قيمة الهجوم %d
+TOOLTIP_ITEM_ATT_POWER	قيمة الهجوم %d - %d
+TOOLTIP_ITEM_ATT_POWER_ONE_ARG	قيمة الهجوم %d
+TOOLTIP_ITEM_ATT_POWER_REFINE	قيمة الهجوم %d - %d (+%d)
+TOOLTIP_ITEM_ATT_SPEED	سرعة الهجوم %s
+TOOLTIP_ITEM_DEF_GRADE	دفاع %d
+TOOLTIP_ITEM_FAST	سريع
+TOOLTIP_ITEM_LIMIT_CON	الحد الأقصى من قوة الحياة: %d
+TOOLTIP_ITEM_LIMIT_DEX	الحد الأقصى للمناورة: %d
+TOOLTIP_ITEM_LIMIT_INT	الحد الأقصى للذكاء: %d
+TOOLTIP_ITEM_LIMIT_LEVEL	ابتداء من المستوى: %d
+TOOLTIP_ITEM_LIMIT_NEWWORLD_LEVEL	الحد الأدنى لمستوى البطل: %d
+TOOLTIP_ITEM_LIMIT_STR	الحد الأقصى للقوة: %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER	قيمة الهجوم السحري %d - %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER_ONE_ARG	قيمة الهجوم السحري %d
+TOOLTIP_ITEM_MAGIC_DEF_POWER	الدفاع السحري %d
+TOOLTIP_ITEM_NORMAL	طبيعي
+TOOLTIP_ITEM_SLOW	بطيء
+TOOLTIP_ITEM_VERY_FAST	سريع جداً
+TOOLTIP_ITEM_VERY_SLOW	بطيء جداً
+TOOLTIP_ITEM_WEARABLE_JOB	[قابل للتجهيز]
+TOOLTIP_KILL_BOSS_ITEM_BONUS	عند هزيمة أحد الزعماء تزداد فرصة الإسقاط الخاصة بك بقيمة %d%%	SA
+TOOLTIP_LOTTERY_STEP_NUMBER	%d
+TOOLTIP_LOTTO_NUMBER	رقم الحظ: %d
+TOOLTIP_MAGIC_ATTBONUS_PER	هجوم سحري +%d%%	SA
+TOOLTIP_MAGIC_ATT_GRADE	قيمة الهجوم السحري +%d	SA
+TOOLTIP_MAGIC_DEF_GRADE	دفاع سحري +%d	SA
+TOOLTIP_MALL_ATTBONUS	قيمة الهجوم +%d%%	SA
+TOOLTIP_MALL_ATTBONUS_STATIC	قيمة الهجوم	SNA
+TOOLTIP_MALL_AUTOLOOT	سيتم تلقائياً تسجيل اليانغ.	SNA
+TOOLTIP_MALL_DEFBONUS	الدفاع +%d%%	SA
+TOOLTIP_MALL_DEFBONUS_STATIC	دفاع	SNA
+TOOLTIP_MALL_EXPBONUS	نقاط الخبرة +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_P_STATIC	نقاط الخبرة لمقهى الإنترنت الإضافية +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_STATIC	50 % خبرة إضافية	SNA
+TOOLTIP_MALL_FISH_MIND	ارتفاع نجاح فرص صيد السمك.	SNA
+TOOLTIP_MALL_GOLDBONUS	إرتفعت فرص إسقاط اليانغ بمقدار %d%%	SA
+TOOLTIP_MALL_GOLDBONUS_STATIC	فرص مضاعفة في إسقاط اليانغ	SNA
+TOOLTIP_MALL_ITEMBONUS	إرتفعت فرص إسقاط الأشياء بمقدار %d%%	SA
+TOOLTIP_MALL_ITEMBONUS_P_STATIC	مقهى إنترنت فرص غنم بنود زائد %.1f%%	SA
+TOOLTIP_MALL_ITEMBONUS_STATIC	إرتفعت فرص إسقاط الأشياء بنسبة 200%.	SNA
+TOOLTIP_MALL_MARRIAGE_FAST	زيادة نقاط الحب بسرعة أكبر.	SNA
+TOOLTIP_MALL_SAFEBOX	توفير مساحة أكبر للتخزين.	SNA
+TOOLTIP_MAX_HP	نقاط الحياة القصوى +%d	SA
+TOOLTIP_MAX_HP_PCT	نقاط الحياة القصوى +%d%%	SA
+TOOLTIP_MAX_SP	نقاط الأسلوب القصوى +%d	SA
+TOOLTIP_MAX_SP_PCT	نقاط الأسلوب القصوى +%d%%	SA
+TOOLTIP_MAX_STAMINA	مدة التحمل القصوى +%d	SA
+TOOLTIP_MELEE_MAGIC_ATTBONUS_PER	هجوم سحري/قتال عن قرب +%d%%	SA
+TOOLTIP_MEMORIZED_POSITION	%s(%d، %d)
+TOOLTIP_MEMORIZED_POSITION_ERROR	خطأ GPS(%d, %d)
+TOOLTIP_MOB_HIT_MOB_AGGRESSIVE	عند الهجوم هناك فرصة %d%% لمهاجمتك من قبل جميع الوحوش المحيطة (عباءة الشجاعة)	SA
+TOOLTIP_MORE_THEN_HP90_DAMAGE_REDUCE	إذا كان لديك أكثر من 90%% نقاط حياة، سيتم خفض الضرر ضدك بقيمة %d%%.	SA
+TOOLTIP_MOUNT_MELEE_MAGIC_ATTBONUS_PER	عند ركوب الدابة يزداد الضرر الخاص بك بمقدار +%d%% لمدة 10 ثواني	SA
+TOOLTIP_MOUNT_NO_KNOCKBACK	فرصة %d%% لتجنب السقوط لمدة 20 ثانية، 2 دقيقة استراحة إجبارية.	SA
+TOOLTIP_MOUNT_UPGRADE_SKILLBOOK_USE	هل ترغب في تعلم مهارة الركوب %s؟
+TOOLTIP_MOUNT_UPGRADE_SKILL_LEVEL_UP	هل تريد تحسين مهارة حصانك؟ \n ستحتاج إلى %d غايا و %d يانغ
+TOOLTIP_MOV_SPEED	سرعة التحرك %d%%	SA
+TOOLTIP_NECK	قلادة
+TOOLTIP_NEED_ALL_SP	نقاط الأسلوب المطلوبة: الحد الأقصى
+TOOLTIP_NEED_GSP	شبح التنين المطلوب: %d
+TOOLTIP_NEED_HP	نقاط الحياة المطلوبة: %d
+TOOLTIP_NEED_HP_PER_SEC	نقاط الحياة / في الثانية: %d
+TOOLTIP_NEED_SKILL_POINT	نقاط المهارة المطلوبة:
+TOOLTIP_NEED_SP	نقاط الأسلوب المطلوبة: %d
+TOOLTIP_NEED_SP_PER_SEC	نقاط الأسلوب / الثانية: %d
+TOOLTIP_NEXT_SKILL_LEVEL_1	المستوى التالي: %d (الحد الأقصى %d)
+TOOLTIP_NEXT_SKILL_LEVEL_2	المستوى التالي: %d (الحد الأقصى %d-%d)
+TOOLTIP_NORMAL_DAMAGE_GUARD	صد ضرر الهجوم بفرصة %d%%	SA
+TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	معدل الضرر %d%%	SA
+TOOLTIP_NORMAL_HIT_DAMAGE_BONUS_BOSS_OR_MORE	ضرر الهجوم ضد الزعيم +%d%%	SA
+TOOLTIP_NORMAL_HIT_DEFEND_BONUS	معدل مقاومة الأضرار %d%%	SA
+TOOLTIP_NORMAL_HIT_DEFEND_BONUS_BOSS_OR_MORE	ضرر الهجوم من الزعماء -%d%%	SA
+TOOLTIP_NO_DEATH_AND_HP_RECOVERY30	لديك فرصة %d%% لتفادي الموت واستعادة 30%% من نقاط الحياة الخاصة بك	SA
+TOOLTIP_NO_FALLEN	اكتسب مقاومة للسقوط لمدة 15 ثانية في المعركة بفرصة%d%%.	SA
+TOOLTIP_NPC_LOCATION_HELPER_ELEMENT_ENCHANT	علاوات العناصر: %s
+TOOLTIP_NPC_LOCATION_HELPER_ELEMENT_ENCHANT_DARK	ظلام
+TOOLTIP_NPC_LOCATION_HELPER_ELEMENT_ENCHANT_EARTH	أرض
+TOOLTIP_NPC_LOCATION_HELPER_ELEMENT_ENCHANT_ELECT	برق
+TOOLTIP_NPC_LOCATION_HELPER_ELEMENT_ENCHANT_FIRE	نار
+TOOLTIP_NPC_LOCATION_HELPER_ELEMENT_ENCHANT_ICE	جليد
+TOOLTIP_NPC_LOCATION_HELPER_ELEMENT_ENCHANT_NONE	لا شيء
+TOOLTIP_NPC_LOCATION_HELPER_ELEMENT_ENCHANT_WIND	رياح
+TOOLTIP_NPC_LOCATION_HELPER_LEVEL	رتبة الوحش: %d
+TOOLTIP_NPC_LOCATION_HELPER_MOB_GRADE	رتبة الوحش: %s
+TOOLTIP_PARTY_INFO_GRADE_UP1	أعضاء المجموعة أكثر من %d
+TOOLTIP_PARTY_INFO_GRADE_UP2	مستوى الهجوم +%d
+TOOLTIP_PARTY_INFO_GRADE_UP3	مستوى الدفاع +%d
+TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	استعادة نقاط الحياة/نقاط الأسلوب لجميع أعضاء المجموعة مرة كل 60 دقيقة.
+TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	استعادة نقاط الحياة/نقاط الأسلوب لجميع أعضاء المجموعة مرة كل 30 دقيقة.
+TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	عليك انتظار 3 دقائق بعد موت أحد أعضاء المجموعة.
+TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	تستطيع في أي وقت استدعاء أعضاء المجموعة على نفس الخادم.
+TOOLTIP_PARTY_INFO_SET_ATTACKER	مستوى الهجوم +(أعضاء المجموعة\2) يمكن اختيار المهاجمين %d.
+TOOLTIP_PARTY_INFO_SET_TANKER	مرحلة الدفاع+(عدد أعضاء المجموعة) يمكن اختيار 1 مقاتل عن قرب.
+TOOLTIP_PARTY_SKILL_LEVEL	المستوى الحالي: %d
+TOOLTIP_PARTY_TITLE_GRADE_UP	[تحسين هجوم/دفاع]
+TOOLTIP_PARTY_TITLE_HEAL	[استعادة]
+TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	أكثر من %d من أعضاء المجموعة أخذوا نقاط خبرة إضافية %d%%.
+TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[نقاط خبرة إضافية]
+TOOLTIP_PARTY_TITLE_RECALL	[استدعاء]
+TOOLTIP_PARTY_TITLE_SET_ATTACKER	[تحديد المهاجمين]
+TOOLTIP_PARTY_TITLE_SET_TANKER	[تعيين محارب للقتال عن قرب]
+TOOLTIP_PASSIVE_JOB_DECK	علاوة الأثر القديم	SNA
+TOOLTIP_PEPSI_EVENT	5% علاوة خبرة EXP و 5% فرصة أعلى لسلب الأشياء.	SNA
+TOOLTIP_PETBAG_PET_MAX_LIFE	مدة صلاحية الرّفاق: %s ساعات	SA
+TOOLTIP_PETBAG_PET_TYPE	نوع الرفيق: %s	SA
+TOOLTIP_PICK_EXP	نقاط: %d / %d
+TOOLTIP_PICK_LEVEL	المستوى: %d
+TOOLTIP_PICK_UPGRADE1	قدّمها للحطاب
+TOOLTIP_PICK_UPGRADE2	لكي تحصل
+TOOLTIP_PICK_UPGRADE3	على منكاش أفضل منه.
+TOOLTIP_POTION_CURE	إعادة التأثيرات السلبية.
+TOOLTIP_POTION_MIN	دقيقة
+TOOLTIP_POTION_OF_ELEMENTAL	جرعة الوقاية من العناصر +5% هجوم سحري/جسدي | +10% مقاومة العناصر	SNA
+TOOLTIP_POTION_PLUS_ATTACK_SPEED	سرعة الهجوم +%d
+TOOLTIP_POTION_PLUS_ATTBONUS_MONSTER	علاوة هجوم ضد الوحش : +%d%%
+TOOLTIP_POTION_PLUS_ATT_POINT	هجوم: +%d
+TOOLTIP_POTION_PLUS_ATT_POINT_PER	هجوم: +%d%%
+TOOLTIP_POTION_PLUS_DEF_POINT	دفاع: %d
+TOOLTIP_POTION_PLUS_DEX_POINT	مناورة: +%d
+TOOLTIP_POTION_PLUS_EXP_BONUS	خبرة EXP +%d%%
+TOOLTIP_POTION_PLUS_HIT_DEFEND_POINT	مقاومة الضرر: +%d%%
+TOOLTIP_POTION_PLUS_HP_PERCENT	نقاط الحياة +%d%%
+TOOLTIP_POTION_PLUS_HP_POINT	نقاط الحياة +%d
+TOOLTIP_POTION_PLUS_MOVING_SPEED	سرعة التحرك +%d
+TOOLTIP_POTION_PLUS_RESIST_DARK	مقاومة الظلام: +%d%%
+TOOLTIP_POTION_PLUS_RESIST_EARTH	مقاومة الأرض: +%d%%
+TOOLTIP_POTION_PLUS_RESIST_ICE	مقاومة الثلج: +%d%%
+TOOLTIP_POTION_PLUS_RESIST_MAGIC	مقاومة السحر: +%d%%
+TOOLTIP_POTION_PLUS_SP_PERCENT	نقاط الأسلوب +%d%%
+TOOLTIP_POTION_PLUS_SP_POINT	نقاط الأسلوب +%d
+TOOLTIP_POTION_PLUS_STR_POINT	قوة: +%d
+TOOLTIP_POTION_SEC	ثانية
+TOOLTIP_POTION_TIME	مدة:
+TOOLTIP_PROTECTION_OF_ELEMENTAL	مُحصن ضد لعنة العناصر	SNA
+TOOLTIP_PVP_TOURNAMENT_ENTER	المشاركة في بطولة المبارزة PvP
+TOOLTIP_PVP_TOURNAMENT_EXPBONUS	خبرة EXP الخاصة ببطولة المبارزة PvP +%d%%	SA
+TOOLTIP_REQUIREMENT_21_LEVEL	يجب أن تكون قد بلغت المستوى 21.
+TOOLTIP_REQUIREMENT_41_LEVEL	يجب أن تكون قد بلغت المستوى 41
+TOOLTIP_REQUIREMENT_LEVEL	يجب أن تكون قد بلغت المستوى %d
+TOOLTIP_REQUIREMENT_SKILL_LEVEL	%s مستوى %d مطلوب
+TOOLTIP_REQUIREMENT_STAT_LEVEL	%s %d مطلوبة
+TOOLTIP_RESIST_BOW	مقاومة السهم %d%%	SA
+TOOLTIP_RESIST_DARK	مقاومة ضد الظلام +%d%%	SA
+TOOLTIP_RESIST_EARTH	مقاومة الأرض +%d%%	SA
+TOOLTIP_RESIST_ELEC	مقاومة البرق %d%%	SA
+TOOLTIP_RESIST_FIRE	مقاومة النار %d%%	SA
+TOOLTIP_RESIST_ICE	مقاومة الثلج +%d%%	SA
+TOOLTIP_RESIST_MAGIC	مقاومة السحر %d%%	SA
+TOOLTIP_RESIST_MAGIC_REDUCTION	كسر السحر %d%%	SA
+TOOLTIP_RESIST_PER_DARK	مقاومة ضد الظلام (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_RESIST_PER_EARTH	مقاومة الأرض (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_RESIST_PER_ELEC	مقاومة البرق (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_RESIST_PER_FIRE	مقاومة النار (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_RESIST_PER_HUMAN	مقاومة نصف البشر (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_RESIST_PER_ICE	مقاومة الجليد (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_RESIST_PER_MAGIC	مقاومة السحر (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_RESIST_PER_WIND	مقاومة الرياح (+%d%% القيمة الإجمالية)	SA
+TOOLTIP_REST_USABLE_COUNT	متبقي: %d
+TOOLTIP_ROLE_PROFICIENCY_LEADER_EFFECT	علاوة القائد: %d%%
+TOOLTIP_ROLE_PROFICIENCY_SKILL_LEVEL	المستوى الحالي: %d
+TOOLTIP_SCROLL_DOWN	حرك الفأرة للأسفل
+TOOLTIP_SCROLL_UP	حرك الفأرة للأعلى
+TOOLTIP_SEALED	رُبط بالروح
+TOOLTIP_SEASON_PVE_BUFF	يزيد الضرر ضد البيئة المحيطة بـ 40% لمدة 10 دقائق.	SNA
+TOOLTIP_SEASON_RANKING_BUFF	زيادة نقاط الترتيب بنسبة 20% لمدة 10 دقائق.	SNA
+TOOLTIP_SECOND_ATTRIBUTE_BONUS	2. إضافة علاوة +%d%%	SA
+TOOLTIP_SECRET_DUNGEON_SCROLL_INFO	%s : %d، %d
+TOOLTIP_SECRET_DUNGEON_SCROLL_PLACE_INFO	يمكنك استخدام بند هنا:
+TOOLTIP_SELLPRICE	سعر: %s
+TOOLTIP_SET_ITEM	طقم العلاوة	SNA
+TOOLTIP_SET_ITEM_1	مقدس 
+TOOLTIP_SET_ITEM_2	مهيب 
+TOOLTIP_SET_ITEM_3	فارسي 
+TOOLTIP_SET_ITEM_4	ملكي 
+TOOLTIP_SET_ITEM_5	عظيم 
+TOOLTIP_SHAMAN	شامان
+TOOLTIP_SHIELD	درع
+TOOLTIP_SHOES	حذاء
+TOOLTIP_SKILL	مهارة	SNA
+TOOLTIP_SKILLBOOK_NAME	كتاب المهارات
+TOOLTIP_SKILL_AFFECT_ATT_GRADE	قيمة الهجوم: +
+TOOLTIP_SKILL_AFFECT_ATT_POWER	قيمة الهجوم:
+TOOLTIP_SKILL_AFFECT_ATT_SPEED	سرعة الهجوم: +
+TOOLTIP_SKILL_AFFECT_DEF_GRADE	دفاع:
+TOOLTIP_SKILL_AFFECT_DODGE	قيمة هجوم العدو: -
+TOOLTIP_SKILL_AFFECT_HEAL	استعادة نقاط الحياة:
+TOOLTIP_SKILL_AFFECT_MOV_SPEED	سرعة التحرك: +
+TOOLTIP_SKILL_AFFECT_REFLECT_MELEE	فرصة عكس هجوم عن قرب:
+TOOLTIP_SKILL_AFFECT_RESIST_NORMAL	مقاومة ضد الأضرار الجسدية:
+TOOLTIP_SKILL_COOL_TIME	مدة الشحن: 
+TOOLTIP_SKILL_DAMAGE_AMSEOP	تقليص ضرر الكمين +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_BIPABU	تقليص ضرر تعويذة طائرة +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_BONUS	أضرار المهارة %d%%	SA
+TOOLTIP_SKILL_DAMAGE_BONUS_BOSS_OR_MORE	ضرر المهارة ضد الزعيم +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_BYEURAK	ضرر استدعاء البرق +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_CHAIN	ضرر مخلب البرق +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_CHARYUN	ضرر دوامة الخنجر +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_CHAYEOL	ضرر تمزيق +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_GEOMPUNG	ضرر ضربة السيف +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_GIGONGCHAM	ضرر ضربة خارقة +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_GIGUNG	ضرر سهم سام +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_GONGDAB	ضرر قفزة الذئب +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_GUNGSIN	ضرر هجوم برقي +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_GYOKSAN	ضرر ضرب مبرح +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_HWAJO	ضرر سهم ناري+%d%%	SA
+TOOLTIP_SKILL_DAMAGE_HWAYEOMPOK	ضرر ضربة نارية +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_KWANKYEOK	ضرر وابل من السهام +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_MAHWAN	ضرر حجر الشر +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_MARYUNG	ضرر ضربة شريرة +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_NOEJEON	ضرر رمية البرق +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_PABEOB	ضرر إبطال السحر +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_PAERYONG	ضرر زئير تنين +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_PALBANG	ضرر دوّامة السيف +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_PASWAE	ضرر مخلب الذئب +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_SALPOONG	ضرر نفس الذّئب +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_SAMYEON	ضرر جرح ثلاثي الأتجاهات +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_SANGONG	ضرر غيمة سامة +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_SWAERYUNG	ضرر ضربة الأصبع +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_TANHWAN	ضرر الطنين +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_YEONSA	ضرر الطلقة المتكررة +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_YONGBI	ضرر رماية التنين +%d%%	SA
+TOOLTIP_SKILL_DAMAGE_YONGKWON	ضرر دوامة التنين +%d%%	SA
+TOOLTIP_SKILL_DEFEND_BONUS	مقاومة ضد أضرار المهارة %d%%	SA
+TOOLTIP_SKILL_DEFEND_BONUS_BOSS_OR_MORE	ضرر المهارة من الزعماء -%d%%	SA
+TOOLTIP_SKILL_DURATION	المدة: %d ثانية
+TOOLTIP_SKILL_DURATION_INCREASE_EUNHYUNG	مدة تمويه +%d ثانية.	SA
+TOOLTIP_SKILL_DURATION_INCREASE_GEOMKYUNG	مدة هالة السيف +%d ثانية.	SA
+TOOLTIP_SKILL_DURATION_INCREASE_GYEONGGONG	مدة المشي بخفة +%d ثانية.	SA
+TOOLTIP_SKILL_DURATION_INCREASE_JEOKRANG	مدة روح الذئب الكرزي بخفة +%d ثانية.	SA
+TOOLTIP_SKILL_FORGET_BOOK_NAME	كتاب النسيان
+TOOLTIP_SKILL_LEVEL	المستوى الحالي: %d
+TOOLTIP_SKILL_LEVEL_MASTER	المستوى الحالي: %d (الخبير)
+TOOLTIP_SKILL_LEVEL_WITH_MAX	المستوى الحالي: %d (الحد الأقصى %d)
+TOOLTIP_SKILL_NEXT_LEVEL	المستوى التالي: %d
+TOOLTIP_SOCKET_EMPTY	فارغ
+TOOLTIP_SOCKET_REFINABLE_ITEM	[شيء مع مقبس]
+TOOLTIP_SP_REGEN	تجديد نقاط الأسلوب +%d%%	SA
+TOOLTIP_STR	قوة +%d	SA
+TOOLTIP_SUNGMA_ATTR_PRIMIUM	معزز إرادة سونغ ماهي	SNA
+TOOLTIP_SUNGMA_HP	%d إرادة سونغ ماهي (حيوية)	SA
+TOOLTIP_SUNGMA_IMMUNE	%d إرادة سونغ ماهي (ذكاء)	SA
+TOOLTIP_SUNGMA_MOVE	%d إرادة سونغ ماهي (مقاومة)	SA
+TOOLTIP_SUNGMA_PER_HP	%d%% إرادة سونغ ماهي (حيوية)	SA
+TOOLTIP_SUNGMA_PER_IMMUNE	%d%% إرادة سونغ ماهي (ذكاء)	SA
+TOOLTIP_SUNGMA_PER_MOVE	%d%% إرادة سونغ ماهي (مقاومة)	SA
+TOOLTIP_SUNGMA_PER_STR	%d%% إرادة سونغ ماهي (قوة)	SA
+TOOLTIP_SUNGMA_STR	%d إرادة سونغ ماهي (قوة)	SA
+TOOLTIP_SURA	سورا
+TOOLTIP_THIRD_ATTRIBUTE_BONUS	3. إضافة علاوة +%d%%	SA
+TOOLTIP_TIME_CHARGER_FIX	مدة الشحن %d ثانية.	SA
+TOOLTIP_TIME_CHARGER_PER	مدة الشحن %d%%	SA
+TOOLTIP_UNIQUE	فريد من نوعه
+TOOLTIP_UNSEAL_LEFT_TIME	فك الربط بالرّوح في: %dH %dM
+TOOLTIP_USE_SKILL_AMSEOP_HP_ABSORB	ستستوعب %d%% من نقاط الحياة عند استخدام الكمين	SA
+TOOLTIP_USE_SKILL_BIPABU_NEXT_COOLTIME_DECREASE_10PER	استراحة إجبارية تعويذة طائرة: -%d ثانية بفرصة 10%%	SA
+TOOLTIP_USE_SKILL_BIPABU_NEXT_COOLTIME_DECREASE_20PER	استراحة إجبارية تعويذة طائرة: -%d ثانية بفرصة 20%%	SA
+TOOLTIP_USE_SKILL_BYEURAK_HP_ABSORB	ستستوعب حتى %d%% من نقاط الحياة عند استخدام استدعاء البرق.	SA
+TOOLTIP_USE_SKILL_CHAIN_HP_ABSORB	ستستوعب %d%% من نقاط الحياة عند استخدام مخلب البرق	SA
+TOOLTIP_USE_SKILL_CHARYUN_STUN	دوامة الخنجر ستؤدي لإغماء الخصم بفرصة %d%%	SA
+TOOLTIP_USE_SKILL_CHAYEOL_CRITICAL_PCT	زيادة فرص هجوم حَرج لمدة %d ثانية عند استخدام تمزيق	SA
+TOOLTIP_USE_SKILL_CHAYEOL_HP_ABSORB	ستستوعب %d%% من نقاط الحياة عند استخدام تمزيق	SA
+TOOLTIP_USE_SKILL_CHEONGRANG_CASTING_SPEED	زيادة سرعة السحر لمدة %d ثانية عند استخدام روح الذئب النّيلي	SA
+TOOLTIP_USE_SKILL_CHEONGRANG_MOV_SPEED	زيادة سرعة التحرك لمدة %d ثانية عند استخدام روح الذئب النّيلي	SA
+TOOLTIP_USE_SKILL_CHEONUN_NEXT_COOLTIME_DECREASE_PCT	تنخفض عند استخدام جناح الأثير بفرصة %d%%\nفترة الاستراحة الإجبارية لـجناح الأثير هي 5 ثوانٍ.	SA
+TOOLTIP_USE_SKILL_CHUNKEON_CASTING_SPEED	زيادة سرعة السحر لمدة %d ثانية عند استخدام جسم قوي	SA
+TOOLTIP_USE_SKILL_COOLTIME_DECREASE_ALL	هناك فرصة بقيمة %d%% لإعادة تعيين الاستراحة الإجبارية لمهاراتك	SA
+TOOLTIP_USE_SKILL_FINISH_NEXT_COOLTIME_DECREASE_PCT	هناك فرصة بمقدار %d%% لتقليل فترة الاستراحة الإجبارية التالية للزلزال بمقدار 5 ثوانٍ. عند استخدام الزلزال.	SA
+TOOLTIP_USE_SKILL_GEOMAGGWI_NEXT_COOLTIME_DECREASE_PCT	هناك فرصة بمقدار %d%% لتقليل فترة الاستراحة الإجبارية التالية لدفعة الجحيم بمقدار 5 ثوانٍ. عند استخدام دفعة الجحيم.	SA
+TOOLTIP_USE_SKILL_GEOMPUNG_NEXT_COOLTIME_DECREASE_10PER	استراحة إجبارية ضربة سيف: -%d ثانية بفرصة 10%%	SA
+TOOLTIP_USE_SKILL_GEOMPUNG_NEXT_COOLTIME_DECREASE_20PER	استراحة إجبارية ضربة سيف: -%d ثانية بفرصة 20%%	SA
+TOOLTIP_USE_SKILL_GICHEON_ATT_GRADE_BONUS	احصل على علاوة في الهجوم لمدة %d ثانية عند استخدام مساعدة التنين	SA
+TOOLTIP_USE_SKILL_GIGONGCHAM_STUN	ضربة خارقة ستؤدي لإغماء الخصم بفرصة %d%%	SA
+TOOLTIP_USE_SKILL_GIGUNG_ATT_GRADE_BONUS	احصل على علاوة في الهجوم لمدة %d ثانية عند استخدام سهم سام	SA
+TOOLTIP_USE_SKILL_GIHYEOL_ATT_GRADE_BONUS	احصل على علاوة في الهجوم لمدة %d ثانية عند استخدام العزيمة	SA
+TOOLTIP_USE_SKILL_GONGDAB_KNOCKBACK	قفزة الذئب ستؤدي الى رمي الخصم بفرصة %d%%	SA
+TOOLTIP_USE_SKILL_GONGDAB_STUN	قفزة الذئب ستؤدي لإغماء الخصم بفرصة %d%%	SA
+TOOLTIP_USE_SKILL_GUNGSIN_NEXT_COOLTIME_DECREASE_10PER	استراحة إجبارية هجوم برقي: -%d ثانية بفرصة 10%%	SA
+TOOLTIP_USE_SKILL_GUNGSIN_NEXT_COOLTIME_DECREASE_20PER	استراحة إجبارية هجوم برقي: -%d ثانية بفرصة 20%%	SA
+TOOLTIP_USE_SKILL_GWIGEOM_DEF_BONUS	احصل على علاوة في دفاع لمدة %d ثانية عند استخدام شفرة مسحورة	SA
+TOOLTIP_USE_SKILL_GYOKSAN_KNOCKBACK	ضرب مبرح ستؤدي الى رمي الخصم بفرصة %d%%	SA
+TOOLTIP_USE_SKILL_HOSIN_DEF_BONUS	احصل على علاوة في دفاع لمدة %d ثانية عند استخدام بركة	SA
+TOOLTIP_USE_SKILL_HWAYEOMPOK_KNOCKBACK	ضربة نارية ستؤدي الى رمي الخصم بفرصة %d%%	SA
+TOOLTIP_USE_SKILL_ILGWANGPYO_NEXT_COOLTIME_DECREASE_PCT	هناك فرصة بمقدار %d%% لتقليل فترة الاستراحة الإجبارية التالية للضوء النجمي بمقدار 5 ثوانٍ. عند استخدام درع الضوء النجمي.	SA
+TOOLTIP_USE_SKILL_ILIPUNGU_NEXT_COOLTIME_DECREASE_PCT	هناك فرصة بمقدار %d%% لتقليل فترة الاستراحة الإجبارية التالية لعاصفة المخلب بمقدار 5 ثوانٍ. عند استخدام عاصفة المخلب.	SA
+TOOLTIP_USE_SKILL_JEOKRANG_DEF_BONUS	احصل على علاوة في دفاع لمدة %d ثانية عند استخدام روح الذئب الكرزي	SA
+TOOLTIP_USE_SKILL_JEONGEOP_ATT_GRADE_BONUS	احصل على علاوة في الهجوم لمدة %d ثانية عند استخدام علاج	SA
+TOOLTIP_USE_SKILL_JEUNGRYEOK_DEF_BONUS	احصل على علاوة في دفاع لمدة %d ثانية عند استخدام هجوم+	SA
+TOOLTIP_USE_SKILL_KWANKYEOK_KNOCKBACK	وابل من السهام ستؤدي الى رمي الخصم بفرصة %d%%	SA
+TOOLTIP_USE_SKILL_KWANKYEOK_NEXT_COOLTIME_DECREASE_10PER	استراحة إجبارية وابل من السهام: -%d ثانية بفرصة 10%%	SA
+TOOLTIP_USE_SKILL_KWANKYEOK_NEXT_COOLTIME_DECREASE_20PER	استراحة إجبارية وابل من السهام: -%d ثانية بفرصة 20%%	SA
+TOOLTIP_USE_SKILL_MABEOBAGGWI_NEXT_COOLTIME_DECREASE_PCT	هناك فرصة بمقدار %d%% لتقليل فترة الاستراحة الإجبارية التالية لموجة الموت بمقدار 5 ثوانٍ. عند استخدام موجة الموت.	SA
+TOOLTIP_USE_SKILL_MAHWAN_STUN	حجر الشر ستؤدي لإغماء الخصم بفرصة %d%%	SA
+TOOLTIP_USE_SKILL_MANASHILED_CASTING_SPEED	زيادة سرعة السحر لمدة %d ثانية عند استخدام حماية ظلامية	SA
+TOOLTIP_USE_SKILL_MARYUNG_NEXT_COOLTIME_DECREASE_10PER	استراحة إجبارية ضربة شريرة: -%d ثانية بفرصة 10%%	SA
+TOOLTIP_USE_SKILL_MARYUNG_NEXT_COOLTIME_DECREASE_20PER	استراحة إجبارية ضربة شريرة: -%d ثانية بفرصة 20%%	SA
+TOOLTIP_USE_SKILL_METEO_NEXT_COOLTIME_DECREASE_PCT	هناك فرصة بمقدار %d%% لتقليل فترة الاستراحة الإجبارية التالية للنيزك بمقدار 5 ثوانٍ. عند استخدام نيزك.	SA
+TOOLTIP_USE_SKILL_MUYEONG_ATT_GRADE_BONUS	احصل على علاوة في الهجوم لمدة %d ثانية عند استخدام شبح النار	SA
+TOOLTIP_USE_SKILL_NOEGEOM_ATT_GRADE_BONUS	احصل على علاوة في الهجوم لمدة %d ثانية عند استخدام سيف دائري	SA
+TOOLTIP_USE_SKILL_NOEJEON_NEXT_COOLTIME_DECREASE_10PER	استراحة إجبارية رمية البرق: -%d ثانية بفرصة 10%%	SA
+TOOLTIP_USE_SKILL_NOEJEON_NEXT_COOLTIME_DECREASE_20PER	استراحة إجبارية رمية البرق: -%d ثانية بفرصة 20%%	SA
+TOOLTIP_USE_SKILL_PABEOB_STUN	إبطال السحر ستؤدي لإغماء الخصم بفرصة %d%%	SA
+TOOLTIP_USE_SKILL_PAERYONG_HP_ABSORB	ستستوعب %d%% من نقاط الحياة عند استخدام زئير تنين	SA
+TOOLTIP_USE_SKILL_PALBANG_HP_ABSORB	ستستوعب %d%% من نقاط الحياة عند استخدام دوّامة السيف	SA
+TOOLTIP_USE_SKILL_PASWAE_NEXT_COOLTIME_DECREASE_10PER	استراحة إجبارية مخلب ذئب: -%d ثانية بفرصة 10%%	SA
+TOOLTIP_USE_SKILL_PASWAE_NEXT_COOLTIME_DECREASE_20PER	استراحة إجبارية مخلب ذئب: -%d ثانية بفرصة 20%%	SA
+TOOLTIP_USE_SKILL_PASWAE_SP_ABSORB	ستستوعب %d%% من نقاط الأسلوب عند استخدام مخلب الذئب	SA
+TOOLTIP_USE_SKILL_PUNGLOEPO_NEXT_COOLTIME_DECREASE_PCT	هناك فرصة بمقدار %d%% لتقليل فترة الاستراحة الإجبارية التالية لطلقة العاصفة بمقدار 5 ثوانٍ. عند استخدام طلقة العاصفة.	SA
+TOOLTIP_USE_SKILL_SALPOONG_NEXT_COOLTIME_DECREASE_10PER	استراحة إجبارية نفس الذئب: -%d ثانية بفرصة 10%%	SA
+TOOLTIP_USE_SKILL_SALPOONG_NEXT_COOLTIME_DECREASE_20PER	استراحة إجبارية نفس الذئب: -%d ثانية بفرصة 20%%	SA
+TOOLTIP_USE_SKILL_SAMYEON_NEXT_COOLTIME_DECREASE_10PER	استراحة إجبارية جرح ثلاثي الاتجاهات: -%d ثانية بفرصة 10%%	SA
+TOOLTIP_USE_SKILL_SAMYEON_NEXT_COOLTIME_DECREASE_20PER	استراحة إجبارية جرح ثلاثي الاتجاهات: -%d ثانية بفرصة 20%%	SA
+TOOLTIP_USE_SKILL_SAMYEON_STUN	جرح ثلاثي الاتجاهات ستؤدي لإغماء الخصم بفرصة %d%%	SA
+TOOLTIP_USE_SKILL_SANGONG_ATT_GRADE_BONUS	احصل على علاوة في الهجوم لمدة %d ثانية عند استخدام غيمة سامة	SA
+TOOLTIP_USE_SKILL_SEOMJEON_KNOCKBACK	سُم زاحف ستؤدي الى رمي الخصم بفرصة %d%%	SA
+TOOLTIP_USE_SKILL_SWAERYUNG_KNOCKBACK	ضربة الأصبع ستؤدي الى رمي الخصم بفرصة %d%%	SA
+TOOLTIP_USE_SKILL_TERROR_ATT_GRADE_BONUS	احصل على علاوة في الهجوم لمدة %d ثانية عند استخدام خوف	SA
+TOOLTIP_USE_SKILL_TUSOK_HP_ABSORB	ستستوعب %d%% من نقاط الحياة عند استخدام ضربة الشبح	SA
+TOOLTIP_USE_SKILL_YEONSA_HP_ABSORB	ستستوعب %d%% من نقاط الحياة عند استخدام طلقة متكررة	SA
+TOOLTIP_USE_SKILL_YONGBI_HP_ABSORB	ستستوعب %d%% من نقاط الحياة عند استخدام رماية التنين	SA
+TOOLTIP_USE_SKILL_YONGKWON_NEXT_COOLTIME_DECREASE_10PER	استراحة إجبارية دوامة التنين: -%d ثانية بفرصة 10%%	SA
+TOOLTIP_USE_SKILL_YONGKWON_NEXT_COOLTIME_DECREASE_20PER	استراحة إجبارية دوامة التنين: -%d ثانية بفرصة 20%%	SA
+TOOLTIP_WARRIOR	محارب
+TOOLTIP_WEAPON	سلاح
+TOOLTIP_WOLFMAN	ليكانر
+TOOLTIP_WRISTLET	سوار
+TREASURE_HUNT_DUNGEON_CANNOT_GET_GOLD_IN_DUNGEON	لا يمكنك امتلاك المزيد من الدوبلون. أنفق بعضًا منها لترى المكافآت.
+TREASURE_HUNT_DUNGEON_ESCORT_START_1	رافق عفريت الكنز بأمان إلى وجهته.
+TREASURE_HUNT_DUNGEON_ESCORT_START_2	تفشل المهمة إذا مت أنت أو عفريت الكنز.
+TREASURE_HUNT_DUNGEON_FIND_TREASURE_BOX	لقد نجحت في حماية عفريت الكنز!
+TREASURE_HUNT_DUNGEON_GET_GOLD_IN_DUNGEON_WHEN_MOB_KILL	تحصل على 1 دوبلون.
+TREASURE_HUNT_DUNGEON_GIVEUP_1	لقد فشلت المرافقة.
+TREASURE_HUNT_DUNGEON_GIVEUP_2	سيتم نقلك للخارج قريبًا.
+TREASURE_HUNT_DUNGEON_GIVE_REWARD_GOLD	لقد تلقيت 100 ضعف.
+TREASURE_HUNT_DUNGEON_GIVE_UP_BUTTON	خروج
+TREASURE_HUNT_DUNGEON_GIVE_UP_POPUP	هل تريد إلغاء البحث عن الكنز الخاص بك؟
+TREASURE_HUNT_DUNGEON_GOBLIN_BUFF_TOOLTIP_TITLE	\nبركة العفريت
+TREASURE_HUNT_DUNGEON_GOBLIN_IMMUNE_POISON_BUFF_TOOLTIP	مناعة سم العفريت
+TREASURE_HUNT_DUNGEON_GOBLIN_INCREASE_DEF_BUFF_TOOLTIP	دفاع العفريت
+TREASURE_HUNT_DUNGEON_GOBLIN_INCREASE_HP_BUFF_TOOLTIP	قوة حياة العفريت
+TREASURE_HUNT_DUNGEON_GOBLIN_INCREASE_SPEED_BUFF_TOOLTIP	سرعة العفريت
+TREASURE_HUNT_DUNGEON_OVER_TIME	انتهى الوقت وسيتم نقلك إلى الخارج.
+TREASURE_HUNT_DUNGEON_REMAINING_TIME	الوقت المتبقي: %s
+TREASURE_HUNT_DUNGEON_REPLAY_ESCORT	صندوق الكنز هذا خاطئ مرافقة عفريت الكنز مرة أخرى!
+TREASURE_HUNT_EVENT_ACCUMULATE_COUNT_RANKING_BUTTON	ترتيب الجولة
+TREASURE_HUNT_EVENT_ACCUMULATE_COUNT_TOOLTIP	يجب عليك جمع 9 مكافآت لإكمال جولة واحدة.
+TREASURE_HUNT_EVENT_BUFF_TITLE	بركة الصقل
+TREASURE_HUNT_EVENT_CANNOT_ENTER_DUNGEON_LEVEL	يجب أن تكون في المستوى 70 على الأقل للدخول.
+TREASURE_HUNT_EVENT_CANNOT_ENTER_DUNGEON_MAX_GOLD	لقد تلقيت %s دوبلونز استبدلها للمشاركة مرة أخرى.
+TREASURE_HUNT_EVENT_CANNOT_ENTER_DUNGEON_PARTY	لا يمكنك الدخول أثناء وجودك في مجموعة.
+TREASURE_HUNT_EVENT_CANNOT_ENTER_DUNGEON_TIME_OVER	لم يعد بإمكانك الدخول لأن الاحتفالية قد انتهت.
+TREASURE_HUNT_EVENT_CANNOT_INCREASE_ACCUMULATED_COUNT	لا يمكنك تحقيق أي جولات أخرى.
+TREASURE_HUNT_EVENT_CANNOT_RESET_REWARD_LIST	يمكنك إعادة تعيين المكافآت بعد حصولك على واحدة على الأقل.
+TREASURE_HUNT_EVENT_CANNOT_REWARD_RESET	يجب عليك قبول مكافآت الجولة قبل أن تتمكن من إعادة تعيين المكافآت.
+TREASURE_HUNT_EVENT_CANNOT_SHOW_ANCIENT_REWARD_TOOLTIP	عتيق: يتم فتح هذه المكافآت بعد 5 جولات.
+TREASURE_HUNT_EVENT_CANNOT_SHOW_LEGENDARY_REWARD_TOOLTIP	أسطوري: يتم فتح هذه المكافآت بعد 10 جولات.
+TREASURE_HUNT_EVENT_CANNOT_SHOW_REAR_REWARD_TOOLTIP	نادر: يتم فتح هذه المكافآت بعد 3 جولات.
+TREASURE_HUNT_EVENT_CANNOT_USE_DUNGEON_TICKET_PLACE	لا يمكنك استعماله في هذا المكان.
+TREASURE_HUNT_EVENT_CANNOT_USE_MASTER_KEY_BOX	لا يمكنك استخدام تذكرة معركة الرابطة.
+TREASURE_HUNT_EVENT_CAN_TREASURE_HUNT	لقد تم تحديد المكافآت. يمكنك الحصول عليها من قائمة البحث عن الكنز.
+TREASURE_HUNT_EVENT_ENTER_DUNGEON_POPUP	هل تريد الدخول إلى جزيرة الكنز؟
+TREASURE_HUNT_EVENT_GET_ACCUMULATED_REWARD_BUTTON_TOOLTIP	يجب عليك جمع مكافآت الجولة قبل أن تتمكن من عرض المكافآت الجديدة.
+TREASURE_HUNT_EVENT_GOLD_COUNT	%d
+TREASURE_HUNT_EVENT_GOLD_ICON_TOOLTIP_1	يمكن الحصول عليها في جزيرة الكنز عن طريق حماية عفريت الكنز.
+TREASURE_HUNT_EVENT_GOLD_ICON_TOOLTIP_2	يمكنك الحصول على تذكرة الكنز من جميع أنواع صناديق الكنز. الحد الأقصى لعدد الدوبلونات: %d
+TREASURE_HUNT_EVENT_INCREASE_ACCUMULATED_COUNT	[البحث عن الكنز] لقد وصلت إلى جولة جديدة!
+TREASURE_HUNT_EVENT_INCREASE_REFINE_PCT_BUFF_TOOLTIP	تزيد فرصة نجاح الصقل التالي بنسبة 10%. (يمكن استخدامها مرة واحدة لكل احتفالية)
+TREASURE_HUNT_EVENT_LAST_ACCUMULATED_COUNT_REWARD_POPUP	يمكنك فقط من الجولة %d\nيمكنك الحصول على مكافآت الجولة من الجولة %d فقط.
+TREASURE_HUNT_EVENT_NOTICE_CAN_GET_ACCUMULATED_REWARD	احصل على مكافآت الجولة في نافذة البحث عن الكنز.
+TREASURE_HUNT_EVENT_NOTICE_EXHAUSTED_BUFF	ل %d. لا يوجد المزيد من البركات المتاحة في هذه الجولة.
+TREASURE_HUNT_EVENT_NOTICE_REMAIN_BUFF	هناك ل %d لا زال في البحث عن الكنز %d يركة
+TREASURE_HUNT_EVENT_NOT_ENOUGH_DRAGON_SOUL_INVENTORY_SPACE	لا يوجد مكان كافي في قائمة جرد كيمياء حجر التنين.
+TREASURE_HUNT_EVENT_NOT_ENOUGH_GOLD	أنت بحاجة إلى 30 دوبلون لرؤية المكافآت.
+TREASURE_HUNT_EVENT_NOT_ENOUGH_INVENTORY_SPACE	ليس لديك مكان فارغ في قائمة الجرد.
+TREASURE_HUNT_EVENT_NOT_ENOUGH_LEVEL	مستواك منخفض جدًا بحيث لا يمكنك المشاركة في هذه الاحتفالية.
+TREASURE_HUNT_EVENT_NOT_ENOUGH_MASTER_KEY	ليس لديك ما يكفي من مفاتيح العفريت.
+TREASURE_HUNT_EVENT_OFF	لقد انتهى البحث عن الكنز.
+TREASURE_HUNT_EVENT_ON	لقد بدأ البحث عن الكنز.
+TREASURE_HUNT_EVENT_OPEN_ANCIENT_LIST_TYPE	تم الوصول إلى الجولة الخامسة: تم فتح المكافآت العتيقة!
+TREASURE_HUNT_EVENT_OPEN_LEGENDARY_LIST_TYPE	تم الوصول إلى الجولة العاشرة: تم فتح المكافآت الأسطورية!
+TREASURE_HUNT_EVENT_OPEN_RARE_LIST_TYPE	تم الوصول إلى الجولة الثالثة: تم فتح المكافآت النادرة!
+TREASURE_HUNT_EVENT_REFINE_FREE_MATERIAL_BUFF_TOOLTIP	لا يتم استهلاك أي مواد أثناء الصقل التالي. (يمكن استخدامها مرة واحدة لكل احتفالية)
+TREASURE_HUNT_EVENT_REMAIN_BUFF_MAX_TOOLTIP	الشخصيات %d الأولى فقط هي التي تحصل على البركة.
+TREASURE_HUNT_EVENT_REMAIN_BUFF_REWARD_TOOLTIP	متبقي: %d
+TREASURE_HUNT_EVENT_RESET_BUTTON_TOOLTIP	إعادة
+TREASURE_HUNT_EVENT_REWARD_BUTTON_TOOLTIP_1	البحث عن الكنز
+TREASURE_HUNT_EVENT_REWARD_BUTTON_TOOLTIP_2	لا يمكنك البحث عن الكنز حتى تشاهد المكافآت.
+TREASURE_HUNT_EVENT_REWARD_RESET_POPUP_1	هل تريد إعادة تعيين المكافآت؟
+TREASURE_HUNT_EVENT_REWARD_RESET_POPUP_2	سيتم إعادة تعيين جميع المكافآت.
+TREASURE_HUNT_EVENT_SET_REWARD_BUTTON_TOOLTIP_1	عرض المكافآت
+TREASURE_HUNT_EVENT_SET_REWARD_BUTTON_TOOLTIP_2	تحقق من المكافآت مقابل %d دوبلون.
+TREASURE_HUNT_EVENT_SHOW_ACCUMULATE_REWARD_BUTTON_TOOLTIP	حول المكافآت الجولة
+TREE_FRUIT	التوت البري
+UI_ACCEPT	موافق
+UI_BOLD_FONT	Tahoma:12b
+UI_CANCEL	إلغاء
+UI_CLOSE	إغلاق
+UI_DEF_FONT	Tahoma:16
+UI_DEF_FONT_LARGE	Tahoma:16
+UI_DEF_FONT_SMALL	Tahoma:14
+UI_DENY	رفض
+UI_ITEM	شيء
+UI_LEFT_TIME	الوقت المتبقي: %d ثانية
+UI_NEXT	التالي
+UI_NEXTPAGE	تابع
+UI_NOCONTENTS	بدون مُحتوى
+UI_NONAME	لا يوجد اسم
+UI_OK	موافق
+UI_POS_UNKNOWN	مكان غير معروف
+UI_PREVPAGE	الخلف
+UI_UNKNOWN	غير معروف
+UNLIMIT_ENTER_CZ_QUESTION	يمكنك دخول معبد زودياك لمدة %d دقيقة/دقائق. هل تريد إستخدامه؟
+UN_SEAL_SCROLL_CLOSE_UI	لا يمكنك استخدام هذا البند. الرجاء اغلاق النافذة وأعد المُحاولة من جديد.
+UN_SEAL_SCROLL_PLUS_PASSWORD_DESC1	الرجاء إدخال كلمة المرور،
+UN_SEAL_SCROLL_PLUS_PASSWORD_DESC2	لاستخدام لفيفة فك الرّبط+.
+UN_SEAL_SCROLL_PLUS_PASSWORD_TITLE	كلمة السر
+UN_SEAL_SCROLL_PLUS_USE_SUCCESS	تم فك الربط بالروح ل %s بنجاح.
+UN_SEAL_SCROLL_USE_SUCCESS	تم إزالة الربط بالروح ل %s. تستغرق هذه العملية 3 أيام.
+UPDATE_TIME	بتاريخ
+UPLOAD_MARK_CHECK_NEED_RECONNECT	عليك إعادة التحميل من جديد.
+UPLOAD_MARK_UPLOAD_NEED_RECONNECT	عليك إعادة التحميل من جديد.
+USE_ITEM_BUTTON_01	إلغاء
+USE_ITEM_BUTTON_02	الدخول
+USE_ITEM_FAILURE_PRIVATE_SHOP	لا يمكنك استعمال أي شيء، طالما أنك تملك متجراً شخصياً.
+USE_ITEM_POPUP_01	لقد انتهت معركة الأضرحة الخمسة. \n المعركة التالية:
+USE_ITEM_QUESTION_01	هل ترغب في المشاركة في معركة الأضرحة الخمسة؟
+USE_ITEM_QUESTION_02	هل ترغب في العودة إلى المكان الذي قتلت فيه؟\nسيكلِّفك هذا %s يانغ.
+USE_ITEM_QUESTION_03	لقد تم نقلك إلى موقع عشوائي. هل تود الدخول؟
+USE_ITEM_QUESTION_04	بمجرد الدخول إلى معركة الأضرحة الخمسة، سيتم تعطيل كل علاواتك الإضافية.\nسيتم نقلك إلى موقع عشوائي.\nهل تود الدخول؟
+USE_ITEM_QUESTION_05	بمجرد الدخول إلى معركة الأضرحة الخمسة، سيتم تعطيل كل علاواتك الإضافية.\nهل تريد العودة إلى المكان الذي مت فيه؟\nالتكلفة: %s يانغ؟
+USE_SKILL_ERROR_UNKNOWN	خطأ مجهول في المهارة: %s
+VALENTINE_DAY_EVENT_MESSAGE_ADD_CHOCOLATE	لقد تلقيت قطعة واحدة من الشوكولاتة.
+VALENTINE_DAY_EVENT_MESSAGE_ADD_ROSE	لقد تلقيت وردة واحدة.
+VALENTINE_DAY_EVENT_MESSAGE_CANNOT_CLICK_USE_OR_WRAP_BUTTON	لا يمكن استخدامها / تغليفها.
+VALENTINE_DAY_EVENT_MESSAGE_CANNOT_CLICK_WRAP_BUTTON	لا يمكن تغليفها.
+VALENTINE_DAY_EVENT_MESSAGE_CANNOT_GET_CHOCOLATE	لم يعد بإمكانك تلقي الشوكولاتة.
+VALENTINE_DAY_EVENT_MESSAGE_CANNOT_GET_ROSE	لم يعد بإمكانك تلقي الورود.
+VALENTINE_DAY_EVENT_MESSAGE_CANNOT_UNPACK_CHOCOLATE	لا يمكنك امتلاك المزيد من الشوكولاتة.
+VALENTINE_DAY_EVENT_MESSAGE_CANNOT_UNPACK_ROSE	لا يمكنك امتلاك المزيد من الورود.
+VALENTINE_DAY_EVENT_MESSAGE_CANNOT_USE_EVENT_ITEM_DIFFERENT_GENDER	لا يمكن استخدام هذا البند إلاّ من طرف الجنس الأخر فقط. قم بتغليفها واهدائها
+VALENTINE_DAY_EVENT_MESSAGE_CANNOT_USE_EVENT_ITEM_EVENT_ENDED	لا يمكن استخدام هذا لأن الاحتفالية قد انتهت.
+VALENTINE_DAY_EVENT_MESSAGE_CANNOT_WRAP_EVENT_ITEM_ALREADY_MAX_COUNT	لا يمكنك استخدام هذا لأنك ستتجاوز الحد الأقصى لعدد البنود.
+VALENTINE_DAY_EVENT_MESSAGE_COOLTIME	الرجاء إعادة المحاولة لاحقًا.
+VALENTINE_DAY_EVENT_MESSAGE_EVENT_END	انتهت احتفالية عيد الحب.
+VALENTINE_DAY_EVENT_MESSAGE_EVENT_START	لقد بدأت احتفالية عيد الحب.
+VALENTINE_DAY_EVENT_MESSAGE_NOT_ENOUGH_INVENTORY	لا يوجد مكان كافي في قائمة الجرد.
+VALENTINE_DAY_EVENT_MESSAGE_NOT_ENOUGH_ITEM	ليس لديك بنود كافية.
+VALENTINE_DAY_EVENT_MESSAGE_NOT_ENOUGH_LEVEL	يجب أن تكون في المستوى 90 على الأقل للتغليف.
+VALENTINE_DAY_EVENT_MESSAGE_NOT_ENOUGH_WRAP_ITEM	يمكنك دائمًا تغليف 50 معًا.
+VALENTINE_DAY_EVENT_MESSAGE_WRAP_SUCCESS_CHOCOLATE	لقد قمت بتغليف الشوكولاتة.
+VALENTINE_DAY_EVENT_MESSAGE_WRAP_SUCCESS_ROSE	لقد قمت بتغليف الورود.
+WHISPER_QUEST_BLOCK	هل ترغب في حظر %s؟
+WHISPER_QUEST_FRIEND	هل ترغب في إضافة %s إلى قائمة أصدقائك؟
+WHITE_DRAGON_CAVE_COOLING_CURSE	{1} أقصى ضرر لنقاط الحياة كل {0} ثانية. - التعبئة الحالية: {2}
+WORLD_BOSS_STATE_BOSS_KILLED	هرب
+WORLD_BOSS_STATE_BOSS_SPAWNED	ظهر
+WORLD_BOSS_STATE_BREAK_TIME	استراحة إجبارية
+WORLD_BOSS_STATE_WAIT_FOR_SPAWN	لم يتم اطلاقه بعد
+WORLD_BOSS_TIER_1_SYMBOL	I
+WORLD_BOSS_TIER_2_SYMBOL	II
+WORLD_BOSS_TIER_3_SYMBOL	III
+WORLD_BOSS_TIER_4_SYMBOL	IV
+YELLOW_FRUIT	التوت الذهبي
+YELLOW_FRUIT_MERCH_TITLE	التوت الذهبي (%d)
+YUTNORI_EVENT_MESSAGE_CARD_GAIN	حصلت على لوحة (لوحات) لعب يوتنوري.
+YUTNORI_EVENT_MESSAGE_CARD_PEICE_GAIN	حصلت على 1 من أشجار القَضْبَان.
+YUTNORI_EVENT_MESSAGE_NOT_ENOUGHT_ITEM	ليس لديك ما يكفي من البنود أو المال للعب.
+YUTNORI_EVENT_MESSAGE_NO_MORE_GAIN	لا يمكنك الحصول على المزيد من لوحات يوتنوري.

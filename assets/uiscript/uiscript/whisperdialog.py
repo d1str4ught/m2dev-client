@@ -183,7 +183,6 @@ window = {
 							"width" : 280 - 70,
 							"height" : 40,
 
-							"with_codepage" : 1,
 							"input_limit" : 40,
 							"limit_width" : 280 - 90,
 							"multi_line" : 1,

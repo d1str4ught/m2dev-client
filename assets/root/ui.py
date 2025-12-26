@@ -17,17 +17,14 @@ BACKGROUND_COLOR = grp.GenerateColor(0.0, 0.0, 0.0, 1.0)
 DARK_COLOR = grp.GenerateColor(0.2, 0.2, 0.2, 1.0)
 BRIGHT_COLOR = grp.GenerateColor(0.7, 0.7, 0.7, 1.0)
 
-if localeInfo.IsCANADA():
-	SELECT_COLOR = grp.GenerateColor(0.9, 0.03, 0.01, 0.4)
-else:
-	SELECT_COLOR = grp.GenerateColor(0.0, 0.0, 0.5, 0.3)
+SELECT_COLOR = grp.GenerateColor(0.0, 0.0, 0.5, 0.3)
 
 WHITE_COLOR = grp.GenerateColor(1.0, 1.0, 1.0, 0.5)
 HALF_WHITE_COLOR = grp.GenerateColor(1.0, 1.0, 1.0, 0.2)
 
 createToolTipWindowDict = {}
-def RegisterCandidateWindowClass(codePage, candidateWindowClass):
-	EditLine.candidateWindowClassDict[codePage]=candidateWindowClass
+def RegisterCandidateWindowClass(candidateWindowClass):
+	EditLine.candidateWindowClassDict=candidateWindowClass
 def RegisterToolTipWindow(type, createToolTipWindow):
 	createToolTipWindowDict[type]=createToolTipWindow
 
@@ -270,7 +267,7 @@ class ListBoxEx(Window):
 		self.itemList=[]
 		self.onSelectItemEvent = lambda *arg: None
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			self.itemWidth=130
 		else:
 			self.itemWidth=100
@@ -388,7 +385,7 @@ class ListBoxEx(Window):
 		return len(self.itemList)
 
 	def GetItemViewCoord(self, pos, itemWidth):
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			return (self.GetWidth()-itemWidth-10, (pos-self.basePos)*self.itemStep)
 		else:
 			return (0, (pos-self.basePos)*self.itemStep)
@@ -487,6 +484,15 @@ class TextLine(Window):
 	def SetOutline(self, Value=True):
 		wndMgr.SetOutline(self.hWnd, Value)
 
+	def SetBaseDirectionAuto(self):
+		wndMgr.SetBaseDirection(self.hWnd, wndMgr.TEXT_BASEDIR_AUTO)
+
+	def SetBaseDirectionLTR(self):
+		wndMgr.SetBaseDirection(self.hWnd, wndMgr.TEXT_BASEDIR_LTR)
+
+	def SetBaseDirectionRTL(self):
+		wndMgr.SetBaseDirection(self.hWnd, wndMgr.TEXT_BASEDIR_RTL)
+
 	def SetFeather(self, value=True):
 		wndMgr.SetFeather(self.hWnd, value)
 
@@ -548,14 +554,12 @@ class EditLine(TextLine):
 		self.numberMode = False
 		self.useIME = True
 
-		self.bCodePage = False
-
 		self.candidateWindowClass = None
 		self.candidateWindow = None
-		self.SetCodePage(app.GetDefaultCodePage())
 
 		self.readingWnd = ReadingWnd()
 		self.readingWnd.Hide()
+
 
 	def __del__(self):
 		TextLine.__del__(self)
@@ -563,11 +567,6 @@ class EditLine(TextLine):
 		self.eventReturn = Window.NoneMethod
 		self.eventEscape = Window.NoneMethod
 		self.eventTab = None
-
-
-	def SetCodePage(self, codePage):
-		candidateWindowClass=EditLine.candidateWindowClassDict.get(codePage, EmptyCandidateWindow)
-		self.__SetCandidateClass(candidateWindowClass)
 
 	def __SetCandidateClass(self, candidateWindowClass):
 		if self.candidateWindowClass==candidateWindowClass:
@@ -582,7 +581,7 @@ class EditLine(TextLine):
 		self.hWnd = wndMgr.RegisterTextLine(self, layer)
 
 	def SAFE_SetReturnEvent(self, event):
-		self.eventReturn = __mem_func__(event)		
+		self.eventReturn = __mem_func__(event)
 
 	def SetReturnEvent(self, event):
 		self.eventReturn = event
@@ -648,15 +647,12 @@ class EditLine(TextLine):
 		wndMgr.ShowCursor(self.hWnd, True)
 
 	def OnKillFocus(self):
-		self.SetText(ime.GetText(self.bCodePage))
-		self.OnIMECloseCandidateList()
+		self.SetText(ime.GetText())
+		#self.OnIMECloseCandidateList()
 		self.OnIMECloseReadingWnd()
 		ime.DisableIME()
 		ime.DisableCaptureInput()
 		wndMgr.HideCursor(self.hWnd)
-
-	def OnIMEChangeCodePage(self):
-		self.SetCodePage(ime.GetCodePage())
 
 	def OnIMEOpenCandidateList(self):
 		self.candidateWindow.Show()
@@ -674,7 +670,7 @@ class EditLine(TextLine):
 
 	def OnIMEOpenReadingWnd(self):
 		gx, gy = self.GetGlobalPosition()
-		textlen = len(self.GetText())-2		
+		textlen = len(self.GetText())-2
 		reading = ime.GetReading()
 		readinglen = len(reading)
 		self.readingWnd.SetReadingPosition( gx + textlen*6-24-readinglen*6, gy )
@@ -693,7 +689,7 @@ class EditLine(TextLine):
 
 	def OnIMEUpdate(self):
 		snd.PlaySound("sound/ui/type.wav")
-		TextLine.SetText(self, ime.GetText(self.bCodePage))
+		TextLine.SetText(self, ime.GetText())
 
 	def OnIMETab(self):
 		if self.eventTab:
@@ -727,10 +723,6 @@ class EditLine(TextLine):
 			return False
 		if app.DIK_LCONTROL == key:
 			return False
-		if app.DIK_V == key:
-			if app.IsPressed(app.DIK_LCONTROL):
-				ime.PasteTextFromClipBoard()
-
 		return True
 
 	def OnKeyUp(self, key):
@@ -773,7 +765,7 @@ class EditLine(TextLine):
 		# Delete
 		if app.VK_DELETE == key:
 			ime.Delete()
-			TextLine.SetText(self, ime.GetText(self.bCodePage))
+			TextLine.SetText(self, ime.GetText())
 			return True
 			
 		return True
@@ -1385,18 +1377,6 @@ class SlotWindow(Window):
 	def SetSlotCoolTime(self, slotIndex, coolTime, elapsedTime = 0.0):
 		wndMgr.SetSlotCoolTime(self.hWnd, slotIndex, coolTime, elapsedTime)
 
-	def StoreSlotCoolTime(self, key, slotIndex, coolTime, elapsedTime = 0.0):
-		wndMgr.StoreSlotCoolTime(self.hWnd, key, slotIndex, coolTime, elapsedTime)
-	
-	def RestoreSlotCoolTime(self, key):
-		wndMgr.RestoreSlotCoolTime(self.hWnd, key)
-
-	def TransferSlotCoolTime(self, slotIndex1, slotIndex2):
-		wndMgr.TransferSlotCoolTime(self.hWnd, slotIndex1, slotIndex2)
-
-	def ClearSlotCoolTime(self, slotIndex):
-		wndMgr.ClearSlotCoolTime(self.hWnd, slotIndex)
-
 	def DisableSlot(self, slotIndex):
 		wndMgr.DisableSlot(self.hWnd, slotIndex)
 
@@ -1562,7 +1542,7 @@ class TitleBar(Window):
 		imgCenter.SetParent(self)
 		imgRight.SetParent(self)
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			imgLeft.LoadImage("locale/ae/ui/pattern/titlebar_left.tga")
 			imgCenter.LoadImage("locale/ae/ui/pattern/titlebar_center.tga")
 			imgRight.LoadImage("locale/ae/ui/pattern/titlebar_right.tga")
@@ -1595,11 +1575,11 @@ class TitleBar(Window):
 		self.imgCenter.SetPosition(self.BLOCK_WIDTH, 0)
 		self.imgRight.SetPosition(width - self.BLOCK_WIDTH, 0)
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			self.btnClose.SetPosition(3, 3)
 		else:
 			self.btnClose.SetPosition(width - self.btnClose.GetWidth() - 3, 3)
-			
+
 		self.SetSize(width, self.BLOCK_HEIGHT)
 
 	def SetCloseEvent(self, event):
@@ -2365,7 +2345,7 @@ class ListBox(Window):
 				skipCount -= 1
 				continue
 
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				w, h = textLine.GetTextSize()
 				textLine.SetPosition(w+10, yPos + 3)
 			else:
@@ -2435,27 +2415,15 @@ class ListBox(Window):
 		widthRender = self.width
 		heightRender = self.height + self.TEMPORARY_PLACE*2
 
-		if localeInfo.IsCIBN10:
-			if -1 != self.overLine and self.keyDict[self.overLine] != -1:
-				grp.SetColor(HALF_WHITE_COLOR)
-				grp.RenderBar(xRender + 2, yRender + self.overLine*self.stepSize + 4, self.width - 3, self.stepSize)				
+		if -1 != self.overLine:
+			grp.SetColor(HALF_WHITE_COLOR)
+			grp.RenderBar(xRender + 2, yRender + self.overLine*self.stepSize + 4, self.width - 3, self.stepSize)				
 
-			if -1 != self.selectedLine and self.keyDict[self.selectedLine] != -1:
-				if self.selectedLine >= self.basePos:
-					if self.selectedLine - self.basePos < self.showLineCount:
-						grp.SetColor(SELECT_COLOR)
-						grp.RenderBar(xRender + 2, yRender + (self.selectedLine-self.basePos)*self.stepSize + 4, self.width - 3, self.stepSize)
-
-		else:		
-			if -1 != self.overLine:
-				grp.SetColor(HALF_WHITE_COLOR)
-				grp.RenderBar(xRender + 2, yRender + self.overLine*self.stepSize + 4, self.width - 3, self.stepSize)				
-
-			if -1 != self.selectedLine:
-				if self.selectedLine >= self.basePos:
-					if self.selectedLine - self.basePos < self.showLineCount:
-						grp.SetColor(SELECT_COLOR)
-						grp.RenderBar(xRender + 2, yRender + (self.selectedLine-self.basePos)*self.stepSize + 4, self.width - 3, self.stepSize)
+		if -1 != self.selectedLine:
+			if self.selectedLine >= self.basePos:
+				if self.selectedLine - self.basePos < self.showLineCount:
+					grp.SetColor(SELECT_COLOR)
+					grp.RenderBar(xRender + 2, yRender + (self.selectedLine-self.basePos)*self.stepSize + 4, self.width - 3, self.stepSize)
 
 
 
@@ -2498,8 +2466,6 @@ class ListBox2(ListBox):
 				if self.selectedLine - self.basePos < self.showLineCount:
 					grp.SetColor(SELECT_COLOR)
 					self._RenderBar(pos, self.selectedLine-self.basePos)
-
-	
 
 	def _CalcPointIndex(self, mpos):
 		if self.IsIn():
@@ -2816,7 +2782,7 @@ class PythonScriptLoader(object):
 
 		window.SetPosition(int(Body["x"]), int(Body["y"]))
 
-		if localeInfo.IsARABIC(): 
+		if app.IsRTL():
 			w = wndMgr.GetScreenWidth()
 			h = wndMgr.GetScreenHeight()
 			if Body.has_key("width"):
@@ -2830,14 +2796,12 @@ class PythonScriptLoader(object):
 			if True == Body.has_key("style"):
 				for StyleList in Body["style"]:
 					window.AddFlag(StyleList)
-		
 
 		self.LoadChildren(window, Body)
 
 	def LoadChildren(self, parent, dicChildren):
-
-		if localeInfo.IsARABIC():
-			parent.AddFlag( "rtl" )
+		if app.IsRTL():
+			parent.AddFlag("rtl")
 
 		if True == dicChildren.has_key("style"):
 			for style in dicChildren["style"]:
@@ -3253,7 +3217,7 @@ class PythonScriptLoader(object):
 		if True == value.has_key("y_blank"):
 			yBlank = int(value["y_blank"])
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			pass
 		else:
 			window.SetPosition(int(value["x"]), int(value["y"]))
@@ -3283,7 +3247,8 @@ class PythonScriptLoader(object):
 		if True == value.has_key("style"):
 			if "select" == value["style"]:
 				wndMgr.SetSlotStyle(window.hWnd, wndMgr.SLOT_STYLE_SELECT)
-		if localeInfo.IsARABIC():
+
+		if app.IsRTL():
 			self.LoadDefaultData(window, value, parentWindow)
 		else:
 			window.Show()
@@ -3351,14 +3316,9 @@ class PythonScriptLoader(object):
 
 		if value.has_key("secret_flag"):
 			window.SetSecret(value["secret_flag"])
-		if value.has_key("with_codepage"):
-			if value["with_codepage"]:
-				window.bCodePage = True
 		if value.has_key("only_number"):
 			if value["only_number"]:
 				window.SetNumberMode()
-		if value.has_key("enable_codepage"):
-			window.SetIMEFlag(value["enable_codepage"])
 		if value.has_key("enable_ime"):
 			window.SetIMEFlag(value["enable_ime"])
 		if value.has_key("limit_width"):

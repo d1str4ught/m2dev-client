@@ -1,4 +1,5 @@
 import ui
+import app
 import net
 import mouseModule
 import player
@@ -105,11 +106,11 @@ class CubeWindow(ui.ScriptWindow):
 
 		try:
 			GetObject=self.GetChild
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				self.board = GetObject("board")
 				self.board.SetScale(-1.0, 1.0)
 				self.board.SetRenderingRect(-1.0, 0.0, 1.0, 0.0)
-				
+
 			self.titleBar = GetObject("TitleBar")
 			self.btnAccept = GetObject("AcceptButton")
 			self.btnCancel = GetObject("CancelButton")

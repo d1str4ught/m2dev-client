@@ -158,7 +158,7 @@ class InputDialogWithDescription(InputDialog):
 	def __CreateDialog(self):
 
 		pyScrLoader = ui.PythonScriptLoader()
-		if localeInfo.IsARABIC() :
+		if app.IsRTL() :
 			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "inputdialogwithdescription.py")
 		else:
 			pyScrLoader.LoadScriptFile(self, "uiscript/inputdialogwithdescription.py")

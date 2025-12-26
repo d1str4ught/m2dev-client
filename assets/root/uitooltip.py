@@ -209,10 +209,7 @@ class ToolTip(ui.ThinBoard):
 		return textLine
 
 	def AppendDescription(self, desc, limit, color = FONT_COLOR):
-		if localeInfo.IsEUROPE():
-			self.__AppendDescription_WesternLanguage(desc, color)
-		else:
-			self.__AppendDescription_EasternLanguage(desc, limit, color)
+		self.__AppendDescription_EasternLanguage(desc, limit, color)
 
 	def __AppendDescription_EasternLanguage(self, description, characterLimitation, color=FONT_COLOR):
 		length = len(description)
@@ -749,14 +746,9 @@ class ItemToolTip(ToolTip):
 		return 0
 
 	def __SetPolymorphItemTitle(self, monsterVnum):
-		if localeInfo.IsVIETNAM():
-			itemName =item.GetItemName()
-			itemName+=" "
-			itemName+=nonplayer.GetMonsterName(monsterVnum)
-		else:
-			itemName =nonplayer.GetMonsterName(monsterVnum)
-			itemName+=" "
-			itemName+=item.GetItemName()
+		itemName =nonplayer.GetMonsterName(monsterVnum)
+		itemName+=" "
+		itemName+=item.GetItemName()
 		self.SetTitle(itemName)
 
 	def __SetNormalItemTitle(self):
@@ -766,11 +758,6 @@ class ItemToolTip(ToolTip):
 		self.AppendTextLine(item.GetItemName(), self.SPECIAL_TITLE_COLOR)
 
 	def __SetItemTitle(self, itemVnum, metinSlot, attrSlot):
-		if localeInfo.IsCANADA():
-			if 72726 == itemVnum or 72730 == itemVnum:
-				self.AppendTextLine(item.GetItemName(), grp.GenerateColor(1.0, 0.7843, 0.0, 1.0))
-				return
-			
 		if self.__IsPolymorphItem(itemVnum):
 			self.__SetPolymorphItemTitle(metinSlot[0])
 		else:
@@ -1307,10 +1294,7 @@ class ItemToolTip(ToolTip):
 		if not skillName:
 			return
 
-		if localeInfo.IsVIETNAM():
-			itemName = bookName + " " + skillName
-		else:
-			itemName = skillName + " " + bookName
+		itemName = skillName + " " + bookName
 		self.SetTitle(itemName)
 
 	def __AppendPickInformation(self, curLevel, curEXP, maxEXP):
@@ -1660,8 +1644,8 @@ class ItemToolTip(ToolTip):
 			slotImage.LoadImage("d:/ymir work/ui/game/windows/metin_slot_gold.sub")
 
 		self.childrenList.append(slotImage)
-		
-		if localeInfo.IsARABIC():
+
+		if app.IsRTL():
 			slotImage.SetPosition(self.toolTipWidth - slotImage.GetWidth() - 9, self.toolTipHeight-1)
 			nameTextLine.SetPosition(self.toolTipWidth - 50, self.toolTipHeight + 2)
 		else:
@@ -1694,15 +1678,15 @@ class ItemToolTip(ToolTip):
 			affectTextLine.SetPackedFontColor(self.POSITIVE_COLOR)
 			affectTextLine.SetOutline()
 			affectTextLine.SetFeather()
-			affectTextLine.Show()			
-				
-			if localeInfo.IsARABIC():
+			affectTextLine.Show()
+
+			if app.IsRTL():
 				metinImage.SetPosition(self.toolTipWidth - metinImage.GetWidth() - 10, self.toolTipHeight)
 				affectTextLine.SetPosition(self.toolTipWidth - 50, self.toolTipHeight + 16 + 2)
 			else:
 				metinImage.SetPosition(10, self.toolTipHeight)
 				affectTextLine.SetPosition(50, self.toolTipHeight + 16 + 2)
-							
+
 			if custumAffectString:
 				affectTextLine.SetText(custumAffectString)
 			elif itemIndex!=constInfo.ERROR_METIN_STONE:
@@ -2281,10 +2265,7 @@ class SkillToolTip(ToolTip):
 		skillIndex = player.SKILL_INDEX_TONGSOL
 		slotIndex = player.GetSkillSlotIndex(skillIndex)
 		skillPower = player.GetSkillCurrentEfficientPercentage(slotIndex)
-		if localeInfo.IsBRAZIL():
-			k = skillPower
-		else:
-			k = player.GetSkillLevel(skillIndex) / 100.0
+		k = player.GetSkillLevel(skillIndex) / 100.0
 		self.AppendSpace(5)
 		self.AutoAppendTextLine(localeInfo.TOOLTIP_PARTY_SKILL_LEVEL % skillLevel, self.NORMAL_COLOR)
 

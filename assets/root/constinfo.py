@@ -206,36 +206,36 @@ def GET_ACCESSORY_MATERIAL_VNUM(vnum, subType):
 	return ACCESSORY_MATERIAL_LIST[type]
 
 ##################################################################
-## ���� �߰��� '��Ʈ' ������ Ÿ�԰�, ��Ʈ�� ���Ͽ� ���� ������ ����.. 
-## ��Ʈ�� ���Ͻý����� �Ǽ������� �����ϱ� ������, �� �Ǽ����� ���� �ϵ��ڵ�ó�� �̷������� �� ���ۿ� ����..
+## 새로 추가된 '벨트' 아이템 타입과, 벨트의 소켓에 꽂을 아이템 관련.. 
+## 벨트의 소켓시스템은 악세서리와 동일하기 때문에, 위 악세서리 관련 하드코딩처럼 이런식으로 할 수밖에 없다..
 
 def GET_BELT_MATERIAL_VNUM(vnum, subType = 0):
-	# ����� ��� ��Ʈ���� �ϳ��� ������(#18900)�� ���� ����
+	# 현재는 모든 벨트에는 하나의 아이템(#18900)만 삽입 가능
 	return 18900
 
 ##################################################################
-## �ڵ����� (HP: #72723 ~ #72726, SP: #72727 ~ #72730)
+## 자동물약 (HP: #72723 ~ #72726, SP: #72727 ~ #72730)
 
-# �ش� vnum�� �ڵ������ΰ�?
+# 해당 vnum이 자동물약인가?
 def IS_AUTO_POTION(itemVnum):
 	return IS_AUTO_POTION_HP(itemVnum) or IS_AUTO_POTION_SP(itemVnum)
 	
-# �ش� vnum�� HP �ڵ������ΰ�?
+# 해당 vnum이 HP 자동물약인가?
 def IS_AUTO_POTION_HP(itemVnum):
 	if 72723 <= itemVnum and 72726 >= itemVnum:
 		return 1
-	elif itemVnum >= 76021 and itemVnum <= 76022:		## ���� �� ������ ȭ���� �ູ
+	elif itemVnum >= 76021 and itemVnum <= 76022:		## 새로 들어간 선물용 화룡의 축복
 		return 1
 	elif itemVnum == 79012:
 		return 1
 		
 	return 0
 	
-# �ش� vnum�� SP �ڵ������ΰ�?
+# 해당 vnum이 SP 자동물약인가?
 def IS_AUTO_POTION_SP(itemVnum):
 	if 72727 <= itemVnum and 72730 >= itemVnum:
 		return 1
-	elif itemVnum >= 76004 and itemVnum <= 76005:		## ���� �� ������ ������ �ູ
+	elif itemVnum >= 76004 and itemVnum <= 76005:		## 새로 들어간 선물용 수룡의 축복
 		return 1
 	elif itemVnum == 79013:
 		return 1

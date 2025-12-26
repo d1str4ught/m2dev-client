@@ -1,0 +1,7 @@
+title subImage
+version 2.0
+image "select.dds"
+left 256
+top 146
+right 512
+bottom 292

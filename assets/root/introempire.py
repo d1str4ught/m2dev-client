@@ -8,8 +8,6 @@ import _weakref
 import localeInfo
 import uiScriptLocale
 
-LOCALE_PATH = "uiscript/"+uiScriptLocale.CODEPAGE+"_"
-
 class SelectEmpireWindow(ui.ScriptWindow):
 
 	EMPIRE_DESCRIPTION_TEXT_FILE_NAME = {	
@@ -138,7 +136,7 @@ class SelectEmpireWindow(ui.ScriptWindow):
 		if self.EMPIRE_DESCRIPTION_TEXT_FILE_NAME.has_key(arg):
 			self.descIndex = event.RegisterEventSet(self.EMPIRE_DESCRIPTION_TEXT_FILE_NAME[arg])
 
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				event.SetEventSetWidth(self.descIndex, 170)
 			else:
 				event.SetRestrictedCount(self.descIndex, 35)

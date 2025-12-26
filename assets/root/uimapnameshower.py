@@ -15,91 +15,50 @@ class MapNameShower(ui.ExpandedImageBox):
 	STATE_FADE_OUT = 3
 
 	def __init__(self):
-		if localeInfo.IsARABIC():
-			self.MAP_NAME_IMAGE =	{
-							"metin2_map_a1"  : LOCALE_PATH+"a1.tga",
-							"map_a2"         : LOCALE_PATH+"a2.tga",
-							"season2/metin2_map_a2_1": LOCALE_PATH+"a2_2.tga",
-							"metin2_map_a3"  : LOCALE_PATH+"a3.tga",
-							"metin2_map_b1"  : LOCALE_PATH+"b1.tga",
-							"map_b2"         : LOCALE_PATH+"b2.tga",
-							"metin2_map_b3"  : LOCALE_PATH+"b3.tga",
-							"metin2_map_c1"  : LOCALE_PATH+"c1.tga",
-							"map_c2"         : LOCALE_PATH+"c2.tga",
-							"metin2_map_c3"  : LOCALE_PATH+"c3.tga",
-							"metin2_map_deviltower1" : LOCALE_PATH+"devil1_title.tga",
-							"metin2_map_n_desert_01" : LOCALE_PATH+"desert1.tga",
-							"season2/metin2_map_n_desert_02": LOCALE_PATH+"desert2.tga",
-							"metin2_map_n_flame_01" : LOCALE_PATH+"frame1.tga",
-							"season2/metin2_map_n_flame_02": LOCALE_PATH+"frame2.tga",
-							"metin2_map_milgyo" : LOCALE_PATH+"milgyo.tga",
-							"season2/metin2_map_milgyo_a": LOCALE_PATH+"milgyo2.TGA",
-							"metin2_map_monkeydungeon" : LOCALE_PATH+"monkey1.tga",
-							"metin2_map_monkeydungeon_02" : LOCALE_PATH+"monkey2.tga",
-							"metin2_map_monkeydungeon_03" : LOCALE_PATH+"monkey3.tga",
-							"metin2_map_guild_01" : LOCALE_PATH+"guild1.tga",
-							"metin2_map_guild_02" : LOCALE_PATH+"guild2.tga",
-							"metin2_map_guild_03" : LOCALE_PATH+"guild3.tga",
-							"season2/metin2_map_skipia_dungeon_01": LOCALE_PATH+"skipia.tga",
-							"season2/metin2_map_skipia_dungeon_02": LOCALE_PATH+"skipia.tga",
-							"map_n_snowm_01" : LOCALE_PATH+"snow1.tga",
-							"season2/map_n_snowm_02": LOCALE_PATH+"snow2.tga",
-							"metin2_map_spiderdungeon" : LOCALE_PATH+"spider1.tga",
-							"metin2_map_trent" : LOCALE_PATH+"trent.tga",
-							"metin2_map_trent02" : LOCALE_PATH+"trent02.tga",
-							"season2/metin2_map_trent_a": LOCALE_PATH+"trent_a.tga",
-							"season2/metin2_map_trent02_a": LOCALE_PATH+"trent02_a.tga",
-							"metin2_map_dd"	:	LOCALE_PATH+"devil_basement.tga",
-							"metin2_map_devilsCatacomb"	:	LOCALE_PATH+"devil_basement.tga",
-							"metin2_map_dd"	:	LOCALE_PATH+"devil_basement.tga",
-							"season1/metin2_map_WL_01" :	LOCALE_PATH+"wl.tga",
-							"season1/metin2_map_nusluck01":	LOCALE_PATH+"nusluck.tga",	
-						}
-		else:
-			self.MAP_NAME_IMAGE =	{
-							"metin2_map_a1"  : LOCALE_PATH+"a1.tga",
-							"map_a2"         : LOCALE_PATH+"a2.tga",
-							"metin2_map_a3"  : LOCALE_PATH+"a3.tga",
-							"metin2_map_b1"  : LOCALE_PATH+"b1.tga",
-							"map_b2"         : LOCALE_PATH+"b2.tga",
-							"metin2_map_b3"  : LOCALE_PATH+"b3.tga",
-							"metin2_map_c1"  : LOCALE_PATH+"c1.tga",
-							"map_c2"         : LOCALE_PATH+"c2.tga",
-							"metin2_map_c3"  : LOCALE_PATH+"c3.tga",
-							"map_n_snowm_01" : LOCALE_PATH+"snow1.tga",
-							"metin2_map_deviltower1" : LOCALE_PATH+"devil1_title.tga",
-							"metin2_map_n_flame_01" : LOCALE_PATH+"frame1.tga",
-							"metin2_map_n_desert_01" : LOCALE_PATH+"desert1.tga",
-							"metin2_map_milgyo" : LOCALE_PATH+"milgyo.tga",
-							"metin2_map_monkeydungeon" : LOCALE_PATH+"monkey1.tga",
-							"metin2_map_monkeydungeon_02" : LOCALE_PATH+"monkey2.tga",
-							"metin2_map_monkeydungeon_03" : LOCALE_PATH+"monkey3.tga",
-							"metin2_map_guild_01" : LOCALE_PATH+"guild1.tga",
-							"metin2_map_guild_02" : LOCALE_PATH+"guild2.tga",
-							"metin2_map_guild_03" : LOCALE_PATH+"guild3.tga",
-							"metin2_map_trent" : LOCALE_PATH+"trent.tga",
-							"metin2_map_trent02" : LOCALE_PATH+"trent02.tga",
-							"season2/map_n_snowm_02": LOCALE_PATH+"snow2.tga",
-							"season2/metin2_map_a2_1": LOCALE_PATH+"a2_2.tga",
-							"season2/metin2_map_n_desert_02": LOCALE_PATH+"desert2.tga",
-							"season2/metin2_map_n_flame_02": LOCALE_PATH+"frame2.tga",
-							"season2/metin2_map_milgyo_a": LOCALE_PATH+"milgyo2.TGA",
-							"season2/metin2_map_trent_a": LOCALE_PATH+"trent_a.tga",
-							"season2/metin2_map_trent02_a": LOCALE_PATH+"trent02_a.tga",
-							"season2/metin2_map_skipia_dungeon_01": LOCALE_PATH+"skipia.tga",
-							"season2/metin2_map_skipia_dungeon_02": LOCALE_PATH+"skipia.tga",
-							"metin2_map_devilsCatacomb"	:	LOCALE_PATH+"devil_basement.tga",
-							"metin2_guild_village_01"	:	LOCALE_PATH+"a4.tga",
-							"metin2_guild_village_02"	:	LOCALE_PATH+"b4.tga",
-							"metin2_guild_village_03"	:	LOCALE_PATH+"c4.tga",
-							"metin2_map_BayBlackSand"	:	LOCALE_PATH+"bay.tga",
-							"metin2_map_Mt_Thunder"		:	LOCALE_PATH+"thunder.tga",
-							"metin2_map_dawnmistwood"	:	LOCALE_PATH+"dawn.tga",
-							"Metin2_map_CapeDragonHead"	:	LOCALE_PATH+"cape.tga",
-							"metin2_map_spiderdungeon"	:	LOCALE_PATH+"spider1.tga",
-							"metin2_map_spiderdungeon_02"	:	LOCALE_PATH+"spider1.tga",
-							"metin2_map_spiderdungeon_03"		:	LOCALE_PATH+"spider1.tga",
-						}
+		self.MAP_NAME_IMAGE =	{
+						"metin2_map_a1"  : LOCALE_PATH+"a1.tga",
+						"map_a2"         : LOCALE_PATH+"a2.tga",
+						"metin2_map_a3"  : LOCALE_PATH+"a3.tga",
+						"metin2_map_b1"  : LOCALE_PATH+"b1.tga",
+						"map_b2"         : LOCALE_PATH+"b2.tga",
+						"metin2_map_b3"  : LOCALE_PATH+"b3.tga",
+						"metin2_map_c1"  : LOCALE_PATH+"c1.tga",
+						"map_c2"         : LOCALE_PATH+"c2.tga",
+						"metin2_map_c3"  : LOCALE_PATH+"c3.tga",
+						"map_n_snowm_01" : LOCALE_PATH+"snow1.tga",
+						"metin2_map_deviltower1" : LOCALE_PATH+"devil1_title.tga",
+						"metin2_map_n_flame_01" : LOCALE_PATH+"frame1.tga",
+						"metin2_map_n_desert_01" : LOCALE_PATH+"desert1.tga",
+						"metin2_map_milgyo" : LOCALE_PATH+"milgyo.tga",
+						"metin2_map_monkeydungeon" : LOCALE_PATH+"monkey1.tga",
+						"metin2_map_monkeydungeon_02" : LOCALE_PATH+"monkey2.tga",
+						"metin2_map_monkeydungeon_03" : LOCALE_PATH+"monkey3.tga",
+						"metin2_map_guild_01" : LOCALE_PATH+"guild1.tga",
+						"metin2_map_guild_02" : LOCALE_PATH+"guild2.tga",
+						"metin2_map_guild_03" : LOCALE_PATH+"guild3.tga",
+						"metin2_map_trent" : LOCALE_PATH+"trent.tga",
+						"metin2_map_trent02" : LOCALE_PATH+"trent02.tga",
+						"season2/map_n_snowm_02": LOCALE_PATH+"snow2.tga",
+						"season2/metin2_map_a2_1": LOCALE_PATH+"a2_2.tga",
+						"season2/metin2_map_n_desert_02": LOCALE_PATH+"desert2.tga",
+						"season2/metin2_map_n_flame_02": LOCALE_PATH+"frame2.tga",
+						"season2/metin2_map_milgyo_a": LOCALE_PATH+"milgyo2.TGA",
+						"season2/metin2_map_trent_a": LOCALE_PATH+"trent_a.tga",
+						"season2/metin2_map_trent02_a": LOCALE_PATH+"trent02_a.tga",
+						"season2/metin2_map_skipia_dungeon_01": LOCALE_PATH+"skipia.tga",
+						"season2/metin2_map_skipia_dungeon_02": LOCALE_PATH+"skipia.tga",
+						"metin2_map_devilsCatacomb"	:	LOCALE_PATH+"devil_basement.tga",
+						"metin2_guild_village_01"	:	LOCALE_PATH+"a4.tga",
+						"metin2_guild_village_02"	:	LOCALE_PATH+"b4.tga",
+						"metin2_guild_village_03"	:	LOCALE_PATH+"c4.tga",
+						"metin2_map_BayBlackSand"	:	LOCALE_PATH+"bay.tga",
+						"metin2_map_Mt_Thunder"		:	LOCALE_PATH+"thunder.tga",
+						"metin2_map_dawnmistwood"	:	LOCALE_PATH+"dawn.tga",
+						"Metin2_map_CapeDragonHead"	:	LOCALE_PATH+"cape.tga",
+						"metin2_map_spiderdungeon"	:	LOCALE_PATH+"spider1.tga",
+						"metin2_map_spiderdungeon_02"	:	LOCALE_PATH+"spider1.tga",
+						"metin2_map_spiderdungeon_03"		:	LOCALE_PATH+"spider1.tga",
+					}
 
 		ui.ExpandedImageBox.__init__(self, "TOP_MOST")
 		self.AddFlag("not_pick")
@@ -176,7 +135,7 @@ class MapNameShower(ui.ExpandedImageBox):
 			self.floorImage.SetPosition(100, 80)
 			self.floorImage.SetAlpha(0.0)
 			self.floorImage.Show()
-			# 맵이름 (ex: 아귀동굴) 이미지 로딩 & 표시			
+
 			try:
 				floor = self.__GetDevilTowerFloor(x, y)
 				print x, y, floor
@@ -185,26 +144,7 @@ class MapNameShower(ui.ExpandedImageBox):
 				self.SetPosition(0, 80)
 				self.floorImage.Hide()
 				self.floorImage = None
-							
-			if localeInfo.IsYMIR() or localeInfo.IsWE_KOREA():	
-				self.objectiveImage = ui.ExpandedImageBox()
-				self.objectiveImage.AddFlag("not_pick")
-				self.objectiveImage.SetWindowHorizontalAlignCenter()
-				self.objectiveImage.SetPosition(0, 200)
-				self.objectiveImage.SetAlpha(0.0)
-				self.objectiveImage.Show()
-			
-				# 층별 목표 이미지 로딩 & 표시
-				# 던전은 현재 몇층인지 알아오는 부분 때문에 하드코딩을 피하기가 힘들다...
-				try:
-					floor = self.__GetDevilTowerFloor(x, y)
-					print x, y, floor
-					self.objectiveImage.LoadImage(LOCALE_PATH + mapName + "/obj_%02df.tga" % floor)
-				except RuntimeError:
-					self.SetPosition(0, 80)
-					self.objectiveImage.Hide()
-					self.objectiveImage = None
-				
+
 		if mapName == "metin2_map_devilsCatacomb":
 			self.SetPosition(-75, 80)
 
@@ -215,7 +155,6 @@ class MapNameShower(ui.ExpandedImageBox):
 			self.floorImage.SetAlpha(0.0)
 			self.floorImage.Show()
 
-			# 맵이름 (ex: 아귀동굴) 이미지 로딩 & 표시
 			try:
 				floor = self.__GetDevilBase(x, y)
 				print x, y, floor
@@ -224,26 +163,7 @@ class MapNameShower(ui.ExpandedImageBox):
 				self.SetPosition(0, 80)
 				self.floorImage.Hide()
 				self.floorImage = None
-			if localeInfo.IsYMIR() or localeInfo.IsWE_KOREA():	
-				self.objectiveImage = ui.ExpandedImageBox()
-				self.objectiveImage.AddFlag("not_pick")
-				self.objectiveImage.SetWindowHorizontalAlignCenter()
-				self.objectiveImage.SetPosition(0, 200)
-				self.objectiveImage.SetAlpha(0.0)
-				self.objectiveImage.Show()
-				
 
-				# 층별 목표 이미지 로딩 & 표시
-				# 던전은 현재 몇층인지 알아오는 부분 때문에 하드코딩을 피하기가 힘들다...
-				try:
-					floor = self.__GetDevilBase(x, y)
-					print x, y, floor
-					self.objectiveImage.LoadImage(LOCALE_PATH + mapName + "/obj_%02df.tga" % floor)
-				except RuntimeError:
-					self.SetPosition(0, 80)
-					self.objectiveImage.Hide()
-					self.objectiveImage = None
-								
 		self.state = self.STATE_FADE_IN
 		self.fadeStartTime = app.GetTime() + 1.0
 		self.Show()
