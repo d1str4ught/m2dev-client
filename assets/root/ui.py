@@ -1377,6 +1377,18 @@ class SlotWindow(Window):
 	def SetSlotCoolTime(self, slotIndex, coolTime, elapsedTime = 0.0):
 		wndMgr.SetSlotCoolTime(self.hWnd, slotIndex, coolTime, elapsedTime)
 
+	def StoreSlotCoolTime(self, key, slotIndex, coolTime, elapsedTime = 0.0):
+		wndMgr.StoreSlotCoolTime(self.hWnd, key, slotIndex, coolTime, elapsedTime)
+
+	def RestoreSlotCoolTime(self, key):
+		wndMgr.RestoreSlotCoolTime(self.hWnd, key)
+
+	def TransferSlotCoolTime(self, slotIndex1, slotIndex2):
+		wndMgr.TransferSlotCoolTime(self.hWnd, slotIndex1, slotIndex2)
+
+	def ClearSlotCoolTime(self, slotIndex):
+		wndMgr.ClearSlotCoolTime(self.hWnd, slotIndex)
+
 	def DisableSlot(self, slotIndex):
 		wndMgr.DisableSlot(self.hWnd, slotIndex)
 
