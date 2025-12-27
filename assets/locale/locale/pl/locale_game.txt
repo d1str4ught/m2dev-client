@@ -1,130 +1,130 @@
-AFF_LOVE_POINT	Punkty Mi≥osne: %d%%
+AFF_LOVE_POINT	Punkty Mi≈Çosne: %d%%
 ALIGNMENT_NAME	Punkty Rangi:
-ATTACK_ERROR_UNKNOWN	Nieznany b≥πd podczas ataku: %s
+ATTACK_ERROR_UNKNOWN	Nieznany b≈ÇƒÖd podczas ataku: %s
 CANNOT_ATTACK_DEST_IN_SAFE	Przeciwnik jest za daleko.
-CANNOT_ATTACK_SELF_IN_SAFE	Nie mogÍ zaatakowaÊ.
-CANNOT_EQUIP_IN_EXCHANGE	Nie moøesz zmieniaÊ wyposaøenia podczas handlowania.
-CANNOT_EQUIP_IN_SHOP	Nie moøesz zdjπÊ za≥oøonego ekwipunku podczas handlu.
-CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA	Nie moøesz otworzyÊ Prywatnego Magazynu w miejscu publicznym.
-CANNOT_SHOOT_DEST_IN_SAFE	WrÛg jest za daleko.
-CANNOT_SHOOT_EMPTY_ARROW	PotrzebujÍ Strza≥y.
-CANNOT_SHOOT_SELF_IN_SAFE	Nie mogÍ tego zrobiÊ.
-CANNOT_SKILL_APPROACH	Na pewno nie mogÍ podejúÊ bliøej.
-CANNOT_SKILL_ATTACK	Nie mogÍ zaatakowaÊ.
-CANNOT_SKILL_BLUE	Gdy aktywna jest Dusza Purpurowego Wilka, nie moøesz uøyÊ Duszy Wilka Indygo.
-CANNOT_SKILL_DEST_IN_SAFE	WrÛg jest za daleko.
-CANNOT_SKILL_EQUIP_FISHING_ROD	PotrzebujÍ WÍdki.
-CANNOT_SKILL_HAVE_TO_RIDE	PotrzebujÍ Konia zanim bÍdÍ mÛg≥ tego uøyÊ.
+CANNOT_ATTACK_SELF_IN_SAFE	Nie mogƒô zaatakowaƒá.
+CANNOT_EQUIP_IN_EXCHANGE	Nie mo≈ºesz zmieniaƒá wyposa≈ºenia podczas handlowania.
+CANNOT_EQUIP_IN_SHOP	Nie mo≈ºesz zdjƒÖƒá za≈Ço≈ºonego ekwipunku podczas handlu.
+CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA	Nie mo≈ºesz otworzyƒá Prywatnego Magazynu w miejscu publicznym.
+CANNOT_SHOOT_DEST_IN_SAFE	Wr√≥g jest za daleko.
+CANNOT_SHOOT_EMPTY_ARROW	Potrzebujƒô Strza≈Çy.
+CANNOT_SHOOT_SELF_IN_SAFE	Nie mogƒô tego zrobiƒá.
+CANNOT_SKILL_APPROACH	Na pewno nie mogƒô podej≈õƒá bli≈ºej.
+CANNOT_SKILL_ATTACK	Nie mogƒô zaatakowaƒá.
+CANNOT_SKILL_BLUE	Gdy aktywna jest Dusza Purpurowego Wilka, nie mo≈ºesz u≈ºyƒá Duszy Wilka Indygo.
+CANNOT_SKILL_DEST_IN_SAFE	Wr√≥g jest za daleko.
+CANNOT_SKILL_EQUIP_FISHING_ROD	Potrzebujƒô Wƒôdki.
+CANNOT_SKILL_HAVE_TO_RIDE	Potrzebujƒô Konia zanim bƒôdƒô m√≥g≈Ç tego u≈ºyƒá.
 CANNOT_SKILL_NEED_EMPTY_BOTTLE	Nie mam Pustej Butelki.
-CANNOT_SKILL_NEED_POISON_BOTTLE	Nie mam Butelki Z Truciznπ.
+CANNOT_SKILL_NEED_POISON_BOTTLE	Nie mam Butelki Z TruciznƒÖ.
 CANNOT_SKILL_NEED_TARGET	Kto jest celem?
-CANNOT_SKILL_NOT_ENOUGH_HP	Mam za ma≥o PunktÛw Øycia!
-CANNOT_SKILL_NOT_ENOUGH_SP	Mam za ma≥o PunktÛw Energii!
-CANNOT_SKILL_NOT_HORSE_SKILL	Nie mogÍ tego uøyÊ podczas jazdy konnej.
-CANNOT_SKILL_NOT_MATCHABLE_WEAPON	Nie mogÍ uøyÊ tej umiejÍtnoúci z tπ broniπ.
-CANNOT_SKILL_NOT_YET_LEARN	Nie opanowa≥em tej umiejÍtnoúci.
-CANNOT_SKILL_ONLY_FOR_ALLIANCE	To dzia≥a tylko na cz≥onkÛw grupy.
-CANNOT_SKILL_ONLY_FOR_CORPSE	To dzia≥a tylko na martwych ludzi.
-CANNOT_SKILL_RED	Gdy aktywna jest Dusza Wilka Indygo, nie moøesz uøyÊ Duszy Purpurowego Wilka.
-CANNOT_SKILL_REMOVE_FISHING_ROD	Nie mogÍ uøyÊ tej umiejÍtnoúci z WÍdkπ.
-CANNOT_SKILL_SELF_IN_SAFE	Nie mogÍ zaatakowaÊ z tego miejsca.
-CANNOT_SKILL_USE_SELF	Nie mogÍ tego uøyÊ na sobie.
-CANNOT_SKILL_WAIT_COOLTIME	Nie mogÍ jeszcze uøyÊ tej UmiejÍtnoúci.
-CANNOT_USE	Nie moøesz go uøyÊ.
-CANNOT_WHISPER_DEST_REFUSE	%s zablokowa≥ moøliwoúÊ szeptania.	SA
+CANNOT_SKILL_NOT_ENOUGH_HP	Mam za ma≈Ço Punkt√≥w ≈ªycia!
+CANNOT_SKILL_NOT_ENOUGH_SP	Mam za ma≈Ço Punkt√≥w Energii!
+CANNOT_SKILL_NOT_HORSE_SKILL	Nie mogƒô tego u≈ºyƒá podczas jazdy konnej.
+CANNOT_SKILL_NOT_MATCHABLE_WEAPON	Nie mogƒô u≈ºyƒá tej umiejƒôtno≈õci z tƒÖ broniƒÖ.
+CANNOT_SKILL_NOT_YET_LEARN	Nie opanowa≈Çem tej umiejƒôtno≈õci.
+CANNOT_SKILL_ONLY_FOR_ALLIANCE	To dzia≈Ça tylko na cz≈Çonk√≥w grupy.
+CANNOT_SKILL_ONLY_FOR_CORPSE	To dzia≈Ça tylko na martwych ludzi.
+CANNOT_SKILL_RED	Gdy aktywna jest Dusza Wilka Indygo, nie mo≈ºesz u≈ºyƒá Duszy Purpurowego Wilka.
+CANNOT_SKILL_REMOVE_FISHING_ROD	Nie mogƒô u≈ºyƒá tej umiejƒôtno≈õci z WƒôdkƒÖ.
+CANNOT_SKILL_SELF_IN_SAFE	Nie mogƒô zaatakowaƒá z tego miejsca.
+CANNOT_SKILL_USE_SELF	Nie mogƒô tego u≈ºyƒá na sobie.
+CANNOT_SKILL_WAIT_COOLTIME	Nie mogƒô jeszcze u≈ºyƒá tej Umiejƒôtno≈õci.
+CANNOT_USE	Nie mo≈ºesz go u≈ºyƒá.
+CANNOT_WHISPER_DEST_REFUSE	%s zablokowa≈Ç mo≈ºliwo≈õƒá szeptania.	SA
 CANNOT_WHISPER_NOT_LOGON	%s nie jest zalogowany.	SA
-CANNOT_WHISPER_SELF_REFUSE	Nie moøesz pisaÊ do innych gdy masz zablokowane szeptanie.	SNA
-CHANNEL	Kana≥
-CHANNELING_CANNOT_LOGOUT	Nie moøesz wrÛciÊ do okna logowania.
+CANNOT_WHISPER_SELF_REFUSE	Nie mo≈ºesz pisaƒá do innych gdy masz zablokowane szeptanie.	SNA
+CHANNEL	Kana≈Ç
+CHANNELING_CANNOT_LOGOUT	Nie mo≈ºesz wr√≥ciƒá do okna logowania.
 CHANNEL_EMPTY_SERVER	Brak Serwera
-CHANNEL_NORMAL	Kana≥ %d
-CHANNEL_NOTIFY_FULL	Ten Kana≥ jest pe≥ny! ProszÍ wybraÊ inny.
+CHANNEL_NORMAL	Kana≈Ç %d
+CHANNEL_NOTIFY_FULL	Ten Kana≈Ç jest pe≈Çny! Proszƒô wybraƒá inny.
 CHANNEL_NOT_FIND_INFO	Brak informacji o tym kanale.
 CHANNEL_PVP	Wolny pojedynek
-CHANNEL_SELECT_CHANNEL	Wybierz Kana≥
+CHANNEL_SELECT_CHANNEL	Wybierz Kana≈Ç
 CHANNEL_SELECT_REGION	Wybierz region.
 CHANNEL_SELECT_SERVER	Wybierz serwer
 CHANNEL_TEST_SERVER	Test server
 CHANNEL_TEST_SERVER_ADDR	Test %s:%d
-CHARACTER_CREATE_MODE	UtwÛrz postaÊ
-CHARACTER_SELECT_MODE	Wybierz postaÊ
+CHARACTER_CREATE_MODE	Utw√≥rz postaƒá
+CHARACTER_SELECT_MODE	Wybierz postaƒá
 CHAT_ALL	Wszystko
 CHAT_BLOCK	Blok
 CHAT_GUILD	Gildia
 CHAT_INFORMATION	Info
-CHAT_INSULT_STRING	To zdanie zawiera niepoprawne s≥owa.
-CHAT_LOG	Pokaø stare wiadomoúci [L]
-CHAT_LOG_TITLE	ProtokÛ≥ wiadomoúci
+CHAT_INSULT_STRING	To zdanie zawiera niepoprawne s≈Çowa.
+CHAT_LOG	Poka≈º stare wiadomo≈õci [L]
+CHAT_LOG_TITLE	Protok√≥≈Ç wiadomo≈õci
 CHAT_NORMAL	Normalne
-CHAT_NOTICE	Og≥oszenia
+CHAT_NOTICE	Og≈Çoszenia
 CHAT_PARTY	Grupa
-CHAT_SEND_CHAT	Wyúlij wiadomoúÊ
-CHAT_SEND_MEMO	Wyúlij szept [Shift+Enter]
-CHAT_SHOUT	Wo≥aj
-CHAT_SHOUT_LIMIT	Moøesz wo≥aÊ tylko co 15 sekund.
+CHAT_SEND_CHAT	Wy≈õlij wiadomo≈õƒá
+CHAT_SEND_MEMO	Wy≈õlij szept [Shift+Enter]
+CHAT_SHOUT	Wo≈Çaj
+CHAT_SHOUT_LIMIT	Mo≈ºesz wo≈Çaƒá tylko co 15 sekund.
 CHAT_WHISPER	Szeptanie
 COMB_ALREADY_APPEND	
-COMB_CANT_APPEND_ITEM	Nie moøna uøyÊ tego przedmiotu.
-COMB_CANT_APPEND_SEALED_ITEM	Nie moøesz uøywaÊ przedmiotu przywiπzanego do duszy.
+COMB_CANT_APPEND_ITEM	Nie mo≈ºna u≈ºyƒá tego przedmiotu.
+COMB_CANT_APPEND_SEALED_ITEM	Nie mo≈ºesz u≈ºywaƒá przedmiotu przywiƒÖzanego do duszy.
 COMB_COST	Cena: %s
-COMB_IS_CONTINUE_PROCESS	Chcesz kontynuowaÊ?
-COMB_NOTICE	Nie moøesz otworzyÊ prywatnego sklepu podczas wymiany ksiπg.
-COMB_NOTICE_NOT_OPEN	Nie moøesz wymieniÊ ksiπg, gdy masz otwarty prywatny sklep.
-COMB_NOT_ALL_SLOT_APPEND_ITEM	Aby przekazaÊ bonusy, potrzebujesz 2. kostiumu.
-COMB_NOT_FULL_BOOK	Nie, tak to nie ubijemy interesu. Juø ci przecieø wyt≥umaczy≥em, øe chcÍ 10 ksiπg, aby dokonaÊ wymiany.
-COMB_NOT_ITEM_IN_INVENTORY	Nie moøesz uøywaÊ za≥oøonych przedmiotÛw.
-COMB_NOT_MEDIUM_ITEM	Nie moøna uøyÊ tego przedmiotu.
+COMB_IS_CONTINUE_PROCESS	Chcesz kontynuowaƒá?
+COMB_NOTICE	Nie mo≈ºesz otworzyƒá prywatnego sklepu podczas wymiany ksiƒÖg.
+COMB_NOTICE_NOT_OPEN	Nie mo≈ºesz wymieniƒá ksiƒÖg, gdy masz otwarty prywatny sklep.
+COMB_NOT_ALL_SLOT_APPEND_ITEM	Aby przekazaƒá bonusy, potrzebujesz 2. kostiumu.
+COMB_NOT_FULL_BOOK	Nie, tak to nie ubijemy interesu. Ju≈º ci przecie≈º wyt≈Çumaczy≈Çem, ≈ºe chcƒô 10 ksiƒÖg, aby dokonaƒá wymiany.
+COMB_NOT_ITEM_IN_INVENTORY	Nie mo≈ºesz u≈ºywaƒá za≈Ço≈ºonych przedmiot√≥w.
+COMB_NOT_MEDIUM_ITEM	Nie mo≈ºna u≈ºyƒá tego przedmiotu.
 COMB_WILL_REMOVE_MATERIAL	Kostium 2 ulegnie zniszczeniu.
-CREATE_ERROR_GM_NAME	Nie jesteú upowaøniony do uøycia ,GMë w swojej nazwie postaci.
+CREATE_ERROR_GM_NAME	Nie jeste≈õ upowa≈ºniony do u≈ºycia ,GM‚Äò w swojej nazwie postaci.
 CREATE_ERROR_INSULT_NAME	Ta nazwa jest niepoprawna.
-CREATE_ERROR_LIMIT_LEVEL	Twoja postaÊ musi znajdowaÊ siÍ przynajmniej na poziomie 80.
-CREATE_ERROR_TIME_LIMIT	Moøesz tworzyÊ nowπ postaÊ tylko co 30 sek.
-CREATE_ERROR_WRONG_STRING	Nazwa twojej postaci nie moøe zawieraÊ znakÛw specjalnych.
-CREATE_EXIST_SAME_NAME	Inna postaÊ juø ma tπ nazwÍ.
-CREATE_FAILURE	Nie moøesz stworzyÊ postaci
-CREATE_FULL	Nie moøesz tworzyÊ wiÍcej postaci.
+CREATE_ERROR_LIMIT_LEVEL	Twoja postaƒá musi znajdowaƒá siƒô przynajmniej na poziomie 80.
+CREATE_ERROR_TIME_LIMIT	Mo≈ºesz tworzyƒá nowƒÖ postaƒá tylko co 30 sek.
+CREATE_ERROR_WRONG_STRING	Nazwa twojej postaci nie mo≈ºe zawieraƒá znak√≥w specjalnych.
+CREATE_EXIST_SAME_NAME	Inna postaƒá ju≈º ma tƒÖ nazwƒô.
+CREATE_FAILURE	Nie mo≈ºesz stworzyƒá postaci
+CREATE_FULL	Nie mo≈ºesz tworzyƒá wiƒôcej postaci.
 CREATE_GM_NAME	GM
-CREATE_INPUT_NAME	Wybierz nazwÍ.
-CREATE_PLUS_STAT	Nadal pozosta≥y punkty statusu.
+CREATE_INPUT_NAME	Wybierz nazwƒô.
+CREATE_PLUS_STAT	Nadal pozosta≈Çy punkty statusu.
 DAY	Dni
-DONT_USE_ITEM_WHEN_SHOW_CONFIRM	Nie moøesz przemieszczaÊ przedmiotÛw w trakcie zapytania.
-DO_YOU_BUY_ITEM1	Czy chcesz kupiÊ %s za %s?
-DO_YOU_BUY_ITEM2	Czy chcesz kupiÊ %s %s za %s?
-DO_YOU_DROP_MONEY	Czy chcesz upuúciÊ %d Yang?
-DO_YOU_SELL_ITEM1	Czy chcesz sprzedaÊ %s za %s?
-DO_YOU_SELL_ITEM2	Czy chcesz sprzedaÊ %s %s za %s?
-DRAGON_SOUL_CANNOT_REFINE	Nie moøesz uszlachetniÊ tego Smoczego Kamienia.
-DRAGON_SOUL_CANNOT_REFINE_MORE	Ten Smoczy KamieÒ osiπgnπ≥ juø najwyøszy poziom.
-DRAGON_SOUL_EQUIP_WARNING1	UsuniÍcie Smoczego Kamienia nie jest prostπ sprawπ.
-DRAGON_SOUL_EQUIP_WARNING2	Chcesz mimo to kontynuowaÊ?
-DRAGON_SOUL_EXPIRED	Wygas≥y Smoczy KamieÒ
-DRAGON_SOUL_INVALID_DRAGON_SOUL	To nieprawid≥owy Smoczy KamieÒ.
-DRAGON_SOUL_IS_NOT_DRAGON_SOUL	To nie jest Smoczy KamieÒ.
-DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	To nieprawid≥owy Smoczy KamieÒ.
-DRAGON_SOUL_NOT_ENOUGH_MATERIAL	Nie posiadasz wystarczajπco materia≥u do uszlachetnienia.
-DRAGON_SOUL_NOT_MATCHED_SLOT	Ten Smoczy KamieÒ nie pasuje do tego slotu.
-DRAGON_SOUL_STEP_LEVEL1	JakoúÊ: matowy,
-DRAGON_SOUL_STEP_LEVEL2	JakoúÊ: przejrzysty,
-DRAGON_SOUL_STEP_LEVEL3	JakoúÊ: bez skazy,
-DRAGON_SOUL_STEP_LEVEL4	JakoúÊ: znakomity,
-DRAGON_SOUL_STEP_LEVEL5	JakoúÊ: wyborny,
+DONT_USE_ITEM_WHEN_SHOW_CONFIRM	Nie mo≈ºesz przemieszczaƒá przedmiot√≥w w trakcie zapytania.
+DO_YOU_BUY_ITEM1	Czy chcesz kupiƒá %s za %s?
+DO_YOU_BUY_ITEM2	Czy chcesz kupiƒá %s %s za %s?
+DO_YOU_DROP_MONEY	Czy chcesz upu≈õciƒá %d Yang?
+DO_YOU_SELL_ITEM1	Czy chcesz sprzedaƒá %s za %s?
+DO_YOU_SELL_ITEM2	Czy chcesz sprzedaƒá %s %s za %s?
+DRAGON_SOUL_CANNOT_REFINE	Nie mo≈ºesz uszlachetniƒá tego Smoczego Kamienia.
+DRAGON_SOUL_CANNOT_REFINE_MORE	Ten Smoczy Kamie≈Ñ osiƒÖgnƒÖ≈Ç ju≈º najwy≈ºszy poziom.
+DRAGON_SOUL_EQUIP_WARNING1	Usuniƒôcie Smoczego Kamienia nie jest prostƒÖ sprawƒÖ.
+DRAGON_SOUL_EQUIP_WARNING2	Chcesz mimo to kontynuowaƒá?
+DRAGON_SOUL_EXPIRED	Wygas≈Çy Smoczy Kamie≈Ñ
+DRAGON_SOUL_INVALID_DRAGON_SOUL	To nieprawid≈Çowy Smoczy Kamie≈Ñ.
+DRAGON_SOUL_IS_NOT_DRAGON_SOUL	To nie jest Smoczy Kamie≈Ñ.
+DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	To nieprawid≈Çowy Smoczy Kamie≈Ñ.
+DRAGON_SOUL_NOT_ENOUGH_MATERIAL	Nie posiadasz wystarczajƒÖco materia≈Çu do uszlachetnienia.
+DRAGON_SOUL_NOT_MATCHED_SLOT	Ten Smoczy Kamie≈Ñ nie pasuje do tego slotu.
+DRAGON_SOUL_STEP_LEVEL1	Jako≈õƒá: matowy,
+DRAGON_SOUL_STEP_LEVEL2	Jako≈õƒá: przejrzysty,
+DRAGON_SOUL_STEP_LEVEL3	Jako≈õƒá: bez skazy,
+DRAGON_SOUL_STEP_LEVEL4	Jako≈õƒá: znakomity,
+DRAGON_SOUL_STEP_LEVEL5	Jako≈õƒá: wyborny,
 DRAGON_SOUL_STRENGTH	Poziom: +%d	SA
-DRAGON_SOUL_UNEQUIP_WARNING1	Smoczy KamieÒ moøe ulec zniszczeniu.
-DRAGON_SOUL_UNEQUIP_WARNING2	Chcesz mimo to kontynuowaÊ?
-DRAGON_SOUL_UNMATCHED_SLOT	To nieprawid≥owy slot.
-DRAGON_SOUL_UNQUALIFIED	Nie moøesz jeszcze uøyÊ alchemii Smoczych Kamieni.
-DROP_ITEM_FAILURE_EQUIP_ITEM	Nie moøesz upuúciÊ za≥oøonych przedmiotÛw.
-DROP_ITEM_FAILURE_PRIVATE_SHOP	Nie moøesz upuúciÊ Przedmiotu z ekwipunku jeúli otworzy≥eú prywatny Magazyn.
-DROP_MONEY_FAILURE_1000_OVER	Moøesz upuúciÊ maksimum 999 Yang.
-EMOTION_ANGRY	DenerwowaÊ
-EMOTION_ATTRACTIVE	UwodziÊ
-EMOTION_BANTER	DrwiÊ
+DRAGON_SOUL_UNEQUIP_WARNING1	Smoczy Kamie≈Ñ mo≈ºe ulec zniszczeniu.
+DRAGON_SOUL_UNEQUIP_WARNING2	Chcesz mimo to kontynuowaƒá?
+DRAGON_SOUL_UNMATCHED_SLOT	To nieprawid≈Çowy slot.
+DRAGON_SOUL_UNQUALIFIED	Nie mo≈ºesz jeszcze u≈ºyƒá alchemii Smoczych Kamieni.
+DROP_ITEM_FAILURE_EQUIP_ITEM	Nie mo≈ºesz upu≈õciƒá za≈Ço≈ºonych przedmiot√≥w.
+DROP_ITEM_FAILURE_PRIVATE_SHOP	Nie mo≈ºesz upu≈õciƒá Przedmiotu z ekwipunku je≈õli otworzy≈Çe≈õ prywatny Magazyn.
+DROP_MONEY_FAILURE_1000_OVER	Mo≈ºesz upu≈õciƒá maksimum 999 Yang.
+EMOTION_ANGRY	Denerwowaƒá
+EMOTION_ATTRACTIVE	Uwodziƒá
+EMOTION_BANTER	Drwiƒá
 EMOTION_CHEERS_1	Powitanie 1
 EMOTION_CHEERS_2	Powitanie 2
-EMOTION_CHEERUP	RozweselaÊ
+EMOTION_CHEERUP	Rozweselaƒá
 EMOTION_CHOOSE_ONE	Wybierz cel
 EMOTION_CLAP	Klaszcz
-EMOTION_CLAP_KISS	Poca≥unek
+EMOTION_CLAP_KISS	Poca≈Çunek
 EMOTION_CONGRATULATION	Zgoda
 EMOTION_DANCE_1	Taniec 1
 EMOTION_DANCE_2	Taniec 2
@@ -132,86 +132,86 @@ EMOTION_DANCE_3	Taniec 3
 EMOTION_DANCE_4	Taniec 4
 EMOTION_DANCE_5	Taniec 5
 EMOTION_DANCE_6	Gumsan Style
-EMOTION_FORGIVE	WybaczyÊ
-EMOTION_FRENCH_KISS	Francuski poca≥unek
-EMOTION_JOY	RadoúÊ
+EMOTION_FORGIVE	Wybaczyƒá
+EMOTION_FRENCH_KISS	Francuski poca≈Çunek
+EMOTION_JOY	Rado≈õƒá
 EMOTION_SAD	Smutek
 EMOTION_SHY	Odmowa
 EMOTION_SLAP	Uderzenie
-EMPIRE_A	KrÛlestwo Shinsoo
-EMPIRE_B	KrÛlestwo Chunjo
-EMPIRE_C	KrÛlestwo Jinno
-EMPIRE_SELECT_MODE	Wybierz krÛlestwo
-EXCHANGE_CANNOT_GIVE	Nie moøesz handlowaÊ tym przedmiotem.
-EXCHANGE_CANT_EDIT_MONEY	Nie moøesz teraz zmieniÊ kwoty.
-EXCHANGE_FAILURE_EQUIP_ITEM	Nie moøesz wymieniÊ ubranych przedmiotÛw.
+EMPIRE_A	Kr√≥lestwo Shinsoo
+EMPIRE_B	Kr√≥lestwo Chunjo
+EMPIRE_C	Kr√≥lestwo Jinno
+EMPIRE_SELECT_MODE	Wybierz kr√≥lestwo
+EXCHANGE_CANNOT_GIVE	Nie mo≈ºesz handlowaƒá tym przedmiotem.
+EXCHANGE_CANT_EDIT_MONEY	Nie mo≈ºesz teraz zmieniƒá kwoty.
+EXCHANGE_FAILURE_EQUIP_ITEM	Nie mo≈ºesz wymieniƒá ubranych przedmiot√≥w.
 EXCHANGE_MONEY	Kwota
 EXCHANGE_TITLE	Handluj z %s
-FISHING_FAILURE	Straci≥eú przynÍtÍ.
-FISHING_NOTIFY1	Wyglπda na to, øe na haczyku jest %s.
-FISHING_NOTIFY2	Wyglπda≥o na to, øe %s wisi na haku.
-FISHING_SUCCESS1	Zdoby≥eú %s!
-FISHING_SUCCESS2	Wy≥owi≥eú %s!
-FISHING_UNKNOWN	Coú nadzia≥o siÍ na haczyk, ale nie widzisz, co to jest.
-FISHING_WRONG_PLACE	Nie moøesz tu ≥owiÊ ryb.
+FISHING_FAILURE	Straci≈Çe≈õ przynƒôtƒô.
+FISHING_NOTIFY1	WyglƒÖda na to, ≈ºe na haczyku jest %s.
+FISHING_NOTIFY2	WyglƒÖda≈Ço na to, ≈ºe %s wisi na haku.
+FISHING_SUCCESS1	Zdoby≈Çe≈õ %s!
+FISHING_SUCCESS2	Wy≈Çowi≈Çe≈õ %s!
+FISHING_UNKNOWN	Co≈õ nadzia≈Ço siƒô na haczyk, ale nie widzisz, co to jest.
+FISHING_WRONG_PLACE	Nie mo≈ºesz tu ≈Çowiƒá ryb.
 FOR_FEMALE	dla kobiet	
-FOR_MALE	dla mÍøczyzn	
-GAME_CANNOT_MINING	Nie moøesz wydobywaÊ surowcÛw podczas jazdy konnej.
-GAME_CANNOT_PICK_ITEM	Nie moøesz podnieúÊ tego Przedmiotu, nie ty go zdoby≥eú.
-GAME_INIT_ERROR_CURSOR	Kursor nie moøe zostaÊ utworzony.
-GAME_INIT_ERROR_DIRECTX	Aby gra mog≥a ruszyÊ musi byÊ zainstalowany DirectX 8.1 .\nZainstaluj DirectX 8.1 lub nowszy.
-GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	Øadne graficzne urzπdzenie nie zosta≥o znalezione.\nSprawdü, czy twoja karta VGA jest aktualnie zainstalowana.
-GAME_INIT_ERROR_GRAPHICS_NOT_EXIST	Nie moøna by≥o uruchomiÊ karty graficznej.\nSprawdü czy masz kartÍ VGA.\nAlternatywniem moøesz aktywowaÊ akceleracjÍ sprzÍtowπ.\n(Ustaw suwak akceleracji sprzÍtowej na maks. \nPanel Sterowania->Ekran->Ustawienia->Zaawansowane->Rozwiπzywanie ProblemÛw)
-GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	Karta graficzna w komputerze nie obs≥uguje trybu ekranowego w trybie 32bit.\nUstaw tryb 16 bitowy lub uøyj trybu pe≥noekranowego.
-GAME_INIT_ERROR_ITEM_PROTO	Brak danych o Przedmiotach.\nZainstaluj grÍ jeszcze raz.
-GAME_INIT_ERROR_MAIN_WINDOW	Gra nie mog≥a zostaÊ uruchomiona w okienku
-GAME_INIT_ERROR_MOB_PROTO	Brak danych o Potworach.\nZainstaluj grÍ jeszcze raz.
-GAME_INIT_ERROR_NETWORK	Nie moøna by≥o uruchomiÊ urzπdzeÒ sieciowych.\nSprawdü swoje ustawienia internetowe.
-GAME_PICK_MONEY	Otrzyma≥eú %d Yang.
-GUILDMARK_UPLOADER_ERROR_128_HEIGHT	WysokoúÊ nie ma 128px.
-GUILDMARK_UPLOADER_ERROR_12_HEIGHT	WysokoúÊ nie ma 12px.
-GUILDMARK_UPLOADER_ERROR_16_WIDTH	SzerokoúÊ nie ma 16px.
-GUILDMARK_UPLOADER_ERROR_64_WIDTH	SzerokoúÊ nie ma 64px.
-GUILDMARK_UPLOADER_ERROR_FILE_FORMAT	Gra nie obs≥uguje tego obrazka.
-GUILDMARK_UPLOADER_ERROR_PATH	Przenieú plik do folderu upload/ w g≥Ûwnym katalogu gry Metin2.
-GUILDMARK_UPLOADER_ERROR_SELECT	Plik z obrazkiem nie zosta≥ wybrany.
+FOR_MALE	dla mƒô≈ºczyzn	
+GAME_CANNOT_MINING	Nie mo≈ºesz wydobywaƒá surowc√≥w podczas jazdy konnej.
+GAME_CANNOT_PICK_ITEM	Nie mo≈ºesz podnie≈õƒá tego Przedmiotu, nie ty go zdoby≈Çe≈õ.
+GAME_INIT_ERROR_CURSOR	Kursor nie mo≈ºe zostaƒá utworzony.
+GAME_INIT_ERROR_DIRECTX	Aby gra mog≈Ça ruszyƒá musi byƒá zainstalowany DirectX 8.1 .\nZainstaluj DirectX 8.1 lub nowszy.
+GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	≈ªadne graficzne urzƒÖdzenie nie zosta≈Ço znalezione.\nSprawd≈∫, czy twoja karta VGA jest aktualnie zainstalowana.
+GAME_INIT_ERROR_GRAPHICS_NOT_EXIST	Nie mo≈ºna by≈Ço uruchomiƒá karty graficznej.\nSprawd≈∫ czy masz kartƒô VGA.\nAlternatywniem mo≈ºesz aktywowaƒá akceleracjƒô sprzƒôtowƒÖ.\n(Ustaw suwak akceleracji sprzƒôtowej na maks. \nPanel Sterowania->Ekran->Ustawienia->Zaawansowane->RozwiƒÖzywanie Problem√≥w)
+GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	Karta graficzna w komputerze nie obs≈Çuguje trybu ekranowego w trybie 32bit.\nUstaw tryb 16 bitowy lub u≈ºyj trybu pe≈Çnoekranowego.
+GAME_INIT_ERROR_ITEM_PROTO	Brak danych o Przedmiotach.\nZainstaluj grƒô jeszcze raz.
+GAME_INIT_ERROR_MAIN_WINDOW	Gra nie mog≈Ça zostaƒá uruchomiona w okienku
+GAME_INIT_ERROR_MOB_PROTO	Brak danych o Potworach.\nZainstaluj grƒô jeszcze raz.
+GAME_INIT_ERROR_NETWORK	Nie mo≈ºna by≈Ço uruchomiƒá urzƒÖdze≈Ñ sieciowych.\nSprawd≈∫ swoje ustawienia internetowe.
+GAME_PICK_MONEY	Otrzyma≈Çe≈õ %d Yang.
+GUILDMARK_UPLOADER_ERROR_128_HEIGHT	Wysoko≈õƒá nie ma 128px.
+GUILDMARK_UPLOADER_ERROR_12_HEIGHT	Wysoko≈õƒá nie ma 12px.
+GUILDMARK_UPLOADER_ERROR_16_WIDTH	Szeroko≈õƒá nie ma 16px.
+GUILDMARK_UPLOADER_ERROR_64_WIDTH	Szeroko≈õƒá nie ma 64px.
+GUILDMARK_UPLOADER_ERROR_FILE_FORMAT	Gra nie obs≈Çuguje tego obrazka.
+GUILDMARK_UPLOADER_ERROR_PATH	Przenie≈õ plik do folderu upload/ w g≈Ç√≥wnym katalogu gry Metin2.
+GUILDMARK_UPLOADER_ERROR_SELECT	Plik z obrazkiem nie zosta≈Ç wybrany.
 GUILDWAR_CTF_TITLE	Flaga zdobyta.
 GUILDWAR_NORMAL_TITLE	Pole Bitwy
-GUILDWAR_QUESTION_LINE_1	Gildia %s wypowiedzia≥a wojnÍ twojej Gildii.
+GUILDWAR_QUESTION_LINE_1	Gildia %s wypowiedzia≈Ça wojnƒô twojej Gildii.
 GUILDWAR_QUESTION_LINE_2	Akceptujesz? (%s)
 GUILDWAR_UNKNOWN_TITLE	...
 GUILDWAR_WARP_TITLE	Walka na arenie
 GUILD_BUILDING_GRADE	Ranga
 GUILD_BUILDING_NAME	Nazwa Budynku
-GUILD_CANNOT_HEAL_GSP_ANYMORE	Energia Ducha Smoka jest juø w pe≥ni zregenerowana.
+GUILD_CANNOT_HEAL_GSP_ANYMORE	Energia Ducha Smoka jest ju≈º w pe≈Çni zregenerowana.
 GUILD_COMMENT	Napisz
 GUILD_CREATE_ERROR_INSULT_NAME	Nazwa Gildii jest niepoprawna.
-GUILD_DEFAULT_GRADE	Cz≥onkowie Gildii
-GUILD_DELETE	UsuÒ
+GUILD_DEFAULT_GRADE	Cz≈Çonkowie Gildii
+GUILD_DELETE	Usu≈Ñ
 GUILD_DEPOSIT	Depozyt
-GUILD_DO_YOU_HEAL_GSP	Czy chcesz odnowiÊ za %d Yang %d Ducha Smoka?
-GUILD_DO_YOU_JOIN	  zaprasza CiÍ do swojej Gildii. Chcesz do niej do≥πczyÊ?
+GUILD_DO_YOU_HEAL_GSP	Czy chcesz odnowiƒá za %d Yang %d Ducha Smoka?
+GUILD_DO_YOU_JOIN	  zaprasza Ciƒô do swojej Gildii. Chcesz do niej do≈ÇƒÖczyƒá?
 GUILD_EMPTY_AREA	Wolna Ziemia
 GUILD_ENEMY_GUILD_NAME	Nazwa Gildii wroga
-GUILD_FACILITY	PrzybudÛwka
+GUILD_FACILITY	Przybud√≥wka
 GUILD_GEM	Klejnot
-GUILD_HEADQUARTER	Budynek G≥Ûwny
+GUILD_HEADQUARTER	Budynek G≈Ç√≥wny
 GUILD_HEAL_GSP	Regeneracja Ducha Smoka
 GUILD_INFO_ENEMY_GUILD_EMPTY	Nikt
 GUILD_MARK_NOT_ENOUGH_LEVEL	Potrzebny przynajmniej 3 poziom
 GUILD_NAME	Nazwa Gildii
-GUILD_NOT_ENOUGH_MATERIAL	Nie masz wystarczajπcej iloúci surowcÛw na tπ budowlÍ.
-GUILD_NOT_ENOUGH_MONEY	Nie masz wystarczajπcej iloúci Yang na tπ budowlÍ.
-GUILD_NO_NOTICE_PERMISSION	Nie masz praw do tworzenia og≥oszeÒ.
+GUILD_NOT_ENOUGH_MATERIAL	Nie masz wystarczajƒÖcej ilo≈õci surowc√≥w na tƒÖ budowlƒô.
+GUILD_NOT_ENOUGH_MONEY	Nie masz wystarczajƒÖcej ilo≈õci Yang na tƒÖ budowlƒô.
+GUILD_NO_NOTICE_PERMISSION	Nie masz praw do tworzenia og≈Çosze≈Ñ.
 GUILD_OBJECT	Obiekty
 GUILD_OFFER_EXP	PD do przekazania
-GUILD_SHORT_EXP	Za ma≥o PunktÛw Doúwiadczenia.
+GUILD_SHORT_EXP	Za ma≈Ço Punkt√≥w Do≈õwiadczenia.
 GUILD_TILE_BASEINFO	Podstawowa Informacja
 GUILD_TILE_BOARD	Tablica
-GUILD_TILE_GRADE	Zarzπdzanie Prawami
+GUILD_TILE_GRADE	ZarzƒÖdzanie Prawami
 GUILD_TILE_INFO	Informacje o Gildii
-GUILD_TILE_MEMBER	Cz≥onkowie Gildii
-GUILD_TILE_SKILL	UmiejÍtnoúci Gildii
+GUILD_TILE_MEMBER	Cz≈Çonkowie Gildii
+GUILD_TILE_SKILL	Umiejƒôtno≈õci Gildii
 GUILD_VILLAGE_01	Miryang
 GUILD_VILLAGE_02	Songpa
 GUILD_VILLAGE_03	Daeyami
@@ -220,39 +220,39 @@ GUILD_WAR2	Obszar Wojny Gildii
 GUILD_WAR3	Obszar Wojny Gildii
 GUILD_WAR4	Obszar Wojny Gildii
 GUILD_WAR_LIMIT_30MIN	Czas: 30 Minut
-GUILD_WAR_REWARD_POTION	Nagroda: ZwyciÍzca otrzymuje MiksturÍ
+GUILD_WAR_REWARD_POTION	Nagroda: Zwyciƒôzca otrzymuje Miksturƒô
 GUILD_WAR_USE_BATTLE_MAP	Miejsce: Teatr Wojny Gildii
 GUILD_WAR_USE_NORMAL_MAP	Miejsce: Normalna Mapa
-GUILD_WAR_WIN_CHECK_SCORE	Najlepszy wynik wygrywa WojnÍ.
-GUILD_WAR_WIN_TAKE_AWAY_FLAG1	Zdobπdü FlagÍ przeciwnika
-GUILD_WAR_WIN_TAKE_AWAY_FLAG2	i dostarcz jπ do swojej bazy.
-GUILD_WAR_WIN_WIPE_OUT_GUILD	Pokonaj wszystkich wrogÛw by wygraÊ.
-GUILD_WITHDRAW	Wycofaj siÍ
-GUILD_YOU_DO_NOT_JOIN	Nie jesteú cz≥onkiem øadnej Gildii.
+GUILD_WAR_WIN_CHECK_SCORE	Najlepszy wynik wygrywa Wojnƒô.
+GUILD_WAR_WIN_TAKE_AWAY_FLAG1	ZdobƒÖd≈∫ Flagƒô przeciwnika
+GUILD_WAR_WIN_TAKE_AWAY_FLAG2	i dostarcz jƒÖ do swojej bazy.
+GUILD_WAR_WIN_WIPE_OUT_GUILD	Pokonaj wszystkich wrog√≥w by wygraƒá.
+GUILD_WITHDRAW	Wycofaj siƒô
+GUILD_YOU_DO_NOT_JOIN	Nie jeste≈õ cz≈Çonkiem ≈ºadnej Gildii.
 HORSE_HEALTH0	Martwy
-HORSE_HEALTH1	G≥odny
-HORSE_HEALTH2	Wyg≥odzony
-HORSE_HEALTH3	Pe≥ny
-HORSE_LEVEL1	KoÒ Zwyk≥y
-HORSE_LEVEL2	KoÒ Bojowy
-HORSE_LEVEL3	KoÒ Wojskowy
+HORSE_HEALTH1	G≈Çodny
+HORSE_HEALTH2	Wyg≈Çodzony
+HORSE_HEALTH3	Pe≈Çny
+HORSE_LEVEL1	Ko≈Ñ Zwyk≈Çy
+HORSE_LEVEL2	Ko≈Ñ Bojowy
+HORSE_LEVEL3	Ko≈Ñ Wojskowy
 HOUR	Godzin
-HOW_MANY_ITEM_DO_YOU_DROP1	Czy chcesz upuúciÊ %s?
-HOW_MANY_ITEM_DO_YOU_DROP2	Czy chcesz upuúciÊ %s %d?
+HOW_MANY_ITEM_DO_YOU_DROP1	Czy chcesz upu≈õciƒá %s?
+HOW_MANY_ITEM_DO_YOU_DROP2	Czy chcesz upu≈õciƒá %s %d?
 INPUT_MATRIX_CARD_NUMBER	Wpisz numer karty Matrix.
 INPUT_MATRIX_CARD_TITLE	Karta Matrix
-INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Wprowadü kod usuniÍcia z zarzπdzania kontem.
+INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Wprowad≈∫ kod usuniƒôcia z zarzƒÖdzania kontem.
 INPUT_PRIVATE_CODE_DIALOG_TITLE	Usuwanie postaci
-INVENTORY_DO_NOT_PACK_WARP_SCROLL	Zwoje powrotu nie mogπ byÊ ≥πczone.
-INVENTORY_REALLY_USE_ITEM	Na pewno chcesz zastosowaÊ ten przedmiot?
+INVENTORY_DO_NOT_PACK_WARP_SCROLL	Zwoje powrotu nie mogƒÖ byƒá ≈ÇƒÖczone.
+INVENTORY_REALLY_USE_ITEM	Na pewno chcesz zastosowaƒá ten przedmiot?
 JOB_ASSASSIN	Ninja
 JOB_ASSASSIN0	Amator Ninja
 JOB_ASSASSIN1	Moc Ninja
-JOB_ASSASSIN2	Nieumar≥y
+JOB_ASSASSIN2	Nieumar≈Çy
 JOB_SHAMAN	Szaman
 JOB_SHAMAN0	Amator Shaman
 JOB_SHAMAN1	Moc Smoka
-JOB_SHAMAN2	Moc B≥yskawicy
+JOB_SHAMAN2	Moc B≈Çyskawicy
 JOB_SURA	Sura
 JOB_SURA0	Amator Sura
 JOB_SURA1	Moc Fata Morgany
@@ -261,31 +261,31 @@ JOB_WARRIOR	Wojownik
 JOB_WARRIOR0	Amator Wojownik
 JOB_WARRIOR1	Moc Arahana
 JOB_WARRIOR2	Moc Partyzany
-LEFT_TIME	Pozosta≥y Czas
-LOGIN_CONNECT_FAILURE	B≥πd podczas ≥πczenia siÍ z serwerem.
-LOGIN_CONNECT_SUCCESS	Zosta≥eú po≥πczony z serwerem.
-LOGIN_CONNETING	Zostaniesz po≥πczony z serwerem...
-LOGIN_FAILURE_ALREAY	Twoje konto jest juø po≥πczone.
-LOGIN_FAILURE_BE_SAME_KEY	Problem z rejestracjπ.
+LEFT_TIME	Pozosta≈Çy Czas
+LOGIN_CONNECT_FAILURE	B≈ÇƒÖd podczas ≈ÇƒÖczenia siƒô z serwerem.
+LOGIN_CONNECT_SUCCESS	Zosta≈Çe≈õ po≈ÇƒÖczony z serwerem.
+LOGIN_CONNETING	Zostaniesz po≈ÇƒÖczony z serwerem...
+LOGIN_FAILURE_ALREAY	Twoje konto jest ju≈º po≈ÇƒÖczone.
+LOGIN_FAILURE_BE_SAME_KEY	Problem z rejestracjƒÖ.
 LOGIN_FAILURE_BLOCK_ID	Twoje konto jest zablokowane.
-LOGIN_FAILURE_BLOCK_LOGIN	Serwer ZamkniÍty - proszÍ wybraÊ inny!
+LOGIN_FAILURE_BLOCK_LOGIN	Serwer Zamkniƒôty - proszƒô wybraƒá inny!
 LOGIN_FAILURE_NOBILL	Twoje konto nie ma czasu gry.
-LOGIN_FAILURE_NOT_AVAIL	Twoje konto nie moøe byÊ uøyte.
-LOGIN_FAILURE_NOT_EXIST_ID	Nieprawid≥owa nazwa konta lub has≥o.
-LOGIN_FAILURE_REPAIR_ID	Przedmioty zosta≥y przywrÛcone dla tego konta.
-LOGIN_FAILURE_SAMELOGIN	Ktoú po≥πczy≥ siÍ z Twoim kontem.
+LOGIN_FAILURE_NOT_AVAIL	Twoje konto nie mo≈ºe byƒá u≈ºyte.
+LOGIN_FAILURE_NOT_EXIST_ID	Nieprawid≈Çowa nazwa konta lub has≈Ço.
+LOGIN_FAILURE_REPAIR_ID	Przedmioty zosta≈Çy przywr√≥cone dla tego konta.
+LOGIN_FAILURE_SAMELOGIN	Kto≈õ po≈ÇƒÖczy≈Ç siƒô z Twoim kontem.
 LOGIN_FAILURE_SHUTDOWN	Serwer nie jest jeszcze otwarty.
-LOGIN_FAILURE_TOO_MANY_USER	Nie moøesz siÍ po≥πczyÊ, poniewaø za duøo graczy jest online.
-LOGIN_FAILURE_UNKNOWN	Nie moøesz siÍ zarejestrowaÊ z nieznanych powodÛw.
-LOGIN_FAILURE_WEB_BLOCK	Twoje konto zosta≥o zablokowane na stronie www. ProszÍ sprawdziÊ swojπ pocztÍ e-mail.
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	Wpisa≥eú nieprawid≥owy numer.
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	Wybra≥eú z≥y numer trzy razy. /n Twoje po≥πczenie zostanie zerwane.
-LOGIN_FAILURE_WRONG_PASSWORD	Nieprawid≥owa nazwa konta lub has≥o.
+LOGIN_FAILURE_TOO_MANY_USER	Nie mo≈ºesz siƒô po≈ÇƒÖczyƒá, poniewa≈º za du≈ºo graczy jest online.
+LOGIN_FAILURE_UNKNOWN	Nie mo≈ºesz siƒô zarejestrowaƒá z nieznanych powod√≥w.
+LOGIN_FAILURE_WEB_BLOCK	Twoje konto zosta≈Ço zablokowane na stronie www. Proszƒô sprawdziƒá swojƒÖ pocztƒô e-mail.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	Wpisa≈Çe≈õ nieprawid≈Çowy numer.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	Wybra≈Çe≈õ z≈Çy numer trzy razy. /n Twoje po≈ÇƒÖczenie zostanie zerwane.
+LOGIN_FAILURE_WRONG_PASSWORD	Nieprawid≈Çowa nazwa konta lub has≈Ço.
 LOGIN_INPUT_ID	Podaj swoje ID.
-LOGIN_INPUT_PASSWORD	Wpisz swoje has≥o.
+LOGIN_INPUT_PASSWORD	Wpisz swoje has≈Ço.
 LOGIN_PROCESSING	Logowanie...
-MALL_CANNOT_INSERT	Nie moøesz umieúciÊ Przedmiotu.
-MALL_PASSWORD_TITLE	Has≥o
+MALL_CANNOT_INSERT	Nie mo≈ºesz umie≈õciƒá Przedmiotu.
+MALL_PASSWORD_TITLE	Has≈Ço
 MAP_A1	Strefa Yongan
 MAP_A2	Dolina Seungryong
 MAP_A2_1	
@@ -300,14 +300,14 @@ MAP_BG	Waryong
 MAP_C1	Strefa Pyungmoo
 MAP_C2	Dolina Bangsan
 MAP_C3	Strefa Bakra
-MAP_CAPE	Przylπdek Smoczego Ognia
-MAP_CAPEDRAGONHEAD	Przylπdek Smoczego Ognia
+MAP_CAPE	PrzylƒÖdek Smoczego Ognia
+MAP_CAPEDRAGONHEAD	PrzylƒÖdek Smoczego Ognia
 MAP_CG	Imha
 MAP_DAWN	Klif Gautama
 MAP_DAWNMISTWOOD	Klif Gautama
 MAP_DESERT	Pustynia Yongbi
 MAP_DEVILCATACOMB	Diabelskie Katakumby
-MAP_DEVILTOWER1	Wieøa DemonÛw
+MAP_DEVILTOWER1	Wie≈ºa Demon√≥w
 MAP_DUEL	Arena Treningowa
 MAP_E	Kolonia
 MAP_EMPIREWAR01	Walka o Zamek
@@ -317,10 +317,10 @@ MAP_FLAME	Doyyumhwan
 MAP_GUILD_01	Jungrang
 MAP_GUILD_02	Waryong
 MAP_GUILD_03	Imha
-MAP_HOLYPLACE_DESERT	Wojna KrÛlestw - Pustynna Kraina
-MAP_HOLYPLACE_FLAME	Wojna KrÛlestw - Ognista Ziemia
-MAP_HOLYPLACE_ICE	Wojna KrÛlestw - Lodowa Ziemia
-MAP_MILGYO	åwiπtynia Hwang
+MAP_HOLYPLACE_DESERT	Wojna Kr√≥lestw - Pustynna Kraina
+MAP_HOLYPLACE_FLAME	Wojna Kr√≥lestw - Ognista Ziemia
+MAP_HOLYPLACE_ICE	Wojna Kr√≥lestw - Lodowa Ziemia
+MAP_MILGYO	≈öwiƒÖtynia Hwang
 MAP_MILGYO_A	
 MAP_MONKEY_DUNGEON	Hasun Dong
 MAP_MONKEY_DUNGEON2	Jungsun Dong
@@ -328,159 +328,159 @@ MAP_MONKEY_DUNGEON3	Sangsun Dong
 MAP_MONKEY_DUNGEON_11	Hasun Dong
 MAP_MONKEY_DUNGEON_12	Hasun Dong
 MAP_MONKEY_DUNGEON_13	Hasun Dong
-MAP_MT_THUNDER	Gromiste GÛry
-MAP_NUSLUCK	Kraina GigantÛw
-MAP_NUSLUCK01	Kraina GigantÛw
+MAP_MT_THUNDER	Gromiste G√≥ry
+MAP_NUSLUCK	Kraina Gigant√≥w
+MAP_NUSLUCK01	Kraina Gigant√≥w
 MAP_N_DESERT_01	Pustynia Yongbi
 MAP_N_DESERT_02	
 MAP_N_FLAME_01	Ognista Ziemia
 MAP_N_FLAME_02	
 MAP_N_FLAME_DUNGEON_01	Twierdza Czerwonego Smoka
-MAP_N_SNOWM_01	GÛra Sohan
+MAP_N_SNOWM_01	G√≥ra Sohan
 MAP_N_SNOWM_02	
-MAP_N_SNOW_DUNGEON_01	Straønica Nemere
+MAP_N_SNOW_DUNGEON_01	Stra≈ºnica Nemere
 MAP_N_THREEWAY	Dolina Seungryong
 MAP_OXEVENT	Konkurs OX
-MAP_PATHWAY_DESERT_01	Wojna KrÛlestw - Pustynna Kraina
-MAP_PATHWAY_DESERT_02	Wojna KrÛlestw - Pustynna Kraina
-MAP_PATHWAY_DESERT_03	Wojna KrÛlestw - Pustynna Kraina
-MAP_PATHWAY_FLAME_01	Wojna KrÛlestw - Ognista Ziemia
-MAP_PATHWAY_FLAME_02	Wojna KrÛlestw - Ognista Ziemia
-MAP_PATHWAY_FLAME_03	Wojna KrÛlestw - Ognista Ziemia
-MAP_PATHWAY_ICE_01	Wojna KrÛlestw - Lodowa Ziemia
+MAP_PATHWAY_DESERT_01	Wojna Kr√≥lestw - Pustynna Kraina
+MAP_PATHWAY_DESERT_02	Wojna Kr√≥lestw - Pustynna Kraina
+MAP_PATHWAY_DESERT_03	Wojna Kr√≥lestw - Pustynna Kraina
+MAP_PATHWAY_FLAME_01	Wojna Kr√≥lestw - Ognista Ziemia
+MAP_PATHWAY_FLAME_02	Wojna Kr√≥lestw - Ognista Ziemia
+MAP_PATHWAY_FLAME_03	Wojna Kr√≥lestw - Ognista Ziemia
+MAP_PATHWAY_ICE_01	Wojna Kr√≥lestw - Lodowa Ziemia
 MAP_PATHWAY_ICE_02	Plac Zabaw
-MAP_PATHWAY_ICE_03	Wojna KrÛlestw - Lodowa Ziemia
-MAP_SKELTOWER	Wieøa Gumsan
-MAP_SKIPIA_DUNGEON_01	Grota WygnaÒcÛw
+MAP_PATHWAY_ICE_03	Wojna Kr√≥lestw - Lodowa Ziemia
+MAP_SKELTOWER	Wie≈ºa Gumsan
+MAP_SKIPIA_DUNGEON_01	Grota Wygna≈Ñc√≥w
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
-MAP_SKIPIA_DUNGEON_02	Grota WygnaÒcÛw
+MAP_SKIPIA_DUNGEON_02	Grota Wygna≈Ñc√≥w
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
-MAP_SKIPIA_DUNGEON_BOSS	åwiπtynia Smoka
-MAP_SKIPIA_DUNGEON_BOSS_1	Loch PajπkÛw 1
-MAP_SKIPIA_DUNGEON_BOSS_2	Loch PajπkÛw 2
-MAP_SKIPIA_DUNGEON_BOSS_3	Loch PajπkÛw 3
-MAP_SNOW	GÛra Sohan
+MAP_SKIPIA_DUNGEON_BOSS	≈öwiƒÖtynia Smoka
+MAP_SKIPIA_DUNGEON_BOSS_1	Loch PajƒÖk√≥w 1
+MAP_SKIPIA_DUNGEON_BOSS_2	Loch PajƒÖk√≥w 2
+MAP_SKIPIA_DUNGEON_BOSS_3	Loch PajƒÖk√≥w 3
+MAP_SNOW	G√≥ra Sohan
 MAP_SPIDER	Kuahlo Dong
-MAP_SPIDERDUNGEON	Loch PajπkÛw 1
-MAP_SPIDERDUNGEON_02	Loch PajπkÛw 2
-MAP_SPIDERDUNGEON_02_1	Loch PajπkÛw 2
-MAP_SPIDERDUNGEON_03	Loch PajπkÛw 3
-MAP_SUNGZI	Wojna KrÛlestw
-MAP_SUNGZI_DESERT_01	Wojna KrÛlestw - Pustynny Kraj
-MAP_SUNGZI_DESERT_HILL_01	Wojna KrÛlestw - Pustynny Kraj
-MAP_SUNGZI_DESERT_HILL_02	Wojna KrÛlestw - Pustynny Kraj
-MAP_SUNGZI_DESERT_HILL_03	Wojna KrÛlestw - Pustynny Kraj
-MAP_SUNGZI_FLAME_HILL_01	Wojna KrÛlestw - Ognista Ziemia
-MAP_SUNGZI_FLAME_HILL_02	Wojna KrÛlestw - Ognista Ziemia
-MAP_SUNGZI_FLAME_HILL_03	Wojna KrÛlestw - Ognista Ziemia
-MAP_SUNGZI_SNOW	Wojna KrÛlestw - Lodowa Ziemia
-MAP_SUNGZI_SNOW_PASS01	Wojna KrÛlestw - Lodowa Ziemia
-MAP_SUNGZI_SNOW_PASS02	Wojna KrÛlestw - Lodowa Ziemia
-MAP_SUNGZI_SNOW_PASS03	Wojna KrÛlestw - Lodowa Ziemia
+MAP_SPIDERDUNGEON	Loch PajƒÖk√≥w 1
+MAP_SPIDERDUNGEON_02	Loch PajƒÖk√≥w 2
+MAP_SPIDERDUNGEON_02_1	Loch PajƒÖk√≥w 2
+MAP_SPIDERDUNGEON_03	Loch PajƒÖk√≥w 3
+MAP_SUNGZI	Wojna Kr√≥lestw
+MAP_SUNGZI_DESERT_01	Wojna Kr√≥lestw - Pustynny Kraj
+MAP_SUNGZI_DESERT_HILL_01	Wojna Kr√≥lestw - Pustynny Kraj
+MAP_SUNGZI_DESERT_HILL_02	Wojna Kr√≥lestw - Pustynny Kraj
+MAP_SUNGZI_DESERT_HILL_03	Wojna Kr√≥lestw - Pustynny Kraj
+MAP_SUNGZI_FLAME_HILL_01	Wojna Kr√≥lestw - Ognista Ziemia
+MAP_SUNGZI_FLAME_HILL_02	Wojna Kr√≥lestw - Ognista Ziemia
+MAP_SUNGZI_FLAME_HILL_03	Wojna Kr√≥lestw - Ognista Ziemia
+MAP_SUNGZI_SNOW	Wojna Kr√≥lestw - Lodowa Ziemia
+MAP_SUNGZI_SNOW_PASS01	Wojna Kr√≥lestw - Lodowa Ziemia
+MAP_SUNGZI_SNOW_PASS02	Wojna Kr√≥lestw - Lodowa Ziemia
+MAP_SUNGZI_SNOW_PASS03	Wojna Kr√≥lestw - Lodowa Ziemia
 MAP_T1	Obszar Wojny Gildii
 MAP_T2	Obszar Wojny Gildii
 MAP_T3	Obszar Wojny Gildii
 MAP_T4	Obszar Wojny Gildii
-MAP_TEMPLE	åwiπtynia Hwang
-MAP_THUNDER	Gromiste GÛry
+MAP_TEMPLE	≈öwiƒÖtynia Hwang
+MAP_THUNDER	Gromiste G√≥ry
 MAP_TREE	Lungsam
-MAP_TRENT	Las DuchÛw
+MAP_TRENT	Las Duch√≥w
 MAP_TRENT02	Czerwony Las
 MAP_TRENT02_A	Czerwony Las
 MAP_TRENT_A	
 MAP_WEDDING_01	Mapa Wesela
-MAP_WL	WÍøowe Pole
-MAP_WL_01	WÍøowe Pole
+MAP_WL	Wƒô≈ºowe Pole
+MAP_WL_01	Wƒô≈ºowe Pole
 MESSENGER_ADD_FRIEND	Dodaj Przyjaciela
-MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s doda≥ CiÍ jako przyjaciela.
-MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	ZaakceptowaÊ?
-MESSENGER_DO_YOU_DELETE	UsunπÊ?
-MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Czy chcesz usunπÊ numer telefonu komÛrkowego?
-MESSENGER_DO_YOU_MOVE	Czy chcesz kontynuowaÊ?
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s doda≈Ç Ciƒô jako przyjaciela.
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Zaakceptowaƒá?
+MESSENGER_DO_YOU_DELETE	UsunƒÖƒá?
+MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Czy chcesz usunƒÖƒá numer telefonu kom√≥rkowego?
+MESSENGER_DO_YOU_MOVE	Czy chcesz kontynuowaƒá?
 MESSENGER_EMPTY_LIST	Pusto
 MESSENGER_FAMILY	Rodzina
 MESSENGER_FRIEND	Znajomi
 MESSENGER_GUILD	Gildia
-MESSENGER_INPUT_MOBILE_AUTHORITY_DESCRIPTION	Wprowadü numer potwierdzajπcy, ktÛry zosta≥ wys≥any na twÛj telefon komÛrkowy.
-MESSENGER_INPUT_MOBILE_AUTHORITY_TITLE	Wprowadü numer potwierdzajπcy
-MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Wprowadü numer telefonu komÛrkowego do wysy≥ania wiadomoúci tekstowych.
-MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Czy chcesz teraz wprowadziÊ numer?
-MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Wprowadü numer telefonu komÛrkowego.
-MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Wyúlij wiadomoúÊ.
+MESSENGER_INPUT_MOBILE_AUTHORITY_DESCRIPTION	Wprowad≈∫ numer potwierdzajƒÖcy, kt√≥ry zosta≈Ç wys≈Çany na tw√≥j telefon kom√≥rkowy.
+MESSENGER_INPUT_MOBILE_AUTHORITY_TITLE	Wprowad≈∫ numer potwierdzajƒÖcy
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Wprowad≈∫ numer telefonu kom√≥rkowego do wysy≈Çania wiadomo≈õci tekstowych.
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Czy chcesz teraz wprowadziƒá numer?
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Wprowad≈∫ numer telefonu kom√≥rkowego.
+MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Wy≈õlij wiadomo≈õƒá.
 METIN_TEST	
-MINIMAP	OtwÛrz Mini MapÍ
-MINIMAP_CANNOT_SEE	Nie moøna zobaczyÊ Mini Mapy.
-MINIMAP_CAN_NOT_SHOW_AREAMAP	Podglπd Mapy nie moøe zostaÊ ukazany.
+MINIMAP	Otw√≥rz Mini Mapƒô
+MINIMAP_CANNOT_SEE	Nie mo≈ºna zobaczyƒá Mini Mapy.
+MINIMAP_CAN_NOT_SHOW_AREAMAP	PodglƒÖd Mapy nie mo≈ºe zostaƒá ukazany.
 MINIMAP_DEC_SCALE	Oddal
-MINIMAP_INC_SCALE	Przybliø
-MINIMAP_OBSERVER_COUNT	%d obserwatorÛw
-MINIMAP_SHOW_AREAMAP	OtwÛrz Duøπ MapÍ
+MINIMAP_INC_SCALE	Przybli≈º
+MINIMAP_OBSERVER_COUNT	%d obserwator√≥w
+MINIMAP_SHOW_AREAMAP	Otw√≥rz Du≈ºƒÖ Mapƒô
 MINUTE	Minut
 MONETARY_UNIT0	Yang
-MONETARY_UNIT1	DziesiÍÊ TysiÍcy
-MONETARY_UNIT2	Sto MiliardÛw
-MONEY_INPUT_DIALOG_SELLPRICE	Cena sprzedaøy:
-MOVE_ITEM_FAILURE_PRIVATE_SHOP	Nie moøesz przesuwaÊ przedmiotÛw, jeúli masz otwarty prywatny Magazyn.
+MONETARY_UNIT1	Dziesiƒôƒá Tysiƒôcy
+MONETARY_UNIT2	Sto Miliard√≥w
+MONEY_INPUT_DIALOG_SELLPRICE	Cena sprzeda≈ºy:
+MOVE_ITEM_FAILURE_PRIVATE_SHOP	Nie mo≈ºesz przesuwaƒá przedmiot√≥w, je≈õli masz otwarty prywatny Magazyn.
 MUSIC_EMPTY_MUSIC_LIST	Brak muzyki w tle.
 MUSIC_METIN2_DEFAULT_THEMA	Standardowa muzyka Metin2
-MUSIC_NOT_SELECT_MUSIC	Plik z muzykπ nie zosta≥ wybrany.
-NEEFD_REST	Musisz najpierw odpoczπÊ.
-NOT_YET_SUPPORT	Nie jest obs≥ugiwany
-OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	Aby aktywowaÊ ten tryb musisz naleøeÊ do jakiejú Gildii.
-OPTION_PVPMODE_NOT_SUPPORT	Nie moøesz wybraÊ tej konfiguracji w Trybie PvP.
-OPTION_PVPMODE_PROTECT	Musisz mieÊ co najmniej %d poziom, aby mÛc zmieniÊ tryb PvP.
-PARTY_ANSWER_TIMEOVER	Zaproszenie zosta≥o odrzucone.
-PARTY_BONUS_ATTACKER	WartoúÊ Ataku: +%d	SA
-PARTY_BONUS_BERSERKER	SzybkoúÊ Ataku: +%d	SA
+MUSIC_NOT_SELECT_MUSIC	Plik z muzykƒÖ nie zosta≈Ç wybrany.
+NEEFD_REST	Musisz najpierw odpoczƒÖƒá.
+NOT_YET_SUPPORT	Nie jest obs≈Çugiwany
+OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	Aby aktywowaƒá ten tryb musisz nale≈ºeƒá do jakiej≈õ Gildii.
+OPTION_PVPMODE_NOT_SUPPORT	Nie mo≈ºesz wybraƒá tej konfiguracji w Trybie PvP.
+OPTION_PVPMODE_PROTECT	Musisz mieƒá co najmniej %d poziom, aby m√≥c zmieniƒá tryb PvP.
+PARTY_ANSWER_TIMEOVER	Zaproszenie zosta≈Ço odrzucone.
+PARTY_BONUS_ATTACKER	Warto≈õƒá Ataku: +%d	SA
+PARTY_BONUS_BERSERKER	Szybko≈õƒá Ataku: +%d	SA
 PARTY_BONUS_BUFFER	Czas Trwania: +%d	SA
 PARTY_BONUS_DEFENDER	Obrona: +%d	SA
-PARTY_BONUS_EXP	Bonus DOå: %d%%	SA
+PARTY_BONUS_EXP	Bonus DO≈ö: %d%%	SA
 PARTY_BONUS_SKILL_MASTER	Max PE: +%d	SA
-PARTY_BONUS_TANKER	Max PØ: +%d	SA
-PARTY_BREAK_UP	UsuÒ GrupÍ
-PARTY_DO_YOU_ACCEPT	 chce do≥πczyÊ do grupy.
-PARTY_DO_YOU_JOIN	,  zaprasza CiÍ do swojej grupy. Czy chcesz przyjπÊ zaproszenie?
-PARTY_EXP_DISTRIBUTION_MODE	Podzia≥ DOå
-PARTY_EXP_DISTRIBUTION_MODE_LEVEL	zaleøy od poziomu
-PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	Cz≥onkowie grupy o wyøszym poziomie otrzymujπ wiÍcej PD.
-PARTY_EXP_DISTRIBUTION_MODE_PARITY	rÛwno
-PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	Wszyscy otrzymujπ takπ samπ iloúÊ PD.
-PARTY_HEAL_ALL_MEMBER	OdnÛw wszystko.
-PARTY_INCREASE_AREA_150	ZasiÍg grupy zwiÍkszony o wspÛ≥czynnik 1,5.	SNA
-PARTY_INCREASE_AREA_200	ZasiÍg grupy zwiÍkszony o wspÛ≥czynnik 2.	SNA
-PARTY_LEAVE	OpuúÊ grupÍ
-PARTY_LONGTIME_BONUS_EXP	Bonus DOå za d≥ugπ grÍ grupowπ: +%d%%	SA
+PARTY_BONUS_TANKER	Max P≈ª: +%d	SA
+PARTY_BREAK_UP	Usu≈Ñ Grupƒô
+PARTY_DO_YOU_ACCEPT	 chce do≈ÇƒÖczyƒá do grupy.
+PARTY_DO_YOU_JOIN	,  zaprasza Ciƒô do swojej grupy. Czy chcesz przyjƒÖƒá zaproszenie?
+PARTY_EXP_DISTRIBUTION_MODE	Podzia≈Ç DO≈ö
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL	zale≈ºy od poziomu
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	Cz≈Çonkowie grupy o wy≈ºszym poziomie otrzymujƒÖ wiƒôcej PD.
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	r√≥wno
+PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	Wszyscy otrzymujƒÖ takƒÖ samƒÖ ilo≈õƒá PD.
+PARTY_HEAL_ALL_MEMBER	Odn√≥w wszystko.
+PARTY_INCREASE_AREA_150	Zasiƒôg grupy zwiƒôkszony o wsp√≥≈Çczynnik 1,5.	SNA
+PARTY_INCREASE_AREA_200	Zasiƒôg grupy zwiƒôkszony o wsp√≥≈Çczynnik 2.	SNA
+PARTY_LEAVE	Opu≈õƒá grupƒô
+PARTY_LONGTIME_BONUS_EXP	Bonus DO≈ö za d≈ÇugƒÖ grƒô grupowƒÖ: +%d%%	SA
 PARTY_MEMBER_OFFLINE	[Offline]
-PARTY_RECALL_MEMBER	Wezwij cz≥onka grupy.
-PARTY_REGEN_BONUS	Bonus za PØ- + PE regeneracja: +%d%%	SA
+PARTY_RECALL_MEMBER	Wezwij cz≈Çonka grupy.
+PARTY_REGEN_BONUS	Bonus za P≈ª- + PE regeneracja: +%d%%	SA
 PARTY_REQUEST_DENIED	Odrzucono zaproszenie.
-PARTY_SET_ATTACKER	UstanÛw jako Atakujπcego.
-PARTY_SET_BERSERKER	UstanÛw jako Berserker.
-PARTY_SET_BUFFER	UstanÛw jako Blokujπcego.
-PARTY_SET_DEFENDER	UstanÛw jako ObroÒcÍ.
+PARTY_SET_ATTACKER	Ustan√≥w jako AtakujƒÖcego.
+PARTY_SET_BERSERKER	Ustan√≥w jako Berserker.
+PARTY_SET_BUFFER	Ustan√≥w jako BlokujƒÖcego.
+PARTY_SET_DEFENDER	Ustan√≥w jako Obro≈Ñcƒô.
 PARTY_SET_NORMAL	Wycofaj bonus.
-PARTY_SET_SKILL_MASTER	UstanÛw jako Mistrza UmiejÍtnoúci.
-PARTY_SET_TANKER	UstanÛw jako Walczπcego W Zwarciu.
-PARTY_SKILL_ATTACKER	Podstawowa WartoúÊ Ataku +%.0f
-PARTY_SKILL_BERSERKER	SzybkoúÊ Ataku +%.0f
+PARTY_SET_SKILL_MASTER	Ustan√≥w jako Mistrza Umiejƒôtno≈õci.
+PARTY_SET_TANKER	Ustan√≥w jako WalczƒÖcego W Zwarciu.
+PARTY_SKILL_ATTACKER	Podstawowa Warto≈õƒá Ataku +%.0f
+PARTY_SKILL_BERSERKER	Szybko≈õƒá Ataku +%.0f
 PARTY_SKILL_BUFFER	Czas trwania +%.0f
 PARTY_SKILL_DEFENDER	Obrona +%.0f
-PARTY_SKILL_HP_REGEN	Regeneracja PØ +%.0f%%
-PARTY_SKILL_PARTY_AREA	ZasiÍg Grupy +%d%%
+PARTY_SKILL_HP_REGEN	Regeneracja P≈ª +%.0f%%
+PARTY_SKILL_PARTY_AREA	Zasiƒôg Grupy +%d%%
 PARTY_SKILL_SKILL_MASTER	Max PE +%.0f
 PARTY_SKILL_SP_REGEN	Regeneracja PE +%.0f%%
-PARTY_SKILL_TANKER	Max PØ +%.0f
-PARTY_SKILL_WARP	Moøliwe wezwanie cz≥onkÛw grupy.
-PASSWORD_TITLE	Has≥o do magazynu
+PARTY_SKILL_TANKER	Max P≈ª +%.0f
+PARTY_SKILL_WARP	Mo≈ºliwe wezwanie cz≈Çonk√≥w grupy.
+PASSWORD_TITLE	Has≈Ço do magazynu
 PICK_ITEM_TITLE	Numer Przedmiotu
 PICK_MONEY_TITLE	Kwota
-PRIVATE_SHOP_CANNOT_SELL_ITEM	Nie moøesz sprzedaÊ tego Przedmiotu w prywatnym Magazynie.
-PRIVATE_SHOP_CLOSE_QUESTION	Czy chcesz zamknπÊ prywatny Magazyn?
-PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	Wpisz nazwÍ swojego Sklepu.
+PRIVATE_SHOP_CANNOT_SELL_ITEM	Nie mo≈ºesz sprzedaƒá tego Przedmiotu w prywatnym Magazynie.
+PRIVATE_SHOP_CLOSE_QUESTION	Czy chcesz zamknƒÖƒá prywatny Magazyn?
+PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	Wpisz nazwƒô swojego Sklepu.
 PRIVATE_SHOP_INPUT_PRICE_DIALOG_TITLE	Cena
 PVP_LEVEL0	Rycerski
 PVP_LEVEL1	Szlachetny
@@ -489,89 +489,89 @@ PVP_LEVEL3	Przyjazny
 PVP_LEVEL4	Neutralny
 PVP_LEVEL5	Agresywny
 PVP_LEVEL6	Nieuczciwy
-PVP_LEVEL7	Z≥oúliwy
+PVP_LEVEL7	Z≈Ço≈õliwy
 PVP_LEVEL8	Okrutny
 PVP_MODE_GUILD	PvP - gildia aktywowana
 PVP_MODE_KILL	PvP - tryb wolny aktywowany
 PVP_MODE_NORMAL	PvP - tryb pokojowy aktywowany.
-PVP_MODE_PROTECT	Aktywowano ochronÍ przed PvP
+PVP_MODE_PROTECT	Aktywowano ochronƒô przed PvP
 PVP_MODE_REVENGE	PvP - tryb wrogi aktywowany
 PVP_OPTION_KILL	Wolny
 PVP_OPTION_NORMAL	Pokojowy
 PVP_OPTION_PROTECT	Ochrona
 PVP_OPTION_REVENGE	Wrogi
-QUEST_APPEND	Otrzymano Nowπ MisjÍ.
+QUEST_APPEND	Otrzymano NowƒÖ Misjƒô.
 QUEST_MIN	Min.
 QUEST_SEC	Sek.
 QUEST_TIMEOVER	Koniec czasu
 QUEST_UNLIMITED_TIME	Brak limitu czasowego.
 QUEST_ZEROSEC	0 Sek.
-QUICKSLOT_REGISTER_DISABLE_ITEM	Ten Przedmiot nie moøe zostaÊ dodany do Szybkiego Pola DostÍpu.
-RECEIVE_MESSAGE	%s wys≥a≥ Ci wiadomoúÊ.
+QUICKSLOT_REGISTER_DISABLE_ITEM	Ten Przedmiot nie mo≈ºe zostaƒá dodany do Szybkiego Pola Dostƒôpu.
+RECEIVE_MESSAGE	%s wys≈Ça≈Ç Ci wiadomo≈õƒá.
 REFINE_COST	Cena za Ulepszenie: %d Yang
-REFINE_DESTROY_WARNING	Ten przedmiot moøe zostaÊ zniszczony podczas uszlachetnienia.
-REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1	To zwiÍkszy szanse na ulepszenie,
-REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	ale jeúli zawiedziesz, Przedmiot zostanie zniszczony. Czy chcesz kontynuowaÊ?
-REFINE_DOWN_GRADE_WARNING	Przedmiot moøe zostaÊ zdegradowany w ten sposÛb.
-REFINE_DO_YOU_SEPARATE_METIN	Czy chcesz usunπÊ wszystkie Kamienie Duszy?
-REFINE_FAILURE	Ulepszanie nie powiod≥o siÍ.
-REFINE_FAILURE_CAN_NOT_ATTACH	%s nie moøe zostaÊ uwzglÍdniony w tym Przedmiocie.
-REFINE_FAILURE_EQUIP_ITEM	Nie moøesz ulepszaÊ za≥oøonych przedmiotÛw.
-REFINE_FAILURE_METIN_INSEPARABLE_ITEM	Øaden KamieÒ Duszy nie moøe zostaÊ wyjÍty.
+REFINE_DESTROY_WARNING	Ten przedmiot mo≈ºe zostaƒá zniszczony podczas uszlachetnienia.
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1	To zwiƒôkszy szanse na ulepszenie,
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	ale je≈õli zawiedziesz, Przedmiot zostanie zniszczony. Czy chcesz kontynuowaƒá?
+REFINE_DOWN_GRADE_WARNING	Przedmiot mo≈ºe zostaƒá zdegradowany w ten spos√≥b.
+REFINE_DO_YOU_SEPARATE_METIN	Czy chcesz usunƒÖƒá wszystkie Kamienie Duszy?
+REFINE_FAILURE	Ulepszanie nie powiod≈Ço siƒô.
+REFINE_FAILURE_CAN_NOT_ATTACH	%s nie mo≈ºe zostaƒá uwzglƒôdniony w tym Przedmiocie.
+REFINE_FAILURE_EQUIP_ITEM	Nie mo≈ºesz ulepszaƒá za≈Ço≈ºonych przedmiot√≥w.
+REFINE_FAILURE_METIN_INSEPARABLE_ITEM	≈ªaden Kamie≈Ñ Duszy nie mo≈ºe zostaƒá wyjƒôty.
 REFINE_FAILURE_NEED_BETTER_SCROLL	Potrzebujesz lepszego Zwoju.
-REFINE_FAILURE_NO_GOLD_SOCKET	Nie ma Z≥otej Kieszeni by uwzglÍdniÊ %s .
-REFINE_FAILURE_NO_MORE_SOCKET	Nie moøesz zrobiÊ wiÍcej Kieszeni.
-REFINE_FAILURE_NO_SOCKET0	Nie ma slotu, w ktÛrym moøna umieúciÊ %s.
-REFINE_FAILURE_SOCKET_DISABLE_ITEM	Nie moøesz zrobiÊ øadnych Kieszeni w tym Przedmiocie.
-REFINE_FAILURE_UPGRADE_DISABLE_ITEM	Ten Przedmiot nie moøe zostaÊ ulepszony.
-REFINE_SUCCESS	Przedmiot zosta≥ ulepszony.
+REFINE_FAILURE_NO_GOLD_SOCKET	Nie ma Z≈Çotej Kieszeni by uwzglƒôdniƒá %s .
+REFINE_FAILURE_NO_MORE_SOCKET	Nie mo≈ºesz zrobiƒá wiƒôcej Kieszeni.
+REFINE_FAILURE_NO_SOCKET0	Nie ma slotu, w kt√≥rym mo≈ºna umie≈õciƒá %s.
+REFINE_FAILURE_SOCKET_DISABLE_ITEM	Nie mo≈ºesz zrobiƒá ≈ºadnych Kieszeni w tym Przedmiocie.
+REFINE_FAILURE_UPGRADE_DISABLE_ITEM	Ten Przedmiot nie mo≈ºe zostaƒá ulepszony.
+REFINE_SUCCESS	Przedmiot zosta≈Ç ulepszony.
 REFINE_SUCCESS_PROBALITY	Szansa na Ulepszenie %d%%
-REFINE_WARNING2	Czy chcesz kontynuowaÊ?
-SAFEBOX_ERROR	Wprowadzi≥eú z≥e has≥o.
-SAFEBOX_SELL_DISABLE_SAFEITEM	Nie moøesz sprzedaÊ øadnego z zachowanych PrzedmiotÛw.
-SAFEBOX_WRONG_PASSWORD	Has≥a muszπ byÊ identyczne.
+REFINE_WARNING2	Czy chcesz kontynuowaƒá?
+SAFEBOX_ERROR	Wprowadzi≈Çe≈õ z≈Çe has≈Ço.
+SAFEBOX_SELL_DISABLE_SAFEITEM	Nie mo≈ºesz sprzedaƒá ≈ºadnego z zachowanych Przedmiot√≥w.
+SAFEBOX_WRONG_PASSWORD	Has≈Ça muszƒÖ byƒá identyczne.
 SCREENSHOT_SAVE1	jest zapisany w
 SCREENSHOT_SAVE2	Plik ze zrzutem obrazu
-SCREENSHOT_SAVE_FAILURE	Niepomyúlny zapis zrzutu obrazu.
+SCREENSHOT_SAVE_FAILURE	Niepomy≈õlny zapis zrzutu obrazu.
 SECOND	Sek
-SELECT_CAN_NOT_DELETE	Nie moøesz usunπÊ postaci.
-SELECT_CHANGED_NAME	Zmieni≥eú nazwÍ postaci.
-SELECT_CHANGE_FAILURE_ALREADY_EXIST_NAME	Ta nazwa postaci juø istnieje.
-SELECT_CHANGE_FAILURE_STRANGE_INDEX	SprÛbuj ponownie.
+SELECT_CAN_NOT_DELETE	Nie mo≈ºesz usunƒÖƒá postaci.
+SELECT_CHANGED_NAME	Zmieni≈Çe≈õ nazwƒô postaci.
+SELECT_CHANGE_FAILURE_ALREADY_EXIST_NAME	Ta nazwa postaci ju≈º istnieje.
+SELECT_CHANGE_FAILURE_STRANGE_INDEX	Spr√≥buj ponownie.
 SELECT_CHANGE_FAILURE_STRANGE_NAME	To
-SELECT_CHANGE_NAME_TITLE	ZmieÒ nazwÍ postaci.
-SELECT_DELEING	PostaÊ zostanie usuniÍta.
-SELECT_DELETED	Usuwanie pomyúlne.
-SELECT_DO_YOU_DELETE_REALLY	Czy chcesz kontynuowaÊ?
+SELECT_CHANGE_NAME_TITLE	Zmie≈Ñ nazwƒô postaci.
+SELECT_DELEING	Postaƒá zostanie usuniƒôta.
+SELECT_DELETED	Usuwanie pomy≈õlne.
+SELECT_DO_YOU_DELETE_REALLY	Czy chcesz kontynuowaƒá?
 SELECT_EMPTY_SLOT	To jest wolne pole.
 SELECT_GM_NAME	GM
-SELECT_INPUT_CHANGING_NAME	Wprowadü nowπ nazwÍ postaci.
+SELECT_INPUT_CHANGING_NAME	Wprowad≈∫ nowƒÖ nazwƒô postaci.
 SELECT_NOT_JOIN_GUILD	Brak Gildii
-SHOP_BUY_INFO	Wybierz z wystawy przedmiot, ktÛry chcesz kupiÊ.
-SHOP_CANNOT_SELL_EQUIPMENT	Nie moøesz sprzedawaÊ ubranych przedmiotÛw.
-SHOP_CANNOT_SELL_ITEM	Ten Przedmiot nie moøe zostaÊ sprzedany.
-SHOP_ERROR_UNKNOWN	Nieznany B≥πd Sklepu: %s
-SHOP_INVALID_POS	Ten Przedmiot nie moøe zostaÊ tu uøyty.
+SHOP_BUY_INFO	Wybierz z wystawy przedmiot, kt√≥ry chcesz kupiƒá.
+SHOP_CANNOT_SELL_EQUIPMENT	Nie mo≈ºesz sprzedawaƒá ubranych przedmiot√≥w.
+SHOP_CANNOT_SELL_ITEM	Ten Przedmiot nie mo≈ºe zostaƒá sprzedany.
+SHOP_ERROR_UNKNOWN	Nieznany B≈ÇƒÖd Sklepu: %s
+SHOP_INVALID_POS	Ten Przedmiot nie mo≈ºe zostaƒá tu u≈ºyty.
 SHOP_INVENTORY_FULL	Nie ma miejsca w ekwipunku.
-SHOP_NOT_ENOUGH_MONEY	Niewystarczajπca iloúÊ Yang
-SHOP_NOT_ENOUGH_MONEY_EX	Nie posiadasz wystarczajπco Yang.
-SHOP_SELL_INFO	Wybierz w oknie ekwipunku przedmiot, ktÛry chcesz sprzedaÊ.
+SHOP_NOT_ENOUGH_MONEY	NiewystarczajƒÖca ilo≈õƒá Yang
+SHOP_NOT_ENOUGH_MONEY_EX	Nie posiadasz wystarczajƒÖco Yang.
+SHOP_SELL_INFO	Wybierz w oknie ekwipunku przedmiot, kt√≥ry chcesz sprzedaƒá.
 SHOP_SOLDOUT	Wyprzedany
-SHOT_ERROR_UNKNOWN	Nieznany b≥πd podczas ataku z dystansu: %s
+SHOT_ERROR_UNKNOWN	Nieznany b≈ÇƒÖd podczas ataku z dystansu: %s
 SKILL_BLEEDING	Krwawienie
 SKILL_BOHO	Odbicie
-SKILL_BUDONG	nie jest juø uøywany
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	Potrzebujesz DOå do nauki tej UmiejÍtnoúci.
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	Potrzebujesz KsiÍgi do nauki tej UmiejÍtnoúci.
-SKILL_CHEONGEUN	Silne Cia≥o
+SKILL_BUDONG	nie jest ju≈º u≈ºywany
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	Potrzebujesz DO≈ö do nauki tej Umiejƒôtno≈õci.
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	Potrzebujesz Ksiƒôgi do nauki tej Umiejƒôtno≈õci.
+SKILL_CHEONGEUN	Silne Cia≈Ço
 SKILL_CRITICAL	Cios Krytyczny
-SKILL_ENCHANT_POISON	Dodaj TruciznÍ
-SKILL_EUNHYEONG	Krycie SiÍ
+SKILL_ENCHANT_POISON	Dodaj Truciznƒô
+SKILL_EUNHYEONG	Krycie Siƒô
 SKILL_FAINT	Omdlenie
-SKILL_FIND_TRAP	Szukaj Pu≥apki
+SKILL_FIND_TRAP	Szukaj Pu≈Çapki
 SKILL_FIRE	Podpalenie
 SKILL_FISHMIND	Marmur Rybaka jest aktywny
-SKILL_GAMJI	Z≥ap
+SKILL_GAMJI	Z≈Çap
 SKILL_GEOMGYEONG	Aura Miecza
 SKILL_GEONGON	SKILL_GEONGON Niewykorzystany
 SKILL_GICHEON	Pomoc Smoka
@@ -581,181 +581,181 @@ SKILL_GRADE_NAME_GRAND_MASTER	%s Wielki Mistrz
 SKILL_GRADE_NAME_MASTER	%s Mistrz
 SKILL_GRADE_NAME_PERFECT_MASTER	%s Perfekcyjny Mistrz
 SKILL_GROUP_ASSASSIN_1	Ostrze
-SKILL_GROUP_ASSASSIN_2	£uk
+SKILL_GROUP_ASSASSIN_2	≈Åuk
 SKILL_GROUP_HORSE	Jazda
 SKILL_GROUP_SHAMAN_1	Smok
 SKILL_GROUP_SHAMAN_2	Leczenie
-SKILL_GROUP_SURA_1	BroÒ
+SKILL_GROUP_SURA_1	Bro≈Ñ
 SKILL_GROUP_SURA_2	Magia
-SKILL_GROUP_WARRIOR_1	Cia≥o
-SKILL_GROUP_WARRIOR_2	Umys≥
+SKILL_GROUP_WARRIOR_1	Cia≈Ço
+SKILL_GROUP_WARRIOR_2	Umys≈Ç
 SKILL_GWIGEOM	Czarowane Ostrze
-SKILL_GYEONGGONG	Bezszelestny ChÛd
+SKILL_GYEONGGONG	Bezszelestny Ch√≥d
 SKILL_HEUKSIN	Mroczna Ochrona
-SKILL_HOSIN	B≥ogos≥awieÒstwo
+SKILL_HOSIN	B≈Çogos≈Çawie≈Ñstwo
 SKILL_HWAYEOM	SKILL_HWAYEOM Niewykorzystany
 SKILL_HYEOLMA	SKILL_HYEOLMA Niewykorzystany
-SKILL_INC_ATKSPD	ZwiÍkszona SzybkoúÊ Ataku
-SKILL_INC_MOVSPD	ZwiÍkszona SzybkoúÊ Ruchu
+SKILL_INC_ATKSPD	Zwiƒôkszona Szybko≈õƒá Ataku
+SKILL_INC_MOVSPD	Zwiƒôkszona Szybko≈õƒá Ruchu
 SKILL_INMA	SKILL_INMA niewykorzystany
-SKILL_JEOJU	Klπtwa
+SKILL_JEOJU	KlƒÖtwa
 SKILL_JEONGEOP	Leczenie
 SKILL_JEONGWI	Berserk
-SKILL_JEONSINBANGEO	Ca≥kowita Obrona
-SKILL_JEONSINGONGGYEOK	Ca≥kowity Atak
+SKILL_JEONSINBANGEO	Ca≈Çkowita Obrona
+SKILL_JEONSINGONGGYEOK	Ca≈Çkowity Atak
 SKILL_JEUNGCHE	SKILL_JEUNGCHE Niewykorzystany
 SKILL_JEUNGHON	SKILL_JEUNGHON Niewykorzystany
 SKILL_JEUNGRYEOK	Atak +
-SKILL_JEUNGSOK	SzybkoúÊ +
+SKILL_JEUNGSOK	Szybko≈õƒá +
 SKILL_JIGAM	SKILL_JIGAM Niewykorzystany
 SKILL_JIPJUNG	SKILL_JIPJUNG Niewykorzystany
 SKILL_JUMAGAP	Czarowana Zbroja
 SKILL_JUMAGEOM	SKILL_JUMAGEOM Niewykorzystany
 SKILL_KWAEGEOM	SKILL_KWAEGEOM Niewykorzystany
-SKILL_KWAESOK	SzybkoúÊ
+SKILL_KWAESOK	Szybko≈õƒá
 SKILL_LEGBOUND	SKILL_LEGBOUND Niewykorzystany
 SKILL_MUSA	SKILL_MUSA Niewykorzystany
 SKILL_MUYEONG	Ognisty Duch
 SKILL_NEED_EMPTY_BOTTLE	Nie mam Pustej Butelki.
-SKILL_NEED_POISON_BOTTLE	Nie mam Butelki z Truciznπ
-SKILL_ONLY_FOR_GUILD_WAR	Moøesz uøywaÊ tej UmiejÍtnoúci tylko podczas Wojny Gildii.
+SKILL_NEED_POISON_BOTTLE	Nie mam Butelki z TruciznƒÖ
+SKILL_ONLY_FOR_GUILD_WAR	Mo≈ºesz u≈ºywaƒá tej Umiejƒôtno≈õci tylko podczas Wojny Gildii.
 SKILL_PABEOP	Rozproszenie Magii
-SKILL_POWERFUL_STRIKE	Atak Osza≥amiajπcy
-SKILL_SEOMGWANG	Bomba B≥yskawic
+SKILL_POWERFUL_STRIKE	Atak Osza≈ÇamiajƒÖcy
+SKILL_SEOMGWANG	Bomba B≈Çyskawic
 SKILL_SINCHAK	SKILL_SINCHAK Niewykorzystany
-SKILL_SLEEP	Uúpienie
+SKILL_SLEEP	U≈õpienie
 SKILL_SLOW	Spowolnienie
-SKILL_STUN	Og≥uszenie
-SKILL_SUHO	Straønik
-SKILL_SUMMON_DESCRIPTION	Szansa na Przywo≥anie: %d%%
+SKILL_STUN	Og≈Çuszenie
+SKILL_SUHO	Stra≈ºnik
+SKILL_SUMMON_DESCRIPTION	Szansa na Przywo≈Çanie: %d%%
 SKILL_TOOLTIP_INT	Inteligencja
 SKILL_TOOLTIP_LEVEL	Poziom
 SKILL_TOXICDIE	Otrucie
-SKILL_TOXICPOWER	ZwiÍkszona WartoúÊ Ataku Truciznπ
+SKILL_TOXICPOWER	Zwiƒôkszona Warto≈õƒá Ataku TruciznƒÖ
 SKILL_TUSOK	Uderzenie Ducha
 SKILL_WONSIN	SKILL_WONSIN Niewykorzystany
 SKILL_YONGSIN	SKILL_YONGSIN Niewykorzystany
-STAT_MINUS_CON	Dostosowanie Witalnoúci (Pozosta≥a szansa: %d)
-STAT_MINUS_DEX	Dostosowanie ZrÍcznoúci (Pozosta≥a Szansa: %d)
-STAT_MINUS_INT	Dostosowanie Inteligencji (Pozosta≥π szansa: %d)
-STAT_MINUS_STR	Dostosowanie Si≥y (Pozosta≥π szansa: %d)
-STAT_TOOLTIP_CON	Podwyøsza PØ i ObronÍ
-STAT_TOOLTIP_DEX	Podwyøsza atak i uniki
-STAT_TOOLTIP_INT	Podwyøsza PE, magiczny atak i obronÍ.
-STAT_TOOLTIP_STR	Podwyøsza WartoúÊ Ataku i UszkodzeÒ
-SYMBOLLIST_TITLE	Zarejestruj FlagÍ Gildii
-SYSTEM_OPTION_CPU_TILING_1	CPU TNL moøe ulepszyÊ szybkoúÊ s≥abszego PC.
-SYSTEM_OPTION_CPU_TILING_2	Jeúli jest problem z grafikπ, wybierz ,Opcje System lub ,CONFIG.exe;
-SYSTEM_OPTION_CPU_TILING_3	i zmieÒ na GPU TNL.
-SYSTEM_OPTION_GPU_TILING_1	GPU TNL moøe dzia≥aÊ wolniej na s≥abszych PC.
-SYSTEM_OPTION_GPU_TILING_2	Jeúli zaistniejπ problem z grafikπ, wybierz 'Opcje Systemu' lub 'CONFIG.exe'
-SYSTEM_OPTION_GPU_TILING_3	i zmieÒ na GPU TNL
-SYSTEM_OPTION_TILING_EXIT	Aby zmieniÊ tryb TNL trzeba zrestartowaÊ grÍ.
+STAT_MINUS_CON	Dostosowanie Witalno≈õci (Pozosta≈Ça szansa: %d)
+STAT_MINUS_DEX	Dostosowanie Zrƒôczno≈õci (Pozosta≈Ça Szansa: %d)
+STAT_MINUS_INT	Dostosowanie Inteligencji (Pozosta≈ÇƒÖ szansa: %d)
+STAT_MINUS_STR	Dostosowanie Si≈Çy (Pozosta≈ÇƒÖ szansa: %d)
+STAT_TOOLTIP_CON	Podwy≈ºsza P≈ª i Obronƒô
+STAT_TOOLTIP_DEX	Podwy≈ºsza atak i uniki
+STAT_TOOLTIP_INT	Podwy≈ºsza PE, magiczny atak i obronƒô.
+STAT_TOOLTIP_STR	Podwy≈ºsza Warto≈õƒá Ataku i Uszkodze≈Ñ
+SYMBOLLIST_TITLE	Zarejestruj Flagƒô Gildii
+SYSTEM_OPTION_CPU_TILING_1	CPU TNL mo≈ºe ulepszyƒá szybko≈õƒá s≈Çabszego PC.
+SYSTEM_OPTION_CPU_TILING_2	Je≈õli jest problem z grafikƒÖ, wybierz ,Opcje System lub ,CONFIG.exe;
+SYSTEM_OPTION_CPU_TILING_3	i zmie≈Ñ na GPU TNL.
+SYSTEM_OPTION_GPU_TILING_1	GPU TNL mo≈ºe dzia≈Çaƒá wolniej na s≈Çabszych PC.
+SYSTEM_OPTION_GPU_TILING_2	Je≈õli zaistniejƒÖ problem z grafikƒÖ, wybierz 'Opcje Systemu' lub 'CONFIG.exe'
+SYSTEM_OPTION_GPU_TILING_3	i zmie≈Ñ na GPU TNL
+SYSTEM_OPTION_TILING_EXIT	Aby zmieniƒá tryb TNL trzeba zrestartowaƒá grƒô.
 TARGET_BUTTON_ACCEPT_FIGHT	Zgoda
 TARGET_BUTTON_AVENGE	Zemsta
 TARGET_BUTTON_BUILDING_DESTROY	Zniszcz
-TARGET_BUTTON_DISMOUNT	Zsiπdü
+TARGET_BUTTON_DISMOUNT	ZsiƒÖd≈∫
 TARGET_BUTTON_EMOTION_ALLOW	Emocje
 TARGET_BUTTON_EXCHANGE	Handel
 TARGET_BUTTON_EXCLUDE	Wyklucz
-TARGET_BUTTON_EXIT_OBSERVER	ZakoÒcz Tryb Obserwatora
+TARGET_BUTTON_EXIT_OBSERVER	Zako≈Ñcz Tryb Obserwatora
 TARGET_BUTTON_FIGHT	Pojedynek
 TARGET_BUTTON_FRIEND	Przyjaciel
 TARGET_BUTTON_INVITE_GUILD	Zapr. Gildii
 TARGET_BUTTON_INVITE_PARTY	Zapr. Grupy
-TARGET_BUTTON_LEAVE_PARTY	OpuúÊ GrupÍ
-TARGET_BUTTON_REQUEST_ENTER_PARTY	Do≥πcz do Grupy
+TARGET_BUTTON_LEAVE_PARTY	Opu≈õƒá Grupƒô
+TARGET_BUTTON_REQUEST_ENTER_PARTY	Do≈ÇƒÖcz do Grupy
 TARGET_BUTTON_VIEW_EQUIPMENT	Zbroja
 TARGET_BUTTON_WHISPER	Szept
 TARGET_LEVEL_BOSS	Boss
-TARGET_LEVEL_KING	StopieÒ 5.
-TARGET_LEVEL_KNIGHT	StopieÒ 3.
-TARGET_LEVEL_PAWN	StopieÒ 1.
-TARGET_LEVEL_S_KNIGHT	StopieÒ 4.
-TARGET_LEVEL_S_PAWN	StopieÒ 2.
+TARGET_LEVEL_KING	Stopie≈Ñ 5.
+TARGET_LEVEL_KNIGHT	Stopie≈Ñ 3.
+TARGET_LEVEL_PAWN	Stopie≈Ñ 1.
+TARGET_LEVEL_S_KNIGHT	Stopie≈Ñ 4.
+TARGET_LEVEL_S_PAWN	Stopie≈Ñ 2.
 TASKBAR_ATTACK	Atak
 TASKBAR_AUTO	atakuj automatycznie
 TASKBAR_CAMERA	Kamera
-TASKBAR_EXP	Doúwiadczenie
-TASKBAR_HP	PØ
+TASKBAR_EXP	Do≈õwiadczenie
+TASKBAR_HP	P≈ª
 TASKBAR_MOVE	Ruch
-TASKBAR_SKILL	UmiejÍtnoúÊ
+TASKBAR_SKILL	Umiejƒôtno≈õƒá
 TASKBAR_SP	PE
 TASKBAR_ST	ST
 THING_COUNT	wszystko
-TOOLTIP_ANTI_CRITICAL_PCT	OdpornoúÊ na cios krytyczny +%d%%	SA
-TOOLTIP_ANTI_PENETRATE_PCT	OdpornoúÊ na przeszywajπcy cios +%d%%	SA
-TOOLTIP_ANTI_SELL	Nie moøe zostaÊ sprzedany w Magazynie
-TOOLTIP_APPLY_ACCEDRAIN_RATE	StopieÒ absorpcji: %d%%	SA
-TOOLTIP_APPLY_ATTBONUS_ANIMAL	Silny przeciwko ZwierzÍtom +%d%%	SA
+TOOLTIP_ANTI_CRITICAL_PCT	Odporno≈õƒá na cios krytyczny +%d%%	SA
+TOOLTIP_ANTI_PENETRATE_PCT	Odporno≈õƒá na przeszywajƒÖcy cios +%d%%	SA
+TOOLTIP_ANTI_SELL	Nie mo≈ºe zostaƒá sprzedany w Magazynie
+TOOLTIP_APPLY_ACCEDRAIN_RATE	Stopie≈Ñ absorpcji: %d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ANIMAL	Silny przeciwko Zwierzƒôtom +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_ASSASSIN	Silny przeciwko Ninja +%d%%	SA
-TOOLTIP_APPLY_ATTBONUS_DEVIL	Silny przeciwko Diab≥om +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_DEVIL	Silny przeciwko Diab≈Çom +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_HUMAN	Silny przeciwko Ludziom +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_MILGYO	Silny przeciwko Mistykom +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_MONSTER	Silny przeciwko Potworom +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_ORC	Silny przeciwko Orkom +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_SHAMAN	Silny przeciwko Szamanom +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_SURA	Silny przeciwko Sura +%d%%	SA
-TOOLTIP_APPLY_ATTBONUS_UNDEAD	Silny przeciwko Nieumar≥ym +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_UNDEAD	Silny przeciwko Nieumar≈Çym +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_WARRIOR	Silny przeciwko Wojownikom +%d%%	SA
 TOOLTIP_APPLY_BLEEDING_PCT	Atak krwawienia + %d%%	SA
-TOOLTIP_APPLY_BLEEDING_REDUCE	OdpornoúÊ na Atak Krwawienia + %d%%	SA
-TOOLTIP_APPLY_BLOCK	Szansa na blok ciosÛw %d%%	SA
+TOOLTIP_APPLY_BLEEDING_REDUCE	Odporno≈õƒá na Atak Krwawienia + %d%%	SA
+TOOLTIP_APPLY_BLOCK	Szansa na blok cios√≥w %d%%	SA
 TOOLTIP_APPLY_COMBAT_SP_RECOVER	Odzyskiwanie PE przez 5 sekund podczas Bitwy %d	SA
 TOOLTIP_APPLY_CRITICAL_PCT	Szansa na cios krytyczny +%d%%	SA
 TOOLTIP_APPLY_DAMAGE_SP_RECOVER	Szansa na odzyskanie PE: %d%%	SA
-TOOLTIP_APPLY_DODGE	Szansa na unikniÍcie Strza≥y: %d%%	SA
-TOOLTIP_APPLY_EXP_DOUBLE_BONUS	Szansa na Bonus DOå: %d%%	SA
-TOOLTIP_APPLY_GOLD_DOUBLE_BONUS	Szansa na podwÛjnπ iloúÊ Yang: %d%%	SA
-TOOLTIP_APPLY_IMMUNE_FALL	Niewraøliwy na Upadek	SNA
-TOOLTIP_APPLY_IMMUNE_SLOW	OdpornoúÊ na Spowolnienia	SNA
-TOOLTIP_APPLY_IMMUNE_STUN	OdpornoúÊ na Omdlenia	SNA
-TOOLTIP_APPLY_ITEM_DROP_BONUS	Szansa na podwÛjnπ iloúÊ PrzedmiotÛw: %d%%	SA
-TOOLTIP_APPLY_KILL_HP_RECOVER	Szansa na odzyskanie PØ: %d%%	SA
+TOOLTIP_APPLY_DODGE	Szansa na unikniƒôcie Strza≈Çy: %d%%	SA
+TOOLTIP_APPLY_EXP_DOUBLE_BONUS	Szansa na Bonus DO≈ö: %d%%	SA
+TOOLTIP_APPLY_GOLD_DOUBLE_BONUS	Szansa na podw√≥jnƒÖ ilo≈õƒá Yang: %d%%	SA
+TOOLTIP_APPLY_IMMUNE_FALL	Niewra≈ºliwy na Upadek	SNA
+TOOLTIP_APPLY_IMMUNE_SLOW	Odporno≈õƒá na Spowolnienia	SNA
+TOOLTIP_APPLY_IMMUNE_STUN	Odporno≈õƒá na Omdlenia	SNA
+TOOLTIP_APPLY_ITEM_DROP_BONUS	Szansa na podw√≥jnƒÖ ilo≈õƒá Przedmiot√≥w: %d%%	SA
+TOOLTIP_APPLY_KILL_HP_RECOVER	Szansa na odzyskanie P≈ª: %d%%	SA
 TOOLTIP_APPLY_KILL_SP_RECOVER	Szansa na odzyskanie PE: %d%%	SA
-TOOLTIP_APPLY_MANA_BURN_PCT	%d%% Szansa na kradzieø PE	SA
-TOOLTIP_APPLY_MAX_HP_PCT	Maks. PØ +%d%%	SA
+TOOLTIP_APPLY_MANA_BURN_PCT	%d%% Szansa na kradzie≈º PE	SA
+TOOLTIP_APPLY_MAX_HP_PCT	Maks. P≈ª +%d%%	SA
 TOOLTIP_APPLY_MAX_SP_PCT	Maks. PE +%d%% 	SA
 TOOLTIP_APPLY_NOAFFECT	Brak efektu
-TOOLTIP_APPLY_NO_DEATH_PENALTY	Nie tracisz PunktÛw Doúwiadczenia podczas wznawiania gry w miejscu úmierci.	SNA
-TOOLTIP_APPLY_PENETRATE_PCT	Szansa na przeszywajπce Uderzenie: %d%% 	SA
+TOOLTIP_APPLY_NO_DEATH_PENALTY	Nie tracisz Punkt√≥w Do≈õwiadczenia podczas wznawiania gry w miejscu ≈õmierci.	SNA
+TOOLTIP_APPLY_PENETRATE_PCT	Szansa na przeszywajƒÖce Uderzenie: %d%% 	SA
 TOOLTIP_APPLY_POISON_PCT	Szansa na Otrucie %d%%	SA
-TOOLTIP_APPLY_POISON_REDUCE	OdpornoúÊ na Trucizny: %d%%	SA
+TOOLTIP_APPLY_POISON_REDUCE	Odporno≈õƒá na Trucizny: %d%%	SA
 TOOLTIP_APPLY_POTION_BONUS	Mikstury %d%% efekt podniesiony	SA
-TOOLTIP_APPLY_REFLECT_CURSE	Szansa na odbicie Klπtwy: %d%%	SA
+TOOLTIP_APPLY_REFLECT_CURSE	Szansa na odbicie KlƒÖtwy: %d%%	SA
 TOOLTIP_APPLY_REFLECT_MELEE	%d%% Szansa na odbicie Ciosu	SA
-TOOLTIP_APPLY_RESIST_ASSASSIN	OdpornoúÊ na Ninja: %d%%	SA
-TOOLTIP_APPLY_RESIST_BELL	OdpornoúÊ na Dzwony: %d%%	SA
-TOOLTIP_APPLY_RESIST_DAGGER	OdpornoúÊ na Sztylety: %d%%	SA
-TOOLTIP_APPLY_RESIST_FAN	OdpornoúÊ na Wachlarze: %d%%	SA
-TOOLTIP_APPLY_RESIST_SHAMAN	OdpornoúÊ na SzamanÛw: %d%%	SA
-TOOLTIP_APPLY_RESIST_SURA	OdpornoúÊ na Sura: %d%%	SA
-TOOLTIP_APPLY_RESIST_SWORD	OdpornoúÊ na Miecze: %d%%	SA
-TOOLTIP_APPLY_RESIST_TWOHAND	OdpornoúÊ na BroÒ DwurÍcznπ: %d%%	SA
-TOOLTIP_APPLY_RESIST_WARRIOR	OdpornoúÊ na WojownikÛw: %d%%	SA
-TOOLTIP_APPLY_RESIST_WIND	OdpornoúÊ na Wiatr: %d%%	SA
-TOOLTIP_APPLY_SKILL_BOOK_BONUS	Szansa na pomyúlnπ naukÍ zwiÍkszona o wspÛ≥czynnik 2.5.	SNA
-TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY	Jeúli trening siÍ nie powiedzie, moøesz od razu sprÛbowaÊ ponownie.	SNA
+TOOLTIP_APPLY_RESIST_ASSASSIN	Odporno≈õƒá na Ninja: %d%%	SA
+TOOLTIP_APPLY_RESIST_BELL	Odporno≈õƒá na Dzwony: %d%%	SA
+TOOLTIP_APPLY_RESIST_DAGGER	Odporno≈õƒá na Sztylety: %d%%	SA
+TOOLTIP_APPLY_RESIST_FAN	Odporno≈õƒá na Wachlarze: %d%%	SA
+TOOLTIP_APPLY_RESIST_SHAMAN	Odporno≈õƒá na Szaman√≥w: %d%%	SA
+TOOLTIP_APPLY_RESIST_SURA	Odporno≈õƒá na Sura: %d%%	SA
+TOOLTIP_APPLY_RESIST_SWORD	Odporno≈õƒá na Miecze: %d%%	SA
+TOOLTIP_APPLY_RESIST_TWOHAND	Odporno≈õƒá na Bro≈Ñ DwurƒôcznƒÖ: %d%%	SA
+TOOLTIP_APPLY_RESIST_WARRIOR	Odporno≈õƒá na Wojownik√≥w: %d%%	SA
+TOOLTIP_APPLY_RESIST_WIND	Odporno≈õƒá na Wiatr: %d%%	SA
+TOOLTIP_APPLY_SKILL_BOOK_BONUS	Szansa na pomy≈õlnƒÖ naukƒô zwiƒôkszona o wsp√≥≈Çczynnik 2.5.	SNA
+TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY	Je≈õli trening siƒô nie powiedzie, mo≈ºesz od razu spr√≥bowaƒá ponownie.	SNA
 TOOLTIP_APPLY_SLOW_PCT	Szansa na Spowolnienie %d%%	SA
-TOOLTIP_APPLY_STEAL_HP	%d%% obraøeÒ bÍdzie dodanych do PØ	SA
-TOOLTIP_APPLY_STEAL_SP	%d%% obraøeÒ bÍdzie dodanych do PE	SA
+TOOLTIP_APPLY_STEAL_HP	%d%% obra≈ºe≈Ñ bƒôdzie dodanych do P≈ª	SA
+TOOLTIP_APPLY_STEAL_SP	%d%% obra≈ºe≈Ñ bƒôdzie dodanych do PE	SA
 TOOLTIP_APPLY_STUN_PCT	Szansa na Omdlenie %d%%	SA
 TOOLTIP_ARMOR	Zbroja
-TOOLTIP_ARROW	Strza≥a
+TOOLTIP_ARROW	Strza≈Ça
 TOOLTIP_ASSASSIN	Ninja
-TOOLTIP_ATT_GRADE	WartoúÊ Ataku +%d	SA
-TOOLTIP_ATT_SPEED	SzybkoúÊ Ataku +%d%%	SA
-TOOLTIP_AUTO_POTION_HP	Eliksir S≥oÒca
-TOOLTIP_AUTO_POTION_REST	Pozosta≥o: %.2f%%
-TOOLTIP_AUTO_POTION_SP	Eliksir KsiÍøyca
+TOOLTIP_ATT_GRADE	Warto≈õƒá Ataku +%d	SA
+TOOLTIP_ATT_SPEED	Szybko≈õƒá Ataku +%d%%	SA
+TOOLTIP_AUTO_POTION_HP	Eliksir S≈Ço≈Ñca
+TOOLTIP_AUTO_POTION_REST	Pozosta≈Ço: %.2f%%
+TOOLTIP_AUTO_POTION_SP	Eliksir Ksiƒô≈ºyca
 TOOLTIP_AUTO_POTION_USING	Aktywny
-TOOLTIP_BOW_DISTANCE	ZasiÍg £uku +%dm	SA
+TOOLTIP_BOW_DISTANCE	Zasiƒôg ≈Åuku +%dm	SA
 TOOLTIP_BUYPRICE	Cena: %s
-TOOLTIP_CAST_SPEED	SzybkoúÊ ZaklÍcia +%d%%	SA
-TOOLTIP_CON	WitalnoúÊ +%d	SA
+TOOLTIP_CAST_SPEED	Szybko≈õƒá Zaklƒôcia +%d%%	SA
+TOOLTIP_CON	Witalno≈õƒá +%d	SA
 TOOLTIP_COSTUME_ATTR_BONUS	Bonus kostiumu %d%% 	SA
 TOOLTIP_DEF_GRADE	Obrona +%d	SA
-TOOLTIP_DEX	ZrÍcznoúÊ +%d	SA
+TOOLTIP_DEX	Zrƒôczno≈õƒá +%d	SA
 TOOLTIP_DRAGON_SOUL_DECK1	Ziemia	SNA
 TOOLTIP_DRAGON_SOUL_DECK2	Niebo	SNA
 TOOLTIP_EAR	Kolczyki
@@ -764,26 +764,26 @@ TOOLTIP_ETC	I tak dalej
 TOOLTIP_FISHINGROD_EXP	Punkty %d / %d
 TOOLTIP_FISHINGROD_LEVEL	Poziom: %d
 TOOLTIP_FISHINGROD_UPGRADE1	Daj Rybakowi,
-TOOLTIP_FISHINGROD_UPGRADE2	aby dostaÊ
-TOOLTIP_FISHINGROD_UPGRADE3	Ulepszonπ WÍdkÍ.
-TOOLTIP_FISH_LEN	D≥ugoúÊ: %.2fcm
-TOOLTIP_HELMET	He≥m
-TOOLTIP_HP_REGEN	Regeneracja PØ: +%d%%	SA
+TOOLTIP_FISHINGROD_UPGRADE2	aby dostaƒá
+TOOLTIP_FISHINGROD_UPGRADE3	UlepszonƒÖ Wƒôdkƒô.
+TOOLTIP_FISH_LEN	D≈Çugo≈õƒá: %.2fcm
+TOOLTIP_HELMET	He≈Çm
+TOOLTIP_HP_REGEN	Regeneracja P≈ª: +%d%%	SA
 TOOLTIP_INT	Inteligencja +%d	SA
-TOOLTIP_ITEM_ATT_GRADE	WartoúÊ Ataku: %d
-TOOLTIP_ITEM_ATT_POWER	WartoúÊ Ataku: %d - %d
-TOOLTIP_ITEM_ATT_POWER_ONE_ARG	WartoúÊ Ataku: %d
-TOOLTIP_ITEM_ATT_POWER_REFINE	WartoúÊ Ataku: %d - %d (+%d)
-TOOLTIP_ITEM_ATT_SPEED	SzybkoúÊ Ataku: %s
+TOOLTIP_ITEM_ATT_GRADE	Warto≈õƒá Ataku: %d
+TOOLTIP_ITEM_ATT_POWER	Warto≈õƒá Ataku: %d - %d
+TOOLTIP_ITEM_ATT_POWER_ONE_ARG	Warto≈õƒá Ataku: %d
+TOOLTIP_ITEM_ATT_POWER_REFINE	Warto≈õƒá Ataku: %d - %d (+%d)
+TOOLTIP_ITEM_ATT_SPEED	Szybko≈õƒá Ataku: %s
 TOOLTIP_ITEM_DEF_GRADE	Obrona %d
 TOOLTIP_ITEM_FAST	Szybki
-TOOLTIP_ITEM_LIMIT_CON	GÛrna granica Witalnoúci: %d
-TOOLTIP_ITEM_LIMIT_DEX	GÛrny limit ZrÍcznoúci: %d
-TOOLTIP_ITEM_LIMIT_INT	GÛrna granica Inteligencji: %d
+TOOLTIP_ITEM_LIMIT_CON	G√≥rna granica Witalno≈õci: %d
+TOOLTIP_ITEM_LIMIT_DEX	G√≥rny limit Zrƒôczno≈õci: %d
+TOOLTIP_ITEM_LIMIT_INT	G√≥rna granica Inteligencji: %d
 TOOLTIP_ITEM_LIMIT_LEVEL	Od Poziomu: %d
-TOOLTIP_ITEM_LIMIT_STR	GÛrna granica Si≥y: %d
-TOOLTIP_ITEM_MAGIC_ATT_POWER	WartoúÊ Magicznego Ataku: %d - %d
-TOOLTIP_ITEM_MAGIC_ATT_POWER_ONE_ARG	WartoúÊ Magicznego Ataku: %d
+TOOLTIP_ITEM_LIMIT_STR	G√≥rna granica Si≈Çy: %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER	Warto≈õƒá Magicznego Ataku: %d - %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER_ONE_ARG	Warto≈õƒá Magicznego Ataku: %d
 TOOLTIP_ITEM_MAGIC_DEF_POWER	Magiczna Obrona %d
 TOOLTIP_ITEM_NORMAL	Normalny
 TOOLTIP_ITEM_SLOW	Wolny
@@ -791,127 +791,127 @@ TOOLTIP_ITEM_VERY_FAST	Bardzo szybki
 TOOLTIP_ITEM_VERY_SLOW	Bardzo wolny
 TOOLTIP_ITEM_WEARABLE_JOB	[ Do ubrania ]
 TOOLTIP_LOTTERY_STEP_NUMBER	%d
-TOOLTIP_LOTTO_NUMBER	SzczÍúliwy Numer: %d
+TOOLTIP_LOTTO_NUMBER	Szczƒô≈õliwy Numer: %d
 TOOLTIP_MAGIC_ATTBONUS_PER	Magiczny atak +%d%%	SA
-TOOLTIP_MAGIC_ATT_GRADE	WartoúÊ Magicznego Ataku: +%d	SA
+TOOLTIP_MAGIC_ATT_GRADE	Warto≈õƒá Magicznego Ataku: +%d	SA
 TOOLTIP_MAGIC_DEF_GRADE	Magiczna Obrona: +%d	SA
-TOOLTIP_MALL_ATTBONUS	WartoúÊ Ataku: +%d%%	SA
-TOOLTIP_MALL_ATTBONUS_STATIC	WartoúÊ Ataku: +12~15%	SNA
-TOOLTIP_MALL_AUTOLOOT	RÍka, ktÛra automatycznie podnosi upuszczone Yang.	SNA
+TOOLTIP_MALL_ATTBONUS	Warto≈õƒá Ataku: +%d%%	SA
+TOOLTIP_MALL_ATTBONUS_STATIC	Warto≈õƒá Ataku: +12~15%	SNA
+TOOLTIP_MALL_AUTOLOOT	Rƒôka, kt√≥ra automatycznie podnosi upuszczone Yang.	SNA
 TOOLTIP_MALL_DEFBONUS	Obrona: +%d%%	SA
 TOOLTIP_MALL_DEFBONUS_STATIC	Obrona +12~15%	SNA
-TOOLTIP_MALL_EXPBONUS	Punkty Doúwiadczenia: +%d%%	SA
-TOOLTIP_MALL_EXPBONUS_P_STATIC	iCafe DOå Bonus +%d%%	SA
-TOOLTIP_MALL_EXPBONUS_STATIC	ZwiÍksza zdobywanie PD o 50%	SNA
+TOOLTIP_MALL_EXPBONUS	Punkty Do≈õwiadczenia: +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_P_STATIC	iCafe DO≈ö Bonus +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_STATIC	Zwiƒôksza zdobywanie PD o 50%	SNA
 TOOLTIP_MALL_FISH_MIND	Szansa schwytania rzadkiej ryby zostanie podwojona.	SNA
-TOOLTIP_MALL_GOLDBONUS	Szansa na zdobycie Yang pomnoøona o %.1f	SA
+TOOLTIP_MALL_GOLDBONUS	Szansa na zdobycie Yang pomno≈ºona o %.1f	SA
 TOOLTIP_MALL_GOLDBONUS_STATIC	Szansa znalezienia Yang zostanie podwojona	SNA
-TOOLTIP_MALL_ITEMBONUS	Szansa na zdobycie PrzedmiotÛw pomnoøona o %.1f	SA
-TOOLTIP_MALL_ITEMBONUS_P_STATIC	iCafe Szansa na zdobycie PrzedmiotÛw plus %.1f%%	SA
+TOOLTIP_MALL_ITEMBONUS	Szansa na zdobycie Przedmiot√≥w pomno≈ºona o %.1f	SA
+TOOLTIP_MALL_ITEMBONUS_P_STATIC	iCafe Szansa na zdobycie Przedmiot√≥w plus %.1f%%	SA
 TOOLTIP_MALL_ITEMBONUS_STATIC	Podwojona szansa na zdobycie przedmiotu	SNA
-TOOLTIP_MALL_MARRIAGE_FAST	Punkty Mi≥oúci szybciej siÍ regenerujπ.	SNA
-TOOLTIP_MALL_SAFEBOX	ZwiÍkszona pojemnoúÊ Magazynu	SNA
-TOOLTIP_MAX_HP	Max PØ: +%d	SA
-TOOLTIP_MAX_HP_PCT	Max PØ: +%d%%	SA
+TOOLTIP_MALL_MARRIAGE_FAST	Punkty Mi≈Ço≈õci szybciej siƒô regenerujƒÖ.	SNA
+TOOLTIP_MALL_SAFEBOX	Zwiƒôkszona pojemno≈õƒá Magazynu	SNA
+TOOLTIP_MAX_HP	Max P≈ª: +%d	SA
+TOOLTIP_MAX_HP_PCT	Max P≈ª: +%d%%	SA
 TOOLTIP_MAX_SP	Max PE: +%d	SA
 TOOLTIP_MAX_SP_PCT	Max PE: +%d%%	SA
-TOOLTIP_MAX_STAMINA	Max Wytrzyma≥oúÊ: +%d	SA
-TOOLTIP_MELEE_MAGIC_ATTBONUS_PER	Magiczny/krÛtkodystansowy atak +%d%%	SA
+TOOLTIP_MAX_STAMINA	Max Wytrzyma≈Ço≈õƒá: +%d	SA
+TOOLTIP_MELEE_MAGIC_ATTBONUS_PER	Magiczny/kr√≥tkodystansowy atak +%d%%	SA
 TOOLTIP_MEMORIZED_POSITION	%s (%d, %d)
 TOOLTIP_MEMORIZED_POSITION_ERROR	BRAK NAZWY (%d, %d)
-TOOLTIP_MOV_SPEED	SzybkoúÊ Ruchu %d%%	SA
+TOOLTIP_MOV_SPEED	Szybko≈õƒá Ruchu %d%%	SA
 TOOLTIP_NECK	Naszyjnik
 TOOLTIP_NEED_ALL_SP	Wymagane PE: Max
 TOOLTIP_NEED_GSP	Wymagany Duch Smoka: %d
-TOOLTIP_NEED_HP	Wymagane PØ: %d
-TOOLTIP_NEED_HP_PER_SEC	PØ / sek.: %d
-TOOLTIP_NEED_SKILL_POINT	Wymagane Punkty UmiejÍtnoúci:
+TOOLTIP_NEED_HP	Wymagane P≈ª: %d
+TOOLTIP_NEED_HP_PER_SEC	P≈ª / sek.: %d
+TOOLTIP_NEED_SKILL_POINT	Wymagane Punkty Umiejƒôtno≈õci:
 TOOLTIP_NEED_SP	Wymagane PE: %d
 TOOLTIP_NEED_SP_PER_SEC	PE / Sek.: %d
-TOOLTIP_NEXT_SKILL_LEVEL_1	NastÍpny Poziom: %d (Max %d)
-TOOLTIP_NEXT_SKILL_LEVEL_2	NastÍpny Poziom: %d (Max %d-%d)
-TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	årednie Obraøenia: %d%%	SA
-TOOLTIP_NORMAL_HIT_DEFEND_BONUS	OdpornoúÊ na Obraøenia: %d%%	SA
-TOOLTIP_PARTY_INFO_GRADE_UP1	WiÍcej niø %d Cz≥onkÛw Grupy
+TOOLTIP_NEXT_SKILL_LEVEL_1	Nastƒôpny Poziom: %d (Max %d)
+TOOLTIP_NEXT_SKILL_LEVEL_2	Nastƒôpny Poziom: %d (Max %d-%d)
+TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	≈örednie Obra≈ºenia: %d%%	SA
+TOOLTIP_NORMAL_HIT_DEFEND_BONUS	Odporno≈õƒá na Obra≈ºenia: %d%%	SA
+TOOLTIP_PARTY_INFO_GRADE_UP1	Wiƒôcej ni≈º %d Cz≈Çonk√≥w Grupy
 TOOLTIP_PARTY_INFO_GRADE_UP2	Poziom Ataku +%d
 TOOLTIP_PARTY_INFO_GRADE_UP3	Poziom Obrony +%d
-TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	Regeneracja PØ/PE wszystkich Cz≥onkÛw Grupy przez 60 minut.
-TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	Regeneracja PØ/PE wszystkich Cz≥onkÛw Grupy przez 30 minut.
-TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	Musisz poczekaÊ 3 minuty po úmierci cz≥onka grupy.
-TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	Moøesz przywo≥aÊ cz≥onkÛw grupy, ktÛrzy sπ na tym samym serwerze.
-TOOLTIP_PARTY_INFO_SET_ATTACKER	Poziom Ataku +(iloúÊ cz≥onkÛw grupy/2) Napastnik %d moøe byÊ wybrany.
-TOOLTIP_PARTY_INFO_SET_TANKER	Poziom Obrony +(iloúÊ cz≥onkÛw grupy) 1 Walczπcy Ostrzem moøe byÊ wybrany.
+TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	Regeneracja P≈ª/PE wszystkich Cz≈Çonk√≥w Grupy przez 60 minut.
+TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	Regeneracja P≈ª/PE wszystkich Cz≈Çonk√≥w Grupy przez 30 minut.
+TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	Musisz poczekaƒá 3 minuty po ≈õmierci cz≈Çonka grupy.
+TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	Mo≈ºesz przywo≈Çaƒá cz≈Çonk√≥w grupy, kt√≥rzy sƒÖ na tym samym serwerze.
+TOOLTIP_PARTY_INFO_SET_ATTACKER	Poziom Ataku +(ilo≈õƒá cz≈Çonk√≥w grupy/2) Napastnik %d mo≈ºe byƒá wybrany.
+TOOLTIP_PARTY_INFO_SET_TANKER	Poziom Obrony +(ilo≈õƒá cz≈Çonk√≥w grupy) 1 WalczƒÖcy Ostrzem mo≈ºe byƒá wybrany.
 TOOLTIP_PARTY_SKILL_LEVEL	Aktualny Poziom: %d
 TOOLTIP_PARTY_TITLE_GRADE_UP	[Atak/Obrona ulepszony]
-TOOLTIP_PARTY_TITLE_HEAL	[przywrÛÊ]
-TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Jeúli masz wiÍcej niø %d Cz≥onkÛw Grupy, dostajesz %d%% Bonus DOå .
-TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Bonus DOå]
-TOOLTIP_PARTY_TITLE_RECALL	[Przywo≥aj]
-TOOLTIP_PARTY_TITLE_SET_ATTACKER	[UstanÛw Napastnika]
-TOOLTIP_PARTY_TITLE_SET_TANKER	[UstanÛw Walczπcego Ostrzem]
+TOOLTIP_PARTY_TITLE_HEAL	[przywr√≥ƒá]
+TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Je≈õli masz wiƒôcej ni≈º %d Cz≈Çonk√≥w Grupy, dostajesz %d%% Bonus DO≈ö .
+TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Bonus DO≈ö]
+TOOLTIP_PARTY_TITLE_RECALL	[Przywo≈Çaj]
+TOOLTIP_PARTY_TITLE_SET_ATTACKER	[Ustan√≥w Napastnika]
+TOOLTIP_PARTY_TITLE_SET_TANKER	[Ustan√≥w WalczƒÖcego Ostrzem]
 TOOLTIP_PICK_EXP	Punkty: %d / %d
 TOOLTIP_PICK_LEVEL	Poziom: %d
 TOOLTIP_PICK_UPGRADE1	Daj to Drwalowi
-TOOLTIP_PICK_UPGRADE2	aby dostaÊ
+TOOLTIP_PICK_UPGRADE2	aby dostaƒá
 TOOLTIP_PICK_UPGRADE3	ulepszony Kilof.
-TOOLTIP_POTION_CURE	UsuÒ negatywne skutki.
+TOOLTIP_POTION_CURE	Usu≈Ñ negatywne skutki.
 TOOLTIP_POTION_MIN	Min.
-TOOLTIP_POTION_PLUS_ATTACK_SPEED	SzybkoúÊ Ataku +%d
-TOOLTIP_POTION_PLUS_HP_PERCENT	PØ +%d%%
-TOOLTIP_POTION_PLUS_HP_POINT	PØ +%d
-TOOLTIP_POTION_PLUS_MOVING_SPEED	SzybkoúÊ Ruchu +%d
+TOOLTIP_POTION_PLUS_ATTACK_SPEED	Szybko≈õƒá Ataku +%d
+TOOLTIP_POTION_PLUS_HP_PERCENT	P≈ª +%d%%
+TOOLTIP_POTION_PLUS_HP_POINT	P≈ª +%d
+TOOLTIP_POTION_PLUS_MOVING_SPEED	Szybko≈õƒá Ruchu +%d
 TOOLTIP_POTION_PLUS_SP_PERCENT	PE +%d%%
 TOOLTIP_POTION_PLUS_SP_POINT	PE +%d
 TOOLTIP_POTION_SEC	Sek.
 TOOLTIP_POTION_TIME	Czas trwania:
-TOOLTIP_REQUIREMENT_21_LEVEL	Musisz osiπgnπÊ Poziom 21.
-TOOLTIP_REQUIREMENT_41_LEVEL	Musisz osiπgnπÊ Poziom 41.
-TOOLTIP_REQUIREMENT_LEVEL	Musisz osiπgnπÊ Poziom %d.
+TOOLTIP_REQUIREMENT_21_LEVEL	Musisz osiƒÖgnƒÖƒá Poziom 21.
+TOOLTIP_REQUIREMENT_41_LEVEL	Musisz osiƒÖgnƒÖƒá Poziom 41.
+TOOLTIP_REQUIREMENT_LEVEL	Musisz osiƒÖgnƒÖƒá Poziom %d.
 TOOLTIP_REQUIREMENT_SKILL_LEVEL	%s Poziom %d wymagany.
 TOOLTIP_REQUIREMENT_STAT_LEVEL	%s %d wymagany
-TOOLTIP_RESIST_BOW	OdpornoúÊ na Strza≥y: %d%%	SA
-TOOLTIP_RESIST_DARK	OdpornoúÊ na mrok +%d%%	SA
-TOOLTIP_RESIST_EARTH	OdpornoúÊ na ziemiÍ +%d%%	SA
-TOOLTIP_RESIST_ELEC	OdpornoúÊ na B≥yskawice: %d%%	SA
-TOOLTIP_RESIST_FIRE	OdpornoúÊ na OgieÒ: %d%%	SA
-TOOLTIP_RESIST_ICE	OdpornoúÊ na lÛd +%d%%	SA
-TOOLTIP_RESIST_MAGIC	OdpornoúÊ na MagiÍ: %d%%	SA
-TOOLTIP_REST_USABLE_COUNT	Pozosta≥o: %d
-TOOLTIP_SEALED	Przywiπzanie do duszy
+TOOLTIP_RESIST_BOW	Odporno≈õƒá na Strza≈Çy: %d%%	SA
+TOOLTIP_RESIST_DARK	Odporno≈õƒá na mrok +%d%%	SA
+TOOLTIP_RESIST_EARTH	Odporno≈õƒá na ziemiƒô +%d%%	SA
+TOOLTIP_RESIST_ELEC	Odporno≈õƒá na B≈Çyskawice: %d%%	SA
+TOOLTIP_RESIST_FIRE	Odporno≈õƒá na Ogie≈Ñ: %d%%	SA
+TOOLTIP_RESIST_ICE	Odporno≈õƒá na l√≥d +%d%%	SA
+TOOLTIP_RESIST_MAGIC	Odporno≈õƒá na Magiƒô: %d%%	SA
+TOOLTIP_REST_USABLE_COUNT	Pozosta≈Ço: %d
+TOOLTIP_SEALED	PrzywiƒÖzanie do duszy
 TOOLTIP_SELLPRICE	Cena: %s
 TOOLTIP_SHAMAN	Szaman
 TOOLTIP_SHIELD	Tarcza
 TOOLTIP_SHOES	Buty
-TOOLTIP_SKILL	UmiejÍtnoúci	SNA
-TOOLTIP_SKILLBOOK_NAME	KsiÍga UmiejÍtnoúci
-TOOLTIP_SKILL_AFFECT_ATT_GRADE	WartoúÊ Ataku: +
-TOOLTIP_SKILL_AFFECT_ATT_POWER	WartoúÊ Ataku:
-TOOLTIP_SKILL_AFFECT_ATT_SPEED	SzybkoúÊ Ataku: +
+TOOLTIP_SKILL	Umiejƒôtno≈õci	SNA
+TOOLTIP_SKILLBOOK_NAME	Ksiƒôga Umiejƒôtno≈õci
+TOOLTIP_SKILL_AFFECT_ATT_GRADE	Warto≈õƒá Ataku: +
+TOOLTIP_SKILL_AFFECT_ATT_POWER	Warto≈õƒá Ataku:
+TOOLTIP_SKILL_AFFECT_ATT_SPEED	Szybko≈õƒá Ataku: +
 TOOLTIP_SKILL_AFFECT_DEF_GRADE	Obrona:
-TOOLTIP_SKILL_AFFECT_DODGE	WartoúÊ Ataku przeciwnika: -
-TOOLTIP_SKILL_AFFECT_HEAL	Regeneracja PØ:
-TOOLTIP_SKILL_AFFECT_MOV_SPEED	SzybkoúÊ Ruchu: +
+TOOLTIP_SKILL_AFFECT_DODGE	Warto≈õƒá Ataku przeciwnika: -
+TOOLTIP_SKILL_AFFECT_HEAL	Regeneracja P≈ª:
+TOOLTIP_SKILL_AFFECT_MOV_SPEED	Szybko≈õƒá Ruchu: +
 TOOLTIP_SKILL_AFFECT_REFLECT_MELEE	Szansa na odbicie ataku:
-TOOLTIP_SKILL_AFFECT_RESIST_NORMAL	OdpornoúÊ na Obraøenia:
+TOOLTIP_SKILL_AFFECT_RESIST_NORMAL	Odporno≈õƒá na Obra≈ºenia:
 TOOLTIP_SKILL_COOL_TIME	Odnowa: 
-TOOLTIP_SKILL_DAMAGE_BONUS	Obraøenie UmiejÍtnoúci: %d%%	SA
-TOOLTIP_SKILL_DEFEND_BONUS	OdpornoúÊ na Obraøenia UmiejÍtnoúci %d%%	SA
+TOOLTIP_SKILL_DAMAGE_BONUS	Obra≈ºenie Umiejƒôtno≈õci: %d%%	SA
+TOOLTIP_SKILL_DEFEND_BONUS	Odporno≈õƒá na Obra≈ºenia Umiejƒôtno≈õci %d%%	SA
 TOOLTIP_SKILL_DURATION	Czas trwania: %d Sek.
-TOOLTIP_SKILL_FORGET_BOOK_NAME	KsiÍga Zapomnienia
+TOOLTIP_SKILL_FORGET_BOOK_NAME	Ksiƒôga Zapomnienia
 TOOLTIP_SKILL_LEVEL	Aktualny Poziom: %d
 TOOLTIP_SKILL_LEVEL_MASTER	Aktualny Poziom: %d (Mistrz)
 TOOLTIP_SKILL_LEVEL_WITH_MAX	Aktualny Poziom: %d (Max %d)
 TOOLTIP_SOCKET_EMPTY	Pusty
 TOOLTIP_SOCKET_REFINABLE_ITEM	[Przedmiot ze slotem]
 TOOLTIP_SP_REGEN	Regeneracja PE: +%d%%	SA
-TOOLTIP_STR	Si≥a: +%d	SA
+TOOLTIP_STR	Si≈Ça: +%d	SA
 TOOLTIP_SURA	Sura
-TOOLTIP_TIME_CHARGER_FIX	£adowanie czasu %d sek.	SA
-TOOLTIP_TIME_CHARGER_PER	£adowanie czasu %d%% 	SA
+TOOLTIP_TIME_CHARGER_FIX	≈Åadowanie czasu %d sek.	SA
+TOOLTIP_TIME_CHARGER_PER	≈Åadowanie czasu %d%% 	SA
 TOOLTIP_UNIQUE	Unikat
 TOOLTIP_UNSEAL_LEFT_TIME	Oderwanie od duszy za: %dH %dM
 TOOLTIP_WARRIOR	Wojownik
-TOOLTIP_WEAPON	BroÒ
+TOOLTIP_WEAPON	Bro≈Ñ
 TOOLTIP_WRISTLET	Bransoleta
 UI_ACCEPT	Akceptuj
 UI_CANCEL	Anuluj
@@ -919,18 +919,18 @@ UI_CLOSE	Zamknij
 UI_DEF_FONT	Tahoma:12
 UI_DEF_FONT_LARGE	Tahoma:14
 UI_DEF_FONT_SMALL	Tahoma:9
-UI_DENY	OdrzuÊ
+UI_DENY	Odrzuƒá
 UI_ITEM	Przedmiot
-UI_LEFT_TIME	Pozosta≥y Czas: %d Sek.
+UI_LEFT_TIME	Pozosta≈Çy Czas: %d Sek.
 UI_NEXT	Kontynuuj
 UI_NEXTPAGE	Dalej
-UI_NOCONTENTS	Brak Zawartoúci
+UI_NOCONTENTS	Brak Zawarto≈õci
 UI_NONAME	Brak Nazwy
 UI_OK	OK
-UI_POS_UNKNOWN	Nieznane Po≥oøenie
-UI_PREVPAGE	WrÛÊ
+UI_POS_UNKNOWN	Nieznane Po≈Ço≈ºenie
+UI_PREVPAGE	Wr√≥ƒá
 UI_UNKNOWN	Nieznany
-UPLOAD_MARK_CHECK_NEED_RECONNECT	Wgrywanie musi zostaÊ ponownie rozpoczÍte.
-UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Wgrywanie musi zostaÊ ponownie rozpoczÍte.
-USE_ITEM_FAILURE_PRIVATE_SHOP	Nie moøesz uøywaÊ przedmiotÛw, jeúli otworzy≥eú prywatny Magazyn.
-USE_SKILL_ERROR_UNKNOWN	Nieznany B≥πd UmiejÍtnoúci: %s
+UPLOAD_MARK_CHECK_NEED_RECONNECT	Wgrywanie musi zostaƒá ponownie rozpoczƒôte.
+UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Wgrywanie musi zostaƒá ponownie rozpoczƒôte.
+USE_ITEM_FAILURE_PRIVATE_SHOP	Nie mo≈ºesz u≈ºywaƒá przedmiot√≥w, je≈õli otworzy≈Çe≈õ prywatny Magazyn.
+USE_SKILL_ERROR_UNKNOWN	Nieznany B≈ÇƒÖd Umiejƒôtno≈õci: %s

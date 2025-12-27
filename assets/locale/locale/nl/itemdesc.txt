@@ -5,7 +5,7 @@
 100200	Tangen van Tijd	Zuigt de looptijd uit de Drakensteen.
 100300	Groene Draken Boon	De magische boon verhoogt het level van je Drakensteen. Het verbeteringsproces kan mislukken.
 100400	Blauwe Draken Boon	De magische boon verhoogd de kans op een succesvolle verbetering van je Drakensteen met een level.
-100500	Roze Draken Boon	De kans van een succesvolle verbetering van je Drakensteen met één level is 10% hoger.
+100500	Roze Draken Boon	De kans van een succesvolle verbetering van je Drakensteen met Ã©Ã©n level is 10% hoger.
 11901	Smoking	Een elegant pak dat een man bij een bruiloft draagt.
 11902	Smoking	Een  elegant pak dat een man bij een bruiloft draagt.
 11903	Bruidsjurk	Een mooi gewaad dat een vrouw bij haar huwelijk draagt.
@@ -164,7 +164,7 @@
 27811	Regenboog Forel	Een vis die alle kleuren van de regenboog heeft.
 27812	Rivier Forel	Een Forel die in een rivier leeft.
 27813	Ruisvoorn	Een vis die in een zwerm leeft.
-27814	Baars	Een vis die bekend staat als "haai van de zeeën"
+27814	Baars	Een vis die bekend staat als "haai van de zeeÃ«n"
 27815	Tenchi	Een vis die alleen in schoon water leeft.
 27816	Katvis	Een kat die een kenmerkende grote mond heeft met een kattensnor.
 27817	Modderkruiper	Een gladde vis die gewoonlijk leeft in ondiep, modderig water.
@@ -229,7 +229,7 @@
 27997	Levensbol	Een marmer dat wat LP herstelt.
 27998	Alchemisten Buidel	Een buidel voor Alchemisten, die de geheime van alchemie voor vreemde ogen bewaakt.
 27999	Zielen Steen Buidel	Een buidel om Ziel Stenen in te bewaren.
-29001	Jacobsschelp	Eén van de grootste en meest smakelijke schelpen. Het heeft een kam-achtige vorm.
+29001	Jacobsschelp	EÃ©n van de grootste en meest smakelijke schelpen. Het heeft een kam-achtige vorm.
 29002	Blauwe Jacobsschelp	De binnenkant van deze Jacobsschelp glinstert in talloze blauwe kleuren.
 29003	Gele Jacobsschelp	De binnenkant van deze Jacobsschelp glinstert in talloze gele kleuren.
 29004	Rode Jacobsschelp	De binnenkant van deze Jacobsschelp glinstert in talloze rode kleuren.
@@ -253,7 +253,7 @@
 30006	Ork Tand	Een stinkende tand van een reuze kobold.
 30007	Ork Amulet	Een amulet die grote kobolds aanspoort.
 30008	Esoterisch Handboek	De beginners handleiding van de Esoterische Leer.
-30009	Onbekend Medicijn	Onbekend medicijn met onbekende ingrediënten.
+30009	Onbekend Medicijn	Onbekend medicijn met onbekende ingrediÃ«nten.
 30010	Berengal	Berengal staat bekend om het tot leven brengen van het smaakgevoel.
 30011	Kluwen	Een kluwen draad.
 30012	Wijn Fles	Een fles met een geurige wijn.
@@ -270,16 +270,16 @@
 30023	Witte Tijger Vacht	Meest waardevolle dierenvacht onder de verzamelaars.
 30024	Paardenstaart	Een Paardenstaart kan gebruikt worden om voorwerpen zoals borstels, hoeden en touw te maken.
 30025	Spinnen Gifzak	De gif zak van een spin.
-30026	Wolf Ingewanden	Een ingrediënt om worst mee te maken, voedsel dat bekend is door het gehele Keizerrijk.
+30026	Wolf Ingewanden	Een ingrediÃ«nt om worst mee te maken, voedsel dat bekend is door het gehele Keizerrijk.
 30027	Wolvenvacht	De dikste haren in de wolvenvacht wordt gebruikt om borstels en kammen te maken.
 30028	Wolvenklauw	De scherpe klauw van een wolf wordt gebruikt om accessoires te maken.
-30029	Wolvenlever	Een ingrediënt om worst mee te maken, voedsel dat bekend is door het gehele Keizerrijk.
+30029	Wolvenlever	Een ingrediÃ«nt om worst mee te maken, voedsel dat bekend is door het gehele Keizerrijk.
 30030	Roestig Mes	Een roestig mes blad.
 30031	Ornament	Een favoriet versiersel van meisjes.
 30032	Zwarte Uniform	Een aftandse Zwarte Uniform.
 30033	Gebroken Porselein	Een stuk Gebroken Porselein.
 30034	Witte Haarband	Een populaire haarband om vrouwenhaar mee vast te binden.
-30035	Gezichtscrême	Vrouwen gebruiken het om hun huid jong te laten blijven.
+30035	GezichtscrÃªme	Vrouwen gebruiken het om hun huid jong te laten blijven.
 30036	Mystieke Kruid	Het legendarische kruid met miraculeuze effecten.
 30037	Tijgerklauw	Een Tijgerklauw kan een accessoire zijn om te laten zien dat iemand moedig is.
 30038	Tijger Vacht	De favorite dierenvacht onder verzamelaars.
@@ -287,7 +287,7 @@
 30040	Blad	Een onbekend planten blad.
 30041	Shiriken	Een wapen waar Sluipmoordenaars mee gooien.
 30042	Tijger Hoektand	Stevige hoektand van een Tijger.
-30043	Boon	Een ingrediënt die gebruikt wordt in vele keukens.
+30043	Boon	Een ingrediÃ«nt die gebruikt wordt in vele keukens.
 30044	Klei	Klei dat gebruikt wordt om porselein te maken.
 30045	Schorpioenen Naald	Een naald dat Schorpioenen gif bevat.
 30046	Schorpioenen Staart	Een giftige Schorpioenenstaart.
@@ -305,7 +305,7 @@
 30058	Spinnenbroedzak	Wordt gebruikt als een talisman door vrouwen die geen kinderen hebben.
 30059	Spinnenpoten	Sjamanen gebruiken de harige Spinnenpoten in hun werk.
 30060	Kikkertong	Een plakkerige tong.
-30061	Kikkerpoten	Eem exotisch ingrediënt, smaakt net als kip!
+30061	Kikkerpoten	Eem exotisch ingrediÃ«nt, smaakt net als kip!
 30062	Medicijnen Kom	Een Kom gebruikt door apothekers.
 30063	Huid Medicijn	Een  medicijn die huid ziektes geneest.
 30064	Scherp Steen	Een steen die gebruikt wordt om een Pijlpunt te maken.
@@ -327,7 +327,7 @@
 30080	Vloeken Boek+	Dit Esoterisch boek wordt gebruikt om iemand mee te vervloeken.
 30081	Schorpioenen Staart+	Een giftige Schorpioenen staart.
 30082	Slangenstaart+	De staart van een ratelslang.
-30083	Onbekend Medicijn+	Een onbekend medicijn met onbekende ingrediënten.
+30083	Onbekend Medicijn+	Een onbekend medicijn met onbekende ingrediÃ«nten.
 30084	Onbekende Talisman+	Een onbekende talisman, alleen Esoteristen kunnen het lezen.
 30085	Stuk Stof+	Een stuk stof dat gebruikt wordt om iemands wonden te bedekken.
 30086	Demonen Aandenken+	Een troosteloze aandenken van een Demon.
@@ -556,7 +556,7 @@
 31028	Klei Steen	Een steen van gebakken klein in de vorm van een kubus.
 31029	Innerlijk Licht	De Innerlijke energie van de Polyphemos
 31030	Innerlijk Licht	De Innerlijke energie van de Reuzen Koning
-31031	Millennium Essence	Mixdrankje van Gango Wortel, Tue Paddestoel, Alpen Roos. Belangrijk ingrediënt  voor Leviathan Parels.
+31031	Millennium Essence	Mixdrankje van Gango Wortel, Tue Paddestoel, Alpen Roos. Belangrijk ingrediÃ«nt  voor Leviathan Parels.
 31032	Leviathan Parels	Effectieve Versterkende capsules gemaakt van het Innerlijk Licht van mythische wezens en het Millennium Essence.
 31033	Cape van de Leider	Deze cape is het symbool voor de onkwetsbaarheid van de Rode Dieven.
 31034	Totem van de Reuzen	De totem heeft de vorm van een reusachtig stuk amber.
@@ -634,7 +634,7 @@
 38010	Yang Bundel	Verzilver de bundel om je oorlogskist met Yang te vullen. Kan niet verhandeld worden.
 38011	Yang Bundel	Verzilver de bundel om je oorlogskist met Yang te vullen. Kan niet verhandeld worden.
 38050	Kracht Kist	Deze kist is extreem licht, alsof er niks in zit...
-38051	Koninklijk Tijgerkristal	Het vergt een substantiële hoeveelheid magie om een kwaadaardige dier geest te temmen. Dit kristal bevat èèn van de vijf beschikbare Tijger Zegels.
+38051	Koninklijk Tijgerkristal	Het vergt een substantiÃ«le hoeveelheid magie om een kwaadaardige dier geest te temmen. Dit kristal bevat Ã¨Ã¨n van de vijf beschikbare Tijger Zegels.
 38052	De Kist der Koningen	Deze geweldige kist verbergt een werkelijk koninklijke schat. Dit item is verhandelbaar.
 38053	Eeuwige Winter Kist	De kist is kompleet uit ijs gesneden/ Met een zachte klik opent de deksel, en vries kou stijgt er uit op.
 38054	Woestijn Storm Kist	Deze geheimzinnige kist bevat een willekeurig voorwerp.
@@ -1004,16 +1004,16 @@
 41327		
 41328	ALG Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Algerije
 41329	ALG Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Algerije
-41330	ARG Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Argentinië
-41331	ARG Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Argentinië
-41332	AUS Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Australië
-41333	AUS Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Australië
-41334	BEL Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van België
-41335	BEL Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van België
-41336	BIH Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Bosnië en Herzegovina
-41337	BIH Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Bosnië en Herzegovina
-41338	BRA Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Brazilië
-41339	BRA Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Brazilië
+41330	ARG Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van ArgentiniÃ«
+41331	ARG Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van ArgentiniÃ«
+41332	AUS Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van AustraliÃ«
+41333	AUS Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van AustraliÃ«
+41334	BEL Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van BelgiÃ«
+41335	BEL Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van BelgiÃ«
+41336	BIH Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van BosniÃ« en Herzegovina
+41337	BIH Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van BosniÃ« en Herzegovina
+41338	BRA Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van BraziliÃ«
+41339	BRA Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van BraziliÃ«
 41340	CMR Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Kameroen
 41341	CMR Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Kameroen
 41342	CHI Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Chili
@@ -1024,8 +1024,8 @@
 41347	CRC Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Costa Rica
 41348	CIV Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Ivoorkust
 41349	CIV Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Ivoorkust
-41350	CRO Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Kroatië
-41351	CRO Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Kroatië
+41350	CRO Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van KroatiÃ«
+41351	CRO Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van KroatiÃ«
 41352	ECU Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Ecuador
 41353	ECU Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Ecuador
 41354	ENG Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Engeland
@@ -1042,8 +1042,8 @@
 41365	HON Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Honduras
 41366	IRN Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Iran
 41367	IRN Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Iran
-41368	ITA Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Italië
-41369	ITA Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Italië
+41368	ITA Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van ItaliÃ«
+41369	ITA Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van ItaliÃ«
 41370	JPN Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Japan
 41371	JPN Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van Japan
 41372	KOR Wereldbeker Set (M)	Wereldbeker set in de nationale kleuren van Korea
@@ -1068,16 +1068,16 @@
 41391	USA Wereldbeker Set (V)	Wereldbeker set in de nationale kleuren van VS
 41392	ALG WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Algerije. Geeft je minimaal 1 willekeurige bonus.
 41393	ALG WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Algerije. Geeft je minimaal 1 willekeurige bonus.
-41394	ARG WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Argentinië. Geeft je minimaal 1 willekeurige bonus.
-41395	ARG WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Argentinië. Geeft je minimaal 1 willekeurige bonus.
-41396	AUS WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Australië. Geeft je minimaal 1 willekeurige bonus.
-41397	AUS WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Australië. Geeft je minimaal 1 willekeurige bonus.
-41398	BEL WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van België. Geeft je minimaal 1 willekeurige bonus.
-41399	BEL WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van België. Geeft je minimaal 1 willekeurige bonus.
-41400	BIH WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Bosnië en Herzegovina. Geeft je minimaal 1 willekeurige bonus.
-41401	BIH WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Bosnië en Herzegovina. Geeft je minimaal 1 willekeurige bonus.
-41402	BRA WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Brazilië. Geeft je minimaal 1 willekeurige bonus.
-41403	BRA WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Brazilië. Geeft je minimaal 1 willekeurige bonus.
+41394	ARG WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van ArgentiniÃ«. Geeft je minimaal 1 willekeurige bonus.
+41395	ARG WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van ArgentiniÃ«. Geeft je minimaal 1 willekeurige bonus.
+41396	AUS WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van AustraliÃ«. Geeft je minimaal 1 willekeurige bonus.
+41397	AUS WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van AustraliÃ«. Geeft je minimaal 1 willekeurige bonus.
+41398	BEL WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van BelgiÃ«. Geeft je minimaal 1 willekeurige bonus.
+41399	BEL WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van BelgiÃ«. Geeft je minimaal 1 willekeurige bonus.
+41400	BIH WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van BosniÃ« en Herzegovina. Geeft je minimaal 1 willekeurige bonus.
+41401	BIH WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van BosniÃ« en Herzegovina. Geeft je minimaal 1 willekeurige bonus.
+41402	BRA WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van BraziliÃ«. Geeft je minimaal 1 willekeurige bonus.
+41403	BRA WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van BraziliÃ«. Geeft je minimaal 1 willekeurige bonus.
 41404	CMR WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Kameroen. Geeft je minimaal 1 willekeurige bonus.
 41405	CMR WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Kameroen. Geeft je minimaal 1 willekeurige bonus.
 41406	CHI WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Chili. Geeft je minimaal 1 willekeurige bonus.
@@ -1088,8 +1088,8 @@
 41411	CRC WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Costa Rica. Geeft je minimaal 1 willekeurige bonus.
 41412	CIV WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Ivoorkust. Geeft je minimaal 1 willekeurige bonus.
 41413	CIV WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Ivoorkust. Geeft je minimaal 1 willekeurige bonus.
-41414	CRO WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Kroatië. Geeft je minimaal 1 willekeurige bonus.
-41415	CRO WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Kroatië. Geeft je minimaal 1 willekeurige bonus.
+41414	CRO WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van KroatiÃ«. Geeft je minimaal 1 willekeurige bonus.
+41415	CRO WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van KroatiÃ«. Geeft je minimaal 1 willekeurige bonus.
 41416	ECU WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Ecuador. Geeft je minimaal 1 willekeurige bonus.
 41417	ECU WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Ecuador. Geeft je minimaal 1 willekeurige bonus.
 41418	ENG WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Engeland. Geeft je minimaal 1 willekeurige bonus.
@@ -1106,8 +1106,8 @@
 41429	HON WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Honduras. Geeft je minimaal 1 willekeurige bonus.
 41430	IRN WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Iran. Geeft je minimaal 1 willekeurige bonus.
 41431	IRN WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Iran. Geeft je minimaal 1 willekeurige bonus.
-41432	ITA WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Italië. Geeft je minimaal 1 willekeurige bonus.
-41433	ITA WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Italië. Geeft je minimaal 1 willekeurige bonus.
+41432	ITA WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van ItaliÃ«. Geeft je minimaal 1 willekeurige bonus.
+41433	ITA WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van ItaliÃ«. Geeft je minimaal 1 willekeurige bonus.
 41434	JPN WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Japan. Geeft je minimaal 1 willekeurige bonus.
 41435	JPN WBeker Set (V/bonus)	Wereldbeker set in de nationale kleuren van Japan. Geeft je minimaal 1 willekeurige bonus.
 41436	KOR WBeker Set (M/Bonus)	Wereldbeker set in de nationale kleuren van Korea. Geeft je minimaal 1 willekeurige bonus.
@@ -1142,26 +1142,26 @@
 41481	Sneeuwman Kostuum	Sneeuwman kostuum gemaakt van wit fluweel. Niet verhandelbaar.
 41482	Kerstvrouw Jurk (Wit)	Witte minijurk met kousen en accessoires. Niet verhandelbaar.
 41483	Kerstvrouw Jurk (Rood)	Rode minijurk met kousen en accessoires. Niet verhandelbaar.
-41484	Kerstman Vorstkostuum+	Sneeuwman kostuum met rood fluwelen Kerstmannenpak. Geeft je minstens één willekeurige bonus. Item is verhandelbaar.
-41485	Sneeuwman Kostuum+	Sneeuwman kostuum gemaakt van wit fluweel. Geeft je minstens één willekeurige bonus. Item is verhandelbaar.
-41486	Kerst Jurk+ (Wit)	Witte minijurk met kousen en accessoires. Geeft je minstens één willekeurige bonus. Item is verhandelbaar.
-41487	Kerst Jurk+ (Rood)	Rode minijurk met kousen en accessoires. Geeft je minstens één willekeurige bonus. Item is verhandelbaar.
+41484	Kerstman Vorstkostuum+	Sneeuwman kostuum met rood fluwelen Kerstmannenpak. Geeft je minstens Ã©Ã©n willekeurige bonus. Item is verhandelbaar.
+41485	Sneeuwman Kostuum+	Sneeuwman kostuum gemaakt van wit fluweel. Geeft je minstens Ã©Ã©n willekeurige bonus. Item is verhandelbaar.
+41486	Kerst Jurk+ (Wit)	Witte minijurk met kousen en accessoires. Geeft je minstens Ã©Ã©n willekeurige bonus. Item is verhandelbaar.
+41487	Kerst Jurk+ (Rood)	Rode minijurk met kousen en accessoires. Geeft je minstens Ã©Ã©n willekeurige bonus. Item is verhandelbaar.
 41496	Woestijnprins (Bruin)	Een krijgersgewaad, gemaakt van bruine stof en dat uitstekend past bij een leider.
 41497	Woestijnprins (Wit)	Een krijgersgewaad, gemaakt van witte stof en dat uitstekend past bij een leider.
 41498	Woestijnprinses (Bruin)	Een krijgersgewaad, gemaakt van bruine stof en dat uitstekend past bij een vrouwelijke leider.
 41499	Woestijnprinses (Wit)	Een krijgersgewaad, gemaakt van witte stof en dat uitstekend past bij een vrouwelijke leider.
-41500	Woestijnprins+ (Bruin)	Een krijgersgewaad, gemaakt van bruine stof en dat uitstekend past bij een leider. Geeft je minstens één willekeurige bonus.
-41501	Woestijnprins+ (Wit)	Een krijgersgewaad, gemaakt van witte stof en dat uitstekend past bij een leider. Geeft je minstens één willekeurige bonus.
-41502	Woestijnprinses+ (Bruin)	Een krijgersgewaad, gemaakt van bruine stof en dat uitstekend past bij een vrouwelijke leider. Geeft je minstens één willekeurige bonus.
-41503	Woestijnprinses+ (Wit)	Een krijgersgewaad, gemaakt van witte stof en dat uitstekend past bij een vrouwelijke leider. Geeft je minstens één willekeurige bonus.
+41500	Woestijnprins+ (Bruin)	Een krijgersgewaad, gemaakt van bruine stof en dat uitstekend past bij een leider. Geeft je minstens Ã©Ã©n willekeurige bonus.
+41501	Woestijnprins+ (Wit)	Een krijgersgewaad, gemaakt van witte stof en dat uitstekend past bij een leider. Geeft je minstens Ã©Ã©n willekeurige bonus.
+41502	Woestijnprinses+ (Bruin)	Een krijgersgewaad, gemaakt van bruine stof en dat uitstekend past bij een vrouwelijke leider. Geeft je minstens Ã©Ã©n willekeurige bonus.
+41503	Woestijnprinses+ (Wit)	Een krijgersgewaad, gemaakt van witte stof en dat uitstekend past bij een vrouwelijke leider. Geeft je minstens Ã©Ã©n willekeurige bonus.
 41504	Hazenkostuum (Grijs)	Zachte, knuffelbare grijzen vacht met een hazenmotiefje: een hazenkostuum. Niet verhandelbaar.
 41505	Hazenkostuum (Bruin)	Zachte, knuffelbare bruine vacht met een hazenmotiefje: een hazenkostuum. Niet verhandelbaar.
 41506	Paasjurk (Bont)	Vrolijk gekleurde Paasjurk met opvallende decoratie. Niet verhandelbaar.
 41507	Paasjurk (Lichtblauw)	Lichtblauwe Paasjurk met gedetailleerde decoratie. Niet verhandelbaar.
-41508	Hazenkostuum+ (Grijs)	Zachte, knuffelbare grijzen vacht met een hazenmotiefje: een hazenkostuum. Geeft je minstens één willekeurige bonus. Dit item is verhandelbaar.
-41509	Hazenkostuum+ (Bruin)	Zachte, knuffelbare bruine vacht met een hazenmotiefje: een hazenkostuum. Geeft je minstens één willekeurige bonus. Dit item is verhandelbaar.
-41510	Paasjurk+ (Bont)	Vrolijk gekleurde Paasjurk met opvallende decoratie. Geeft je minstens één willekeurige bonus. Dit item is verhandelbaar.
-41511	Paasjurk+ (Lichtblauw)	Lichtblauwe Paasjurk met gedetailleerde decoratie. Geeft je minstens één willekeurige bonus. Dit item is verhandelbaar.
+41508	Hazenkostuum+ (Grijs)	Zachte, knuffelbare grijzen vacht met een hazenmotiefje: een hazenkostuum. Geeft je minstens Ã©Ã©n willekeurige bonus. Dit item is verhandelbaar.
+41509	Hazenkostuum+ (Bruin)	Zachte, knuffelbare bruine vacht met een hazenmotiefje: een hazenkostuum. Geeft je minstens Ã©Ã©n willekeurige bonus. Dit item is verhandelbaar.
+41510	Paasjurk+ (Bont)	Vrolijk gekleurde Paasjurk met opvallende decoratie. Geeft je minstens Ã©Ã©n willekeurige bonus. Dit item is verhandelbaar.
+41511	Paasjurk+ (Lichtblauw)	Lichtblauwe Paasjurk met gedetailleerde decoratie. Geeft je minstens Ã©Ã©n willekeurige bonus. Dit item is verhandelbaar.
 45001	Konijnenoortjes (bruin)	Bruine konijnenoortjes voor vrouwen
 45002	Hazenoren (bruin)	Bruine hoed met hazenoren voor mannen
 45003	Hoofddoek (M)	Een hoofddoek gemaakt van de fijnste materialen voor mannen.
@@ -1318,26 +1318,26 @@
 45175	Kerstman Vorstmasker	Sneeuwman masker met rood fluwelen Kerstmuts met witte bontrand. Niet verhandelbaar.
 45176	Bolmuts (Wit)	Kerstmuts gemaakt van wit fluweel met witte bontrand en rode bol. Niet verhandelbaar.
 45177	Bolmuts (Rood)	Kerstmuts gemaakt van rood fluweel met witte bontrand en witte bol. Niet verhandelbaar.
-45178	Sneeuwman Masker+	Sneeuwman masker met elegant zwart satijnen hoed. Geeft je minstens één willekeurige bonus. Item is verhandelbaar.
-45179	Kerstman Vorstmasker+	Sneeuwman masker met rood fluwelen Kerstmuts en witte bontrand. Geeft je minstens één willekeurige bonus. Item is verhandelbaar.
-45180	Bolmuts+ (Wit)	Kerstmuts gemaakt van wit fluweel met witte bontrand en rode bol. Geeft je minstens één willekeurige bonus. Item is verhandelbaar.
-45181	Bolmuts+ (Rood)	Kerstmuts gemaakt van rood fluweel met witte bontrand en een witte bol. Geeft je minstens één willekeurige bonus. Item is verhandelbaar.
+45178	Sneeuwman Masker+	Sneeuwman masker met elegant zwart satijnen hoed. Geeft je minstens Ã©Ã©n willekeurige bonus. Item is verhandelbaar.
+45179	Kerstman Vorstmasker+	Sneeuwman masker met rood fluwelen Kerstmuts en witte bontrand. Geeft je minstens Ã©Ã©n willekeurige bonus. Item is verhandelbaar.
+45180	Bolmuts+ (Wit)	Kerstmuts gemaakt van wit fluweel met witte bontrand en rode bol. Geeft je minstens Ã©Ã©n willekeurige bonus. Item is verhandelbaar.
+45181	Bolmuts+ (Rood)	Kerstmuts gemaakt van rood fluweel met witte bontrand en een witte bol. Geeft je minstens Ã©Ã©n willekeurige bonus. Item is verhandelbaar.
 45190	Hazenoren (Grijs)	Zachte, grijze vachthoed met hazenoren. Niet verhandelbaar.
 45191	Hazenoren (Bruin)	Zachte, bruine vachthoed met hazenoren. Niet verhandelbaar.
 45192	Paashoofdband (Bont)	Prachtige regenboogkleurige Paashoofdband voor de modebewuste krijgerin. Niet verhandelbaar.
 45193	Paashoofdband (Blauw)	Luchtige, lichtblauwe Paashoofdband voor de modebewuste krijgerin. Niet verhandelbaar.
-45194	Hazenoren+ (Grijs)	Zachte, grijze vachthoed met hazenoren. Geeft je minstens één willekeurige bonus. Dit item is verhandelbaar.
-45195	Hazenoren+ (Bruin)	Zachte, bruine vachthoed met hazenoren. Geeft je minstens één willekeurige bonus. Dit item is verhandelbaar.
-45196	Paashoofdband (Bont)	Prachtige regenboogkleurige Paashoofdband voor de modebewuste krijgerin. Geeft je minstens één willekeurige bonus. Dit item is verhandelbaar.
-45197	Paashoofdband+ (Blauw)	Luchtige, lichtblauwe Paashoofdband voor de modebewuste krijgerin. Geeft je minstens één willekeurige bonus. Dit item is verhandelbaar.
+45194	Hazenoren+ (Grijs)	Zachte, grijze vachthoed met hazenoren. Geeft je minstens Ã©Ã©n willekeurige bonus. Dit item is verhandelbaar.
+45195	Hazenoren+ (Bruin)	Zachte, bruine vachthoed met hazenoren. Geeft je minstens Ã©Ã©n willekeurige bonus. Dit item is verhandelbaar.
+45196	Paashoofdband (Bont)	Prachtige regenboogkleurige Paashoofdband voor de modebewuste krijgerin. Geeft je minstens Ã©Ã©n willekeurige bonus. Dit item is verhandelbaar.
+45197	Paashoofdband+ (Blauw)	Luchtige, lichtblauwe Paashoofdband voor de modebewuste krijgerin. Geeft je minstens Ã©Ã©n willekeurige bonus. Dit item is verhandelbaar.
 45198	Bruine Tulband	Een galante bruine tulband, gemaakt van materiaal sterk genoeg voor krijgers.
 45199	Witte Tulband	Een galante witte tulband, gemaakt van materiaal sterk genoeg voor krijgers.
 45200	Bruine Hoofddoek	Een bruine hoofddoek gemaakt van licht materiaal, perfect voor vrouwelijke krijgers.
 45201	Witte Hoofddoek	Een witte hoofddoek gemaakt van licht materiaal, perfect voor vrouwelijke krijgers.
-45202	Bruine Tulband+	Een galante bruine tulband, gemaakt van materiaal sterk genoeg voor krijgers. Geeft je minstens één willekeurige bonus.
-45203	Witte Tulband+	Een galante witte tulband, gemaakt van materiaal sterk genoeg voor krijgers. Geeft je minstens één willekeurige bonus.
-45204	Bruine Hoofddoek+	Een bruine hoofddoek gemaakt van licht materiaal, perfect voor vrouwelijke krijgers. Geeft je minstens één willekeurige bonus.
-45205	Witte Hoofddoek+	Een witte hoofddoek gemaakt van licht materiaal, perfect voor vrouwelijke krijgers. Geeft je minstens één willekeurige bonus.
+45202	Bruine Tulband+	Een galante bruine tulband, gemaakt van materiaal sterk genoeg voor krijgers. Geeft je minstens Ã©Ã©n willekeurige bonus.
+45203	Witte Tulband+	Een galante witte tulband, gemaakt van materiaal sterk genoeg voor krijgers. Geeft je minstens Ã©Ã©n willekeurige bonus.
+45204	Bruine Hoofddoek+	Een bruine hoofddoek gemaakt van licht materiaal, perfect voor vrouwelijke krijgers. Geeft je minstens Ã©Ã©n willekeurige bonus.
+45205	Witte Hoofddoek+	Een witte hoofddoek gemaakt van licht materiaal, perfect voor vrouwelijke krijgers. Geeft je minstens Ã©Ã©n willekeurige bonus.
 50001	Geluks Boek	Een boek met geluksnummers. De loterij wordt door de overheid beheerd.
 50002	Gouden Ring	Een simpele gouden ring | Het kan verkocht worden in de winkel voor een hoge prijs.
 50003	Correctie Document	Staat het toe om de vaardigheden te resetten en nieuwe te leren.
@@ -1351,10 +1351,10 @@
 50011	Maanlicht Schatkist	Een oogverblindend versierde schatkist die mensen verleid. Er gebeuren bovennatuurlijke dingen wanneer er maanlicht op valt.
 50012	Gouden Schatkist+	Een goud versierde kist. | Het kan geopend worden met een Gouden Sleutel.
 50013	Zilveren Schatkist+	Een zilver versierde kist. | Het kan geopend worden met een Zilveren Sleutel.
-50016	Bonen Pasta	Een ingrediënt van ouderwetse bonentaart.
-50017	Suiker Pasta	Een ingrediënt in ouderwetse suikertaart.
-50018	Fruit Pasta	Een ingrediënt in ouderwetse fruittaart.
-50019	Zoete Rijst Wikkel	Een ingrediënt in ouderwetse taart.
+50016	Bonen Pasta	Een ingrediÃ«nt van ouderwetse bonentaart.
+50017	Suiker Pasta	Een ingrediÃ«nt in ouderwetse suikertaart.
+50018	Fruit Pasta	Een ingrediÃ«nt in ouderwetse fruittaart.
+50019	Zoete Rijst Wikkel	Een ingrediÃ«nt in ouderwetse taart.
 50020	Bonen Taart	Een ouderwetse taart die al je LP herstelt.
 50021	Suiker Taart	Een ouderwetse taart die al je TP herstelt.
 50022	Fruit Taart	Een ouderwetse taart die je Uithoudingsvermogen volledig herstelt.
@@ -1384,7 +1384,7 @@
 50068	Geschrift van Mutatie	Krachtige, oude rol gemaakt van perkament. Maakt de verbetering van een wild rijdier in een dapper rijdier mogelijk.
 50070	Ork Leiders Kist	De kist van de Reuze Kobold Leider. Bevat iets waardevols.
 50071	Esoterische Leiders Kist	De kist van de Esoterische Leider. Bevat iets waardevols.
-50072	Spook Leiders Kist	De kist van de Gereïncarneerde Esoterische Leider. Bevat iets waardevols.
+50072	Spook Leiders Kist	De kist van de GereÃ¯ncarneerde Esoterische Leider. Bevat iets waardevols.
 50073	Spinnenkoningins Kist	De kist van de Spinnenkoningin. Bevat iets waardevols.
 50074	Reuzespin Kist	De kist van de Reuzespin. Bevat iets waardevols.
 50075	Pestdrager Kist	De kist van de Pestdrager. Bevat iets waardevols.
@@ -1477,12 +1477,12 @@
 50197		
 50198		
 50199		
-50200	Bundel	Hiermee kun je een privé winkel openen.
+50200	Bundel	Hiermee kun je een privÃ© winkel openen.
 50212	Leerling Kist I	Je welkomstgift bestaat uit een basis uitrusting voor de optimale start van jouw avontuur.
 50213	Leerling Kist I	Je welkomstgift bestaat uit een basis uitrusting voor de optimale start van jouw avontuur.
 50215	Halloween Kist	Een kist met een spookachtig pompoen gezicht op de zijkant. Met een piepend geluid opent de deksel en laat de inhoud zien.
-50216	Glühwijn	Een warme drank gemaakt van wijn en kruiden dat je +10% snelheid, +5% schade en +10% ervaring geeft voor 30 minuten.
-50249	Kist der Triomf	De Kist bevat een willekeurig item als beloning voor alle Olympiërs.
+50216	GlÃ¼hwijn	Een warme drank gemaakt van wijn en kruiden dat je +10% snelheid, +5% schade en +10% ervaring geeft voor 30 minuten.
+50249	Kist der Triomf	De Kist bevat een willekeurig item als beloning voor alle OlympiÃ«rs.
 50252	Cor Draconis	Het kristallen drakenhart bevat de ziel, de Drakensteen, binnenin.
 50253		
 50254	Kist van het Duister.	Deze zware kist verbergt de verborgen schatten van het Duistere Volk.
@@ -1496,9 +1496,9 @@
 50264	Geschrift der Ontbinding	Verwijderd de band van een voorwerp en jouw ziel.
 50265	Gouden Voetbal	De bal is rond en goud
 50300	Vaardighedenboek	Vergroot de Meester Vaardigheden Niveau
-50301	Sun Zi Kunst van Oorlog	Eén van de zeven Oorlog Strategie boeken | Vergroot Leiderschap | Verdwijnt na het lezen.
-50302	Wu zi Kunst van Oorlog	Eén van de zeven Oorlog Strategie boeken | Vergroot Leiderschap | Verdwijnt na het lezen.
-50303	WeiLiao Zi	Eén van de zeven Oorlog Strategie boeken | Vergroot Leiderschap | Verdwijnt na het lezen.
+50301	Sun Zi Kunst van Oorlog	EÃ©n van de zeven Oorlog Strategie boeken | Vergroot Leiderschap | Verdwijnt na het lezen.
+50302	Wu zi Kunst van Oorlog	EÃ©n van de zeven Oorlog Strategie boeken | Vergroot Leiderschap | Verdwijnt na het lezen.
+50303	WeiLiao Zi	EÃ©n van de zeven Oorlog Strategie boeken | Vergroot Leiderschap | Verdwijnt na het lezen.
 50304	Combo Beheersing	Dit Tactiekboek wordt gebruikt om Combo's te leren. Het boek verdwijnt na het lezen.
 50305	Combo Meester Boek	Dit Tactiekboek wordt gebruikt om geavanceerde Combo's te leren. Het boek verdwijnt na het lezen.
 50306	Kunst van Combo	Dit Meester Tactiekboek wordt gebruikt om Combo's te leren. Het boek verdwijnt na het lezen.
@@ -1606,8 +1606,8 @@
 50636	Granaat	Oranje edelsteen met een unieke bewerking. Kan verwerkt worden tot een waardevol sierraad.
 50637	Smaragd	Groene edelsteen met een unieke bewerking. Kan verwerkt worden tot een waardevol sierraad.
 50638	Saffier	Blauwe edelsteen met een unieke bewerking. Kan verwerkt worden tot een waardevol sierraad.
-50639	Toermalijn	Deze magische edelsteen glinstert in alle kleuren van de regenboog. Kan gebruikt worden om accessoires te creëren.
-50701	Perzik Bloesem	In het verleden werden perzik bloemen gebruikt om speciale huidcrêmes te maken.
+50639	Toermalijn	Deze magische edelsteen glinstert in alle kleuren van de regenboog. Kan gebruikt worden om accessoires te creÃ«ren.
+50701	Perzik Bloesem	In het verleden werden perzik bloemen gebruikt om speciale huidcrÃªmes te maken.
 50702	Weideklokje	Deze bloem komt veel voor en helpt tegen verkoudheid en hoesten.
 50703	Kaki Bloesem	Het gerucht gaat dat een vrouw die deze bloem om haar nek draagt zwanger wordt.
 50704	Gango Wortel	De Gango Wortel versterkt het immuun systeem en het uithoudingsvermogen van het lichaam.	
@@ -1619,7 +1619,7 @@
 50710	Brandnetel	Deze plant versterkt de botten.
 50711	Dadel	Vruchten die zeer goed smaken en nieuwe levenskracht aan het lichaam geeft.	
 50712	Sam-Zi Plant	Deze zeldzame plant werkt als een hersteller als het goed geprepareerd is.
-50721	Perzik Bloesem	In het verleden werden perzik bloemen gebruikt om speciale huidcrêmes te maken.	Drankjes productie
+50721	Perzik Bloesem	In het verleden werden perzik bloemen gebruikt om speciale huidcrÃªmes te maken.	Drankjes productie
 50722	Weideklokje	Deze bloem komt veel voor en helpt tegen verkoudheid en hoesten.	Drankjes productie
 50723	Kaki Bloesem	Het gerucht gaat dat een vrouw die deze bloem om haar nek draagt zwanger wordt.	Drankjes productie
 50724	Gango Wortel	De Gango Wortel versterkt het immuun systeem en het uithoudingsvermogen van het lichaam.	Drankjes productie
@@ -2028,7 +2028,7 @@
 70015	Goedkope Borstel	Een alledaags, robuuste borstel met een stevige houten handvat.
 70020	Perzik Bloem Wijn	Drankje dat je LP onmiddellijk met 500 punten herstelt.
 70024	Gezegend Bol	Een bol uit de legendes, die een vijfde attribuut toevoegt.
-70027	Smid´s Notitie	Een notitie van de Smid die je vertelt hoe je je wapens kan verrijken.
+70027	SmidÂ´s Notitie	Een notitie van de Smid die je vertelt hoe je je wapens kan verrijken.
 70031	Vechtkunst Pamflet	Deze pamflet geeft je een overzicht van onder andere de potentieel en zwakheden van de menselijke anatomie.
 70035	Magische Koper Erts	Erts die nodig is om het Oorlog Geschrift te maken - Tezamen met een  Zegening bij de Smid.
 70037	Vergeetachtigheid Boek	Legendarische boek dat de herinnering van een geleerde Vaardigheid compleet wegvaagt. Je kunt 1 Vaardigheidpunt verplaatsen.
@@ -2039,17 +2039,17 @@
 70047	Talen Ring (proef)	In vroegere tijden werd deze ring gemaakt voor een groep diplomaten. Het staat de gebruiker toe om de talen van andere koninkrijken te spreken.
 70048	Ontsnappers Mantel	Een mantel van onschatbare waarde gebruikt door vele weglopers. Wanneer het gebruikt wordt, verhult het je aanpassingen.
 70049	Lucy's Ring	Op de ring staat geschreven; Gezegend met de  Draken God zijt gij.
-70050	Wijze Keizer Symbool	Een geërfde symbool van de oude aristicratische familie, geeft de beheerder grote kracht.
-70051	Wijze Keizer Handschoen	Een geërfde symbool van de oude aristicratische familie, geeft de beheerder grote kracht.
+70050	Wijze Keizer Symbool	Een geÃ«rfde symbool van de oude aristicratische familie, geeft de beheerder grote kracht.
+70051	Wijze Keizer Handschoen	Een geÃ«rfde symbool van de oude aristicratische familie, geeft de beheerder grote kracht.
 70052	Talisman Karma1	Een Talisman die gebruikt wordt door Buddhisten tegen ongeluk.
 70053	Talisman Karma2	Een Talisman die gebruikt wordt door Buddhisten tegen ongeluk.
 70054	Talisman Karma3	Een Talisman die gebruikt wordt door Buddhisten tegen ongeluk.
 70056	Grannaatappel Sap+	Een brouwsel dat onmiddellijk je LP regenereert met 1000 punten.
 70057	Moedigheidsmantel	Een kleurrijke mantel waarmee krijgers hun moed bewijzen, het trekt de aandacht van verschillende monsters. Dit item is verhandelbaar.
 70058	Teleportatie Ring	Deze ring teleporteerd 50 keer je naar een gewenste lokatie binnen je koninkrijk. Niet verhandelbaar.
-70063	Transformeer Kostuum	Verwijdert de bonussen van één van je kostuums en vervangt ze met nieuwe. Met een beetje geluk verandert zelfs het aantal bonussen (tot max. 3).
-70064	Betover Kostuum	Verwijdert de bonussen van één van je kostuums en vervangt ze met nieuwe.
-70065	Kostuumbonus Overdracht	Zet de bonussen van het ene kostuum over naar het andere. De overdracht vernietigt één van de kostuums.
+70063	Transformeer Kostuum	Verwijdert de bonussen van Ã©Ã©n van je kostuums en vervangt ze met nieuwe. Met een beetje geluk verandert zelfs het aantal bonussen (tot max. 3).
+70064	Betover Kostuum	Verwijdert de bonussen van Ã©Ã©n van je kostuums en vervangt ze met nieuwe.
+70065	Kostuumbonus Overdracht	Zet de bonussen van het ene kostuum over naar het andere. De overdracht vernietigt Ã©Ã©n van de kostuums.
 70102	Zen Boon	Vermindert Slechte Aanpassing | Verhoogt Goede Aanpassing
 70104	Metamorfose Bol	Transformeer in een Monster met deze bol.
 70105	Metamorfose Bol	Transformeer in een Monster met deze bol.
@@ -2110,7 +2110,7 @@
 71045	Perforerende Slag	Vergroot de kans om een perforerende slag uit te delen met 20% voor 10 minuten.
 71047	Kleur van de Geest Steen	Verwijdert een zielensteen van een van je voorwerpen.
 71048	Aanpassing Talisman	Dit Talisman kan worden gebruikt om het geslacht van je karakter te veranderen.
-71049	Zijden bundel	Met deze bundel kun je gratis een privé winkel openen voor 10 dagen.
+71049	Zijden bundel	Met deze bundel kun je gratis een privÃ© winkel openen voor 10 dagen.
 71050	Drank der Snelheid	Vergroot je loopsnelheid met 60 gedurende 30 minuten.
 71051	Betover Voorwerp	Voegt een speciale nieuwe bonus toe aan een van je items, als die geen andere bonus heeft.
 71052	Zegen Voorwerp	Verwijdert de speciale bonus op een van je voorwerpen en voegt een nieuwe toe.
@@ -2129,9 +2129,9 @@
 71066	Steen der Amethistader	Maakt een Amethist Ader vlakbij je karakter.
 71067	St. der Hem. Traanader	Maakt een Hemelse Traan Ader vlakbij je karakter.
 71068	Veer der Geliefden	Als je uitgerust bent met deze veer zullen je liefdes punten zullen twee keer zo snel stijgen.
-71069	Oorbellen der Harmonie	Verhoogt de kans op een perforerende slag voor beide gehuwden met een maximum van 8% voor 3 uur wanneer één van hun het draagt. Het effect van het item hangt af van het percentage liefdespunten. Als een echtpaar bij voorbeeld 50% liefdespunten heeft wordt het maximale effect gereduceerd tot de helft.
+71069	Oorbellen der Harmonie	Verhoogt de kans op een perforerende slag voor beide gehuwden met een maximum van 8% voor 3 uur wanneer Ã©Ã©n van hun het draagt. Het effect van het item hangt af van het percentage liefdespunten. Als een echtpaar bij voorbeeld 50% liefdespunten heeft wordt het maximale effect gereduceerd tot de helft.
 71070	Liefdes Armband	Vergroot de toename in Ervarings Punten met een maximum van 20% voor 3 uur voor beide spelers, als het gedragen wordt door een van hen. Het effect van het item wordt bepaald door het percentage van de liefdespunten. Als een echtpaar bijvoorbeeld 50% liefdespunten heeft, dan wordt het maximale effect gereduceerd met de helft.
-71071	Oorbellen der Liefde	Verhoogt de kans op een kritieke slag met 8% voor 3 uur voor beide gehuwden, wanneer één van hen dat draagt. Het effect van het item wordt bepaald door het percentage van de liefdespunten. Als een echtpaar bijvoorbeeld 50% liefdespunten heeft, dan wordt het maximale effect gereduceerd met de helft.
+71071	Oorbellen der Liefde	Verhoogt de kans op een kritieke slag met 8% voor 3 uur voor beide gehuwden, wanneer Ã©Ã©n van hen dat draagt. Het effect van het item wordt bepaald door het percentage van de liefdespunten. Als een echtpaar bijvoorbeeld 50% liefdespunten heeft, dan wordt het maximale effect gereduceerd met de helft.
 71072	Harmonie Armband	Verkleint de aanvalskracht van monsters met maximaal 15% voor 3 uur, tegen wie getrouwde mensen vechten, als het gedragen wordt door een van hen. Het effect van het item wordt bepaald door het percentage van de liefdespunten. Als een echtpaar bijvoorbeeld 50% liefdespunten heeft, dan wordt het maximale effect gereduceerd met de helft.
 71073	Ketting der Liefde	Vergroot de aanvalskracht met een maximum van 40 voor 3 uur voor beide spelers, als het gedragen wordt door de partner. Het effect van het item wordt bepaald door het percentage van de liefdespunten. Als een echtpaar bijvoorbeeld 50% liefdespunten heeft, dan wordt het maximale effect gereduceerd met de helft.
 71074	Ketting der Harmonie	Vergroot de Verdediging voor beide spelers met een maximum van 30 voor 3 uur, als het gedragen wordt door een van hen. Het effect van het item wordt bepaald door het percentage van de liefdespunten. Als een echtpaar bijvoorbeeld 50% liefdespunten heeft, dan wordt het maximale effect gereduceerd met de helft.
@@ -2145,7 +2145,7 @@
 71082	Metinsteen(Z)	Een zware metinsteen zal vlakbij je karakter vallen.
 71083	Steen Ambacht Boek	Verwijdert de gebroken steen in een sokkel om een lege sokkel te maken.
 71084	Betover Voorwerp	Verwijdert de bonussen van een van je voorwerpen en voegt nieuwe toe.
-71085	Versterk Voorwerp	Als je geluk hebt, geeft het één van je voorwerpen een bonus. (tot max. 4 bonussen)
+71085	Versterk Voorwerp	Als je geluk hebt, geeft het Ã©Ã©n van je voorwerpen een bonus. (tot max. 4 bonussen)
 71088	Missie boek(licht)	Een boek gebonden in bruin leer die een missie bevat die zelfs nieuwelingen aankunnen.
 71089	Missie boek(normaal)	Een boek gebonden in bruin leer die een missie bevat die alleen mensen die ervaren zijn met vechten kunnen aanvaarden.
 71090	Missie boek(zwaar)	Een boek gebonden in bruin leer die een missie bevat die alleen aanvaard kan worden door zeer ervaren krijgers.
@@ -2206,7 +2206,7 @@
 71133	Zwart Paard Zegel	Zegel voor een nobel zwart paard.
 71134	Zwart Paard Zegel	Zegel voor een nobel zwart paard.
 71135	Halve Maan Ring	Een ring met een artistieke gravering in de stijl van een halve maan.
-71136	Lolly de Machtige	Een lolly gemaakt van geheime ingrediënten die je ervaring en kracht schenkt voor de strijd.
+71136	Lolly de Machtige	Een lolly gemaakt van geheime ingrediÃ«nten die je ervaring en kracht schenkt voor de strijd.
 71137	Kon.Tijger Zegel (blauw)	De magie van het zegel roept je rijdier, de majestueuze Koninklijke Tijger (blauw).
 71138	Kon. Tijger Zegel (rood)	De magie van het zegel roept jouw rijdier, de majestueuze Koninklijke Tijger (rood).
 71139	Kon. Tijger Zegel (goud)	De magie van het zegel roept jouw rijdier, de majestueuze Koninklijke Tijger (goud).
@@ -2251,16 +2251,16 @@
 71185	Nugget Zegel (Blauw)	Je kunt dit item gebruiken om Nugget op te roepen, de kolossale gevechtshaan.
 71186	Muffin Zegel (Groen)	Je kunt dit zegel gebruiken om Muffin op te roepen, de gevreesde gevechtskip.
 71187	Nugget Zegel (Groen)	Je kunt dit item gebruiken om Nugget op te roepen, de kolossale gevechtshaan.
-71188	Lolly de Magische	Een lolly gemaakt van geheime ingrediënten die je ervaring en kracht schenkt voor de strijd.
+71188	Lolly de Magische	Een lolly gemaakt van geheime ingrediÃ«nten die je ervaring en kracht schenkt voor de strijd.
 72001	Ervarings Ring	Verhoogt ontvangen ervaring met 50% voor 1 uur.
 72002	Ervarings Ring	Verhoogt de verzamelde ervaring met 50% voor 30 minuten.
 72003	Ervarings Ring	Verhoogt verzamelde ervaring met 50% voor 3 uur.
 72004	Dieven Handschoen	Verdubbeld je kans om voorwerpen buit te maken voor 10 uur.
 72005	Dieven Handschoen	Verdubbeld je kans om voorwerpen buit te maken voor 30 dagen.
 72006	Dieven Handschoen	Verdubbeld je kans om voorwerpen buit te maken voor 3 uur.
-72007	Zijden bundel	Je kan een privé winkel voor 10 uur openen.
-72008	Zijden bundel	Je kunt een privé winkel openen voor 30 minuten
-72009	Zijden bundel	Je kunt een privé winkel openen voor 3 uur.
+72007	Zijden bundel	Je kan een privÃ© winkel voor 10 uur openen.
+72008	Zijden bundel	Je kunt een privÃ© winkel openen voor 30 minuten
+72009	Zijden bundel	Je kunt een privÃ© winkel openen voor 3 uur.
 72010	Liefdesvogel Veer	Wanneer je uitgerust ben met deze veer, zal je Liefdes Punten twee keer zo snel stijgen gedurende15 minuten.
 72011	Liefdesvogel Veer	Wanneer je uitgerust ben met deze veer, zal je Liefdes Punten twee keer zo snel stijgen gedurende 30 minuten.
 72012	Liefdesvogel Veer	Wanneer je uitgerust ben met deze veer, zal je Liefdes Punten twee keer zo snel stijgen gedurende 3 uur.

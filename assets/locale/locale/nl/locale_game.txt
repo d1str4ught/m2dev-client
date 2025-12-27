@@ -5,7 +5,7 @@ CANNOT_ATTACK_DEST_IN_SAFE	De Tegenstander is te ver weg.
 CANNOT_ATTACK_SELF_IN_SAFE	Ik kan niet aanvallen.	
 CANNOT_EQUIP_IN_EXCHANGE	Je kunt wat je draagt niet veranderen wanneer je aan het handelen bent.
 CANNOT_EQUIP_IN_SHOP	Je kunt wat je draagt niet veranderen wanneer je aan het handelen bent.
-CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA	Je kunt geen privé warenhuis openen in een openbaar gebied.
+CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA	Je kunt geen privÃ© warenhuis openen in een openbaar gebied.
 CANNOT_SHOOT_DEST_IN_SAFE	De vijand is te ver weg.	
 CANNOT_SHOOT_EMPTY_ARROW	Ik heb een Pijl nodig.	
 CANNOT_SHOOT_SELF_IN_SAFE	Ik kan dit niet doen.	
@@ -23,8 +23,8 @@ CANNOT_SKILL_NOT_ENOUGH_SP	Ik heb niet genoeg TP!
 CANNOT_SKILL_NOT_HORSE_SKILL	Ik kan dit niet gebruiken tijdens het rijden.	
 CANNOT_SKILL_NOT_MATCHABLE_WEAPON	Ik kan deze Vaardigheid niet met dit wapen gebruiken.	
 CANNOT_SKILL_NOT_YET_LEARN	Ik heb deze Vaardigheid nog niet geleerd.	
-CANNOT_SKILL_ONLY_FOR_ALLIANCE	Dit beïnvloedt alleen groepsleden.	
-CANNOT_SKILL_ONLY_FOR_CORPSE	Dit beïnvloedt alleen dode mensen.	
+CANNOT_SKILL_ONLY_FOR_ALLIANCE	Dit beÃ¯nvloedt alleen groepsleden.	
+CANNOT_SKILL_ONLY_FOR_CORPSE	Dit beÃ¯nvloedt alleen dode mensen.	
 CANNOT_SKILL_RED	Je kunt Bloedrode Wolf Ziel niet gebruiken wanneer Indigo Wolf Ziel actief is.
 CANNOT_SKILL_REMOVE_FISHING_ROD	Ik kan deze Vaardigheid niet met een Hengel gebruiken.
 CANNOT_SKILL_SELF_IN_SAFE	Ik kan vanaf hier niet aanvallen.	
@@ -68,17 +68,17 @@ COMB_CANT_APPEND_ITEM	Dit item kan niet gebruikt worden.
 COMB_CANT_APPEND_SEALED_ITEM	Je kunt geen zielsgebonden items gebruiken.
 COMB_COST	Prijs: %s
 COMB_IS_CONTINUE_PROCESS	Wil je doorgaan?
-COMB_NOTICE	Je kunt geen privé warenhuis openen wanneer je boeken aan het verhandelen bent.
-COMB_NOTICE_NOT_OPEN	Je kunt geen boeken verhandelen als je een privé warenhuis open hebt staan.
+COMB_NOTICE	Je kunt geen privÃ© warenhuis openen wanneer je boeken aan het verhandelen bent.
+COMB_NOTICE_NOT_OPEN	Je kunt geen boeken verhandelen als je een privÃ© warenhuis open hebt staan.
 COMB_NOT_ALL_SLOT_APPEND_ITEM	Je hebt een tweede kostuum nodig om bonussen over te dragen.
 COMB_NOT_FULL_BOOK	Nee, zo doen we geen zaken. Zoals ik al zei: ik sta alleen open om te handelen als je 10 boeken in te ruilen hebt.
 COMB_NOT_ITEM_IN_INVENTORY	Je kunt geen items gebruiken die je aan hebt.
 COMB_NOT_MEDIUM_ITEM	Dit item kan niet gebruikt worden.
 COMB_WILL_REMOVE_MATERIAL	Kostuum 2 zal vernietigd worden.
-CREATE_ERROR_GM_NAME	Het is niet toegestaan om ,GM‘ in je karakter naam te gebruiken.	
+CREATE_ERROR_GM_NAME	Het is niet toegestaan om ,GMâ€˜ in je karakter naam te gebruiken.	
 CREATE_ERROR_INSULT_NAME	Deze naam is ongeldig.	
 CREATE_ERROR_LIMIT_LEVEL	Jouw karakter moet minstens level 80 zijn.
-CREATE_ERROR_TIME_LIMIT	Je kunt slechts één karakter per 30 seconden aanmaken.
+CREATE_ERROR_TIME_LIMIT	Je kunt slechts Ã©Ã©n karakter per 30 seconden aanmaken.
 CREATE_ERROR_WRONG_STRING	Je karakternaam mag geen speciale tekens bevatten.
 CREATE_EXIST_SAME_NAME	Een ander karakter gebruikt deze naam.	
 CREATE_FAILURE	Je kunt niet nog een karakter aanmaken.	
@@ -114,7 +114,7 @@ DRAGON_SOUL_UNEQUIP_WARNING2	Wil je nog steeds doorgaan?
 DRAGON_SOUL_UNMATCHED_SLOT	Dat is de verkeerde plek.
 DRAGON_SOUL_UNQUALIFIED	Je kan nog geen Drakensteen alchemie gebruiken.
 DROP_ITEM_FAILURE_EQUIP_ITEM	Je kunt items die je aan hebt niet laten vallen.
-DROP_ITEM_FAILURE_PRIVATE_SHOP	Je kunt geen voorwerpen laten vallen als je privé warenhuis open is.
+DROP_ITEM_FAILURE_PRIVATE_SHOP	Je kunt geen voorwerpen laten vallen als je privÃ© warenhuis open is.
 DROP_MONEY_FAILURE_1000_OVER	Je kunt maximaal 999 Yang laten vallen.
 EMOTION_ANGRY	Ergerlijk
 EMOTION_ATTRACTIVE	Verleiding	
@@ -159,8 +159,8 @@ FOR_MALE	voor mannen
 GAME_CANNOT_MINING	Je kunt geen erts mijnen terwijl je rijdt.	
 GAME_CANNOT_PICK_ITEM	Je kunt dit Voorwerp niet oppakken want je hebt het niet gewonnen.	
 GAME_INIT_ERROR_CURSOR	De cursor kan niet worden gebruikt.	
-GAME_INIT_ERROR_DIRECTX	DirectX 8.1 moet geïnstalleerd worden zodat het spel kan draaien.\nInstalleer DirectX 8.1 or higher.	
-GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	Er is geen grafisch apparaat gevonden. \nControleer of je Videokaart correct geïnstalleerd is.
+GAME_INIT_ERROR_DIRECTX	DirectX 8.1 moet geÃ¯nstalleerd worden zodat het spel kan draaien.\nInstalleer DirectX 8.1 or higher.	
+GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	Er is geen grafisch apparaat gevonden. \nControleer of je Videokaart correct geÃ¯nstalleerd is.
 GAME_INIT_ERROR_GRAPHICS_NOT_EXIST	Grafisch apparaat kon niet gevonden worden. \nControleer of je een Grafische kaart hebt. \nOf, je kunt de hardware accelerator inschakelen \nStel de hardware accelerator in op max \nconfiguratiescherm -> beeldscherm -> instellingen- > geavanceerd -> probleem oplossen
 GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	De Grafische Kaart van de computer ondersteunt de venstermodus in 32bit Modus niet. \nVerander naar 16bit Modus of gebruik Volledige Scherm Modus.
 GAME_INIT_ERROR_ITEM_PROTO	Geen Voorwerp data aanwezig. \nInstalleer het spel opnieuw.	
@@ -241,7 +241,7 @@ HOW_MANY_ITEM_DO_YOU_DROP1	Wil je %s laten vallen?
 HOW_MANY_ITEM_DO_YOU_DROP2	Wil je %s %d laten vallen?	
 INPUT_MATRIX_CARD_NUMBER	Voer Matrix Kaartnummer in.	
 INPUT_MATRIX_CARD_TITLE	Matrix Kaart	
-INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Voer de code die je hebt gecreëerd in Account Beheer hier in.	
+INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Voer de code die je hebt gecreÃ«erd in Account Beheer hier in.	
 INPUT_PRIVATE_CODE_DIALOG_TITLE	Verwijder karakter	
 INVENTORY_DO_NOT_PACK_WARP_SCROLL	Geschrigten kunnen niet gecombineerd worden.	
 INVENTORY_REALLY_USE_ITEM	Dit voorwerp op dit voorwerp gebruiken?
@@ -424,7 +424,7 @@ MONETARY_UNIT0	Yang
 MONETARY_UNIT1	Tien Duizend	
 MONETARY_UNIT2	Honderd Miljard	
 MONEY_INPUT_DIALOG_SELLPRICE	Verkoop Prijs:	
-MOVE_ITEM_FAILURE_PRIVATE_SHOP	Je kunt geen voorwerpen verplaatsen wanneer je een privé Warenhuis hebt geopend.
+MOVE_ITEM_FAILURE_PRIVATE_SHOP	Je kunt geen voorwerpen verplaatsen wanneer je een privÃ© Warenhuis hebt geopend.
 MUSIC_EMPTY_MUSIC_LIST	Geen Achtergrond muziek.	
 MUSIC_METIN2_DEFAULT_THEMA	Metin2 Standaard muziek.	
 MUSIC_NOT_SELECT_MUSIC	Geen Muziek bestand geselecteerd.	
@@ -478,9 +478,9 @@ PARTY_SKILL_WARP	Mogelijk om groepsleden te roepen.
 PASSWORD_TITLE	Warenhuis wachtwoord
 PICK_ITEM_TITLE	Voorwerp Nummer	
 PICK_MONEY_TITLE	Som	
-PRIVATE_SHOP_CANNOT_SELL_ITEM	Je kunt dit Voorwerp niet  verkopen in een privé Warenhuis.
-PRIVATE_SHOP_CLOSE_QUESTION	Wil je deze privé Warenhuis sluiten?
-PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	Naam van de privé Warenhuis
+PRIVATE_SHOP_CANNOT_SELL_ITEM	Je kunt dit Voorwerp niet  verkopen in een privÃ© Warenhuis.
+PRIVATE_SHOP_CLOSE_QUESTION	Wil je deze privÃ© Warenhuis sluiten?
+PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	Naam van de privÃ© Warenhuis
 PRIVATE_SHOP_INPUT_PRICE_DIALOG_TITLE	Prijs
 PVP_LEVEL0	Ridderlijk	
 PVP_LEVEL1	Nobel	
@@ -523,7 +523,7 @@ REFINE_FAILURE_NO_GOLD_SOCKET	Er is geen Goud fitting om %s in te zetten.
 REFINE_FAILURE_NO_MORE_SOCKET	Je kunt niet meer Fittingen maken.	
 REFINE_FAILURE_NO_SOCKET0	Er is geen Fitting om %s in te zetten.
 REFINE_FAILURE_SOCKET_DISABLE_ITEM	Je kunt geen Fitting maken in dit Voorwerp.	
-REFINE_FAILURE_UPGRADE_DISABLE_ITEM	Dit Voorwerp kan niet geüpgrade worden.
+REFINE_FAILURE_UPGRADE_DISABLE_ITEM	Dit Voorwerp kan niet geÃ¼pgrade worden.
 REFINE_SUCCESS	Het bevorderen van het Voorwerp was successvol.	
 REFINE_SUCCESS_PROBALITY	Kans op Bevordering %d%%	
 REFINE_WARNING2	Wil je doorgaan?	
@@ -645,10 +645,10 @@ STAT_TOOLTIP_INT	Verhoogd TP, magische aanvalskracht en verdediging
 STAT_TOOLTIP_STR	Verhoogd Aanvals waarde en Schade
 SYMBOLLIST_TITLE	Registreer Gilde Vlag	
 SYSTEM_OPTION_CPU_TILING_1	CPU Tiling Mode kan de snelheid van een zwakke PC verhogen.	
-SYSTEM_OPTION_CPU_TILING_2	Al er een probleem is met de illustraties kies dan ,Systemoption‘ of ,CONFIG.exe‘	
+SYSTEM_OPTION_CPU_TILING_2	Al er een probleem is met de illustraties kies dan ,Systemoptionâ€˜ of ,CONFIG.exeâ€˜	
 SYSTEM_OPTION_CPU_TILING_3	en verander naar GPU Tiling Mode.	
 SYSTEM_OPTION_GPU_TILING_1	GPU Tiling Mode kan langzaam draaien op een zwakke PC.
-SYSTEM_OPTION_GPU_TILING_2	Als er problemen zijn met de illustraties, kies 'Systeem Opties‘ of 'CONFIG.exe‘
+SYSTEM_OPTION_GPU_TILING_2	Als er problemen zijn met de illustraties, kies 'Systeem Optiesâ€˜ of 'CONFIG.exeâ€˜
 SYSTEM_OPTION_GPU_TILING_3	en verander naar GPU Tiling Mode.
 SYSTEM_OPTION_TILING_EXIT	Om naar de Tiling Mode te veranderen moet het spel gerestart worden.
 TARGET_BUTTON_ACCEPT_FIGHT	Toestemmen	
@@ -658,7 +658,7 @@ TARGET_BUTTON_DISMOUNT	Afstijgen
 TARGET_BUTTON_EMOTION_ALLOW	Emoties	
 TARGET_BUTTON_EXCHANGE	Handelen	
 TARGET_BUTTON_EXCLUDE	Uitsluiten	
-TARGET_BUTTON_EXIT_OBSERVER	Beëndig Toeschouwer Mode	
+TARGET_BUTTON_EXIT_OBSERVER	BeÃ«ndig Toeschouwer Mode	
 TARGET_BUTTON_FIGHT	Duel	
 TARGET_BUTTON_FRIEND	Vriend	
 TARGET_BUTTON_INVITE_GUILD	Gilde Uitnodiging	
@@ -842,7 +842,7 @@ TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	Je kunt Groepsleden die op dezelfde server zi
 TOOLTIP_PARTY_INFO_SET_ATTACKER	Aanvals Level +(Getal Groepsleden./2) Aanvaller %d kan gekozen worden.	
 TOOLTIP_PARTY_INFO_SET_TANKER	Verdedigings Level +( Getal Groepsleden) Mesvechters 1 kan gekozen worden.	
 TOOLTIP_PARTY_SKILL_LEVEL	Huidige Level: %d	
-TOOLTIP_PARTY_TITLE_GRADE_UP	[Aanval/Verdediging geüpgrade]	
+TOOLTIP_PARTY_TITLE_GRADE_UP	[Aanval/Verdediging geÃ¼pgrade]	
 TOOLTIP_PARTY_TITLE_HEAL	[herstel]	
 TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Wanneer je meer dan %d Groepsleden hebt krijg je %d%% Bonus ERV.	
 TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Bonus ERV]	
@@ -932,5 +932,5 @@ UI_PREVPAGE	terug
 UI_UNKNOWN	Onbekend	
 UPLOAD_MARK_CHECK_NEED_RECONNECT	De upload moet opnieuw gestart worden.	
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	De upload moet opnieuw gestart worden.	
-USE_ITEM_FAILURE_PRIVATE_SHOP	Je kunt voorwerpen niet gebruiken terwijl je privé warenhuis open is.
+USE_ITEM_FAILURE_PRIVATE_SHOP	Je kunt voorwerpen niet gebruiken terwijl je privÃ© warenhuis open is.
 USE_SKILL_ERROR_UNKNOWN	Onbekend Vaardigheids Error: %s	
