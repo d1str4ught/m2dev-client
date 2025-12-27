@@ -53,6 +53,7 @@ class PhaseCurtain(ui.Bar):
 				event=self.event
 				self.event = 0
 
+				#print "Fade out complete event executed"
 
 				if -1 != self.args:
 					event(self.args)
