@@ -234,7 +234,7 @@ class CubeWindow(ui.ScriptWindow):
 		self.tooltipItem.AddItemData(itemVnum, metinSlot, attrSlot)
 		
 
-	# 재료를 클릭하면 인벤토리에서 해당 아이템을 찾아서 등록함.
+	# Click material to find and register item from inventory.
 	def __OnSelectMaterialSlot(self, trash, resultIndex, materialIndex):
 		resultIndex = resultIndex + self.firstSlotIndex
 		if resultIndex not in self.cubeMaterialInfos:
@@ -247,18 +247,18 @@ class CubeWindow(ui.ScriptWindow):
 			return
 
 		for itemVnum, itemCount in materialInfo[materialIndex]:
-			bAddedNow = False	# 이번에 클릭함으로써 아이템이 추가되었나?
+			bAddedNow = False	# Was item added by this click?
 			item.SelectItem(itemVnum)
 			itemSizeX, itemSizeY = item.GetItemSize()
 
-			# 제조에 필요한 만큼의 재료를 가지고 있는가?
+			# Do you have enough materials for crafting?
 			if player.GetItemCountByVnum(itemVnum) >= itemCount:
 				for i in xrange(player.INVENTORY_SLOT_COUNT):
 					vnum = player.GetItemIndex(i)
 					count= player.GetItemCount(i)
 
 					if vnum == itemVnum and count >= itemCount:
-						# 이미 같은 아이템이 등록되어 있는지 검사하고, 없다면 추가함
+						# Check if same item already registered, add if not
 						bAlreadyExists = False
 						for slotPos, invenPos in self.cubeItemInfo.items():
 							if invenPos == i:
@@ -269,17 +269,17 @@ class CubeWindow(ui.ScriptWindow):
 
 						#print "Cube Status : ", self.cubeItemInfo
 
-						# 여기 진입하면 큐브에 등록되지 않은 아이템이므로, 빈 큐브 슬롯에 해당 아이템 추가
+						# If entered here, item not registered in cube, so add to empty cube slot
 						bCanAddSlot = False
 						for slotPos in xrange(self.cubeSlot.GetSlotCount()):
-							# 이 큐브 슬롯이 비어있는가?
+							# Is this cube slot empty?
 							if not slotPos in self.cubeItemInfo:
 								upperColumnItemSizeY = -1
 								currentSlotLine = int(slotPos / self.CUBE_SLOT_COUNTX)
 								cubeColumn = int(slotPos % self.CUBE_SLOT_COUNTX)
 
 
-								# 만약 큐브에 3칸짜리 아이템이 등록되어 있다면, 이 열(column)은 더 이상 볼 것도 없이 넘어간다
+								# If 3-slot item registered in cube, skip this column entirely
 								if cubeColumn in self.cubeItemInfo:
 									columnVNUM = player.GetItemIndex(self.cubeItemInfo[cubeColumn])
 									item.SelectItem(columnVNUM)
@@ -293,7 +293,7 @@ class CubeWindow(ui.ScriptWindow):
 									item.SelectItem(upperColumnVNUM)
 									columnItemSizeX, upperColumnItemSizeY = item.GetItemSize()
 								
-								# 1칸짜리 아이템은 바로 윗줄에 한칸짜리 아이템이 있어야 함
+								# 1-slot items must have 1-slot item directly above
 								if 1 == itemSizeY: 
 									if 0 == currentSlotLine:
 										bCanAddSlot = True
@@ -301,13 +301,13 @@ class CubeWindow(ui.ScriptWindow):
 										bCanAddSlot = True
 									elif 2 == currentSlotLine:
 										bCanAddSlot = True
-								# 2칸짜리 아이템은 위아래가 비어있어야 함
+								# 2-slot items must have empty spaces above and below
 								elif 2 == itemSizeY:
 									if 0 == currentSlotLine and not cubeColumn + self.CUBE_SLOT_COUNTX in self.cubeItemInfo:
 										bCanAddSlot = True
 									elif 1 == currentSlotLine and 1 == upperColumnItemSizeY and not cubeColumn + (self.CUBE_SLOT_COUNTX * 2) in self.cubeItemInfo:
 										bCanAddSlot = True
-								# 3칸짜리 아이템은 해당 Column 자체가 모두 비어있어야 함
+								# 3-slot items require entire column to be empty
 								else:
 									if not cubeColumn in self.cubeItemInfo and not cubeColumn + self.CUBE_SLOT_COUNTX in self.cubeItemInfo and not cubeColumn + (self.CUBE_SLOT_COUNTX * 2) in self.cubeItemInfo:
 										bCanAddSlot = True
@@ -476,17 +476,17 @@ class CubeWindow(ui.ScriptWindow):
 		if self.isUsable:
 			self.isUsable = False
 
-			print "큐브 닫기"
+			print "Close cube"
 			net.SendChatPacket("/cube close")
 
 		self.Close()
 
 	def __OnAcceptButtonClick(self):
 		if len(self.cubeItemInfo) == 0:
-			"빈 큐브"
+			"Empty cube"
 			return
 		
-		print "큐브 제작 시작"		
+		print "Start cube crafting"		
 		#for invenPos in self.cubeItemInfo.values():
 		#	net.SendChatPacket("/cube add " + str(invenPos))
 		net.SendChatPacket("/cube make")			

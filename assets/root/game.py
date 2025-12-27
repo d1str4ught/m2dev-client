@@ -105,7 +105,7 @@ class GameWindow(ui.ScriptWindow):
 		self.playerGauge = uiPlayerGauge.PlayerGauge(self)
 		self.playerGauge.Hide()
 		
-		#wj 2014.1.2. ESC키를 누를 시 우선적으로 DropQuestionDialog를 끄도록 만들었다. 하지만 처음에 itemDropQuestionDialog가 선언되어 있지 않아 ERROR가 발생하여 init에서 선언과 동시에 초기화 시킴.
+		#wj 2014.1.2. ESC key prioritizes closing DropQuestionDialog. However, itemDropQuestionDialog not initially declared, causing ERROR, so declared and initialized in init.
 		self.itemDropQuestionDialog = None
 
 		self.__SetQuickSlotMode()
@@ -214,7 +214,7 @@ class GameWindow(ui.ScriptWindow):
 			exception.Abort("GameWindow.Open")
 		# END_OF_START_GAME_ERROR_EXIT
 		
-		# NPC가 큐브시스템으로 만들 수 있는 아이템들의 목록을 캐싱
+		# Cache list of items that NPC can craft via cube system
 		# ex) cubeInformation[20383] = [ {"rewordVNUM": 72723, "rewordCount": 1, "materialInfo": "101,1&102,2", "price": 999 }, ... ]
 		self.cubeInformation = {}
 		self.currentCubeNPC = 0
@@ -302,10 +302,10 @@ class GameWindow(ui.ScriptWindow):
 	def __BuildKeyDict(self):
 		onPressKeyDict = {}
 
-		##PressKey 는 누르고 있는 동안 계속 적용되는 키이다.
+		##PressKey continuously applies while key is held.
 		
-		## 숫자 단축키 퀵슬롯에 이용된다.(이후 숫자들도 퀵 슬롯용 예약)
-		## F12 는 클라 디버그용 키이므로 쓰지 않는 게 좋다.
+		## Used for number shortcut quickslots (subsequent numbers also reserved for quickslots)
+		## F12 is client debug key, should not be used here.
 		onPressKeyDict[app.DIK_1]	= lambda : self.__PressNumKey(1)
 		onPressKeyDict[app.DIK_2]	= lambda : self.__PressNumKey(2)
 		onPressKeyDict[app.DIK_3]	= lambda : self.__PressNumKey(3)
@@ -325,7 +325,7 @@ class GameWindow(ui.ScriptWindow):
 		onPressKeyDict[app.DIK_SYSRQ]		= lambda : self.SaveScreen()
 		onPressKeyDict[app.DIK_SPACE]		= lambda : self.StartAttack()
 
-		#캐릭터 이동키
+		#Character movement keys
 		onPressKeyDict[app.DIK_UP]			= lambda : self.MoveUp()
 		onPressKeyDict[app.DIK_DOWN]		= lambda : self.MoveDown()
 		onPressKeyDict[app.DIK_LEFT]		= lambda : self.MoveLeft()
@@ -572,12 +572,12 @@ class GameWindow(ui.ScriptWindow):
 		self.TextureNum.SetFontName(localeInfo.UI_DEF_FONT)
 		self.TextureNum.SetPosition(wndMgr.GetScreenWidth() - 270, 100)
 
-		# 오브젝트 그리는 개수
+		# Number of rendered objects
 		self.ObjectNum = ui.TextLine()
 		self.ObjectNum.SetFontName(localeInfo.UI_DEF_FONT)
 		self.ObjectNum.SetPosition(wndMgr.GetScreenWidth() - 270, 120)
 
-		# 시야거리
+		# View distance
 		self.ViewDistance = ui.TextLine()
 		self.ViewDistance.SetFontName(localeInfo.UI_DEF_FONT)
 		self.ViewDistance.SetPosition(0, 0)
@@ -1331,7 +1331,7 @@ class GameWindow(ui.ScriptWindow):
 			self.__DropMoney(attachedType, attachedMoney)
 
 	def __DropMoney(self, attachedType, attachedMoney):
-		# PRIVATESHOP_DISABLE_ITEM_DROP - 개인상점 열고 있는 동안 아이템 버림 방지
+		# PRIVATESHOP_DISABLE_ITEM_DROP - Prevent item dropping while private shop is open
 		if uiPrivateShopBuilder.IsBuildingPrivateShop():			
 			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.DROP_ITEM_FAILURE_PRIVATE_SHOP)
 			return
@@ -1353,7 +1353,7 @@ class GameWindow(ui.ScriptWindow):
 		self.itemDropQuestionDialog = itemDropQuestionDialog
 
 	def __DropItem(self, attachedType, attachedItemIndex, attachedItemSlotPos, attachedItemCount):
-		# PRIVATESHOP_DISABLE_ITEM_DROP - 개인상점 열고 있는 동안 아이템 버림 방지
+		# PRIVATESHOP_DISABLE_ITEM_DROP - Prevent item dropping while private shop is open
 		if uiPrivateShopBuilder.IsBuildingPrivateShop():			
 			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.DROP_ITEM_FAILURE_PRIVATE_SHOP)
 			return
@@ -1485,7 +1485,7 @@ class GameWindow(ui.ScriptWindow):
 		
 	def UpdateDebugInfo(self):
 		#
-		# 캐릭터 좌표 및 FPS 출력
+		# Output character coordinates and FPS
 		(x, y, z) = player.GetMainCharacterPosition()
 		nUpdateTime = app.GetUpdateTime()
 		nUpdateFPS = app.GetUpdateFPS()
@@ -1648,22 +1648,22 @@ class GameWindow(ui.ScriptWindow):
 	def BINARY_Cube_Close(self):
 		self.interface.CloseCubeWindow()
 
-	# 제작에 필요한 골드, 예상되는 완성품의 VNUM과 개수 정보 update
+	# Update required gold, expected product VNUM and count information
 	def BINARY_Cube_UpdateInfo(self, gold, itemVnum, count):
 		self.interface.UpdateCubeInfo(gold, itemVnum, count)
 		
 	def BINARY_Cube_Succeed(self, itemVnum, count):
-		print "큐브 제작 성공"
+		print "Cube crafting successful"
 		self.interface.SucceedCubeWork(itemVnum, count)
 		pass
 
 	def BINARY_Cube_Failed(self):
-		print "큐브 제작 실패"
+		print "Cube crafting failed"
 		self.interface.FailedCubeWork()
 		pass
 
 	def BINARY_Cube_ResultList(self, npcVNUM, listText):
-		# ResultList Text Format : 72723,1/72725,1/72730.1/50001,5  이런식으로 "/" 문자로 구분된 리스트를 줌
+		# ResultList Text Format: 72723,1/72725,1/72730.1/50001,5 - list separated by "/" character
 		#print listText
 		
 		if npcVNUM == 0:
@@ -1764,7 +1764,7 @@ class GameWindow(ui.ScriptWindow):
 	
 	# END_OF_CUBE
 	
-	# 용혼석	
+	# Dragon Soul Stone	
 	def BINARY_Highlight_Item(self, inven_type, inven_pos):
 		self.interface.Highligt_Item(inven_type, inven_pos)
 	

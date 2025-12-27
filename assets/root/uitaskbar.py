@@ -152,7 +152,7 @@ class EnergyBar(ui.ScriptWindow):
 	def RefreshStatus(self):
 		pointEnergy = player.GetStatus (player.ENERGY)
 		leftTimeEnergy = player.GetStatus (player.ENERGY_END_TIME) - app.GetGlobalTimeStamp()
-		# 충기환 지속 시간 = 2시간.
+		# Energy pill duration = 2 hours.
 		self.SetEnergy (pointEnergy, leftTimeEnergy, 7200)
 			
 	def SetEnergy (self, point, leftTime, maxTime):
@@ -330,12 +330,12 @@ class TaskBar(ui.ScriptWindow):
 			self.SetSkillSlotNew(slotNumber, skillIndex, skillGrade, skillLevel)
 			self.SetSlotCountNew(slotNumber, skillGrade, skillLevel)
 
-			## NOTE : CoolTime 체크
+			## NOTE: Check cooltime
 			if player.IsSkillCoolTime(skillSlotNumber):
 				(coolTime, elapsedTime) = player.GetSkillCoolTime(skillSlotNumber)
 				self.SetSlotCoolTime(slotNumber, coolTime, elapsedTime)
 
-			## NOTE : Activate 되어 있다면 아이콘도 업데이트
+			## NOTE: If activated, update icon as well
 			if player.IsSkillActive(skillSlotNumber):
 				self.ActivateSlot(slotNumber)
 
@@ -438,7 +438,7 @@ class TaskBar(ui.ScriptWindow):
 		toggleButtonDict[TaskBar.BUTTON_MESSENGER]=self.GetChild("MessengerButton")
 		toggleButtonDict[TaskBar.BUTTON_SYSTEM]=self.GetChild("SystemButton")
 		
-		# ChatButton, ExpandButton 둘 중 하나는 반드시 존재한다.
+		# Either ChatButton or ExpandButton must exist.
 		try:
 			toggleButtonDict[TaskBar.BUTTON_CHAT]=self.GetChild("ChatButton")
 		except:
