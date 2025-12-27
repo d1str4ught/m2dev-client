@@ -13,7 +13,7 @@ import uiRefine
 import uiAttachMetin
 import uiPickMoney
 import uiCommon
-import uiPrivateShopBuilder # 개인상점 열동안 ItemMove 방지
+import uiPrivateShopBuilder # Prevent ItemMove while private shop is open
 import localeInfo
 import constInfo
 import ime
@@ -156,7 +156,7 @@ class BeltInventoryWindow(ui.ScriptWindow):
 		if app.IsRTL() == 0:
 			self.AdjustPositionAndSize()
 
-	## 현재 인벤토리 위치를 기준으로 BASE 위치를 계산, 리턴.. 숫자 하드코딩하기 정말 싫지만 방법이 없다..
+	## Calculate and return BASE position based on current inventory position. Hard-coded numbers are unavoidable.
 	def GetBasePosition(self):
 		x, y = self.wndInventory.GetGlobalPosition()
 		return x - 148, y + 241
@@ -251,13 +251,13 @@ class InventoryWindow(ui.ScriptWindow):
 	
 	sellingSlotNumber = -1
 	isLoaded = 0
-	isOpenedCostumeWindowWhenClosingInventory = 0		# 인벤토리 닫을 때 코스츔이 열려있었는지 여부-_-; 네이밍 ㅈㅅ
-	isOpenedBeltWindowWhenClosingInventory = 0		# 인벤토리 닫을 때 벨트 인벤토리가 열려있었는지 여부-_-; 네이밍 ㅈㅅ
+	isOpenedCostumeWindowWhenClosingInventory = 0		# Whether costume window was open when closing inventory
+	isOpenedBeltWindowWhenClosingInventory = 0		# Whether belt inventory was open when closing inventory
 
 	def __init__(self):
 		ui.ScriptWindow.__init__(self)
 
-		self.isOpenedBeltWindowWhenClosingInventory = 0		# 인벤토리 닫을 때 벨트 인벤토리가 열려있었는지 여부-_-; 네이밍 ㅈㅅ
+		self.isOpenedBeltWindowWhenClosingInventory = 0		# Whether belt inventory was open when closing inventory
 
 		self.__LoadWindow()
 
@@ -269,11 +269,11 @@ class InventoryWindow(ui.ScriptWindow):
 
 		ui.ScriptWindow.Show(self)
 
-		# 인벤토리를 닫을 때 코스츔이 열려있었다면 인벤토리를 열 때 코스츔도 같이 열도록 함.
+		# If costume window was open when closing inventory, open it again when opening inventory.
 		if self.isOpenedCostumeWindowWhenClosingInventory and self.wndCostume:
 			self.wndCostume.Show() 
 
-		# 인벤토리를 닫을 때 벨트 인벤토리가 열려있었다면 같이 열도록 함.
+		# If belt inventory was open when closing inventory, open it again.
 		if self.wndBelt:
 			self.wndBelt.Show(self.isOpenedBeltWindowWhenClosingInventory)
 
@@ -439,11 +439,11 @@ class InventoryWindow(ui.ScriptWindow):
 			self.tooltipItem.HideToolTip()
 
 		if self.wndCostume:
-			self.isOpenedCostumeWindowWhenClosingInventory = self.wndCostume.IsShow()			# 인벤토리 창이 닫힐 때 코스츔이 열려 있었는가?
+			self.isOpenedCostumeWindowWhenClosingInventory = self.wndCostume.IsShow()			# Was costume window open when inventory was closed?
 			self.wndCostume.Close()
  
 		if self.wndBelt:
-			self.isOpenedBeltWindowWhenClosingInventory = self.wndBelt.IsOpeningInventory()		# 인벤토리 창이 닫힐 때 벨트 인벤토리도 열려 있었는가?
+			self.isOpenedBeltWindowWhenClosingInventory = self.wndBelt.IsOpeningInventory()		# Was belt inventory open when inventory was closed?
 			print "Is Opening Belt Inven?? ", self.isOpenedBeltWindowWhenClosingInventory
 			self.wndBelt.Close()
   
@@ -508,7 +508,7 @@ class InventoryWindow(ui.ScriptWindow):
 			self.dlgPickMoney.SetTitleName(localeInfo.PICK_MONEY_TITLE)
 			self.dlgPickMoney.SetAcceptEvent(ui.__mem_func__(self.OnPickMoney))
 			self.dlgPickMoney.Open(curMoney)
-			self.dlgPickMoney.SetMax(7) # 인벤토리 990000 제한 버그 수정
+			self.dlgPickMoney.SetMax(7) # Fixed inventory 990000 limit bug
 
 	def OnPickMoney(self, money):
 		mouseModule.mouseController.AttachMoney(self, player.SLOT_TYPE_INVENTORY, money)
@@ -533,7 +533,7 @@ class InventoryWindow(ui.ScriptWindow):
 			slotNumber = self.__InventoryLocalSlotPosToGlobalSlotPos(i)
 			
 			itemCount = getItemCount(slotNumber)
-			# itemCount == 0이면 소켓을 비운다.
+			# If itemCount == 0, clear the slot.
 			if 0 == itemCount:
 				self.wndItem.ClearSlot(i)
 				continue
@@ -543,9 +543,9 @@ class InventoryWindow(ui.ScriptWindow):
 			itemVnum = getItemVNum(slotNumber)
 			setItemVNum(i, itemVnum, itemCount)
 			
-			## 자동물약 (HP: #72723 ~ #72726, SP: #72727 ~ #72730) 특수처리 - 아이템인데도 슬롯에 활성화/비활성화 표시를 위한 작업임 - [hyo]
+			## Auto-potion special handling (HP: #72723~#72726, SP: #72727~#72730) - Display activation/deactivation in slot even though it's an item - [hyo]
 			if constInfo.IS_AUTO_POTION(itemVnum):
-				# metinSocket - [0] : 활성화 여부, [1] : 사용한 양, [2] : 최대 용량
+				# metinSocket - [0]: Activation status, [1]: Amount used, [2]: Maximum capacity
 				metinSocket = [player.GetItemMetinSocket(slotNumber, j) for j in xrange(player.METIN_SOCKET_MAX_NUM)]	
 				
 				if slotNumber >= player.INVENTORY_PAGE_SIZE * self.inventoryPageIndex:
@@ -614,7 +614,7 @@ class InventoryWindow(ui.ScriptWindow):
 	def SellItem(self):
 		if self.sellingSlotitemIndex == player.GetItemIndex(self.sellingSlotNumber):
 			if self.sellingSlotitemCount == player.GetItemCount(self.sellingSlotNumber):
-				## 용혼석도 팔리게 하는 기능 추가하면서 인자 type 추가
+				## Added type argument to enable selling dragon soul stones
 				net.SendShopSellPacketNew(self.sellingSlotNumber, self.questionDialog.count, player.INVENTORY)
 				snd.PlaySound("sound/ui/money.wav")
 		self.OnCloseQuestionDialog()
@@ -764,10 +764,10 @@ class InventoryWindow(ui.ScriptWindow):
 		else:
 			#snd.PlaySound("sound/ui/drop.wav")
 
-			## 이동시킨 곳이 장착 슬롯일 경우 아이템을 사용해서 장착 시킨다 - [levites]
+			## If destination is an equipment slot, use item to equip it - [levites]
 			if player.IsEquipmentSlot(dstItemSlotPos):
 
-				## 들고 있는 아이템이 장비일때만
+				## Only when holding equipment item
 				if item.IsEquipmentVID(srcItemVID):
 					self.__UseItem(srcItemSlotPos)
 
@@ -786,7 +786,7 @@ class InventoryWindow(ui.ScriptWindow):
 			self.sellingSlotitemCount = itemCount
 
 			item.SelectItem(itemIndex)
-			## 안티 플레그 검사 빠져서 추가
+			## Added anti-flag check that was missing
 			## 20140220
 			if item.IsAntiFlag(item.ANTIFLAG_SELL):
 				popup = uiCommon.PopupDialog()
@@ -932,7 +932,7 @@ class InventoryWindow(ui.ScriptWindow):
 
 
 	def __IsUsableItemToItem(self, srcItemVNum, srcSlotPos):
-		"다른 아이템에 사용할 수 있는 아이템인가?"
+		"Can this item be used on other items?"
 
 		if item.IsRefineScroll(srcItemVNum):
 			return True
@@ -951,7 +951,7 @@ class InventoryWindow(ui.ScriptWindow):
 		return False
 
 	def __CanUseSrcItemToDstItem(self, srcItemVNum, srcSlotPos, dstSlotPos):
-		"대상 아이템에 사용할 수 있는가?"
+		"Can this item be used on the target item?"
 
 		if srcSlotPos == dstSlotPos:
 			return False
@@ -1158,7 +1158,7 @@ class InventoryWindow(ui.ScriptWindow):
 		self.OnCloseQuestionDialog()		
 
 	def __SendUseItemToItemPacket(self, srcSlotPos, dstSlotPos):
-		# 개인상점 열고 있는 동안 아이템 사용 방지
+		# Prevent item usage while private shop is open
 		if uiPrivateShopBuilder.IsBuildingPrivateShop():
 			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.USE_ITEM_FAILURE_PRIVATE_SHOP)
 			return
@@ -1166,7 +1166,7 @@ class InventoryWindow(ui.ScriptWindow):
 		net.SendItemUseToItemPacket(srcSlotPos, dstSlotPos)
 
 	def __SendUseItemPacket(self, slotPos):
-		# 개인상점 열고 있는 동안 아이템 사용 방지
+		# Prevent item usage while private shop is open
 		if uiPrivateShopBuilder.IsBuildingPrivateShop():
 			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.USE_ITEM_FAILURE_PRIVATE_SHOP)
 			return
@@ -1174,7 +1174,7 @@ class InventoryWindow(ui.ScriptWindow):
 		net.SendItemUsePacket(slotPos)
 	
 	def __SendMoveItemPacket(self, srcSlotPos, dstSlotPos, srcItemCount):
-		# 개인상점 열고 있는 동안 아이템 사용 방지
+		# Prevent item movement while private shop is open
 		if uiPrivateShopBuilder.IsBuildingPrivateShop():
 			chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.MOVE_ITEM_FAILURE_PRIVATE_SHOP)
 			return
