@@ -261,7 +261,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\YMIR WORK\pc\warrior\effect\orange_cure copy.jpg"
+            "D:\YMIR WORK\pc\warrior\effect\orange_cure copy.dds"
         }
     }
 }

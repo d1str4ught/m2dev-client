@@ -138,7 +138,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\Rotation of Rsotation of 3.jpg"
+            "D:\Ymir Work\pc\shaman\effect\Rotation of Rsotation of 3.dds"
         }
     }
 }
@@ -264,7 +264,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\sa_za_hu_inter_pasthit6.jpg"
+            "D:\Ymir Work\pc\shaman\effect\sa_za_hu_inter_pasthit6.dds"
         }
     }
 }

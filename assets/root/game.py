@@ -1304,6 +1304,17 @@ class GameWindow(ui.ScriptWindow):
 					self.stream.popupWindow.Close()
 					self.stream.popupWindow.Open(localeInfo.EXCHANGE_FAILURE_EQUIP_ITEM, 0, localeInfo.UI_OK)
 				else:
+					# MR-3: Auto-deactivate auto potions before moving out (dragging onto character)
+					if attachedType == player.SLOT_TYPE_INVENTORY:
+						itemVnum = player.GetItemIndex(attachedInvenType, attachedItemSlotPos)
+
+						if constInfo.IS_AUTO_POTION(itemVnum):
+							metinSocket = [player.GetItemMetinSocket(attachedInvenType, attachedItemSlotPos, j) for j in xrange(player.METIN_SOCKET_MAX_NUM)]
+							isActivated = (0 != int(metinSocket[0]))
+
+							if isActivated:
+								net.SendItemUsePacket(attachedItemSlotPos)
+					# MR-3: -- END OF -- Auto-deactivate auto potions before moving out
 					if chr.IsNPC(dstChrID):
 						net.SendGiveItemPacket(dstChrID, attachedInvenType, attachedItemSlotPos, attachedItemCount)
 					else:

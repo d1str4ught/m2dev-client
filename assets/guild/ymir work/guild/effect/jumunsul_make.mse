@@ -254,7 +254,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\jigam.jpg"
+            "D:\Ymir Work\pc\shaman\effect\jigam.dds"
         }
     }
 }
@@ -378,7 +378,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\w_ring.jpg"
+            "D:\Ymir Work\pc\shaman\effect\w_ring.dds"
         }
     }
 }
@@ -500,7 +500,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\white_sphere.jpg"
+            "D:\Ymir Work\pc\shaman\effect\white_sphere.dds"
         }
     }
 }
@@ -633,7 +633,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\white_sphere.jpg"
+            "D:\Ymir Work\pc\shaman\effect\white_sphere.dds"
         }
     }
 }
@@ -756,7 +756,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\wind.jpg"
+            "D:\Ymir Work\pc\shaman\effect\wind.dds"
         }
     }
 }
@@ -880,7 +880,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\W_star.jpg"
+            "D:\Ymir Work\pc\shaman\effect\W_star.dds"
         }
     }
 }
@@ -1008,7 +1008,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\jigam_ring.jpg"
+            "D:\Ymir Work\pc\shaman\effect\jigam_ring.dds"
         }
     }
 }
@@ -1133,7 +1133,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\gyeokgong_triple_loop_2.jpg"
+            "D:\Ymir Work\pc\shaman\effect\gyeokgong_triple_loop_2.dds"
         }
     }
 }
@@ -1273,7 +1273,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\noe_w_ring.jpg"
+            "D:\Ymir Work\pc\shaman\effect\noe_w_ring.dds"
         }
     }
 }

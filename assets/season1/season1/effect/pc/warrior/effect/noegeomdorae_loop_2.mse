@@ -122,7 +122,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\go_fragment_3.jpg"
+            "D:\Ymir Work\pc\shaman\effect\go_fragment_3.dds"
         }
     }
 }

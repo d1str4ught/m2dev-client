@@ -132,6 +132,18 @@ class ExchangeDialog(ui.ScriptWindow):
 				DstSlotNumber = SlotIndex
 
 				itemID = player.GetItemIndex(attachedInvenType, SrcSlotNumber)
+
+				# MR-3: Auto-deactivate auto potions before moving out
+				if attachedSlotType == player.SLOT_TYPE_INVENTORY:
+					itemVnum = player.GetItemIndex(attachedInvenType, SrcSlotNumber)
+
+					if constInfo.IS_AUTO_POTION(itemVnum):
+						metinSocket = [player.GetItemMetinSocket(attachedInvenType, SrcSlotNumber, j) for j in xrange(player.METIN_SOCKET_MAX_NUM)]
+						isActivated = (0 != int(metinSocket[0]))
+
+						if isActivated:
+							net.SendItemUsePacket(SrcSlotNumber)
+				# MR-3: -- END OF -- Auto-deactivate auto potions before moving out
 				item.SelectItem(itemID)
 
 				if item.IsAntiFlag(item.ANTIFLAG_GIVE):
