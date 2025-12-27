@@ -930,6 +930,7 @@ class LoginWindow(ui.ScriptWindow):
 			self.PopupNotifyMessage(localeInfo.CHANNEL_SELECT_CHANNEL)
 			return
 
+		# Entry is prohibited if status equals FULL
 		if state == serverInfo.STATE_DICT[3]: 
 			self.PopupNotifyMessage(localeInfo.CHANNEL_NOTIFY_FULL)
 			return
