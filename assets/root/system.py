@@ -291,6 +291,5 @@ debugInfo.SetDebugMode(__DEBUG__)
 
 loginMark = "-cs"
 
-app.__COMMAND_LINE__ = __COMMAND_LINE__
 RunMainScript("prototype.py")
 

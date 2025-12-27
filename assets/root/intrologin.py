@@ -38,22 +38,6 @@ def Suffle(src):
 	else:
 		return src
 
-if localeInfo.IsNEWCIBN() or localeInfo.IsCIBN10():
-	LOGIN_DELAY_SEC = 60.0
-	FULL_BACK_IMAGE = True
-
-elif localeInfo.IsYMIR() or localeInfo.IsCHEONMA():
-	FULL_BACK_IMAGE = True
-
-elif localeInfo.IsHONGKONG():
-	FULL_BACK_IMAGE = True
-
-elif localeInfo.IsJAPAN():
-	FULL_BACK_IMAGE = True
-	
-elif localeInfo.IsBRAZIL():
-	LOGIN_DELAY_SEC = 60.0
-
 def IsFullBackImage():
 	global FULL_BACK_IMAGE
 	return FULL_BACK_IMAGE
@@ -137,9 +121,6 @@ class ConnectingDialog(ui.ScriptWindow):
 		return True
 
 class LoginWindow(ui.ScriptWindow):
-
-	IS_TEST = net.IsTest()
-
 	def __init__(self, stream):
 		print "NEW LOGIN WINDOW  ----------------------------------------------------------------------------"
 		ui.ScriptWindow.__init__(self)
@@ -355,23 +336,12 @@ class LoginWindow(ui.ScriptWindow):
 			self.idEditLine.SetFocus()
 
 	def SetPasswordEditLineFocus(self):
-		if localeInfo.IsEUROPE():
-			if self.idEditLine != None: #0000862: [M2EU] 로그인창 팝업 에러: 종료시 먼저 None 설정됨
-				self.idEditLine.SetText("")
-				self.idEditLine.SetFocus() #0000685: [M2EU] 아이디/비밀번호 유추 가능 버그 수정: 무조건 아이디로 포커스가 가게 만든다
-
-			if self.pwdEditLine != None: #0000862: [M2EU] 로그인창 팝업 에러: 종료시 먼저 None 설정됨
-				self.pwdEditLine.SetText("")
-		else:
-			if self.pwdEditLine != None:
-				self.pwdEditLine.SetFocus()								
+		if self.pwdEditLine != None:
+			self.pwdEditLine.SetFocus()
 
 	def OnEndCountDown(self):
 		self.isNowCountDown = False
-		if localeInfo.IsBRAZIL():
-			self.timeOutMsg = True
-		else:
-			self.timeOutMsg = False
+		self.timeOutMsg = False
 		self.OnConnectFailure()
 
 	def OnConnectFailure(self):
@@ -461,20 +431,13 @@ class LoginWindow(ui.ScriptWindow):
 			self.selectConnectButton	= GetObject("SelectConnectButton")
 			self.loginButton			= GetObject("LoginButton")
 			self.loginExitButton		= GetObject("LoginExitButton")
-			
-			if localeInfo.IsVIETNAM():
-				self.checkButton = GetObject("CheckButton")				
-				self.checkButton.Down()
 
 			self.virtualKeyboard		= self.GetChild2("VirtualKeyboard")
 
 			if self.virtualKeyboard:
 				self.VIRTUAL_KEY_ALPHABET_UPPERS = Suffle(localeInfo.VIRTUAL_KEY_ALPHABET_UPPERS)
 				self.VIRTUAL_KEY_ALPHABET_LOWERS = "".join([localeInfo.VIRTUAL_KEY_ALPHABET_LOWERS[localeInfo.VIRTUAL_KEY_ALPHABET_UPPERS.index(e)] for e in self.VIRTUAL_KEY_ALPHABET_UPPERS])
-				if localeInfo.IsBRAZIL():
-					self.VIRTUAL_KEY_SYMBOLS_BR = Suffle(localeInfo.VIRTUAL_KEY_SYMBOLS_BR)
-				else:
-					self.VIRTUAL_KEY_SYMBOLS = Suffle(localeInfo.VIRTUAL_KEY_SYMBOLS)
+				self.VIRTUAL_KEY_SYMBOLS = Suffle(localeInfo.VIRTUAL_KEY_SYMBOLS)
 				self.VIRTUAL_KEY_NUMBERS = Suffle(localeInfo.VIRTUAL_KEY_NUMBERS)
 				self.__VirtualKeyboard_SetAlphabetMode()
 			
@@ -490,10 +453,7 @@ class LoginWindow(ui.ScriptWindow):
 			import exception
 			exception.Abort("LoginWindow.__LoadScript.BindObject")
 
-		if self.IS_TEST:
-			self.selectConnectButton.Hide()
-		else:
-			self.selectConnectButton.SetEvent(ui.__mem_func__(self.__OnClickSelectConnectButton))
+		self.selectConnectButton.SetEvent(ui.__mem_func__(self.__OnClickSelectConnectButton))
 
 		self.serverBoard.OnKeyUp = ui.__mem_func__(self.__ServerBoard_OnKeyUp)
 		self.xServerBoard, self.yServerBoard = self.serverBoard.GetLocalPosition()
@@ -556,10 +516,7 @@ class LoginWindow(ui.ScriptWindow):
 		if self.virtualKeyboardMode == "ALPHABET":
 			self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_ALPHABET_UPPERS)
 		elif self.virtualKeyboardMode == "NUMBER":
-			if localeInfo.IsBRAZIL():
-				self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_SYMBOLS_BR)
-			else:	
-				self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_SYMBOLS)
+			self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_SYMBOLS)
 		else:
 			self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_NUMBERS)
 			
@@ -571,10 +528,7 @@ class LoginWindow(ui.ScriptWindow):
 		elif self.virtualKeyboardMode == "NUMBER":
 			self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_NUMBERS)			
 		else:
-			if localeInfo.IsBRAZIL():
-				self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_SYMBOLS_BR)
-			else:	
-				self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_SYMBOLS)
+			self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_SYMBOLS)
 			
 	def __VirtualKeyboard_SetAlphabetMode(self):
 		self.virtualKeyboardIsUpper = False
@@ -586,13 +540,10 @@ class LoginWindow(ui.ScriptWindow):
 		self.virtualKeyboardMode = "NUMBER"
 		self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_NUMBERS)
 					
-	def __VirtualKeyboard_SetSymbolMode(self):		
+	def __VirtualKeyboard_SetSymbolMode(self):
 		self.virtualKeyboardIsUpper = False
 		self.virtualKeyboardMode = "SYMBOL"
-		if localeInfo.IsBRAZIL():
-			self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_SYMBOLS_BR)
-		else:	
-			self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_SYMBOLS)
+		self.__VirtualKeyboard_SetKeys(self.VIRTUAL_KEY_SYMBOLS)
 				
 	def Connect(self, id, pwd):
 
@@ -645,43 +596,18 @@ class LoginWindow(ui.ScriptWindow):
 		id=loginInfo.get("id", "")
 		pwd=loginInfo.get("pwd", "")
 
-		if self.IS_TEST:
-			try:
-				addr=loginInfo["addr"]
-				port=loginInfo["port"]
-				account_addr=addr
-				account_port=port
+		addr=loginInfo.get("addr", "")
+		port=loginInfo.get("port", 0)
+		account_addr=loginInfo.get("account_addr", addr)
+		account_port=loginInfo.get("account_port", port)
 
-				net.SetMarkServer(addr, port)
-				self.__SetServerInfo(locale.CHANNEL_TEST_SERVER_ADDR % (addr, port))
-			except:
-				try:
-					addr=serverInfo.TESTADDR["ip"]
-					port=serverInfo.TESTADDR["tcp_port"]
+		locale = loginInfo.get("locale", "")
 
-					net.SetMarkServer(addr, port)
-					self.__SetServerInfo(locale.CHANNEL_TEST_SERVER)
-				except:
-					import exception
-					exception.Abort("LoginWindow.__LoadLoginInfo - 테스트서버 주소가 없습니다")
+		if addr and port:
+			net.SetMarkServer(addr, port)
 
-		else:
-			addr=loginInfo.get("addr", "")
-			port=loginInfo.get("port", 0)
-			account_addr=loginInfo.get("account_addr", addr)
-			account_port=loginInfo.get("account_port", port)
-
-			locale = loginInfo.get("locale", "")
-
-			if addr and port:
-				net.SetMarkServer(addr, port)
-
-				if locale == "ymir" :
-					net.SetServerInfo("천마 서버")
-					self.serverInfo.SetText("Y:"+addr+":"+str(port))
-				else:
-					net.SetServerInfo(addr+":"+str(port))
-					self.serverInfo.SetText("K:"+addr+":"+str(port))
+			net.SetServerInfo(addr+":"+str(port))
+			self.serverInfo.SetText("K:"+addr+":"+str(port))
 
 		slot=loginInfo.get("slot", 0)
 		isAutoLogin=loginInfo.get("auto", 0)
@@ -789,11 +715,8 @@ class LoginWindow(ui.ScriptWindow):
 
 		self.serverList.SelectItem(serverIndex)
 
-		if localeInfo.IsEUROPE():
-			self.channelList.SelectItem(app.GetRandom(0, self.channelList.GetItemCount()))
-		else:
-			if channelIndex >= 0:
-				self.channelList.SelectItem(channelIndex)
+		if channelIndex >= 0:
+			self.channelList.SelectItem(channelIndex)
 
 		## Show/Hide 코드에 문제가 있어서 임시 - [levites]
 		self.serverBoard.SetPosition(self.xServerBoard, self.yServerBoard)
@@ -869,25 +792,13 @@ class LoginWindow(ui.ScriptWindow):
 		visible_index = 1
 		for id, regionDataDict in regionDict.items():
 			name = regionDataDict.get("name", "noname")
-			if localeInfo.IsBRAZIL() or localeInfo.IsCANADA():
-				self.serverList.InsertItem(id, "%s" % (name))
-			else:
-				if localeInfo.IsCIBN10():			
-					if name[0] == "#":
-						self.serverList.InsertItem(-1, "  %s" % (name[1:]))
-					else:
-						self.serverList.InsertItem(id, "  %s" % (name))
-						visible_index += 1
-				else:
-					try:
-						server_id = serverInfo.SERVER_ID_DICT[id]
-					except:
-						server_id = visible_index
+			try:
+				server_id = serverInfo.SERVER_ID_DICT[id]
+			except:
+				server_id = visible_index
 
-					self.serverList.InsertItem(id, "  %02d. %s" % (int(server_id), name))
-					
-					visible_index += 1
-		
+			self.serverList.InsertItem(id, "  %02d. %s" % (int(server_id), name))
+			visible_index += 1
 		# END_OF_SEVER_LIST_BUG_FIX
 
 	def __OnSelectServer(self):
@@ -1030,12 +941,6 @@ class LoginWindow(ui.ScriptWindow):
 			serverName = serverInfo.REGION_DICT[regionID][serverID]["name"]
 			channelName = serverInfo.REGION_DICT[regionID][serverID]["channel"][channelID]["name"]
 			addrKey = serverInfo.REGION_DICT[regionID][serverID]["channel"][channelID]["key"]
-			
-			if "천마 서버" == serverName:			
-				app.ForceSetLocale("ymir", "locale/ymir")
-			elif "쾌도 서버" == serverName:			
-				app.ForceSetLocale("we_korea", "locale/we_korea")				
-				
 		except:
 			print " ERROR __OnClickSelectServerButton(%d, %d, %d)" % (regionID, serverID, channelID)
 			serverName = localeInfo.CHANNEL_EMPTY_SERVER

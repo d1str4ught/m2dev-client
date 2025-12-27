@@ -174,15 +174,15 @@ class WhisperDialog(ui.ScriptWindow):
 			self.SetSize(width, height)
 
 			if 0 != self.targetName:
-				chat.SetWhisperBoxSize(self.targetName, width - 50, height - 90)			
-			
-			if localeInfo.IsARABIC():
+				chat.SetWhisperBoxSize(self.targetName, width - 50, height - 90)
+
+			if app.IsRTL():
 				self.textRenderer.SetPosition(width-20, 28)
 				self.scrollBar.SetPosition(width-25+self.scrollBar.GetWidth(), 35)
 				self.editBar.SetPosition(10 + self.editBar.GetWidth(), height-60)
 				self.sendButton.SetPosition(width - 80 + self.sendButton.GetWidth(), 10)
 				self.minimizeButton.SetPosition(width-42 + self.minimizeButton.GetWidth(), 12)
-				self.closeButton.SetPosition(width-24+self.closeButton.GetWidth(), 12)				
+				self.closeButton.SetPosition(width-24+self.closeButton.GetWidth(), 12)
 				self.chatLine.SetPosition(5 + self.chatLine.GetWidth(), 5)
 				self.board.SetPosition(self.board.GetWidth(), 0)
 			else:
@@ -217,10 +217,7 @@ class WhisperDialog(ui.ScriptWindow):
 		self.textRenderer.SetTargetName(targetName)
 		self.titleNameEdit.Hide()
 		self.ignoreButton.Hide()
-		if app.IsDevStage():
-			self.reportViolentWhisperButton.Show()
-		else:
-			self.reportViolentWhisperButton.Hide()
+		self.reportViolentWhisperButton.Hide()
 		self.acceptButton.Hide()
 		self.gamemasterMark.Hide()
 		self.minimizeButton.Show()

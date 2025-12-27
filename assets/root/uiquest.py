@@ -651,7 +651,7 @@ class QuestDialog(ui.ScriptWindow):
 
 		# ESC키가 눌린 경우 "다음" 버튼을 누른 것과 같은 효과를 내도록 함.
 		if None != self.btnNext:
-			##퀘스트문자들이 전부다 나왔을경우의 ESC버튼
+		    ##퀘스트문자들이 전부다 나왔을경우의 ESC버튼
 			if event.BUTTON_TYPE_CANCEL == self.nextButtonType:
 				self.bCancelled = True
 				event.SelectAnswer(self.descIndex, 254)

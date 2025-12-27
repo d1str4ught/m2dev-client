@@ -20,11 +20,11 @@ import uiInventory
 import sys
 ITEM_FLAG_APPLICABLE = 1 << 14
 
-# ��ȥ�� Vnum�� ���� comment	
-# ITEM VNUM�� 10�� �ڸ�����, FEDCBA��� �Ѵٸ�
-# FE : ��ȥ�� ����.	D : ���
-# C : �ܰ�			B : ��ȭ		
-# A : ������ ��ȣ��...	
+# 용혼석 Vnum에 대한 comment	
+# ITEM VNUM을 10만 자리부터, FEDCBA라고 한다면
+# FE : 용혼석 종류.	D : 등급
+# C : 단계			B : 강화		
+# A : 여벌의 번호들...	
 
 class DragonSoulWindow(ui.ScriptWindow):
 	KIND_TAP_TITLES = [uiScriptLocale.DRAGONSOUL_TAP_TITLE_1, uiScriptLocale.DRAGONSOUL_TAP_TITLE_2,
@@ -56,14 +56,14 @@ class DragonSoulWindow(ui.ScriptWindow):
 			return
 		self.isLoaded = 1
 		try:
-			pyScrLoader = ui.PythonScriptLoader()			
+			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "dragonsoulwindow.py")
 		
 		except:
 			import exception
 			exception.Abort("dragonsoulwindow.LoadWindow.LoadObject")
 		try:
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				self.board = self.GetChild("Equipment_Base")
 				self.board.SetScale(-1.0, 1.0)
 				self.board.SetRenderingRect(-1.0, 0.0, 1.0, 0.0)
@@ -85,14 +85,14 @@ class DragonSoulWindow(ui.ScriptWindow):
 				self.board = self.GetChild("Tab_06")
 				self.board.SetScale(-1.0, 1.0)
 				self.board.SetRenderingRect(-1.0, 0.0, 1.0, 0.0)
-				
+
 			wndItem = self.GetChild("ItemSlot")
 			wndEquip = self.GetChild("EquipmentSlot")
 			self.activateButton = self.GetChild("activate")
 			self.deckTab = []
 			self.deckTab.append(self.GetChild("deck1"))
 			self.deckTab.append(self.GetChild("deck2"))
-			self.GetChild("TitleBar").SetCloseEvent(ui.__mem_func__(self.Close))			
+			self.GetChild("TitleBar").SetCloseEvent(ui.__mem_func__(self.Close))
 			self.inventoryTab = []
 			self.inventoryTab.append(self.GetChild("Inventory_Tab_01"))
 			self.inventoryTab.append(self.GetChild("Inventory_Tab_02"))
@@ -226,9 +226,9 @@ class DragonSoulWindow(ui.ScriptWindow):
 				for j in xrange(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(j)
 					
-					# �ؿ��� remain_time�� 0�������� üũ �ϱ� ������ ������ ����� �ʱ�ȭ
+					# 밑에서 remain_time이 0이하인지 체크 하기 때문에 임의의 양수로 초기화
 					remain_time = 999
-					# �ϴ� ���� Ÿ�̸Ӵ� �� ���� ���̴�.
+					# 일단 현재 타이머는 이 세개 뿐이다.
 					if item.LIMIT_REAL_TIME == limitType:
 						remain_time = player.GetItemMetinSocket(player.INVENTORY, slotNumber, 0) - app.GetGlobalTimeStamp()
 					elif item.LIMIT_REAL_TIME_START_FIRST_USE == limitType:
@@ -275,7 +275,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 				for j in xrange(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(j)
 
-					# �ؿ��� remain_time�� �������� üũ �ϱ� ������ ������ ����� �ʱ�ȭ
+					# 밑에서 remain_time이 음수인지 체크 하기 때문에 임의의 양수로 초기화
 					remain_time = 999
 					if item.LIMIT_REAL_TIME == limitType:
 						remain_time = player.GetItemMetinSocket(player.DRAGON_SOUL_INVENTORY, slotNumber, 0)
@@ -306,7 +306,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 		if None != self.tooltipItem:
 			self.tooltipItem.SetTop()
 	
-	# item slot ���� �Լ�				
+	# item slot 관련 함수				
 	def OverOutItem(self):
 		self.wndItem.SetUsableItem(False)
 		if None != self.tooltipItem:
@@ -359,7 +359,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 			mouseModule.mouseController.DeattachObject()
 
 		else:
-			## �������� �ȵ��� �߰�
+			## 상점에서 팔도록 추가
 			## 20140220
 			curCursorNum = app.GetCursor()
 
@@ -377,8 +377,8 @@ class DragonSoulWindow(ui.ScriptWindow):
 				self.wndItem.SetUseMode(False)
 				snd.PlaySound("sound/ui/pick.wav")
 	
-	## ������ �ȱ�
-	## 2014.02.20 �߰�
+	## 상점에 팔기
+	## 2014.02.20 추가
 	def __SellItem(self, itemSlotPos):
 		if not player.IsDSEquipmentSlot(player.DRAGON_SOUL_INVENTORY, itemSlotPos):
 			self.sellingSlotNumber = itemSlotPos
@@ -412,21 +412,21 @@ class DragonSoulWindow(ui.ScriptWindow):
 			self.questionDialog.Open()
 			self.questionDialog.count = itemCount
 
-	## ������ �ȱ�
+	## 상점에 팔기
 	def SellItem(self):
 
 		net.SendShopSellPacketNew(self.sellingSlotNumber, self.questionDialog.count, player.DRAGON_SOUL_INVENTORY)
 		snd.PlaySound("sound/ui/money.wav")
 		self.OnCloseQuestionDialog()
 
-	## ������ �ȱ�
+	## 상점에 팔기
 	def OnCloseQuestionDialog(self):
 		if self.questionDialog:
 			self.questionDialog.Close()
 
 		self.questionDialog = None
 
-	## ������ �ȱ�
+	## 상점에 팔기
 	def __OnClosePopupDialog(self):
 		self.pop = None
 
@@ -478,7 +478,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 			return
 		slotIndex = self.__InventoryLocalSlotPosToGlobalSlotPos(player.DRAGON_SOUL_INVENTORY, slotIndex)
 		try:
-			# ��ȥ�� ��ȭâ�� ����������, ������ ��Ŭ�� �� �ڵ����� ��ȭâ���� ��.
+			# 용혼석 강화창이 열려있으면, 아이템 우클릭 시 자동으로 강화창으로 들어감.
 			if self.wndDragonSoulRefine.IsShow():
 				if uiPrivateShopBuilder.IsBuildingPrivateShop():
 					chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.MOVE_ITEM_FAILURE_PRIVATE_SHOP)
@@ -500,7 +500,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 		
 		net.SendItemMovePacket(srcSlotWindow , srcSlotPos, dstSlotWindow, dstSlotPos, srcItemCount)
 	
-	# equip ���� ���� �Լ���.
+	# equip 슬롯 관련 함수들.
 	def OverOutEquipItem(self):
 		self.OverOutItem()
 			
@@ -529,7 +529,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 	
 	def SelectEquipItemSlot(self, itemSlotIndex):
 
-		## ���콺 ��ư�� sell buy üũ �ؼ� return
+		## 마우스 버튼이 sell buy 체크 해서 return
 		curCursorNum = app.GetCursor()
 		if app.SELL == curCursorNum:
 			return
@@ -545,7 +545,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 		if mouseModule.mouseController.isAttached():
 			attachedSlotType = mouseModule.mouseController.GetAttachedType()
 			attachedSlotPos = mouseModule.mouseController.GetAttachedSlotNumber()
-			# �ڱ� �ڽ��� �ڱ� �ڽſ��� �巡���ϴ� ���
+			# 자기 자신을 자기 자신에게 드래그하는 경우
 			if player.SLOT_TYPE_INVENTORY == attachedSlotType and itemSlotIndex == attachedSlotPos:
 				return
  
@@ -592,9 +592,9 @@ class DragonSoulWindow(ui.ScriptWindow):
 					self.__OpenQuestionDialog(True, srcItemPos, dstItemPos)
 
 			mouseModule.mouseController.DeattachObject()
-	# equip ���� ���� �Լ��� ��.
+	# equip 슬롯 관련 함수들 끝.
 	
-	# ���â ����
+	# 경고창 관련
 	def __OpenQuestionDialog(self, Equip, srcItemPos, dstItemPos):
 		self.srcItemPos = srcItemPos
 		self.dstItemPos = dstItemPos
@@ -623,7 +623,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 		self.dstItemPos = (0, 0)
 		self.dlgQuestion.Close()
 
-	# ���â ���� ��
+	# 경고창 관련 끝
 	
 	def SetDSKindIndex(self, kindIndex):
 		if self.DSKindIndex != kindIndex:
@@ -656,7 +656,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 		
 		self.RefreshEquipSlotWindow()
 	
-	# ��ȥ�� Ȱ��ȭ ����
+	# 용혼석 활성화 관련
 	def ActivateDragonSoulByExtern(self, deck):
 		self.isActivated = True
 		self.activateButton.Down()
@@ -701,24 +701,24 @@ class DragonSoulWindow(ui.ScriptWindow):
 				for i in xrange(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(i)
 					
-					# LIMIT_TIMER_BASED_ON_WEAR�� ����0�� ���� �ð��� �ڴ´�.
-					# LIMIT_REAL_TIME�� �ð� �� �Ǹ� �������� ������Ƿ� �� �ʿ䰡 ����.
-					# LIMIT_REAL_TIME_START_FIRST_USE�� ������ ����� ���ǵ��� �ʾ� �ϴ� ���д�.
+					# LIMIT_TIMER_BASED_ON_WEAR는 소켓0에 남은 시간을 박는다.
+					# LIMIT_REAL_TIME은 시간 다 되면 아이템이 사라지므로 할 필요가 없다.
+					# LIMIT_REAL_TIME_START_FIRST_USE는 서버에 제대로 정의되지 않아 일단 냅둔다.
 					if item.LIMIT_TIMER_BASED_ON_WEAR == limitType:
 						isNoLimit = False
 						remain_time = player.GetItemMetinSocket(player.INVENTORY, slotNumber, 0)
 						if 0 != remain_time:
 							canActiveNum += 1
 							break
-				# Ÿ�̸Ӱ� ���ٸ� Activate�� �� �ִ� ��ȥ��.
+				# 타이머가 없다면 Activate할 수 있는 용혼석.
 				if isNoLimit:
 					canActiveNum += 1
 		
 		return canActiveNum > 0
 	
-	# Ȱ��ȭ ���� ��
+	# 활성화 관련 끝
 	
-	# ���� highlight ����
+	# 슬롯 highlight 관련
 	def __HighlightSlot_ClearCurrentPage(self):
 		for i in xrange(self.wndItem.GetSlotCount()):
 			slotNumber = self.__InventoryLocalSlotPosToGlobalSlotPos(player.DRAGON_SOUL_INVENTORY, i)
@@ -735,14 +735,14 @@ class DragonSoulWindow(ui.ScriptWindow):
 	def HighlightSlot(self, slot):
 		if not slot in self.listHighlightedSlot:
 			self.listHighlightedSlot.append (slot)
-	# ���� highlight ���� ��
+	# 슬롯 highlight 관련 끝
 	
 	def SetDragonSoulRefineWindow(self, wndDragonSoulRefine):
 		if app.ENABLE_DRAGON_SOUL_SYSTEM:
 			from _weakref import proxy
 			self.wndDragonSoulRefine = proxy(wndDragonSoulRefine)
 
-## ��ȭ�� �� ���� ��� ������ ����
+## 강화할 수 없는 경우 날리는 예외
 #class DragonSoulRefineException(Exception):
 	#pass
 
@@ -780,21 +780,21 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			return
 		self.isLoaded = 1
 		try:
-			pyScrLoader = ui.PythonScriptLoader()			
+			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "dragonsoulrefinewindow.py")
 
 		except:
 			import exception
 			exception.Abort("dragonsoulrefinewindow.LoadWindow.LoadObject")
 		try:
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				self.board = self.GetChild("DragonSoulRefineWindowBaseImage")
 				self.board.SetScale(-1.0, 1.0)
 				self.board.SetRenderingRect(-1.0, 0.0, 1.0, 0.0)
-				
+
 			wndRefineSlot = self.GetChild("RefineSlot")
 			wndResultSlot = self.GetChild("ResultSlot")
-			self.GetChild("TitleBar").SetCloseEvent(ui.__mem_func__(self.Close))			
+			self.GetChild("TitleBar").SetCloseEvent(ui.__mem_func__(self.Close))
 			self.refineChoiceButtonDict = {
 				self.REFINE_TYPE_GRADE	: self.GetChild("GradeButton"),
 				self.REFINE_TYPE_STEP: self.GetChild("StepButton"),
@@ -802,12 +802,12 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			}
 			self.doRefineButton = self.GetChild("DoRefineButton")
 			self.wndMoney = self.GetChild("Money_Slot")
-		
+
 		except:
 			import exception
 			exception.Abort("DragonSoulRefineWindow.LoadWindow.BindObject")
-		
-	
+
+
 		## Item Slots
 		wndRefineSlot.SetOverInItemEvent(ui.__mem_func__(self.__OverInRefineItem))
 		wndRefineSlot.SetOverOutItemEvent(ui.__mem_func__(self.__OverOutItem))
@@ -879,7 +879,7 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 	def SetItemToolTip(self, tooltipItem):
 		self.tooltipItem = tooltipItem
 	
-	# ��ư ���� �ִ� ���¸� ������ ��� ��ȭâ ���� �������� �ʱ�ȭ.
+	# 버튼 눌려 있는 상태를 제외한 모든 강화창 관련 변수들을 초기화.
 	def __Initialize(self):
 		self.currentRecipe = {}
 		self.refineItemInfo = {}
@@ -897,7 +897,7 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 
 	def __FlushRefineItemSlot(self):
 		## Item slot settings
-		# ���� �κ��� ������ ī��Ʈ ȸ��
+		# 원래 인벤의 아이템 카운트 회복
 		for invenType, invenPos, itemCount in self.refineItemInfo.values():
 			remainCount = player.GetItemCount(invenType, invenPos)
 			player.SetItemCount(invenType, invenPos, remainCount + itemCount)
@@ -948,33 +948,33 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			raise Exception, ("Invalid attachedItemCount(%d). (base pos (%d, %d), base itemCount(%d))" % (itemCount, invenType, invenPos, maxCount))
 			#return False
 		
-		# strength ��ȭ�� ���, 0���� ��ȭ��, 1���� ��ȥ���� ������ ������.
+		# strength 강화일 경우, 0번엔 강화석, 1번엔 용혼석을 놓도록 강제함.
 		if DragonSoulRefineWindow.REFINE_TYPE_STRENGTH == self.currentRefineType:
 			if self.__IsDragonSoul(itemVnum):
 				dstSlotIndex = 1
 			else:
 				dstSlotIndex = 0
 		
-		# �� �����̾����.
+		# 빈 슬롯이어야함.
 		if dstSlotIndex in self.refineItemInfo:
 			return False
 			
-		# ��ȭâ�� �ø� �� �ִ� ���������� �˻�.
+		# 강화창에 올릴 수 있는 아이템인지 검사.
 		if False == self.__CheckCanRefine(itemVnum):
 			return False
 		
-		# ����� ���� ������ ī��Ʈ��ŭ ���� �ڸ��� ������ ī��Ʈ ����
+		# 끌어다 놓은 아이템 카운트만큼 원래 자리의 아이템 카운트 감소
 		player.SetItemCount(invenType, invenPos, maxCount - itemCount)
 		self.refineItemInfo[dstSlotIndex] = (invenType, invenPos, itemCount)
 		self.Refresh()
 
 		return True
 	
-	# ��ȭ ������ ���������� üũ
-	# ��ȥ�� ��ȭ�� ��ȭ �����Ǹ� ���س��� �����ϴ� ���� �ƴ϶�,
-	# ó���� ��ȭâ�� �ø� ��ȥ���� ���� ��ȭ �����ǰ� �����ȴ�.
-	# �׷��� __CanRefineGrade, __CanRefineStep, __CanRefineStrength �Լ�����
-	# ��ȭ �����ǰ� ���ٸ�(ó�� �ø��� �������̶��), ��ȭ �����Ǹ� �������ִ� ���ҵ� �Ѵ�.
+	# 강화 가능한 아이템인지 체크
+	# 용혼석 강화는 강화 레시피를 정해놓고 시작하는 것이 아니라,
+	# 처음에 강화창에 올린 용혼석에 의해 강화 레시피가 결정된다.
+	# 그래서 __CanRefineGrade, __CanRefineStep, __CanRefineStrength 함수에서
+	# 강화 레시피가 없다면(처음 올리는 아이템이라면), 강화 레시피를 설정해주는 역할도 한다.
 	def __CheckCanRefine(self, vnum):
 		if self.REFINE_TYPE_GRADE == self.currentRefineType:
 			return self.__CanRefineGrade(vnum)
@@ -1001,10 +1001,10 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			if not (cur_refine_ds_type == ds_type and cur_refine_grade == grade):
 				self.__PopUp(localeInfo.DRAGON_SOUL_INVALID_DRAGON_SOUL)
 				return False
-		# ��ȭ â�� ó�� �������� �ø��� ���, ��ȭ ��ῡ ���� ������ ����.
-		# ��ȥ�� ��ȭ��, �����Ǹ� ������ �����ϴ� ���� �ƴ϶�, ��ȭâ�� ó�� �ø��� �������� �����̳Ŀ� ����,
-		# ������ ��ȭ�ϰ�, ��ᰡ ��������(���� ������)�� ��������.
-		# �����ǰ� ���ٸ�, ó�� �ø� �������̶� �����ϰ�, vnum�� �������� �����Ǹ� ����.
+		# 강화 창에 처음 아이템을 올리는 경우, 강화 재료에 관한 정보가 없다.
+		# 용혼석 강화가, 레시피를 가지고 시작하는 것이 아니라, 강화창에 처음 올리는 아이템이 무엇이냐에 따라,
+		# 무엇을 강화하고, 재료가 무엇인지(이하 레시피)가 정해진다.
+		# 레시피가 없다면, 처음 올린 아이템이라 생각하고, vnum을 바탕으로 레시피를 셋팅.
 		else:
 			self.currentRecipe = self.__GetRefineGradeRecipe(vnum)
 
@@ -1013,7 +1013,7 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 				self.wndMoney.SetText(localeInfo.NumberToMoneyString(self.currentRecipe["fee"]))				
 				return True
 			else:
-			# ��ȭ ���� ���ÿ� �����ϸ� �ø� �� ���� ���������� �Ǵ�.
+			# 강화 정보 셋팅에 실패하면 올릴 수 없는 아이템으로 판단.
 				self.__PopUp(localeInfo.DRAGON_SOUL_CANNOT_REFINE)
 				return False
 
@@ -1030,10 +1030,10 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			if not (cur_refine_ds_type == ds_type and cur_refine_grade == grade and cur_refine_step == step):
 				self.__PopUp(localeInfo.DRAGON_SOUL_INVALID_DRAGON_SOUL)
 				return False
-		# ��ȭ â�� ó�� �������� �ø��� ���, ��ῡ ���� ������ ����.
-		# ��ȥ�� ��ȭ��, �����Ǹ� ������ �����ϴ� ���� �ƴ϶�, ��ȭâ�� ó�� �ø��� �������� �����̳Ŀ� ����,
-		# ������ ��ȭ�ϰ�, ��ᰡ ��������(���� ������)�� ��������.
-		# �����ǰ� ���ٸ�, ó�� �ø� �������̶� �����ϰ�, vnum�� �������� �����Ǹ� ����.
+		# 강화 창에 처음 아이템을 올리는 경우, 재료에 관한 정보가 없다.
+		# 용혼석 강화가, 레시피를 가지고 시작하는 것이 아니라, 강화창에 처음 올리는 아이템이 무엇이냐에 따라,
+		# 무엇을 강화하고, 재료가 무엇인지(이하 레시피)가 정해진다.
+		# 레시피가 없다면, 처음 올린 아이템이라 생각하고, vnum을 바탕으로 레시피를 셋팅.
 		else:
 			self.currentRecipe = self.__GetRefineStepRecipe(vnum)
 
@@ -1043,12 +1043,12 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 				return True
 
 			else:
-			# ��ȭ ���� ���ÿ� �����ϸ� �ø� �� ���� ���������� �Ǵ�.
+			# 강화 정보 셋팅에 실패하면 올릴 수 없는 아이템으로 판단.
 				self.__PopUp(localeInfo.DRAGON_SOUL_CANNOT_REFINE)
 				return False
 
 	def __CanRefineStrength (self, vnum):
-		# ��ȥ���� ���, �� �̻� strength ��ȭ�� �� �� ������ üũ�ؾ���.
+		# 용혼석인 경우, 더 이상 strength 강화를 할 수 없는지 체크해야함.
 		if self.__IsDragonSoul(vnum):
 			ds_type, grade, step, strength = self.__GetDragonSoulTypeInfo(vnum)
 			
@@ -1060,10 +1060,10 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			else:
 				return True
 		
-		# strength ��ȭ�� ���, refine_recipe�� ��ȥ���� ������ �ƴ�, ��ȭ���� ������ ���� �޶�����.
-		# ���� ��ȥ���� �ƴ϶��, 
-		# �̹� �����ǰ� �ִ� ����, ��ȭ���� ��ȭâ�� �ִٴ� ���̹Ƿ�, return False
-		# �����ǰ� ���� ����, ��ȭ������ Ȯ���ϰ�, �����Ǹ� �����Ѵ�.
+		# strength 강화의 경우, refine_recipe가 용혼석의 종류가 아닌, 강화석의 종류에 따라 달라진다.
+		# 따라서 용혼석이 아니라면, 
+		# 이미 레시피가 있는 경우는, 강화석이 강화창에 있다는 것이므로, return False
+		# 레시피가 없는 경우는, 강화석인지 확인하고, 레시피를 셋팅한다.
 		else:
 			if self.currentRecipe:
 				self.__PopUp(localeInfo.DRAGON_SOUL_IS_NOT_DRAGON_SOUL)
@@ -1075,7 +1075,7 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 					self.wndMoney.SetText(localeInfo.NumberToMoneyString(self.currentRecipe["fee"]))
 					return True
 				else:
-				# �����Ǹ� ������ �� ���� ���
+				# 레시피를 셋팅할 수 없는 경우
 					self.__PopUp(localeInfo.DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE)
 					return False
 
@@ -1105,11 +1105,11 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 		except:
 			return None
 		
-	# strength ��ȭ�� ���, refineInfo�� ��ȭ���� ���� �޶�����.
+	# strength 강화의 경우, refineInfo는 강화석에 따라 달라진다.
 	def __GetRefineStrengthInfo (self, itemVnum):
 		try:
-			# �̳��� ��ġ�� ��������....
-			# ��ȭ���� �ƴϸ� �ȵ�.
+			# 이놈의 위치를 어찌하지....
+			# 강화석이 아니면 안됨.
 			item.SelectItem(itemVnum)
 			if not (item.ITEM_TYPE_MATERIAL == item.GetItemType() \
 					and (item.MATERIAL_DS_REFINE_NORMAL <= item.GetItemSubType() and item.GetItemSubType() <= item.MATERIAL_DS_REFINE_HOLLY)):
@@ -1124,11 +1124,11 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 		item.SelectItem(vnum)
 		return item.GetItemType() == item.ITEM_TYPE_DS
 		
-	# ��ȥ�� Vnum�� ���� comment	
-	# ITEM VNUM�� 10�� �ڸ�����, FEDCBA��� �Ѵٸ�
-	# FE : ��ȥ�� ����.	D : ���
-	# C : �ܰ�			B : ��ȭ		
-	# A : ������ ��ȣ��...	
+	# 용혼석 Vnum에 대한 comment	
+	# ITEM VNUM을 10만 자리부터, FEDCBA라고 한다면
+	# FE : 용혼석 종류.	D : 등급
+	# C : 단계			B : 강화		
+	# A : 여벌의 번호들...	
 	def __GetDragonSoulTypeInfo(self, vnum):
 		if not self.__IsDragonSoul(vnum):
 			return DragonSoulRefineWindow.INVALID_DRAGON_SOUL_INFO 
@@ -1142,7 +1142,7 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 	def __MakeDragonSoulVnum(self, ds_type, grade, step, strength):
 		return ds_type * 10000 + grade * 1000 + step * 100 + strength * 10
 
-	## �� ���� ���� Event
+	## 빈 슬롯 선택 Event
 	def __SelectRefineEmptySlot(self, selectedSlotPos):
 		try:
 			if constInfo.GET_ITEM_QUESTION_DIALOG_STATUS() == 1:
@@ -1177,14 +1177,14 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			import dbg
 			dbg.TraceError("Exception : __SelectRefineEmptySlot, %s" % e)
 
-	# Ŭ������ ���Կ��� ����.
+	# 클릭으로 슬롯에서 삭제.
 	def __SelectRefineItemSlot(self, selectedSlotPos):
 		if constInfo.GET_ITEM_QUESTION_DIALOG_STATUS() == 1:
 			return
 
 		try:
 			if not selectedSlotPos in self.refineItemInfo:
-				# ���ο� �������� ��ȭâ�� �ø��� �۾�.
+				# 새로운 아이템을 강화창에 올리는 작업.
 				if mouseModule.mouseController.isAttached():
 					attachedSlotType = mouseModule.mouseController.GetAttachedType()
 					attachedSlotPos = mouseModule.mouseController.GetAttachedSlotNumber()
@@ -1212,25 +1212,25 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			attachedInvenType, attachedSlotPos, attachedItemCount = self.refineItemInfo[selectedSlotPos]
 			selectedItemVnum = player.GetItemIndex(attachedInvenType, attachedSlotPos)
 				
-			# ��ȭâ���� ���� �� ���� �κ��� ������ ī��Ʈ ȸ��
+			# 강화창에서 삭제 및 원래 인벤의 아이템 카운트 회복
 			invenType, invenPos, itemCount = self.refineItemInfo[selectedSlotPos]
 			remainCount = player.GetItemCount(invenType, invenPos)
 			player.SetItemCount(invenType, invenPos, remainCount + itemCount)
 			del self.refineItemInfo[selectedSlotPos]
 				
-			# ��ȭâ�� ����ٸ�, �ʱ�ȭ
+			# 강화창이 비었다면, 초기화
 			if not self.refineItemInfo:
 				self.__Initialize()
 			else:
 				item.SelectItem(selectedItemVnum)
-				# ���� �������� ��ȭ���̾��ٸ� ��ȭ ���ǽ� �ʱ�ȭ
+				# 없앤 아이템이 강화석이었다면 강화 레피시 초기화
 				if (item.ITEM_TYPE_MATERIAL == item.GetItemType() \
 					and (item.MATERIAL_DS_REFINE_NORMAL <= item.GetItemSubType() and item.GetItemSubType() <= item.MATERIAL_DS_REFINE_HOLLY)):
 					self.currentRecipe = {}
 					self.wndMoney.SetText(localeInfo.NumberToMoneyString(0))
-				# ��ȥ���̾��ٸ�, 
-				# strength��ȭ�� �ƴ� ���, ��ȭâ�� �ٸ� ��ȥ���� ���������Ƿ�, �����Ǹ� �ʱ�ȭ�ϸ� �ȵ�.
-				# strength��ȭ�� ���, ��ȭ �����Ǵ� ��ȭ���� ���ӵ� ���̹Ƿ� �ٸ� ó���� �ʿ䰡 ����.
+				# 용혼석이었다면, 
+				# strength강화가 아닌 경우, 강화창에 다른 용혼석이 남아있으므로, 레시피를 초기화하면 안됨.
+				# strength강화의 경우, 강화 레시피는 강화석에 종속된 것이므로 다른 처리할 필요가 없음.
 				else:
 					pass
 					
@@ -1277,10 +1277,10 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			for slotPos in xrange(self.wndRefineSlot.GetSlotCount()):
 				self.wndRefineSlot.ClearSlot(slotPos)
 				if slotPos < self.refineSlotLockStartIndex:
-					# self.refineItemInfo[slotPos]�� ����Ȯ��
-					# (������ �������� �����ϴ��� Ȯ��)
-					# ���� -> ������ �������� ���Կ� ����.
-					# ������ -> �������� �����Ƿ� ��ȭâ���� ����.
+					# self.refineItemInfo[slotPos]의 정보확인
+					# (실제로 아이템이 존재하는지 확인)
+					# 존재 -> 아이템 아이콘을 슬롯에 셋팅.
+					# 비존재 -> 아이템이 없으므로 강화창에서 삭제.
 					if slotPos in self.refineItemInfo:
 						invenType, invenPos, itemCount = self.refineItemInfo[slotPos]
 						itemVnum = player.GetItemIndex(invenType, invenPos)
@@ -1291,12 +1291,12 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 						else:
 							del self.refineItemInfo[slotPos]
 
-					# �� ���Կ� reference �������� alpha 0.5�� ����.
+					# 빈 슬롯에 reference 아이콘을 alpha 0.5로 셋팅.
 					if not slotPos in self.refineItemInfo:
 						try:
 							reference_vnum = 0
-							# strength ��ȭ�� ����,
-							# 0�� ���Կ� ��ȭ����, 1�� ���Կ� ��ȥ���� ���´�.
+							# strength 강화일 때는,
+							# 0번 슬롯에 강화석을, 1번 슬롯에 용혼석을 놓는다.
 							if DragonSoulRefineWindow.REFINE_TYPE_STRENGTH == self.currentRefineType:
 								if DragonSoulRefineWindow.REFINE_STONE_SLOT == slotPos:
 									reference_vnum = 100300
@@ -1307,28 +1307,28 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 								itemIcon = item.GetIconImage()
 								(width, height) = item.GetItemSize()
 								self.wndRefineSlot.SetSlot(slotPos, 0, width, height, itemIcon, (1.0, 1.0, 1.0, 0.5))
-								# slot ���� �ϴܿ� ���� �߸� �� ����...
+								# slot 우측 하단에 숫자 뜨면 안 예쁨...
 								self.wndRefineSlot.SetSlotCount(slotPos, 0)
 						except:
 							pass
-					# refineSlotLockStartIndex ���� ���� ������ ���� �̹����� �����ָ� �ȵ�.
+					# refineSlotLockStartIndex 보다 작은 슬롯은 닫힌 이미지를 보여주면 안됨.
 					self.wndRefineSlot.HideSlotBaseImage(slotPos)
 				# slotPos >= self.refineSlotLockStartIndex:
 				else:
-					# �������� ����� �� if���� �� ���� ��������,
-					# (���ʿ� �ε����� refineSlotLockStartIndex �̻��� ���Կ��� �������� ���� ���ϰ� �߱� ����)
-					# Ȥ�� �� ������ �����.
+					# 정상적인 경우라면 이 if문에 들어갈 일은 없겠지만,
+					# (애초에 인덱스가 refineSlotLockStartIndex 이상인 슬롯에는 아이템을 넣지 못하게 했기 때문)
+					# 혹시 모를 에러에 대비함.
 					if slotPos in self.refineItemInfo:
 						invenType, invenPos, itemCount = self.refineItemInfo[slotPos]
 						remainCount = player.GetItemCount(invenType, invenPos)
 						player.SetItemCount(invenType, invenPos, remainCount + itemCount)
 						del self.refineItemInfo[slotPos]
-					# refineSlotLockStartIndex �̻��� ������ ���� �̹����� ���������.
+					# refineSlotLockStartIndex 이상인 슬롯은 닫힌 이미지를 보여줘야함.
 					self.wndRefineSlot.ShowSlotBaseImage(slotPos)
 			
-			# ��ȭâ�� �ƹ��� �������� ���ٸ�, �ʱ�ȭ����.
-			# ������ �߰� �߰��� "del self.refineItemInfo[slotPos]"�� �߱� ������,
-			# ���⼭ �ѹ� üũ�������.
+			# 강화창에 아무런 아이템이 없다면, 초기화해줌.
+			# 위에서 중간 중간에 "del self.refineItemInfo[slotPos]"를 했기 때문에,
+			# 여기서 한번 체크해줘야함.
 			if not self.refineItemInfo:
 				self.__Initialize()
  
@@ -1338,8 +1338,8 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 			dbg.TraceError("Exception : __RefreshRefineItemSlot, %s" % e)
 	
 	def __GetEmptySlot(self, itemVnum = 0):
-		# STRENGTH ��ȭ�� ���, ��ȥ�� ���԰� ��ȭ�� ������ ���еǾ��ֱ� ������
-		# vnum�� �˾ƾ� �Ѵ�.
+		# STRENGTH 강화의 경우, 용혼석 슬롯과 강화석 슬롯이 구분되어있기 떄문에
+		# vnum을 알아야 한다.
 		if DragonSoulRefineWindow.REFINE_TYPE_STRENGTH == self.currentRefineType:
 			if 0 == itemVnum:
 				return -1

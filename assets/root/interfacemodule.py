@@ -572,7 +572,7 @@ class Interface(object):
 		if app.ENABLE_DRAGON_SOUL_SYSTEM:
 			self.wndDragonSoul.RefreshItemSlot()
 
-	def RefreshCharacter(self): ## Character �������� ��, Inventory �������� ���� �׸� ���� Refresh
+	def RefreshCharacter(self): ## Character 페이지의 얼굴, Inventory 페이지의 전신 그림 등의 Refresh
 		self.wndCharacter.RefreshCharacter()
 		self.wndTaskBar.RefreshQuickSlot()
 
@@ -704,7 +704,7 @@ class Interface(object):
 	def RemovePartyMember(self, pid):
 		self.wndParty.RemovePartyMember(pid)
 
-		##!! 20061026.levites.����Ʈ_��ġ_����
+		##!! 20061026.levites.퀘스트_위치_보정
 		self.__ArrangeQuestButton()
 
 	def LinkPartyMember(self, pid, vid):
@@ -719,7 +719,7 @@ class Interface(object):
 	def ExitParty(self):
 		self.wndParty.ExitParty()
 
-		##!! 20061026.levites.����Ʈ_��ġ_����
+		##!! 20061026.levites.퀘스트_위치_보정
 		self.__ArrangeQuestButton()
 
 	def PartyHealReady(self):
@@ -882,7 +882,7 @@ class Interface(object):
 		if True == self.wndChat.IsEditMode():
 			self.wndChat.CloseChat()
 		else:
-			# ���������� ���������� ä�� �Է��� �ȵ�
+			# 웹페이지가 열렸을때는 채팅 입력이 안됨
 			if self.wndWeb and self.wndWeb.IsShow():
 				pass
 			else:
@@ -983,7 +983,7 @@ class Interface(object):
 			else:
 				self.wndExpandedTaskBar.Close()
 	
-	# ��ȥ��
+	# 용혼석
 	def DragonSoulActivate(self, deck):
 		if app.ENABLE_DRAGON_SOUL_SYSTEM:
 			self.wndDragonSoul.ActivateDragonSoulByExtern(deck)
@@ -1054,7 +1054,7 @@ class Interface(object):
 				if True == self.wndDragonSoulRefine.IsShow():
 					self.wndDragonSoulRefine.Close()
 
-	# ��ȥ�� ��
+	# 용혼석 끝
 	
 	def ToggleGuildWindow(self):
 		if not self.wndGuild.IsShow():
@@ -1104,7 +1104,7 @@ class Interface(object):
 	def OpenWebWindow(self, url):
 		self.wndWeb.Open(url)
 
-		# ���������� ���� ä���� �ݴ´�
+		# 웹페이지를 열면 채팅을 닫는다
 		self.wndChat.CloseChat()
 
 	# show GIFT
@@ -1132,9 +1132,9 @@ class Interface(object):
 	def SucceedCubeWork(self, itemVnum, count):
 		self.wndCube.Clear()
 		
-		print "ť�� ���� ����! [%d:%d]" % (itemVnum, count)
+		print "큐브 제작 성공! [%d:%d]" % (itemVnum, count)
 
-		if 0: # ��� �޽��� ����� ���� �Ѵ�
+		if 0: # 결과 메시지 출력은 생략 한다
 			self.wndCubeResult.SetPosition(*self.wndCube.GetGlobalPosition())
 			self.wndCubeResult.SetCubeResultItem(itemVnum, count)
 			self.wndCubeResult.Open()
@@ -1297,7 +1297,7 @@ class Interface(object):
 		btn = uiWhisper.WhisperButton()
 
 		# QUEST_LETTER_IMAGE
-		##!! 20061026.levites.����Ʈ_�̹���_��ü
+		##!! 20061026.levites.퀘스트_이미지_교체
 		import item
 		if "item"==iconType:
 			item.SelectItem(int(iconName))
@@ -1305,29 +1305,19 @@ class Interface(object):
 		else:
 			buttonImageFileName=iconName
 
-		if localeInfo.IsEUROPE():
-			if "highlight" == iconType:
-				btn.SetUpVisual("locale/ymir_ui/highlighted_quest.tga")
-				btn.SetOverVisual("locale/ymir_ui/highlighted_quest_r.tga")
-				btn.SetDownVisual("locale/ymir_ui/highlighted_quest_r.tga")
-			else:
-				btn.SetUpVisual(localeInfo.GetLetterCloseImageName())
-				btn.SetOverVisual(localeInfo.GetLetterOpenImageName())
-				btn.SetDownVisual(localeInfo.GetLetterOpenImageName())				
-		else:
-			btn.SetUpVisual(buttonImageFileName)
-			btn.SetOverVisual(buttonImageFileName)
-			btn.SetDownVisual(buttonImageFileName)
-			btn.Flash()
+		btn.SetUpVisual(buttonImageFileName)
+		btn.SetOverVisual(buttonImageFileName)
+		btn.SetDownVisual(buttonImageFileName)
+		btn.Flash()
 		# END_OF_QUEST_LETTER_IMAGE
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			btn.SetToolTipText(name, 0, 35)
 			btn.ToolTipText.SetHorizontalAlignCenter()
 		else:
 			btn.SetToolTipText(name, -20, 35)
 			btn.ToolTipText.SetHorizontalAlignLeft()
-			
+
 		btn.SetEvent(ui.__mem_func__(self.__StartQuest), btn)
 		btn.Show()
 
@@ -1344,13 +1334,13 @@ class Interface(object):
 		screenWidth = wndMgr.GetScreenWidth()
 		screenHeight = wndMgr.GetScreenHeight()
 
-		##!! 20061026.levites.����Ʈ_��ġ_����
+		##!! 20061026.levites.퀘스트_위치_보정
 		if self.wndParty.IsShow():
 			xPos = 100 + 30
 		else:
 			xPos = 20
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			xPos = xPos + 15
 
 		yPos = 170 * screenHeight / 600
@@ -1398,8 +1388,8 @@ class Interface(object):
 	def __InitWhisper(self):
 		chat.InitWhisper(self)
 
-	## ä��â�� "�޽��� ������"�� �������� �̸� ���� ��ȭâ�� ���� �Լ�
-	## �̸��� ���� ������ ������ WhisperDialogDict �� ������ �����ȴ�.
+	## 채팅창의 "메시지 보내기"를 눌렀을때 이름 없는 대화창을 여는 함수
+	## 이름이 없기 때문에 기존의 WhisperDialogDict 와 별도로 관리된다.
 	def OpenWhisperDialogWithoutTarget(self):
 		if not self.dlgWhisperWithoutTarget:
 			dlgWhisper = uiWhisper.WhisperDialog(self.MinimizeWhisperDialog, self.CloseWhisperDialog)
@@ -1416,7 +1406,7 @@ class Interface(object):
 			self.dlgWhisperWithoutTarget.SetTop()
 			self.dlgWhisperWithoutTarget.OpenWithoutTarget(self.RegisterTemporaryWhisperDialog)
 
-	## �̸� ���� ��ȭâ���� �̸��� ���������� WhisperDialogDict�� â�� �־��ִ� �Լ�
+	## 이름 없는 대화창에서 이름을 결정했을때 WhisperDialogDict에 창을 넣어주는 함수
 	def RegisterTemporaryWhisperDialog(self, name):
 		if not self.dlgWhisperWithoutTarget:
 			return
@@ -1435,7 +1425,7 @@ class Interface(object):
 		self.dlgWhisperWithoutTarget = None
 		self.__CheckGameMaster(name)
 
-	## ĳ���� �޴��� 1:1 ��ȭ �ϱ⸦ �������� �̸��� ������ �ٷ� â�� ���� �Լ�
+	## 캐릭터 메뉴의 1:1 대화 하기를 눌렀을때 이름을 가지고 바로 창을 여는 함수
 	def OpenWhisperDialog(self, name):
 		if not self.whisperDialogDict.has_key(name):
 			dlg = self.__MakeWhisperDialog(name)
@@ -1448,7 +1438,7 @@ class Interface(object):
 			if 0 != btn:
 				self.__DestroyWhisperButton(btn)
 
-	## �ٸ� ĳ���ͷκ��� �޼����� �޾����� �ϴ� ��ư�� ��� �δ� �Լ�
+	## 다른 캐릭터로부터 메세지를 받았을때 일단 버튼만 띄워 두는 함수
 	def RecvWhisper(self, name):
 		if not self.whisperDialogDict.has_key(name):
 			btn = self.__FindWhisperButton(name)
@@ -1467,7 +1457,7 @@ class Interface(object):
 	def MakeWhisperButton(self, name):
 		self.__MakeWhisperButton(name)
 
-	## ��ư�� �������� â�� ���� �Լ�
+	## 버튼을 눌렀을때 창을 여는 함수
 	def ShowWhisperDialog(self, btn):
 		try:
 			self.__MakeWhisperDialog(btn.name)
@@ -1479,11 +1469,11 @@ class Interface(object):
 			import dbg
 			dbg.TraceError("interface.ShowWhisperDialog - Failed to find key")
 
-		## ��ư �ʱ�ȭ
+		## 버튼 초기화
 		self.__DestroyWhisperButton(btn)
 
-	## WhisperDialog â���� �ּ�ȭ ������ ���������� ȣ��Ǵ� �Լ�
-	## â�� �ּ�ȭ �մϴ�.
+	## WhisperDialog 창에서 최소화 명령을 수행했을때 호출되는 함수
+	## 창을 최소화 합니다.
 	def MinimizeWhisperDialog(self, name):
 
 		if 0 != name:
@@ -1491,8 +1481,8 @@ class Interface(object):
 
 		self.CloseWhisperDialog(name)
 
-	## WhisperDialog â���� �ݱ� ������ ���������� ȣ��Ǵ� �Լ�
-	## â�� ����ϴ�.
+	## WhisperDialog 창에서 닫기 명령을 수행했을때 호출되는 함수
+	## 창을 지웁니다.
 	def CloseWhisperDialog(self, name):
 
 		if 0 == name:
@@ -1511,7 +1501,7 @@ class Interface(object):
 			import dbg
 			dbg.TraceError("interface.CloseWhisperDialog - Failed to find key")
 
-	## ��ư�� ������ �ٲ������ ��ư�� ������ �ϴ� �Լ�
+	## 버튼의 개수가 바뀌었을때 버튼을 재정렬 하는 함수
 	def __ArrangeWhisperButton(self):
 
 		screenWidth = wndMgr.GetScreenWidth()
@@ -1528,9 +1518,9 @@ class Interface(object):
 			button.SetPosition(xPos + (int(count/yCount) * -50), yPos + (count%yCount * 63))
 			count += 1
 
-	## �̸����� Whisper ��ư�� ã�� ������ �ִ� �Լ�
-	## ��ư�� ��ųʸ��� ���� �ʴ� ���� ���� �Ǿ� ���� ������ ���� ���� ������
-	## �̷� ���� ToolTip���� �ٸ� ��ư�鿡 ���� �������� �����̴�.
+	## 이름으로 Whisper 버튼을 찾아 리턴해 주는 함수
+	## 버튼은 딕셔너리로 하지 않는 것은 정렬 되어 버려 순서가 유지 되지 않으며
+	## 이로 인해 ToolTip들이 다른 버튼들에 의해 가려지기 때문이다.
 	def __FindWhisperButton(self, name):
 		for button in self.whisperButtonList:
 			if button.name == name:
@@ -1538,7 +1528,7 @@ class Interface(object):
 
 		return 0
 
-	## â�� ����ϴ�.
+	## 창을 만듭니다.
 	def __MakeWhisperDialog(self, name):
 		dlgWhisper = uiWhisper.WhisperDialog(self.MinimizeWhisperDialog, self.CloseWhisperDialog)
 		dlgWhisper.BindInterface(self)
@@ -1550,7 +1540,7 @@ class Interface(object):
 
 		return dlgWhisper
 
-	## ��ư�� ����ϴ�.
+	## 버튼을 만듭니다.
 	def __MakeWhisperButton(self, name):
 		whisperButton = uiWhisper.WhisperButton()
 		whisperButton.SetUpVisual("d:/ymir work/ui/game/windows/btn_mail_up.sub")

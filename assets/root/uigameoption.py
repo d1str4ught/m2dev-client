@@ -16,10 +16,6 @@ viewChatMode = 0
 
 MOBILE = False
 
-if localeInfo.IsYMIR():
-	MOBILE = True
-
-
 class OptionDialog(ui.ScriptWindow):
 
 	def __init__(self):

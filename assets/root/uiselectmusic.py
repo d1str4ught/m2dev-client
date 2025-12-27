@@ -26,7 +26,7 @@ class Item(ui.ListBoxEx.Item):
 		textLine=ui.TextLine()
 		textLine.SetParent(self)
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			textLine.SetPosition(6*len(fileName) + 6, 0)
 		else:
 			textLine.SetPosition(0, 0)
@@ -118,8 +118,8 @@ class FileListDialog(ui.ScriptWindow):
 	def __CreateFileListBox(self):
 		fileListBox=ui.ListBoxEx()
 		fileListBox.SetParent(self)
-		
-		if localeInfo.IsARABIC():
+
+		if app.IsRTL():
 			fileListBox.SetPosition( self.GetWidth() - fileListBox.GetWidth() - 10, 50)
 		else:
 			fileListBox.SetPosition(15, 50)
@@ -130,7 +130,7 @@ class FileListDialog(ui.ScriptWindow):
 	def __Load(self):
 		self.popupDialog=PopupDialog(self)
 
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			self.__Load_LoadScript(uiScriptLocale.LOCALE_UISCRIPT_PATH + "MusicListWindow.py")
 		else:
 			self.__Load_LoadScript("UIScript/MusicListWindow.py")

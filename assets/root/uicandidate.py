@@ -146,7 +146,7 @@ class KORCandidateWindow(ui.ScriptWindow):
 			import exception
 			exception.Abort("CandidateWindow.__BindObject")
 
-ui.RegisterCandidateWindowClass(949, KORCandidateWindow)
-ui.RegisterCandidateWindowClass(932, VerticalCandidateBoard)
-ui.RegisterCandidateWindowClass(936, VerticalCandidateBoard)
-ui.RegisterCandidateWindowClass(950, VerticalCandidateBoard)
+ui.RegisterCandidateWindowClass(KORCandidateWindow)
+ui.RegisterCandidateWindowClass(VerticalCandidateBoard)
+ui.RegisterCandidateWindowClass(VerticalCandidateBoard)
+ui.RegisterCandidateWindowClass(VerticalCandidateBoard)

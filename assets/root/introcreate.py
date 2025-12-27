@@ -17,8 +17,6 @@ import playerSettingModule
 import uiScriptLocale
 import uiToolTip
 
-LOCALE_PATH = "uiscript/"+uiScriptLocale.CODEPAGE+"_"
-
 MAN			= 0
 WOMAN		= 1
 SHAPE0		= 0
@@ -427,8 +425,8 @@ class CreateCharacterWindow(ui.Window):
 
 		event.ClearEventSet(self.descIndex)
 		self.descIndex = event.RegisterEventSet(self.DESCRIPTION_FILE_NAME[self.slot])
-		
-		if localeInfo.IsARABIC(): 
+
+		if app.IsRTL():
 			event.SetEventSetWidth(self.descIndex, 170)
 
 		chr_id = self.__GetSlotChrID(self.gender, slot)

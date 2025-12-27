@@ -9,10 +9,7 @@ import constInfo
 import mouseModule
 
 class PartyMemberInfoBoard(ui.ScriptWindow):
-	if localeInfo.IsJAPAN():
-		BOARD_WIDTH = 130
-	else:
-		BOARD_WIDTH = 106
+	BOARD_WIDTH = 106
 	BOARD_COLOR = grp.GenerateColor(0.0, 0.0, 0.0, 0.5)
 	GAUGE_OUT_LINE_COLOR = grp.GenerateColor(1.0, 1.0, 1.0, 0.3)
 
@@ -89,10 +86,7 @@ class PartyMemberInfoBoard(ui.ScriptWindow):
 	def __LoadBoard(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-			if localeInfo.IsJAPAN():
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "PartyMemberInfoBoard.py")
-			else:
-				pyScrLoader.LoadScriptFile(self, "UIScript/PartyMemberInfoBoard.py")
+			pyScrLoader.LoadScriptFile(self, "UIScript/PartyMemberInfoBoard.py")
 		except:
 			import exception
 			exception.Abort("PartyMemberInfoBoard.__LoadBoard.LoadScript")

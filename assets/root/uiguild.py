@@ -27,13 +27,6 @@ DISABLE_DECLARE_WAR = False
 def NumberToMoneyString(n):
 	return localeInfo.NumberToMoneyString(n)
 
-if (localeInfo.IsEUROPE() and app.GetLocalePath() != "locale/br"):
-	def NumberToMoneyString(n):
-		if n <= 0 :
-			return "0"
-
-		return "%s" % (','.join([ i-3<0 and str(n)[:i] or str(n)[i-3:i] for i in range(len(str(n))%3, len(str(n))+1, 3) if i ]))
-
 MATERIAL_STONE_INDEX = 0
 MATERIAL_LOG_INDEX = 1
 MATERIAL_PLYWOOD_INDEX = 2
@@ -81,11 +74,7 @@ class DeclareGuildWarDialog(ui.ScriptWindow):
 
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-
-			if localeInfo.IsVIETNAM() :
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "declareguildwardialog.py")
-			else:
-				pyScrLoader.LoadScriptFile(self, "uiscript/declareguildwardialog.py")
+			pyScrLoader.LoadScriptFile(self, "uiscript/declareguildwardialog.py")
 
 		except:
 			import exception
@@ -648,7 +637,7 @@ class CommentSlot(ui.Window):
 		self.slotSimpleText = ui.MakeTextLine(self)
 		self.slotSimpleText.SetPosition(2, 0)
 		## 13.12.02 아랍수정
-		if localeInfo.IsARABIC() :
+		if app.IsRTL() :
 			self.slotSimpleText.SetWindowHorizontalAlignCenter()
 			self.slotSimpleText.SetHorizontalAlignCenter()
 		else :
@@ -810,7 +799,7 @@ class GuildWindow(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 
-			if localeInfo.IsARABIC() :
+			if app.IsRTL() :
 				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "guildwindow.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "uiscript/guildwindow.py")
@@ -821,40 +810,13 @@ class GuildWindow(ui.ScriptWindow):
 			self.changeGradeNameDialog = ChangeGradeNameDialog()
 			pyScrLoader.LoadScriptFile(self.changeGradeNameDialog, "uiscript/changegradenamedialog.py")
 
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				self.pageWindow = {
 					"GUILD_INFO"	: self.PageWindow(self, "uiscript/guildwindow_guildinfopage_eu.py"),
 					"BOARD"			: self.PageWindow(self, "uiscript/guildwindow_boardpage.py"),
 					"MEMBER"		: self.PageWindow(self, "uiscript/guildwindow_memberpage.py"),
 					"BASE_INFO"		: self.PageWindow(self, "uiscript/guildwindow_baseinfopage.py"),
 					"SKILL"			: self.PageWindow(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "guildwindow_guildskillpage.py"),
-					"GRADE"			: self.PageWindow(self, "uiscript/guildwindow_gradepage.py"),
-				}
-			elif localeInfo.IsJAPAN() :
-				self.pageWindow = {
-					"GUILD_INFO"	: self.PageWindow(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "guildwindow_guildinfopage.py"),
-					"BOARD"			: self.PageWindow(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "guildwindow_boardpage.py"),
-					"MEMBER"		: self.PageWindow(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "guildwindow_memberpage.py"),
-					"BASE_INFO"		: self.PageWindow(self, "uiscript/guildwindow_baseinfopage.py"),
-					"SKILL"			: self.PageWindow(self, "uiscript/guildwindow_guildskillpage.py"),
-					"GRADE"			: self.PageWindow(self, "uiscript/guildwindow_gradepage.py"),
-				}
-			elif localeInfo.IsVIETNAM() :   # 다표시 
-				self.pageWindow = {
-					"GUILD_INFO"	: self.PageWindow(self, "uiscript/guildwindow_guildinfopage_eu.py"),
-					"BOARD"			: self.PageWindow(self, "uiscript/guildwindow_boardpage.py"),
-					"MEMBER"		: self.PageWindow(self, "uiscript/guildwindow_memberpage.py"),
-					"BASE_INFO"		: self.PageWindow(self, "uiscript/guildwindow_baseinfopage.py"),
-					"SKILL"			: self.PageWindow(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "guildwindow_guildskillpage.py"),
-					"GRADE"			: self.PageWindow(self, "uiscript/guildwindow_gradepage.py"),
-				}
-			elif localeInfo.IsEUROPE() and not app.GetLocalePath() == "locale/ca" :
-				self.pageWindow = {
-					"GUILD_INFO"	: self.PageWindow(self, "uiscript/guildwindow_guildinfopage_eu.py"),
-					"BOARD"			: self.PageWindow(self, "uiscript/guildwindow_boardpage.py"),
-					"MEMBER"		: self.PageWindow(self, "uiscript/guildwindow_memberpage.py"),
-					"BASE_INFO"		: self.PageWindow(self, "uiscript/guildwindow_baseinfopage.py"),
-					"SKILL"			: self.PageWindow(self, "uiscript/guildwindow_guildskillpage.py"),
 					"GRADE"			: self.PageWindow(self, "uiscript/guildwindow_gradepage.py"),
 				}
 			else:
@@ -866,7 +828,7 @@ class GuildWindow(ui.ScriptWindow):
 					"SKILL"			: self.PageWindow(self, "uiscript/guildwindow_guildskillpage.py"),
 					"GRADE"			: self.PageWindow(self, "uiscript/guildwindow_gradepage.py"),
 				}
-				
+
 			for window in self.pageWindow.values():
 				pyScrLoader.LoadScriptFile(window, window.GetScriptFileName())
 
@@ -1033,18 +995,13 @@ class GuildWindow(ui.ScriptWindow):
 			yPos = 25 + i * lineStep
 
 			## NoticeMark
-			if localeInfo.IsJAPAN():
-				noticeMarkImage = ui.MakeImageBox(page, "d:/ymir work/ui/game/guild/notice_mark.sub", 15, yPos+3)
-			else:
-				noticeMarkImage = ui.MakeImageBox(page, "d:/ymir work/ui/game/guild/notice_mark.sub", 5, yPos+3)
+			noticeMarkImage = ui.MakeImageBox(page, "d:/ymir work/ui/game/guild/notice_mark.sub", 5, yPos+3)
 			noticeMarkImage.Hide()
 			page.Children.append(noticeMarkImage)
 
 			## Name
 			## 13.12.02 아랍수정
-			if localeInfo.IsJAPAN():
-				nameSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_100x18.sub", 9, yPos)
-			elif localeInfo.IsARABIC():
+			if app.IsRTL():
 				nameSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_03.sub", 255, yPos)
 			else:
 				nameSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_03.sub", 15, yPos)
@@ -1053,7 +1010,7 @@ class GuildWindow(ui.ScriptWindow):
 			page.Children.append(nameSlot)
 
 			## Delete Button
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				deleteButton = ui.MakeButton(page, 3, yPos + 3, localeInfo.GUILD_DELETE, "d:/ymir work/ui/public/", "close_button_01.sub", "close_button_02.sub", "close_button_03.sub")
 			else:
 				deleteButton = ui.MakeButton(page, 340, yPos + 3, localeInfo.GUILD_DELETE, "d:/ymir work/ui/public/", "close_button_01.sub", "close_button_02.sub", "close_button_03.sub")
@@ -1064,7 +1021,7 @@ class GuildWindow(ui.ScriptWindow):
 			## 13.12.02 아랍수정
 			commentSlot = CommentSlot()
 			commentSlot.SetParent(page)
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				commentSlot.SetPosition(25, yPos)
 			else:
 				commentSlot.SetPosition(114, yPos)
@@ -1079,7 +1036,7 @@ class GuildWindow(ui.ScriptWindow):
 
 		## PostComment - Have to make this here for that fit tooltip's position.
 		## 13.12.02 아랍수정
-		if localeInfo.IsARABIC():
+		if app.IsRTL():
 			postCommentButton = ui.MakeButton(page, 3, 273, localeInfo.GUILD_COMMENT, "d:/ymir work/ui/game/taskbar/", "Send_Chat_Button_01.sub", "Send_Chat_Button_02.sub", "Send_Chat_Button_03.sub")
 		else:
 			postCommentButton = ui.MakeButton(page, 337, 273, localeInfo.GUILD_COMMENT, "d:/ymir work/ui/game/taskbar/", "Send_Chat_Button_01.sub", "Send_Chat_Button_02.sub", "Send_Chat_Button_03.sub")
@@ -1099,9 +1056,7 @@ class GuildWindow(ui.ScriptWindow):
 			yPos = 28 + inverseLineIndex*lineStep
             ## 13.12.02 아랍 수정
 			## Name
-			if localeInfo.IsJAPAN():
-				nameSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_100x18.sub", 15, yPos)
-			elif localeInfo.IsARABIC():
+			if app.IsRTL():
 				nameSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_100x18.sub", 255, yPos)
 			else:
 				nameSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_03.sub", 10, yPos)
@@ -1112,9 +1067,7 @@ class GuildWindow(ui.ScriptWindow):
 			## Grade
 			gradeSlot = ui.ComboBox()
 			gradeSlot.SetParent(page)
-			if localeInfo.IsJAPAN():
-				gradeSlot.SetPosition(117, yPos-1)
-			elif localeInfo.IsARABIC():
+			if app.IsRTL():
 				gradeSlot.SetPosition(192, yPos-1)
 			else:
 				gradeSlot.SetPosition(101, yPos-1)
@@ -1124,9 +1077,7 @@ class GuildWindow(ui.ScriptWindow):
 			page.Children.append(gradeSlot)
 
 			## Job
-			if localeInfo.IsJAPAN():
-				jobSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_00.sub", 181, yPos)
-			elif localeInfo.IsARABIC():
+			if app.IsRTL():
 				jobSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_00.sub", 145, yPos)
 			else:
 				jobSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_00.sub", 170, yPos)
@@ -1135,9 +1086,7 @@ class GuildWindow(ui.ScriptWindow):
 			page.Children.append(jobSlot)
 
 			## Level
-			if localeInfo.IsJAPAN():
-				levelSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_00.sub", 221, yPos)
-			elif localeInfo.IsARABIC():
+			if app.IsRTL():
 				levelSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_00.sub", 106, yPos)
 			else:
 				levelSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_00.sub", 210, yPos)
@@ -1146,9 +1095,7 @@ class GuildWindow(ui.ScriptWindow):
 			page.Children.append(levelSlot)
 
 			## Offer
-			if localeInfo.IsJAPAN():
-				offerSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_00.sub", 261, yPos)
-			elif localeInfo.IsARABIC():
+			if app.IsRTL():
 				offerSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_00.sub", 66, yPos)
 			else:
 				offerSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_00.sub", 250, yPos)
@@ -1158,9 +1105,7 @@ class GuildWindow(ui.ScriptWindow):
 
 			## General Enable
 			event = lambda argSelf=proxy(self), argIndex=inverseLineIndex: apply(argSelf.OnEnableGeneral, (argIndex,))
-			if localeInfo.IsJAPAN():
-				generalEnableCheckBox = CheckBox(page, 307, yPos, event, "d:/ymir work/ui/public/Parameter_Slot_00.sub")
-			elif localeInfo.IsARABIC():
+			if app.IsRTL():
 				generalEnableCheckBox = CheckBox(page, 22, yPos, event, "d:/ymir work/ui/public/Parameter_Slot_00.sub")
 			else:
 				generalEnableCheckBox = CheckBox(page, 297, yPos, event, "d:/ymir work/ui/public/Parameter_Slot_00.sub")
@@ -1283,7 +1228,7 @@ class GuildWindow(ui.ScriptWindow):
 			index = i+1
 			## 13.12.02 아랍 수정
 			## GradeNumber
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				gradeNumberSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_00.sub", 310, yPos)
 			else:
 				gradeNumberSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_00.sub", 14, yPos)
@@ -1293,7 +1238,7 @@ class GuildWindow(ui.ScriptWindow):
 			page.Children.append(gradeNumberSlot)
 
 			## GradeName
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				gradeNameSlot = EditableTextSlot(page, 242, yPos)
 			else:
 				gradeNameSlot = EditableTextSlot(page, 58, yPos)
@@ -1302,7 +1247,7 @@ class GuildWindow(ui.ScriptWindow):
 
 			## Invite Authority
 			event = lambda argSelf=proxy(self), argIndex=index, argAuthority=1<<0: apply(argSelf.OnCheckAuthority, (argIndex,argAuthority))
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				inviteAuthorityCheckBox = CheckBox(page, 185, yPos, event)
 			else:
 				inviteAuthorityCheckBox = CheckBox(page, 124, yPos, event)
@@ -1310,7 +1255,7 @@ class GuildWindow(ui.ScriptWindow):
 
 			## DriveOut Authority
 			event = lambda argSelf=proxy(self), argIndex=index, argAuthority=1<<1: apply(argSelf.OnCheckAuthority, (argIndex,argAuthority))
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				driveoutAuthorityCheckBox = CheckBox(page, 128, yPos, event)
 			else:
 				driveoutAuthorityCheckBox = CheckBox(page, 181, yPos, event)
@@ -1318,7 +1263,7 @@ class GuildWindow(ui.ScriptWindow):
 
 			## Notice Authority
 			event = lambda argSelf=proxy(self), argIndex=index, argAuthority=1<<2: apply(argSelf.OnCheckAuthority, (argIndex,argAuthority))
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				noticeAuthorityCheckBox = CheckBox(page, 71, yPos, event)
 			else:
 				noticeAuthorityCheckBox = CheckBox(page, 238, yPos, event)
@@ -1326,7 +1271,7 @@ class GuildWindow(ui.ScriptWindow):
 
 			## Skill Authority
 			event = lambda argSelf=proxy(self), argIndex=index, argAuthority=1<<3: apply(argSelf.OnCheckAuthority, (argIndex,argAuthority))
-			if localeInfo.IsARABIC():
+			if app.IsRTL():
 				skillAuthorityCheckBox = CheckBox(page, 14, yPos, event)
 			else:
 				skillAuthorityCheckBox = CheckBox(page, 295, yPos, event)
@@ -1355,7 +1300,8 @@ class GuildWindow(ui.ScriptWindow):
 		self.largeMarkBox.SetIndex(guildID)
 		self.largeMarkBox.SetScale(3)
 		## 13.12.02 아랍수정
-		if localeInfo.IsARABIC():
+
+		if app.IsRTL():
 			self.largeMarkBox.SetPosition(self.largeMarkBox.GetWidth()+32,1)
 
 	def Close(self):
@@ -2001,37 +1947,11 @@ class GuildWindow(ui.ScriptWindow):
 
 class BuildGuildBuildingWindow(ui.ScriptWindow):
 
-	if localeInfo.IsJAPAN():
-		GUILD_CATEGORY_LIST = (
-				("HEADQUARTER", "딈멳뙕뭱븿"),
-				("FACILITY", "둮뮗뙕뭱븿"),
-				("OBJECT", "궩궻뫜"),
-			)
-	elif localeInfo.IsYMIR() or localeInfo.IsWE_KOREA():
-		GUILD_CATEGORY_LIST = (
-				("HEADQUARTER", "본건물"),
-				("FACILITY", "기능건물"),
-				("OBJECT", "조경물"),
-			)
-	elif localeInfo.IsEUROPE() or localeInfo.IsHONGKONG():
-		GUILD_CATEGORY_LIST = (
-				("HEADQUARTER", localeInfo.GUILD_HEADQUARTER),
-				("FACILITY", 	localeInfo.GUILD_FACILITY),
-				("OBJECT", 	localeInfo.GUILD_OBJECT),
-			)
-	else:
-		try :
-			GUILD_CATEGORY_LIST = (
-					("HEADQUARTER", localeInfo.GUILD_HEADQUARTER),
-					("FACILITY", 	localeInfo.GUILD_FACILITY),
-					("OBJECT", 	localeInfo.GUILD_OBJECT),
-				)
-		except:
-			GUILD_CATEGORY_LIST = (
-					("HEADQUARTER", "Main Building"),
-					("FACILITY", "Facility"),
-					("OBJECT", "Object"),
-				)
+	GUILD_CATEGORY_LIST = (
+			("HEADQUARTER", localeInfo.GUILD_HEADQUARTER),
+			("FACILITY", 	localeInfo.GUILD_FACILITY),
+			("OBJECT", 	localeInfo.GUILD_OBJECT),
+		)
 
 	MODE_VIEW = 0
 	MODE_POSITIONING = 1
@@ -2086,9 +2006,7 @@ class BuildGuildBuildingWindow(ui.ScriptWindow):
 
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-			if localeInfo.IsARABIC():
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "buildguildbuildingwindow.py")
-			elif localeInfo.IsVIETNAM():
+			if app.IsRTL():
 				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "buildguildbuildingwindow.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "uiscript/buildguildbuildingwindow.py")
@@ -2464,14 +2382,10 @@ class BuildGuildBuildingWindow(ui.ScriptWindow):
 		self.needLogCount = int(materialList[MATERIAL_LOG_INDEX])
 		self.needPlywoodCount = int(materialList[MATERIAL_PLYWOOD_INDEX])
 
-		if (localeInfo.IsEUROPE() and app.GetLocalePath() != "locale/ca") and (localeInfo.IsEUROPE() and app.GetLocalePath() != "locale/br"):
-			self.buildingMaterialStoneValue.SetText(materialList[MATERIAL_STONE_INDEX])
-			self.buildingMaterialLogValue.SetText(materialList[MATERIAL_LOG_INDEX] )
-			self.buildingMaterialPlywoodValue.SetText(materialList[MATERIAL_PLYWOOD_INDEX])
-		else:
-			self.buildingMaterialStoneValue.SetText(materialList[MATERIAL_STONE_INDEX] + localeInfo.THING_COUNT)
-			self.buildingMaterialLogValue.SetText(materialList[MATERIAL_LOG_INDEX] + localeInfo.THING_COUNT)
-			self.buildingMaterialPlywoodValue.SetText(materialList[MATERIAL_PLYWOOD_INDEX] + localeInfo.THING_COUNT)
+		self.buildingMaterialStoneValue.SetText(materialList[MATERIAL_STONE_INDEX] + localeInfo.THING_COUNT)
+		self.buildingMaterialLogValue.SetText(materialList[MATERIAL_LOG_INDEX] + localeInfo.THING_COUNT)
+		self.buildingMaterialPlywoodValue.SetText(materialList[MATERIAL_PLYWOOD_INDEX] + localeInfo.THING_COUNT)
+
 		if self.__IsEnoughMoney():
 			self.buildingPriceValue.SetPackedFontColor(self.ENABLE_COLOR)
 		else:

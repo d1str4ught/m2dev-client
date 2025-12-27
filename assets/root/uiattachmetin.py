@@ -114,11 +114,11 @@ class AttachMetinDialog(ui.ScriptWindow):
 		newWidth = self.newToolTip.GetWidth() + 230 + 15 + 20
 		newHeight = self.newToolTip.GetHeight() + 98
 
-		if localeInfo.IsARABIC():
-			self.board.SetPosition( newWidth, 0 )
+		if app.IsRTL():
+			self.board.SetPosition(newWidth, 0)
 
-			(x,y) = self.titleBar.GetLocalPosition()
-			self.titleBar.SetPosition( newWidth - 15, y )
+			(x, y) = self.titleBar.GetLocalPosition()
+			self.titleBar.SetPosition(newWidth - 15, y)
 
 		self.board.SetSize(newWidth, newHeight)
 		self.titleBar.SetWidth(newWidth-15)

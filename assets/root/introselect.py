@@ -37,15 +37,6 @@ LEAVE_BUTTON_FOR_POTAL = False
 NOT_NEED_DELETE_CODE = False
 ENABLE_ENGNUM_DELETE_CODE = False
 
-if localeInfo.IsJAPAN():
-	NOT_NEED_DELETE_CODE = True
-elif localeInfo.IsHONGKONG():
-	ENABLE_ENGNUM_DELETE_CODE = True
-elif localeInfo.IsNEWCIBN() or localeInfo.IsCIBN10():
-	ENABLE_ENGNUM_DELETE_CODE = True
-elif localeInfo.IsEUROPE():
-	ENABLE_ENGNUM_DELETE_CODE = True
-
 ###################################
 
 class SelectCharacterWindow(ui.Window):
