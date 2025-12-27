@@ -245,13 +245,13 @@ class LoginWindow(ui.ScriptWindow):
 
 		print "---------------------------------------------------------------------------- CLOSE LOGIN WINDOW "
 		#
-		# selectMusic이 없으면 BGM이 끊기므로 두개 다 체크한다. 
+		# Check both since BGM stops if selectMusic is not set. 
 		#
 		if musicInfo.loginMusic != "" and musicInfo.selectMusic != "":
 			snd.FadeOutMusic("BGM/"+musicInfo.loginMusic)
 
-		## NOTE : idEditLine와 pwdEditLine은 이벤트가 서로 연결 되어있어서
-		##        Event를 강제로 초기화 해주어야만 합니다 - [levites]
+		## NOTE : idEditLine and pwdEditLine have interconnected events
+		##        Events must be forcibly initialized - [levites]
 		self.idEditLine.SetTabEvent(0)
 		self.idEditLine.SetReturnEvent(0)
 		self.pwdEditLine.SetReturnEvent(0)
@@ -382,7 +382,7 @@ class LoginWindow(ui.ScriptWindow):
 			loginFailureMsg = localeInfo.LOGIN_FAILURE_UNKNOWN  + error
 
 
-		#0000685: [M2EU] 아이디/비밀번호 유추 가능 버그 수정: 무조건 패스워드로 포커스가 가게 만든다
+		#0000685: [M2EU] ID/password guessing bug fix: always set focus to password field
 		loginFailureFunc=self.loginFailureFuncDict.get(error, self.SetPasswordEditLineFocus)
 
 		if app.loggined:
@@ -579,18 +579,18 @@ class LoginWindow(ui.ScriptWindow):
 			execfile(loginInfoFileName, loginInfo)
 		except IOError:
 			print(\
-				"자동 로그인을 하시려면" + loginInfoFileName + "파일을 작성해주세요\n"\
+				"For automatic login, please create" + loginInfoFileName + "file\n"\
 				"\n"\
-				"내용:\n"\
+				"Contents:\n"\
 				"================================================================\n"\
-				"addr=주소\n"\
-				"port=포트\n"\
-				"id=아이디\n"\
-				"pwd=비밀번호\n"\
-				"slot=캐릭터 선택 인덱스 (없거나 -1이면 자동 선택 안함)\n"\
-				"autoLogin=자동 접속 여부\n"
-				"autoSelect=자동 접속 여부\n"
-				"locale=(ymir) LC_Ymir 일경우 ymir로 작동. 지정하지 않으면 korea로 작동\n"
+				"addr=address\n"\
+				"port=port number\n"\
+				"id=user ID\n"\
+				"pwd=password\n"\
+				"slot=character selection index (if absent or -1, no auto-selection)\n"\
+				"autoLogin=enable auto login\n"
+				"autoSelect=enable auto select\n"
+				"locale=(ymir) works as ymir for LC_Ymir. Works as korea if not specified\n"
 			);
 
 		id=loginInfo.get("id", "")
@@ -634,7 +634,7 @@ class LoginWindow(ui.ScriptWindow):
 			self.Connect(id, pwd)
 			
 			print "=================================================================================="
-			print "자동 로그인: %s - %s:%d %s" % (loginInfoFileName, addr, port, id)
+			print "Auto login: %s - %s:%d %s" % (loginInfoFileName, addr, port, id)
 			print "=================================================================================="
 
 		
@@ -718,7 +718,7 @@ class LoginWindow(ui.ScriptWindow):
 		if channelIndex >= 0:
 			self.channelList.SelectItem(channelIndex)
 
-		## Show/Hide 코드에 문제가 있어서 임시 - [levites]
+		## Temporary fix for Show/Hide code issue - [levites]
 		self.serverBoard.SetPosition(self.xServerBoard, self.yServerBoard)
 		self.serverBoard.Show()
 		self.connectBoard.Hide()
@@ -930,7 +930,6 @@ class LoginWindow(ui.ScriptWindow):
 			self.PopupNotifyMessage(localeInfo.CHANNEL_SELECT_CHANNEL)
 			return
 
-		# 상태가 FULL 과 같으면 진입 금지
 		if state == serverInfo.STATE_DICT[3]: 
 			self.PopupNotifyMessage(localeInfo.CHANNEL_NOTIFY_FULL)
 			return
@@ -953,7 +952,7 @@ class LoginWindow(ui.ScriptWindow):
 			tcp_port = serverInfo.REGION_DICT[regionID][serverID]["channel"][channelID]["tcp_port"]
 		except:
 			import exception
-			exception.Abort("LoginWindow.__OnClickSelectServerButton - 서버 선택 실패")
+			exception.Abort("LoginWindow.__OnClickSelectServerButton - server selection failed")
 
 		try:
 			account_ip = serverInfo.REGION_AUTH_SERVER_DICT[regionID][serverID]["ip"]
@@ -973,7 +972,7 @@ class LoginWindow(ui.ScriptWindow):
 
 		except:
 			import exception
-			exception.Abort("LoginWindow.__OnClickSelectServerButton - 마크 정보 없음")
+			exception.Abort("LoginWindow.__OnClickSelectServerButton - mark information missing")
 			
 		self.stream.SetConnectInfo(ip, tcp_port, account_ip, account_port)
 		self.__OpenLoginBoard()
