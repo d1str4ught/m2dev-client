@@ -1,6 +1,5 @@
 AFF_LOVE_POINT	Liebespunkte: %d%%
 ALIGNMENT_NAME	Rangpunkte:
-ATTACK_ERROR_UNKNOWN	Unbekannter Angriffsfehler: %s
 CANNOT_ATTACK_DEST_IN_SAFE	Der Gegner ist zu weit weg.
 CANNOT_ATTACK_SELF_IN_SAFE	Ich kann den Gegner von hier nicht angreifen.
 CANNOT_EQUIP_IN_EXCHANGE	Du kannst keine Ausrüstung wechseln, während du handelst.
@@ -32,8 +31,6 @@ CANNOT_USE	Du kannst ihn nicht verwenden.
 CANNOT_WHISPER_DEST_REFUSE	%s hat Flüstern blockiert.	SA
 CANNOT_WHISPER_NOT_LOGON	%s ist nicht online.	SA
 CANNOT_WHISPER_SELF_REFUSE	Du kannst niemandem etwas zuflüstern, wenn du Flüstern blockiert hast.	SNA
-CHANNEL	Channel
-CHANNELING_CANNOT_LOGOUT	Du kannst nicht zurück zum Anmeldebildschirm.
 CHANNEL_EMPTY_SERVER	Kein Server
 CHANNEL_NORMAL	Channel %d
 CHANNEL_NOTIFY_FULL	Dieser Channel ist voll! Wähle bitte einen anderen aus.
@@ -42,10 +39,7 @@ CHANNEL_PVP	Freies Duell
 CHANNEL_SELECT_CHANNEL	Wähle den Channel
 CHANNEL_SELECT_REGION	Ort für die Rechnungsstellung wählen
 CHANNEL_SELECT_SERVER	Server wählen
-CHANNEL_TEST_SERVER	Server testen
-CHANNEL_TEST_SERVER_ADDR	Test %s:%d
 CHAT_ALL	Alle
-CHAT_BLOCK	Abblocken
 CHAT_GUILD	Gilde
 CHAT_INFORMATION	Info
 CHAT_INSULT_STRING	Der Satz enthält unzulässige Wörter.
@@ -58,14 +52,12 @@ CHAT_SEND_CHAT	Chat senden
 CHAT_SEND_MEMO	Flüstern senden [Umschalt+Eingabe]
 CHAT_SHOUT	Rufen
 CHAT_SHOUT_LIMIT	Du kannst nur alle 15 Sekunden rufen.
-CHAT_WHISPER	Flüstern
 CREATE_ERROR_GM_NAME	Du darfst im Charakternamen nicht ,GM‘ verwenden.
 CREATE_ERROR_INSULT_NAME	Dieser Name ist nicht zulässig.
 CREATE_EXIST_SAME_NAME	Ein anderer Charakter trägt bereits diesen Namen.
 CREATE_FAILURE	Du kannst den Charakter nicht erstellen.
 CREATE_GM_NAME	GM
 CREATE_INPUT_NAME	Gib den Namen ein.
-CREATE_PLUS_STAT	Es sind noch Statuspunkte verfügbar.
 DAY	T
 DO_YOU_BUY_ITEM1	Möchtest du %s für %s kaufen?
 DO_YOU_BUY_ITEM2	Möchtest du %s %s für %s kaufen?
@@ -81,7 +73,6 @@ DRAGON_SOUL_INVALID_DRAGON_SOUL	Das ist der falsche Drachenstein.
 DRAGON_SOUL_IS_NOT_DRAGON_SOUL	Das ist kein Drachenstein.
 DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	Das ist nicht der richtige Drachenstein.
 DRAGON_SOUL_NOT_ENOUGH_MATERIAL	Du hast nicht genug Material zum Veredeln.
-DRAGON_SOUL_NOT_MATCHED_SLOT	Der Drachenstein passt nicht in diesen Slot.
 DRAGON_SOUL_STEP_LEVEL1	Reinheit: matt,
 DRAGON_SOUL_STEP_LEVEL2	Reinheit: klar,
 DRAGON_SOUL_STEP_LEVEL3	Reinheit: lupenrein,
@@ -155,9 +146,6 @@ GUILDMARK_UPLOADER_ERROR_PATH	Verschiebe die Dateien in den Ordner metin2/upload
 GUILDMARK_UPLOADER_ERROR_SELECT	Keine Bilddatei ausgewählt.
 GUILDWAR_CTF_TITLE	Flagge erobern
 GUILDWAR_NORMAL_TITLE	Feldschlacht
-GUILDWAR_QUESTION_LINE_1	Die Gilde %s hat deiner Gilde den Krieg erklärt.
-GUILDWAR_QUESTION_LINE_2	Nimmst du an? (%s)
-GUILDWAR_UNKNOWN_TITLE	...
 GUILDWAR_WARP_TITLE	Arenakampf
 GUILD_BUILDING_GRADE	Rang
 GUILD_BUILDING_NAME	Gebäudename
@@ -170,7 +158,6 @@ GUILD_DEPOSIT	Hinterlegen
 GUILD_DO_YOU_HEAL_GSP	Möchtest du für %d Yang %d Drachengeist wiederherstellen?
 GUILD_DO_YOU_JOIN	 hat dich eingeladen. Der Gilde beitreten?
 GUILD_EMPTY_AREA	Leeres Land
-GUILD_ENEMY_GUILD_NAME	Gildenname des Gegners
 GUILD_FACILITY	Nebengebäude
 GUILD_GEM	Edelstein
 GUILD_HEADQUARTER	Hauptgebäude
@@ -210,11 +197,8 @@ HORSE_LEVEL3	Militärpferd
 HOUR	Std
 HOW_MANY_ITEM_DO_YOU_DROP1	Möchtest du %s fallen lassen?
 HOW_MANY_ITEM_DO_YOU_DROP2	Möchtest du %s %d fallen lassen?
-INPUT_MATRIX_CARD_NUMBER	Matrix-Kartennr. eingeben
-INPUT_MATRIX_CARD_TITLE	Matrix-Karte
 INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Lösch-Code aus der Accountverwaltung eingeben.
 INPUT_PRIVATE_CODE_DIALOG_TITLE	Charakter löschen
-INVENTORY_DO_NOT_PACK_WARP_SCROLL	Schriftrolle kann nicht zusammengeführt werden.
 INVENTORY_REALLY_USE_ITEM	Möchtest du diesen Gegenstand verwenden?
 JOB_ASSASSIN	Ninja
 JOB_ASSASSIN0	Amateurninja
@@ -248,8 +232,6 @@ LOGIN_FAILURE_SHUTDOWN	Der Server ist noch nicht offen.
 LOGIN_FAILURE_TOO_MANY_USER	Du konntest keine Verbindung herstellen, da es zu viele Spieler gibt.
 LOGIN_FAILURE_UNKNOWN	Du konntest dich aus unbekannten Gründen nicht anmelden.
 LOGIN_FAILURE_WEB_BLOCK	Du wurdest auf der Webseite geblockt. Bitte überprüfe deine E-Mails.
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	Du hast eine falsche Nr. eingegeben.
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	Du hast dreimal eine falsche Nr. eingegeben. Deine Verbindung wird beendet.
 LOGIN_FAILURE_WRONG_PASSWORD	Accountname oder Passwort falsch.
 LOGIN_INPUT_ID	Gib die ID ein.
 LOGIN_INPUT_PASSWORD	Gib das Kennwort ein.
@@ -280,14 +262,12 @@ MAP_SPIDER	Kuahlo Dong
 MAP_TEMPLE	Hwang-Tempel
 MAP_THUNDER	Donnerberge
 MAP_TREE	Lungsam
-MAP_TRENT02	Roter Wald
 MAP_WL	Schlangenfeld
 MESSENGER_ADD_FRIEND	Freund hinzufügen
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s hat dich als Freund aufgenommen.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Annehmen?
 MESSENGER_DO_YOU_DELETE	Löschen?
 MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Möchtest du die Handynummer löschen?
-MESSENGER_DO_YOU_MOVE	Möchtest du weiter?
 MESSENGER_EMPTY_LIST	Leer
 MESSENGER_FAMILY	Familie
 MESSENGER_FRIEND	Freunde
@@ -307,8 +287,6 @@ MINIMAP_OBSERVER_COUNT	%d Zuschauer
 MINIMAP_SHOW_AREAMAP	Übersichtskarte öffnen
 MINUTE	Min
 MONETARY_UNIT0	Yang
-MONETARY_UNIT1	zehntausend
-MONETARY_UNIT2	hundert Millionen
 MONEY_INPUT_DIALOG_SELLPRICE	Verkaufspreis:
 MOVE_ITEM_FAILURE_PRIVATE_SHOP	Du kannst keine Gegenstände verschieben, solange du einen privaten Laden geöffnet hast.
 MUSIC_EMPTY_MUSIC_LIST	Keine Hintergrundmusik.
@@ -338,10 +316,8 @@ PARTY_HEAL_ALL_MEMBER	Alles wiederherstellen
 PARTY_INCREASE_AREA_150	Reichweite der Gruppe um Faktor 1,5 erhöht.	SNA
 PARTY_INCREASE_AREA_200	Reichweite der Gruppe um Faktor 2 erhöht.	SNA
 PARTY_LEAVE	Gruppe verlassen
-PARTY_LONGTIME_BONUS_EXP	Bonus-EXP für langes Gruppenspiel: +%d%%	SA
 PARTY_MEMBER_OFFLINE	[Offline]
 PARTY_RECALL_MEMBER	Gruppenmitglied herbeirufen.
-PARTY_REGEN_BONUS	Bonus für TP- + MP-Regeneration: +%d%%	SA
 PARTY_REQUEST_DENIED	Deine Anfrage wurde abgelehnt.
 PARTY_SET_ATTACKER	Als Angreifer festlegen.
 PARTY_SET_BERSERKER	Als Berserker festlegen.
@@ -354,12 +330,8 @@ PARTY_SKILL_ATTACKER	Basis-Angriffswert Angreifer +%.0f
 PARTY_SKILL_BERSERKER	Angriffsgeschwindigkeit Berserker +%.0f
 PARTY_SKILL_BUFFER	Fertigkeitsdauer Blocker +%.0f
 PARTY_SKILL_DEFENDER	Verteidigung Verteidiger +%.0f
-PARTY_SKILL_HP_REGEN	TP-Regeneration +%.0f%%
-PARTY_SKILL_PARTY_AREA	Gruppenreichweite +%d%%
 PARTY_SKILL_SKILL_MASTER	Max. MP Fertigkeitsmeister +%.0f
-PARTY_SKILL_SP_REGEN	MP-Regeneration +%.0f%%
 PARTY_SKILL_TANKER	Max. TP Nahkämpfer +%.0f
-PARTY_SKILL_WARP	In der Lage, Gruppenmitglieder herbeizurufen.
 PASSWORD_TITLE	Lagerkennwort
 PICK_ITEM_TITLE	Gegenstandsnr.
 PICK_MONEY_TITLE	Betrag
@@ -390,7 +362,6 @@ QUEST_MIN	Min.
 QUEST_SEC	Sek.
 QUEST_TIMEOVER	Zeit abgelaufen
 QUEST_UNLIMITED_TIME	Keine Zeitbeschränkung
-QUEST_ZEROSEC	0 Sek.
 QUICKSLOT_REGISTER_DISABLE_ITEM	Dieser Gegenstand kann nicht zum Schnellzugriffsfeld hinzugefügt werden.
 RECEIVE_MESSAGE	%s hat dir eine Nachricht gesendet.
 REFINE_COST	Verbesserungskosten: %d Yang
@@ -429,11 +400,9 @@ SELECT_DELEING	Charakter wird gelöscht
 SELECT_DELETED	Löschung erfolgreich.
 SELECT_DO_YOU_DELETE_REALLY	Möchtest du fortfahren?
 SELECT_EMPTY_SLOT	Dies ist ein leeres Feld.
-SELECT_GM_NAME	GM
 SELECT_INPUT_CHANGING_NAME	Gib einen neuen Charakternamen ein.
 SELECT_NOT_JOIN_GUILD	Keine Gilde
 SHOP_BUY_INFO	Wähle im Ladenfenster den Gegenstand aus, den du kaufen möchtest.
-SHOP_CANNOT_SELL_EQUIPMENT	Du kannst ausgerüstete Gegenstände nicht verkaufen.
 SHOP_CANNOT_SELL_ITEM	Dieser Gegenstand ist nicht zu verkaufen.
 SHOP_ERROR_UNKNOWN	Unbekannter Ladenfehler: %s
 SHOP_INVALID_POS	Dieser Gegenstand ist ungeeignet.
@@ -444,22 +413,12 @@ SHOP_SELL_INFO	Wähle in deinem Inventarfenster den Gegenstand aus, den du verka
 SHOP_SOLDOUT	Ausverkauft
 SHOT_ERROR_UNKNOWN	Unbekannter Fehler beim Fernangriff: %s
 SKILL_BOHO	Reflektieren
-SKILL_BUDONG	Wird nicht mehr benutzt
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	Du benötigst EXP, um diese Fertigkeit zu erlernen.
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	Du benötigst ein Buch, um diese Fertigkeit zu erlernen.
 SKILL_CHEONGEUN	Starker Körper
-SKILL_CRITICAL	Kritischer Treffer
-SKILL_ENCHANT_POISON	Gift benutzen
 SKILL_EUNHYEONG	Unsichtbar
-SKILL_FAINT	Ohnmacht
-SKILL_FIND_TRAP	Falle suchen
 SKILL_FIRE	Verbrennen
 SKILL_FISHMIND	Fischkugel ist aktiv
-SKILL_GAMJI	Erfassen
 SKILL_GEOMGYEONG	Aura des Schwerts
-SKILL_GEONGON	SKILL_GEONGON Wird nicht mehr benutzt
 SKILL_GICHEON	Hilfe des Drachen
-SKILL_GIGONG	Chi-Rotation
 SKILL_GONGPO	Furcht
 SKILL_GRADE_NAME_GRAND_MASTER	%s Großmeister
 SKILL_GRADE_NAME_MASTER	%s Meister
@@ -477,48 +436,24 @@ SKILL_GWIGEOM	Verzauberte Klinge
 SKILL_GYEONGGONG	Federschreiten
 SKILL_HEUKSIN	Dunkler Schutz
 SKILL_HOSIN	Segen
-SKILL_HWAYEOM	SKILL_HWAYEOM Wird nicht mehr benutzt
-SKILL_HYEOLMA	SKILL_HYEOLMA Wird nicht mehr benutzt
 SKILL_INC_ATKSPD	Angriffsgeschwindigkeit erhöht
 SKILL_INC_MOVSPD	Bewegungsgeschwindigkeit erhöht
-SKILL_INMA	SKILL_INMA Wird nicht mehr benutzt
-SKILL_JEOJU	Fluch
-SKILL_JEONGEOP	Heilen
 SKILL_JEONGWI	Kampfrausch
-SKILL_JEONSINBANGEO	Volle Verteidigung
-SKILL_JEONSINGONGGYEOK	Voller Angriff
-SKILL_JEUNGCHE	SKILL_JEUNGCHE Wird nicht mehr benutzt
-SKILL_JEUNGHON	SKILL_JEUNGHON Wird nicht mehr benutzt
 SKILL_JEUNGRYEOK	Angriff +
-SKILL_JEUNGSOK	Geschwindigkeit +
-SKILL_JIGAM	SKILL_JIGAM Wird nicht mehr benutzt
-SKILL_JIPJUNG	SKILL_JIPJUNG Wird nicht mehr benutzt
 SKILL_JUMAGAP	Verzauberte Rüstung
-SKILL_JUMAGEOM	SKILL_JUMAGEOM Wird nicht mehr benutzt
-SKILL_KWAEGEOM	SKILL_KWAEGEOM Wird nicht mehr benutzt
 SKILL_KWAESOK	Schnelligkeit
-SKILL_LEGBOUND	SKILL_LEGBOUND Wird nicht mehr benutzt
-SKILL_MUSA	SKILL_MUSA Wird nicht mehr benutzt
 SKILL_MUYEONG	Geist der Flamme
 SKILL_NEED_EMPTY_BOTTLE	Ich habe keine leere Flasche.
 SKILL_NEED_POISON_BOTTLE	Ich habe keine Giftflasche.
 SKILL_ONLY_FOR_GUILD_WAR	Du kannst diese Fertigkeit nur in einem Gildenkrieg einsetzen.
 SKILL_PABEOP	Zauber aufheben
 SKILL_POWERFUL_STRIKE	Betäubungsangriff
-SKILL_SEOMGWANG	Blitzbombe
-SKILL_SINCHAK	SKILL_SINCHAK Wird nicht mehr benutzt
-SKILL_SLEEP	Schlaf
 SKILL_SLOW	Langsam
 SKILL_STUN	Betäuben
-SKILL_SUHO	Wächter
 SKILL_SUMMON_DESCRIPTION	Chance der Beschwörung: %d%%
 SKILL_TOOLTIP_INT	Intelligenz
 SKILL_TOOLTIP_LEVEL	Level
 SKILL_TOXICDIE	Vergiftung
-SKILL_TOXICPOWER	Giftangriffswert verbessert
-SKILL_TUSOK	Geisterschlag
-SKILL_WONSIN	SKILL_WONSIN Wird nicht mehr benutzt
-SKILL_YONGSIN	SKILL_YONGSIN Wird nicht mehr benutzt
 STAT_MINUS_CON	Vitalitätsanpassung (Verbleibende Chance: %d)
 STAT_MINUS_DEX	Beweglichkeitsanpassung (Verbleibende Chance: %d)
 STAT_MINUS_INT	Intelligenzanpassung (Verbleibende Chance: %d)
@@ -582,7 +517,6 @@ TOOLTIP_APPLY_ATTBONUS_SURA	Stark gegen Sura +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_UNDEAD	Stark gegen Untote +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_WARRIOR	Stark gegen Krieger +%d%%	SA
 TOOLTIP_APPLY_BLOCK	Chance, Nahkampf-Angriff abzublocken %d%%	SA
-TOOLTIP_APPLY_COMBAT_SP_RECOVER	MP im Kampf alle 5 Sek. wiederherstellen %d	SA
 TOOLTIP_APPLY_CRITICAL_PCT	Chance auf krit. Treffer +%d%%	SA
 TOOLTIP_APPLY_DAMAGE_SP_RECOVER	%d%% Chance, MP bei Treffer zurückzuerhalten	SA
 TOOLTIP_APPLY_DODGE	%d%% Chance, Pfeilangriff auszuweichen	SA
@@ -641,7 +575,6 @@ TOOLTIP_DRAGON_SOUL_DECK1	Erde	SNA
 TOOLTIP_DRAGON_SOUL_DECK2	Himmel	SNA
 TOOLTIP_EAR	Ohrring
 TOOLTIP_ENERGY	Energie %d	SA
-TOOLTIP_ETC	Usw.
 TOOLTIP_FISHINGROD_EXP	Punkte: %d / %d
 TOOLTIP_FISHINGROD_LEVEL	Level: %d
 TOOLTIP_FISHINGROD_UPGRADE1	Dem Fischer geben,
@@ -654,7 +587,6 @@ TOOLTIP_INT	Intelligenz +%d	SA
 TOOLTIP_ITEM_ATT_GRADE	Angriffswert %d
 TOOLTIP_ITEM_ATT_POWER	Angriffswert %d - %d
 TOOLTIP_ITEM_ATT_POWER_ONE_ARG	Angriffswert %d
-TOOLTIP_ITEM_ATT_POWER_REFINE	Angriffswert %d - %d (+%d)
 TOOLTIP_ITEM_ATT_SPEED	Angriffsgeschwindigkeit %s
 TOOLTIP_ITEM_DEF_GRADE	Verteidigung %d
 TOOLTIP_ITEM_FAST	Schnell
@@ -706,30 +638,12 @@ TOOLTIP_NEED_ALL_SP	Benötigte MP: Max.
 TOOLTIP_NEED_GSP	Benötigter Drachengeist: %d
 TOOLTIP_NEED_HP	Benötigte TP: %d
 TOOLTIP_NEED_HP_PER_SEC	TP / Sek.: %d
-TOOLTIP_NEED_SKILL_POINT	Benötigte Fertigkeitspunkte:
 TOOLTIP_NEED_SP	Benötigte MP: %d
 TOOLTIP_NEED_SP_PER_SEC	MP / Sek.: %d
 TOOLTIP_NEXT_SKILL_LEVEL_1	Nächstes Level: %d (Max. %d)
-TOOLTIP_NEXT_SKILL_LEVEL_2	Nächstes Level: %d (Max. %d-%d)
 TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	Durchschn. Schaden %d%%	SA
 TOOLTIP_NORMAL_HIT_DEFEND_BONUS	Durchschn. Schadenswiderstand %d%%	SA
-TOOLTIP_PARTY_INFO_GRADE_UP1	Mehr als %d Gruppenmitglieder
-TOOLTIP_PARTY_INFO_GRADE_UP2	Angriffsstufe +%d
-TOOLTIP_PARTY_INFO_GRADE_UP3	Verteidigungsstufe +%d
-TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	TP/MP aller Gruppenmitglieder einmal in 60 Minuten wiederherstellen.
-TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	TP/MP aller Gruppenmitglieder einmal in 30 Minuten wiederherstellen.
-TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	Du musst drei Minuten nach dem Tod des Gruppenmitglieds warten.
-TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	Du kannst jederzeit Gruppenmitglieder auf dem gleichen Server herbeirufen.
-TOOLTIP_PARTY_INFO_SET_ATTACKER	Angriffsstufe +(Anzahl der Gruppenmitgl./2) Angreifer %d können ausgewählt werden.
-TOOLTIP_PARTY_INFO_SET_TANKER	Verteidigungsstufe +(Anzahl der Gruppenmitgl.) Nahkämpfer 1 können ausgewählt werden.
 TOOLTIP_PARTY_SKILL_LEVEL	Aktuelles Level: %d
-TOOLTIP_PARTY_TITLE_GRADE_UP	[Angriff/Verteidigung verbessert]
-TOOLTIP_PARTY_TITLE_HEAL	[Wiederherstellen]
-TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Mehr als %d Gruppenmitglieder gibt Bonus-EXP %d%%.
-TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Bonus-EXP]
-TOOLTIP_PARTY_TITLE_RECALL	[Herbeirufen]
-TOOLTIP_PARTY_TITLE_SET_ATTACKER	[Angreifer festlegen]
-TOOLTIP_PARTY_TITLE_SET_TANKER	[Nahkämpfer festlegen]
 TOOLTIP_PICK_EXP	Punkte: %d / %d
 TOOLTIP_PICK_LEVEL	Level: %d
 TOOLTIP_PICK_UPGRADE1	Dem Holzfäller geben,
@@ -745,9 +659,6 @@ TOOLTIP_POTION_PLUS_SP_PERCENT	MP +%d%%
 TOOLTIP_POTION_PLUS_SP_POINT	MP +%d
 TOOLTIP_POTION_SEC	Sek.
 TOOLTIP_POTION_TIME	Dauer:
-TOOLTIP_REQUIREMENT_21_LEVEL	Du musst Level 21 erreicht haben
-TOOLTIP_REQUIREMENT_41_LEVEL	Du musst Level 41 erreicht haben
-TOOLTIP_REQUIREMENT_LEVEL	Du musst Level %d erreicht haben
 TOOLTIP_REQUIREMENT_SKILL_LEVEL	%s Level %d erforderlich
 TOOLTIP_REQUIREMENT_STAT_LEVEL	%s %d erforderlich
 TOOLTIP_RESIST_BOW	Pfeilwiderstand %d%%	SA
@@ -758,12 +669,10 @@ TOOLTIP_RESIST_FIRE	Feuerwiderstand %d%%	SA
 TOOLTIP_RESIST_ICE	Eiswiderstand +%d%%	SA
 TOOLTIP_RESIST_MAGIC	Magiewiderstand %d%%	SA
 TOOLTIP_REST_USABLE_COUNT	Verbleibend: %d
-TOOLTIP_SEALED	Seelengebunden
 TOOLTIP_SELLPRICE	Preis: %s
 TOOLTIP_SHAMAN	Schamane
 TOOLTIP_SHIELD	Schild
 TOOLTIP_SHOES	Schuhe
-TOOLTIP_SKILL	Fertigkeit	SNA
 TOOLTIP_SKILLBOOK_NAME	Fertigkeitsbuch
 TOOLTIP_SKILL_AFFECT_ATT_GRADE	Angriffswert: +
 TOOLTIP_SKILL_AFFECT_ATT_POWER	Angriffswert:
@@ -790,7 +699,6 @@ TOOLTIP_SURA	Sura
 TOOLTIP_TIME_CHARGER_FIX	Zeitaufladung %d Sek.	SA
 TOOLTIP_TIME_CHARGER_PER	Zeitaufladung %d%%	SA
 TOOLTIP_UNIQUE	Einzigartig
-TOOLTIP_UNSEAL_LEFT_TIME	Seelenlösung in: %dH %dM
 TOOLTIP_WARRIOR	Krieger
 TOOLTIP_WEAPON	Waffe
 TOOLTIP_WRISTLET	Armband
@@ -810,8 +718,5 @@ UI_NONAME	Kein Name
 UI_OK	OK
 UI_POS_UNKNOWN	Unbekannter Ort
 UI_PREVPAGE	Zurück
-UI_UNKNOWN	Unbekannt
-UPLOAD_MARK_CHECK_NEED_RECONNECT	Der Upload muss neu gestartet werden.
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Der Upload muss neu gestartet werden.
 USE_ITEM_FAILURE_PRIVATE_SHOP	Du kannst keine Gegenstände verwenden, solange du einen privaten Laden geöffnet hast.
-USE_SKILL_ERROR_UNKNOWN	Unbekannter Fertigkeitsfehler: %s

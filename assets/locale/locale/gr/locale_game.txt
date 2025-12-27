@@ -1,6 +1,5 @@
 AFF_LOVE_POINT	Πόντοι αγάπης: %d%%
 ALIGNMENT_NAME	Βαθμοί:
-ATTACK_ERROR_UNKNOWN	Άγνωστο Λάθος Επίθεσης: %s
 CANNOT_ATTACK_DEST_IN_SAFE	Ο πολεμιστής είναι πολύ μακριά.
 CANNOT_ATTACK_SELF_IN_SAFE	Δε μπορώ να επιτεθώ.
 CANNOT_EQUIP_IN_EXCHANGE	Δε μπορείς να αλλάξεις πανοπλία ενώ κάνεις εμπόριο.
@@ -11,7 +10,6 @@ CANNOT_SHOOT_EMPTY_ARROW	Χρειάζομαι ένα Βέλος.
 CANNOT_SHOOT_SELF_IN_SAFE	Δε μπορώ να το κάνω αυτό.
 CANNOT_SKILL_APPROACH	Δε μπορώ να πλησιάσω περισσότερο.
 CANNOT_SKILL_ATTACK	Δε μπορώ να επιτεθώ.
-CANNOT_SKILL_BLUE	Όταν είναι ενεργοποιημένη η Ψυχή Πορφυρόλυκου, δεν μπορείς να χρησιμοποιήσεις την Ψυχή Λουλακόλυκου.
 CANNOT_SKILL_DEST_IN_SAFE	Ο εχθρός είναι πολύ μακριά.
 CANNOT_SKILL_EQUIP_FISHING_ROD	Χρειάζομαι ένα Καλάμι.
 CANNOT_SKILL_HAVE_TO_RIDE	Χρειάζομαι πρώτα ένα άλογο για να μπορέσω να το χρησιμοποιήσω αυτό.
@@ -25,7 +23,6 @@ CANNOT_SKILL_NOT_MATCHABLE_WEAPON	Δε μπορώ να χρησιμοποιήσ�
 CANNOT_SKILL_NOT_YET_LEARN	Δεν έχω μάθει αυτή την Ικανότητα.
 CANNOT_SKILL_ONLY_FOR_ALLIANCE	Αυτό επηρεάζει μόνο μέλη της ομάδας.
 CANNOT_SKILL_ONLY_FOR_CORPSE	Αυτό επηρεάζει μόνο νεκρούς ανθρώπους.
-CANNOT_SKILL_RED	Όταν είναι ενεργοποιημένη η Ψυχή Λουλακόλυκου, δεν μπορείς να χρησιμοποιήσεις την Ψυχή Πορφυρόλυκου.
 CANNOT_SKILL_REMOVE_FISHING_ROD	Δε μπορώ να χρησιμοποιήσω αυτή την Ικανότητα με Καλάμι.
 CANNOT_SKILL_SELF_IN_SAFE	Δε μπορώ να επιτεθώ από εδώ.
 CANNOT_SKILL_USE_SELF	Δε μπορώ να το χρησιμοποιήσω στον εαυτό μου.
@@ -34,8 +31,6 @@ CANNOT_USE	Δεν μπορείς να το χρησιμοποιήσεις.
 CANNOT_WHISPER_DEST_REFUSE	Ο %s έχει απενεργοποιήσει τους ψιθύρους.	SA
 CANNOT_WHISPER_NOT_LOGON	Ο %s δεν είναι συνδεδεμένος.	SA
 CANNOT_WHISPER_SELF_REFUSE	Δε μπορείς να ψιθυρίσεις αν έχεις απενεργοποιήσει τους ψιθύρους.	SNA
-CHANNEL	Κανάλι
-CHANNELING_CANNOT_LOGOUT	Δε μπορείς να επιστρέψεις στη σελίδα σύνδεσης.
 CHANNEL_EMPTY_SERVER	Κενός server
 CHANNEL_NORMAL	Κανάλι %d
 CHANNEL_NOTIFY_FULL	Το κανάλι είναι γεμάτο! Παρακαλώ διαλέξτε άλλο κανάλι.
@@ -44,12 +39,7 @@ CHANNEL_PVP	Ελεύθερη μονομαχία
 CHANNEL_SELECT_CHANNEL	Διάλεξε κανάλι
 CHANNEL_SELECT_REGION	Διάλεξε περιοχή
 CHANNEL_SELECT_SERVER	Διάλεξε server
-CHANNEL_TEST_SERVER	Test server
-CHANNEL_TEST_SERVER_ADDR	Test %s:%d
-CHARACTER_CREATE_MODE	Δημιουργία χαρακτήρα
-CHARACTER_SELECT_MODE	Επιλογή χαρακτήρα
 CHAT_ALL	Όλα
-CHAT_BLOCK	Απενεργοποίηση
 CHAT_GUILD	Συντεχνία
 CHAT_INFORMATION	Πληροφορίες
 CHAT_INSULT_STRING	Η πρόταση περιέχει μη επιτρεπτές λέξεις.
@@ -62,32 +52,14 @@ CHAT_SEND_CHAT	Αποστολή chat
 CHAT_SEND_MEMO	Αποστολή ψίθυρου [Shift+Enter]
 CHAT_SHOUT	Κλήση
 CHAT_SHOUT_LIMIT	Μπορείς να καλέσεις κάθε 15 δευτερόλεπτα.
-CHAT_WHISPER	Ψίθυρος
 COMB_ALREADY_APPEND	
-COMB_CANT_APPEND_ITEM	Αυτό το αντικείμενο δεν μπορεί να χρησιμοποιηθεί.
-COMB_CANT_APPEND_SEALED_ITEM	Δεν μπορείς να χρησιμοποιήσεις ένα ψυχικά δεμένο αντικείμενο.
-COMB_COST	Τιμή: %s
-COMB_IS_CONTINUE_PROCESS	Θέλεις να συνεχίσεις;
-COMB_NOTICE	Δεν μπορείς να ανοίξεις ιδιωτικό κατάστημα όσο προσπαθείς να ανταλλάξεις βιβλία.
-COMB_NOTICE_NOT_OPEN	Δεν μπορείς να ανταλλάξεις βιβλία όσο έχεις ανοιχτό ιδιωτικό κατάστημα.
-COMB_NOT_ALL_SLOT_APPEND_ITEM	Θα χρειαστείς μια δεύτερη φορεσιά, ώστε να μεταφέρεις μπόνους.
-COMB_NOT_FULL_BOOK	Όχι, έτσι δεν θα συμφωνήσουμε. Όπως σου έχω ξαναπεί, θα ανταλλάξω μόνο αν μου δώσεις 10 βιβλία.
-COMB_NOT_ITEM_IN_INVENTORY	Δεν μπορείς να χρησιμοποιήσεις αντικείμενα που φοράς.
-COMB_NOT_MEDIUM_ITEM	Αυτό το αντικείμενο δεν μπορεί να χρησιμοποιηθεί.
-COMB_WILL_REMOVE_MATERIAL	Η φορεσιά 2 θα καταστραφεί.
 CREATE_ERROR_GM_NAME	Δεν επιτρέπεται η χρήση του όρου «GM» στο όνομα χαρακτήρα.
 CREATE_ERROR_INSULT_NAME	Μη επιτρεπτό όνομα.
-CREATE_ERROR_LIMIT_LEVEL	Ο χαρακτήρας σου πρέπει να είναι τουλάχιστον επίπεδο 80.
-CREATE_ERROR_TIME_LIMIT	Μπορείς να δημιουργείς μόνο έναν χαρακτήρα κάθε 30 δευτερόλεπτα.
-CREATE_ERROR_WRONG_STRING	Το όνομα χαρακτήρα σου δεν μπορεί να περιλαμβάνει ειδικούς χαρακτήρες.
 CREATE_EXIST_SAME_NAME	Το όνομα είναι ήδη σε χρήση από άλλον παίκτη.
 CREATE_FAILURE	Δε μπορείς να δημιουργήσεις το χαρακτήρα.
-CREATE_FULL	Δεν μπορείς να δημιουργήσεις άλλον χαρακτήρα.
 CREATE_GM_NAME	GM
 CREATE_INPUT_NAME	Εισαγωγή ονόματος.
-CREATE_PLUS_STAT	Έχεις κι άλλους βαθμούς κατάστασης.
 DAY	Μέρες
-DONT_USE_ITEM_WHEN_SHOW_CONFIRM	Δεν μπορείς να μετακινείς αντικείμενα κατά τη διάρκεια ενός αιτήματος.
 DO_YOU_BUY_ITEM1	Θέλεις να αγοράσεις το %s για %s?
 DO_YOU_BUY_ITEM2	Θέλεις να αγοράσεις το %s %s για %s?
 DO_YOU_DROP_MONEY	Θέλεις να πετάξεις %d Yang?
@@ -102,7 +74,6 @@ DRAGON_SOUL_INVALID_DRAGON_SOUL	Αυτός είναι ο λάθος Δρακόλ
 DRAGON_SOUL_IS_NOT_DRAGON_SOUL	Αυτός δεν είναι ένας Δρακόλιθος.
 DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	Αυτός είναι ο λάθος Δρακόλιθος.
 DRAGON_SOUL_NOT_ENOUGH_MATERIAL	Δεν έχεις αρκετό υλικό για εξευγενισμό.
-DRAGON_SOUL_NOT_MATCHED_SLOT	Ο Δρακόλιθος δεν ταιριάζει σε αυτήν τη θέση.
 DRAGON_SOUL_STEP_LEVEL1	Καθαρότητα: ματ,
 DRAGON_SOUL_STEP_LEVEL2	Καθαρότητα: διαφανές,
 DRAGON_SOUL_STEP_LEVEL3	Καθαρότητα: ολοκάθαρο,
@@ -141,7 +112,6 @@ EMOTION_SLAP	Χτήπημα
 EMPIRE_A	Βασίλειο του Shinsoo
 EMPIRE_B	Βασίλειο του Chunjo
 EMPIRE_C	Βασίλειο του Jinno
-EMPIRE_SELECT_MODE	Επιλογή βασιλείου
 EXCHANGE_CANNOT_GIVE	Δεν μπορείς να κάνεις εμπόριο με αυτό το αντικείμενο.
 EXCHANGE_CANT_EDIT_MONEY	Δε μπορείς να αλλάξεις το σύνολο τώρα.
 EXCHANGE_FAILURE_EQUIP_ITEM	Δε μπορείς να ανταλλάξεις εξοπλισμένα Αντικείμενα.
@@ -177,9 +147,6 @@ GUILDMARK_UPLOADER_ERROR_PATH	Μετακίνησε τα δεδομένα στο 
 GUILDMARK_UPLOADER_ERROR_SELECT	Δεν επιλέχθηκε φωτογραφία.
 GUILDWAR_CTF_TITLE	Αιχμαλώτιση σημαίας.
 GUILDWAR_NORMAL_TITLE	Πεδίο Μάχης
-GUILDWAR_QUESTION_LINE_1	Η συντεχνία %s κήρυξε πόλεμο στην συντεχνία σου.
-GUILDWAR_QUESTION_LINE_2	Δέχεσαι; (%s)
-GUILDWAR_UNKNOWN_TITLE	...
 GUILDWAR_WARP_TITLE	Μάχη αρένας
 GUILD_BUILDING_GRADE	Βαθμός
 GUILD_BUILDING_NAME	Όνομα κτιρίου
@@ -192,7 +159,6 @@ GUILD_DEPOSIT	Κατάθεση
 GUILD_DO_YOU_HEAL_GSP	Θέλεις να δώσεις %d Yang %d για την επαναφορά του Δρακοφαντάσματος;
 GUILD_DO_YOU_JOIN	 σε προσκάλεσε στην Συντεχνία. Θα γίνεις μέλος;
 GUILD_EMPTY_AREA	Άδεια περιοχή
-GUILD_ENEMY_GUILD_NAME	Όνομα συντεχνίας του εχθρού
 GUILD_FACILITY	Υπόστεγο
 GUILD_GEM	Πετράδι
 GUILD_HEADQUARTER	Κύριο Κτίριο
@@ -212,13 +178,6 @@ GUILD_TILE_GRADE	Διαχείριση δικαιωμάτων
 GUILD_TILE_INFO	Πληροφορίες Συντεχνίας
 GUILD_TILE_MEMBER	Μέλη Συντεχνίας
 GUILD_TILE_SKILL	Ικανότητα Συντεχνίας
-GUILD_VILLAGE_01	Miryang
-GUILD_VILLAGE_02	Songpa
-GUILD_VILLAGE_03	Daeyami
-GUILD_WAR1	Περιοχή πολέμων συντεχνίας
-GUILD_WAR2	Περιοχή πολέμων συντεχνίας
-GUILD_WAR3	Περιοχή πολέμων συντεχνίας
-GUILD_WAR4	Περιοχή πολέμων συντεχνίας
 GUILD_WAR_LIMIT_30MIN	Χρόνος: 30 Λεπτά
 GUILD_WAR_REWARD_POTION	Ανταμοιβή: Ο νικητής κερδίζει ένα Φίλτρο
 GUILD_WAR_USE_BATTLE_MAP	Τόπος: Αρένα πολέμων συντεχνιών
@@ -239,11 +198,8 @@ HORSE_LEVEL3	Στρατιωτικό άλογο
 HOUR	Ώρες
 HOW_MANY_ITEM_DO_YOU_DROP1	Θέλεις να πετάξεις %s?
 HOW_MANY_ITEM_DO_YOU_DROP2	Θέλεις να πετάξεις %s %d?
-INPUT_MATRIX_CARD_NUMBER	Εισήγαγε Matrix Cardnumber.
-INPUT_MATRIX_CARD_TITLE	Matrix Card
 INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Είσαγε τον κώδικα που δημιούργησες στη Διοίκηση Λογαριασμού, εδώ.
 INPUT_PRIVATE_CODE_DIALOG_TITLE	Διαγραφή χαρακτήρα
-INVENTORY_DO_NOT_PACK_WARP_SCROLL	Ο Πάπυρος Επιστροφής δε μπορεί να συνδυαστεί.
 INVENTORY_REALLY_USE_ITEM	Θέλεις να χρησιμοποιήσεις αυτό το Αντικείμενο επάνω στο άλλο;
 JOB_ASSASSIN	Ninja
 JOB_ASSASSIN0	Ερασιτέχνης Ninja
@@ -278,8 +234,6 @@ LOGIN_FAILURE_SHUTDOWN	Ο server δεν έχει ανοίξει ακόμη.
 LOGIN_FAILURE_TOO_MANY_USER	Δε μπορείς να συνδεθείς γιατί είναι πάρα πολλοί παίκτες συνδεδεμένοι.
 LOGIN_FAILURE_UNKNOWN	Δε μπόρεσες να εγγραφείς για άγνωστη αιτία.
 LOGIN_FAILURE_WEB_BLOCK	Έχετε αποκελιστεί από την Ιστοσελίδα. Παρακαλώ δείτε τα E-mail σας
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	Εισήγαγες λάθος αριθμό.
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	Εισήγαγες λάθος αριθμό τρεις φορές. /n Η σύνδεσή σου θα τεθεί εκτός λειτουργίας.
 LOGIN_FAILURE_WRONG_PASSWORD	Λάθος λογαριασμός ή κωδικός.
 LOGIN_INPUT_ID	Εισήγαγε την ID.
 LOGIN_INPUT_PASSWORD	Εισήγαγε το συνθηματικό.
@@ -295,112 +249,39 @@ MAP_B1	Περιοχή Joan
 MAP_B2	Κοιλάδα του Imji
 MAP_B3	Περιοχή Bokjung
 MAP_BAY	Κόλπος Νεφρίτη
-MAP_BAYBLACKSAND	Κόλπος Νεφρίτη
 MAP_BG	Waryong
 MAP_C1	Περιοχή Pyungmoo
 MAP_C2	Κοιλάδα του Bangsan
 MAP_C3	Περιοχή Bakra
 MAP_CAPE	Ακρωτήρι της Δρακοφωτιάς
-MAP_CAPEDRAGONHEAD	Ακρωτήρι της Δρακοφωτιάς
 MAP_CG	Imha
 MAP_DAWN	Βράχος Γκαουτάμα
-MAP_DAWNMISTWOOD	Βράχος Γκαουτάμα
 MAP_DESERT	Έρημος Yongbi
-MAP_DEVILCATACOMB	Κατακόμβη του Διαβόλου
-MAP_DEVILTOWER1	Δαιμονικός Πύργος
-MAP_DUEL	Αρένα για αγώνες κατάρτισης
-MAP_E	Αποικία
-MAP_EMPIREWAR01	Μάχη κάστρων
-MAP_EMPIREWAR02	Μάχη κάστρων
-MAP_EMPIREWAR03	Μάχη κάστρων
 MAP_FLAME	Doyyumhwan
-MAP_GUILD_01	Jungrang
-MAP_GUILD_02	Waryong
-MAP_GUILD_03	Imha
-MAP_HOLYPLACE_DESERT	Μάχη των Βασιλείων - Έρημος
-MAP_HOLYPLACE_FLAME	Μάχη των Βασιλείων - Γη του Πυρός
-MAP_HOLYPLACE_ICE	Μάχη των Βασιλείων - Γη των Πάγων
-MAP_MILGYO	Ναός Hwang
 MAP_MILGYO_A	
-MAP_MONKEY_DUNGEON	Hasun Dong
-MAP_MONKEY_DUNGEON2	Junsun Dong
-MAP_MONKEY_DUNGEON3	Sangsun Dong
-MAP_MONKEY_DUNGEON_11	Hasun Dong
-MAP_MONKEY_DUNGEON_12	Hasun Dong
-MAP_MONKEY_DUNGEON_13	Hasun Dong
-MAP_MT_THUNDER	Βουνά Κεραυνού
 MAP_NUSLUCK	Χώρα Γιγάντων
-MAP_NUSLUCK01	Η Χώρα των Γιγάντων
-MAP_N_DESERT_01	Έρημος Yongbi
 MAP_N_DESERT_02	
-MAP_N_FLAME_01	Γη του Πυρός
 MAP_N_FLAME_02	
-MAP_N_FLAME_DUNGEON_01	Φρούριο των Κοκκινοδράκων
-MAP_N_SNOWM_01	Όρος Sohan
 MAP_N_SNOWM_02	
-MAP_N_SNOW_DUNGEON_01	Φυλάκιο του Nemere
-MAP_N_THREEWAY	Κοιλάδα του Seungryong
-MAP_OXEVENT	Διαγωνισμός OX
-MAP_PATHWAY_DESERT_01	Μάχη των Βασιλείων - Έρημος
-MAP_PATHWAY_DESERT_02	Μάχη των Βασιλείων - Έρημος
-MAP_PATHWAY_DESERT_03	Μάχη των Βασιλείων - Έρημος
-MAP_PATHWAY_FLAME_01	Μάχη των Βασιλείων - Γη του Πυρός
-MAP_PATHWAY_FLAME_02	Μάχη των Βασιλείων - Γη του Πυρός
-MAP_PATHWAY_FLAME_03	Μάχη των Βασιλείων - Γη του Πυρός
-MAP_PATHWAY_ICE_01	Μάχη των Βασιλείων - Γη των Πάγων
-MAP_PATHWAY_ICE_02	Παιχνιδοχώρα
-MAP_PATHWAY_ICE_03	Μάχη των Βασιλείων - Γη των Πάγων
 MAP_SKELTOWER	Πύργος Gumsan
-MAP_SKIPIA_DUNGEON_01	Σπηλιά της Εξορίας
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
-MAP_SKIPIA_DUNGEON_02	Σπηλιά της Εξορίας 2
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
-MAP_SKIPIA_DUNGEON_BOSS	Ναός του Δράκου
-MAP_SKIPIA_DUNGEON_BOSS_1	Αραχνοσπηλιά 1
-MAP_SKIPIA_DUNGEON_BOSS_2	Αραχνοσπηλιά 2
-MAP_SKIPIA_DUNGEON_BOSS_3	Αραχνοσπηλιά 3
 MAP_SNOW	Όρος Sohan
 MAP_SPIDER	Kuahlo Dong
-MAP_SPIDERDUNGEON	Αραχνοσπηλιά 1
-MAP_SPIDERDUNGEON_02	Αραχνοσπηλιά 2
-MAP_SPIDERDUNGEON_02_1	Αραχνοσπηλιά 2
-MAP_SPIDERDUNGEON_03	Αραχνοσπηλιά 3
-MAP_SUNGZI	Μάχη των Βασιλείων
-MAP_SUNGZI_DESERT_01	Μάχη των Βασιλείων - Έρημος
-MAP_SUNGZI_DESERT_HILL_01	Μάχη των Βασιλείων - Έρημος
-MAP_SUNGZI_DESERT_HILL_02	Μάχη των Βασιλείων - Έρημος
-MAP_SUNGZI_DESERT_HILL_03	Μάχη των Βασιλείων - Έρημος
-MAP_SUNGZI_FLAME_HILL_01	Μάχη των Βασιλείων - Γη του Πυρός
-MAP_SUNGZI_FLAME_HILL_02	Μάχη των Βασιλείων - Γη του Πυρός
-MAP_SUNGZI_FLAME_HILL_03	Μάχη των Βασιλείων - Γη του Πυρός
-MAP_SUNGZI_SNOW	Μάχη των Βασιλείων - Γη των Πάγων
-MAP_SUNGZI_SNOW_PASS01	Μάχη των Βασιλείων - Γη των Πάγων
-MAP_SUNGZI_SNOW_PASS02	Μάχη των Βασιλείων - Γη των Πάγων
-MAP_SUNGZI_SNOW_PASS03	Μάχη των Βασιλείων - Γη των Πάγων
-MAP_T1	Περιοχή πολέμων συντεχνίας
-MAP_T2	Περιοχή πολέμων συντεχνίας
-MAP_T3	Περιοχή πολέμων συντεχνίας
-MAP_T4	Περιοχή πολέμων συντεχνίας
 MAP_TEMPLE	Ναός του Hwang
 MAP_THUNDER	Βουνά Κεραυνού
 MAP_TREE	Lungsam
-MAP_TRENT	Δάσος των Φαντασμάτων
-MAP_TRENT02	Κόκκινο Δάσος
-MAP_TRENT02_A	Κόκκινο Δάσος
 MAP_TRENT_A	
-MAP_WEDDING_01	Χάρτης γάμου
 MAP_WL	Κοιλάδα των Φιδιών
-MAP_WL_01	Κοιλάδα φιδιών
 MESSENGER_ADD_FRIEND	Πρόσθεσε Φίλο
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	Ο %s σε πρόσθεσε ως φίλο.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Δέχεσαι;
 MESSENGER_DO_YOU_DELETE	Διαγραφή;
 MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Θέλεις να διαγράψεις το νούμερο κινητού;
-MESSENGER_DO_YOU_MOVE	Θέλεις να συνεχίσεις;
 MESSENGER_EMPTY_LIST	Άδειο
 MESSENGER_FAMILY	Οικογένεια
 MESSENGER_FRIEND	Φίλοι
@@ -421,8 +302,6 @@ MINIMAP_OBSERVER_COUNT	%d παρατηρητές
 MINIMAP_SHOW_AREAMAP	Άνοιγμα μεγάλου χάρτη
 MINUTE	Λεπτά
 MONETARY_UNIT0	Yang
-MONETARY_UNIT1	Δέκα Χιλιάδες
-MONETARY_UNIT2	Εκατό Δισεκατομμύρια
 MONEY_INPUT_DIALOG_SELLPRICE	Τιμή Πώλησης:
 MOVE_ITEM_FAILURE_PRIVATE_SHOP	Δεν μπορείς να μετακινήσεις αντικείμενα όσο είναι ανοιχτό το ιδιωτικό κατάστημα.
 MUSIC_EMPTY_MUSIC_LIST	Δεν υπάρχει μουσική περιβάλλοντος.
@@ -433,7 +312,6 @@ NOT_YET_SUPPORT	Δεν υποστηρίζεται ακόμη
 OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	Δε μπορείς να ενεργοποιήσεις Mode Συντεχνίας όταν δεν ανήκεις σε Συντεχνία.
 OPTION_PVPMODE_NOT_SUPPORT	Δε μπορείς να επιλέξεις αυτή τη διαμόρφωση στο PvP.
 OPTION_PVPMODE_PROTECT	Πρέπει να έχεις φτάσει στο επίπεδο %d για να αλλάξεις την εφαρμογή PvP.
-PARTY_ANSWER_TIMEOVER	Η πρόσκληση απορρίφθηκε.
 PARTY_BONUS_ATTACKER	Αξία Επίθεσης: +%d	SA
 PARTY_BONUS_BERSERKER	Ταχύτητα Επίθεσης: +%d	SA
 PARTY_BONUS_BUFFER	Διάρκεια Ικανοτήτων: +%d	SA
@@ -453,10 +331,8 @@ PARTY_HEAL_ALL_MEMBER	Αποκατάσταση όλων.
 PARTY_INCREASE_AREA_150	Η ακτίνας ομάδας αναβαθμίστηκε κατά παράγοντα 1,5.	SNA
 PARTY_INCREASE_AREA_200	Η ακτίνας ομάδας αναβαθμίστηκε κατά παράγοντα 2.	SNA
 PARTY_LEAVE	Έξοδος από ομάδα
-PARTY_LONGTIME_BONUS_EXP	Bonus EXP για μεγάλη διάρκεια ομάδας: +%d%%	SA
 PARTY_MEMBER_OFFLINE	[Offline]
 PARTY_RECALL_MEMBER	Κλήση μελών ομάδας.
-PARTY_REGEN_BONUS	Bonus για αναγέννηση HP- + SP: +%d%%	SA
 PARTY_REQUEST_DENIED	Η αίτηση σου απορρίφθηκε.
 PARTY_SET_ATTACKER	Constitute as Επιτιθέμενος.
 PARTY_SET_BERSERKER	Constitute as Berserker.
@@ -469,12 +345,8 @@ PARTY_SKILL_ATTACKER	Base Attack Value Attacker +%.0f
 PARTY_SKILL_BERSERKER	Attack Speed Berserker +%.0f
 PARTY_SKILL_BUFFER	Διάρκεια Ικανότητας Μπλοκ +%.0f
 PARTY_SKILL_DEFENDER	Defence Defender +%.0f
-PARTY_SKILL_HP_REGEN	Αναγέννηση HP +%.0f%%
-PARTY_SKILL_PARTY_AREA	Ακτίνα Ομάδας +%d%%
 PARTY_SKILL_SKILL_MASTER	Max. SP Ικανότητα Master +%.0f
-PARTY_SKILL_SP_REGEN	Αναγέννηση SP +%.0f%%
 PARTY_SKILL_TANKER	Mεγ. HP Μαχητή Σώμα με Σώμα +%.0f
-PARTY_SKILL_WARP	Μπορείς να καλέσεις μέλη ομάδας.
 PASSWORD_TITLE	Κωδικός αποθήκης
 PICK_ITEM_TITLE	Αριθμός Αντικειμένου
 PICK_MONEY_TITLE	Σύνολο
@@ -505,7 +377,6 @@ QUEST_MIN	Λεπ.
 QUEST_SEC	Δευτ.
 QUEST_TIMEOVER	Λήξη Χρόνου
 QUEST_UNLIMITED_TIME	Χωρίς χρονικό όριο.
-QUEST_ZEROSEC	0 Δευτ.
 QUICKSLOT_REGISTER_DISABLE_ITEM	Το αντικείμενο δε μπορεί να προστεθεί στο ΠεδίοΓρήγορης Πρόσβασης.
 RECEIVE_MESSAGE	Ο %s σου έστειλε μήνυμα.
 REFINE_COST	Κόστος Προαγωγής: %d Yang
@@ -544,11 +415,9 @@ SELECT_DELEING	Ο χαρακτήρας θα διαγραφεί.
 SELECT_DELETED	Η διαγραφή ήταν επιτυχημένη.
 SELECT_DO_YOU_DELETE_REALLY	Θέλεις να συνεχίσεις;
 SELECT_EMPTY_SLOT	Το πεδίο είναι κενό.
-SELECT_GM_NAME	GM
 SELECT_INPUT_CHANGING_NAME	Εισαγωγή νέου ονόματος.
 SELECT_NOT_JOIN_GUILD	Όχι Συντεχνία
 SHOP_BUY_INFO	Διάλεξε στο παράθυρο του καταστήματος, ποια αντικείμενα θέλεις να αγοράσεις.
-SHOP_CANNOT_SELL_EQUIPMENT	Δεν μπορείς να πουλήσεις αντικείμενα που φοράς.
 SHOP_CANNOT_SELL_ITEM	Το Αντικείμενο δε μπορεί να πωληθεί.
 SHOP_ERROR_UNKNOWN	Άγνωστο Σφάλμα Καταστήματος: %s
 SHOP_INVALID_POS	Δε μπορεί να χρησιμοποιηθεί εδώ.
@@ -558,24 +427,13 @@ SHOP_NOT_ENOUGH_MONEY_EX	Δεν έχεις αρκετό Yang.
 SHOP_SELL_INFO	Επίλεξε το αντικείμενο που θέλεις να πουλήσεις στον κατάλογο.
 SHOP_SOLDOUT	Ξεπούλημα
 SHOT_ERROR_UNKNOWN	Άγνωστο σφάλμα στην επίθεση από απόσταση: %s
-SKILL_BLEEDING	Αιμορραγία
 SKILL_BOHO	Ανάκλαση
-SKILL_BUDONG	δε χρησιμοποιείται πλέον
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	Χρειάζεσαι EXP για να μάθεις αυτή την Ικανότητα.
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	Χρειάζεσαι ένα βιβλίο για να μάθεις αυτή την Ικανότητα.
 SKILL_CHEONGEUN	Δυνατό Σώμα
-SKILL_CRITICAL	Κρίσιμο χτύπημα
-SKILL_ENCHANT_POISON	Χρήση δηλητηρίου
 SKILL_EUNHYEONG	Παραλλαγή
-SKILL_FAINT	Συσκότιση
-SKILL_FIND_TRAP	Βρες Παγίδα
 SKILL_FIRE	Μόνιμη Φωτιά
 SKILL_FISHMIND	Ενεργός Βόλος Ψαρέματος
-SKILL_GAMJI	Σύλληψη
 SKILL_GEOMGYEONG	Αύρα του Ξίφους
-SKILL_GEONGON	SKILL_GEONGON δε χρησιμοποιείται πλέον
 SKILL_GICHEON	Βοήθεια του Δράκου
-SKILL_GIGONG	Chi Περιστροφή
 SKILL_GONGPO	Φόβος
 SKILL_GRADE_NAME_GRAND_MASTER	%s Αρχιμάστορας
 SKILL_GRADE_NAME_MASTER	%s Master
@@ -593,48 +451,24 @@ SKILL_GWIGEOM	Μαγεμένη Λεπίδα
 SKILL_GYEONGGONG	Φτερωτή Κίνηση
 SKILL_HEUKSIN	Μαύρη Προστασία
 SKILL_HOSIN	Ευλογία
-SKILL_HWAYEOM	δε χρησιμοποιείται πλέον
-SKILL_HYEOLMA	δε χρησιμοποιείται πλέον
 SKILL_INC_ATKSPD	Αυξημένη ταχύτητα επίθεσης
 SKILL_INC_MOVSPD	Αυξημένη ταχύτητα
-SKILL_INMA	δε χρησιμοποιείται πλέον
-SKILL_JEOJU	Κατάρα
-SKILL_JEONGEOP	Θεραπεία
 SKILL_JEONGWI	Έξαψη Μάχης
-SKILL_JEONSINBANGEO	Τέλεια άμυνα
-SKILL_JEONSINGONGGYEOK	Τέλεια Επίθεση
-SKILL_JEUNGCHE	δε χρησιμοποιείται πλέον
-SKILL_JEUNGHON	δε χρησιμοποιείται πλέον
 SKILL_JEUNGRYEOK	Επίθεση +
-SKILL_JEUNGSOK	Ταχύτητα +
-SKILL_JIGAM	δε χρησιμοποιείται πλέον
-SKILL_JIPJUNG	δε χρησιμοποιείται πλέον
 SKILL_JUMAGAP	Μαγική Πανοπλία
-SKILL_JUMAGEOM	δε χρησιμοποιείται πλέον
-SKILL_KWAEGEOM	δε χρησιμοποιείται πλέον
 SKILL_KWAESOK	Ταχύτητα
-SKILL_LEGBOUND	δε χρησιμοποιείται πλέον
-SKILL_MUSA	δε χρησιμοποιείται πλέον
 SKILL_MUYEONG	Φάντασμα της Φλόγας
 SKILL_NEED_EMPTY_BOTTLE	Δεν έχω άδειο Μπουκάλι.
 SKILL_NEED_POISON_BOTTLE	Δεν έχω Μπουκάλι Δηλητήριου.
 SKILL_ONLY_FOR_GUILD_WAR	Μπορείς να το χρησιμοποιήσεις μόνο σε Πόλεμο Συντεχνιών.
 SKILL_PABEOP	Ξόρκι Εξουδετέρωσης
 SKILL_POWERFUL_STRIKE	Επίθεση Αποχαύνωσης
-SKILL_SEOMGWANG	Βόμβα Αστραπής
-SKILL_SINCHAK	δε χρησιμοποιείται πλέον
-SKILL_SLEEP	Ύπνος
 SKILL_SLOW	Αργά
 SKILL_STUN	Σάστισμα
-SKILL_SUHO	Φρουρός
 SKILL_SUMMON_DESCRIPTION	Πιθανότητα Επίκλησης: %d%%
 SKILL_TOOLTIP_INT	Ευφυΐα
 SKILL_TOOLTIP_LEVEL	Επίπεδο
 SKILL_TOXICDIE	Δηλητηρίαση
-SKILL_TOXICPOWER	Αυξήθηκε η δύναμη δηλητηριώδους επίθεσης.
-SKILL_TUSOK	Στοιχειωμένο Χτύπημα
-SKILL_WONSIN	δε χρησιμοποιείται πλέον
-SKILL_YONGSIN	δε χρησιμοποιείται πλέον
 STAT_MINUS_CON	Προσαρμογή Ζωτικότητας (Πιθανότητα: %d)
 STAT_MINUS_DEX	Προσαρμογή Ευκινησίας (απομένει πιθανότητα: %d)
 STAT_MINUS_INT	Ρύθμιση Ευφυΐας (Πιθανότητα: %d)
@@ -686,7 +520,6 @@ THING_COUNT	όλα
 TOOLTIP_ANTI_CRITICAL_PCT	Αντίσταση σε κρίσιμα χτυπήματα +%d%%	SA
 TOOLTIP_ANTI_PENETRATE_PCT	Αντίσταση σε διατρητικά χτυπήματα +%d%%	SA
 TOOLTIP_ANTI_SELL	Δε μπορεί να πωληθεί σε κατάστημα
-TOOLTIP_APPLY_ACCEDRAIN_RATE	Πιθανότητα απορρόφησης: %d%%	SA
 TOOLTIP_APPLY_ATTBONUS_ANIMAL	Δυνατό ενάντια σε Ζώα +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_ASSASSIN	Δυνατό ενάντια σε Νίντζα +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_DEVIL	Δυνατό ενάντια σε Διάβολο +%d%%	SA
@@ -698,10 +531,7 @@ TOOLTIP_APPLY_ATTBONUS_SHAMAN	Δυνατό ενάντια σε Σαμάνους 
 TOOLTIP_APPLY_ATTBONUS_SURA	Δυνατό ενάντια σε Sura +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_UNDEAD	Δυνατό ενάντια σε Απέθαντους +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_WARRIOR	Δυνατό ενάντια σε Πολεμιστές +%d%%	SA
-TOOLTIP_APPLY_BLEEDING_PCT	Επίθεση αιμορραγίας + %d%%	SA
-TOOLTIP_APPLY_BLEEDING_REDUCE	Αντίσταση σε επιθέσεις αιμορραγίας + %d%%	SA
 TOOLTIP_APPLY_BLOCK	Πιθανότητα απόκρουσης επίθεσης σώμα με σώμα %d%%	SA
-TOOLTIP_APPLY_COMBAT_SP_RECOVER	Επαναφέρει SP 5 δευτερόλεπτα σε μάχη %d	SA
 TOOLTIP_APPLY_CRITICAL_PCT	Πιθανότητα Κρίσιμου Χτυπήματος +%d%%	SA
 TOOLTIP_APPLY_DAMAGE_SP_RECOVER	%d%% πιθανότητα να ανακτήσεις  SP όταν σε χτυπήσουν	SA
 TOOLTIP_APPLY_DODGE	Πιθανότητα να αποφύγεις βέλη %d%%	SA
@@ -760,7 +590,6 @@ TOOLTIP_DRAGON_SOUL_DECK1	Γη	SNA
 TOOLTIP_DRAGON_SOUL_DECK2	Ουρανός	SNA
 TOOLTIP_EAR	Σκουλαρίκι
 TOOLTIP_ENERGY	Ενέργεια %d	SA
-TOOLTIP_ETC	Και τα λοιπά
 TOOLTIP_FISHINGROD_EXP	Βαθμοί: %d / %d
 TOOLTIP_FISHINGROD_LEVEL	Επίπεδο: %d
 TOOLTIP_FISHINGROD_UPGRADE1	Δώσε το στον ψαρά,
@@ -773,7 +602,6 @@ TOOLTIP_INT	Ευφυΐα +%d	SA
 TOOLTIP_ITEM_ATT_GRADE	Αξία Επίθεσης %d
 TOOLTIP_ITEM_ATT_POWER	Αξία Επίθεσης %d - %d
 TOOLTIP_ITEM_ATT_POWER_ONE_ARG	Αξία Επίθεσης %d
-TOOLTIP_ITEM_ATT_POWER_REFINE	Αξία Επίθεσης %d - %d (+%d)
 TOOLTIP_ITEM_ATT_SPEED	Ταχύτητα Επίθεσης %s
 TOOLTIP_ITEM_DEF_GRADE	Άμυνα %d
 TOOLTIP_ITEM_FAST	Γρήγορα
@@ -825,30 +653,12 @@ TOOLTIP_NEED_ALL_SP	Απαιτούμενη SP: Μεγ.
 TOOLTIP_NEED_GSP	Απαιτούμενο Δρακοφάντασμα: %d
 TOOLTIP_NEED_HP	Απαιτούμενη HP: %d
 TOOLTIP_NEED_HP_PER_SEC	HP / Δευτ.: %d
-TOOLTIP_NEED_SKILL_POINT	Απαιτούμενοι Βαθμοί Ικανοτήτων:
 TOOLTIP_NEED_SP	Απαιτούμενη SP: %d
 TOOLTIP_NEED_SP_PER_SEC	SP / Δευτ.: %d
 TOOLTIP_NEXT_SKILL_LEVEL_1	Επόμενο Επίπεδο: %d (Μεγ. %d)
-TOOLTIP_NEXT_SKILL_LEVEL_2	Επόμενο Επίπεδο: %d (Μεγ. %d-%d)
 TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	Μέση Ζημιά %d%%	SA
 TOOLTIP_NORMAL_HIT_DEFEND_BONUS	Μέση Αντίσταση Ζημιάς %d%%	SA
-TOOLTIP_PARTY_INFO_GRADE_UP1	Πάνω από %d μέλη Ομάδας
-TOOLTIP_PARTY_INFO_GRADE_UP2	Επίπεδο Επίθεσης +%d
-TOOLTIP_PARTY_INFO_GRADE_UP3	Επίπεδο Άμυνας +%d
-TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	Ανάκτηση HP/SP όλων των μελών της ομάδας για 60 λεπτά.
-TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	Ανάκτηση HP/SP όλων των μελών της ομάδας για 30 λεπτά.
-TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	Πρέπει να περιμένεις 3 λεπτά μετά το θάνατο μέλους.
-TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	Μπορείς να καλέσεις μέλη της ομάδας που είναι στον ίδιο server.
-TOOLTIP_PARTY_INFO_SET_ATTACKER	Επίπεδο Επίθεσης +(Αριθμός Μελών Ομάδας./2) Επιτιθέμενος %d μπορεί να επιλεγεί.
-TOOLTIP_PARTY_INFO_SET_TANKER	Επίπεδο άμυνας +( Αριθμός Μελών Ομάδας) Μαχητές Σώμα με Σώμα 1 μπορούν να επιλεγούν.
 TOOLTIP_PARTY_SKILL_LEVEL	Τρέχον Επίπεδο: %d
-TOOLTIP_PARTY_TITLE_GRADE_UP	[Αναβαθμίστηκε Επίθεση/Άμυνα]
-TOOLTIP_PARTY_TITLE_HEAL	[αποκατάσταση]
-TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Όταν έχεις πάνω από %d μέλη ομάδας, παίρνεις %d%% Bonus EXP .
-TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Bonus EXP]
-TOOLTIP_PARTY_TITLE_RECALL	[Κλήση]
-TOOLTIP_PARTY_TITLE_SET_ATTACKER	[Σύνταξε Επιτιθέμενο]
-TOOLTIP_PARTY_TITLE_SET_TANKER	[Σύνταξε μαχητή Σώμα με Σώμα]
 TOOLTIP_PICK_EXP	Βαθμοί: %d / %d
 TOOLTIP_PICK_LEVEL	Επίπεδο: %d
 TOOLTIP_PICK_UPGRADE1	Δώσ' το στον Υλοτόμο,
@@ -864,9 +674,6 @@ TOOLTIP_POTION_PLUS_SP_PERCENT	SP +%d%%
 TOOLTIP_POTION_PLUS_SP_POINT	SP +%d
 TOOLTIP_POTION_SEC	Δευτ.
 TOOLTIP_POTION_TIME	Διάρκεια:
-TOOLTIP_REQUIREMENT_21_LEVEL	Πρέπει να έχεις φθάσει στο Επίπεδο 21.
-TOOLTIP_REQUIREMENT_41_LEVEL	Πρέπει να έχεις φθάσει στο Επίπεδο 41.
-TOOLTIP_REQUIREMENT_LEVEL	Πρέπει να έχεις φθάσει στο Επίπεδο %d.
 TOOLTIP_REQUIREMENT_SKILL_LEVEL	Απαιτείται %s Επίπεδο %d.
 TOOLTIP_REQUIREMENT_STAT_LEVEL	%s %d χρειάζεται
 TOOLTIP_RESIST_BOW	Αντίσταση Βέλους %d%%	SA
@@ -877,12 +684,10 @@ TOOLTIP_RESIST_FIRE	Αντίσταση Φωτιάς %d%%	SA
 TOOLTIP_RESIST_ICE	Αντίσταση στον πάγο +%d	SA
 TOOLTIP_RESIST_MAGIC	μαγική Αντίσταση %d%%	SA
 TOOLTIP_REST_USABLE_COUNT	Υπόλοιπο: %d
-TOOLTIP_SEALED	Ψυχικά δεμένο
 TOOLTIP_SELLPRICE	Τιμή: %s
 TOOLTIP_SHAMAN	Σαμάνος
 TOOLTIP_SHIELD	Ασπίδα
 TOOLTIP_SHOES	Παπούτσια
-TOOLTIP_SKILL	Ικανότητες	SNA
 TOOLTIP_SKILLBOOK_NAME	Βιβλίο Ικανοτήτων
 TOOLTIP_SKILL_AFFECT_ATT_GRADE	Αξία Επίθεσης: +
 TOOLTIP_SKILL_AFFECT_ATT_POWER	Αξία Επίθεσης:
@@ -909,7 +714,6 @@ TOOLTIP_SURA	Sura
 TOOLTIP_TIME_CHARGER_FIX	Ανανέωση χρόνου %d δευτ.	SA
 TOOLTIP_TIME_CHARGER_PER	Ανανέωση χρόνου %d%%	SA
 TOOLTIP_UNIQUE	Μοναδικό
-TOOLTIP_UNSEAL_LEFT_TIME	Ψυχικό λύσιμο σε: %dH %dM
 TOOLTIP_WARRIOR	Πολεμιστής
 TOOLTIP_WEAPON	Όπλο
 TOOLTIP_WRISTLET	Περικάρπιο
@@ -929,8 +733,5 @@ UI_NONAME	Χωρίς Όνομα
 UI_OK	OK
 UI_POS_UNKNOWN	Άγνωστο μέρος
 UI_PREVPAGE	πίσω
-UI_UNKNOWN	Άγνωστος
-UPLOAD_MARK_CHECK_NEED_RECONNECT	Πρέπει να γίνει σύνδεση εκ νέου.
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Πρέπει να γίνει σύνδεση εκ νέου.
 USE_ITEM_FAILURE_PRIVATE_SHOP	Δεν μπορείς να χρησιμοποιήσεις αντικείμενα όσο έχεις ανοιχτό το ιδιωτικό κατάστημα.
-USE_SKILL_ERROR_UNKNOWN	Άγνωστο σφάλμα ικανοτήτων: %s

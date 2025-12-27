@@ -7,7 +7,6 @@ CHANGE_PASSWORD_NEW	Nouveau mot de passe
 CHANGE_PASSWORD_OLD	Ancien mot de passe
 CHANGE_PASSWORD_TITLE	Changement de mot de passe
 CHARACTER_ACTION	Action
-CHARACTER_EMOTICON	Emotion
 CHARACTER_MAIN	Personnage
 CHARACTER_MUTUAL_ACTION	Action partagée
 CHARACTER_NORMAL_ACTION	Action normale
@@ -20,7 +19,6 @@ CREATE_ATT_GRADE	STR
 CREATE_CREATE	Créer
 CREATE_DEX_GRADE	DEX
 CREATE_HP	PV
-CREATE_LAST_POINT	Points
 CREATE_MAN	Homme
 CREATE_NAME	Nom
 CREATE_NEXT	Suivant
@@ -28,7 +26,6 @@ CREATE_PREV	Précédent
 CREATE_SEX	Genre
 CREATE_SHAPE	Forme
 CREATE_SP	PM
-CREATE_STAT_RESET	Réinitialiser
 CREATE_WOMAN	Femme
 CUBE_INFO_TITLE	Manuel de raffinage
 CUBE_REQUIRE_MATERIAL	Matériaux nécessaires
@@ -61,7 +58,6 @@ GAME_HELP	Aide
 GAME_QUEST	Missions
 GAME_SKILL_UP	Monter une compétence
 GAME_STAT_UP	Monter une caractéristique
-GRADE	Classe
 GRADE_SELECT	Classe
 GUILD_BASENAME	Nom de base
 GUILD_BOARD_ID	Nom
@@ -102,7 +98,6 @@ GUILD_INFO_DECALRE_WAR	Déclarer la guerre
 GUILD_INFO_ENEMY_GUILD	Guilde ennemie
 GUILD_INFO_ENEMY_GUILD_EMPTY	aucune
 GUILD_INFO_LEVEL	Niveau de la Guilde
-GUILD_INFO_MARK	Symbole de Guilde
 GUILD_INFO_MASTER	Chef
 GUILD_INFO_MASTER_VALUE	Chef
 GUILD_INFO_MEMBER_AVG_LEVEL	Niveau moyen
@@ -130,7 +125,6 @@ GUILD_SKIlL_HEAL_GSP	Récupérer un Esprit de Dragon
 GUILD_SKILL_PASSIVE	Passive
 GUILD_SKILL_POWER	Énergie
 GUILD_SKILL_STATE	Compétences de la Guilde
-GUILD_SYMBOL	Drapeau de Guilde
 GUILD_WAR_ACCEPT	Accepter la déclaration de guerre
 GUILD_WAR_BATTLE_TYPE	Type de bataille
 GUILD_WAR_CTF	Drapeau
@@ -174,20 +168,16 @@ HELP_SYSTEM_BUTTON	Touches systèmes
 INVENTORY_PAGE_BUTTON_TOOLTIP_1	1er inventaire
 INVENTORY_PAGE_BUTTON_TOOLTIP_2	2e inventaire
 INVENTORY_TITLE	Inventaire
-ITEM_MALL	Magasin - Objets
 LOAD_ERROR	Le fichier est endommagé. Veuillez en installer un nouveau. Appuyez à présent sur Echapp
 LOGIN_CONNECT	Se connecter
 LOGIN_CONNECTING	Vous devez être connecté au serveur
 LOGIN_DEFAULT_SERVERADDR	Nom du serveur, Canal 1
 LOGIN_EXIT	Sortie
-LOGIN_REGION_TITLE	Choisissez un emplacement pour émettre un compte
 LOGIN_SELECT_BUTTON	Choisissez
 LOGIN_SELECT_EXIT	Sortie
-LOGIN_SELECT_OK	OK
 LOGIN_SELECT_TITLE	Choisissez un serveur
 MALL_PASSWORD_TITLE	Mot de passe
 MALL_TITLE	Entrepôt de la boutique
-MARKET_TITLE	Charger
 MARKLIST_REFRESH	Rafraîchir
 MARKLIST_TITLE	Enregistrer le symbole de Guilde
 MESSAGE	Ceci est un message
@@ -196,7 +186,6 @@ MESSENGER_DELETE_FRIEND	Effacer un(e) ami(e)
 MESSENGER_MOBILE	Envoyer un message
 MESSENGER_OPEN_GUILD	Ouvrir la fenêtre de Guilde
 MESSENGER_TITLE	Amis
-MESSENGER_USE_GUILD_MOVE_SKILL	Utilisez la compétence de Guilde de mouvement
 MESSENGER_WHISPER	Chuchoter
 MINIMIZE	Minimiser
 MOUSEBUTTON_ATTACK	Attaquer
@@ -253,7 +242,6 @@ OPTION_TILING	Mém. graph.
 OPTION_TILING_APPLY	Appliquer
 OPTION_TILING_CPU	CPU
 OPTION_TILING_GPU	GPU
-OPTION_TITLE	Options
 OPTION_VIEW_CHAT	Discussion
 OPTION_VIEW_CHAT_OFF	Cacher
 OPTION_VIEW_CHAT_ON	Montrer
@@ -270,8 +258,6 @@ PRIVATE_SHOP_NAME	Nom du magasin
 PRIVATE_SHOP_TITLE	Ouvrir magasin privé
 REFINE_COST	Coût de la progression : 0 Yang
 REFINE_INFO	Probabilité de réussir l'amélioration : 100%
-REFINE_MONEY	Coût du raffinage
-REFINE_SELECT	Raffinage
 REFINE_TTILE	Augmentations
 REPORT_VIOLENT_WHISPER	
 RESTART_HERE	Recommencer ici
@@ -292,14 +278,11 @@ SELECT_NO_GUILD	Pas de Guilde
 SELECT_PLAYTIME	Temps de jeu (min.)
 SELECT_SELECT	Commencer
 SELECT_SP	PM
-SELECT_TITLE	Choisir un titre
 SHOP_BUY	Acheter
 SHOP_SELL	Vendre
 SHOP_TITLE	Magasin
 SKILL_SUPPORT_TITLE	Compétences standards
-STEP	Degré de pureté
 STEP_SELECT	Degré de pureté
-STRENGTH	Renforcer
 STRENGTH_SELECT	Niveau
 SYSTEMOPTION_TITLE	Options système
 SYSTEM_CHANGE	Changer de personnage
@@ -307,7 +290,6 @@ SYSTEM_EXIT	Fin du jeu
 SYSTEM_HELP	Aide
 SYSTEM_LOGOUT	Déconnecter
 SYSTEM_MALL	Magasin - Objets
-SYSTEM_OPTION	Options système
 TASKBAR_CHARACTER	Personnage [C/V/B/N]
 TASKBAR_CHAT	Fenêtre de tchat [Enter]
 TASKBAR_DISABLE	Désactivée

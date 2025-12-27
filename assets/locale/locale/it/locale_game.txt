@@ -1,6 +1,5 @@
 AFF_LOVE_POINT	Punto amore: %d%%
 ALIGNMENT_NAME	Punti Karma:
-ATTACK_ERROR_UNKNOWN	Errore d'attacco sconosciuto: %s
 CANNOT_ATTACK_DEST_IN_SAFE	L'avversario è troppo lontano.
 CANNOT_ATTACK_SELF_IN_SAFE	Da qui non posso attaccare l'avversario.
 CANNOT_EQUIP_IN_EXCHANGE	Mentre stai commerciando non puoi cambiare nessuna armatura.
@@ -11,7 +10,6 @@ CANNOT_SHOOT_EMPTY_ARROW	Mi serve una freccia.
 CANNOT_SHOOT_SELF_IN_SAFE	Da qui non posso attaccare l'avversario.
 CANNOT_SKILL_APPROACH	Sono sicuro di non riuscire ad arrivarci da più vicino.
 CANNOT_SKILL_ATTACK	Non lo posso attaccare.
-CANNOT_SKILL_BLUE	Se l'Anima del lupo purpureo è attiva, non puoi usare l'Anima del lupo indaco.
 CANNOT_SKILL_DEST_IN_SAFE	L'avversario è troppo lontano.
 CANNOT_SKILL_EQUIP_FISHING_ROD	Mi serve una canna da pesca.
 CANNOT_SKILL_HAVE_TO_RIDE	Per utilizzarlo mi serve un cavallo.
@@ -25,7 +23,6 @@ CANNOT_SKILL_NOT_MATCHABLE_WEAPON	Non posso utilizzare questa abilità con quest
 CANNOT_SKILL_NOT_YET_LEARN	Non ho imparato quest`abilità.
 CANNOT_SKILL_ONLY_FOR_ALLIANCE	Ha effetto solo sui membri del gruppo.
 CANNOT_SKILL_ONLY_FOR_CORPSE	Ha effetto solo sui morti.
-CANNOT_SKILL_RED	Se l'Anima del lupo indaco è attiva, non puoi usare l'Anima del lupo purpureo.
 CANNOT_SKILL_REMOVE_FISHING_ROD	Non posso utilizzare questa abilità con la mia canna da pesca.
 CANNOT_SKILL_SELF_IN_SAFE	Da qui non posso attaccare.
 CANNOT_SKILL_USE_SELF	Non posso usarlo su me stesso.
@@ -34,8 +31,6 @@ CANNOT_USE	Non la puoi utilizzare.
 CANNOT_WHISPER_DEST_REFUSE	%s ha bloccato la chat privata.	SA
 CANNOT_WHISPER_NOT_LOGON	%s non è online.	SA
 CANNOT_WHISPER_SELF_REFUSE	Non puoi chattare privatamente con gli altri se hai bloccato la Chat privata.	SNA
-CHANNEL	Canale
-CHANNELING_CANNOT_LOGOUT	Non puoi tornare alla pagina d'iscrizione.
 CHANNEL_EMPTY_SERVER	Nessun server
 CHANNEL_NORMAL	Canale %d
 CHANNEL_NOTIFY_FULL	Questo canale è pieno! Sei pregato di sceglierne un altro.
@@ -44,12 +39,7 @@ CHANNEL_PVP	Duello libero
 CHANNEL_SELECT_CHANNEL	Scegli il canale
 CHANNEL_SELECT_REGION	Scegli il luogo per il conto
 CHANNEL_SELECT_SERVER	Scegli il server
-CHANNEL_TEST_SERVER	Testa il server
-CHANNEL_TEST_SERVER_ADDR	Test %s:%d
-CHARACTER_CREATE_MODE	Crea personaggio
-CHARACTER_SELECT_MODE	Seleziona personaggio
 CHAT_ALL	Tutti
-CHAT_BLOCK	Blocca
 CHAT_GUILD	Gilda
 CHAT_INFORMATION	Info
 CHAT_INSULT_STRING	La frase contiene parole proibite
@@ -62,32 +52,14 @@ CHAT_SEND_CHAT	Invia Chat
 CHAT_SEND_MEMO	Invia Chat privata [Shift+Invio]
 CHAT_SHOUT	Chiama
 CHAT_SHOUT_LIMIT	Puoi chiamare ogni 15 secondi.
-CHAT_WHISPER	Chat privata
 COMB_ALREADY_APPEND	
-COMB_CANT_APPEND_ITEM	Questo oggetto non può essere utilizzato.
-COMB_CANT_APPEND_SEALED_ITEM	Non si possono utilizzare oggetti legati all'anima.
-COMB_COST	Prezzo: %s
-COMB_IS_CONTINUE_PROCESS	Desideri continuare?
-COMB_NOTICE	Non puoi aprire un negozio privato mentre stai scambiando dei libri.
-COMB_NOTICE_NOT_OPEN	Non puoi scambiar libri mentre hai un negozio privato aperto.
-COMB_NOT_ALL_SLOT_APPEND_ITEM	Hai bisogno di un 2° costume per poter trasferire dei bonus.
-COMB_NOT_FULL_BOOK	No, non ci siamo. Come ti ho già spiegato, sono disposto a fare lo scambio solo se mi porti 10 libri.
-COMB_NOT_ITEM_IN_INVENTORY	Non puoi utilizzare oggetti già in uso.
-COMB_NOT_MEDIUM_ITEM	Questo oggetto non può essere utilizzato.
-COMB_WILL_REMOVE_MATERIAL	Il costume 2 sarà distrutto.
 CREATE_ERROR_GM_NAME	Nel nome del personaggio non puoi usare ,GM‘.
 CREATE_ERROR_INSULT_NAME	Questo nome non è consentito.
-CREATE_ERROR_LIMIT_LEVEL	Il tuo personaggio deve aver raggiunto almeno il livello 80.
-CREATE_ERROR_TIME_LIMIT	Puoi solo creare un personaggio ogni 30 secondi.
-CREATE_ERROR_WRONG_STRING	Il nome del personaggio non può contenere caratteri particolari.
 CREATE_EXIST_SAME_NAME	Questo nome è usato da un altro personaggio.
 CREATE_FAILURE	Non puoi creare il personaggio.
-CREATE_FULL	Non puoi più creare alcun personaggio.
 CREATE_GM_NAME	GM
 CREATE_INPUT_NAME	Inserisci il nome.
-CREATE_PLUS_STAT	Ci sono ancora punti status disponibili.
 DAY	Giorni
-DONT_USE_ITEM_WHEN_SHOW_CONFIRM	Non è possibile spostare gli oggetti mentre è in corso una richiesta.
 DO_YOU_BUY_ITEM1	Desideri comprare %s per %s ?
 DO_YOU_BUY_ITEM2	Desideri comprare %s %s per %s ?
 DO_YOU_DROP_MONEY	Desideri lasciar cadere %d Yang?
@@ -102,7 +74,6 @@ DRAGON_SOUL_INVALID_DRAGON_SOUL	È la Pietra del Drago sbagliata.
 DRAGON_SOUL_IS_NOT_DRAGON_SOUL	Questa non è una Pietra del Drago.
 DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	Non è la giusta Pietra del Drago.
 DRAGON_SOUL_NOT_ENOUGH_MATERIAL	Non hai materiale a sufficienza per il raffinamento.
-DRAGON_SOUL_NOT_MATCHED_SLOT	La Pietra del Drago non va bene per questo slot.
 DRAGON_SOUL_STEP_LEVEL1	Purezza: opaco,
 DRAGON_SOUL_STEP_LEVEL2	Purezza: chiaro,
 DRAGON_SOUL_STEP_LEVEL3	Purezza: limpido,
@@ -141,7 +112,6 @@ EMOTION_SLAP	Colpo
 EMPIRE_A	Regno Shinsoo
 EMPIRE_B	Regno Chunjo
 EMPIRE_C	Regno Jinno
-EMPIRE_SELECT_MODE	Seleziona regno
 EXCHANGE_CANNOT_GIVE	Quest'oggetto non è commerciabile.
 EXCHANGE_CANT_EDIT_MONEY	Non puoi modificare il prezzo ora.
 EXCHANGE_FAILURE_EQUIP_ITEM	Non puoi scambiare gli oggetti in uso.
@@ -177,9 +147,6 @@ GUILDMARK_UPLOADER_ERROR_PATH	Sposta il file nella cartella metin2/upload.
 GUILDMARK_UPLOADER_ERROR_SELECT	Non hai scelto nessuna immagine.
 GUILDWAR_CTF_TITLE	Conquista la bandiera
 GUILDWAR_NORMAL_TITLE	Campo di battaglia
-GUILDWAR_QUESTION_LINE_1	La Gilda %s ha dichiarato guerra alla tua Gilda.
-GUILDWAR_QUESTION_LINE_2	Accetti? (%s)
-GUILDWAR_UNKNOWN_TITLE	...
 GUILDWAR_WARP_TITLE	Campo di battaglia
 GUILD_BUILDING_GRADE	Posizione
 GUILD_BUILDING_NAME	Nome della costruzione
@@ -192,7 +159,6 @@ GUILD_DEPOSIT	Deposita
 GUILD_DO_YOU_HEAL_GSP	Desideri spendere %d Yang per rigenerare %d unità di spirito del drago?
 GUILD_DO_YOU_JOIN	  ti ha invitato. Desideri entrare nella Gilda?
 GUILD_EMPTY_AREA	Terra di nessuno
-GUILD_ENEMY_GUILD_NAME	Nome della Gilda avversaria
 GUILD_FACILITY	Edificio secondario
 GUILD_GEM	Pietra preziosa
 GUILD_HEADQUARTER	Edificio principale
@@ -212,13 +178,6 @@ GUILD_TILE_GRADE	Amministra diritti
 GUILD_TILE_INFO	Informazioni della Gilda
 GUILD_TILE_MEMBER	Membro della Gilda
 GUILD_TILE_SKILL	Abilità della Gilda
-GUILD_VILLAGE_01	Miryang
-GUILD_VILLAGE_02	Songpa
-GUILD_VILLAGE_03	Daeyami
-GUILD_WAR1	Area della Guerra tra Gilde
-GUILD_WAR2	Area della Guerra tra Gilde
-GUILD_WAR3	Area della Guerra tra Gilde
-GUILD_WAR4	Area della Guerra tra Gilde
 GUILD_WAR_LIMIT_30MIN	Tempo: 30 minuti
 GUILD_WAR_REWARD_POTION	Ricompensa: Il vincitore riceve pozioni.
 GUILD_WAR_USE_BATTLE_MAP	Usa il campo di battaglia della Gilda
@@ -239,11 +198,8 @@ HORSE_LEVEL3	Cavallo militare
 HOUR	Ore
 HOW_MANY_ITEM_DO_YOU_DROP1	Desideri lasciar cadere %s ?
 HOW_MANY_ITEM_DO_YOU_DROP2	Desideri lasciar cadere %s %d ?
-INPUT_MATRIX_CARD_NUMBER	Inserire numer omatrix della carta
-INPUT_MATRIX_CARD_TITLE	Matrix della carta
 INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Inserisci qui il codice che hai inserito nell'iscrizione
 INPUT_PRIVATE_CODE_DIALOG_TITLE	Cancella personaggio
-INVENTORY_DO_NOT_PACK_WARP_SCROLL	Il papiro del ritorno non può essere unito.
 INVENTORY_REALLY_USE_ITEM	Vuoi usare l'item su questo oggetto?
 JOB_ASSASSIN	Ninja
 JOB_ASSASSIN0	Ninja principiante
@@ -278,8 +234,6 @@ LOGIN_FAILURE_SHUTDOWN	Il server non è ancora aperto.
 LOGIN_FAILURE_TOO_MANY_USER	Non sei riuscito a connetterti perchè ci sono troppi giocatori
 LOGIN_FAILURE_UNKNOWN	Non sei riuscito a connetterti per ragioni sconosciute.
 LOGIN_FAILURE_WEB_BLOCK	È stato bloccato sulla pagina web. Per favore controlli la sua e-mail
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	Hai inserito un numero sbagliato.
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	Hai inserito per tre volte un numero sbagliato. La connessione è stata conclusa.
 LOGIN_FAILURE_WRONG_PASSWORD	Nome account o password errati.
 LOGIN_INPUT_ID	Inserisci l'ID.
 LOGIN_INPUT_PASSWORD	Inserisci la password.
@@ -295,112 +249,39 @@ MAP_B1	Zona Joan
 MAP_B2	Valle di Imji
 MAP_B3	Zona Bokjung
 MAP_BAY	Baia Nefrite
-MAP_BAYBLACKSAND	Baia Nefrite
 MAP_BG	Waryong
 MAP_C1	Zona Pyungmoo
 MAP_C2	Valle di Bangsan
 MAP_C3	Zona Bakra
 MAP_CAPE	Capo Fuoco del Drago
-MAP_CAPEDRAGONHEAD	Capo Fuoco del Drago
 MAP_CG	Imha
 MAP_DAWN	Falesia di Gautama
-MAP_DAWNMISTWOOD	Falesia di Gautama
 MAP_DESERT	Deserto Yongbi
-MAP_DEVILCATACOMB	Catacomba del Diavolo
-MAP_DEVILTOWER1	Torre dei Demoni
-MAP_DUEL	Arena Esercitazioni Belliche
-MAP_E	Colonia
-MAP_EMPIREWAR01	Battaglia per il Castello
-MAP_EMPIREWAR02	Battaglia per il Castello
-MAP_EMPIREWAR03	Battaglia per il Castello
 MAP_FLAME	Doyyumhwan
-MAP_GUILD_01	Jungrang
-MAP_GUILD_02	Waryong
-MAP_GUILD_03	Imha
-MAP_HOLYPLACE_DESERT	Terra dei Deserti - Guerra dei Regni
-MAP_HOLYPLACE_FLAME	Terra di Fuoco - Guerra dei Regni
-MAP_HOLYPLACE_ICE	Terra dei Ghiacci - Guerra dei Regni
-MAP_MILGYO	Tempio Hwang
 MAP_MILGYO_A	
-MAP_MONKEY_DUNGEON	Hasun Dong
-MAP_MONKEY_DUNGEON2	Jungsun Dong
-MAP_MONKEY_DUNGEON3	Sangsun Dong
-MAP_MONKEY_DUNGEON_11	Hasun Dong
-MAP_MONKEY_DUNGEON_12	Hasun Dong
-MAP_MONKEY_DUNGEON_13	Hasun Dong
-MAP_MT_THUNDER	Monti Tonanti
 MAP_NUSLUCK	Terra Giganti
-MAP_NUSLUCK01	Terra dei Giganti
-MAP_N_DESERT_01	Deserto Yongbi
 MAP_N_DESERT_02	
-MAP_N_FLAME_01	Terra di Fuoco
 MAP_N_FLAME_02	
-MAP_N_FLAME_DUNGEON_01	Fortezza del Drago Rosso
-MAP_N_SNOWM_01	Monte Sohan
 MAP_N_SNOWM_02	
-MAP_N_SNOW_DUNGEON_01	Torre di Vedetta di Nemere
-MAP_N_THREEWAY	Valle di Seungryong
-MAP_OXEVENT	Gara OX
-MAP_PATHWAY_DESERT_01	Terra dei Deserti - Guerra dei Regni
-MAP_PATHWAY_DESERT_02	Terra dei Deserti - Guerra dei Regni
-MAP_PATHWAY_DESERT_03	Terra dei Deserti - Guerra dei Regni
-MAP_PATHWAY_FLAME_01	Terra di Fuoco - Guerra dei Regni
-MAP_PATHWAY_FLAME_02	Terra di Fuoco - Guerra dei Regni
-MAP_PATHWAY_FLAME_03	Terra di Fuoco - Guerra dei Regni
-MAP_PATHWAY_ICE_01	Terra dei Ghiacci - Guerra dei Regni
-MAP_PATHWAY_ICE_02	Spassolandia
-MAP_PATHWAY_ICE_03	Terra dei Ghiacci - Guerra dei Regni
 MAP_SKELTOWER	Torre di Gumsan
-MAP_SKIPIA_DUNGEON_01	Grotta dell'Esilio
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
-MAP_SKIPIA_DUNGEON_02	Grotta dell'Esilio 2
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
-MAP_SKIPIA_DUNGEON_BOSS	Stanza del Drago
-MAP_SKIPIA_DUNGEON_BOSS_1	Sotterraneo dei Ragni 1
-MAP_SKIPIA_DUNGEON_BOSS_2	Sotterraneo dei Ragni 2
-MAP_SKIPIA_DUNGEON_BOSS_3	Sotterraneo dei Ragni 3
 MAP_SNOW	Monte Sohan
 MAP_SPIDER	Kuahlo Dong
-MAP_SPIDERDUNGEON	Sotterraneo dei Ragni 1
-MAP_SPIDERDUNGEON_02	Sotterraneo dei Ragni 2
-MAP_SPIDERDUNGEON_02_1	Sotterraneo dei Ragni 2
-MAP_SPIDERDUNGEON_03	Sotterraneo dei Ragni 3
-MAP_SUNGZI	Guerra dei Regni
-MAP_SUNGZI_DESERT_01	Terra dei Deserti - Guerra dei Regni
-MAP_SUNGZI_DESERT_HILL_01	Terra dei Deserti - Guerra dei Regni
-MAP_SUNGZI_DESERT_HILL_02	Terra dei Deserti - Guerra dei Regni
-MAP_SUNGZI_DESERT_HILL_03	Terra dei Deserti - Guerra dei Regni
-MAP_SUNGZI_FLAME_HILL_01	Terra di Fuoco - Guerra dei Regni
-MAP_SUNGZI_FLAME_HILL_02	Terra di Fuoco - Guerra dei Regni
-MAP_SUNGZI_FLAME_HILL_03	Terra di Fuoco - Guerra dei Regni
-MAP_SUNGZI_SNOW	Terra dei Ghiacci - Guerra dei Regni
-MAP_SUNGZI_SNOW_PASS01	Terra dei Ghiacci - Guerra dei Regni
-MAP_SUNGZI_SNOW_PASS02	Terra dei Ghiacci - Guerra dei Regni
-MAP_SUNGZI_SNOW_PASS03	Terra dei Ghiacci - Guerra dei Regni
-MAP_T1	Area della Guerra tra Gilde
-MAP_T2	Area della Guerra tra Gilde
-MAP_T3	Area della Guerra tra Gilde
-MAP_T4	Area della Guerra tra Gilde
 MAP_TEMPLE	Tempio Hwang
 MAP_THUNDER	Monti Tonanti
 MAP_TREE	Lungsam
-MAP_TRENT	Bosco Fantasma
-MAP_TRENT02	Bosco Rosso
-MAP_TRENT02_A	Bosco Rosso
 MAP_TRENT_A	
-MAP_WEDDING_01	Mappa dei Matrimoni
 MAP_WL	Campo Serpi
-MAP_WL_01	Campo Serpi
 MESSENGER_ADD_FRIEND	Aggiungi amico
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s vuole essere tuo amico.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Accetti?
 MESSENGER_DO_YOU_DELETE	Cancelli?
 MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Desideri cancellare il numero di cellulare?
-MESSENGER_DO_YOU_MOVE	Desideri andare avanti?
 MESSENGER_EMPTY_LIST	Vuoto
 MESSENGER_FAMILY	Famiglia
 MESSENGER_FRIEND	Amici
@@ -421,8 +302,6 @@ MINIMAP_OBSERVER_COUNT	%d Spettatori
 MINIMAP_SHOW_AREAMAP	Apri mappa grande
 MINUTE	minuti
 MONETARY_UNIT0	Yang
-MONETARY_UNIT1	diecimila
-MONETARY_UNIT2	cento milioni
 MONEY_INPUT_DIALOG_SELLPRICE	Prezzo di vendita:
 MOVE_ITEM_FAILURE_PRIVATE_SHOP	Non puoi spostare degli oggetti se hai un negozio privato aperto.
 MUSIC_EMPTY_MUSIC_LIST	Nessuna musica di sottofondo.
@@ -433,7 +312,6 @@ NOT_YET_SUPPORT	Non è supportato.
 OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	Non puoi attivare la modalità Gilda se non appartieni ad una Gilda.
 OPTION_PVPMODE_NOT_SUPPORT	Non puoi usare la configuarazione PvP.
 OPTION_PVPMODE_PROTECT	Devi aver raggiunto il livello %d per modificare la modalità PvP.
-PARTY_ANSWER_TIMEOVER	L'invito è stato rifiutato.
 PARTY_BONUS_ATTACKER	Valore d'attacco: +%d	SA
 PARTY_BONUS_BERSERKER	Velocità d'attacco: +%d	SA
 PARTY_BONUS_BUFFER	Durata dell'abilità: +%d	SA
@@ -453,10 +331,8 @@ PARTY_HEAL_ALL_MEMBER	Rigenerare tutto
 PARTY_INCREASE_AREA_150	Raggio d'azione del gruppo alzato di fattore 1,5.	SNA
 PARTY_INCREASE_AREA_200	Raggio d'azione del gruppo alzato di fattore 2.	SNA
 PARTY_LEAVE	Abbandona il gruppo.
-PARTY_LONGTIME_BONUS_EXP	EXP bonus per un gioco di gruppo lungo: +%d%%	SA
 PARTY_MEMBER_OFFLINE	[Offline]
 PARTY_RECALL_MEMBER	Chiamare a sè un membro del gruppo.
-PARTY_REGEN_BONUS	Bonus per HP + Rigenerazione MP: +%d%%	SA
 PARTY_REQUEST_DENIED	La tua richiesta è stata rifiutata.
 PARTY_SET_ATTACKER	Annotare come aggressore.
 PARTY_SET_BERSERKER	Annotare come feroce.
@@ -469,12 +345,8 @@ PARTY_SKILL_ATTACKER	Valore d'attacco base aggressore  +%.0f
 PARTY_SKILL_BERSERKER	Velocità d'attacco feroce +%.0f
 PARTY_SKILL_BUFFER	Durata dell'abilità bloccatore +%.0f
 PARTY_SKILL_DEFENDER	Difesa difensore +%.0f
-PARTY_SKILL_HP_REGEN	Rigenerazione HP +%.0f%%
-PARTY_SKILL_PARTY_AREA	Raggio d'azione del gruppo +%d%%
 PARTY_SKILL_SKILL_MASTER	Max. MP maestro delle abilità +%.0f
-PARTY_SKILL_SP_REGEN	Rigenerazione MP +%.0f%%
 PARTY_SKILL_TANKER	Max. HP lottatore corpo a corpo +%.0f
-PARTY_SKILL_WARP	Capacità di chiamare a sè i membri del gruppo.
 PASSWORD_TITLE	Password Magazzino
 PICK_ITEM_TITLE	Numero dell'oggetto
 PICK_MONEY_TITLE	Prezzo
@@ -505,7 +377,6 @@ QUEST_MIN	Min.
 QUEST_SEC	Sec.
 QUEST_TIMEOVER	Tempo scaduto
 QUEST_UNLIMITED_TIME	Non c'è limite di tempo
-QUEST_ZEROSEC	0 Sec.
 QUICKSLOT_REGISTER_DISABLE_ITEM	Questo oggetto non può essere inserito nei campi di utilizzo rapido.
 RECEIVE_MESSAGE	%s ti ha mandato un messaggio.
 REFINE_COST	Costo del miglioramento: %d Yang
@@ -544,11 +415,9 @@ SELECT_DELEING	Il personaggio sta per essere cancellato.
 SELECT_DELETED	Cancellato con successo
 SELECT_DO_YOU_DELETE_REALLY	Desideri continuare?
 SELECT_EMPTY_SLOT	Questo è un campo vuoto
-SELECT_GM_NAME	GM
 SELECT_INPUT_CHANGING_NAME	Inserisci un nuovo nome del personaggio.
 SELECT_NOT_JOIN_GUILD	Nessuna Gilda
 SHOP_BUY_INFO	Scegli dalla vetrina l'oggetto che vorresti acquistare.
-SHOP_CANNOT_SELL_EQUIPMENT	Non puoi vendere degli oggetti in uso.
 SHOP_CANNOT_SELL_ITEM	Questto oggetto non è in vendita
 SHOP_ERROR_UNKNOWN	Errore di caricamento sconosciuto: %s
 SHOP_INVALID_POS	Questo oggetto non è adatto.
@@ -558,24 +427,13 @@ SHOP_NOT_ENOUGH_MONEY_EX	Non hai Yang a sufficienza.
 SHOP_SELL_INFO	Scegli dal tuo inventario l'oggetto che vuoi vendere.
 SHOP_SOLDOUT	Esaurito
 SHOT_ERROR_UNKNOWN	Errore sconosciuto nell'attacco a distanza: %s
-SKILL_BLEEDING	Emorragia
 SKILL_BOHO	Riflettere
-SKILL_BUDONG	Non è più utilizzato.
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	Ti serve EXP per imparare questa abilità.
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	Ti serve un libro per imparare questa abilità.
 SKILL_CHEONGEUN	Corpo forte
-SKILL_CRITICAL	Colpo critico
-SKILL_ENCHANT_POISON	Applica il veleno
 SKILL_EUNHYEONG	Camuffamento
-SKILL_FAINT	Svenimento
-SKILL_FIND_TRAP	Cerca trappola
 SKILL_FIRE	Fuoco duraturo
 SKILL_FISHMIND	La palla di pesce è usata.
-SKILL_GAMJI	Mirare
 SKILL_GEOMGYEONG	Aura della spada
-SKILL_GEONGON	SKILL_GEONGON Non è più usato
 SKILL_GICHEON	Aiuto del drago
-SKILL_GIGONG	Rotazione Chi
 SKILL_GONGPO	Terrore
 SKILL_GRADE_NAME_GRAND_MASTER	%s Gran Maestro
 SKILL_GRADE_NAME_MASTER	%s Maestro
@@ -593,48 +451,24 @@ SKILL_GWIGEOM	Lama incantata
 SKILL_GYEONGGONG	Passo piumato
 SKILL_HEUKSIN	Protezione oscura
 SKILL_HOSIN	Benedizione
-SKILL_HWAYEOM	SKILL_HWAYEOM Non è più usato
-SKILL_HYEOLMA	SKILL_HYEOLMA Non è più usato
 SKILL_INC_ATKSPD	Velocità di attacco aumentata
 SKILL_INC_MOVSPD	Velocità di movimento aumentata
-SKILL_INMA	SKILL_INMA Non è più usato
-SKILL_JEOJU	Maledizione
-SKILL_JEONGEOP	Guarire
 SKILL_JEONGWI	Estasi da combattimento
-SKILL_JEONSINBANGEO	Difesa piena
-SKILL_JEONSINGONGGYEOK	Attacco pieno
-SKILL_JEUNGCHE	SKILL_JEUNGCHE Non è più usato
-SKILL_JEUNGHON	SKILL_JEUNGHON Non è più usato
 SKILL_JEUNGRYEOK	Attacco +
-SKILL_JEUNGSOK	Vlocità +
-SKILL_JIGAM	SKILL_JIGAM Non è più usato
-SKILL_JIPJUNG	SKILL_JIPJUNG Non è più usato
 SKILL_JUMAGAP	Armatura incantata
-SKILL_JUMAGEOM	SKILL_JUMAGEOM Non è più usato
-SKILL_KWAEGEOM	SKILL_KWAEGEOM Non è più usato
 SKILL_KWAESOK	Velocità
-SKILL_LEGBOUND	SKILL_LEGBOUND Non è più usato
-SKILL_MUSA	SKILL_MUSA Non è più usato
 SKILL_MUYEONG	Spirito della fiamma
 SKILL_NEED_EMPTY_BOTTLE	Non ho altre bottiglie vuote.
 SKILL_NEED_POISON_BOTTLE	Non ho bottiglie di veleno.
 SKILL_ONLY_FOR_GUILD_WAR	Puoi usare questa abilità solo nella guerra tra Gilde.
 SKILL_PABEOP	Togli incantesimo
 SKILL_POWERFUL_STRIKE	Attacco anestetizzante
-SKILL_SEOMGWANG	Bomba lampo
-SKILL_SINCHAK	SKILL_SINCHAK Non è più usato
-SKILL_SLEEP	Sonno
 SKILL_SLOW	Lento
 SKILL_STUN	Anestetizzare
-SKILL_SUHO	Guardiano
 SKILL_SUMMON_DESCRIPTION	Possibilità di evocazione: %d%%
 SKILL_TOOLTIP_INT	Intelligenza
 SKILL_TOOLTIP_LEVEL	Livello
 SKILL_TOXICDIE	Avvelenamento
-SKILL_TOXICPOWER	Valore di avvelenamento migliorato
-SKILL_TUSOK	Colpo dello spirito
-SKILL_WONSIN	SKILL_WONSIN Non è più usato
-SKILL_YONGSIN	SKILL_YONGSIN Non è più usato
 STAT_MINUS_CON	Adattamento della vitalità (Possibilità rimaste: %d)
 STAT_MINUS_DEX	Adattamento della destrezza (Possibilità rimaste: %d)
 STAT_MINUS_INT	Adattamento dell'intelligenza (Possibilità rimaste: %d)
@@ -686,7 +520,6 @@ THING_COUNT	Tutti
 TOOLTIP_ANTI_CRITICAL_PCT	Resistenza contro il colpo critico +%d%% 	SA
 TOOLTIP_ANTI_PENETRATE_PCT	Resistenza contro i colpi trafiggenti +%d%%	SA
 TOOLTIP_ANTI_SELL	Non può essere venduto nel negozio.
-TOOLTIP_APPLY_ACCEDRAIN_RATE	Tasso di assorbimento: %d%%	SA
 TOOLTIP_APPLY_ATTBONUS_ANIMAL	Forte contro Animali +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_ASSASSIN	Forte contro Ninja +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_DEVIL	Forte contro Diavolo +%d%%	SA
@@ -698,10 +531,7 @@ TOOLTIP_APPLY_ATTBONUS_SHAMAN	Forte contro Shamane +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_SURA	Forte contro Sura +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_UNDEAD	Forte contro Zombie +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_WARRIOR	Forte contro Guerrieri +%d%%	SA
-TOOLTIP_APPLY_BLEEDING_PCT	Attacco sanguinante + %d%%	SA
-TOOLTIP_APPLY_BLEEDING_REDUCE	Resistenza contro l'attacco sanguinante + %d%%	SA
 TOOLTIP_APPLY_BLOCK	Possibilità blocco attacco corporale %d%%	SA
-TOOLTIP_APPLY_COMBAT_SP_RECOVER	Rigenerare in battaglia %d MP ogni 5 Sec.	SA
 TOOLTIP_APPLY_CRITICAL_PCT	+ %d%% di possibilità nei colpi critici	SA
 TOOLTIP_APPLY_DAMAGE_SP_RECOVER	%d%% di possibilità di mantenere MP nei colpi	SA
 TOOLTIP_APPLY_DODGE	%d%% di possibilità di schivare frecce	SA
@@ -760,7 +590,6 @@ TOOLTIP_DRAGON_SOUL_DECK1	Terra	SNA
 TOOLTIP_DRAGON_SOUL_DECK2	Cielo	SNA
 TOOLTIP_EAR	Orecchino
 TOOLTIP_ENERGY	Energia %d	SA
-TOOLTIP_ETC	Ecc.
 TOOLTIP_FISHINGROD_EXP	Punti: %d / %d
 TOOLTIP_FISHINGROD_LEVEL	Livello: %d
 TOOLTIP_FISHINGROD_UPGRADE1	Consegnare al pescatore
@@ -773,7 +602,6 @@ TOOLTIP_INT	Intelligenza +%d	SA
 TOOLTIP_ITEM_ATT_GRADE	Valore d'attacco %d
 TOOLTIP_ITEM_ATT_POWER	Valore d'attacco %d - %d
 TOOLTIP_ITEM_ATT_POWER_ONE_ARG	Valore d'attacco %d
-TOOLTIP_ITEM_ATT_POWER_REFINE	Valore d'attacco %d - %d (+%d)
 TOOLTIP_ITEM_ATT_SPEED	Velocità d'attacco %s
 TOOLTIP_ITEM_DEF_GRADE	Difesa %d
 TOOLTIP_ITEM_FAST	Veloce
@@ -825,30 +653,12 @@ TOOLTIP_NEED_ALL_SP	MP necessari: Max.
 TOOLTIP_NEED_GSP	Spirito del drago necessario: %d
 TOOLTIP_NEED_HP	HP necessari: %d
 TOOLTIP_NEED_HP_PER_SEC	HP / Sec.: %d
-TOOLTIP_NEED_SKILL_POINT	Punti abilità necessari:
 TOOLTIP_NEED_SP	MP necessari: %d
 TOOLTIP_NEED_SP_PER_SEC	MP / Sec.:%d
 TOOLTIP_NEXT_SKILL_LEVEL_1	Prossimo livello: %d (Max. %d)
-TOOLTIP_NEXT_SKILL_LEVEL_2	Prossimo livello: %d (Max. %d-%d)
 TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	Danni medi %d%%	SA
 TOOLTIP_NORMAL_HIT_DEFEND_BONUS	Resistenza ai danni media %d%%	SA
-TOOLTIP_PARTY_INFO_GRADE_UP1	Più di %d membri del gruppo
-TOOLTIP_PARTY_INFO_GRADE_UP2	Grado d'attacco +%d
-TOOLTIP_PARTY_INFO_GRADE_UP3	Grado di difesa +%d
-TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	Ripristinare una volta in 60 minuti gli HP/MP di tutti i membri del gruppo.
-TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	Ripristinare una volta in 30 minuti gli HP/MP di tutti i membri del gruppo.
-TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	Devi aspettare 3 minuti dopo la morte del membro del gruppo.
-TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	Puoi richiamare in ogni momento i membri del gruppo che sono sul server.
-TOOLTIP_PARTY_INFO_SET_ATTACKER	Grado d'attacco +(Numero dei membri/2) %d attaccanti possono essere scelti.
-TOOLTIP_PARTY_INFO_SET_TANKER	Grado di difesa +(Numero dei membri del gruppo).  Può essere scelto lottatore corpo a corpo 1.
 TOOLTIP_PARTY_SKILL_LEVEL	Livello attuale: %d
-TOOLTIP_PARTY_TITLE_GRADE_UP	[Attacco/Difesa migliorata]
-TOOLTIP_PARTY_TITLE_HEAL	[Ripristina]
-TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Per più di %d membri del gruppo c'è un Bonus EXP %d%%.
-TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Bonus-EXP]
-TOOLTIP_PARTY_TITLE_RECALL	[Richiama]
-TOOLTIP_PARTY_TITLE_SET_ATTACKER	[scegli attaccante]
-TOOLTIP_PARTY_TITLE_SET_TANKER	[annota lottatore corpo a corpo]
 TOOLTIP_PICK_EXP	Punti: %d / %d
 TOOLTIP_PICK_LEVEL	Livello: %d
 TOOLTIP_PICK_UPGRADE1	Consegnalo al boscaiolo
@@ -864,9 +674,6 @@ TOOLTIP_POTION_PLUS_SP_PERCENT	MP +%d%%
 TOOLTIP_POTION_PLUS_SP_POINT	MP +%d
 TOOLTIP_POTION_SEC	Sec.
 TOOLTIP_POTION_TIME	Durata:
-TOOLTIP_REQUIREMENT_21_LEVEL	Devi aver raggiunto livello 21
-TOOLTIP_REQUIREMENT_41_LEVEL	Devi aver raggiunto livello 41
-TOOLTIP_REQUIREMENT_LEVEL	Devi aver raggiunto livello %d
 TOOLTIP_REQUIREMENT_SKILL_LEVEL	%s Livello %d necessario
 TOOLTIP_REQUIREMENT_STAT_LEVEL	%s %d necessario
 TOOLTIP_RESIST_BOW	Resistenza freccia %d%%	SA
@@ -877,12 +684,10 @@ TOOLTIP_RESIST_FIRE	Resistenza fuoco %d%%	 SA
 TOOLTIP_RESIST_ICE	Resistenza ghiaccio +%d%%	  SA
 TOOLTIP_RESIST_MAGIC	Resistenza magia %d%%	 SA
 TOOLTIP_REST_USABLE_COUNT	Rimane: %d
-TOOLTIP_SEALED	Legato all'anima
 TOOLTIP_SELLPRICE	Prezzo %s
 TOOLTIP_SHAMAN	Shamana
 TOOLTIP_SHIELD	Scudo
 TOOLTIP_SHOES	Scarpe
-TOOLTIP_SKILL	Abilità	SNA
 TOOLTIP_SKILLBOOK_NAME	Libro dell'abilità
 TOOLTIP_SKILL_AFFECT_ATT_GRADE	Valore d'attacco: +
 TOOLTIP_SKILL_AFFECT_ATT_POWER	Valore d'attacco:
@@ -909,7 +714,6 @@ TOOLTIP_SURA	Sura
 TOOLTIP_TIME_CHARGER_FIX	Tempo di ricarica %d sec. 	SA
 TOOLTIP_TIME_CHARGER_PER	Tempo di ricarica %d%% 	SA
 TOOLTIP_UNIQUE	Unico
-TOOLTIP_UNSEAL_LEFT_TIME	Slegamento dall'anima tra: %dH %dM
 TOOLTIP_WARRIOR	Guerriero
 TOOLTIP_WEAPON	Arma
 TOOLTIP_WRISTLET	Bracciale
@@ -929,8 +733,5 @@ UI_NONAME	Nessun nome
 UI_OK	Ok
 UI_POS_UNKNOWN	Luogo sconosciuto
 UI_PREVPAGE	Indietro
-UI_UNKNOWN	Sconosciuto
-UPLOAD_MARK_CHECK_NEED_RECONNECT	Rifai l'upload
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Rifai l'upload
 USE_ITEM_FAILURE_PRIVATE_SHOP	Non puoi usare degli oggetti se hai un negozio privato aperto.
-USE_SKILL_ERROR_UNKNOWN	Errore abilità sconosciuto: %s

@@ -1,6 +1,5 @@
 AFF_LOVE_POINT	Body za lásku: %d%%
 ALIGNMENT_NAME	Hodnost:
-ATTACK_ERROR_UNKNOWN	Neznámá chyba v útoku: %s
 CANNOT_ATTACK_DEST_IN_SAFE	Soupeř je příliš daleko.
 CANNOT_ATTACK_SELF_IN_SAFE	Odtud nemůžu zaútočit na nepřítele.
 CANNOT_EQUIP_IN_EXCHANGE	Když obchoduješ, nemůžeš měnit výzbroj.
@@ -11,7 +10,6 @@ CANNOT_SHOOT_EMPTY_ARROW	Potřebuji šíp.
 CANNOT_SHOOT_SELF_IN_SAFE	Odtud nemůžu zaútočit na nepřítele.
 CANNOT_SKILL_APPROACH	Jsem si jistý, že se už blíž nedostanu.
 CANNOT_SKILL_ATTACK	Nemůžu na to zaútočit.
-CANNOT_SKILL_BLUE	Nemůžeš použít Duši modrého vlka když je Duše purpurového vlka aktivní.
 CANNOT_SKILL_DEST_IN_SAFE	Soupeř je příliš daleko.
 CANNOT_SKILL_EQUIP_FISHING_ROD	Potřebuji rybářský prut.
 CANNOT_SKILL_HAVE_TO_RIDE	Potřebuji nejdřív koně, než to použiji.
@@ -25,7 +23,6 @@ CANNOT_SKILL_NOT_MATCHABLE_WEAPON	Tuto schopnost nemůžu nasadit ve spojení s 
 CANNOT_SKILL_NOT_YET_LEARN	Tuto schopnost jsem se ještě nenaučil.
 CANNOT_SKILL_ONLY_FOR_ALLIANCE	To působí jen na členy skupiny.
 CANNOT_SKILL_ONLY_FOR_CORPSE	To působí jen na mrtvé.
-CANNOT_SKILL_RED	Nemůžeš použít Duši purpurového vlka když je Duše modrého vlka aktivní.
 CANNOT_SKILL_REMOVE_FISHING_ROD	Tuto schopnost nemůžu použít ve spojení s rybářským prutem.
 CANNOT_SKILL_SELF_IN_SAFE	Odtud nemůžu zaútočit.
 CANNOT_SKILL_USE_SELF	Toto nemůžu použít sám na sobě.
@@ -34,8 +31,6 @@ CANNOT_USE	Toto nemůžeš použít.
 CANNOT_WHISPER_DEST_REFUSE	%s zablokoval šeptání.	SA
 CANNOT_WHISPER_NOT_LOGON	%s není online.	SA
 CANNOT_WHISPER_SELF_REFUSE	Nemůžeš s nikým šeptat, pokud jsi kompletně zablokoval šeptání.	SNA
-CHANNEL	Kanál
-CHANNELING_CANNOT_LOGOUT	Nemůžeš zpět na stránku s přihlášením.
 CHANNEL_EMPTY_SERVER	Žádný server
 CHANNEL_NORMAL	Kanál %d
 CHANNEL_NOTIFY_FULL	Tento kanál je plný! Zvol si prosím jiný.
@@ -44,12 +39,7 @@ CHANNEL_PVP	Volný souboj
 CHANNEL_SELECT_CHANNEL	Zvol si kanál
 CHANNEL_SELECT_REGION	Zvolit místo na vystavení účtenky
 CHANNEL_SELECT_SERVER	Zvolit server
-CHANNEL_TEST_SERVER	Vyzkoušet server
-CHANNEL_TEST_SERVER_ADDR	Test %s:%d
-CHARACTER_CREATE_MODE	Tvorba postavy
-CHARACTER_SELECT_MODE	Volba postavy
 CHAT_ALL	Všichni
-CHAT_BLOCK	Blokovat
 CHAT_GUILD	Cech
 CHAT_INFORMATION	Informace
 CHAT_INSULT_STRING	Věta obsahuje nepřípustná slova.
@@ -62,32 +52,14 @@ CHAT_SEND_CHAT	Poslat chat
 CHAT_SEND_MEMO	Poslat šepot [Shift+Enter]
 CHAT_SHOUT	Zavolat
 CHAT_SHOUT_LIMIT	Můžeš volat jenom každých 15 vteřin.
-CHAT_WHISPER	Šeptat
 COMB_ALREADY_APPEND	
-COMB_CANT_APPEND_ITEM	Tento předmět nelze použít.
-COMB_CANT_APPEND_SEALED_ITEM	Nelze použít předměty s duševním poutem.
-COMB_COST	Cena: %s
-COMB_IS_CONTINUE_PROCESS	Přeješ si pokračovat?
-COMB_NOTICE	Nemůžeš si otevřít soukromý stánek když obchoduješ s knihami.
-COMB_NOTICE_NOT_OPEN	Nemůžeš obchodovat s knihami, když máš otevřený soukromý stánek.
-COMB_NOT_ALL_SLOT_APPEND_ITEM	Na převod bonusů potřebuješ druhý kostým.
-COMB_NOT_FULL_BOOK	Ne, takhle obchody dělat nebudu. Jak jsem ti již řekl, budu s tebou obchodovat jen když mi nabídneš 10 knih.
-COMB_NOT_ITEM_IN_INVENTORY	Nemůžeš použít používaný předmět.
-COMB_NOT_MEDIUM_ITEM	Tento předmět nelze použít.
-COMB_WILL_REMOVE_MATERIAL	Kostým 2 bude zničen.
 CREATE_ERROR_GM_NAME	V názvu postavy nesmíš použít ,GM‘.
 CREATE_ERROR_INSULT_NAME	Toto jméno je nepřípustné.
-CREATE_ERROR_LIMIT_LEVEL	Tvá postava musí být alespoň úrovně 80.
-CREATE_ERROR_TIME_LIMIT	Postavu můžeš vytvořit pouze jednou za 30 vteřin.
-CREATE_ERROR_WRONG_STRING	Jméno tvé postavy nemůže obsahovat speciální znaky.
 CREATE_EXIST_SAME_NAME	Tento název je už zadán pro jinou postavu.
 CREATE_FAILURE	Nemůžeš vytvořit tuto postavu.
-CREATE_FULL	Nemůžeš vytvářet další postavy.
 CREATE_GM_NAME	GM
 CREATE_INPUT_NAME	Zadej jméno.
-CREATE_PLUS_STAT	Status-body jsou ještě k dispozici.
 DAY	D
-DONT_USE_ITEM_WHEN_SHOW_CONFIRM	Nemůžeš přesunout žádný předmět, když probíhá požadavek.
 DO_YOU_BUY_ITEM1	Chceš koupit %s za %s?
 DO_YOU_BUY_ITEM2	Chceš koupit %s %s za %s?
 DO_YOU_DROP_MONEY	Chceš nechat padnout %d Yang?
@@ -102,7 +74,6 @@ DRAGON_SOUL_INVALID_DRAGON_SOUL	Toto je špatný Dračí kámen.
 DRAGON_SOUL_IS_NOT_DRAGON_SOUL	Toto není Dračí kámen.
 DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	Toto není správný Dračí kámen.
 DRAGON_SOUL_NOT_ENOUGH_MATERIAL	Nemáš dostatek surovin pro zušlechtění.
-DRAGON_SOUL_NOT_MATCHED_SLOT	Do tohoto úchytu Dračí kámen nelze zasadit.
 DRAGON_SOUL_STEP_LEVEL1	Čirost: matná,
 DRAGON_SOUL_STEP_LEVEL2	Čirost: čistá,
 DRAGON_SOUL_STEP_LEVEL3	Čirost: bezchybná,
@@ -141,7 +112,6 @@ EMOTION_SLAP	Rána
 EMPIRE_A	Království Shinsoo
 EMPIRE_B	Království Chunjo
 EMPIRE_C	Království Jinno
-EMPIRE_SELECT_MODE	Volba království
 EXCHANGE_CANNOT_GIVE	S tímto předmětem se nedá obchodovat.
 EXCHANGE_CANT_EDIT_MONEY	Ted' nemůžeš změnit částku.
 EXCHANGE_FAILURE_EQUIP_ITEM	Vybavené předměty nemůžeš vyměnit.
@@ -177,9 +147,6 @@ GUILDMARK_UPLOADER_ERROR_PATH	Přesuň soubory do složky metin2/upload.
 GUILDMARK_UPLOADER_ERROR_SELECT	Nebyl zvolen žádný obrazový soubor.
 GUILDWAR_CTF_TITLE	Zmocnit se praporu
 GUILDWAR_NORMAL_TITLE	Polní bitva
-GUILDWAR_QUESTION_LINE_1	Cech %s vyhlásil tvému cechu válku.
-GUILDWAR_QUESTION_LINE_2	Přijímáš? (%s)
-GUILDWAR_UNKNOWN_TITLE	...
 GUILDWAR_WARP_TITLE	Dějiště války cechů
 GUILD_BUILDING_GRADE	Hodnost
 GUILD_BUILDING_NAME	Název budovy
@@ -192,7 +159,6 @@ GUILD_DEPOSIT	Deponovat
 GUILD_DO_YOU_HEAL_GSP	Chceš použít %d Yangů na obnovu %d jednotek Dračího ducha?
 GUILD_DO_YOU_JOIN	 tě pozval. Přeješ si vstoupit do cechu?
 GUILD_EMPTY_AREA	Planá země
-GUILD_ENEMY_GUILD_NAME	Název nepřátelského cechu
 GUILD_FACILITY	Vedlejší budova
 GUILD_GEM	Drahokam
 GUILD_HEADQUARTER	Hlavní budova
@@ -212,13 +178,6 @@ GUILD_TILE_GRADE	Administrace práv
 GUILD_TILE_INFO	Informace o cechu
 GUILD_TILE_MEMBER	Členové cechu
 GUILD_TILE_SKILL	Schopnosti  cechu
-GUILD_VILLAGE_01	Miryang
-GUILD_VILLAGE_02	Songpa
-GUILD_VILLAGE_03	Daeyami
-GUILD_WAR1	Oblast cechovních válek
-GUILD_WAR2	Oblast cechovních válek
-GUILD_WAR3	Oblast cechovních válek
-GUILD_WAR4	Oblast cechovních válek
 GUILD_WAR_LIMIT_30MIN	Čas: 30 minut
 GUILD_WAR_REWARD_POTION	Odměna: Vítěz obdrží elixíry
 GUILD_WAR_USE_BATTLE_MAP	Lokalita: dějiště cechovní války
@@ -239,11 +198,8 @@ HORSE_LEVEL3	Vojenský kůň
 HOUR	hod.
 HOW_MANY_ITEM_DO_YOU_DROP1	Chceš nechat padnout %s?
 HOW_MANY_ITEM_DO_YOU_DROP2	Chceš nechat padnout %s %d?
-INPUT_MATRIX_CARD_NUMBER	Zadat číslo Matrix-karty
-INPUT_MATRIX_CARD_TITLE	Matrix-karta
 INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Zadat vymazávající kód ze správy kont.
 INPUT_PRIVATE_CODE_DIALOG_TITLE	Smazat postavu
-INVENTORY_DO_NOT_PACK_WARP_SCROLL	Pergamen se nedá dát dohromady.
 INVENTORY_REALLY_USE_ITEM	Použit předmět na tento předmět?
 JOB_ASSASSIN	Ninja
 JOB_ASSASSIN0	Amatérský ninja
@@ -278,8 +234,6 @@ LOGIN_FAILURE_SHUTDOWN	Server zatím není přístupný.
 LOGIN_FAILURE_TOO_MANY_USER	Nemohl jsi navázat spojení, protože právě hraje příliš mnoho hráčů.
 LOGIN_FAILURE_UNKNOWN	Z neznámých důvodů jsi se nemohl přihlásit.
 LOGIN_FAILURE_WEB_BLOCK	Byl jsi na webové stránce zablokován. Prosím zkontroluj si e-maily.
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	Zadal jsi špatné číslo.
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	Zadal jsi třikrát špatné číslo. Tvoje připojení bude přerušeno.
 LOGIN_FAILURE_WRONG_PASSWORD	Chybné jméno nebo heslo.
 LOGIN_INPUT_ID	Zadej ID.
 LOGIN_INPUT_PASSWORD	Zadej heslo.
@@ -295,112 +249,39 @@ MAP_B1	Oblast Joan
 MAP_B2	Údolí Imjů
 MAP_B3	Oblast Bokjung
 MAP_BAY	Nefritový záliv
-MAP_BAYBLACKSAND	Nefritový záliv
 MAP_BG	Waryong
 MAP_C1	Oblast Pyungmoo
 MAP_C2	Údolí Bangsanů
 MAP_C3	Oblast Bakra
 MAP_CAPE	Záliv dračího ohně
-MAP_CAPEDRAGONHEAD	Záliv dračího ohně
 MAP_CG	Imha
 MAP_DAWN	Útes Gautama
-MAP_DAWNMISTWOOD	Útes Gautama
 MAP_DESERT	Poušť Yongbi
-MAP_DEVILCATACOMB	Ďáblova katakomba
-MAP_DEVILTOWER1	Věž démonů
-MAP_DUEL	Oblast tréninkových bojů
-MAP_E	Kolonie
-MAP_EMPIREWAR01	Bitva na hradě
-MAP_EMPIREWAR02	Bitva na hradě
-MAP_EMPIREWAR03	Bitva na hradě
 MAP_FLAME	Doyyumhwan
-MAP_GUILD_01	Jungrang
-MAP_GUILD_02	Waryong
-MAP_GUILD_03	Imha
-MAP_HOLYPLACE_DESERT	Bitva království - Pouštní země
-MAP_HOLYPLACE_FLAME	Bitva království - Ohnivá země
-MAP_HOLYPLACE_ICE	Bitva království - Ledová země
-MAP_MILGYO	Chrám Hwang
 MAP_MILGYO_A	
-MAP_MONKEY_DUNGEON	Hasun Dong
-MAP_MONKEY_DUNGEON2	Jungsun Dong
-MAP_MONKEY_DUNGEON3	Sangsun Dong
-MAP_MONKEY_DUNGEON_11	Hasun Dong
-MAP_MONKEY_DUNGEON_12	Hasun Dong
-MAP_MONKEY_DUNGEON_13	Hasun Dong
-MAP_MT_THUNDER	Bouřné hory
 MAP_NUSLUCK	Země obrů
-MAP_NUSLUCK01	Země obrů
-MAP_N_DESERT_01	Poušť Yongbi
 MAP_N_DESERT_02	
-MAP_N_FLAME_01	Ohnivá země
 MAP_N_FLAME_02	
-MAP_N_FLAME_DUNGEON_01	Pevnost Červeného draka
-MAP_N_SNOWM_01	Hora Sohan
 MAP_N_SNOWM_02	
-MAP_N_SNOW_DUNGEON_01	Nemerova strážní věž
-MAP_N_THREEWAY	Údolí Seungryong
-MAP_OXEVENT	Soutež OX
-MAP_PATHWAY_DESERT_01	Bitva království - Pouštní země
-MAP_PATHWAY_DESERT_02	Bitva království - Pouštní země
-MAP_PATHWAY_DESERT_03	Bitva království - Pouštní země
-MAP_PATHWAY_FLAME_01	Bitva království - Ohnivá země
-MAP_PATHWAY_FLAME_02	Bitva království - Ohnivá země
-MAP_PATHWAY_FLAME_03	Bitva království - Ohnivá země
-MAP_PATHWAY_ICE_01	Bitva království - Ledová země
-MAP_PATHWAY_ICE_02	Země her
-MAP_PATHWAY_ICE_03	Bitva království - Ledová země
 MAP_SKELTOWER	Věž Gumsan
-MAP_SKIPIA_DUNGEON_01	Jeskyně vyhnanství
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
-MAP_SKIPIA_DUNGEON_02	Jeskyně vyhnanství 2
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
-MAP_SKIPIA_DUNGEON_BOSS	Dračí chrám
-MAP_SKIPIA_DUNGEON_BOSS_1	Pavoučí bludiště 1
-MAP_SKIPIA_DUNGEON_BOSS_2	Pavoučí bludiště 2
-MAP_SKIPIA_DUNGEON_BOSS_3	Pavoučí bludiště 3
 MAP_SNOW	Hora Sohan
 MAP_SPIDER	Kuahlo Dong
-MAP_SPIDERDUNGEON	Pavoučí bludiště 1
-MAP_SPIDERDUNGEON_02	Pavoučí bludiště 2
-MAP_SPIDERDUNGEON_02_1	Pavoučí bludiště 2
-MAP_SPIDERDUNGEON_03	Pavoučí bludiště 3
-MAP_SUNGZI	Bitva království
-MAP_SUNGZI_DESERT_01	Bitva království - Pouštní země
-MAP_SUNGZI_DESERT_HILL_01	Bitva království - Pouštní země
-MAP_SUNGZI_DESERT_HILL_02	Bitva království - Pouštní země
-MAP_SUNGZI_DESERT_HILL_03	Bitva království - Pouštní země
-MAP_SUNGZI_FLAME_HILL_01	Bitva království - Ohnivá země
-MAP_SUNGZI_FLAME_HILL_02	Bitva království - Ohnivá země
-MAP_SUNGZI_FLAME_HILL_03	Bitva království - Ohnivá země
-MAP_SUNGZI_SNOW	Bitva království - Ledová země
-MAP_SUNGZI_SNOW_PASS01	Bitva království - Ledová země
-MAP_SUNGZI_SNOW_PASS02	Bitva království - Ledová země
-MAP_SUNGZI_SNOW_PASS03	Bitva království - Ledová země
-MAP_T1	Oblast cechovních válek
-MAP_T2	Oblast cechovních válek
-MAP_T3	Oblast cechovních válek
-MAP_T4	Oblast cechovních válek
 MAP_TEMPLE	Chrám Hwang
 MAP_THUNDER	Bouřné hory
 MAP_TREE	Lungsam
-MAP_TRENT	Les duchů
-MAP_TRENT02	Červený les
-MAP_TRENT02_A	Červený les
 MAP_TRENT_A	
-MAP_WEDDING_01	Svatební oblast
 MAP_WL	Hadí pole
-MAP_WL_01	Hadí pole
 MESSENGER_ADD_FRIEND	Přidat přítele
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s tě přijímal za přítele.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Akceptovat?
 MESSENGER_DO_YOU_DELETE	Smazat?
 MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Chceš smazat číslo na mobil?
-MESSENGER_DO_YOU_MOVE	Chceš pokračovat?
 MESSENGER_EMPTY_LIST	Prázdný
 MESSENGER_FAMILY	Rodina
 MESSENGER_FRIEND	Přátelé
@@ -421,8 +302,6 @@ MINIMAP_OBSERVER_COUNT	%d divák
 MINIMAP_SHOW_AREAMAP	Velká mapa
 MINUTE	min
 MONETARY_UNIT0	Yang
-MONETARY_UNIT1	deset tisíc
-MONETARY_UNIT2	sto miliónů
 MONEY_INPUT_DIALOG_SELLPRICE	Prodejní cena:
 MOVE_ITEM_FAILURE_PRIVATE_SHOP	Nemůžeš přesunout tento předmět, když jsi otevřel soukromý stánek.
 MUSIC_EMPTY_MUSIC_LIST	Bez hudby v pozadí	
@@ -433,7 +312,6 @@ NOT_YET_SUPPORT	Není podporováno.
 OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	Pokud nenáležíš k žádnému cechu, nemůžeš zaktivovat cechovní modus.
 OPTION_PVPMODE_NOT_SUPPORT	Konfiguraci PvP-módu nemůžeš použít.
 OPTION_PVPMODE_PROTECT	Abys mohl přejít do PvP-módu, musíš dosáhnout minimálně úrovně %d.
-PARTY_ANSWER_TIMEOVER	Pozvání bylo odmítnuto.
 PARTY_BONUS_ATTACKER	Hodnota útoku: +%d	SA
 PARTY_BONUS_BERSERKER	Rychlost útoku: +%d	SA
 PARTY_BONUS_BUFFER	Trvání schopností: +%d	SA
@@ -453,10 +331,8 @@ PARTY_HEAL_ALL_MEMBER	Vše znovuobnovit
 PARTY_INCREASE_AREA_150	Dosah skupiny byl zvýšen o faktor 1,5.	SNA
 PARTY_INCREASE_AREA_200	Dosah skupiny byl zvýšen o faktor 2.	SNA
 PARTY_LEAVE	Opustit skupinu
-PARTY_LONGTIME_BONUS_EXP	Bonus za dlouhou hru skupiny: +%d%%	SA
 PARTY_MEMBER_OFFLINE	[Offline]
 PARTY_RECALL_MEMBER	Přivolat člena skupiny.
-PARTY_REGEN_BONUS	Bonus na regeneraci ZB a MB: +%d%%	SA
 PARTY_REQUEST_DENIED	Tvůj požadavek byl zamítnut.
 PARTY_SET_ATTACKER	Určit útočníka.
 PARTY_SET_BERSERKER	Určit zuřivce.
@@ -469,12 +345,8 @@ PARTY_SKILL_ATTACKER	Základní hodnota útoku útočníka +%.0f
 PARTY_SKILL_BERSERKER	Rychlost útoku zuřivce +%.0f
 PARTY_SKILL_BUFFER	Doba trvání schopností blokátora +%.0f
 PARTY_SKILL_DEFENDER	Obrana obránce +%.0f
-PARTY_SKILL_HP_REGEN	Regenerace ZB +%.0f%%
-PARTY_SKILL_PARTY_AREA	Dosah skupiny +%d%%
 PARTY_SKILL_SKILL_MASTER	Max. MB mistra schopností +%.0f
-PARTY_SKILL_SP_REGEN	Regenerace MB +%.0f%%
 PARTY_SKILL_TANKER	Max. ZB bojovník zblízka +%.0f
-PARTY_SKILL_WARP	Schopen, přivolat členy skupiny.
 PASSWORD_TITLE	Heslo ke skladišti
 PICK_ITEM_TITLE	Počet předmětů
 PICK_MONEY_TITLE	Částka
@@ -505,7 +377,6 @@ QUEST_MIN	min.
 QUEST_SEC	sek.
 QUEST_TIMEOVER	Čas vypršel
 QUEST_UNLIMITED_TIME	Bez časového omezení
-QUEST_ZEROSEC	0 sek.
 QUICKSLOT_REGISTER_DISABLE_ITEM	Tento předmět nemůže být přidán k poli rychlého přístupu.
 RECEIVE_MESSAGE	%s ti poslal/a zprávu.
 REFINE_COST	Náklady na zlepšení: %d Yang
@@ -544,11 +415,9 @@ SELECT_DELEING	Postava se maže
 SELECT_DELETED	Vymazání úspěšné.
 SELECT_DO_YOU_DELETE_REALLY	Chceš pokračovat?
 SELECT_EMPTY_SLOT	Toto je prázdné pole.
-SELECT_GM_NAME	GM
 SELECT_INPUT_CHANGING_NAME	Zadej nový název postavy.
 SELECT_NOT_JOIN_GUILD	Žádný cech
 SHOP_BUY_INFO	Zvol předmět, který chceš koupit, v obchodním okně.
-SHOP_CANNOT_SELL_EQUIPMENT	Vybavený předmět nemůžeš prodat.
 SHOP_CANNOT_SELL_ITEM	Tento předmět není na prodej.
 SHOP_ERROR_UNKNOWN	Neznámá chyba v obchodě: %s
 SHOP_INVALID_POS	Tento předmět není vhodný.
@@ -558,24 +427,13 @@ SHOP_NOT_ENOUGH_MONEY_EX	Nemáš dostatek Yangů.
 SHOP_SELL_INFO	Zvol předmět, který chceš prodat, v okně inventáře.
 SHOP_SOLDOUT	Vyprodáno
 SHOT_ERROR_UNKNOWN	Neznámá chyba v útoku na dálku: %s
-SKILL_BLEEDING	Krvácení
 SKILL_BOHO	Reflektovat
-SKILL_BUDONG	Už se nepoužívá
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	Potřebuješ BZK, abys mohl získat tuto schopnost.
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	Potřebuješ knihu, aby ses mohl naučit tuto schopnost.
 SKILL_CHEONGEUN	Silné tělo
-SKILL_CRITICAL	Kritický zásah
-SKILL_ENCHANT_POISON	Použít jed
 SKILL_EUNHYEONG	Neviditelný
-SKILL_FAINT	Bezvědomí
-SKILL_FIND_TRAP	Hledat past
 SKILL_FIRE	Spálit
 SKILL_FISHMIND	Koule na ryby je aktivní
-SKILL_GAMJI	Zachycení
 SKILL_GEOMGYEONG	Aura meče
-SKILL_GEONGON	SKILL_GEONGON se už nepoužívá
 SKILL_GICHEON	Pomoc draka
-SKILL_GIGONG	Rotace Chi
 SKILL_GONGPO	Strach
 SKILL_GRADE_NAME_GRAND_MASTER	%s velký mistr
 SKILL_GRADE_NAME_MASTER	%s mistr
@@ -593,48 +451,24 @@ SKILL_GWIGEOM	Začarovaná čepel
 SKILL_GYEONGGONG	Polehoučku našlapovat
 SKILL_HEUKSIN	Tmavá ochrana
 SKILL_HOSIN	Požehnání
-SKILL_HWAYEOM	SKILL_HWAYEOM se už nepoužívá
-SKILL_HYEOLMA	SKILL_HYEOLMA se už nepoužívá
 SKILL_INC_ATKSPD	Rychlost útoku zvýšena
 SKILL_INC_MOVSPD	Rychlost pohybu zvýšena
-SKILL_INMA	SKILL_INMA se už nepoužívá
-SKILL_JEOJU	Kletba
-SKILL_JEONGEOP	Hojení
 SKILL_JEONGWI	Bojové zuření
-SKILL_JEONSINBANGEO	Plná obrana
-SKILL_JEONSINGONGGYEOK	Plný útok
-SKILL_JEUNGCHE	SKILL_JEUNGCHE se už nepoužívá
-SKILL_JEUNGHON	SKILL_JEUNGHON se už nepoužívá
 SKILL_JEUNGRYEOK	Útok +
-SKILL_JEUNGSOK	Rychlost +
-SKILL_JIGAM	SKILL_JIGAM se už nepoužívá
-SKILL_JIPJUNG	SKILL_JIPJUNG se už nepoužívá
 SKILL_JUMAGAP	Začarované brnění
-SKILL_JUMAGEOM	SKILL_JUMAGEOM se už nepoužívá
-SKILL_KWAEGEOM	SKILL_KWAEGEOM se už nepoužívá
 SKILL_KWAESOK	Rychlost
-SKILL_LEGBOUND	SKILL_LEGBOUND se už nepoužívá
-SKILL_MUSA	SKILL_MUSA se už nepoužívá
 SKILL_MUYEONG	Duch plamene
 SKILL_NEED_EMPTY_BOTTLE	Nemám žádnou prázdnou láhev
 SKILL_NEED_POISON_BOTTLE	Nemám žádnou láhev s jedem
 SKILL_ONLY_FOR_GUILD_WAR	Tuto schopnost můžeš použít jenom ve válce cechů.
 SKILL_PABEOP	Zrušit kouzlo
 SKILL_POWERFUL_STRIKE	Omračující útok
-SKILL_SEOMGWANG	Blesková bomba
-SKILL_SINCHAK	SKILL_SINCHAK se už nepoužívá
-SKILL_SLEEP	Spánek
 SKILL_SLOW	Pomalu
 SKILL_STUN	Omráčit
-SKILL_SUHO	Strážce
 SKILL_SUMMON_DESCRIPTION	Šance zaříkávání: %d%%
 SKILL_TOOLTIP_INT	Inteligence
 SKILL_TOOLTIP_LEVEL	Úroveň
 SKILL_TOXICDIE	Otrávení
-SKILL_TOXICPOWER	Hodnota útoku jedem zlepšena
-SKILL_TUSOK	Rána ducha
-SKILL_WONSIN	SKILL_WONSIN se už nepoužívá
-SKILL_YONGSIN	SKILL_YONGSIN se už nepoužívá
 STAT_MINUS_CON	Přizpůsobení vitality (zbývající šance: %d)
 STAT_MINUS_DEX	Přizpůsobení pohyblivosti (zbývající šance: %d)
 STAT_MINUS_INT	Přizpůsobení inteligence (zbývající šance: %d)
@@ -686,7 +520,6 @@ THING_COUNT	všichni
 TOOLTIP_ANTI_CRITICAL_PCT	Odolnost proti kritickým zásahům +%d%% 	SA
 TOOLTIP_ANTI_PENETRATE_PCT	Odolnost proti pronikavým zásahům +%d%% 	SA
 TOOLTIP_ANTI_SELL	Nemůže se prodávat v obchodě.
-TOOLTIP_APPLY_ACCEDRAIN_RATE	Absorpční poměr: %d%%	SA
 TOOLTIP_APPLY_ATTBONUS_ANIMAL	Silný proti zvířatům +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_ASSASSIN	Silný proti ninjům +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_DEVIL	Silný proti ďáblu +%d%%	SA
@@ -698,10 +531,7 @@ TOOLTIP_APPLY_ATTBONUS_SHAMAN	Silný proti šamanům +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_SURA	Silný proti surům +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_UNDEAD	Silný proti nemrtvým +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_WARRIOR	Silný proti válečníkům +%d%%	SA
-TOOLTIP_APPLY_BLEEDING_PCT	Krvácivý útok + %d%%	SA
-TOOLTIP_APPLY_BLEEDING_REDUCE	Odolnost proti krvácivým útokům + %d%%	SA
 TOOLTIP_APPLY_BLOCK	Šance odvrátit tělesný útok %d%%	SA
-TOOLTIP_APPLY_COMBAT_SP_RECOVER	Každých 5 sek. obnovit MB v boji %d	SA
 TOOLTIP_APPLY_CRITICAL_PCT	+%d%% šance na kritický zásah	SA
 TOOLTIP_APPLY_DAMAGE_SP_RECOVER	%d%% šance dostat při zásahu MB nazpět	SA
 TOOLTIP_APPLY_DODGE	%d%% šance vyhnout se šípům	SA
@@ -760,7 +590,6 @@ TOOLTIP_DRAGON_SOUL_DECK1	Země	SNA
 TOOLTIP_DRAGON_SOUL_DECK2	Nebesa	SNA
 TOOLTIP_EAR	Náušnice
 TOOLTIP_ENERGY	Energie %d	SA
-TOOLTIP_ETC	atd.
 TOOLTIP_FISHINGROD_EXP	Body: %d / %d
 TOOLTIP_FISHINGROD_LEVEL	Úroveň: %d
 TOOLTIP_FISHINGROD_UPGRADE1	Dát rybářovi
@@ -773,7 +602,6 @@ TOOLTIP_INT	Inteligence +%d	SA
 TOOLTIP_ITEM_ATT_GRADE	Hodnota útoku %d
 TOOLTIP_ITEM_ATT_POWER	Hodnota útoku %d - %d
 TOOLTIP_ITEM_ATT_POWER_ONE_ARG	Hodnota útoku %d
-TOOLTIP_ITEM_ATT_POWER_REFINE	Hodnota útoku %d - %d (+%d)
 TOOLTIP_ITEM_ATT_SPEED	Rychlost útoku %s
 TOOLTIP_ITEM_DEF_GRADE	Obrana %d
 TOOLTIP_ITEM_FAST	Rychle
@@ -825,30 +653,12 @@ TOOLTIP_NEED_ALL_SP	Potřebné MB: max.
 TOOLTIP_NEED_GSP	Potřebný duch draka: %d
 TOOLTIP_NEED_HP	Potřebné ZB: %d
 TOOLTIP_NEED_HP_PER_SEC	ZB / sek:  %d
-TOOLTIP_NEED_SKILL_POINT	Potřebné SB:
 TOOLTIP_NEED_SP	Potřebné MB: %d
 TOOLTIP_NEED_SP_PER_SEC	MB / sek:  %d
 TOOLTIP_NEXT_SKILL_LEVEL_1	Příští úroveň: %d (max. %d)
-TOOLTIP_NEXT_SKILL_LEVEL_2	Příští úroveň: %d (max. %d-%d)
 TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	Průměrná škoda %d%%	SA
 TOOLTIP_NORMAL_HIT_DEFEND_BONUS	Průměrná odolnost proti škodě %d%%	SA
-TOOLTIP_PARTY_INFO_GRADE_UP1	Více než %d členů skupiny
-TOOLTIP_PARTY_INFO_GRADE_UP2	Stupeň útoku +%d
-TOOLTIP_PARTY_INFO_GRADE_UP3	Stupeň obrany +%d
-TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	Obnovit jednou za 60 min. ZB/MB všech členů skupiny.
-TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	Jednou za 30 min. obnovit ZB/MB všech členů skupiny.
-TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	Musíš počkat tři minuty po smrti členu skupiny.
-TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	Můžeš kdykoliv zavolat k sobě členy skupiny na stejném serveru.
-TOOLTIP_PARTY_INFO_SET_ATTACKER	Stupeň útoku +(počet členů skupiny/2) Lze zvolit útočníky %d.
-TOOLTIP_PARTY_INFO_SET_TANKER	Stupeň obrany +(počet členů skupiny). Lze zvolit bojovníky zblízka 1.
 TOOLTIP_PARTY_SKILL_LEVEL	Aktuální úroveň: %d
-TOOLTIP_PARTY_TITLE_GRADE_UP	[Útok/obrana zlepšen(a)]
-TOOLTIP_PARTY_TITLE_HEAL	[Obnovit]
-TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Pokud máš více než %d členů skupiny, obdržíš bonusové BZK %d%%.
-TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Bonusové BZK]
-TOOLTIP_PARTY_TITLE_RECALL	[Přivolat]
-TOOLTIP_PARTY_TITLE_SET_ATTACKER	[Určit útočníky]
-TOOLTIP_PARTY_TITLE_SET_TANKER	[Určit bojovníky zblízka]
 TOOLTIP_PICK_EXP	Body: %d / %d
 TOOLTIP_PICK_LEVEL	Úroveň: %d
 TOOLTIP_PICK_UPGRADE1	Dát dřevorubci
@@ -864,9 +674,6 @@ TOOLTIP_POTION_PLUS_SP_PERCENT	MB: +%d%%
 TOOLTIP_POTION_PLUS_SP_POINT	MB: +%d
 TOOLTIP_POTION_SEC	sek.
 TOOLTIP_POTION_TIME	Doba:
-TOOLTIP_REQUIREMENT_21_LEVEL	Musíš nejdřív dosáhnout úrovně 21
-TOOLTIP_REQUIREMENT_41_LEVEL	Musíš nejdřív dosáhnout úrovně 41
-TOOLTIP_REQUIREMENT_LEVEL	Musíš nejdřív dosáhnout úrovně %d
 TOOLTIP_REQUIREMENT_SKILL_LEVEL	Je zapotřebí %s úroveň %d
 TOOLTIP_REQUIREMENT_STAT_LEVEL	Je zapotřebí %s %d
 TOOLTIP_RESIST_BOW	Odolnost proti šípům %d%%	SA
@@ -877,12 +684,10 @@ TOOLTIP_RESIST_FIRE	Odolnost proti ohni %d%%	SA
 TOOLTIP_RESIST_ICE	Odolnost ledu +%d%% 	SA
 TOOLTIP_RESIST_MAGIC	Odolnost proti magii %d%%	SA
 TOOLTIP_REST_USABLE_COUNT	Zbývá: %d
-TOOLTIP_SEALED	Duševní pouto
 TOOLTIP_SELLPRICE	Cena: %s
 TOOLTIP_SHAMAN	Šaman
 TOOLTIP_SHIELD	Štít
 TOOLTIP_SHOES	Boty
-TOOLTIP_SKILL	Schopnost	SNA
 TOOLTIP_SKILLBOOK_NAME	Kniha schopností
 TOOLTIP_SKILL_AFFECT_ATT_GRADE	Hodnota útoku: +
 TOOLTIP_SKILL_AFFECT_ATT_POWER	Hodnota útoku:
@@ -909,7 +714,6 @@ TOOLTIP_SURA	Sura
 TOOLTIP_TIME_CHARGER_FIX	Čas nabíjení %d vteřin. 	SA
 TOOLTIP_TIME_CHARGER_PER	Čas nabíjení %d%%	SA
 TOOLTIP_UNIQUE	Jedinečný
-TOOLTIP_UNSEAL_LEFT_TIME	Zrušení duševního pouta za: %dH %dM
 TOOLTIP_WARRIOR	Válečník
 TOOLTIP_WEAPON	Zbraň
 TOOLTIP_WRISTLET	Náramek
@@ -929,8 +733,5 @@ UI_NONAME	Chybí jméno
 UI_OK	OK
 UI_POS_UNKNOWN	Neznámé místo
 UI_PREVPAGE	zpět
-UI_UNKNOWN	Neznámý
-UPLOAD_MARK_CHECK_NEED_RECONNECT	Upload musí být proveden ještě jednou
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Upload musí být proveden ještě jednou
 USE_ITEM_FAILURE_PRIVATE_SHOP	Pokud jsi otevřel soukromý stánek, nemůžeš použít tento předmět.
-USE_SKILL_ERROR_UNKNOWN	Neznámá chyba v schopnostech: %s
