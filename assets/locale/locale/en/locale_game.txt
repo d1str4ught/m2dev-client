@@ -1,6 +1,5 @@
 AFF_LOVE_POINT	Love points: %d%%	
 ALIGNMENT_NAME	Rank points:	
-ATTACK_ERROR_UNKNOWN	Unknown attack error: %s	
 CANNOT_ATTACK_DEST_IN_SAFE	The combatant is too far away.	
 CANNOT_ATTACK_SELF_IN_SAFE	I cannot attack my opponent from here.	
 CANNOT_EQUIP_IN_EXCHANGE	You cannot change your equipment whilst trading.
@@ -32,8 +31,6 @@ CANNOT_USE	You cannot use this.
 CANNOT_WHISPER_DEST_REFUSE	%s has blocked whispering.	SA
 CANNOT_WHISPER_NOT_LOGON	%s is not online.	SA
 CANNOT_WHISPER_SELF_REFUSE	You cannot whisper something to someone when you have completely blocked whispering. 	SNA
-CHANNEL	Channel	
-CHANNELING_CANNOT_LOGOUT	You cannot go back to the login screen.	
 CHANNEL_EMPTY_SERVER	No server	
 CHANNEL_NORMAL	Channel %d	
 CHANNEL_NOTIFY_FULL	This channel is full! Please choose another one.
@@ -42,10 +39,7 @@ CHANNEL_PVP	Free duel
 CHANNEL_SELECT_CHANNEL	Choose the channel	
 CHANNEL_SELECT_REGION	Choose region.	
 CHANNEL_SELECT_SERVER	Choose server	
-CHANNEL_TEST_SERVER	Test server	
-CHANNEL_TEST_SERVER_ADDR	Test %s:%d	
 CHAT_ALL	All	
-CHAT_BLOCK	Block	
 CHAT_GUILD	Guild	
 CHAT_INFORMATION	Info	
 CHAT_INSULT_STRING	This sentence has invalid words in it.	
@@ -58,14 +52,12 @@ CHAT_SEND_CHAT	Send chat
 CHAT_SEND_MEMO	Send whisper[Shift+Enter]	
 CHAT_SHOUT	Call	
 CHAT_SHOUT_LIMIT	You can only call every 15 seconds.	
-CHAT_WHISPER	Whispering	
 CREATE_ERROR_GM_NAME	You are not allowed to use 'GM' in your character name.	
 CREATE_ERROR_INSULT_NAME	This name is invalid.	
 CREATE_EXIST_SAME_NAME	Another character already has this name.	
 CREATE_FAILURE	You cannot create the character	
 CREATE_GM_NAME	GM	
 CREATE_INPUT_NAME	Enter the name.	
-CREATE_PLUS_STAT	There are still status points available. 	
 DAY	Days	
 DO_YOU_BUY_ITEM1	Do you want to buy %s for %s?	
 DO_YOU_BUY_ITEM2	Do you want to buy %s %s for %s?	
@@ -81,7 +73,6 @@ DRAGON_SOUL_INVALID_DRAGON_SOUL	That is the wrong Dragon Stone.
 DRAGON_SOUL_IS_NOT_DRAGON_SOUL	That is not a Dragon Stone.
 DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	That is not the right Dragon Stone.
 DRAGON_SOUL_NOT_ENOUGH_MATERIAL	You do not have enough material to refine.
-DRAGON_SOUL_NOT_MATCHED_SLOT	The Dragon Stone does not fit in this slot.
 DRAGON_SOUL_STEP_LEVEL1	Clarity: matt,
 DRAGON_SOUL_STEP_LEVEL2	Clarity: clear,
 DRAGON_SOUL_STEP_LEVEL3	Clarity: flawless,
@@ -155,9 +146,6 @@ GUILDMARK_UPLOADER_ERROR_PATH	Move the data into the folder metin2/upload.
 GUILDMARK_UPLOADER_ERROR_SELECT	No picture file chosen.	
 GUILDWAR_CTF_TITLE	Flag captured.	
 GUILDWAR_NORMAL_TITLE	Field Battle	
-GUILDWAR_QUESTION_LINE_1	The Guild %s  declared war on your Guild.	
-GUILDWAR_QUESTION_LINE_2	Do you accept? (%s)	
-GUILDWAR_UNKNOWN_TITLE	...	
 GUILDWAR_WARP_TITLE	Arena Battle
 GUILD_BUILDING_GRADE	Rank	
 GUILD_BUILDING_NAME	Name of building	
@@ -170,7 +158,6 @@ GUILD_DEPOSIT	Deposit
 GUILD_DO_YOU_HEAL_GSP	Do you want to restore %d units of Dragon Ghost for %d Yang?
 GUILD_DO_YOU_JOIN	 has invited you. Do you want to join the guild?
 GUILD_EMPTY_AREA	Empty land	
-GUILD_ENEMY_GUILD_NAME	Guild name of the enemy	
 GUILD_FACILITY	Outbuilding	
 GUILD_GEM	Gem	
 GUILD_HEADQUARTER	Main Building
@@ -210,11 +197,8 @@ HORSE_LEVEL3	Military Horse
 HOUR	Hours	
 HOW_MANY_ITEM_DO_YOU_DROP1	Do you want to drop %s?	
 HOW_MANY_ITEM_DO_YOU_DROP2	Do you want to drop %s %d?	
-INPUT_MATRIX_CARD_NUMBER	Enter Matrix Cardnumber.	
-INPUT_MATRIX_CARD_TITLE	Matrix Card	
 INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Enter deletion-code from your account settings here.	
 INPUT_PRIVATE_CODE_DIALOG_TITLE	Delete character	
-INVENTORY_DO_NOT_PACK_WARP_SCROLL	Role of Return cannot be combined.	
 INVENTORY_REALLY_USE_ITEM	Do you want to use this Item?	
 JOB_ASSASSIN	Ninja	
 JOB_ASSASSIN0	Amateur Ninja	
@@ -248,8 +232,6 @@ LOGIN_FAILURE_SHUTDOWN	The server is not open yet.
 LOGIN_FAILURE_TOO_MANY_USER	You could not connect because too many players are online.	
 LOGIN_FAILURE_UNKNOWN	You could not register for unknown reasons.	
 LOGIN_FAILURE_WEB_BLOCK	You have been blocked at the website. Please check your EMails.	
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	You entered a wrong number.	
-LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	You entered a wrong number three times. /n Your connection will be disabled.	
 LOGIN_FAILURE_WRONG_PASSWORD	Account name or password incorrect.
 LOGIN_INPUT_ID	Enter the ID.	
 LOGIN_INPUT_PASSWORD	Enter the password.	
@@ -280,14 +262,12 @@ MAP_SPIDER	Kuahlo Dong
 MAP_TEMPLE	Hwang Temple	
 MAP_THUNDER	Thunder Mountains
 MAP_TREE	Lungsam	
-MAP_TRENT02	Red Forest
 MAP_WL	Snakefield
 MESSENGER_ADD_FRIEND	Add Friend	
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s added you as a friend.	
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Accept?	
 MESSENGER_DO_YOU_DELETE	Delete?	
 MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Do you want to delete the cell phone number?	
-MESSENGER_DO_YOU_MOVE	Do you want to go on?	
 MESSENGER_EMPTY_LIST	Empty	
 MESSENGER_FAMILY	Family	
 MESSENGER_FRIEND	Friends	
@@ -307,8 +287,6 @@ MINIMAP_OBSERVER_COUNT	%d observers
 MINIMAP_SHOW_AREAMAP	Open Large Map	
 MINUTE	Minutes	
 MONETARY_UNIT0	Yang
-MONETARY_UNIT1	Ten Thousand	
-MONETARY_UNIT2	Hundred Billion	
 MONEY_INPUT_DIALOG_SELLPRICE	Sales Price:	
 MOVE_ITEM_FAILURE_PRIVATE_SHOP	You cannot move items while you have a private shop open.
 MUSIC_EMPTY_MUSIC_LIST	No Backgroundmusic.	
@@ -338,10 +316,8 @@ PARTY_HEAL_ALL_MEMBER	Restore everything.
 PARTY_INCREASE_AREA_150	Range of the group heightened of the factor 1.5 .	SNA
 PARTY_INCREASE_AREA_200	Range of the group heightened of the factor 2.	SNA
 PARTY_LEAVE	Leave group
-PARTY_LONGTIME_BONUS_EXP	Bonus EXP for a long group game: +%d%%	SA
 PARTY_MEMBER_OFFLINE	[Offline]	
 PARTY_RECALL_MEMBER	Call group member.	
-PARTY_REGEN_BONUS	Bonus for HP- + SP regeneration: +%d%%	SA
 PARTY_REQUEST_DENIED	Your request has been declined.
 PARTY_SET_ATTACKER	Constitute as Attacker.	
 PARTY_SET_BERSERKER	Constitute as Berserker.	
@@ -354,12 +330,8 @@ PARTY_SKILL_ATTACKER	Base Attack Value Attacker +%.0f
 PARTY_SKILL_BERSERKER	Attack Speed Berserker +%.0f	
 PARTY_SKILL_BUFFER	Skill Duration Blocker +%.0f	
 PARTY_SKILL_DEFENDER	Defence Defender +%.0f	
-PARTY_SKILL_HP_REGEN	HP Regeneration +%.0f%%	
-PARTY_SKILL_PARTY_AREA	Group range +%d%%	
 PARTY_SKILL_SKILL_MASTER	Max. SP Skill Master +%.0f	
-PARTY_SKILL_SP_REGEN	SP Regeneration +%.0f%%	
 PARTY_SKILL_TANKER	Max. HP blade fighter +%.0f	
-PARTY_SKILL_WARP	Possible to call group members.	
 PASSWORD_TITLE	Storeroom password
 PICK_ITEM_TITLE	Item Number	
 PICK_MONEY_TITLE	Sum	
@@ -390,7 +362,6 @@ QUEST_MIN	Min.
 QUEST_SEC	Sec.	
 QUEST_TIMEOVER	Time Expired	
 QUEST_UNLIMITED_TIME	No time limit.	
-QUEST_ZEROSEC	0 Sec.	
 QUICKSLOT_REGISTER_DISABLE_ITEM	This Item cannot be added to the Fast Access Field.	
 RECEIVE_MESSAGE	%s sent you a message.	
 REFINE_COST	Costs for Advancement: %d Yang
@@ -429,11 +400,9 @@ SELECT_DELEING	Character will be deleted.
 SELECT_DELETED	Deletion successful.	
 SELECT_DO_YOU_DELETE_REALLY	Do you want to continue?	
 SELECT_EMPTY_SLOT	This is an empty field.	
-SELECT_GM_NAME	GM	
 SELECT_INPUT_CHANGING_NAME	Enter a new character name.	
 SELECT_NOT_JOIN_GUILD	No Guild	
 SHOP_BUY_INFO	Choose the Item you want to buy in the shop window.
-SHOP_CANNOT_SELL_EQUIPMENT	You cannot sell  equipped Items.
 SHOP_CANNOT_SELL_ITEM	This Item cannot be sold.
 SHOP_ERROR_UNKNOWN	Unknown Shop Error: %s
 SHOP_INVALID_POS	This Item cannot be used here.
@@ -444,22 +413,12 @@ SHOP_SELL_INFO	Choose the Item you want to sell  in your inventory window.
 SHOP_SOLDOUT	Sold Out
 SHOT_ERROR_UNKNOWN	Unknown Error during Long Distance Attack: %s
 SKILL_BOHO	Reflect	
-SKILL_BUDONG	is not used anymore	
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	You need EXP to learn this Skill.	
-SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	You need a Book to learn this Skill.	
 SKILL_CHEONGEUN	Strong Body	
-SKILL_CRITICAL	Critical hit
-SKILL_ENCHANT_POISON	Apply Poison	
 SKILL_EUNHYEONG	Camouflage	
-SKILL_FAINT	Blackout	
-SKILL_FIND_TRAP	Find Trap	
 SKILL_FIRE	Permanent Fire	
 SKILL_FISHMIND	Fishing Marble is active
-SKILL_GAMJI	Capture	
 SKILL_GEOMGYEONG	Aura of the Sword	
-SKILL_GEONGON	SKILL_GEONGON Not used anymore	
 SKILL_GICHEON	Dragon's Aid
-SKILL_GIGONG	Chi Rotation	
 SKILL_GONGPO	Fear	
 SKILL_GRADE_NAME_GRAND_MASTER	%s Grand Master	
 SKILL_GRADE_NAME_MASTER	%s Master	
@@ -477,48 +436,24 @@ SKILL_GWIGEOM	Enchanted Blade
 SKILL_GYEONGGONG	Feather Walking	
 SKILL_HEUKSIN	Dark Protection	
 SKILL_HOSIN	Blessing	
-SKILL_HWAYEOM	SKILL_HWAYEOM Not used anymore	
-SKILL_HYEOLMA	SKILL_HYEOLMA Not used anymore	
 SKILL_INC_ATKSPD	Attack speed raised
 SKILL_INC_MOVSPD	Moving speed raised
-SKILL_INMA	SKILL_INMA Not used anymore	
-SKILL_JEOJU	Curse	
-SKILL_JEONGEOP	Healing	
 SKILL_JEONGWI	Battle Flush	
-SKILL_JEONSINBANGEO	Full Defence	
-SKILL_JEONSINGONGGYEOK	Full Attack	
-SKILL_JEUNGCHE	SKILL_JEUNGCHE Not used anymore	
-SKILL_JEUNGHON	SKILL_JEUNGHON Not used anymore	
 SKILL_JEUNGRYEOK	Attack +	
-SKILL_JEUNGSOK	Speed +	
-SKILL_JIGAM	SKILL_JIGAM Not used anymore	
-SKILL_JIPJUNG	SKILL_JIPJUNG Not used anymore	
 SKILL_JUMAGAP	Enchanted Armour	
-SKILL_JUMAGEOM	SKILL_JUMAGEOM Not used anymore	
-SKILL_KWAEGEOM	SKILL_KWAEGEOM Not used anymore	
 SKILL_KWAESOK	Speed	
-SKILL_LEGBOUND	SKILL_LEGBOUND Not used anymore	
-SKILL_MUSA	SKILL_MUSA Not used anymore	
 SKILL_MUYEONG	Ghost of the Flame	
 SKILL_NEED_EMPTY_BOTTLE	I do not have an Empty Bottle.	
 SKILL_NEED_POISON_BOTTLE	I do not have a Poison Bottle	
 SKILL_ONLY_FOR_GUILD_WAR	You can use this Skill during a Guild War only.	
 SKILL_PABEOP	Neutralize Spell	
 SKILL_POWERFUL_STRIKE	Dazing Attack	
-SKILL_SEOMGWANG	Lightning Bomb	
-SKILL_SINCHAK	SKILL_SINCHAK Not used anymore	
-SKILL_SLEEP	Sleep	
 SKILL_SLOW	Slow	
 SKILL_STUN	Daze	
-SKILL_SUHO	Guard	
 SKILL_SUMMON_DESCRIPTION	Chance of the Evocation: %d%%	
 SKILL_TOOLTIP_INT	Intelligence	
 SKILL_TOOLTIP_LEVEL	Level	
 SKILL_TOXICDIE	Poisoning	
-SKILL_TOXICPOWER	Poison attack value increased	
-SKILL_TUSOK	Ghost Hit	
-SKILL_WONSIN	SKILL_WONSIN Not used anymore	
-SKILL_YONGSIN	SKILL_YONGSIN Not used anymore	
 STAT_MINUS_CON	Vitality Adjustment (Remaining chance: %d)
 STAT_MINUS_DEX	Dexterity Adjustment (Remaining Chance: %d)
 STAT_MINUS_INT	Intelligence Adjustment (Rest of Chance: %d)	
@@ -582,7 +517,6 @@ TOOLTIP_APPLY_ATTBONUS_SURA	Strong against Sura +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_UNDEAD	Strong against Undead +%d%%	SA
 TOOLTIP_APPLY_ATTBONUS_WARRIOR	Strong against Warriorr +%d%%	SA
 TOOLTIP_APPLY_BLOCK	Chance to block a close-combat attack %d%% 	SA
-TOOLTIP_APPLY_COMBAT_SP_RECOVER	Recover SP all 5 seconds in a Battle %d	SA
 TOOLTIP_APPLY_CRITICAL_PCT	Chance of critical hit +%d%% 	SA
 TOOLTIP_APPLY_DAMAGE_SP_RECOVER	%d%% Chance to get back SP when hit	SA
 TOOLTIP_APPLY_DODGE	Chance to avoid Arrows %d%%	SA
@@ -641,7 +575,6 @@ TOOLTIP_DRAGON_SOUL_DECK1	Earth	SNA
 TOOLTIP_DRAGON_SOUL_DECK2	Sky	SNA
 TOOLTIP_EAR	Earring	
 TOOLTIP_ENERGY	Energy %d 	SA
-TOOLTIP_ETC	And so on	
 TOOLTIP_FISHINGROD_EXP	Points %d / %d	
 TOOLTIP_FISHINGROD_LEVEL	Level: %d	
 TOOLTIP_FISHINGROD_UPGRADE1	Give to the Fisherman
@@ -654,7 +587,6 @@ TOOLTIP_INT	Intelligence +%d	SA
 TOOLTIP_ITEM_ATT_GRADE	Attack Value %d	
 TOOLTIP_ITEM_ATT_POWER	Attack Value %d - %d	
 TOOLTIP_ITEM_ATT_POWER_ONE_ARG	Attack Value %d	
-TOOLTIP_ITEM_ATT_POWER_REFINE	Attack Value %d - %d (+%d)	
 TOOLTIP_ITEM_ATT_SPEED	Attacking Speed %s	
 TOOLTIP_ITEM_DEF_GRADE	Defence %d	
 TOOLTIP_ITEM_FAST	Fast	
@@ -706,30 +638,12 @@ TOOLTIP_NEED_ALL_SP	Needed SP: Max.
 TOOLTIP_NEED_GSP	Needed Dragon ghost: %d
 TOOLTIP_NEED_HP	Needed HP: %d	
 TOOLTIP_NEED_HP_PER_SEC	HP / Sec.: %d
-TOOLTIP_NEED_SKILL_POINT	Needed Skill Points:	
 TOOLTIP_NEED_SP	Needed SP: %d	
 TOOLTIP_NEED_SP_PER_SEC	SP / Sec.: %d
 TOOLTIP_NEXT_SKILL_LEVEL_1	Next Level: %d (Max. %d)	
-TOOLTIP_NEXT_SKILL_LEVEL_2	Next Level: %d (Max. %d-%d)	
 TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	Average Damage %d%%	SA
 TOOLTIP_NORMAL_HIT_DEFEND_BONUS	Average Damage Resistance %d%%	SA
-TOOLTIP_PARTY_INFO_GRADE_UP1	More than %d Group members	
-TOOLTIP_PARTY_INFO_GRADE_UP2	Attack Level +%d	
-TOOLTIP_PARTY_INFO_GRADE_UP3	Defence Level +%d	
-TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	Restore HP/SP of all Group members all 60 minutes.	
-TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	Restore HP/SP of all Group members all 30 minutes	
-TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	You have to wait 3 minutes after the death of a group member.	
-TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	You can call Group members who are on the same server anytime.	
-TOOLTIP_PARTY_INFO_SET_ATTACKER	Attack Level +(Number of Group members./2) Attacker %d can be chosen.	
-TOOLTIP_PARTY_INFO_SET_TANKER	Defence Level +(Number of Group members) blade fighters 1 can be chosen.	
 TOOLTIP_PARTY_SKILL_LEVEL	Current Level: %d	
-TOOLTIP_PARTY_TITLE_GRADE_UP	[Attack/Defence upgraded]	
-TOOLTIP_PARTY_TITLE_HEAL	[restore]	
-TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	When you have more than %d Group members you get %d%% Bonus EXP .	
-TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Bonus EXP]	
-TOOLTIP_PARTY_TITLE_RECALL	[Call]	
-TOOLTIP_PARTY_TITLE_SET_ATTACKER	[Constitute Attacker]	
-TOOLTIP_PARTY_TITLE_SET_TANKER	[Constitute Blade Fighter]	
 TOOLTIP_PICK_EXP	Points: %d / %d	
 TOOLTIP_PICK_LEVEL	Level: %d	
 TOOLTIP_PICK_UPGRADE1	Give to the Lumberjack
@@ -745,9 +659,6 @@ TOOLTIP_POTION_PLUS_SP_PERCENT	SP +%d%%
 TOOLTIP_POTION_PLUS_SP_POINT	SP +%d
 TOOLTIP_POTION_SEC	Sec.	
 TOOLTIP_POTION_TIME	Duration:	
-TOOLTIP_REQUIREMENT_21_LEVEL	You must have reached Level 21.	
-TOOLTIP_REQUIREMENT_41_LEVEL	You must have reached Level 41.	
-TOOLTIP_REQUIREMENT_LEVEL	You must have reached Level %d.	
 TOOLTIP_REQUIREMENT_SKILL_LEVEL	%s Level %d needed.	
 TOOLTIP_REQUIREMENT_STAT_LEVEL	%s %d needed	
 TOOLTIP_RESIST_BOW	Arrow Resistance %d%%	SA
@@ -763,7 +674,6 @@ TOOLTIP_SELLPRICE	Price: %s
 TOOLTIP_SHAMAN	Shaman	
 TOOLTIP_SHIELD	Shield	
 TOOLTIP_SHOES	Shoes	
-TOOLTIP_SKILL	Skills	SNA
 TOOLTIP_SKILLBOOK_NAME	Skill Book	
 TOOLTIP_SKILL_AFFECT_ATT_GRADE	Attack Value: +	
 TOOLTIP_SKILL_AFFECT_ATT_POWER	Attack Value:	
@@ -810,8 +720,5 @@ UI_NONAME	No Name
 UI_OK	OK	
 UI_POS_UNKNOWN	Unknown Place	
 UI_PREVPAGE	Back
-UI_UNKNOWN	Unknown	
-UPLOAD_MARK_CHECK_NEED_RECONNECT	The upload has to be started again.	
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	The upload has to be started again.	
 USE_ITEM_FAILURE_PRIVATE_SHOP	You cannot use items while you have a private shop open.
-USE_SKILL_ERROR_UNKNOWN	Unknown Skill Error: %s	
