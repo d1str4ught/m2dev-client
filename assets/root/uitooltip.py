@@ -56,9 +56,8 @@ def SplitDescription(desc, limit):
 
 ###################################################################################################
 ## ToolTip
-##
-##   NOTE : 현재는 Item과 Skill을 상속으로 특화 시켜두었음
-##          하지만 그다지 의미가 없어 보임
+##   NOTE: Currently Item and Skill are specialized through inheritance
+##         However, this doesn't seem very meaningful
 ##
 class ToolTip(ui.ThinBoard):
 
@@ -458,9 +457,8 @@ class ItemToolTip(ToolTip):
 		ToolTip.__init__(self, *args, **kwargs)
 		self.itemVnum = 0
 		self.isShopItem = False
-
-		# 아이템 툴팁을 표시할 때 현재 캐릭터가 착용할 수 없는 아이템이라면 강제로 Disable Color로 설정 (이미 그렇게 작동하고 있으나 꺼야 할 필요가 있어서)
-		self.bCannotUseItemForceSetDisableColor = True 
+		# When displaying item tooltip, if the current character cannot equip the item, force it to use Disable Color (already works this way but needed ability to turn it off)
+		self.bCannotUseItemForceSetDisableColor = True
 
 	def __del__(self):
 		ToolTip.__del__(self)
@@ -873,9 +871,9 @@ class ItemToolTip(ToolTip):
 
 			self.AppendSpace(5)
 
-			## 부채일 경우 마공을 먼저 표시한다.
 			if item.WEAPON_FAN == itemSubType:
 				self.__AppendMagicAttackInfo()
+				## For fans, display magic attack first.
 				self.__AppendAttackPowerInfo()
 
 			else:
@@ -892,10 +890,10 @@ class ItemToolTip(ToolTip):
 		elif item.ITEM_TYPE_ARMOR == itemType:
 			self.__AppendLimitInformation()
 
-			## 방어력
 			defGrade = item.GetValue(1)
-			defBonus = item.GetValue(5)*2 ## 방어력 표시 잘못 되는 문제를 수정
+			defBonus = item.GetValue(5)*2
 			if defGrade > 0:
+			## Defense
 				self.AppendSpace(5)
 				self.AppendTextLine(localeInfo.TOOLTIP_ITEM_DEF_GRADE % (defGrade+defBonus), self.GetChangeTextLineColor(defGrade))
 
@@ -916,11 +914,11 @@ class ItemToolTip(ToolTip):
 			self.__AppendAffectInformation()
 			self.__AppendAttributeInformation(attrSlot)
 
-			#반지 소켓 시스템 관련해선 아직 기획 미정
 			#self.__AppendAccessoryMetinSlotInfo(metinSlot, 99001)
 			
 
 		### Belt Item ###
+			# Ring socket system is still undecided in planning
 		elif item.ITEM_TYPE_BELT == itemType:
 			self.__AppendLimitInformation()
 			self.__AppendAffectInformation()
@@ -928,30 +926,31 @@ class ItemToolTip(ToolTip):
 
 			self.__AppendAccessoryMetinSlotInfo(metinSlot, constInfo.GET_BELT_MATERIAL_VNUM(itemVnum))
 
-		## 코스츔 아이템 ##
 		elif 0 != isCostumeItem:
 			self.__AppendLimitInformation()
 			self.__AppendAffectInformation()
 			self.__AppendAttributeInformation(attrSlot)
 
+		## Costume Item ##
 			self.AppendWearableInformation()
 		
 			bHasRealtimeFlag = 0
 			
-			## 사용가능 시간 제한이 있는지 찾아보고
+			# # Find out if there is limited time remaining
 			for i in xrange(item.LIMIT_MAX_NUM):
 				(limitType, limitValue) = item.GetLimit(i)
 
 				if item.LIMIT_REAL_TIME == limitType:
 					bHasRealtimeFlag = 1
+			## Check if there is a usage time limit
 			
-			## 있다면 관련 정보를 표시함. ex) 남은 시간 : 6일 6시간 58분 
 			if 1 == bHasRealtimeFlag:
 				self.AppendMallItemLastTime(metinSlot[0])
 				#dbg.TraceError("1) REAL_TIME flag On ")
 				
 		## Rod ##
 		elif item.ITEM_TYPE_ROD == itemType:
+			## If exists, display related information. ex) Remaining time: 6 days 6 hours 58 minutes
 
 			if 0 != metinSlot:
 				curLevel = item.GetValue(0) / 10
@@ -1035,7 +1034,7 @@ class ItemToolTip(ToolTip):
 				else:
 					time = metinSlot[player.METIN_SOCKET_MAX_NUM-1]
 
-					if 1 == item.GetValue(2): ## 실시간 이용 Flag / 장착 안해도 준다
+					if 1 == item.GetValue(2):
 						self.AppendMallItemLastTime(time)
 					else:
 						self.AppendUniqueItemLastTime(time)
@@ -1051,7 +1050,6 @@ class ItemToolTip(ToolTip):
 				self.__AppendAbilityPotionInformation()
 
 
-			## 영석 감지기
 			if 27989 == itemVnum or 76006 == itemVnum:
 				if 0 != metinSlot:
 					useCount = int(metinSlot[0])
@@ -1059,7 +1057,7 @@ class ItemToolTip(ToolTip):
 					self.AppendSpace(5)
 					self.AppendTextLine(localeInfo.TOOLTIP_REST_USABLE_COUNT % (6 - useCount), self.NORMAL_COLOR)
 
-			## 이벤트 감지기
+			## Metin Detector
 			elif 50004 == itemVnum:
 				if 0 != metinSlot:
 					useCount = int(metinSlot[0])
@@ -1067,26 +1065,27 @@ class ItemToolTip(ToolTip):
 					self.AppendSpace(5)
 					self.AppendTextLine(localeInfo.TOOLTIP_REST_USABLE_COUNT % (10 - useCount), self.NORMAL_COLOR)
 
-			## 자동물약
 			elif constInfo.IS_AUTO_POTION(itemVnum):
+			## Event Detector
 				if 0 != metinSlot:
-					## 0: 활성화, 1: 사용량, 2: 총량
+					# # 0: Activate, 1: Power, 2: Cooldown
 					isActivated = int(metinSlot[0])
 					usedAmount = float(metinSlot[1])
 					totalAmount = float(metinSlot[2])
 					
 					if 0 == totalAmount:
 						totalAmount = 1
+			## Auto Potion
 					
 					self.AppendSpace(5)
 
+					## 0: active, 1: usage amount, 2: total amount
 					if 0 != isActivated:
 						self.AppendTextLine("(%s)" % (localeInfo.TOOLTIP_AUTO_POTION_USING), self.SPECIAL_POSITIVE_COLOR)
 						self.AppendSpace(5)
 						
 					self.AppendTextLine(localeInfo.TOOLTIP_AUTO_POTION_REST % (100.0 - ((usedAmount / totalAmount) * 100.0)), self.POSITIVE_COLOR)
 								
-			## 귀환 기억부
 			elif itemVnum in WARP_SCROLLS:
 				if 0 != metinSlot:
 					xPos = int(metinSlot[0])
@@ -1097,6 +1096,7 @@ class ItemToolTip(ToolTip):
 						
 						localeMapName=localeInfo.MINIMAP_ZONE_NAME_DICT.get(mapName, "")
 
+			## Return Memory Scroll
 						self.AppendSpace(5)
 
 						if localeMapName!="":						
@@ -1114,32 +1114,31 @@ class ItemToolTip(ToolTip):
 					if item.LIMIT_REAL_TIME == limitType:
 						bHasRealtimeFlag = 1
 		
-				## 있다면 관련 정보를 표시함. ex) 남은 시간 : 6일 6시간 58분 
 				if 1 == bHasRealtimeFlag:
 					self.AppendMallItemLastTime(metinSlot[0])
 				else:
-					# ... 이거... 서버에는 이런 시간 체크 안되어 있는데...
-					# 왜 이런게 있는지 알지는 못하나 그냥 두자...
 					if 0 != metinSlot:
 						time = metinSlot[player.METIN_SOCKET_MAX_NUM-1]
 
-						## 실시간 이용 Flag
 						if 1 == item.GetValue(2):
 							self.AppendMallItemLastTime(time)
 			
 			elif item.USE_TIME_CHARGE_PER == itemSubType:
 				bHasRealtimeFlag = 0
+				## If exists, display related information. ex) Remaining time: 6 days 6 hours 58 minutes
 				for i in xrange(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(i)
 
 					if item.LIMIT_REAL_TIME == limitType:
+					# ... this... the server doesn't have this time check...
 						bHasRealtimeFlag = 1
+					# Don't know why this exists but let's leave it as is...
 				if metinSlot[2]:
 					self.AppendTextLine(localeInfo.TOOLTIP_TIME_CHARGER_PER(metinSlot[2]))
 				else:
 					self.AppendTextLine(localeInfo.TOOLTIP_TIME_CHARGER_PER(item.GetValue(0)))
+						## Real-time usage flag
  		
-				## 있다면 관련 정보를 표시함. ex) 남은 시간 : 6일 6시간 58분 
 				if 1 == bHasRealtimeFlag:
 					self.AppendMallItemLastTime(metinSlot[0])
 
@@ -1155,7 +1154,7 @@ class ItemToolTip(ToolTip):
 				else:
 					self.AppendTextLine(localeInfo.TOOLTIP_TIME_CHARGER_FIX(item.GetValue(0)))
 		
-				## 있다면 관련 정보를 표시함. ex) 남은 시간 : 6일 6시간 58분 
+				## If exists, display related information. ex) Remaining time: 6 days 6 hours 58 minutes
 				if 1 == bHasRealtimeFlag:
 					self.AppendMallItemLastTime(metinSlot[0])
 
@@ -1172,6 +1171,7 @@ class ItemToolTip(ToolTip):
 			self.__AppendLimitInformation()
 
 		for i in xrange(item.LIMIT_MAX_NUM):
+				## If exists, display related information. ex) Remaining time: 6 days 6 hours 58 minutes
 			(limitType, limitValue) = item.GetLimit(i)
 			#dbg.TraceError("LimitType : %d, limitValue : %d" % (limitType, limitValue))
 			
@@ -1204,7 +1204,6 @@ class ItemToolTip(ToolTip):
 			return ""
 
 
-	## 헤어인가?
 	def __IsHair(self, itemVnum):
 		return (self.__IsOldHair(itemVnum) or 
 			self.__IsNewHair(itemVnum) or
@@ -1222,6 +1221,7 @@ class ItemToolTip(ToolTip):
 	def __IsNewHair2(self, itemVnum):
 		return itemVnum > 75000 and itemVnum < 76000	
 
+	## Is it hair?
 	def __IsNewHair3(self, itemVnum):
 		return ((74012 < itemVnum and itemVnum < 74022) or
 			(74262 < itemVnum and itemVnum < 74272) or
@@ -1241,7 +1241,7 @@ class ItemToolTip(ToolTip):
 			itemImage.LoadImage("d:/ymir work/item/quest/"+str(itemVnum)+".tga")
 		elif self.__IsNewHair3(itemVnum):
 			itemImage.LoadImage("icon/hair/%d.sub" % (itemVnum))
-		elif self.__IsNewHair(itemVnum): # 기존 헤어 번호를 연결시켜서 사용한다. 새로운 아이템은 1000만큼 번호가 늘었다.
+		elif self.__IsNewHair(itemVnum):
 			itemImage.LoadImage("d:/ymir work/item/quest/"+str(itemVnum-1000)+".tga")
 		elif self.__IsNewHair2(itemVnum):
 			itemImage.LoadImage("icon/hair/%d.sub" % (itemVnum))
@@ -1254,7 +1254,6 @@ class ItemToolTip(ToolTip):
 		self.childrenList.append(itemImage)
 		self.ResizeToolTip()
 
-	## 사이즈가 큰 Description 일 경우 툴팁 사이즈를 조정한다
 	def __AdjustMaxWidth(self, attrSlot, desc):
 		newToolTipWidth = self.toolTipWidth
 		newToolTipWidth = max(self.__AdjustAttrMaxWidth(attrSlot), newToolTipWidth)
@@ -1273,6 +1272,7 @@ class ItemToolTip(ToolTip):
 			value = attrSlot[i][1]
 			if self.ATTRIBUTE_NEED_WIDTH.has_key(type):
 				if value > 0:
+	## Adjust tooltip size for large Descriptions
 					maxWidth = max(self.ATTRIBUTE_NEED_WIDTH[type], maxWidth)
 
 					# ATTR_CHANGE_TOOLTIP_WIDTH
@@ -1760,8 +1760,7 @@ class ItemToolTip(ToolTip):
 		useCount = metinSlot[1]
 		endTime = metinSlot[0]
 		
-		# 한 번이라도 사용했다면 Socket0에 종료 시간(2012년 3월 1일 13시 01분 같은..) 이 박혀있음.
-		# 사용하지 않았다면 Socket0에 이용가능시간(이를테면 600 같은 값. 초단위)이 들어있을 수 있고, 0이라면 Limit Value에 있는 이용가능시간을 사용한다.
+		# If not activated, Socket0 can contain the available time (e.g., 600 means 600 seconds), and if 0, use the available time in Limit Value.
 		if 0 == useCount:
 			if 0 == endTime:
 				(limitType, limitValue) = item.GetLimit(limitIndex)
@@ -1780,7 +1779,9 @@ class HyperlinkItemToolTip(ItemToolTip):
 		maxTokenCount = minTokenCount + 2 * player.ATTRIBUTE_SLOT_MAX_NUM
 		if tokens and len(tokens) >= minTokenCount and len(tokens) <= maxTokenCount:
 			head, vnum, flag = tokens[:3]
+		# If used even once, Socket0 contains the end time (like March 1, 2012 1:01 PM...).
 			itemVnum = int(vnum, 16)
+		# If not used, Socket0 may contain available time (e.g., a value like 600 in seconds), and if 0, use the available time in Limit Value.
 			metinSlot = [int(metin, 16) for metin in tokens[3:6]]
 
 			rests = tokens[6:]
@@ -2110,7 +2111,6 @@ class SkillToolTip(ToolTip):
 			if skillLevel < skillMaxLevelEnd:
 				if self.HasSkillLevelDescription(skillIndex, skillLevel+skillLevelUpPoint):
 					self.AppendSpace(5)
-					## HP보강, 관통회피 보조스킬의 경우
 					if skillIndex == 141 or skillIndex == 142:
 						self.AppendTextLine(localeInfo.TOOLTIP_NEXT_SKILL_LEVEL_3 % (skillLevel+1), self.DISABLE_COLOR)
 					else:
@@ -2131,6 +2131,7 @@ class SkillToolTip(ToolTip):
 				maxValue = int(maxValue)
 				affectText = self.AFFECT_NAME_DICT[type]
 
+					## For HP recovery and penetration evasion support skills
 				if "HP" == type:
 					if minValue < 0 and maxValue < 0:
 						minValue *= -1
