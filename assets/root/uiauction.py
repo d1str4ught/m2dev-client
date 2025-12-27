@@ -20,9 +20,9 @@ class AuctionWindow(ui.ScriptWindow):
 		pyScrLoader.LoadScriptFile(self, "uiscript/auctionwindow.py")
 
 		self.pageName = {
-			"LIST"				: "매매 리스트",
-			"REGISTER"			: "매매 등록",
-			"UNIQUE_AUCTION"	: "유니크 경매",
+			"LIST"				: "Trade List",
+			"REGISTER"			: "Register Trade",
+			"UNIQUE_AUCTION"	: "Unique Auction",
 		}
 		self.pageWindow = {
 			"LIST"				: self.PageWindow(self, "uiscript/auctionwindow_listpage.py"),
@@ -84,7 +84,7 @@ class AuctionWindow(ui.ScriptWindow):
 			deleteButton.SetUpVisual("d:/ymir work/ui/public/small_button_01.sub")
 			deleteButton.SetOverVisual("d:/ymir work/ui/public/small_button_02.sub")
 			deleteButton.SetDownVisual("d:/ymir work/ui/public/small_button_03.sub")
-			deleteButton.SetText("구입")
+			deleteButton.SetText("Purchase")
 			deleteButton.Show()
 			page.Children.append(deleteButton)
 
@@ -109,19 +109,19 @@ class AuctionWindow(ui.ScriptWindow):
 			itemName = ui.MakeTextLine(page, False, 117, yPos + 14)
 			page.Children.append(itemName)
 			## Temporary
-			itemName.SetText("선녀의 비녀")
+			itemName.SetText("Fairy Hairpin")
 			## Temporary
 
 			curPrice = ui.MakeTextLine(page, False, 117, yPos + 31)
 			page.Children.append(curPrice)
 			## Temporary
-			curPrice.SetText("현재가 : 20억 1234만 1234냥")
+			curPrice.SetText("Current Price: 2,012,341,234 Yang")
 			## Temporary
 
 			lastTime = ui.MakeTextLine(page, False, 117, yPos + 48)
 			page.Children.append(lastTime)
 			## Temporary
-			lastTime.SetText("낙찰까지 남은 시간 : 19분 28초")
+			lastTime.SetText("Time Until Close: 19 min 28 sec")
 			## Temporary
 
 			priceSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_05.sub", 117, yPos + 65)
@@ -129,7 +129,7 @@ class AuctionWindow(ui.ScriptWindow):
 			page.Children.append(priceSlotImage)
 			page.Children.append(priceSlot)
 			## Temporary
-			priceSlot.SetText("20억 1234만 1234냥")
+			priceSlot.SetText("2,012,341,234 Yang")
 			## Temporary
 
 	def SelectPage(self, arg):
