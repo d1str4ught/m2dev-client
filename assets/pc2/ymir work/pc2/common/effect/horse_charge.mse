@@ -548,7 +548,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\YMIR WORK\pc\warrior\effect\mine_edge.jpg"
+            "D:\YMIR WORK\pc\warrior\effect\mine_edge.dds"
         }
     }
 }
@@ -675,7 +675,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\YMIR WORK\pc\warrior\effect\Rotation of Rsotation of 3.jpg"
+            "D:\YMIR WORK\pc\warrior\effect\Rotation of Rsotation of 3.dds"
         }
     }
 }
@@ -804,7 +804,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\YMIR WORK\pc\warrior\effect\sa_za_hu_inter_pasthit6.jpg"
+            "D:\YMIR WORK\pc\warrior\effect\sa_za_hu_inter_pasthit6.dds"
         }
     }
 }
@@ -932,7 +932,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\YMIR WORK\pc\warrior\effect\cure.jpg"
+            "D:\YMIR WORK\pc\warrior\effect\cure.dds"
         }
     }
 }
@@ -1059,7 +1059,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\YMIR WORK\pc\warrior\effect\gihyeol_spash.jpg"
+            "D:\YMIR WORK\pc\warrior\effect\gihyeol_spash.dds"
         }
     }
 }
@@ -1181,7 +1181,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\YMIR WORK\pc\warrior\effect\half_ring_rainbow_line.jpg"
+            "D:\YMIR WORK\pc\warrior\effect\half_ring_rainbow_line.dds"
         }
     }
 }
@@ -1308,7 +1308,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\YMIR WORK\pc\warrior\effect\nwegeomsplash.jpg"
+            "D:\YMIR WORK\pc\warrior\effect\nwegeomsplash.dds"
         }
     }
 }
@@ -1437,7 +1437,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\YMIR WORK\pc\warrior\effect\Rotation of Rsotation of 3.jpg"
+            "D:\YMIR WORK\pc\warrior\effect\Rotation of Rsotation of 3.dds"
         }
     }
 }
@@ -1563,7 +1563,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\YMIR WORK\pc\warrior\effect\Rotation of Rsotation of 3.jpg"
+            "D:\YMIR WORK\pc\warrior\effect\Rotation of Rsotation of 3.dds"
         }
     }
 }
@@ -1689,7 +1689,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\YMIR WORK\pc\warrior\effect\Rotation of Rsotation of 3.jpg"
+            "D:\YMIR WORK\pc\warrior\effect\Rotation of Rsotation of 3.dds"
         }
     }
 }

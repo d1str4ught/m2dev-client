@@ -120,7 +120,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\warrior\effect\inter_pasthit6.jpg"
+            "D:\Ymir Work\pc\warrior\effect\inter_pasthit6.dds"
         }
     }
 }

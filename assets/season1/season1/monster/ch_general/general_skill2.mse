@@ -122,7 +122,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir work\pc\warrior\effect\spark copy.jpg"
+            "D:\Ymir work\pc\warrior\effect\spark copy.dds"
         }
     }
 }
@@ -249,7 +249,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir work\pc\warrior\effect\Rotation of gihyeol_spash.jpg"
+            "D:\Ymir work\pc\warrior\effect\Rotation of gihyeol_spash.dds"
         }
     }
 }

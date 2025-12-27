@@ -128,7 +128,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -259,7 +259,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -409,7 +409,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -553,7 +553,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -684,7 +684,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -815,7 +815,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -965,7 +965,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -1109,7 +1109,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -1240,7 +1240,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -1371,7 +1371,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -1521,7 +1521,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -1665,7 +1665,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -1796,7 +1796,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -1931,7 +1931,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -2084,7 +2084,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -2228,7 +2228,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -2362,7 +2362,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -2493,7 +2493,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -2643,7 +2643,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -2787,7 +2787,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -2918,7 +2918,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -3049,7 +3049,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -3199,7 +3199,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }
@@ -3343,7 +3343,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.jpg"
+            "D:\Ymir Work\effect\etc\firecracker\firecracker_w.dds"
         }
     }
 }

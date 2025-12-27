@@ -119,7 +119,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir work\pc\shaman\effect\noejeon_light copy.jpg"
+            "D:\Ymir work\pc\shaman\effect\noejeon_light copy.dds"
         }
     }
 }
@@ -242,7 +242,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir work\pc\shaman\effect\W_star.jpg"
+            "D:\Ymir work\pc\shaman\effect\W_star.dds"
         }
     }
 }
@@ -374,7 +374,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir work\pc\shaman\effect\shamandust.jpg"
+            "D:\Ymir work\pc\shaman\effect\shamandust.dds"
         }
     }
 }
@@ -502,7 +502,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir work\pc\shaman\effect\chip.jpg"
+            "D:\Ymir work\pc\shaman\effect\chip.dds"
         }
     }
 }
@@ -626,7 +626,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir work\pc\shaman\effect\ls1_1 copy.jpg"
+            "D:\Ymir work\pc\shaman\effect\ls1_1 copy.dds"
         }
     }
 }
@@ -755,7 +755,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir work\pc\shaman\effect\gatein.jpg"
+            "D:\Ymir work\pc\shaman\effect\gatein.dds"
         }
     }
 }
@@ -884,7 +884,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir work\pc\shaman\effect\gatein.jpg"
+            "D:\Ymir work\pc\shaman\effect\gatein.dds"
         }
     }
 }

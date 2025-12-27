@@ -124,7 +124,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "D:\Ymir Work\pc\shaman\effect\jigam_ring.jpg"
+            "D:\Ymir Work\pc\shaman\effect\jigam_ring.dds"
         }
     }
 }
