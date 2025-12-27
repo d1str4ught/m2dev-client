@@ -529,7 +529,7 @@ STAT_TOOLTIP_INT	Increases SP, magic attack and defence
 STAT_TOOLTIP_STR	Increases attack value and damage
 SYMBOLLIST_TITLE	Register Guild flag	
 SYSTEM_OPTION_CPU_TILING_1	CPU Tiling Mode can upgrade the speed of a weaker PC.	
-SYSTEM_OPTION_CPU_TILING_2	If there are problem with the graphics choose either ,Systemoption‘ or ,CONFIG.exe‘	
+SYSTEM_OPTION_CPU_TILING_2	If there are problem with the graphics choose either ,Systemoptionâ€˜ or ,CONFIG.exeâ€˜	
 SYSTEM_OPTION_CPU_TILING_3	and change to GPU Tiling Mode.	
 SYSTEM_OPTION_GPU_TILING_1	GPU Tiling Mode can run slow on a weaker PC.
 SYSTEM_OPTION_GPU_TILING_2	If there are problems with the graphics choose either 'System Options' or 'CONFIG.exe'
