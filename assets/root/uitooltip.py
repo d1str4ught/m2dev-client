@@ -871,9 +871,9 @@ class ItemToolTip(ToolTip):
 
 			self.AppendSpace(5)
 
+			## For fans, display magic attack first.
 			if item.WEAPON_FAN == itemSubType:
 				self.__AppendMagicAttackInfo()
-				## For fans, display magic attack first.
 				self.__AppendAttackPowerInfo()
 
 			else:
@@ -890,10 +890,10 @@ class ItemToolTip(ToolTip):
 		elif item.ITEM_TYPE_ARMOR == itemType:
 			self.__AppendLimitInformation()
 
-			defGrade = item.GetValue(1)
-			defBonus = item.GetValue(5)*2
-			if defGrade > 0:
 			## Defense
+			defGrade = item.GetValue(1)
+			defBonus = item.GetValue(5)*2 ## Fixed an issue where defense power was displayed incorrectly.
+			if defGrade > 0:
 				self.AppendSpace(5)
 				self.AppendTextLine(localeInfo.TOOLTIP_ITEM_DEF_GRADE % (defGrade+defBonus), self.GetChangeTextLineColor(defGrade))
 
@@ -914,11 +914,11 @@ class ItemToolTip(ToolTip):
 			self.__AppendAffectInformation()
 			self.__AppendAttributeInformation(attrSlot)
 
+			#Planning for the ring socket system has not yet been decided
 			#self.__AppendAccessoryMetinSlotInfo(metinSlot, 99001)
 			
 
 		### Belt Item ###
-			# Ring socket system is still undecided in planning
 		elif item.ITEM_TYPE_BELT == itemType:
 			self.__AppendLimitInformation()
 			self.__AppendAffectInformation()
@@ -926,12 +926,12 @@ class ItemToolTip(ToolTip):
 
 			self.__AppendAccessoryMetinSlotInfo(metinSlot, constInfo.GET_BELT_MATERIAL_VNUM(itemVnum))
 
+		## Costume Item ##
 		elif 0 != isCostumeItem:
 			self.__AppendLimitInformation()
 			self.__AppendAffectInformation()
 			self.__AppendAttributeInformation(attrSlot)
 
-		## Costume Item ##
 			self.AppendWearableInformation()
 		
 			bHasRealtimeFlag = 0
@@ -942,16 +942,14 @@ class ItemToolTip(ToolTip):
 
 				if item.LIMIT_REAL_TIME == limitType:
 					bHasRealtimeFlag = 1
-			## Check if there is a usage time limit
-			
+
+			## If exists, display related information. ex) Remaining time: 6 days 6 hours 58 minutes
 			if 1 == bHasRealtimeFlag:
 				self.AppendMallItemLastTime(metinSlot[0])
 				#dbg.TraceError("1) REAL_TIME flag On ")
 				
 		## Rod ##
 		elif item.ITEM_TYPE_ROD == itemType:
-			## If exists, display related information. ex) Remaining time: 6 days 6 hours 58 minutes
-
 			if 0 != metinSlot:
 				curLevel = item.GetValue(0) / 10
 				curEXP = metinSlot[0]
@@ -1034,7 +1032,7 @@ class ItemToolTip(ToolTip):
 				else:
 					time = metinSlot[player.METIN_SOCKET_MAX_NUM-1]
 
-					if 1 == item.GetValue(2):
+					if 1 == item.GetValue(2): ## Real-time use flag / given even if not equipped
 						self.AppendMallItemLastTime(time)
 					else:
 						self.AppendUniqueItemLastTime(time)
@@ -1050,6 +1048,7 @@ class ItemToolTip(ToolTip):
 				self.__AppendAbilityPotionInformation()
 
 
+			## Spirit Detector
 			if 27989 == itemVnum or 76006 == itemVnum:
 				if 0 != metinSlot:
 					useCount = int(metinSlot[0])
@@ -1057,7 +1056,7 @@ class ItemToolTip(ToolTip):
 					self.AppendSpace(5)
 					self.AppendTextLine(localeInfo.TOOLTIP_REST_USABLE_COUNT % (6 - useCount), self.NORMAL_COLOR)
 
-			## Metin Detector
+			## Event Detector
 			elif 50004 == itemVnum:
 				if 0 != metinSlot:
 					useCount = int(metinSlot[0])
@@ -1065,8 +1064,8 @@ class ItemToolTip(ToolTip):
 					self.AppendSpace(5)
 					self.AppendTextLine(localeInfo.TOOLTIP_REST_USABLE_COUNT % (10 - useCount), self.NORMAL_COLOR)
 
+			## Automatic potion
 			elif constInfo.IS_AUTO_POTION(itemVnum):
-			## Event Detector
 				if 0 != metinSlot:
 					# # 0: Activate, 1: Power, 2: Cooldown
 					isActivated = int(metinSlot[0])
@@ -1075,7 +1074,6 @@ class ItemToolTip(ToolTip):
 					
 					if 0 == totalAmount:
 						totalAmount = 1
-			## Auto Potion
 					
 					self.AppendSpace(5)
 
@@ -1085,7 +1083,8 @@ class ItemToolTip(ToolTip):
 						self.AppendSpace(5)
 						
 					self.AppendTextLine(localeInfo.TOOLTIP_AUTO_POTION_REST % (100.0 - ((usedAmount / totalAmount) * 100.0)), self.POSITIVE_COLOR)
-								
+
+			## Return Memory
 			elif itemVnum in WARP_SCROLLS:
 				if 0 != metinSlot:
 					xPos = int(metinSlot[0])
@@ -1096,7 +1095,6 @@ class ItemToolTip(ToolTip):
 						
 						localeMapName=localeInfo.MINIMAP_ZONE_NAME_DICT.get(mapName, "")
 
-			## Return Memory Scroll
 						self.AppendSpace(5)
 
 						if localeMapName!="":						
@@ -1113,32 +1111,35 @@ class ItemToolTip(ToolTip):
 
 					if item.LIMIT_REAL_TIME == limitType:
 						bHasRealtimeFlag = 1
-		
+
+				## If exists, display related information. ex) Remaining time: 6 days 6 hours 58 minutes
 				if 1 == bHasRealtimeFlag:
 					self.AppendMallItemLastTime(metinSlot[0])
 				else:
+					# ... This... This time isn't checked on the server...
+					# I don't know why this exists, but let's just leave it...
 					if 0 != metinSlot:
 						time = metinSlot[player.METIN_SOCKET_MAX_NUM-1]
 
+						## Real-time usage Flag
 						if 1 == item.GetValue(2):
 							self.AppendMallItemLastTime(time)
 			
 			elif item.USE_TIME_CHARGE_PER == itemSubType:
 				bHasRealtimeFlag = 0
-				## If exists, display related information. ex) Remaining time: 6 days 6 hours 58 minutes
+
 				for i in xrange(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(i)
 
 					if item.LIMIT_REAL_TIME == limitType:
-					# ... this... the server doesn't have this time check...
 						bHasRealtimeFlag = 1
-					# Don't know why this exists but let's leave it as is...
+
 				if metinSlot[2]:
 					self.AppendTextLine(localeInfo.TOOLTIP_TIME_CHARGER_PER(metinSlot[2]))
 				else:
 					self.AppendTextLine(localeInfo.TOOLTIP_TIME_CHARGER_PER(item.GetValue(0)))
-						## Real-time usage flag
- 		
+
+				## If available, display relevant information. ex) Time remaining: 6 days, 6 hours, 58 minutes
 				if 1 == bHasRealtimeFlag:
 					self.AppendMallItemLastTime(metinSlot[0])
 
@@ -1171,7 +1172,6 @@ class ItemToolTip(ToolTip):
 			self.__AppendLimitInformation()
 
 		for i in xrange(item.LIMIT_MAX_NUM):
-				## If exists, display related information. ex) Remaining time: 6 days 6 hours 58 minutes
 			(limitType, limitValue) = item.GetLimit(i)
 			#dbg.TraceError("LimitType : %d, limitValue : %d" % (limitType, limitValue))
 			
@@ -1204,6 +1204,7 @@ class ItemToolTip(ToolTip):
 			return ""
 
 
+	## Is it hair?
 	def __IsHair(self, itemVnum):
 		return (self.__IsOldHair(itemVnum) or 
 			self.__IsNewHair(itemVnum) or
@@ -1221,7 +1222,6 @@ class ItemToolTip(ToolTip):
 	def __IsNewHair2(self, itemVnum):
 		return itemVnum > 75000 and itemVnum < 76000	
 
-	## Is it hair?
 	def __IsNewHair3(self, itemVnum):
 		return ((74012 < itemVnum and itemVnum < 74022) or
 			(74262 < itemVnum and itemVnum < 74272) or
@@ -1241,7 +1241,7 @@ class ItemToolTip(ToolTip):
 			itemImage.LoadImage("d:/ymir work/item/quest/"+str(itemVnum)+".tga")
 		elif self.__IsNewHair3(itemVnum):
 			itemImage.LoadImage("icon/hair/%d.sub" % (itemVnum))
-		elif self.__IsNewHair(itemVnum):
+		elif self.__IsNewHair(itemVnum): # Use by linking to existing hair numbers. New items have numbers increased by 1000.
 			itemImage.LoadImage("d:/ymir work/item/quest/"+str(itemVnum-1000)+".tga")
 		elif self.__IsNewHair2(itemVnum):
 			itemImage.LoadImage("icon/hair/%d.sub" % (itemVnum))
@@ -1254,6 +1254,7 @@ class ItemToolTip(ToolTip):
 		self.childrenList.append(itemImage)
 		self.ResizeToolTip()
 
+	## If the Description is large, adjust the tooltip size.
 	def __AdjustMaxWidth(self, attrSlot, desc):
 		newToolTipWidth = self.toolTipWidth
 		newToolTipWidth = max(self.__AdjustAttrMaxWidth(attrSlot), newToolTipWidth)
@@ -1272,7 +1273,6 @@ class ItemToolTip(ToolTip):
 			value = attrSlot[i][1]
 			if self.ATTRIBUTE_NEED_WIDTH.has_key(type):
 				if value > 0:
-	## Adjust tooltip size for large Descriptions
 					maxWidth = max(self.ATTRIBUTE_NEED_WIDTH[type], maxWidth)
 
 					# ATTR_CHANGE_TOOLTIP_WIDTH
@@ -1759,8 +1759,9 @@ class ItemToolTip(ToolTip):
 	def AppendRealTimeStartFirstUseLastTime(self, item, metinSlot, limitIndex):		
 		useCount = metinSlot[1]
 		endTime = metinSlot[0]
-		
-		# If not activated, Socket0 can contain the available time (e.g., 600 means 600 seconds), and if 0, use the available time in Limit Value.
+
+		# If it has been used even once, Socket0 will have an end time (such as 13:01 on March 1, 2012).
+		# If it has not been used, Socket0 may have an available time (such as 600, in seconds). If it is 0, the available time in the Limit Value is used.
 		if 0 == useCount:
 			if 0 == endTime:
 				(limitType, limitValue) = item.GetLimit(limitIndex)
@@ -1779,9 +1780,7 @@ class HyperlinkItemToolTip(ItemToolTip):
 		maxTokenCount = minTokenCount + 2 * player.ATTRIBUTE_SLOT_MAX_NUM
 		if tokens and len(tokens) >= minTokenCount and len(tokens) <= maxTokenCount:
 			head, vnum, flag = tokens[:3]
-		# If used even once, Socket0 contains the end time (like March 1, 2012 1:01 PM...).
 			itemVnum = int(vnum, 16)
-		# If not used, Socket0 may contain available time (e.g., a value like 600 in seconds), and if 0, use the available time in Limit Value.
 			metinSlot = [int(metin, 16) for metin in tokens[3:6]]
 
 			rests = tokens[6:]
@@ -2111,6 +2110,7 @@ class SkillToolTip(ToolTip):
 			if skillLevel < skillMaxLevelEnd:
 				if self.HasSkillLevelDescription(skillIndex, skillLevel+skillLevelUpPoint):
 					self.AppendSpace(5)
+					## In case of HP reinforcement, penetration evasion auxiliary skills
 					if skillIndex == 141 or skillIndex == 142:
 						self.AppendTextLine(localeInfo.TOOLTIP_NEXT_SKILL_LEVEL_3 % (skillLevel+1), self.DISABLE_COLOR)
 					else:
@@ -2131,7 +2131,6 @@ class SkillToolTip(ToolTip):
 				maxValue = int(maxValue)
 				affectText = self.AFFECT_NAME_DICT[type]
 
-					## For HP recovery and penetration evasion support skills
 				if "HP" == type:
 					if minValue < 0 and maxValue < 0:
 						minValue *= -1
