@@ -4,7 +4,7 @@ import net
 import localeInfo
 import chat
 import item
-import constInfo
+
 import ui
 import mouseModule
 import uiPickMoney
@@ -116,6 +116,7 @@ class ExchangeDialog(ui.ScriptWindow):
 		self.AcceptButton.Disable()
 
 	def SelectOwnerEmptySlot(self, SlotIndex):
+
 		if False == mouseModule.mouseController.isAttached():
 			return
 
@@ -123,13 +124,13 @@ class ExchangeDialog(ui.ScriptWindow):
 			net.SendExchangeElkAddPacket(mouseModule.mouseController.GetAttachedMoneyAmount())
 		else:
 			attachedSlotType = mouseModule.mouseController.GetAttachedType()
-
 			if (player.SLOT_TYPE_INVENTORY == attachedSlotType
 				or player.SLOT_TYPE_DRAGON_SOUL_INVENTORY == attachedSlotType):
 
 				attachedInvenType = player.SlotTypeToInvenType(attachedSlotType)
 				SrcSlotNumber = mouseModule.mouseController.GetAttachedSlotNumber()
 				DstSlotNumber = SlotIndex
+
 				itemID = player.GetItemIndex(attachedInvenType, SrcSlotNumber)
 
 				# MR-3: Auto-deactivate auto potions before moving out
@@ -143,13 +144,11 @@ class ExchangeDialog(ui.ScriptWindow):
 						if isActivated:
 							net.SendItemUsePacket(SrcSlotNumber)
 				# MR-3: -- END OF -- Auto-deactivate auto potions before moving out
-
 				item.SelectItem(itemID)
 
 				if item.IsAntiFlag(item.ANTIFLAG_GIVE):
 					chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.EXCHANGE_CANNOT_GIVE)
 					mouseModule.mouseController.DeattachObject()
-
 					return
 
 				net.SendExchangeItemAddPacket(attachedInvenType, SrcSlotNumber, DstSlotNumber)
