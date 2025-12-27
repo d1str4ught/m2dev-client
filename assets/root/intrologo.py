@@ -12,7 +12,7 @@ app.SetGuildMarkPath("test")
 
 class LogoWindow(ui.ScriptWindow):
 
-	# ���� �� ������ ��� (�迭 ������� ������)
+	# List of videos to display (shown in array order)
 	videoList = []
 	
 	def __init__(self, stream):
