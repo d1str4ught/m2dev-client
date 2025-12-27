@@ -572,7 +572,7 @@ class Interface(object):
 		if app.ENABLE_DRAGON_SOUL_SYSTEM:
 			self.wndDragonSoul.RefreshItemSlot()
 
-	def RefreshCharacter(self): ## Character 페이지의 얼굴, Inventory 페이지의 전신 그림 등의 Refresh
+	def RefreshCharacter(self): ## Refresh character face in Character page, full body in Inventory page, etc.
 		self.wndCharacter.RefreshCharacter()
 		self.wndTaskBar.RefreshQuickSlot()
 
@@ -704,7 +704,7 @@ class Interface(object):
 	def RemovePartyMember(self, pid):
 		self.wndParty.RemovePartyMember(pid)
 
-		##!! 20061026.levites.퀘스트_위치_보정
+		## Quest position adjustment
 		self.__ArrangeQuestButton()
 
 	def LinkPartyMember(self, pid, vid):
@@ -719,7 +719,7 @@ class Interface(object):
 	def ExitParty(self):
 		self.wndParty.ExitParty()
 
-		##!! 20061026.levites.퀘스트_위치_보정
+		## Quest position adjustment
 		self.__ArrangeQuestButton()
 
 	def PartyHealReady(self):
@@ -882,7 +882,7 @@ class Interface(object):
 		if True == self.wndChat.IsEditMode():
 			self.wndChat.CloseChat()
 		else:
-			# 웹페이지가 열렸을때는 채팅 입력이 안됨
+			# Chat input disabled when webpage is open
 			if self.wndWeb and self.wndWeb.IsShow():
 				pass
 			else:
@@ -983,7 +983,7 @@ class Interface(object):
 			else:
 				self.wndExpandedTaskBar.Close()
 	
-	# 용혼석
+	# Dragon soul
 	def DragonSoulActivate(self, deck):
 		if app.ENABLE_DRAGON_SOUL_SYSTEM:
 			self.wndDragonSoul.ActivateDragonSoulByExtern(deck)
@@ -991,12 +991,12 @@ class Interface(object):
 	def DragonSoulDeactivate(self):
 		if app.ENABLE_DRAGON_SOUL_SYSTEM:
 			self.wndDragonSoul.DeactivateDragonSoul()
-		
+
 	def Highligt_Item(self, inven_type, inven_pos):
 		if player.DRAGON_SOUL_INVENTORY == inven_type:
 			if app.ENABLE_DRAGON_SOUL_SYSTEM:
 				self.wndDragonSoul.HighlightSlot(inven_pos)
-			
+
 	def DragonSoulGiveQuilification(self):
 		self.DRAGON_SOUL_IS_QUALIFIED = True
 		self.wndExpandedTaskBar.SetToolTipText(uiTaskBar.ExpandedTaskBar.BUTTON_DRAGON_SOUL, uiScriptLocale.TASKBAR_DRAGON_SOUL)
@@ -1054,7 +1054,7 @@ class Interface(object):
 				if True == self.wndDragonSoulRefine.IsShow():
 					self.wndDragonSoulRefine.Close()
 
-	# 용혼석 끝
+	# Dragon soul end
 	
 	def ToggleGuildWindow(self):
 		if not self.wndGuild.IsShow():
@@ -1104,7 +1104,7 @@ class Interface(object):
 	def OpenWebWindow(self, url):
 		self.wndWeb.Open(url)
 
-		# 웹페이지를 열면 채팅을 닫는다
+		# Close chat when opening webpage
 		self.wndChat.CloseChat()
 
 	# show GIFT
@@ -1131,10 +1131,10 @@ class Interface(object):
 
 	def SucceedCubeWork(self, itemVnum, count):
 		self.wndCube.Clear()
-		
-		print "큐브 제작 성공! [%d:%d]" % (itemVnum, count)
 
-		if 0: # 결과 메시지 출력은 생략 한다
+		print "Cube crafting successful! [%d:%d]" % (itemVnum, count)
+
+		if 0: # Skip showing result message
 			self.wndCubeResult.SetPosition(*self.wndCube.GetGlobalPosition())
 			self.wndCubeResult.SetCubeResultItem(itemVnum, count)
 			self.wndCubeResult.Open()
@@ -1297,7 +1297,7 @@ class Interface(object):
 		btn = uiWhisper.WhisperButton()
 
 		# QUEST_LETTER_IMAGE
-		##!! 20061026.levites.퀘스트_이미지_교체
+		## Quest image replacement
 		import item
 		if "item"==iconType:
 			item.SelectItem(int(iconName))
@@ -1334,7 +1334,7 @@ class Interface(object):
 		screenWidth = wndMgr.GetScreenWidth()
 		screenHeight = wndMgr.GetScreenHeight()
 
-		##!! 20061026.levites.퀘스트_위치_보정
+		## Quest position adjustment
 		if self.wndParty.IsShow():
 			xPos = 100 + 30
 		else:
@@ -1388,8 +1388,8 @@ class Interface(object):
 	def __InitWhisper(self):
 		chat.InitWhisper(self)
 
-	## 채팅창의 "메시지 보내기"를 눌렀을때 이름 없는 대화창을 여는 함수
-	## 이름이 없기 때문에 기존의 WhisperDialogDict 와 별도로 관리된다.
+	## Opens unnamed whisper dialog when "Send Message" is clicked in chat window
+	## Managed separately from WhisperDialogDict because it has no name
 	def OpenWhisperDialogWithoutTarget(self):
 		if not self.dlgWhisperWithoutTarget:
 			dlgWhisper = uiWhisper.WhisperDialog(self.MinimizeWhisperDialog, self.CloseWhisperDialog)
@@ -1406,7 +1406,7 @@ class Interface(object):
 			self.dlgWhisperWithoutTarget.SetTop()
 			self.dlgWhisperWithoutTarget.OpenWithoutTarget(self.RegisterTemporaryWhisperDialog)
 
-	## 이름 없는 대화창에서 이름을 결정했을때 WhisperDialogDict에 창을 넣어주는 함수
+	## Adds window to WhisperDialogDict when name is determined in unnamed dialog
 	def RegisterTemporaryWhisperDialog(self, name):
 		if not self.dlgWhisperWithoutTarget:
 			return
@@ -1425,7 +1425,7 @@ class Interface(object):
 		self.dlgWhisperWithoutTarget = None
 		self.__CheckGameMaster(name)
 
-	## 캐릭터 메뉴의 1:1 대화 하기를 눌렀을때 이름을 가지고 바로 창을 여는 함수
+	## Opens whisper window directly with name when "1:1 Chat" is clicked in character menu
 	def OpenWhisperDialog(self, name):
 		if not self.whisperDialogDict.has_key(name):
 			dlg = self.__MakeWhisperDialog(name)
@@ -1438,7 +1438,7 @@ class Interface(object):
 			if 0 != btn:
 				self.__DestroyWhisperButton(btn)
 
-	## 다른 캐릭터로부터 메세지를 받았을때 일단 버튼만 띄워 두는 함수
+	## Shows button when receiving message from another character
 	def RecvWhisper(self, name):
 		if not self.whisperDialogDict.has_key(name):
 			btn = self.__FindWhisperButton(name)
@@ -1457,7 +1457,7 @@ class Interface(object):
 	def MakeWhisperButton(self, name):
 		self.__MakeWhisperButton(name)
 
-	## 버튼을 눌렀을때 창을 여는 함수
+	## Opens window when button is clicked
 	def ShowWhisperDialog(self, btn):
 		try:
 			self.__MakeWhisperDialog(btn.name)
@@ -1469,11 +1469,11 @@ class Interface(object):
 			import dbg
 			dbg.TraceError("interface.ShowWhisperDialog - Failed to find key")
 
-		## 버튼 초기화
+		## Reset button
 		self.__DestroyWhisperButton(btn)
 
-	## WhisperDialog 창에서 최소화 명령을 수행했을때 호출되는 함수
-	## 창을 최소화 합니다.
+	## Called when minimize command is executed in WhisperDialog window
+	## Minimizes the window
 	def MinimizeWhisperDialog(self, name):
 
 		if 0 != name:
@@ -1481,8 +1481,8 @@ class Interface(object):
 
 		self.CloseWhisperDialog(name)
 
-	## WhisperDialog 창에서 닫기 명령을 수행했을때 호출되는 함수
-	## 창을 지웁니다.
+	## Called when close command is executed in WhisperDialog window
+	## Destroys the window
 	def CloseWhisperDialog(self, name):
 
 		if 0 == name:
@@ -1501,7 +1501,7 @@ class Interface(object):
 			import dbg
 			dbg.TraceError("interface.CloseWhisperDialog - Failed to find key")
 
-	## 버튼의 개수가 바뀌었을때 버튼을 재정렬 하는 함수
+	## Rearranges buttons when button count changes
 	def __ArrangeWhisperButton(self):
 
 		screenWidth = wndMgr.GetScreenWidth()
@@ -1518,9 +1518,9 @@ class Interface(object):
 			button.SetPosition(xPos + (int(count/yCount) * -50), yPos + (count%yCount * 63))
 			count += 1
 
-	## 이름으로 Whisper 버튼을 찾아 리턴해 주는 함수
-	## 버튼은 딕셔너리로 하지 않는 것은 정렬 되어 버려 순서가 유지 되지 않으며
-	## 이로 인해 ToolTip들이 다른 버튼들에 의해 가려지기 때문이다.
+	## Finds and returns Whisper button by name
+	## Buttons are not stored in dictionary because sorting would lose order
+	## This prevents tooltips from being covered by other buttons
 	def __FindWhisperButton(self, name):
 		for button in self.whisperButtonList:
 			if button.name == name:
@@ -1528,7 +1528,7 @@ class Interface(object):
 
 		return 0
 
-	## 창을 만듭니다.
+	## Creates window
 	def __MakeWhisperDialog(self, name):
 		dlgWhisper = uiWhisper.WhisperDialog(self.MinimizeWhisperDialog, self.CloseWhisperDialog)
 		dlgWhisper.BindInterface(self)
@@ -1540,7 +1540,7 @@ class Interface(object):
 
 		return dlgWhisper
 
-	## 버튼을 만듭니다.
+	## Creates button
 	def __MakeWhisperButton(self, name):
 		whisperButton = uiWhisper.WhisperButton()
 		whisperButton.SetUpVisual("d:/ymir work/ui/game/windows/btn_mail_up.sub")
