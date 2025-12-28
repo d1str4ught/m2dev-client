@@ -130,7 +130,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "poison0.jpg"
+            "poison_0.dds"
         }
     }
 }

@@ -384,7 +384,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "star.jpg"
+            "star.dds"
         }
     }
 }
