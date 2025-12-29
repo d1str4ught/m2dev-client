@@ -803,7 +803,7 @@ class QuestDialog(ui.ScriptWindow):
 		try:
 			img.SetWindowHorizontalAlignCenter()
 			img.LoadImage(filename)
-			img.SetPosition(0, wndMgr.GetScreenHeight() - (75/2) - (32/2))
+			img.SetPosition(0, wndMgr.GetScreenHeight() - (75//2) - (32//2))
 			img.SetAlpha(0.0)
 			img.Show()
 		except RuntimeError:

@@ -797,15 +797,15 @@ class ChatWindow(ui.Window):
 			self.Refresh()
 
 		if self.curHeightBar != self.heightBar:
-			self.curHeightBar += (self.heightBar - self.curHeightBar) / 10
+			self.curHeightBar += (self.heightBar - self.curHeightBar) // 10
 
 		if self.boardState == chat.BOARD_STATE_EDIT:
 			grp.SetColor(self.BOARD_MIDDLE_COLOR)
-			grp.RenderBar(self.xBar, self.yBar + (self.heightBar - self.curHeightBar) + 10, self.widthBar, self.curHeightBar)
+			grp.RenderBar(int(self.xBar), int(self.yBar + (self.heightBar - self.curHeightBar) + 10), int(self.widthBar), int(self.curHeightBar))
 			chat.Render(self.chatID)
 		elif self.boardState == chat.BOARD_STATE_VIEW:
 			if systemSetting.IsViewChat():
-				grp.RenderGradationBar(self.xBar, self.yBar + (self.heightBar - self.curHeightBar), self.widthBar, self.curHeightBar, self.BOARD_START_COLOR, self.BOARD_END_COLOR)
+				grp.RenderGradationBar(int(self.xBar), int(self.yBar + (self.heightBar - self.curHeightBar)), int(self.widthBar), int(self.curHeightBar), self.BOARD_START_COLOR, self.BOARD_END_COLOR)
 				chat.Render(self.chatID)
 
 	##########

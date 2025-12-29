@@ -2142,7 +2142,7 @@ class BuildGuildBuildingWindow(ui.ScriptWindow):
 		self.__CreateWallBlock(lineBlock, line_startX+line_width*3, eyPos)
 		for i in range(X_SIZE_STEP):
 			self.__CreateWallBlock(lineBlock, line_startX+line_width*(3+i+1), eyPos)
-		for i in range(X_SIZE_STEP/2):
+		for i in range(X_SIZE_STEP//2):
 			self.__CreateWallBlock(lineBlock, door_minX - line_maxX - line_width*i, syPos)
 			self.__CreateWallBlock(lineBlock, door_maxX - line_minX + line_width*i, syPos)
 		for i in range(Y_SIZE_STEP):

@@ -65,13 +65,28 @@ _chr = chr
 
 class pack_file(object):
 
-	def __init__(self, filename, mode = 'rb'):
+	def __init__(self, filename, mode = 'rb', encoding = None):
 		assert mode in ('r', 'rb')
 		if not pack.Exist(filename):
 			raise IOError('No file or directory')
 		self.data = pack.Get(filename)
 		if mode == 'r':
-			self.data=_chr(10).join(self.data.split(_chr(13)+_chr(10)))
+			# Handle bytes to string conversion with encoding fallback
+			if isinstance(self.data, bytes):
+				if encoding:
+					self.data = self.data.decode(encoding)
+				else:
+					# Try UTF-8 first, then fall back to common encodings
+					for enc in ('utf-8', 'cp1252', 'euc-kr', 'latin-1'):
+						try:
+							self.data = self.data.decode(enc)
+							break
+						except UnicodeDecodeError:
+							continue
+					else:
+						# Last resort: decode with errors='replace'
+						self.data = self.data.decode('utf-8', errors='replace')
+			self.data = _chr(10).join(self.data.split(_chr(13)+_chr(10)))
 
 	def __iter__(self):
 		return pack_file_iterator(self)

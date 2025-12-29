@@ -148,7 +148,7 @@ class ToolTip(ui.ThinBoard):
 	def AlignHorizonalCenter(self):
 		for child in self.childrenList:
 			(x, y)=child.GetLocalPosition()
-			child.SetPosition(self.toolTipWidth/2, y)
+			child.SetPosition(self.toolTipWidth//2, y)
 
 		self.ResizeToolTip()
 
@@ -163,7 +163,7 @@ class ToolTip(ui.ThinBoard):
 		textLine.Show()
 
 		if centerAlign:
-			textLine.SetPosition(self.toolTipWidth/2, self.toolTipHeight)
+			textLine.SetPosition(self.toolTipWidth//2, self.toolTipHeight)
 			textLine.SetHorizontalAlignCenter()
 
 		else:
@@ -194,7 +194,7 @@ class ToolTip(ui.ThinBoard):
 		textLine.Show()
 
 		if centerAlign:
-			textLine.SetPosition(self.toolTipWidth/2, self.toolTipHeight)
+			textLine.SetPosition(self.toolTipWidth//2, self.toolTipHeight)
 			textLine.SetHorizontalAlignCenter()
 
 		else:
@@ -1529,7 +1529,7 @@ class ItemToolTip(ToolTip):
 		textLine = ui.TextLine()
 		textLine.SetParent(self)
 		textLine.SetFontName(self.defFontName)
-		textLine.SetPosition(self.toolTipWidth/2, self.toolTipHeight)
+		textLine.SetPosition(self.toolTipWidth//2, self.toolTipHeight)
 		textLine.SetHorizontalAlignCenter()
 		textLine.SetPackedFontColor(self.NORMAL_COLOR)
 		textLine.SetText(wearNames)

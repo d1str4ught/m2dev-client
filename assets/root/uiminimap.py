@@ -177,7 +177,7 @@ class AtlasWindow(ui.ScriptWindow):
 		ui.ScriptWindow.Show(self)
 
 	def SetCenterPositionAdjust(self, x, y):
-		self.SetPosition((wndMgr.GetScreenWidth() - self.GetWidth()) / 2 + x, (wndMgr.GetScreenHeight() - self.GetHeight()) / 2 + y)
+		self.SetPosition((wndMgr.GetScreenWidth() - self.GetWidth()) // 2 + x, (wndMgr.GetScreenHeight() - self.GetHeight()) // 2 + y)
 
 	def OnPressEscapeKey(self):
 		self.Hide()
