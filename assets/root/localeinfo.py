@@ -26,7 +26,7 @@ ERROR_MARK_CHECK_NEED_RECONNECT		= 'CheckMark: Reconnect to game'
 VIRTUAL_KEY_ALPHABET_LOWERS			= r"[1234567890]/qwertyuiop\=asdfghjkl;`'zxcvbnm.,"
 VIRTUAL_KEY_ALPHABET_UPPERS			= r"{1234567890}?QWERTYUIOP|+ASDFGHJKL:~'ZXCVBNM<>"
 VIRTUAL_KEY_SYMBOLS					= "!@#$%^&*()_+|{}:'<>?~"
-VIRTUAL_KEY_NUMBERS					= "1234567890-=\[];',./`"
+VIRTUAL_KEY_NUMBERS					= r"1234567890-=\[];',./`"
 VIRTUAL_KEY_SYMBOLS_BR				= "!@#$%^&*()_+|{}:'<>?~aaaaeeeiioooouuc"
 
 # Load locale data by specific path
@@ -82,10 +82,10 @@ def LoadLocaleFile(srcFileName, localeDict):
 				else:
 					localeDict[tokens[0]] = tokens[1]
 			else:
-				raise RuntimeError, "Unknown TokenSize"
+				raise RuntimeError("Unknown TokenSize")
 
 			lineIndex += 1
-		except:
+		except Exception:
 			dbg.LogBox("%s: line(%d): %s" % (srcFileName, lineIndex, line), "Error")
 			raise
 
@@ -320,9 +320,9 @@ def SecondToDHM(time):
 	if time < 60:
 		return '0' + MINUTE
 
-	minute = int((time / 60) % 60)
-	hour = int((time / 60) / 60) % 24
-	day = int(int((time / 60) / 60) / 24)
+	minute = (time // 60) % 60
+	hour = (time // 60) // 60 % 24
+	day = (time // 60) // 60 // 24
 
 	text = ''
 	if day > 0:
@@ -342,8 +342,8 @@ def SecondToHM(time):
 	if time < 60:
 		return '0' + MINUTE
 
-	minute = int((time / 60) % 60)
-	hour = int((time / 60) / 60)
+	minute = (time // 60) % 60
+	hour = (time // 60) // 60
 
 	text = ''
 	if hour > 0:

@@ -7,11 +7,15 @@ sys.path.append("lib")
 class TraceFile:
 	def write(self, msg):
 		dbg.Trace(msg)
+	def flush(self):
+		pass
 
 class TraceErrorFile:
 	def write(self, msg):
 		dbg.TraceError(msg)
 		dbg.RegisterExceptionString(msg)
+	def flush(self):
+		pass
 
 class LogBoxFile:
 	def __init__(self):
@@ -27,6 +31,9 @@ class LogBoxFile:
 	def write(self, msg):
 		self.msg = self.msg + msg
 
+	def flush(self):
+		pass
+
 	def show(self):
 		dbg.LogBox(self.msg,"Error")
 
@@ -38,27 +45,30 @@ sys.stderr = TraceErrorFile()
 #
 
 import marshal
-import imp
+import types
 import pack
+
+# Python 3.12 .pyc header is 16 bytes - we just skip it
+# No need for magic number constant
 
 class pack_file_iterator(object):
 	def __init__(self, packfile):
 		self.pack_file = packfile
 		
-	def next(self):
+	def __next__(self):
 		tmp = self.pack_file.readline()
 		if tmp:
 			return tmp
 		raise StopIteration
 
-_chr = __builtins__.chr
+_chr = chr
 
 class pack_file(object):
 
 	def __init__(self, filename, mode = 'rb'):
 		assert mode in ('r', 'rb')
 		if not pack.Exist(filename):
-			raise IOError, 'No file or directory'
+			raise IOError('No file or directory')
 		self.data = pack.Get(filename)
 		if mode == 'r':
 			self.data=_chr(10).join(self.data.split(_chr(13)+_chr(10)))
@@ -84,7 +94,8 @@ class pack_file(object):
 	def readlines(self):
 		return [x for x in self]
 
-__builtins__.pack_open = pack_open = pack_file
+import builtins as _builtins
+_builtins.pack_open = pack_open = pack_file
 
 _ModuleType = type(sys)
 
@@ -97,7 +108,7 @@ def _process_result(code, fqname):
 	if is_module:
 		module = code
 	else:
-		module = imp.new_module(fqname)
+		module = types.ModuleType(fqname)
 
 	# insert additional values into the module (before executing the code)
 	#module.__dict__.update(values)
@@ -107,7 +118,7 @@ def _process_result(code, fqname):
 
 	# execute the code within the module's namespace
 	if not is_module:
-		exec code in module.__dict__
+		exec(code, module.__dict__)
 
 	# fetch from sys.modules instead of returning module directly.
 	# also make module's __name__ agree with fqname, in case
@@ -118,7 +129,7 @@ def _process_result(code, fqname):
 
 module_do = lambda x:None
 
-def __pack_import(name,globals=None,locals=None,fromlist=None):
+def __pack_import(name, globals=None, locals=None, fromlist=None, level=0):
 	if name in sys.modules:
 		return sys.modules[name]
 
@@ -134,7 +145,7 @@ def __pack_import(name,globals=None,locals=None,fromlist=None):
 		#return imp.load_module(name, pack_file(filename,'r'),filename,('.py','r',imp.PY_SOURCE))
 	else:
 		dbg.Trace('importing from lib %s\\n' % name)
-		return old_import(name,globals,locals,fromlist)
+		return old_import(name, globals, locals, fromlist, level)
 
 def splitext(p):
 	root, ext = '', ''
@@ -179,10 +190,9 @@ class PythonExecutioner:
 	def __LoadCompiledFile__(kPESelf, sFileName): 
 		kFile=pack_open(sFileName)
 
-		if kFile.read(4)!=imp.get_magic(): 
-			raise 
-
-		kFile.read(4) 
+		# Skip magic number check - just read header
+		# Python 3.12 .pyc has 16-byte header: magic(4) + bit field(4) + timestamp(4) + size(4)
+		kFile.read(16)
 
 		kData=kFile.read() 
 		return marshal.loads(kData) 
@@ -195,8 +205,7 @@ def exec_add_module_do(mod):
 	global execfile
 	mod.__dict__['execfile'] = execfile
 
-import __builtin__
-__builtin__.__import__ = __pack_import
+_builtins.__import__ = __pack_import
 module_do = exec_add_module_do
 
 """
@@ -212,29 +221,29 @@ try:
 			for x in bindable_list:
 				try:
 					psyco.bind(x)
-				except:
+				except Exception:
 					pass
-		except:
+		except Exception:
 			pass		
 
 	_prev_psyco_old_module_do = module_do
 	def module_bind(module):
 		_prev_psyco_old_module_do(module)
-		#print 'start binding' + str(module)
+		#print('start binding' + str(module))
 		try:
 			psyco.bind(module)
-		except:
+		except Exception:
 			pass
-		for x in module.__dict__.itervalues():
+		for x in module.__dict__.values():
 			try:
 				psyco.bind(x)
-			except:
+			except Exception:
 				pass		
-		#print 'end binding'
+		#print('end binding')
 
 	dbg.Trace("PSYCO installed\\n")
 
-except Exception, msg:
+except Exception as msg:
 	bind_me = lambda x:None
 	dbg.Trace("No PSYCO support : %s\\n" % msg)
 """
@@ -271,7 +280,7 @@ def ShowException(excTitle):
 def RunMainScript(name):
 	try:		
 		execfile(name, __main__.__dict__)
-	except RuntimeError, msg:
+	except RuntimeError as msg:
 		msg = str(msg)
 
 		import locale
@@ -281,7 +290,7 @@ def RunMainScript(name):
 		dbg.LogBox(msg)
 		app.Abort()
 
-	except:	
+	except Exception:
 		msg = GetExceptionString("Run")
 		dbg.LogBox(msg)
 		app.Abort()

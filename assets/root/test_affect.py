@@ -33,7 +33,7 @@ class TestGame(ui.Window):
 		ui.Window.__del__(self)
 
 	def OnKeyUp(self, key):
-		print key
+		print(key)
 		return True
 
 	def OnUpdate(self):

@@ -32,7 +32,7 @@ class RefineDialog(ui.ScriptWindow):
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "uiscript/refinedialog.py")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("RefineDialog.__LoadScript.LoadObject")
 
@@ -42,7 +42,7 @@ class RefineDialog(ui.ScriptWindow):
 			self.successPercentage = self.GetChild("SuccessPercentage")
 			self.GetChild("AcceptButton").SetEvent(self.OpenQuestionDialog)
 			self.GetChild("CancelButton").SetEvent(self.Close)
-		except:
+		except Exception:
 			import exception
 			exception.Abort("RefineDialog.__LoadScript.BindObject")
 
@@ -66,7 +66,7 @@ class RefineDialog(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self.dlgQuestion, "uiscript/questiondialog2.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("RefineDialog.__LoadQuestionDialog.LoadScript")
 
@@ -76,7 +76,7 @@ class RefineDialog(ui.ScriptWindow):
 			GetObject("message2").SetText(localeInfo.REFINE_WARNING2)
 			GetObject("accept").SetEvent(ui.__mem_func__(self.Accept))
 			GetObject("cancel").SetEvent(ui.__mem_func__(self.dlgQuestion.Hide))
-		except:
+		except Exception:
 			import exception
 			exception.Abort("SelectCharacterWindow.__LoadQuestionDialog.BindObject")
 
@@ -122,7 +122,7 @@ class RefineDialog(ui.ScriptWindow):
 						return 0
 					return self.upgradeSuccessPercentage[curGrade]
 
-		for i in xrange(player.METIN_SOCKET_MAX_NUM+1):
+		for i in range(player.METIN_SOCKET_MAX_NUM+1):
 			if 0 == player.GetItemMetinSocket(itemSlotIndex, i):
 				break
 
@@ -140,7 +140,7 @@ class RefineDialog(ui.ScriptWindow):
 		itemIndex = player.GetItemIndex(targetItemPos)
 		self.toolTip.ClearToolTip()
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(player.GetItemMetinSocket(targetItemPos, i))
 		self.toolTip.AddItemData(itemIndex, metinSlot)
 
@@ -202,7 +202,7 @@ class RefineDialogNew(ui.ScriptWindow):
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "uiscript/refinedialog.py")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("RefineDialog.__LoadScript.LoadObject")
 
@@ -214,7 +214,7 @@ class RefineDialogNew(ui.ScriptWindow):
 			self.successPercentage = self.GetChild("SuccessPercentage")
 			self.GetChild("AcceptButton").SetEvent(self.OpenQuestionDialog)
 			self.GetChild("CancelButton").SetEvent(self.CancelRefine)
-		except:
+		except Exception:
 			import exception
 			exception.Abort("RefineDialog.__LoadScript.BindObject")
 
@@ -228,7 +228,7 @@ class RefineDialogNew(ui.ScriptWindow):
 		self.toolTip = toolTip
 
 		self.slotList = []
-		for i in xrange(3):
+		for i in range(3):
 			slot = self.__MakeSlot()
 			slot.SetParent(toolTip)
 			slot.SetWindowVerticalAlignCenter()
@@ -296,11 +296,11 @@ class RefineDialogNew(ui.ScriptWindow):
 
 		self.toolTip.ClearToolTip()
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(player.GetItemMetinSocket(targetItemPos, i))
 
 		attrSlot = []
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			attrSlot.append(player.GetItemAttribute(targetItemPos, i))
 		self.toolTip.AddRefineItemData(nextGradeItemVnum, metinSlot, attrSlot)
 
@@ -309,7 +309,7 @@ class RefineDialogNew(ui.ScriptWindow):
 		xSlotCount, ySlotCount = item.GetItemSize()
 		for slot in self.slotList:
 			slot.Hide()
-		for i in xrange(min(3, ySlotCount)):
+		for i in range(min(3, ySlotCount)):
 			self.slotList[i].SetPosition(-35, i*32 - (ySlotCount-1)*16)
 			self.slotList[i].Show()
 
@@ -385,7 +385,7 @@ class RefineDialogNew(ui.ScriptWindow):
 			self.Accept()
 			return
 
-		if 5 == self.type: ## ¹«½ÅÀÇ Ãàº¹¼­
+		if 5 == self.type: ## Â¹Â«Â½Ã…Ã€Ã‡ ÃƒÃ ÂºÂ¹Â¼Â­
 			self.Accept()
 			return
 
@@ -394,10 +394,10 @@ class RefineDialogNew(ui.ScriptWindow):
 		dlgQuestion.SetAcceptEvent(ui.__mem_func__(self.Accept))
 		dlgQuestion.SetCancelEvent(ui.__mem_func__(dlgQuestion.Close))
 
-		if 3 == self.type: ## ÇöÃ¶
+		if 3 == self.type: ## Ã‡Ã¶ÃƒÂ¶
 			dlgQuestion.SetText1(localeInfo.REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1)
 			dlgQuestion.SetText2(localeInfo.REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2)
-		elif 2 == self.type: ## Ãàº¹¼­
+		elif 2 == self.type: ## ÃƒÃ ÂºÂ¹Â¼Â­
 			dlgQuestion.SetText1(localeInfo.REFINE_DOWN_GRADE_WARNING)
 		else:
 			dlgQuestion.SetText1(localeInfo.REFINE_DESTROY_WARNING)

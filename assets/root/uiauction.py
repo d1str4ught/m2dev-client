@@ -61,7 +61,7 @@ class AuctionWindow(ui.ScriptWindow):
 
 		AUCTION_LINE_COUNT = 10
 
-		for i in xrange(AUCTION_LINE_COUNT):
+		for i in range(AUCTION_LINE_COUNT):
 
 			numberSlotImage = ui.MakeImageBox(page, "d:/ymir work/ui/public/Parameter_Slot_00.sub", 11, yPos)
 			numberSlot = ui.MakeTextLine(numberSlotImage)
@@ -99,7 +99,7 @@ class AuctionWindow(ui.ScriptWindow):
 
 		LINE_COUNT = 3
 
-		for i in xrange(LINE_COUNT):
+		for i in range(LINE_COUNT):
 
 			yPos = 5 + 99*i
 

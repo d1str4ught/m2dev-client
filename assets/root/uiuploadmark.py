@@ -71,7 +71,7 @@ class SymbolItem(ui.ListBoxEx.Item):
 
 class PopupDialog(ui.ScriptWindow):
 	def __init__(self, parent):
-		print "NEW POPUP WINDOW   ----------------------------------------------------------------------------"	
+		print("NEW POPUP WINDOW   ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 
 		self.__Load()
@@ -79,13 +79,13 @@ class PopupDialog(ui.ScriptWindow):
 
 	def __del__(self):
 		ui.ScriptWindow.__del__(self)
-		print "---------------------------------------------------------------------------- DELETE POPUP WINDOW"
+		print("---------------------------------------------------------------------------- DELETE POPUP WINDOW")
 
 	def __Load(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/PopupDialog.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PopupDialog.__Load")
 
@@ -93,7 +93,7 @@ class PopupDialog(ui.ScriptWindow):
 		try:
 			self.textLine=self.GetChild("message")
 			self.okButton=self.GetChild("accept")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PopupDialog.__Bind")
 
@@ -110,7 +110,7 @@ class PopupDialog(ui.ScriptWindow):
 
 class MarkSelectDialog(ui.ScriptWindow):
 	def __init__(self):
-		print "NEW MARK LIST WINDOW   ----------------------------------------------------------------------------"
+		print("NEW MARK LIST WINDOW   ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 
 		self.selectEvent=None
@@ -118,7 +118,7 @@ class MarkSelectDialog(ui.ScriptWindow):
 
 	def __del__(self):
 		ui.ScriptWindow.__del__(self)
-		print "---------------------------------------------------------------------------- DELETE MARK LIST WINDOW"
+		print("---------------------------------------------------------------------------- DELETE MARK LIST WINDOW")
 
 	def Show(self):
 		if self.isLoaded==0:
@@ -161,7 +161,7 @@ class MarkSelectDialog(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/MarkListWindow.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("MarkListBox.__Load")
 
@@ -177,7 +177,7 @@ class MarkSelectDialog(ui.ScriptWindow):
 			self.cancelButton=self.GetChild("cancel")
 			self.refreshButton=self.GetChild("refresh")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("MarkListBox.__Bind")
 
@@ -234,7 +234,7 @@ class MarkSelectDialog(ui.ScriptWindow):
 
 class SymbolSelectDialog(ui.ScriptWindow):
 	def __init__(self):
-		print "NEW SYMBOL LIST WINDOW   ----------------------------------------------------------------------------"
+		print("NEW SYMBOL LIST WINDOW   ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 
 		self.selectEvent=None
@@ -242,7 +242,7 @@ class SymbolSelectDialog(ui.ScriptWindow):
 
 	def __del__(self):
 		ui.ScriptWindow.__del__(self)
-		print "---------------------------------------------------------------------------- DELETE SYMBOL LIST WINDOW"
+		print("---------------------------------------------------------------------------- DELETE SYMBOL LIST WINDOW")
 
 	def Show(self):
 		if self.isLoaded==0:
@@ -285,7 +285,7 @@ class SymbolSelectDialog(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/MarkListWindow.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("SymbolListBox.__Load")
 
@@ -301,7 +301,7 @@ class SymbolSelectDialog(ui.ScriptWindow):
 			self.cancelButton=self.GetChild("cancel")
 			self.refreshButton=self.GetChild("refresh")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("SymbolListBox.__Bind")
 

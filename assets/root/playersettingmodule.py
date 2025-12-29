@@ -87,26 +87,26 @@ def RegisterSkill(race, group, empire=0):
 	job = chr.RaceToJob(race)
 
 	# Ensure group 0 exists (horse-only) when cooldown fix is on
-	if not SKILL_INDEX_DICT[job].has_key(0):
+	if 0 not in SKILL_INDEX_DICT[job]:
 		# Assassin has 140 as well; others only 137-139
 		SKILL_INDEX_DICT[job][0] = (0, 0, 0, 0, 0, 0, 0, 0,
 									137, 0, 138, 0, 139, 0) + ((140,) if job == JOB_ASSASSIN else ())
 
 	## Support Skills (Always register regardless of skill group)
-	if SKILL_INDEX_DICT.has_key(job):
+	if job in SKILL_INDEX_DICT:
 		supportSkillList = SKILL_INDEX_DICT[job].get("SUPPORT", ())
 
-		for i in xrange(len(supportSkillList)):
+		for i in range(len(supportSkillList)):
 			player.SetSkill(i + 100 + 1, supportSkillList[i])
 
 	## Character Skill
-	if SKILL_INDEX_DICT.has_key(job):
+	if job in SKILL_INDEX_DICT:
 
-		if SKILL_INDEX_DICT[job].has_key(group):
+		if group in SKILL_INDEX_DICT[job]:
 		
 			activeSkillList = SKILL_INDEX_DICT[job][group]
 
-			for i in xrange(len(activeSkillList)):
+			for i in range(len(activeSkillList)):
 				skillIndex = activeSkillList[i]
 				
 				## Skills 7 and 8 should not be set here
@@ -115,23 +115,23 @@ def RegisterSkill(race, group, empire=0):
 
 			supportSkillList = SKILL_INDEX_DICT[job]["SUPPORT"]
 
-			for i in xrange(len(supportSkillList)):
+			for i in range(len(supportSkillList)):
 				player.SetSkill(i+100+1, supportSkillList[i])
 
 	## Language Skill
 	if 0 != empire:
 		languageSkillList = []
-		for i in xrange(3):
+		for i in range(3):
 			if (i+1) != empire:
 				languageSkillList.append(player.SKILL_INDEX_LANGUAGE1+i)
-		for i in xrange(len(languageSkillList)):
+		for i in range(len(languageSkillList)):
 			player.SetSkill(107+i, languageSkillList[i])
 
 	## Guild Skill
-	for i in xrange(len(PASSIVE_GUILD_SKILL_INDEX_LIST)):
+	for i in range(len(PASSIVE_GUILD_SKILL_INDEX_LIST)):
 		player.SetSkill(200+i, PASSIVE_GUILD_SKILL_INDEX_LIST[i])
 
-	for i in xrange(len(ACTIVE_GUILD_SKILL_INDEX_LIST)):
+	for i in range(len(ACTIVE_GUILD_SKILL_INDEX_LIST)):
 		player.SetSkill(210+i, ACTIVE_GUILD_SKILL_INDEX_LIST[i])
 
 def RegisterSkillAt(race, group, pos, num):
@@ -492,7 +492,7 @@ def __LoadGameWarriorEx(race, path):
 
 	## SKILL
 	chrmgr.SetPathName(path + "skill/")
-	for i in xrange(skill.SKILL_EFFECT_COUNT):
+	for i in range(skill.SKILL_EFFECT_COUNT):
 		END_STRING = ""
 		if i != 0: END_STRING = "_%d" % (i+1)
 		chrmgr.RegisterCacheMotionData(chr.MOTION_MODE_GENERAL, chr.MOTION_SKILL+(i*skill.SKILL_GRADEGAP)+1, "samyeon" + END_STRING + ".msa")
@@ -677,7 +677,7 @@ def __LoadGameAssassinEx(race, path):
 
 	## SKILL
 	chrmgr.SetPathName(path + "skill/")
-	for i in xrange(skill.SKILL_EFFECT_COUNT):
+	for i in range(skill.SKILL_EFFECT_COUNT):
 		END_STRING = ""
 		if i != 0: END_STRING = "_%d" % (i+1)
 		chrmgr.RegisterCacheMotionData(chr.MOTION_MODE_GENERAL, chr.MOTION_SKILL+(i*skill.SKILL_GRADEGAP)+1, "amseup" + END_STRING + ".msa")
@@ -890,7 +890,7 @@ def __LoadGameSuraEx(race, path):
 	chrmgr.SetPathName(path + "skill/")
 	# chrmgr.RegisterCacheMotionData(chr.MOTION_MODE_GENERAL, chr.MOTION_SKILL+4, "geongon.msa")
 
-	for i in xrange(skill.SKILL_EFFECT_COUNT):
+	for i in range(skill.SKILL_EFFECT_COUNT):
 		END_STRING = ""
 		if i != 0: END_STRING = "_%d" % (i+1)
 		chrmgr.RegisterCacheMotionData(chr.MOTION_MODE_GENERAL, chr.MOTION_SKILL+(i*skill.SKILL_GRADEGAP)+1, "swaeryeong" + END_STRING + ".msa")
@@ -1195,7 +1195,7 @@ def __LoadGameSkill():
 
 	try:
 		skill.LoadSkillData()
-	except:
+	except Exception:
 		import exception
 		exception.Abort("__LoadGameSkill")
 
@@ -1240,7 +1240,7 @@ def LoadGuildBuildingList(filename):
 
 	handle = app.OpenTextFile(filename)
 	count = app.GetTextFileLineCount(handle)
-	for i in xrange(count):
+	for i in range(count):
 		line = app.GetTextFileLine(handle, i)
 		tokens = line.split("\t")
 
@@ -1364,8 +1364,8 @@ def LoadGameData(name):
 		loadGameDataDict[name]=0
 		try:
 			load()
-		except:
-			print name
+		except Exception:
+			print(name)
 			import exception
 			exception.Abort("LoadGameData")
 			raise
@@ -1524,7 +1524,7 @@ def OLD_SetNPC():
 	SetGuard(20347, "jinno_patrol_spear")
 
 	## Warp
-	for i in xrange(18):
+	for i in range(18):
 		SetWarp(10001 + i)
 
 	SetGuard(11000, "gangyo_patrol_spear")

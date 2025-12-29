@@ -33,13 +33,13 @@ def LoadMouseButtonSettings():
 	tokens = open("mouse.cfg", "r").read().split()
 
 	if len(tokens) != 2:
-		raise RuntimeError, "MOUSE_SETTINGS_FILE_ERROR"
+		raise RuntimeError("MOUSE_SETTINGS_FILE_ERROR")
 
 	MOUSE_SETTINGS[0] = int(tokens[0])
 	MOUSE_SETTINGS[1] = int(tokens[1])
 
 def unsigned32(n):
-	return n & 0xFFFFFFFFL
+	return n & 0xFFFFFFFF
 
 #-------------------Giftbox Begin------------------------------
 
@@ -66,20 +66,20 @@ class GiftBox(ui.ScriptWindow):
 			self.textLine.SetPosition(mouseX, mouseY - 15)
 
 	def __init__(self):
-		#print "NEW TASKBAR  ----------------------------------------------------------------------------"
+		#print("NEW TASKBAR  ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 		self.tooltipGift = self.TextToolTip()
 		self.tooltipGift.Show()
 		
 	def __del__(self):
-		#print "---------------------------------------------------------------------------- DELETE TASKBAR"
+		#print("---------------------------------------------------------------------------- DELETE TASKBAR")
 		ui.ScriptWindow.__del__(self)
 
 	def LoadWindow(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "giftbox.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("GiftBox.LoadWindow.LoadObject")		
 
@@ -115,20 +115,20 @@ class EnergyBar(ui.ScriptWindow):
 			self.textLine.SetPosition(mouseX, mouseY - 15)
 
 	def __init__(self):
-		#print "NEW TASKBAR  ----------------------------------------------------------------------------"
+		#print("NEW TASKBAR  ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 		self.tooltipEnergy = self.TextToolTip()
 		self.tooltipEnergy.Show()
 		
 	def __del__(self):
-		#print "---------------------------------------------------------------------------- DELETE TASKBAR"
+		#print("---------------------------------------------------------------------------- DELETE TASKBAR")
 		ui.ScriptWindow.__del__(self)
 
 	def LoadWindow(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "EnergyBar.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("EnergyBar.LoadWindow.LoadObject")
 
@@ -189,7 +189,7 @@ class ExpandedTaskBar(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "ExpandedTaskBar.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("ExpandedTaskBar.LoadWindow.LoadObject")
 
@@ -373,7 +373,7 @@ class TaskBar(ui.ScriptWindow):
 					self.event()
 
 	def __init__(self):
-		#print "NEW TASKBAR  ----------------------------------------------------------------------------"
+		#print("NEW TASKBAR  ----------------------------------------------------------------------------")
 
 		ui.ScriptWindow.__init__(self, "TOP_MOST")
 
@@ -404,7 +404,7 @@ class TaskBar(ui.ScriptWindow):
 		self.SetWindowName("TaskBar")
 
 	def __del__(self):
-		#print "---------------------------------------------------------------------------- DELETE TASKBAR"
+		#print("---------------------------------------------------------------------------- DELETE TASKBAR")
 		ui.ScriptWindow.__del__(self)
 
 	def LoadWindow(self):
@@ -417,7 +417,7 @@ class TaskBar(ui.ScriptWindow):
 				pyScrLoader.LoadScriptFile(self, "UIScript/TaskBar.py")
 			pyScrLoader.LoadScriptFile(self.mouseModeButtonList[self.MOUSE_BUTTON_LEFT], "UIScript/MouseButtonWindow.py")
 			pyScrLoader.LoadScriptFile(self.mouseModeButtonList[self.MOUSE_BUTTON_RIGHT], "UIScript/RightMouseButtonWindow.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("TaskBar.LoadWindow.LoadObject")
 
@@ -441,7 +441,7 @@ class TaskBar(ui.ScriptWindow):
 		# Either ChatButton or ExpandButton must exist.
 		try:
 			toggleButtonDict[TaskBar.BUTTON_CHAT]=self.GetChild("ChatButton")
-		except:
+		except Exception:
 			toggleButtonDict[TaskBar.BUTTON_EXPAND]=self.GetChild("ExpandButton")
 			TaskBar.IS_EXPANDED = True
 
@@ -515,7 +515,7 @@ class TaskBar(ui.ScriptWindow):
 			self.rampageGauge2 = self.GetChild("RampageGauge2")
 			self.rampageGauge2.OnMouseOverOut = ui.__mem_func__(self.__RampageGauge_OverOut)
 			self.rampageGauge2.OnMouseLeftButtonUp = ui.__mem_func__(self.__RampageGauge_Click)
-			print "[DEBUG]: constInfo.IN_GAME_SHOP_ENABLE / self.rampageGauge1",constInfo.IN_GAME_SHOP_ENABLE, self.rampageGauge1
+			print("[DEBUG]: constInfo.IN_GAME_SHOP_ENABLE / self.rampageGauge1",constInfo.IN_GAME_SHOP_ENABLE, self.rampageGauge1)
 			self.__RampageGauge_OverOut()
 
 		self.hpGauge = self.GetChild("HPGauge")
@@ -539,17 +539,17 @@ class TaskBar(ui.ScriptWindow):
 		self.RefreshQuickSlot()
 
 	def __RampageGauge_OverIn(self):
-		print "rampage_over_in"
+		print("rampage_over_in")
 		self.rampageGauge2.Show()
 		self.rampageGauge1.Hide()
 
 	def __RampageGauge_OverOut(self):
-		print "rampage_over_out"
+		print("rampage_over_out")
 		self.rampageGauge2.Hide()
 		self.rampageGauge1.Show()
 
 	def __RampageGauge_Click(self):
-		print "rampage_up"
+		print("rampage_up")
 		net.SendChatPacket("/in_game_mall")
 		# gift icon hide when click mall icon
 		self.wndGiftBox.Hide()	
@@ -559,15 +559,15 @@ class TaskBar(ui.ScriptWindow):
 			LoadMouseButtonSettings()
 			(mouseLeftButtonEvent, mouseRightButtonEvent) = GetMouseButtonSettings()
 			if not self.__IsInSafeMouseButtonSettingRange(mouseLeftButtonEvent) or not self.__IsInSafeMouseButtonSettingRange(mouseRightButtonEvent):
-					raise RuntimeError, "INVALID_MOUSE_BUTTON_SETTINGS"
-		except:
+					raise RuntimeError("INVALID_MOUSE_BUTTON_SETTINGS")
+		except Exception:
 			InitMouseButtonSettings(self.EVENT_MOVE_AND_ATTACK, self.EVENT_CAMERA)
 			(mouseLeftButtonEvent, mouseRightButtonEvent) = GetMouseButtonSettings()
 
 		try:
 			self.SelectMouseButtonEvent(self.MOUSE_BUTTON_LEFT,	mouseLeftButtonEvent)
 			self.SelectMouseButtonEvent(self.MOUSE_BUTTON_RIGHT,	mouseRightButtonEvent)
-		except:
+		except Exception:
 			InitMouseButtonSettings(self.EVENT_MOVE_AND_ATTACK, self.EVENT_CAMERA)
 			(mouseLeftButtonEvent, mouseRightButtonEvent) = GetMouseButtonSettings()
 
@@ -673,7 +673,7 @@ class TaskBar(ui.ScriptWindow):
 		slotIndex = 0
 
 		for slotWindow in self.quickslot:
-			for i in xrange(QUICK_SLOT_SLOT_COUNT):
+			for i in range(QUICK_SLOT_SLOT_COUNT):
 				(Type, Position) = player.GetLocalQuickSlot(slotIndex)
 
 				if Type == player.SLOT_TYPE_SKILL:
@@ -730,10 +730,10 @@ class TaskBar(ui.ScriptWindow):
 		if 0 != quarterPoint:
 			FullCount = min(4, curPoint / quarterPoint)
 
-		for i in xrange(4):
+		for i in range(4):
 			self.expGauge[i].Hide()
 
-		for i in xrange(FullCount):
+		for i in range(FullCount):
 			self.expGauge[i].SetRenderingRect(0.0, 0.0, 0.0, 0.0)
 			self.expGauge[i].Show()
 
@@ -754,13 +754,13 @@ class TaskBar(ui.ScriptWindow):
 
 		try:
 			self.quickPageNumImageBox.LoadImage(TaskBar.QUICKPAGE_NUMBER_FILENAME[pageNum])
-		except:
+		except Exception:
 			pass
 
 		startNumber = 0
 
 		for slot in self.quickslot:
-			for i in xrange(4):
+			for i in range(4):
 				slotNumber = i + startNumber
 
 				(Type, Position) = player.GetLocalQuickSlot(slotNumber)
@@ -781,7 +781,7 @@ class TaskBar(ui.ScriptWindow):
 					## 자동물약 (#72723, #72724) 특수처리 - 아이템인데도 슬롯에 활성화/비활성화 표시를 위한 작업임 - [hyo]
 					if constInfo.IS_AUTO_POTION(itemIndex):
 						# metinSocket - [0] : 활성화 여부, [1] : 사용한 양, [2] : 최대 용량
-						metinSocket = [player.GetItemMetinSocket(Position, j) for j in xrange(player.METIN_SOCKET_MAX_NUM)]
+						metinSocket = [player.GetItemMetinSocket(Position, j) for j in range(player.METIN_SOCKET_MAX_NUM)]
 						
 						if 0 != int(metinSocket[0]):
 							slot.ActivateSlot(slotNumber)
@@ -915,7 +915,7 @@ class TaskBar(ui.ScriptWindow):
 		## Quick Slot
 		for slotWindow in self.quickslot:
 
-			for i in xrange(QUICK_SLOT_SLOT_COUNT):
+			for i in range(QUICK_SLOT_SLOT_COUNT):
 
 				(Type, Position) = player.GetLocalQuickSlot(slotIndex)
 
@@ -936,7 +936,7 @@ class TaskBar(ui.ScriptWindow):
 		## Quick Slot
 		for slotWindow in self.quickslot:
 
-			for i in xrange(4):
+			for i in range(4):
 
 				(Type, Position) = player.GetLocalQuickSlot(slotIndex)
 
@@ -957,7 +957,7 @@ class TaskBar(ui.ScriptWindow):
 		## Quick Slot
 		for slotWindow in self.quickslot:
 
-			for i in xrange(4):
+			for i in range(4):
 
 				(Type, Position) = player.GetLocalQuickSlot(slotIndex)
 
@@ -1067,7 +1067,7 @@ class TaskBar(ui.ScriptWindow):
 
 			getSkillIndex=player.GetSkillIndex
 			getSkillLevel=player.GetSkillLevel
-			for i in xrange(PAGE_SLOT_COUNT):
+			for i in range(PAGE_SLOT_COUNT):
 
 				skillIndex = getSkillIndex(startNumber+i)
 				skillLevel = getSkillLevel(startNumber+i)

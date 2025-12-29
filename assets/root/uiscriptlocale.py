@@ -26,7 +26,7 @@ def LoadLocaleFile(srcFileName, localeDict):
 		if len(tokens) >= 2:
 			localeDict[tokens[0]] = tokens[1]
 		else:
-			print len(tokens), lines.index(line), line
+			print(len(tokens), lines.index(line), line)
 
 name = app.GetLocalePath()
 LOCALE_UISCRIPT_PATH = "%s/ui/" % (name)

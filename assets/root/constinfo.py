@@ -102,7 +102,7 @@ def SET_CAMERA_MAX_DISTANCE_INDEX(index):
 	global CAMERA_MAX_DISTANCE_LIST
 	try:
 		CAMERA_MAX_DISTANCE=CAMERA_MAX_DISTANCE_LIST[index]
-	except:
+	except Exception:
 		CAMERA_MAX_DISTANCE=CAMERA_MAX_DISTANCE_LIST[0]
 
 	app.SetCameraMaxDistance(CAMERA_MAX_DISTANCE)
@@ -171,7 +171,7 @@ JewelAccessoryInfos = [
 	]
 def GET_ACCESSORY_MATERIAL_VNUM(vnum, subType):
 	ret = vnum
-	item_base = (vnum / 10) * 10
+	item_base = (vnum // 10) * 10
 	for info in JewelAccessoryInfos:
 		if item.ARMOR_WRIST == subType:	
 			if info[1] == item_base:
@@ -196,10 +196,10 @@ def GET_ACCESSORY_MATERIAL_VNUM(vnum, subType):
 		EAR_ITEM_VNUM_BASE = 17000
 		ret -= EAR_ITEM_VNUM_BASE
 
-	type = ret/20
+	type = ret//20
 
 	if type<0 or type>=len(ACCESSORY_MATERIAL_LIST):
-		type = (ret-170) / 20
+		type = (ret-170) // 20
 		if type<0 or type>=len(ACCESSORY_MATERIAL_LIST):
 			return 0
 

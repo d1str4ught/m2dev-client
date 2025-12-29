@@ -26,14 +26,14 @@ class HelpWindow(ui.ScriptWindow):
 				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "HelpWindow.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "UIScript/HelpWindow.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("HelpWindow.LoadDialogSinglePage.LoadScript")
 
 		try:
 			GetObject=self.GetChild
 			self.btnClose = GetObject("close_button")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("DialogWindow.LoadDialogSinglePage.BindObject")
 
@@ -42,7 +42,7 @@ class HelpWindow(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/HelpWindow2.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("HelpWindow.LoadDialogMultiPage.LoadScript")
 
@@ -60,7 +60,7 @@ class HelpWindow(ui.ScriptWindow):
 
 			self.__SelectPage(0)
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("DialogWindow.LoadDialogMultiPage.BindObject")
 

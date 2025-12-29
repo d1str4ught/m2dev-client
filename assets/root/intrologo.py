@@ -16,7 +16,7 @@ class LogoWindow(ui.ScriptWindow):
 	videoList = []
 	
 	def __init__(self, stream):
-		print "NEW LOGO WINDOW  ----------------------------------------------------------------------------"
+		print("NEW LOGO WINDOW  ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 		net.SetPhaseWindow(net.PHASE_WINDOW_LOGO, self)
 		self.stream = stream
@@ -28,7 +28,7 @@ class LogoWindow(ui.ScriptWindow):
 	def __del__(self):
 		ui.ScriptWindow.__del__(self)
 		net.SetPhaseWindow(net.PHASE_WINDOW_LOGO, 0)
-		print "---------------------------------------------------------------------------- DELETE LOGO WINDOW"
+		print("---------------------------------------------------------------------------- DELETE LOGO WINDOW")
 		
 	def Open(self):
 		self.SetSize(wndMgr.GetScreenWidth(), wndMgr.GetScreenHeight())
@@ -38,10 +38,10 @@ class LogoWindow(ui.ScriptWindow):
 		self.LoadNextVideo()
 
 		app.ShowCursor()
-		print "OPEN LOGO WINDOW  ----------------------------------------------------------------------------"
+		print("OPEN LOGO WINDOW  ----------------------------------------------------------------------------")
 		
 	def Close(self):
-		print "---------------------------------------------------------------CLOSE LOGO WINDOW"
+		print("---------------------------------------------------------------CLOSE LOGO WINDOW")
 		app.OnLogoClose()
 		self.KillFocus()
 		self.Hide()

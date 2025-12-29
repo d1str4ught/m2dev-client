@@ -30,7 +30,7 @@ def Suffle(src):
 		items = [item for item in src]
 
 		itemCount = len(items)
-		for oldPos in xrange(itemCount):
+		for oldPos in range(itemCount):
 			newPos = app.GetRandom(0, itemCount-1)
 			items[newPos], items[oldPos] = items[oldPos], items[newPos]
 
@@ -75,12 +75,12 @@ class ConnectingDialog(ui.ScriptWindow):
 			self.message = self.GetChild("message")
 			self.countdownMessage = self.GetChild("countdown_message")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("ConnectingDialog.LoadDialog.BindObject")
 
 	def Open(self, waitTime):
-		curTime = time.clock()
+		curTime = time.perf_counter()
 		self.endTime = curTime + waitTime
 
 		self.Lock()
@@ -109,12 +109,12 @@ class ConnectingDialog(ui.ScriptWindow):
 		self.eventExit = ui.__mem_func__(event)
 
 	def OnUpdate(self):
-		lastTime = max(0, self.endTime - time.clock())
+		lastTime = max(0, self.endTime - time.perf_counter())
 		if 0 == lastTime:
 			self.Close()
 			self.eventTimeOver()
 		else:
-			self.SetCountDownMessage(self.endTime - time.clock())
+			self.SetCountDownMessage(self.endTime - time.perf_counter())
 
 	def OnPressExitKey(self):
 		#self.eventExit()
@@ -122,7 +122,7 @@ class ConnectingDialog(ui.ScriptWindow):
 
 class LoginWindow(ui.ScriptWindow):
 	def __init__(self, stream):
-		print "NEW LOGIN WINDOW  ----------------------------------------------------------------------------"
+		print("NEW LOGIN WINDOW  ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 		net.SetPhaseWindow(net.PHASE_WINDOW_LOGIN, self)
 		net.SetAccountConnectorHandler(self)
@@ -148,12 +148,12 @@ class LoginWindow(ui.ScriptWindow):
 		net.ClearPhaseWindow(net.PHASE_WINDOW_LOGIN, self)
 		net.SetAccountConnectorHandler(0)
 		ui.ScriptWindow.__del__(self)
-		print "---------------------------------------------------------------------------- DELETE LOGIN WINDOW"
+		print("---------------------------------------------------------------------------- DELETE LOGIN WINDOW")
 
 	def Open(self):
 		ServerStateChecker.Create(self)
 
-		print "LOGIN WINDOW OPEN ----------------------------------------------------------------------------"
+		print("LOGIN WINDOW OPEN ----------------------------------------------------------------------------")
 
 		self.loginFailureMsgDict={
 			#"DEFAULT" : localeInfo.LOGIN_FAILURE_UNKNOWN,
@@ -243,7 +243,7 @@ class LoginWindow(ui.ScriptWindow):
 
 		ServerStateChecker.Initialize(self)
 
-		print "---------------------------------------------------------------------------- CLOSE LOGIN WINDOW "
+		print("---------------------------------------------------------------------------- CLOSE LOGIN WINDOW ")
 		#
 		# Check both since BGM stops if selectMusic is not set. 
 		#
@@ -276,7 +276,7 @@ class LoginWindow(ui.ScriptWindow):
 
 		# VIRTUAL_KEYBOARD_BUG_FIX
 		if self.virtualKeyboard:
-			for keyIndex in xrange(0, VIRTUAL_KEYBOARD_NUM_KEYS+1):
+			for keyIndex in range(0, VIRTUAL_KEYBOARD_NUM_KEYS+1):
 				key = self.GetChild2("key_%d" % keyIndex)
 				if key:
 					key.SetEvent(None)
@@ -305,8 +305,8 @@ class LoginWindow(ui.ScriptWindow):
 		try:
 			file=open("channel.inf", "w")
 			file.write("%d %d %d" % (self.__GetServerID(), self.__GetChannelID(), self.__GetRegionID()))
-		except:
-			print "LoginWindow.__SaveChannelInfo - SaveError"
+		except Exception:
+			print("LoginWindow.__SaveChannelInfo - SaveError")
 
 	def __LoadChannelInfo(self):
 		try:
@@ -324,8 +324,8 @@ class LoginWindow(ui.ScriptWindow):
 
 				return regionID, selServerID, selChannelID
 
-		except:
-			print "LoginWindow.__LoadChannelInfo - OpenError"
+		except Exception:
+			print("LoginWindow.__LoadChannelInfo - OpenError")
 			return -1, -1, -1
 
 	def __ExitGame(self):
@@ -413,7 +413,7 @@ class LoginWindow(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, fileName)
-		except:
+		except Exception:
 			import exception
 			exception.Abort("LoginWindow.__LoadScript.LoadObject")
 		try:
@@ -449,7 +449,7 @@ class LoginWindow(ui.ScriptWindow):
 				self.GetChild("key_at").SetToggleDownEvent(lambda : self.__VirtualKeyboard_SetSymbolMode())
 				self.GetChild("key_at").SetToggleUpEvent(lambda : self.__VirtualKeyboard_SetAlphabetMode())
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("LoginWindow.__LoadScript.BindObject")
 
@@ -490,7 +490,7 @@ class LoginWindow(ui.ScriptWindow):
 				key.ButtonText.SetFontColor(0, 0, 0)
 				keyIndex += 1
 			
-		for keyIndex in xrange(keyIndex, VIRTUAL_KEYBOARD_NUM_KEYS+1):
+		for keyIndex in range(keyIndex, VIRTUAL_KEYBOARD_NUM_KEYS+1):
 			key = self.GetChild2("key_%d" % keyIndex)
 			if key:
 				key.SetEvent(lambda x=' ': self.__VirtualKeyboard_PressKey(x))
@@ -633,9 +633,9 @@ class LoginWindow(ui.ScriptWindow):
 		if isAutoLogin:
 			self.Connect(id, pwd)
 			
-			print "=================================================================================="
-			print "Auto login: %s - %s:%d %s" % (loginInfoFileName, addr, port, id)
-			print "=================================================================================="
+			print("==================================================================================")
+			print("Auto login: %s - %s:%d %s" % (loginInfoFileName, addr, port, id))
+			print("==================================================================================")
 
 		
 	def PopupDisplayMessage(self, msg):
@@ -781,7 +781,7 @@ class LoginWindow(ui.ScriptWindow):
 	def __RefreshServerList(self):
 		regionID = self.__GetRegionID()
 		
-		if not serverInfo.REGION_DICT.has_key(regionID):
+		if regionID not in serverInfo.REGION_DICT:
 			return
 
 		self.serverList.ClearItem()
@@ -794,7 +794,7 @@ class LoginWindow(ui.ScriptWindow):
 			name = regionDataDict.get("name", "noname")
 			try:
 				server_id = serverInfo.SERVER_ID_DICT[id]
-			except:
+			except Exception:
 				server_id = visible_index
 
 			self.serverList.InsertItem(id, "  %02d. %s" % (int(server_id), name))
@@ -812,8 +812,8 @@ class LoginWindow(ui.ScriptWindow):
 
 		try:
 			channelDict = serverInfo.REGION_DICT[regionID][serverID]["channel"]
-		except:
-			print " __RequestServerStateList - serverInfo.REGION_DICT(%d, %d)" % (regionID, serverID)
+		except Exception:
+			print(" __RequestServerStateList - serverInfo.REGION_DICT(%d, %d)" % (regionID, serverID))
 			return
 
 		ServerStateChecker.Initialize();
@@ -835,8 +835,8 @@ class LoginWindow(ui.ScriptWindow):
 
 		try:
 			channelDict = serverInfo.REGION_DICT[regionID][serverID]["channel"]
-		except:
-			print " __RequestServerStateList - serverInfo.REGION_DICT(%d, %d)" % (regionID, serverID)
+		except Exception:
+			print(" __RequestServerStateList - serverInfo.REGION_DICT(%d, %d)" % (regionID, serverID))
 			return
 
 		for channelID, channelDataDict in channelDict.items():
@@ -858,7 +858,7 @@ class LoginWindow(ui.ScriptWindow):
 	def NotifyChannelState(self, addrKey, state):
 		try:
 			stateName=serverInfo.STATE_DICT[state]
-		except:
+		except Exception:
 			stateName=serverInfo.STATE_NONE
 
 		regionID=self.__GetRegionID()
@@ -869,12 +869,12 @@ class LoginWindow(ui.ScriptWindow):
 			serverInfo.REGION_DICT[regionID][serverID]["channel"][channelID]["state"] = stateName
 			self.__RefreshServerStateList()
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort(localeInfo.CHANNEL_NOT_FIND_INFO)
 
 	def __OnClickExitServerButton(self):
-		print "exit server"
+		print("exit server")
 		self.__OpenLoginBoard()			
 
 		if IsFullBackImage():
@@ -886,11 +886,11 @@ class LoginWindow(ui.ScriptWindow):
 		regionID = self.__GetRegionID()
 		serverID = self.__GetServerID()
 
-		if (not serverInfo.REGION_DICT.has_key(regionID)):
+		if (regionID not in serverInfo.REGION_DICT):
 			self.PopupNotifyMessage(localeInfo.CHANNEL_SELECT_REGION)
 			return
 
-		if (not serverInfo.REGION_DICT[regionID].has_key(serverID)):
+		if (serverID not in serverInfo.REGION_DICT[regionID]):
 			self.PopupNotifyMessage(localeInfo.CHANNEL_SELECT_SERVER)
 			return		
 
@@ -911,11 +911,11 @@ class LoginWindow(ui.ScriptWindow):
 		serverID = self.__GetServerID()
 		channelID = self.__GetChannelID()
 
-		if (not serverInfo.REGION_DICT.has_key(regionID)):
+		if (regionID not in serverInfo.REGION_DICT):
 			self.PopupNotifyMessage(localeInfo.CHANNEL_SELECT_REGION)
 			return
 
-		if (not serverInfo.REGION_DICT[regionID].has_key(serverID)):
+		if (serverID not in serverInfo.REGION_DICT[regionID]):
 			self.PopupNotifyMessage(localeInfo.CHANNEL_SELECT_SERVER)
 			return
 
@@ -941,8 +941,8 @@ class LoginWindow(ui.ScriptWindow):
 			serverName = serverInfo.REGION_DICT[regionID][serverID]["name"]
 			channelName = serverInfo.REGION_DICT[regionID][serverID]["channel"][channelID]["name"]
 			addrKey = serverInfo.REGION_DICT[regionID][serverID]["channel"][channelID]["key"]
-		except:
-			print " ERROR __OnClickSelectServerButton(%d, %d, %d)" % (regionID, serverID, channelID)
+		except Exception:
+			print(" ERROR __OnClickSelectServerButton(%d, %d, %d)" % (regionID, serverID, channelID))
 			serverName = localeInfo.CHANNEL_EMPTY_SERVER
 			channelName = localeInfo.CHANNEL_NORMAL % channelID
 
@@ -951,14 +951,14 @@ class LoginWindow(ui.ScriptWindow):
 		try:
 			ip = serverInfo.REGION_DICT[regionID][serverID]["channel"][channelID]["ip"]
 			tcp_port = serverInfo.REGION_DICT[regionID][serverID]["channel"][channelID]["tcp_port"]
-		except:
+		except Exception:
 			import exception
 			exception.Abort("LoginWindow.__OnClickSelectServerButton - server selection failed")
 
 		try:
 			account_ip = serverInfo.REGION_AUTH_SERVER_DICT[regionID][serverID]["ip"]
 			account_port = serverInfo.REGION_AUTH_SERVER_DICT[regionID][serverID]["port"]
-		except:
+		except Exception:
 			account_ip = 0
 			account_port = 0
 
@@ -971,7 +971,7 @@ class LoginWindow(ui.ScriptWindow):
 			app.SetGuildSymbolPath(markAddrValue["symbol_path"])
 			# END_OF_GUILD_SYMBOL
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("LoginWindow.__OnClickSelectServerButton - mark information missing")
 			

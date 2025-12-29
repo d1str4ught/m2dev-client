@@ -21,7 +21,7 @@ class SelectItemWindow(ui.ScriptWindow):
 		try:
 			PythonScriptLoader = ui.PythonScriptLoader()
 			PythonScriptLoader.LoadScriptFile(self, "UIScript/selectitemwindow.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("ItemSelectWindow.LoadDialog.LoadObject")
 
@@ -31,7 +31,7 @@ class SelectItemWindow(ui.ScriptWindow):
 			self.titleBar = GetObject("TitleBar")
 			self.itemSlot = GetObject("ItemSlot")
 			self.btnExit = GetObject("ExitButton")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("ItemSelectWindow.LoadDialog.BindObject")
 
@@ -80,7 +80,7 @@ class SelectItemWindow(ui.ScriptWindow):
 		getItemCount=player.GetItemCount
 		setItemVNum=self.itemSlot.SetItemSlot
 
-		for i in xrange(player.INVENTORY_PAGE_SIZE*2):
+		for i in range(player.INVENTORY_PAGE_SIZE*2):
 			slotNumber = i
 
 			itemVNum = getItemVNum(slotNumber)

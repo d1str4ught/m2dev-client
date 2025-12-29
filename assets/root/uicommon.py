@@ -24,7 +24,7 @@ class PopupDialog(ui.ScriptWindow):
 			self.accceptButton = self.GetChild("accept")
 			self.accceptButton.SetEvent(ui.__mem_func__(self.Close))
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PopupDialog.LoadDialog.BindObject")
 
@@ -172,7 +172,7 @@ class InputDialogWithDescription(InputDialog):
 			self.inputValue = getObject("InputValue")
 			self.description = getObject("Description")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("InputDialogWithDescription.LoadBoardDialog.BindObject")
 
@@ -204,7 +204,7 @@ class InputDialogWithDescription2(InputDialog):
 			self.description1 = getObject("Description1")
 			self.description2 = getObject("Description2")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("InputDialogWithDescription.LoadBoardDialog.BindObject")
 

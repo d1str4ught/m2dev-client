@@ -115,8 +115,8 @@ class MapNameShower(ui.ExpandedImageBox):
 			return 7
 		return	0
 	def ShowMapName(self, mapName, x, y):
-		if not self.MAP_NAME_IMAGE.has_key(mapName):
-			print " [ERROR] - There is no map name image", mapName
+		if mapName not in self.MAP_NAME_IMAGE:
+			print(" [ERROR] - There is no map name image", mapName)
 			return
 
 		try:
@@ -138,7 +138,7 @@ class MapNameShower(ui.ExpandedImageBox):
 
 			try:
 				floor = self.__GetDevilTowerFloor(x, y)
-				print x, y, floor
+				print(x, y, floor)
 				self.floorImage.LoadImage(LOCALE_PATH+"devil1_%df.tga" % floor)
 			except RuntimeError:
 				self.SetPosition(0, 80)
@@ -157,7 +157,7 @@ class MapNameShower(ui.ExpandedImageBox):
 
 			try:
 				floor = self.__GetDevilBase(x, y)
-				print x, y, floor
+				print(x, y, floor)
 				self.floorImage.LoadImage(LOCALE_PATH+"devil1_%df.tga" % floor)
 			except RuntimeError:
 				self.SetPosition(0, 80)

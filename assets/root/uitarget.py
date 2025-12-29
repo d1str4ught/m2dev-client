@@ -132,7 +132,7 @@ class TargetBoard(ui.ThinBoard):
 	def __del__(self):
 		ui.ThinBoard.__del__(self)
 
-		print "===================================================== DESTROYED TARGET BOARD"
+		print("===================================================== DESTROYED TARGET BOARD")
 
 	def __Initialize(self):
 		self.nameString = ""
@@ -223,7 +223,7 @@ class TargetBoard(ui.ThinBoard):
 		self.eventWhisper = event
 
 	def UpdatePosition(self):
-		self.SetPosition(wndMgr.GetScreenWidth()/2 - self.GetWidth()/2, 10)
+		self.SetPosition(wndMgr.GetScreenWidth()//2 - self.GetWidth()//2, 10)
 
 	def ResetTargetBoard(self):
 
@@ -251,7 +251,7 @@ class TargetBoard(ui.ThinBoard):
 		nameFront = ""
 		if -1 != level:
 			nameFront += "Lv." + str(level) + " "
-		if self.GRADE_NAME.has_key(grade):
+		if grade in self.GRADE_NAME:
 			nameFront += "(" + self.GRADE_NAME[grade] + ") "
 
 		self.SetTargetName(nameFront + name)
@@ -302,7 +302,7 @@ class TargetBoard(ui.ThinBoard):
 
 	def __ShowButton(self, name):
 
-		if not self.buttonDict.has_key(name):
+		if name not in self.buttonDict:
 			return
 
 		self.buttonDict[name].Show()
@@ -310,7 +310,7 @@ class TargetBoard(ui.ThinBoard):
 
 	def __HideButton(self, name):
 
-		if not self.buttonDict.has_key(name):
+		if name not in self.buttonDict:
 			return
 
 		button = self.buttonDict[name]
@@ -444,7 +444,7 @@ class TargetBoard(ui.ThinBoard):
 	def __ArrangeButtonPosition(self):
 		showingButtonCount = len(self.showingButtonList)
 
-		pos = -(showingButtonCount / 2) * 68
+		pos = -(showingButtonCount // 2) * 68
 		if 0 == showingButtonCount % 2:
 			pos += 34
 

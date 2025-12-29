@@ -81,13 +81,13 @@ class PartyMemberInfoBoard(ui.ScriptWindow):
 	def __del__(self):
 		ui.ScriptWindow.__del__(self)
 
-		print " =============================== DESTROIED PartyMemberInfoBoard"
+		print(" =============================== DESTROIED PartyMemberInfoBoard")
 
 	def __LoadBoard(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/PartyMemberInfoBoard.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PartyMemberInfoBoard.__LoadBoard.LoadScript")
 
@@ -105,7 +105,7 @@ class PartyMemberInfoBoard(ui.ScriptWindow):
 			self.partyAffectImageList.append(self.GetChild("IncreaseArea150"))
 			self.partyAffectImageList.append(self.GetChild("IncreaseArea200"))
 			self.stateButton.SetEvent(ui.__mem_func__(self.OnMouseLeftButtonDown))
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PartyMemberInfoBoard.__LoadBoard.BindObject")
 
@@ -127,9 +127,9 @@ class PartyMemberInfoBoard(ui.ScriptWindow):
 		self.Hide()
 
 	def __SetAffectsMouseEvent(self):
-		for i in xrange(len(self.partyAffectImageList)):
+		for i in range(len(self.partyAffectImageList)):
 			self.partyAffectImageList[i].OnMouseOverIn = lambda selfArg = self, index = i: selfArg.OnAffectOverIn(index)
-		for i in xrange(len(self.partyAffectImageList)):
+		for i in range(len(self.partyAffectImageList)):
 			self.partyAffectImageList[i].OnMouseOverOut = lambda selfArg = self, index = i: selfArg.OnAffectOverOut(index)
 
 	def __HideAllAffects(self):
@@ -219,14 +219,14 @@ class PartyMemberInfoBoard(ui.ScriptWindow):
 
 		## Warp
 		#if skillLevel >= 35:
-		#	if self.stateButtonDict.has_key(self.MEMBER_BUTTON_WARP):
+		#	if self.MEMBER_BUTTON_WARP in self.stateButtonDict:
 		#		button = self.stateButtonDict[self.MEMBER_BUTTON_WARP]
 		#		button.SetPosition(xPos, y)
 		#		button.Show()
 		#		xPos += 23
 
 		## Expel
-		if self.stateButtonDict.has_key(self.MEMBER_BUTTON_EXPEL):
+		if self.MEMBER_BUTTON_EXPEL in self.stateButtonDict:
 			button = self.stateButtonDict[self.MEMBER_BUTTON_EXPEL]
 			button.SetPosition(xPos, y)
 			button.Show()
@@ -238,7 +238,7 @@ class PartyMemberInfoBoard(ui.ScriptWindow):
 			button.Hide()
 
 	def __GetAffectNumber(self, img):
-		for i in xrange(self.partyAffectImageList):
+		for i in range(self.partyAffectImageList):
 			if img == self.partyAffectImageList[i]:
 				return i
 
@@ -275,7 +275,7 @@ class PartyMemberInfoBoard(ui.ScriptWindow):
 		self.stateButton.Show()
 
 		name = self.MEMBER_BUTTON_IMAGE_FILE_NAME_DICT[self.MEMBER_BUTTON_NORMAL]
-		if self.MEMBER_BUTTON_IMAGE_FILE_NAME_DICT.has_key(state):
+		if state in self.MEMBER_BUTTON_IMAGE_FILE_NAME_DICT:
 			name = self.MEMBER_BUTTON_IMAGE_FILE_NAME_DICT[state]
 
 		self.stateButton.SetUpVisual(self.MEMBER_BUTTON_PATH + name + "_01.sub")
@@ -371,9 +371,9 @@ class PartyMemberInfoBoard(ui.ScriptWindow):
 
 	def OnAffectOverIn(self, index):
 
-		if not self.AFFECT_STRING_DICT.has_key(index):
+		if index not in self.AFFECT_STRING_DICT:
 			return
-		if not self.affectValueDict.has_key(index):
+		if index not in self.affectValueDict:
 			return
 
 		(x, y) = self.GetGlobalPosition()
@@ -486,14 +486,14 @@ class PartyMenu(ui.ThinBoard):
 		self.UpdateRect()
 
 	def __ShowButton(self, name):
-		if not self.buttonDict.has_key(name):
+		if name not in self.buttonDict:
 			return
 
 		self.showingButtonList.append(self.buttonDict[name])
 		self.__ArrangeButtons()
 
 	def __HideButton(self, name):
-		if not self.buttonDict.has_key(name):
+		if name not in self.buttonDict:
 			return
 
 		searchingButton = self.buttonDict[name]
@@ -543,7 +543,7 @@ class PartyMenu(ui.ThinBoard):
 	def ChangePartyParameter(self, distributionMode):
 		try:
 			self.__SetModeButton(distributionMode)
-		except:
+		except Exception:
 			pass
 
 class PartyWindow(ui.Window):
@@ -560,7 +560,7 @@ class PartyWindow(ui.Window):
 	def __del__(self):
 		ui.Window.__del__(self)
 
-		print " =============================== DESTROIED PartyWindow"
+		print(" =============================== DESTROIED PartyWindow")
 
 	def Destroy(self):
 		self.DestroyPartyMemberInfoBoard()
@@ -650,7 +650,7 @@ class PartyWindow(ui.Window):
 
 		board.SetCharacterState(state)
 		board.SetCharacterHP(hpPercentage)
-		for i in xrange(len(affectsList)):
+		for i in range(len(affectsList)):
 			board.SetAffect(i, affectsList[i])
 
 		vid = board.GetCharacterVID()

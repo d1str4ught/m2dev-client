@@ -17,7 +17,7 @@ import stringCommander
 import emotion
 
 ####################################
-# ºü¸¥ ½ÇÇàÀ» À§ÇÑ ¸ðµâ ·Îµù ºÐ´ã
+#     Îµ Ð´
 ####################################
 import uiRefine
 import uiToolTip
@@ -37,7 +37,7 @@ import uiRestart
 
 class LoadingWindow(ui.ScriptWindow):
 	def __init__(self, stream):
-		print "NEW LOADING WINDOW -------------------------------------------------------------------------------"
+		print("NEW LOADING WINDOW -------------------------------------------------------------------------------")
 		ui.Window.__init__(self)
 		net.SetPhaseWindow(net.PHASE_WINDOW_LOAD, self)
 
@@ -51,19 +51,19 @@ class LoadingWindow(ui.ScriptWindow):
 		self.loadStepList=[]
 
 	def __del__(self):
-		print "---------------------------------------------------------------------------- DELETE LOADING WINDOW"
+		print("---------------------------------------------------------------------------- DELETE LOADING WINDOW")
 		net.SetPhaseWindow(net.PHASE_WINDOW_LOAD, 0)
 		ui.Window.__del__(self)
 
 	def Open(self):
-		print "OPEN LOADING WINDOW -------------------------------------------------------------------------------"
+		print("OPEN LOADING WINDOW -------------------------------------------------------------------------------")
 
 		#app.HideCursor()
 
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/LoadingWindow.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("LodingWindow.Open - LoadScriptFile Error")
 
@@ -71,7 +71,7 @@ class LoadingWindow(ui.ScriptWindow):
 			self.loadingImage=self.GetChild("BackGround")
 			self.errMsg=self.GetChild("ErrorMessage")
 			self.loadingGage=self.GetChild("FullGage")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("LodingWindow.Open - LoadScriptFile Error")
 
@@ -113,8 +113,8 @@ class LoadingWindow(ui.ScriptWindow):
 			imgFileName = imgFileNameDict[app.GetRandom(0, len(imgFileNameDict) - 1)]
 			self.loadingImage.LoadImage(imgFileName)
 
-		except:
-			print "LoadingWindow.Open.LoadImage - %s File Load Error" % (imgFileName)
+		except Exception:
+			print("LoadingWindow.Open.LoadImage - %s File Load Error" % (imgFileName))
 			self.loadingImage.Hide()
 
 
@@ -132,7 +132,7 @@ class LoadingWindow(ui.ScriptWindow):
 		app.SetFrameSkip(0)
 
 	def Close(self):
-		print "---------------------------------------------------------------------------- CLOSE LOADING WINDOW"
+		print("---------------------------------------------------------------------------- CLOSE LOADING WINDOW")
 
 		app.SetFrameSkip(1)
 
@@ -156,13 +156,13 @@ class LoadingWindow(ui.ScriptWindow):
 
 	def __SetProgress(self, p):
 		if self.loadingGage:
-			self.loadingGage.SetPercentage(2+98*p/100, 100)
+			self.loadingGage.SetPercentage(2+98*p//100, 100)
 
 	def DEBUG_LoadData(self, playerX, playerY):
 		self.playerX=playerX
 		self.playerY=playerY
 
-		self.__RegisterSkill() ## ·Îµù Áß°£¿¡ ½ÇÇà ÇÏ¸é ¹®Á¦ ¹ß»ý
+		self.__RegisterSkill() ## Îµ ß°  Ï¸  ß»
 		self.__RegisterTitleName()
 		self.__RegisterColor()
 		self.__InitData()
@@ -183,7 +183,7 @@ class LoadingWindow(ui.ScriptWindow):
 		self.playerY=playerY
 
 		self.__RegisterDungeonMapName()
-		self.__RegisterSkill() ## ·Îµù Áß°£¿¡ ½ÇÇà ÇÏ¸é ¹®Á¦ ¹ß»ý
+		self.__RegisterSkill() ## Îµ ß°  Ï¸  ß»
 		self.__RegisterTitleName()
 		self.__RegisterColor()
 		self.__RegisterEmotionIcon()
@@ -217,11 +217,11 @@ class LoadingWindow(ui.ScriptWindow):
 
 			try:
 				runFunc()
-			except:	
+			except Exception:
 				self.errMsg.Show()
 				self.loadStepList=[]
 
-				## ÀÌ°÷¿¡¼­ syserr.txt ¸¦ º¸³½´Ù.
+				## Ì° syserr.txt  .
 
 				import dbg
 				dbg.TraceError(" !!! Failed to load game data : STEP [%d]" % (progress))
@@ -258,7 +258,7 @@ class LoadingWindow(ui.ScriptWindow):
 		playerSettingModule.RegisterSkill(race, group, empire)
 
 	def __RegisterTitleName(self):
-		for i in xrange(len(localeInfo.TITLE_NAME_LIST)):
+		for i in range(len(localeInfo.TITLE_NAME_LIST)):
 			chrmgr.RegisterTitleName(i, localeInfo.TITLE_NAME_LIST[i])
 
 	def __RegisterColor(self):

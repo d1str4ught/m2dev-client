@@ -21,7 +21,7 @@ class CubeResultWindow(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/CubeResultWindow.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("CubeResultWindow.LoadDialog.LoadScript")
 
@@ -31,7 +31,7 @@ class CubeResultWindow(ui.ScriptWindow):
 			self.btnClose = GetObject("CloseButton")
 			self.cubeSlot = GetObject("CubeSlot")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("CubeWindow.LoadDialog.BindObject")
 
@@ -100,7 +100,7 @@ class CubeWindow(ui.ScriptWindow):
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/CubeWindow.py")
 			
-		except:
+		except Exception:
 			import exception
 			exception.Abort("CubeWindow.LoadDialog.LoadScript")
 
@@ -143,7 +143,7 @@ class CubeWindow(ui.ScriptWindow):
 
 
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("CubeWindow.LoadDialog.BindObject")
 
@@ -195,7 +195,7 @@ class CubeWindow(ui.ScriptWindow):
 			self.cubeMaterialInfos[itemIndex] = [[], [], [], [], []]
 
 		self.cubeMaterialInfos[itemIndex][orderIndex].append((itemVnum, itemCount))
-		#print "AddMaterialInfo", itemIndex, orderIndex, itemVnum, itemCount, self.cubeMaterialInfos
+		#print("AddMaterialInfo", itemIndex, orderIndex, itemVnum, itemCount, self.cubeMaterialInfos)
 
 	def ClearCubeResultItem(self):
 		self.cubeResultInfos = []
@@ -220,13 +220,13 @@ class CubeWindow(ui.ScriptWindow):
 		self.tooltipItem.SetCannotUseItemForceSetDisableColor(True)
 
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(0)
 		attrSlot = []
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			attrSlot.append((0, 0))
 
-		#print "resultIndex, firstSlotIndex", resultIndex, self.firstSlotIndex
+		#print("resultIndex, firstSlotIndex", resultIndex, self.firstSlotIndex)
 
 		resultIndex = resultIndex + self.firstSlotIndex
 		itemVnum, itemCount = self.cubeResultInfos[resultIndex]
@@ -253,7 +253,7 @@ class CubeWindow(ui.ScriptWindow):
 
 			# Do you have enough materials for crafting?
 			if player.GetItemCountByVnum(itemVnum) >= itemCount:
-				for i in xrange(player.INVENTORY_SLOT_COUNT):
+				for i in range(player.INVENTORY_SLOT_COUNT):
 					vnum = player.GetItemIndex(i)
 					count= player.GetItemCount(i)
 
@@ -267,11 +267,11 @@ class CubeWindow(ui.ScriptWindow):
 						if True == bAlreadyExists:
 							continue #continue inventory iterating
 
-						#print "Cube Status : ", self.cubeItemInfo
+						#print("Cube Status : ", self.cubeItemInfo)
 
 						# If entered here, item not registered in cube, so add to empty cube slot
 						bCanAddSlot = False
-						for slotPos in xrange(self.cubeSlot.GetSlotCount()):
+						for slotPos in range(self.cubeSlot.GetSlotCount()):
 							# Is this cube slot empty?
 							if not slotPos in self.cubeItemInfo:
 								upperColumnItemSizeY = -1
@@ -397,7 +397,7 @@ class CubeWindow(ui.ScriptWindow):
 		self.Refresh()
 
 	def Refresh(self):
-		for slotPos in xrange(self.cubeSlot.GetSlotCount()):
+		for slotPos in range(self.cubeSlot.GetSlotCount()):
 
 			if not slotPos in self.cubeItemInfo:
 				self.cubeSlot.ClearSlot(slotPos)
@@ -437,11 +437,11 @@ class CubeWindow(ui.ScriptWindow):
 			if 3 <= i:
 				break
 
-		#print "self.cubeMaterialInfos : ", self.cubeMaterialInfos
+		#print("self.cubeMaterialInfos : ", self.cubeMaterialInfos)
 		if self.firstSlotIndex in self.cubeMaterialInfos:
-			for i in xrange(self.RESULT_SLOT_COUNT):
+			for i in range(self.RESULT_SLOT_COUNT):
 				materialList = self.cubeMaterialInfos[self.firstSlotIndex + i]
-				#print "Refresh ::: ", materialList
+				#print("Refresh ::: ", materialList)
 				j = 0
 				for materialInfo in materialList:
 					if 0 < len(materialInfo):
@@ -463,7 +463,7 @@ class CubeWindow(ui.ScriptWindow):
 
 						currentSlot.SetPosition(localX, 0 + adjustLocalY)
 
-				for k in xrange(5):
+				for k in range(5):
 					if k >= j:
 						self.materialSlots[i][k].ClearSlot(0)
 
@@ -476,7 +476,7 @@ class CubeWindow(ui.ScriptWindow):
 		if self.isUsable:
 			self.isUsable = False
 
-			print "Close cube"
+			print("Close cube")
 			net.SendChatPacket("/cube close")
 
 		self.Close()
@@ -486,7 +486,7 @@ class CubeWindow(ui.ScriptWindow):
 			"Empty cube"
 			return
 		
-		print "Start cube crafting"		
+		print("Start cube crafting")
 		#for invenPos in self.cubeItemInfo.values():
 		#	net.SendChatPacket("/cube add " + str(invenPos))
 		net.SendChatPacket("/cube make")			
@@ -531,7 +531,7 @@ class CubeWindow(ui.ScriptWindow):
 
 	def __OnOverInItem(self, slotIndex):
 		if self.tooltipItem:
-			if self.cubeItemInfo.has_key(slotIndex):
+			if slotIndex in self.cubeItemInfo:
 				self.tooltipItem.SetInventoryItem(self.cubeItemInfo[slotIndex])
 
 	def __OnOverOutItem(self):

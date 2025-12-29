@@ -1,4 +1,4 @@
-﻿syserr.txt
+syserr.txt
 log.txt
 ErrorLog.txt
 *.eix
@@ -8,7 +8,9 @@ ErrorLog.txt
 /*.exe
 !/config.exe
 !/Metin2.exe
-
+.DS_Store
+**/ .DS_Store
+__pycache__/
 # =======================================================
 # FULLY CASE-INSENSITIVE BACKUP EXCLUSIONS
 # Matches all files and folders ending in:

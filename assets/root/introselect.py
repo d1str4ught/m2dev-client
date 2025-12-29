@@ -16,7 +16,7 @@ import musicInfo
 import playerSettingModule
 
 ####################################
-# ºü¸¥ ½ÇÇàÀ» À§ÇÑ ¸ðµâ ·Îµù ºÐ´ã
+#     Îµ Ð´
 ####################################
 import uiCommon                    
 import uiMapNameShower             
@@ -26,7 +26,7 @@ import uiCharacter
 import uiTarget                    
 import consoleModule               
 
-# interface moduleÀÌ ¹®Á¦¾ß...
+# interface module ...
 import interfaceModule
 import uiTaskBar                   
 import uiInventory
@@ -103,7 +103,7 @@ class SelectCharacterWindow(ui.Window):
 
 		self.curNameAlpha = []
 		self.destNameAlpha = []
-		for i in xrange(self.CHARACTER_TYPE_COUNT):
+		for i in range(self.CHARACTER_TYPE_COUNT):
 			self.curNameAlpha.append(0.0)
 			self.destNameAlpha.append(0.0)
 
@@ -209,7 +209,7 @@ class SelectCharacterWindow(ui.Window):
 
 	def SetEmpire(self, id):
 		self.empireName.SetText(self.EMPIRE_NAME.get(id, ""))
-		if self.flagDict.has_key(id):
+		if id in self.flagDict:
 			self.flagDict[id].Show()
 		
 	def HideAllFlag(self):
@@ -244,7 +244,7 @@ class SelectCharacterWindow(ui.Window):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self.dlgQuestion, fileName)
-		except:
+		except Exception:
 			import exception
 			exception.Abort("SelectCharacterWindow.LoadQuestionDialog.LoadScript")
 
@@ -253,7 +253,7 @@ class SelectCharacterWindow(ui.Window):
 			self.dlgQuestionText=GetObject("message")
 			self.dlgQuestionAcceptButton=GetObject("accept")
 			self.dlgQuestionCancelButton=GetObject("cancel")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("SelectCharacterWindow.LoadQuestionDialog.BindObject")
 
@@ -268,7 +268,7 @@ class SelectCharacterWindow(ui.Window):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self.dlgBoard, fileName)
-		except:
+		except Exception:
 			import exception
 			exception.Abort("SelectCharacterWindow.LoadBoardDialog.LoadScript")
 
@@ -311,7 +311,7 @@ class SelectCharacterWindow(ui.Window):
 
 			self.backGround = GetObject("BackGround")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("SelectCharacterWindow.LoadBoardDialog.BindObject")
 
@@ -398,7 +398,7 @@ class SelectCharacterWindow(ui.Window):
 		self.startIndex = self.slot
 		self.startReservingTime = app.GetTime()
 
-		for i in xrange(self.SLOT_COUNT):
+		for i in range(self.SLOT_COUNT):
 
 			if False == chr.HasInstance(i):
 				continue
@@ -470,7 +470,7 @@ class SelectCharacterWindow(ui.Window):
 				self.stream.SetCreateCharacterPhase()
 
 	def __AreAllSlotEmpty(self):
-		for iSlot in xrange(self.SLOT_COUNT):
+		for iSlot in range(self.SLOT_COUNT):
 			if 0!=net.GetAccountCharacterSlotDataInteger(iSlot, net.ACCOUNT_CHARACTER_SLOT_ID):
 				return 0
 		return 1
@@ -581,10 +581,10 @@ class SelectCharacterWindow(ui.Window):
 
 		chr.SelectInstance(self.slot)
 
-		for i in xrange(self.CHARACTER_TYPE_COUNT):
+		for i in range(self.CHARACTER_TYPE_COUNT):
 			self.destNameAlpha[i] = 0.0
 
-		for i in xrange(self.SLOT_COUNT):
+		for i in range(self.SLOT_COUNT):
 			self.destRotation[(i+self.slot)%self.SLOT_COUNT] = self.SLOT_ROTATION[i]
 
 		self.destGauge = [0.0, 0.0, 0.0, 0.0]
@@ -699,17 +699,17 @@ class SelectCharacterWindow(ui.Window):
 	def OnUpdate(self):
 		chr.Update()
 
-		for i in xrange(4):
+		for i in range(4):
 			self.curGauge[i] += (self.destGauge[i] - self.curGauge[i]) / 10.0
 			if abs(self.curGauge[i] - self.destGauge[i]) < 0.005:
 				self.curGauge[i] = self.destGauge[i]
 			self.GaugeList[i].SetPercentage(self.curGauge[i], 1.0)
 
-		for i in xrange(self.CHARACTER_TYPE_COUNT):
+		for i in range(self.CHARACTER_TYPE_COUNT):
 			self.curNameAlpha[i] += (self.destNameAlpha[i] - self.curNameAlpha[i]) / 10.0
 			self.NameList[i].SetAlpha(self.curNameAlpha[i])
 
-		for i in xrange(self.SLOT_COUNT):
+		for i in range(self.SLOT_COUNT):
 
 			if False == chr.HasInstance(i):
 				continue
@@ -738,7 +738,7 @@ class SelectCharacterWindow(ui.Window):
 		if -1 != self.startIndex:
 
 			## Temporary
-			## BackGroundLoadingÀÌ Áö¿ø µÉ¶§±îÁö ÀÓ½Ã·Î..
+			## BackGroundLoading  É¶ Ó½Ã·..
 			if app.GetTime() - self.startReservingTime > 3.0:
 				if False == self.openLoadingFlag:
 					chrSlot=self.stream.GetCharacterSlot()
@@ -750,7 +750,7 @@ class SelectCharacterWindow(ui.Window):
 					import player
 					player.SetPlayTime(playTime)
 					import chat
-					chat.Clear() ## µé¾î°¥¶§ Chat À» ÃÊ±âÈ­. ÀÓ½Ã Pos.
+					chat.Clear() ## î°¥ Chat  Ê±È­. Ó½ Pos.
 			## Temporary
 		#######################################################
 

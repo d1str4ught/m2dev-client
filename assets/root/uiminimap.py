@@ -84,14 +84,14 @@ class AtlasWindow(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/AtlasWindow.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("AtlasWindow.LoadWindow.LoadScript")
 
 		try:
 			self.board = self.GetChild("board")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("AtlasWindow.LoadWindow.BindObject")
 
@@ -272,7 +272,7 @@ class MiniMap(ui.ScriptWindow):
 		self.mapName=mapName
 		self.AtlasWindow.SetMapName(mapName)
 
-		if self.CANNOT_SEE_INFO_MAP_DICT.has_key(mapName):
+		if mapName in self.CANNOT_SEE_INFO_MAP_DICT:
 			self.canSeeInfo = False
 			self.HideMiniMap()
 			self.tooltipMiniMapOpen.SetText(localeInfo.MINIMAP_CANNOT_SEE)
@@ -314,7 +314,7 @@ class MiniMap(ui.ScriptWindow):
 				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "Minimap.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "UIScript/MiniMap.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("MiniMap.LoadWindow.LoadScript")
 
@@ -330,7 +330,7 @@ class MiniMap(ui.ScriptWindow):
 			self.positionInfo = self.GetChild("PositionInfo")
 			self.observerCount = self.GetChild("ObserverCount")
 			self.serverInfo = self.GetChild("ServerInfo")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("MiniMap.LoadWindow.Bind")
 
@@ -385,7 +385,7 @@ class MiniMap(ui.ScriptWindow):
 		(x, y, z) = player.GetMainCharacterPosition()
 		miniMap.Update(x, y)
 
-		self.positionInfo.SetText("(%.0f, %.0f)" % (x/100, y/100))
+		self.positionInfo.SetText("(%.0f, %.0f)" % (x//100, y//100))
 
 		if self.tooltipInfo:
 			if True == self.MiniMapWindow.IsIn():

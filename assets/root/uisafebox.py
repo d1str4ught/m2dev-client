@@ -23,7 +23,7 @@ class PasswordDialog(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "uiscript/passworddialog.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PasswordDialog.__LoadDialog.LoadObject")
 
@@ -33,7 +33,7 @@ class PasswordDialog(ui.ScriptWindow):
 			self.cancelButton = self.GetChild("cancel_button")
 			self.titleName = self.GetChild("TitleName")
 			self.GetChild("titlebar").SetCloseEvent(ui.__mem_func__(self.CloseDialog))
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PasswordDialog.__LoadDialog.BindObject")
 
@@ -89,7 +89,7 @@ class ChangePasswordDialog(ui.ScriptWindow):
 			pyScrLoader.LoadScriptFile(self.dlgMessage, "uiscript/popupdialog.py")
 			self.dlgMessage.GetChild("message").SetText(localeInfo.SAFEBOX_WRONG_PASSWORD)
 			self.dlgMessage.GetChild("accept").SetEvent(ui.__mem_func__(self.OnCloseMessageDialog))
-		except:
+		except Exception:
 			import exception
 			exception.Abort("SafeboxWindow.__LoadDialog.LoadObject")
 
@@ -98,7 +98,7 @@ class ChangePasswordDialog(ui.ScriptWindow):
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "uiscript/changepassworddialog.py")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("ChangePasswordDialog.LoadDialog.LoadObject")
 
@@ -109,7 +109,7 @@ class ChangePasswordDialog(ui.ScriptWindow):
 			oldPassword = self.GetChild("old_password_value")
 			newPassword = self.GetChild("new_password_value")
 			newPasswordCheck = self.GetChild("new_password_check_value")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("ChangePasswordDialog.LoadDialog.BindObject")
 
@@ -313,7 +313,7 @@ class SafeboxWindow(ui.ScriptWindow):
 
 		text = "I"
 		pos = -int(float(pageCount-1)/2 * 52)
-		for i in xrange(pageCount):
+		for i in range(pageCount):
 			button = ui.RadioButton()
 			button.SetParent(self)
 			button.SetUpVisual("d:/ymir work/ui/game/windows/tab_button_middle_01.sub")
@@ -367,7 +367,7 @@ class SafeboxWindow(ui.ScriptWindow):
 		getItemCount=safebox.GetItemCount
 		setItemID=self.wndItem.SetItemSlot
 
-		for i in xrange(safebox.SAFEBOX_PAGE_SIZE):
+		for i in range(safebox.SAFEBOX_PAGE_SIZE):
 			slotIndex = self.__LocalPosToGlobalPos(i)
 			itemCount = getItemCount(slotIndex)
 			if itemCount <= 1:
@@ -410,7 +410,7 @@ class SafeboxWindow(ui.ScriptWindow):
 				itemVnum = player.GetItemIndex(attachedSlotPos)
 
 				if constInfo.IS_AUTO_POTION(itemVnum):
-					metinSocket = [player.GetItemMetinSocket(attachedSlotPos, j) for j in xrange(player.METIN_SOCKET_MAX_NUM)]
+					metinSocket = [player.GetItemMetinSocket(attachedSlotPos, j) for j in range(player.METIN_SOCKET_MAX_NUM)]
 					isActivated = (0 != int(metinSocket[0]))
 
 					if isActivated:
@@ -597,7 +597,7 @@ class MallWindow(ui.ScriptWindow):
 		getItemCount=safebox.GetMallItemCount
 		setItemID=self.wndItem.SetItemSlot
 
-		for i in xrange(safebox.GetMallSize()):
+		for i in range(safebox.GetMallSize()):
 			itemID = getItemID(i)
 			itemCount = getItemCount(i)
 			if itemCount <= 1:

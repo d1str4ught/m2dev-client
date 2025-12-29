@@ -21,7 +21,7 @@ class AutoBanQuizWindow(ui.ScriptWindow):
 		try:			
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "AutoBanQuiz.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("AutoBanQuiz.LoadDialog.LoadScript")
 
@@ -41,7 +41,7 @@ class AutoBanQuizWindow(ui.ScriptWindow):
 			self.statusText = GetObject("status")
 			self.answerButton = GetObject("answer")
 			self.refreshButton = GetObject("refresh")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("AutoBanQuiz.LoadDialog.BindObject")
 
@@ -111,18 +111,18 @@ class AutoBanQuizWindow(ui.ScriptWindow):
 		self.selButtons[index].Down()
 		self.answer = index + 1
 		
-		print "autoban_select: %d" % (self.answer)
+		print("autoban_select: %d" % (self.answer))
 
 	def __OnClickAnswerButton(self):
 		if self.answer:
-			print "autoban_answer: %d" % (self.answer)
+			print("autoban_answer: %d" % (self.answer))
 			net.SendChatPacket("/autoban_answer %d" % (self.answer))
 			self.Close()
 		else:
-			print "autoban_noanswer"
+			print("autoban_noanswer")
 		
 	def __OnClickRefreshButton(self):
-		print "autoban_refresh"
+		print("autoban_refresh")
 		net.SendChatPacket("/autoban_refresh")				
 
 	def OnPressEscapeKey(self):

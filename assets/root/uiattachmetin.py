@@ -20,7 +20,7 @@ class AttachMetinDialog(ui.ScriptWindow):
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "uiscript/attachstonedialog.py")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("AttachStoneDialog.__LoadScript.LoadObject")
 
@@ -30,7 +30,7 @@ class AttachMetinDialog(ui.ScriptWindow):
 			self.metinImage = self.GetChild("MetinImage")
 			self.GetChild("AcceptButton").SetEvent(ui.__mem_func__(self.Accept))
 			self.GetChild("CancelButton").SetEvent(ui.__mem_func__(self.Close))
-		except:
+		except Exception:
 			import exception
 			exception.Abort("AttachStoneDialog.__LoadScript.BindObject")
 
@@ -83,12 +83,12 @@ class AttachMetinDialog(ui.ScriptWindow):
 		## Metin Image
 		try:
 			self.metinImage.LoadImage(item.GetIconImageFileName())
-		except:
+		except Exception:
 			dbg.TraceError("AttachMetinDialog.Open.LoadImage - Failed to find item data")
 
 		## Old Item ToolTip
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(player.GetItemMetinSocket(targetItemPos, i))
 		self.oldToolTip.AddItemData(itemIndex, metinSlot)
 
@@ -97,9 +97,9 @@ class AttachMetinDialog(ui.ScriptWindow):
 		metinSubType = item.GetItemSubType()
 
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(player.GetItemMetinSocket(targetItemPos, i))
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			slotData = metinSlot[i]
 			if self.CanAttachMetin(slotData, metinSubType):
 				metinSlot[i] = metinIndex

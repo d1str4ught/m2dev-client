@@ -320,8 +320,8 @@ if __name__ == "__main__":
 
 	wnd = BigBoard()
 	wnd.Show()
-	wnd.SetTip("¾È³çÇÏ¼¼¿ä")
-	wnd.SetTip("Àú´Â ºøÀÚ·ç ÀÔ´Ï´Ù")
+	wnd.SetTip("Â¾ÃˆÂ³Ã§Ã‡ÃÂ¼Â¼Â¿Ã¤")
+	wnd.SetTip("Ã€ÃºÂ´Ã‚ ÂºÃ¸Ã€ÃšÂ·Ã§ Ã€Ã”Â´ÃÂ´Ã™")
 
 	app.Loop()
 

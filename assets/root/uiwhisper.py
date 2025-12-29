@@ -56,21 +56,21 @@ class WhisperDialog(ui.ScriptWindow):
 			app.SetCursor(app.NORMAL)
 
 	def __init__(self, eventMinimize, eventClose):
-		print "NEW WHISPER DIALOG  ----------------------------------------------------------------------------"
+		print("NEW WHISPER DIALOG  ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 		self.targetName = ""
 		self.eventMinimize = eventMinimize
 		self.eventClose = eventClose
 		self.eventAcceptTarget = None
 	def __del__(self):
-		print "---------------------------------------------------------------------------- DELETE WHISPER DIALOG"
+		print("---------------------------------------------------------------------------- DELETE WHISPER DIALOG")
 		ui.ScriptWindow.__del__(self)		
 
 	def LoadDialog(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/WhisperDialog.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("WhisperDialog.LoadDialog.LoadScript")
 
@@ -89,7 +89,7 @@ class WhisperDialog(ui.ScriptWindow):
 			self.board = GetObject("board")
 			self.editBar = GetObject("editbar")
 			self.gamemasterMark = GetObject("gamemastermark")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("DialogWindow.LoadDialog.BindObject")
 
@@ -195,7 +195,7 @@ class WhisperDialog(ui.ScriptWindow):
 
 			self.SetChatLineMax(max)
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("WhisperDialog.SetWhisperDialogSize.BindObject")
 

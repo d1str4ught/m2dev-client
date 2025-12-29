@@ -27,7 +27,7 @@ class OptionDialog(ui.ScriptWindow):
 
 	def __del__(self):
 		ui.ScriptWindow.__del__(self)
-		print " -------------------------------------- DELETE SYSTEM OPTION DIALOG"
+		print(" -------------------------------------- DELETE SYSTEM OPTION DIALOG")
 
 	def __Initialize(self):
 		self.tilingMode = 0
@@ -47,13 +47,13 @@ class OptionDialog(ui.ScriptWindow):
 		self.ClearDictionary()
 
 		self.__Initialize()
-		print " -------------------------------------- DESTROY SYSTEM OPTION DIALOG"
+		print(" -------------------------------------- DESTROY SYSTEM OPTION DIALOG")
 
 	def __Load_LoadScript(self, fileName):
 		try:
 			pyScriptLoader = ui.PythonScriptLoader()
 			pyScriptLoader.LoadScriptFile(self, fileName)
-		except:
+		except Exception:
 			import exception
 			exception.Abort("System.OptionDialog.__Load_LoadScript")
 
@@ -74,7 +74,7 @@ class OptionDialog(ui.ScriptWindow):
 			self.tilingModeButtonList.append(GetObject("tiling_gpu"))
 			self.tilingApplyButton=GetObject("tiling_apply")
 			#self.ctrlShadowQuality = GetObject("shadow_bar")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("OptionDialog.__Load_BindObject")
 

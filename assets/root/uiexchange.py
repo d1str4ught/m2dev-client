@@ -65,7 +65,7 @@ class ExchangeDialog(ui.ScriptWindow):
 		self.GetChild("TitleBar").SetCloseEvent(net.SendExchangeExitPacket)
 
 	def Destroy(self):
-		print "---------------------------------------------------------------------------- DESTROY EXCHANGE"
+		print("---------------------------------------------------------------------------- DESTROY EXCHANGE")
 		self.ClearDictionary()
 		self.dlgPickMoney.Destroy()
 		self.dlgPickMoney = 0
@@ -138,7 +138,7 @@ class ExchangeDialog(ui.ScriptWindow):
 					itemVnum = player.GetItemIndex(attachedInvenType, SrcSlotNumber)
 
 					if constInfo.IS_AUTO_POTION(itemVnum):
-						metinSocket = [player.GetItemMetinSocket(attachedInvenType, SrcSlotNumber, j) for j in xrange(player.METIN_SOCKET_MAX_NUM)]
+						metinSocket = [player.GetItemMetinSocket(attachedInvenType, SrcSlotNumber, j) for j in range(player.METIN_SOCKET_MAX_NUM)]
 						isActivated = (0 != int(metinSocket[0]))
 
 						if isActivated:
@@ -163,7 +163,7 @@ class ExchangeDialog(ui.ScriptWindow):
 			net.SendExchangeElkAddPacket(money)
 
 	def RefreshOwnerSlot(self):
-		for i in xrange(exchange.EXCHANGE_ITEM_MAX_NUM):
+		for i in range(exchange.EXCHANGE_ITEM_MAX_NUM):
 			itemIndex = exchange.GetItemVnumFromSelf(i)
 			itemCount = exchange.GetItemCountFromSelf(i)
 			if 1 == itemCount:
@@ -172,7 +172,7 @@ class ExchangeDialog(ui.ScriptWindow):
 		self.OwnerSlot.RefreshSlot()
 
 	def RefreshTargetSlot(self):
-		for i in xrange(exchange.EXCHANGE_ITEM_MAX_NUM):
+		for i in range(exchange.EXCHANGE_ITEM_MAX_NUM):
 			itemIndex = exchange.GetItemVnumFromTarget(i)
 			itemCount = exchange.GetItemCountFromTarget(i)
 			if 1 == itemCount:

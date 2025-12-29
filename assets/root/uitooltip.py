@@ -127,7 +127,7 @@ class ToolTip(ui.ThinBoard):
 
 	def AppendHorizontalLine(self):
 
-		for i in xrange(2):
+		for i in range(2):
 			horizontalLine = ui.Line()
 			horizontalLine.SetParent(self)
 			horizontalLine.SetPosition(0, self.toolTipHeight + 3 + i)
@@ -216,7 +216,7 @@ class ToolTip(ui.ThinBoard):
 			return
 
 		lineCount = grpText.GetSplitingTextLineCount(description, characterLimitation)
-		for i in xrange(lineCount):
+		for i in range(lineCount):
 			if 0 == i:
 				self.AppendSpace(5)
 			self.AppendTextLine(grpText.GetSplitingTextLine(description, characterLimitation, i), color)
@@ -287,16 +287,16 @@ class ToolTip(ui.ThinBoard):
 			else:
 				y = mouseY - height - 30
 
-			x = mouseX - width/2				
+			x = mouseX - width//2				
 
 		else:
 
-			x = self.xPos - width/2
+			x = self.xPos - width//2
 			y = self.yPos - height
 
 		x = max(x, 0)
 		y = max(y, 0)
-		x = min(x + width/2, wndMgr.GetScreenWidth() - width/2) - width/2
+		x = min(x + width//2, wndMgr.GetScreenWidth() - width//2) - width//2
 		y = min(y + self.GetHeight(), wndMgr.GetScreenHeight()) - self.GetHeight()
 
 		parentWindow = self.GetParentProxy()
@@ -472,7 +472,7 @@ class ItemToolTip(ToolTip):
 
 		race = player.GetRace()
 		job = chr.RaceToJob(race)
-		if not self.ANTI_FLAG_DICT.has_key(job):
+		if job not in self.ANTI_FLAG_DICT:
 			return False
 
 		if item.IsAntiFlag(self.ANTI_FLAG_DICT[job]):
@@ -489,7 +489,7 @@ class ItemToolTip(ToolTip):
 		if item.IsAntiFlag(item.ITEM_ANTIFLAG_FEMALE) and sex == FEMALE:
 			return False
 
-		for i in xrange(item.LIMIT_MAX_NUM):
+		for i in range(item.LIMIT_MAX_NUM):
 			(limitType, limitValue) = item.GetLimit(i)
 
 			if item.LIMIT_LEVEL == limitType:
@@ -534,8 +534,8 @@ class ItemToolTip(ToolTip):
 				item.SelectItem(itemVnum)
 				self.AppendSellingPrice(player.GetISellItemPrice(window_type, slotIndex))
 
-		metinSlot = [player.GetItemMetinSocket(window_type, slotIndex, i) for i in xrange(player.METIN_SOCKET_MAX_NUM)]
-		attrSlot = [player.GetItemAttribute(window_type, slotIndex, i) for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM)]
+		metinSlot = [player.GetItemMetinSocket(window_type, slotIndex, i) for i in range(player.METIN_SOCKET_MAX_NUM)]
+		attrSlot = [player.GetItemAttribute(window_type, slotIndex, i) for i in range(player.ATTRIBUTE_SLOT_MAX_NUM)]
 
 		self.AddItemData(itemVnum, metinSlot, attrSlot)
 
@@ -549,10 +549,10 @@ class ItemToolTip(ToolTip):
 		self.isShopItem = True
 
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(shop.GetItemMetinSocket(slotIndex, i))
 		attrSlot = []
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			attrSlot.append(shop.GetItemAttribute(slotIndex, i))
 
 		self.AddItemData(itemVnum, metinSlot, attrSlot)
@@ -568,10 +568,10 @@ class ItemToolTip(ToolTip):
 		self.isShopItem = True
 
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(shop.GetItemMetinSocket(slotIndex, i))
 		attrSlot = []
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			attrSlot.append(shop.GetItemAttribute(slotIndex, i))
 
 		self.AddItemData(itemVnum, metinSlot, attrSlot)
@@ -585,10 +585,10 @@ class ItemToolTip(ToolTip):
 		self.ClearToolTip()
 
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(exchange.GetItemMetinSocketFromSelf(slotIndex, i))
 		attrSlot = []
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			attrSlot.append(exchange.GetItemAttributeFromSelf(slotIndex, i))
 		self.AddItemData(itemVnum, metinSlot, attrSlot)
 
@@ -600,10 +600,10 @@ class ItemToolTip(ToolTip):
 		self.ClearToolTip()
 
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(exchange.GetItemMetinSocketFromTarget(slotIndex, i))
 		attrSlot = []
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			attrSlot.append(exchange.GetItemAttributeFromTarget(slotIndex, i))
 		self.AddItemData(itemVnum, metinSlot, attrSlot)
 
@@ -617,10 +617,10 @@ class ItemToolTip(ToolTip):
 		self.AppendSellingPrice(shop.GetPrivateShopItemPrice(invenType, invenPos))
 
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(player.GetItemMetinSocket(invenPos, i))
 		attrSlot = []
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			attrSlot.append(player.GetItemAttribute(invenPos, i))
 
 		self.AddItemData(itemVnum, metinSlot, attrSlot)
@@ -632,10 +632,10 @@ class ItemToolTip(ToolTip):
 
 		self.ClearToolTip()
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(safebox.GetItemMetinSocket(slotIndex, i))
 		attrSlot = []
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			attrSlot.append(safebox.GetItemAttribute(slotIndex, i))
 		
 		self.AddItemData(itemVnum, metinSlot, attrSlot, safebox.GetItemFlags(slotIndex))
@@ -647,10 +647,10 @@ class ItemToolTip(ToolTip):
 
 		self.ClearToolTip()
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(safebox.GetMallItemMetinSocket(slotIndex, i))
 		attrSlot = []
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			attrSlot.append(safebox.GetMallItemAttribute(slotIndex, i))
 
 		self.AddItemData(itemVnum, metinSlot, attrSlot)
@@ -658,10 +658,10 @@ class ItemToolTip(ToolTip):
 	def SetItemToolTip(self, itemVnum):
 		self.ClearToolTip()
 		metinSlot = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(0)
 		attrSlot = []
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			attrSlot.append((0, 0))
 
 		self.AddItemData(itemVnum, metinSlot, attrSlot)
@@ -715,7 +715,7 @@ class ItemToolTip(ToolTip):
 	def __AppendAttributeInformation(self, attrSlot):
 		if 0 != attrSlot:
 
-			for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+			for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 				type = attrSlot[i][0]
 				value = attrSlot[i][1]
 
@@ -769,7 +769,7 @@ class ItemToolTip(ToolTip):
 		if not attrSlot:
 			return False
 
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			type = attrSlot[i][0]
 			if 0 != type:
 				return True
@@ -777,7 +777,7 @@ class ItemToolTip(ToolTip):
 		return False
 	
 	def AddRefineItemData(self, itemVnum, metinSlot, attrSlot = 0):
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlotData=metinSlot[i]
 			if self.GetMetinItemIndex(metinSlotData) == constInfo.ERROR_METIN_STONE:
 				metinSlot[i]=player.METIN_SOCKET_TYPE_SILVER
@@ -937,7 +937,7 @@ class ItemToolTip(ToolTip):
 			bHasRealtimeFlag = 0
 			
 			# # Find out if there is limited time remaining
-			for i in xrange(item.LIMIT_MAX_NUM):
+			for i in range(item.LIMIT_MAX_NUM):
 				(limitType, limitValue) = item.GetLimit(i)
 
 				if item.LIMIT_REAL_TIME == limitType:
@@ -951,7 +951,7 @@ class ItemToolTip(ToolTip):
 		## Rod ##
 		elif item.ITEM_TYPE_ROD == itemType:
 			if 0 != metinSlot:
-				curLevel = item.GetValue(0) / 10
+				curLevel = item.GetValue(0) // 10
 				curEXP = metinSlot[0]
 				maxEXP = item.GetValue(2)
 				self.__AppendLimitInformation()
@@ -961,7 +961,7 @@ class ItemToolTip(ToolTip):
 		elif item.ITEM_TYPE_PICK == itemType:
 
 			if 0 != metinSlot:
-				curLevel = item.GetValue(0) / 10
+				curLevel = item.GetValue(0) // 10
 				curEXP = metinSlot[0]
 				maxEXP = item.GetValue(2)
 				self.__AppendLimitInformation()
@@ -1002,7 +1002,7 @@ class ItemToolTip(ToolTip):
 				self.AppendTextLine(affectText, self.NORMAL_COLOR)
 
 				if time > 0:
-					minute = (time / 60)
+					minute = (time // 60)
 					second = (time % 60)
 					timeString = localeInfo.TOOLTIP_POTION_TIME
 
@@ -1021,7 +1021,7 @@ class ItemToolTip(ToolTip):
 			if 0 != metinSlot:
 				bHasRealtimeFlag = 0
 				
-				for i in xrange(item.LIMIT_MAX_NUM):
+				for i in range(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(i)
 
 					if item.LIMIT_REAL_TIME == limitType:
@@ -1106,7 +1106,7 @@ class ItemToolTip(ToolTip):
 			#####
 			if item.USE_SPECIAL == itemSubType:
 				bHasRealtimeFlag = 0
-				for i in xrange(item.LIMIT_MAX_NUM):
+				for i in range(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(i)
 
 					if item.LIMIT_REAL_TIME == limitType:
@@ -1128,7 +1128,7 @@ class ItemToolTip(ToolTip):
 			elif item.USE_TIME_CHARGE_PER == itemSubType:
 				bHasRealtimeFlag = 0
 
-				for i in xrange(item.LIMIT_MAX_NUM):
+				for i in range(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(i)
 
 					if item.LIMIT_REAL_TIME == limitType:
@@ -1145,7 +1145,7 @@ class ItemToolTip(ToolTip):
 
 			elif item.USE_TIME_CHARGE_FIX == itemSubType:
 				bHasRealtimeFlag = 0
-				for i in xrange(item.LIMIT_MAX_NUM):
+				for i in range(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(i)
 
 					if item.LIMIT_REAL_TIME == limitType:
@@ -1160,7 +1160,7 @@ class ItemToolTip(ToolTip):
 					self.AppendMallItemLastTime(metinSlot[0])
 
 		elif item.ITEM_TYPE_QUEST == itemType:
-			for i in xrange(item.LIMIT_MAX_NUM):
+			for i in range(item.LIMIT_MAX_NUM):
 				(limitType, limitValue) = item.GetLimit(i)
 
 				if item.LIMIT_REAL_TIME == limitType:
@@ -1171,7 +1171,7 @@ class ItemToolTip(ToolTip):
 		else:
 			self.__AppendLimitInformation()
 
-		for i in xrange(item.LIMIT_MAX_NUM):
+		for i in range(item.LIMIT_MAX_NUM):
 			(limitType, limitValue) = item.GetLimit(i)
 			#dbg.TraceError("LimitType : %d, limitValue : %d" % (limitType, limitValue))
 			
@@ -1188,8 +1188,8 @@ class ItemToolTip(ToolTip):
 		self.ShowToolTip()
 
 	def __DragonSoulInfoString (self, dwVnum):
-		step = (dwVnum / 100) % 10
-		refine = (dwVnum / 10) % 10
+		step = (dwVnum // 100) % 10
+		refine = (dwVnum // 10) % 10
 		if 0 == step:
 			return localeInfo.DRAGON_SOUL_STEP_LEVEL1 + " " + localeInfo.DRAGON_SOUL_STRENGTH(refine)
 		elif 1 == step:
@@ -1248,9 +1248,9 @@ class ItemToolTip(ToolTip):
 		elif self.__IsCostumeHair(itemVnum):
 			itemImage.LoadImage("icon/hair/%d.sub" % (itemVnum - 100000))
 
-		itemImage.SetPosition(itemImage.GetWidth()/2, self.toolTipHeight)
+		itemImage.SetPosition(itemImage.GetWidth()//2, self.toolTipHeight)
 		self.toolTipHeight += itemImage.GetHeight()
-		#self.toolTipWidth += itemImage.GetWidth()/2
+		#self.toolTipWidth += itemImage.GetWidth()//2
 		self.childrenList.append(itemImage)
 		self.ResizeToolTip()
 
@@ -1268,10 +1268,10 @@ class ItemToolTip(ToolTip):
 			return self.toolTipWidth
 
 		maxWidth = self.toolTipWidth
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			type = attrSlot[i][0]
 			value = attrSlot[i][1]
-			if self.ATTRIBUTE_NEED_WIDTH.has_key(type):
+			if type in self.ATTRIBUTE_NEED_WIDTH:
 				if value > 0:
 					maxWidth = max(self.ATTRIBUTE_NEED_WIDTH[type], maxWidth)
 
@@ -1324,7 +1324,7 @@ class ItemToolTip(ToolTip):
 
 		appendSpace = False
 
-		for i in xrange(item.LIMIT_MAX_NUM):
+		for i in range(item.LIMIT_MAX_NUM):
 
 			(limitType, limitValue) = item.GetLimit(i)
 
@@ -1380,7 +1380,7 @@ class ItemToolTip(ToolTip):
 			return "UNKNOWN_TYPE[%s] %s" % (affectType, affectValue)
 
 	def __AppendAffectInformation(self):
-		for i in xrange(item.ITEM_APPLY_MAX_NUM):
+		for i in range(item.ITEM_APPLY_MAX_NUM):
 
 			(affectType, affectValue) = item.GetAffect(i)
 
@@ -1400,7 +1400,7 @@ class ItemToolTip(ToolTip):
 			not item.IsAntiFlag(item.ITEM_ANTIFLAG_SHAMAN))
 
 		characterNames = ""
-		for i in xrange(self.CHARACTER_COUNT):
+		for i in range(self.CHARACTER_COUNT):
 
 			name = self.CHARACTER_NAMES[i]
 			flag = flagList[i]
@@ -1454,7 +1454,7 @@ class ItemToolTip(ToolTip):
 			self.AppendTextLine(localeInfo.TOOLTIP_POTION_PLUS_MOVING_SPEED % point, self.GetChangeTextLineColor(point))
 
 		if time > 0:
-			minute = (time / 60)
+			minute = (time // 60)
 			second = (time % 60)
 			timeString = localeInfo.TOOLTIP_POTION_TIME
 
@@ -1517,7 +1517,7 @@ class ItemToolTip(ToolTip):
 					item.IsWearableFlag(item.WEARABLE_ARROW))
 
 		wearNames = ""
-		for i in xrange(self.WEAR_COUNT):
+		for i in range(self.WEAR_COUNT):
 
 			name = self.WEAR_NAMES[i]
 			flag = flagList[i]
@@ -1598,14 +1598,14 @@ class ItemToolTip(ToolTip):
 		if self.__AppendMetinSlotInfo_IsEmptySlotList(metinSlot):
 			return
 
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			self.__AppendMetinSlotInfo_AppendMetinSocketData(i, metinSlot[i])
 
 	def __AppendMetinSlotInfo_IsEmptySlotList(self, metinSlot):
 		if 0 == metinSlot:
 			return 1
 
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			metinSlotData=metinSlot[i]
 			if 0 != self.GetMetinSocketType(metinSlotData):
 				if 0 != self.GetMetinItemIndex(metinSlotData):
@@ -1664,7 +1664,7 @@ class ItemToolTip(ToolTip):
 			## Image
 			try:
 				metinImage.LoadImage(item.GetIconImageFileName())
-			except:
+			except Exception:
 				dbg.TraceError("ItemToolTip.__AppendMetinSocketData() - Failed to find image file %d:%s" % 
 					(itemIndex, item.GetIconImageFileName())
 				)
@@ -1971,7 +1971,7 @@ class SkillToolTip(ToolTip):
 		self.__AppendSkillGradeName(skillIndex, skillGrade)
 
 	def __AppendSkillGradeName(self, skillIndex, skillGrade):		
-		if self.SKILL_GRADE_NAME.has_key(skillGrade):
+		if skillGrade in self.SKILL_GRADE_NAME:
 			self.AppendSpace(5)
 			self.AppendTextLine(self.SKILL_GRADE_NAME[skillGrade] % (skill.GetSkillName(skillIndex, 0)), self.CAN_LEVEL_UP_COLOR)
 
@@ -2031,7 +2031,7 @@ class SkillToolTip(ToolTip):
 		conditionDataCount = skill.GetSkillConditionDescriptionCount(skillIndex)
 		if conditionDataCount > 0:
 			self.AppendSpace(5)
-			for i in xrange(conditionDataCount):
+			for i in range(conditionDataCount):
 				self.AppendTextLine(skill.GetSkillConditionDescription(skillIndex, i), self.CONDITION_COLOR)
 
 	def AppendGuildSkillData(self, skillIndex, skillLevel):
@@ -2049,7 +2049,7 @@ class SkillToolTip(ToolTip):
 
 				#####
 
-				for i in xrange(skill.GetSkillAffectDescriptionCount(skillIndex)):
+				for i in range(skill.GetSkillAffectDescriptionCount(skillIndex)):
 					self.AppendTextLine(skill.GetSkillAffectDescription(skillIndex, i, skillCurrentPercentage), self.ENABLE_COLOR)
 
 				## Cooltime
@@ -2070,7 +2070,7 @@ class SkillToolTip(ToolTip):
 
 				#####
 
-				for i in xrange(skill.GetSkillAffectDescriptionCount(skillIndex)):
+				for i in range(skill.GetSkillAffectDescriptionCount(skillIndex)):
 					self.AppendTextLine(skill.GetSkillAffectDescription(skillIndex, i, skillNextPercentage), self.DISABLE_COLOR)
 
 				## Cooltime
@@ -2121,10 +2121,10 @@ class SkillToolTip(ToolTip):
 
 		affectDataCount = skill.GetNewAffectDataCount(skillIndex)
 		if affectDataCount > 0:
-			for i in xrange(affectDataCount):
+			for i in range(affectDataCount):
 				type, minValue, maxValue = skill.GetNewAffectData(skillIndex, i, skillPercentage)
 
-				if not self.AFFECT_NAME_DICT.has_key(type):
+				if type not in self.AFFECT_NAME_DICT:
 					continue
 
 				minValue = int(minValue)
@@ -2151,7 +2151,7 @@ class SkillToolTip(ToolTip):
 				self.AppendTextLine(affectText, color)
 			
 		else:
-			for i in xrange(skill.GetSkillAffectDescriptionCount(skillIndex)):
+			for i in range(skill.GetSkillAffectDescriptionCount(skillIndex)):
 				self.AppendTextLine(skill.GetSkillAffectDescription(skillIndex, i, skillPercentage), color)
 		
 
@@ -2202,9 +2202,9 @@ class SkillToolTip(ToolTip):
 		requireStatCount = skill.GetSkillRequireStatCount(skillIndex)
 		if requireStatCount > 0:
 
-			for i in xrange(requireStatCount):
+			for i in range(requireStatCount):
 				type, level = skill.GetSkillRequireStatData(skillIndex, i)
-				if self.POINT_NAME_DICT.has_key(type):
+				if type in self.POINT_NAME_DICT:
 
 					if not isAppendHorizontalLine:
 						isAppendHorizontalLine = True

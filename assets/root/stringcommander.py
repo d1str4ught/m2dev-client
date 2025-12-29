@@ -20,12 +20,12 @@ class CallBackFunction:
 			return self.func(self.obj, *arg)
 
 	def __init__(self, mfunc):
-		self.argCount=mfunc.im_func.func_code.co_argcount
+		self.argCount=mfunc.__func__.__code__.co_argcount
 
 		if self.argCount>1:
-			self.call=CallBackFunction.__arg_call__(mfunc.im_class, mfunc.im_self, mfunc.im_func)
+			self.call=CallBackFunction.__arg_call__(type(mfunc.__self__), mfunc.__self__, mfunc.__func__)
 		else:
-			self.call=CallBackFunction.__noarg_call__(mfunc.im_class, mfunc.im_self, mfunc.im_func)
+			self.call=CallBackFunction.__noarg_call__(type(mfunc.__self__), mfunc.__self__, mfunc.__func__)
 
 	def __call__(self, *arg):
 		return self.call(*arg)
@@ -56,7 +56,7 @@ class Analyzer:
 		argCount=callBackFunc.GetArgumentCount()-1
 
 		if len(tokens)<argCount:
-			raise RuntimeError, "Analyzer.Run(line=%s) - cmd=%s, curArgCount[%d]<needArgCount[%d]" % (line, cmd, len(tokens), argCount)
+			raise RuntimeError("Analyzer.Run(line=%s) - cmd=%s, curArgCount[%d]<needArgCount[%d]" % (line, cmd, len(tokens), argCount))
 			return 0
 
 		tokens=tokens[:argCount]

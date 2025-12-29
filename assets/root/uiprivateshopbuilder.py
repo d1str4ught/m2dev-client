@@ -54,7 +54,7 @@ def UpdateADBoard():
 		g_privateShopAdvertisementBoardDict[key].Show()
 		
 def DeleteADBoard(vid):
-	if not g_privateShopAdvertisementBoardDict.has_key(vid):
+	if vid not in g_privateShopAdvertisementBoardDict:
 		return
 			
 	del g_privateShopAdvertisementBoardDict[vid]
@@ -102,21 +102,21 @@ class PrivateShopAdvertisementBoard(ui.ThinBoard):
 		if systemSetting.IsShowSalesText():
 			self.Show()
 			x, y = chr.GetProjectPosition(self.vid, 220)
-			self.SetPosition(x - self.GetWidth()/2, y - self.GetHeight()/2)
+			self.SetPosition(x - self.GetWidth()//2, y - self.GetHeight()//2)
 		
 		else:
 			for key in g_privateShopAdvertisementBoardDict.keys():
 				if  player.GetMainCharacterIndex() == key:  # When the private shop is visible and closed, the player's own shop ID changes.
 					g_privateShopAdvertisementBoardDict[key].Show() 	
 					x, y = chr.GetProjectPosition(player.GetMainCharacterIndex(), 220)
-					g_privateShopAdvertisementBoardDict[key].SetPosition(x - self.GetWidth()/2, y - self.GetHeight()/2)
+					g_privateShopAdvertisementBoardDict[key].SetPosition(x - self.GetWidth()//2, y - self.GetHeight()//2)
 				else:
 					g_privateShopAdvertisementBoardDict[key].Hide()
 
 class PrivateShopBuilder(ui.ScriptWindow):
 
 	def __init__(self):
-		#print "NEW MAKE_PRIVATE_SHOP_WINDOW ----------------------------------------------------------------"
+		#print("NEW MAKE_PRIVATE_SHOP_WINDOW ----------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 
 		self.__LoadWindow()
@@ -126,14 +126,14 @@ class PrivateShopBuilder(ui.ScriptWindow):
 		self.title = ""
 
 	def __del__(self):
-		#print "------------------------------------------------------------- DELETE MAKE_PRIVATE_SHOP_WINDOW"
+		#print("------------------------------------------------------------- DELETE MAKE_PRIVATE_SHOP_WINDOW")
 		ui.ScriptWindow.__del__(self)
 
 	def __LoadWindow(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/PrivateShopBuilder.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PrivateShopBuilderWindow.LoadWindow.LoadObject")
 
@@ -144,7 +144,7 @@ class PrivateShopBuilder(ui.ScriptWindow):
 			self.btnOk = GetObject("OkButton")
 			self.btnClose = GetObject("CloseButton")
 			self.titleBar = GetObject("TitleBar")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PrivateShopBuilderWindow.LoadWindow.BindObject")
 
@@ -202,9 +202,9 @@ class PrivateShopBuilder(ui.ScriptWindow):
 		setitemVNum=self.itemSlot.SetItemSlot
 		delItem=self.itemSlot.ClearSlot
 
-		for i in xrange(shop.SHOP_SLOT_COUNT):
+		for i in range(shop.SHOP_SLOT_COUNT):
 
-			if not self.itemStock.has_key(i):
+			if i not in self.itemStock:
 				delItem(i)
 				continue
 
@@ -338,7 +338,7 @@ class PrivateShopBuilder(ui.ScriptWindow):
 	def OnOverInItem(self, slotIndex):
 
 		if self.tooltipItem:
-			if self.itemStock.has_key(slotIndex):
+			if slotIndex in self.itemStock:
 				self.tooltipItem.SetPrivateShopBuilderItem(*self.itemStock[slotIndex] + (slotIndex,))
 
 	def OnOverOutItem(self):

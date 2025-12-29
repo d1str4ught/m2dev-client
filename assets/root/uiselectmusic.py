@@ -37,7 +37,7 @@ class Item(ui.ListBoxEx.Item):
 
 class PopupDialog(ui.ScriptWindow):
 	def __init__(self, parent):
-		print "NEW POPUP WINDOW   ----------------------------------------------------------------------------"	
+		print("NEW POPUP WINDOW   ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 
 		self.__Load()
@@ -45,13 +45,13 @@ class PopupDialog(ui.ScriptWindow):
 
 	def __del__(self):
 		ui.ScriptWindow.__del__(self)
-		print "---------------------------------------------------------------------------- DELETE POPUP WINDOW"
+		print("---------------------------------------------------------------------------- DELETE POPUP WINDOW")
 
 	def __Load(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/PopupDialog.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PopupDialog.__Load")
 
@@ -59,7 +59,7 @@ class PopupDialog(ui.ScriptWindow):
 		try:
 			self.textLine=self.GetChild("message")
 			self.okButton=self.GetChild("accept")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PopupDialog.__Bind")
 
@@ -76,7 +76,7 @@ class PopupDialog(ui.ScriptWindow):
 
 class FileListDialog(ui.ScriptWindow):
 	def __init__(self):
-		print "NEW LIST DIALOG   ----------------------------------------------------------------------------"
+		print("NEW LIST DIALOG   ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 
 		self.isLoaded=0
@@ -85,7 +85,7 @@ class FileListDialog(ui.ScriptWindow):
 
 	def __del__(self):
 		ui.ScriptWindow.__del__(self)
-		print "---------------------------------------------------------------------------- DELETE LIST DIALOG"
+		print("---------------------------------------------------------------------------- DELETE LIST DIALOG")
 
 	def Show(self):
 		if self.isLoaded==0:
@@ -149,7 +149,7 @@ class FileListDialog(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, fileName)
-		except:
+		except Exception:
 			import exception
 			exception.Abort("MusicListBox.__Load")
 
@@ -165,7 +165,7 @@ class FileListDialog(ui.ScriptWindow):
 
 			self.popupText = self.popupDialog.GetChild("message")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("MusicListBox.__Bind")
 

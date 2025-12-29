@@ -28,9 +28,9 @@ class ServerCommandParser(object):
 
 	def BINARY_ServerCommand_Run(self, line):
 		try:
-			print " BINARY_ServerCommand_Reserve", line
+			print(" BINARY_ServerCommand_Reserve", line)
 			return self.serverCommander.Run(line)
-		except RuntimeError, msg:
+		except RuntimeError as msg:
 			import dbg
 			dbg.TraceError(msg)
 			return 0
@@ -44,7 +44,7 @@ class ServerCommandParser(object):
 	def __ItemMall_Open(self):
 		self.__PreserveCommand("item_mall")
 
-	## юс╫ц
+	## с╫
 	def __XMasBoom_Enable(self, mode):
 		if "1"==mode:
 			self.__PreserveCommand("PRESERVE_DayMode dark")

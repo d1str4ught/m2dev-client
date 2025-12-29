@@ -158,7 +158,7 @@ class ChatLine(ui.EditLine):
 	def GetCurrentChatModeName(self):
 		try:
 			return self.CHAT_MODE_NAME[self.chatMode]
-		except:
+		except Exception:
 			import exception
 			exception.Abort("ChatLine.GetCurrentChatModeName")
 
@@ -603,7 +603,7 @@ class ChatWindow(ui.Window):
 		self.scrollBar = scrollBar
 
 		self.Refresh()
-		self.chatInputSet.RefreshPosition() # RTL ½Ã À§Ä¡¸¦ Á¦´ë·Î ÀâÀ¸·Á¸é À§Ä¡ °»½ÅÀÌ ÇÊ¿äÇÏ´Ù
+		self.chatInputSet.RefreshPosition() # RTL Â½Ãƒ Ã€Â§Ã„Â¡Â¸Â¦ ÃÂ¦Â´Ã«Â·Ã Ã€Ã¢Ã€Â¸Â·ÃÂ¸Ã© Ã€Â§Ã„Â¡ Â°Â»Â½Ã…Ã€ÃŒ Ã‡ÃŠÂ¿Ã¤Ã‡ÃÂ´Ã™
 	
 	def __del__(self):
 		ui.Window.__del__(self)
@@ -1088,7 +1088,7 @@ class ChatLogWindow(ui.Window):
 			
 		self.chatInputSet.SetSize(self.GetWidth() - 20, 20)
 		self.chatInputSet.RefreshPosition()
-		self.chatInputSet.SetChatMax(self.GetWidth() / 8)
+		self.chatInputSet.SetChatMax(self.GetWidth() // 8)
 
 	def OnScroll(self):
 		self.scrollBarPos = self.scrollBar.GetPos()

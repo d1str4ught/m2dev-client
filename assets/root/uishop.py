@@ -37,7 +37,7 @@ class ShopDialog(ui.ScriptWindow):
 		getItemID=shop.GetItemID
 		getItemCount=shop.GetItemCount
 		setItemID=self.itemSlotWindow.SetItemSlot
-		for i in xrange(shop.SHOP_SLOT_COUNT):
+		for i in range(shop.SHOP_SLOT_COUNT):
 			idx = self.__GetRealIndex(i)
 			itemCount = getItemCount(idx)
 			if itemCount <= 1:
@@ -53,7 +53,7 @@ class ShopDialog(ui.ScriptWindow):
 		try:
 			PythonScriptLoader = ui.PythonScriptLoader()
 			PythonScriptLoader.LoadScriptFile(self, "UIScript/shopdialog.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("ShopDialog.LoadDialog.LoadObject")
 
@@ -75,7 +75,7 @@ class ShopDialog(ui.ScriptWindow):
 			smallTab1 = GetObject("SmallTab1")
 			smallTab2 = GetObject("SmallTab2")
 			smallTab3 = GetObject("SmallTab3")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("ShopDialog.LoadDialog.BindObject")
 
@@ -274,7 +274,7 @@ class ShopDialog(ui.ScriptWindow):
 		self.pop = None
 		constInfo.SET_ITEM_QUESTION_DIALOG_STATUS(0)
 
-	## ¿ëÈ¥¼® ÆÈ¸®´Â ±â´É Ãß°¡.
+	## Â¿Ã«ÃˆÂ¥Â¼Â® Ã†ÃˆÂ¸Â®Â´Ã‚ Â±Ã¢Â´Ã‰ ÃƒÃŸÂ°Â¡.
 	def SellAttachedItem(self):
 
 		if shop.IsPrivateShop():
@@ -310,9 +310,9 @@ class ShopDialog(ui.ScriptWindow):
 				itemPrice = item.GetISellItemPrice()
 
 				if item.Is1GoldItem():
-					itemPrice = attachedCount / itemPrice / 5
+					itemPrice = attachedCount // itemPrice // 5
 				else:
-					itemPrice = itemPrice * max(1, attachedCount) / 5
+					itemPrice = itemPrice * max(1, attachedCount) // 5
 
 				itemName = item.GetItemName()
 

@@ -5,7 +5,7 @@ import player
 class EquipmentDialog(ui.ScriptWindow):
 
 	def __init__(self):
-		print "NEW EQUIPMENT DIALOG ----------------------------------------------------------------------------"
+		print("NEW EQUIPMENT DIALOG ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 		self.__LoadDialog()
 
@@ -15,7 +15,7 @@ class EquipmentDialog(ui.ScriptWindow):
 		self.tooltipItem = None
 
 	def __del__(self):
-		print "---------------------------------------------------------------------------- DELETE EQUIPMENT DIALOG "
+		print("---------------------------------------------------------------------------- DELETE EQUIPMENT DIALOG ")
 		ui.ScriptWindow.__del__(self)
 
 	def __LoadDialog(self):
@@ -27,7 +27,7 @@ class EquipmentDialog(ui.ScriptWindow):
 			self.board = getObject("Board")
 			self.slotWindow = getObject("EquipmentSlot")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("EquipmentDialog.LoadDialog.BindObject")
 
@@ -71,9 +71,9 @@ class EquipmentDialog(ui.ScriptWindow):
 
 		emptySocketList = []
 		emptyAttrList = []
-		for i in xrange(player.METIN_SOCKET_MAX_NUM):
+		for i in range(player.METIN_SOCKET_MAX_NUM):
 			emptySocketList.append(0)
-		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
+		for i in range(player.ATTRIBUTE_SLOT_MAX_NUM):
 			emptyAttrList.append((0, 0))
 		self.itemDataDict[slotIndex] = (vnum, count, emptySocketList, emptyAttrList)
 

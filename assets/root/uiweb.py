@@ -22,7 +22,7 @@ class WebWindow(ui.ScriptWindow):
 				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "WebWindow.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "UIScript/WebWindow.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("WebWindow.LoadDialog.LoadScript")
 
@@ -30,7 +30,7 @@ class WebWindow(ui.ScriptWindow):
 			GetObject=self.GetChild
 			self.titleBar = GetObject("TitleBar")
 
-		except:
+		except Exception:
 			import exception
 			exception.Abort("WebWindow.LoadDialog.BindObject")
 
@@ -64,11 +64,11 @@ class WebWindow(ui.ScriptWindow):
 		pass
 
 	def __OnCloseButtonClick(self):
-		print "close_web:click_close_button"
+		print("close_web:click_close_button")
 		self.Close()
 
 	def OnPressEscapeKey(self):
-		print "close_web:esc_key"
+		print("close_web:esc_key")
 		self.Close()
 		return True
 

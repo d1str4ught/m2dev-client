@@ -18,7 +18,7 @@ class PickMoneyDialog(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 			pyScrLoader.LoadScriptFile(self, "UIScript/PickMoneyDialog.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("MoneyDialog.LoadDialog.LoadScript")
 
@@ -28,7 +28,7 @@ class PickMoneyDialog(ui.ScriptWindow):
 			self.pickValueEditLine = self.GetChild("money_value")
 			self.acceptButton = self.GetChild("accept_button")
 			self.cancelButton = self.GetChild("cancel_button")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("MoneyDialog.LoadDialog.BindObject")
 
@@ -60,12 +60,12 @@ class PickMoneyDialog(ui.ScriptWindow):
 		width = self.GetWidth()
 		(mouseX, mouseY) = wndMgr.GetMousePosition()
 
-		if mouseX + width/2 > wndMgr.GetScreenWidth():
+		if mouseX + width//2 > wndMgr.GetScreenWidth():
 			xPos = wndMgr.GetScreenWidth() - width
-		elif mouseX - width/2 < 0:
+		elif mouseX - width//2 < 0:
 			xPos = 0
 		else:
-			xPos = mouseX - width/2
+			xPos = mouseX - width//2
 
 		self.SetPosition(xPos, mouseY - self.GetHeight() - 20)
 

@@ -16,7 +16,7 @@ class PointResetDialog(ui.ScriptWindow):
 			PythonScriptLoader = ui.PythonScriptLoader()
 			PythonScriptLoader.LoadScriptFile(self, "uiscript/questiondialog2.py")
 			PythonScriptLoader.LoadScriptFile(self.ConfirmDialog, "uiscript/questiondialog2.py")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PointResetDialog.LoadDialog.LoadObject")
 
@@ -26,19 +26,19 @@ class PointResetDialog(ui.ScriptWindow):
 			self.ConfirmText2 = GetObject("message2")
 			self.ConfirmAcceptButton = GetObject("accept")
 			self.ConfirmCancelButton = GetObject("cancel")
-		except:
+		except Exception:
 			import exception
 			exception.Abort("PointResetDialog.LoadWindow.BindObject")
 
-		self.GetChild("message1").SetText("½ºÅÈ/½ºÅ³ Æ÷ÀÎÆ®¸¦ ÃÊ±âÈ­ÇØÁÖ°Ú³×.")
-		self.GetChild("message2").SetText("°¡°İÀº 500¿øÀÌ¾ß. ¾î¶§, ÃÊ±âÈ­ÇÒÅÙ°¡?")
+		self.GetChild("message1").SetText("Â½ÂºÃ…Ãˆ/Â½ÂºÃ…Â³ Ã†Ã·Ã€ÃÃ†Â®Â¸Â¦ ÃƒÃŠÂ±Ã¢ÃˆÂ­Ã‡Ã˜ÃÃ–Â°ÃšÂ³Ã—.")
+		self.GetChild("message2").SetText("Â°Â¡Â°ÃÃ€Âº 500Â¿Ã¸Ã€ÃŒÂ¾ÃŸ. Â¾Ã®Â¶Â§, ÃƒÃŠÂ±Ã¢ÃˆÂ­Ã‡Ã’Ã…Ã™Â°Â¡?")
 		self.GetChild("accept").SetEvent(ui.__mem_func__(self.OpenConfirmDialog))
 		self.GetChild("cancel").SetEvent(ui.__mem_func__(self.Close))
 
 		## Confirm Dialog
-		self.ConfirmText.SetText("ÇöÀç ·¹º§ÀÇ °æÇèÄ¡°¡ ¸ğµÎ ¾ø¾îÁø´Ù³×.")
+		self.ConfirmText.SetText("Ã‡Ã¶Ã€Ã§ Â·Â¹ÂºÂ§Ã€Ã‡ Â°Ã¦Ã‡Ã¨Ã„Â¡Â°Â¡ Â¸Ã°ÂµÃ Â¾Ã¸Â¾Ã®ÃÃ¸Â´Ã™Â³Ã—.")
 		self.ConfirmText.SetFontColor(1.0, 0.3, 0.3)
-		self.ConfirmText2.SetText("Á¤¸» ÃÊ±âÈ­ÇÏ°í ½ÍÀº°¡?")
+		self.ConfirmText2.SetText("ÃÂ¤Â¸Â» ÃƒÃŠÂ±Ã¢ÃˆÂ­Ã‡ÃÂ°Ã­ Â½ÃÃ€ÂºÂ°Â¡?")
 		self.ConfirmAcceptButton.SetEvent(ui.__mem_func__(self.ResetPoint))
 		self.ConfirmCancelButton.SetEvent(ui.__mem_func__(self.Close))
 

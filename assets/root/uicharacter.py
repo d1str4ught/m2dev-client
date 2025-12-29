@@ -31,7 +31,7 @@ FACE_IMAGE_DICT = {
 	playerSettingModule.RACE_SHAMAN_W	: "icon/face/shaman_w.tga",
 }
 def unsigned32(n):
-	return n & 0xFFFFFFFFL
+	return n & 0xFFFFFFFF
 	
 class CharacterWindow(ui.ScriptWindow):
 
@@ -246,7 +246,7 @@ class CharacterWindow(ui.ScriptWindow):
 		self.questScrollBar.SetScrollEvent(ui.__mem_func__(self.OnQuestScroll))
 		self.questSlot = self.GetChild("Quest_Slot")
 
-		for i in xrange(quest.QUEST_MAX_NUM):
+		for i in range(quest.QUEST_MAX_NUM):
 			self.questSlot.HideSlotBaseImage(i)
 			self.questSlot.SetCoverButton(i,\
 											"d:/ymir work/ui/game/quest/slot_button_01.sub",\
@@ -258,13 +258,13 @@ class CharacterWindow(ui.ScriptWindow):
 		self.questLastTimeList = []
 		self.questLastCountList = []
 
-		for i in xrange(quest.QUEST_MAX_NUM):
+		for i in range(quest.QUEST_MAX_NUM):
 			self.questNameList.append(self.GetChild("Quest_Name_0" + str(i)))
 			self.questLastTimeList.append(self.GetChild("Quest_LastTime_0" + str(i)))
 			self.questLastCountList.append(self.GetChild("Quest_LastCount_0" + str(i)))
 
 	def __SetSkillSlotEvent(self):
-		for skillPageValue in self.skillPageDict.itervalues():
+		for skillPageValue in self.skillPageDict.values():
 			skillPageValue.SetSlotStyle(wndMgr.SLOT_STYLE_NONE)
 			skillPageValue.SetSelectItemSlotEvent(ui.__mem_func__(self.SelectSkill))
 			skillPageValue.SetSelectEmptySlotEvent(ui.__mem_func__(self.SelectEmptySlot))
@@ -314,18 +314,18 @@ class CharacterWindow(ui.ScriptWindow):
 		mouseModule.mouseController.AttachObject(self, player.SLOT_TYPE_EMOTION, slotIndex, slotIndex)
 
 	def __ClickEmotionSlot(self, slotIndex):
-		print "click emotion"
+		print("click emotion")
 
 		if not slotIndex in emotion.EMOTION_DICT:
 			return
 
-		print "check acting"
+		print("check acting")
 
 		if player.IsActingEmotion():
 			return
 
 		command = emotion.EMOTION_DICT[slotIndex]["command"]
-		print "command", command
+		print("command", command)
 
 		if slotIndex > 50:
 			vid = player.GetTargetVID()
@@ -337,7 +337,7 @@ class CharacterWindow(ui.ScriptWindow):
 
 			command += " " + chr.GetNameByVID(vid)
 
-		print "send_command", command
+		print("send_command", command)
 		net.SendChatPacket(command)
 
 	def ActEmotion(self, emotionIndex):
@@ -359,7 +359,7 @@ class CharacterWindow(ui.ScriptWindow):
 			self.emotionToolTip.HideToolTip()
 
 	def __BindEvent(self):
-		for i in xrange(len(self.skillGroupButton)):
+		for i in range(len(self.skillGroupButton)):
 			self.skillGroupButton[i].SetEvent(lambda arg=i: self.__SelectSkillGroup(arg))
 
 		self.RefreshQuest()
@@ -378,7 +378,7 @@ class CharacterWindow(ui.ScriptWindow):
 			statusMinusButton.ShowToolTip = lambda arg=statusMinusKey: self.__OverInStatMinusButton(arg)
 			statusMinusButton.HideToolTip = lambda arg=statusMinusKey: self.__OverOutStatMinusButton()
 
-		for titleBarValue in self.titleBarDict.itervalues():
+		for titleBarValue in self.titleBarDict.values():
 			titleBarValue.SetCloseEvent(ui.__mem_func__(self.Hide))
 
 		self.questSlot.SetSelectItemSlotEvent(ui.__mem_func__(self.__SelectQuest))
@@ -397,7 +397,7 @@ class CharacterWindow(ui.ScriptWindow):
 
 			self.__BindObject()
 			self.__BindEvent()
-		except:
+		except Exception:
 			import exception
 			exception.Abort("CharacterWindow.__LoadWindow")
 
@@ -422,14 +422,14 @@ class CharacterWindow(ui.ScriptWindow):
 		try:
 			statusPlusCommand=self.statusPlusCommandDict[statusKey]
 			net.SendChatPacket(statusPlusCommand)
-		except KeyError, msg:
+		except KeyError as msg:
 			dbg.TraceError("CharacterWindow.__OnClickStatusPlusButton KeyError: %s", msg)
 
 	def __OnClickStatusMinusButton(self, statusKey):
 		try:
 			statusMinusCommand=self.statusMinusCommandDict[statusKey]
 			net.SendChatPacket(statusMinusCommand)
-		except KeyError, msg:
+		except KeyError as msg:
 			dbg.TraceError("CharacterWindow.__OnClickStatusMinusButton KeyError: %s", msg)
 
 
@@ -444,13 +444,13 @@ class CharacterWindow(ui.ScriptWindow):
 			if stateKey!=tabKey:
 				tabButton.SetUp()
 
-		for tabValue in self.tabDict.itervalues():
+		for tabValue in self.tabDict.values():
 			tabValue.Hide()
 
-		for pageValue in self.pageDict.itervalues():
+		for pageValue in self.pageDict.values():
 			pageValue.Hide()
 
-		for titleBarValue in self.titleBarDict.itervalues():
+		for titleBarValue in self.titleBarDict.values():
 			titleBarValue.Hide()
 
 		self.titleBarDict[stateKey].Show()
@@ -515,7 +515,7 @@ class CharacterWindow(ui.ScriptWindow):
 			self.GetChild("CSPD_Value").SetText(str(player.GetStatus(player.CASTING_SPEED)))
 			self.GetChild("ER_Value").SetText(str(player.GetStatus(player.EVADE_RATE)))
 
-		except:
+		except Exception:
 			#import exception
 			#exception.Abort("CharacterWindow.RefreshStatus.BindObject")
 			## Prevents game crash
@@ -692,7 +692,7 @@ class CharacterWindow(ui.ScriptWindow):
 	def __UpdateQuestClock(self):
 		if "QUEST" == self.state:
 			# QUEST_LIMIT_COUNT_BUG_FIX
-			for i in xrange(min(quest.GetQuestCount(), quest.QUEST_MAX_NUM)):
+			for i in range(min(quest.GetQuestCount(), quest.QUEST_MAX_NUM)):
 			# END_OF_QUEST_LIMIT_COUNT_BUG_FIX
 				(lastName, lastTime) = quest.GetQuestLastTime(i)
 
@@ -703,7 +703,7 @@ class CharacterWindow(ui.ScriptWindow):
 						clockText = localeInfo.QUEST_TIMEOVER
 
 					else:
-						questLastMinute = lastTime / 60
+						questLastMinute = lastTime // 60
 						questLastSecond = lastTime % 60
 
 						clockText = lastName + " : "
@@ -778,11 +778,11 @@ class CharacterWindow(ui.ScriptWindow):
 		getSkillLevelUpPoint = skill.GetSkillLevelUpPoint
 		getSkillMaxLevel = skill.GetSkillMaxLevel
 
-		for i in xrange(slotCount + 1):
+		for i in range(slotCount + 1):
 			slotIndex = i + startSlotIndex
 			skillIndex = getSkillIndex(slotIndex)
 
-			for j in xrange(skill.SKILL_GRADE_COUNT):
+			for j in range(skill.SKILL_GRADE_COUNT):
 				skillPage.ClearSlot(self.__GetRealSkillSlot(j, i))
 
 			if 0 == skillIndex:
@@ -806,7 +806,7 @@ class CharacterWindow(ui.ScriptWindow):
 
 			## ACTIVE
 			elif skill.SKILL_TYPE_ACTIVE == skillType:
-				for j in xrange(skill.SKILL_GRADE_COUNT):
+				for j in range(skill.SKILL_GRADE_COUNT):
 					realSlotIndex = self.__GetRealSkillSlot(j, slotIndex)
 
 					skillPage.SetSkillSlotNew(realSlotIndex, skillIndex, j, skillLevel)
@@ -877,10 +877,10 @@ class CharacterWindow(ui.ScriptWindow):
 		quick_page_count = 4      # matches QUICKPAGE_NUMBER_FILENAME
 		current_page = player.GetQuickPage()
 
-		for page in xrange(quick_page_count):
+		for page in range(quick_page_count):
 			player.SetQuickPage(page)
 
-			for local_slot in xrange(quick_slot_per_page):
+			for local_slot in range(quick_slot_per_page):
 				slotType, position = player.GetLocalQuickSlot(local_slot)
 
 				if slotType != player.SLOT_TYPE_SKILL:
@@ -951,7 +951,7 @@ class CharacterWindow(ui.ScriptWindow):
 			startSlotIndex += self.ACTIVE_PAGE_SLOT_COUNT
 
 		if statPoint > 0:
-			for i in xrange(self.PAGE_SLOT_COUNT):
+			for i in range(self.PAGE_SLOT_COUNT):
 				slotIndex = i + startSlotIndex
 				skillIndex = player.GetSkillIndex(slotIndex)
 				skillGrade = player.GetSkillGrade(slotIndex)
@@ -994,7 +994,7 @@ class CharacterWindow(ui.ScriptWindow):
 
 			self.__RefreshSkillPlusButton("SUPPORT")
 
-		except:
+		except Exception:
 			import exception
 
 			exception.Abort("CharacterWindow.RefreshSkillPlusButtonList.BindObject")
@@ -1156,7 +1156,7 @@ class CharacterWindow(ui.ScriptWindow):
 			else:
 				self.characterNameSlot.SetPosition(153, 34)
 				self.guildNameSlot.Show()
-		except:
+		except Exception:
 			import exception
 			exception.Abort("CharacterWindow.RefreshCharacter.BindObject")
 
@@ -1174,8 +1174,8 @@ class CharacterWindow(ui.ScriptWindow):
 
 			try:
 				self.faceImage.LoadImage(faceImageName)
-			except:
-				print "CharacterWindow.RefreshCharacter(race=%d, faceImageName=%s)" % (race, faceImageName)
+			except Exception:
+				print("CharacterWindow.RefreshCharacter(race=%d, faceImageName=%s)" % (race, faceImageName))
 				self.faceImage.Hide()
 
 		except KeyError:
@@ -1196,7 +1196,7 @@ class CharacterWindow(ui.ScriptWindow):
 	def __SetSkillGroupName(self, race, group):
 		job = chr.RaceToJob(race)
 
-		if not self.SKILL_GROUP_NAME_DICT.has_key(job):
+		if job not in self.SKILL_GROUP_NAME_DICT:
 			return
 
 		nameList = self.SKILL_GROUP_NAME_DICT[job]
@@ -1241,7 +1241,8 @@ class CharacterWindow(ui.ScriptWindow):
 		## Refresh
 		self.RefreshSkill()
 
-	def __SelectSkillGroup(self, pageIndex, (PAGE_SKILL_1, PAGE_SKILL_2, PAGE_SKILL_HORSE) = range(3)):
+	def __SelectSkillGroup(self, pageIndex):
+		PAGE_SKILL_1, PAGE_SKILL_2, PAGE_SKILL_HORSE = range(3)
 		for pageButton in self.skillGroupButton:
 			pageButton.SetUp()
 

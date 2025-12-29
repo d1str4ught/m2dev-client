@@ -29,7 +29,7 @@ class PlayerGauge(ui.Gauge):
 		(x, y, z)=textTail.GetPosition(playerIndex)
 
 		isChat = textTail.IsChat(playerIndex)
-		ui.Gauge.SetPosition(self, int(x - self.GetWidth()/2), int(y + 5) + isChat*17)
+		ui.Gauge.SetPosition(self, int(x - self.GetWidth()//2), int(y + 5) + isChat*17)
 
 	def RefreshGauge(self):
 

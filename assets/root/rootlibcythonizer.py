@@ -3,9 +3,11 @@ libpath = '..\\..\\Extern\\Py2Lib\\lib'
 sys.path.append(libpath)
 
 #import utils
-import imp
-fp, pathname, description = imp.find_module('utils', [libpath])
-utils = imp.load_module('utils', fp, pathname, description)
+import importlib.util
+spec = importlib.util.spec_from_file_location('utils', libpath + '/utils.py')
+utils = importlib.util.module_from_spec(spec)
+sys.modules['utils'] = utils
+spec.loader.exec_module(utils)
 import cythonizer
 
 pys = utils.findMatchedFiles(".", "*.py")
@@ -24,7 +26,7 @@ for m in moduleLst:
 import sourceWriter
 
 sourceFileName = sourceWriter.run(moduleNameLst, 'rootlib')
-print "%s create successful." % sourceFileName
+print("%s create successful." % sourceFileName)
 
 # not yet implemented.
 #from distutils.dist import Distribution

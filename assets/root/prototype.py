@@ -27,7 +27,7 @@ def RunApp():
 
 	try:
 		app.Create(localeInfo.APP_TITLE, systemSetting.GetWidth(), systemSetting.GetHeight(), 1)
-	except RuntimeError, msg:
+	except RuntimeError as msg:
 		msg = str(msg)
 		if "CREATE_DEVICE" == msg:
 			dbg.LogBox("Sorry, Your system does not support 3D graphics,\r\nplease check your hardware and system configeration\r\nthen try again.")

@@ -21,12 +21,12 @@ import localeInfo
 class PopupDialog(ui.ScriptWindow):
 
 	def __init__(self):
-		print "NEW POPUP DIALOG ----------------------------------------------------------------------------"
+		print("NEW POPUP DIALOG ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 		self.CloseEvent = 0
 
 	def __del__(self):
-		print "---------------------------------------------------------------------------- DELETE POPUP DIALOG "
+		print("---------------------------------------------------------------------------- DELETE POPUP DIALOG ")
 		ui.ScriptWindow.__del__(self)
 
 	def LoadDialog(self):
@@ -81,7 +81,7 @@ class MainStream(object):
 	isChrData=0	
 
 	def __init__(self):
-		print "NEWMAIN STREAM ----------------------------------------------------------------------------"
+		print("NEWMAIN STREAM ----------------------------------------------------------------------------")
 		net.SetHandler(self)
 		net.SetTCPRecvBufferSize(128*1024)
 		net.SetTCPSendBufferSize(4096)
@@ -102,7 +102,7 @@ class MainStream(object):
 		self.newPhaseWindow = 0
 
 	def __del__(self):
-		print "---------------------------------------------------------------------------- DELETE MAIN STREAM "
+		print("---------------------------------------------------------------------------- DELETE MAIN STREAM ")
 
 	def Destroy(self):
 		if self.curPhaseWindow:
@@ -125,16 +125,16 @@ class MainStream(object):
 
 	def SetPhaseWindow(self, newPhaseWindow):
 		if self.newPhaseWindow:
-			#print "Already in the process of changing to a new phase, skip", newPhaseWindow
+			#print("Already in the process of changing to a new phase, skip", newPhaseWindow)
 			self.__ChangePhaseWindow()
 
 		self.newPhaseWindow=newPhaseWindow
 
 		if self.curPhaseWindow:
-			#print "Change after fade out"
+			#print("Change after fade out")
 			self.curtain.FadeOut(self.__ChangePhaseWindow)
 		else:
-			#print "Change immediately if there's no current phase"
+			#print("Change immediately if there's no current phase")
 			self.__ChangePhaseWindow()
 
 	def __ChangePhaseWindow(self):
@@ -189,7 +189,7 @@ class MainStream(object):
 		try:
 			import introEmpire	
 			self.SetPhaseWindow(introEmpire.SelectEmpireWindow(self))
-		except:
+		except Exception:
 			import exception
 			exception.Abort("networkModule.SetSelectEmpirePhase")
 
@@ -198,7 +198,7 @@ class MainStream(object):
 		try:
 			import introEmpire
 			self.SetPhaseWindow(introEmpire.ReselectEmpireWindow(self))
-		except:
+		except Exception:
 			import exception
 			exception.Abort("networkModule.SetReselectEmpirePhase")
 
@@ -208,7 +208,7 @@ class MainStream(object):
 			import introSelect
 			self.popupWindow.Close()
 			self.SetPhaseWindow(introSelect.SelectCharacterWindow(self))
-		except:
+		except Exception:
 			import exception
 			exception.Abort("networkModule.SetSelectCharacterPhase")
 
@@ -216,7 +216,7 @@ class MainStream(object):
 		try:
 			import introCreate
 			self.SetPhaseWindow(introCreate.CreateCharacterWindow(self))
-		except:
+		except Exception:
 			import exception
 			exception.Abort("networkModule.SetCreateCharacterPhase")
 
@@ -226,7 +226,7 @@ class MainStream(object):
 			loadingPhaseWindow=introLoading.LoadingWindow(self)
 			loadingPhaseWindow.LoadData(x, y)
 			self.SetPhaseWindow(loadingPhaseWindow)
-		except:
+		except Exception:
 			import exception
 			exception.Abort("networkModule.SetLoadingPhase")
 
@@ -236,7 +236,7 @@ class MainStream(object):
 		try:
 			import introLoading
 			self.SetPhaseWindow(introLoading.LoadingWindow(self))
-		except:
+		except Exception:
 			import exception
 			exception.Abort("networkModule.SetLoadingPhase")
 
