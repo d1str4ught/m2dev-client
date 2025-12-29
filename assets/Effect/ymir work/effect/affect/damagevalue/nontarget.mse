@@ -126,7 +126,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "0.dds"
+            "damage_0.dds"
         }
     }
 }
