@@ -1,6 +1,6 @@
 TextureSet
 
-TextureCount 08
+TextureCount 9
 
 Start Texture001
     "D:\YMIR WORK\terrainmaps\N\snow.m\snow01.dds"
@@ -82,4 +82,13 @@ Start Texture008
     0
     0
 End Texture008
-
+Start Texture009
+    "d:\ymir work\terrainmaps\n\snow.m\ice_quest.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture009

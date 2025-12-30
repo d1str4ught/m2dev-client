@@ -1,10 +1,10 @@
 TextureSet
 
-TextureCount 06
+TextureCount 07
 Start Texture001
     "D:\YMIR WORK\terrainmaps\N\flame area\valcano_01.DDS"
-    7.000000
-    7.000000
+    2.000000
+    2.000000
     0.000000
     0.000000
     0
@@ -13,8 +13,8 @@ Start Texture001
 End Texture001
 Start Texture002
     "D:\YMIR WORK\terrainmaps\N\flame area\valcano_02.DDS"
-    7.000000
-    7.000000
+    3.000000
+    3.000000
     0.000000
     0.000000
     0
@@ -23,8 +23,8 @@ Start Texture002
 End Texture002
 Start Texture003
     "D:\YMIR WORK\terrainmaps\N\flame area\valcano_03.DDS"
-    7.000000
-    7.000000
+    3.000000
+    3.000000
     0.000000
     0.000000
     0
@@ -33,8 +33,8 @@ Start Texture003
 End Texture003
 Start Texture004
     "D:\YMIR WORK\terrainmaps\N\flame area\valcano_04.DDS"
-    7.000000
-    7.000000
+    2.000000
+    2.000000
     0.000000
     0.000000
     0
@@ -53,15 +53,24 @@ Start Texture005
 End Texture005
 Start Texture006
     "D:\YMIR WORK\terrainmaps\N\flame area\tile01.dds"
-    4.000000
-    4.000000
+    3.000000
+    3.000000
     0.000000
     0.000000
     0
     0
     0
 End Texture006
-
+Start Texture007
+    "D:\YMIR WORK\terrainmaps\N\flame area\valcano_rock.DDS"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture007
 
 
 
