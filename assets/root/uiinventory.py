@@ -743,8 +743,11 @@ class InventoryWindow(ui.ScriptWindow):
 			return
 	         	
 		elif item.IsRefineScroll(srcItemVID):
-			self.RefineItem(srcItemSlotPos, dstItemSlotPos)
-			self.wndItem.SetUseMode(False)
+			if player.GetItemIndex(srcItemSlotPos) == player.GetItemIndex(dstItemSlotPos):
+				self.__SendMoveItemPacket(srcItemSlotPos, dstItemSlotPos,0)
+			else:
+				self.RefineItem(srcItemSlotPos, dstItemSlotPos)
+				self.wndItem.SetUseMode(False)
 
 		elif item.IsMetin(srcItemVID):
 			self.AttachMetinToItem(srcItemSlotPos, dstItemSlotPos)
@@ -759,7 +762,11 @@ class InventoryWindow(ui.ScriptWindow):
 			self.__SendUseItemToItemPacket(srcItemSlotPos, dstItemSlotPos)
 
 		elif item.GetUseType(srcItemVID) in self.USE_TYPE_TUPLE:
-			self.__SendUseItemToItemPacket(srcItemSlotPos, dstItemSlotPos)			
+			# If same item type, allow stacking instead of using
+			if player.GetItemIndex(srcItemSlotPos) == player.GetItemIndex(dstItemSlotPos):
+				self.__SendMoveItemPacket(srcItemSlotPos, dstItemSlotPos, 0)
+			else:
+				self.__SendUseItemToItemPacket(srcItemSlotPos, dstItemSlotPos)			
 
 		else:
 			#snd.PlaySound("sound/ui/drop.wav")
@@ -957,7 +964,7 @@ class InventoryWindow(ui.ScriptWindow):
 			return False
 
 		if item.IsRefineScroll(srcItemVNum):
-			if player.REFINE_OK == player.CanRefine(srcItemVNum, dstSlotPos):
+			if player.REFINE_OK == player.CanRefine(srcItemVNum, dstSlotPos) or player.GetItemIndex(dstSlotPos) == srcItemVNum:
 				return True
 		elif item.IsMetin(srcItemVNum):
 			if player.ATTACH_METIN_OK == player.CanAttachMetin(srcItemVNum, dstSlotPos):
@@ -985,7 +992,10 @@ class InventoryWindow(ui.ScriptWindow):
 				if self.__CanAddItemAttr(dstSlotPos):
 					return True
 			elif "USE_ADD_ATTRIBUTE2" == useType:
-				if self.__CanAddItemAttr(dstSlotPos):
+				# Allow stacking if same item type, or use on item if valid target
+				if player.GetItemIndex(dstSlotPos) == srcItemVNum:
+					return True
+				elif self.__CanAddItemAttr(dstSlotPos):
 					return True
 			elif "USE_ADD_ACCESSORY_SOCKET" == useType:
 				if self.__CanAddAccessorySocket(dstSlotPos):
