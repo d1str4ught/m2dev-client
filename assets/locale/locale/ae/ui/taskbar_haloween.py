@@ -1,4 +1,5 @@
 import uiScriptLocale
+import app
 
 ROOT = "d:/ymir work/ui/game/"
 
@@ -7,6 +8,7 @@ Y_ADD_POSITION = 0
 
 window = {
 	"name" : "TaskBar",
+	"style" : ("ltr", ),
 
 	"x" : 0,
 	"y" : SCREEN_HEIGHT - 37,
@@ -33,6 +35,7 @@ window = {
 		{
 			"name" : "Gauge_Board",
 			"type" : "image",
+			"style" : ("ltr", ),
 
 			"x" : 0,
 			"y" : -10 + Y_ADD_POSITION,
@@ -54,22 +57,22 @@ window = {
 
 					"images" :
 					(
-						"locale/en/ui/Mall/shop_button_kuerbis0000.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0001.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0002.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0003.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0004.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0005.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0006.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0007.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0008.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0009.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0010.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0011.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0012.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0013.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0014.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0015.tga",
+						ROOT + "mall/shop_button_kuerbis0000.tga",
+						ROOT + "mall/shop_button_kuerbis0001.tga",
+						ROOT + "mall/shop_button_kuerbis0002.tga",
+						ROOT + "mall/shop_button_kuerbis0003.tga",
+						ROOT + "mall/shop_button_kuerbis0004.tga",
+						ROOT + "mall/shop_button_kuerbis0005.tga",
+						ROOT + "mall/shop_button_kuerbis0006.tga",
+						ROOT + "mall/shop_button_kuerbis0007.tga",
+						ROOT + "mall/shop_button_kuerbis0008.tga",
+						ROOT + "mall/shop_button_kuerbis0009.tga",
+						ROOT + "mall/shop_button_kuerbis0010.tga",
+						ROOT + "mall/shop_button_kuerbis0011.tga",
+						ROOT + "mall/shop_button_kuerbis0012.tga",
+						ROOT + "mall/shop_button_kuerbis0013.tga",
+						ROOT + "mall/shop_button_kuerbis0014.tga",
+						ROOT + "mall/shop_button_kuerbis0015.tga",
 					)
 				},
 				{
@@ -85,28 +88,29 @@ window = {
 
 					"images" :
 					(
-						"locale/en/ui/Mall/shop_button_kuerbis0000.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0001.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0002.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0003.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0004.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0005.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0006.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0007.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0008.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0009.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0010.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0011.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0012.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0013.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0014.tga",
-						"locale/en/ui/Mall/shop_button_kuerbis0015.tga",
+						ROOT + "mall/shop_button_kuerbis0000.tga",
+						ROOT + "mall/shop_button_kuerbis0001.tga",
+						ROOT + "mall/shop_button_kuerbis0002.tga",
+						ROOT + "mall/shop_button_kuerbis0003.tga",
+						ROOT + "mall/shop_button_kuerbis0004.tga",
+						ROOT + "mall/shop_button_kuerbis0005.tga",
+						ROOT + "mall/shop_button_kuerbis0006.tga",
+						ROOT + "mall/shop_button_kuerbis0007.tga",
+						ROOT + "mall/shop_button_kuerbis0008.tga",
+						ROOT + "mall/shop_button_kuerbis0009.tga",
+						ROOT + "mall/shop_button_kuerbis0010.tga",
+						ROOT + "mall/shop_button_kuerbis0011.tga",
+						ROOT + "mall/shop_button_kuerbis0012.tga",
+						ROOT + "mall/shop_button_kuerbis0013.tga",
+						ROOT + "mall/shop_button_kuerbis0014.tga",
+						ROOT + "mall/shop_button_kuerbis0015.tga",
 					)
 				},
 				{
 					## 툴팁을 띄우기 위한 윈도우
 					"name" : "HPGauge_Board",
 					"type" : "window",
+					"style" : ("ltr", ),
 
 					"x" : 59,
 					"y" : 14,
@@ -152,6 +156,7 @@ window = {
 					## 툴팁을 띄우기 위한 윈도우
 					"name" : "SPGauge_Board",
 					"type" : "window",
+					"style" : ("ltr", ),
 
 					"x" : 59,
 					"y" : 24,
@@ -197,6 +202,7 @@ window = {
 					## 툴팁을 띄우기 위한 윈도우
 					"name" : "STGauge_Board",
 					"type" : "window",
+					"style" : ("ltr", ),
 
 					"x" : 59,
 					"y" : 38,
@@ -234,6 +240,7 @@ window = {
 		{
 			"name" : "EXP_Gauge_Board",
 			"type" : "image",
+			"style" : ("ltr", ),
 
 			"x" : 158,
 			"y" : 0 + Y_ADD_POSITION,
@@ -289,9 +296,9 @@ window = {
 			"x" : SCREEN_WIDTH/2 - 128,
 			"y" : 3 + Y_ADD_POSITION,
 
-			"default_image" : ROOT + "TaskBar/Mouse_Button_Move_0
-			"over_image" : ROOT + "TaskBar/Mouse_Button_Move_0
-			"down_image" : ROOT + "TaskBar/Mouse_Button_Move_0
+			"default_image" : ROOT + "TaskBar/Mouse_Button_Move_01.sub",
+			"over_image" : ROOT + "TaskBar/Mouse_Button_Move_02.sub",
+			"down_image" : ROOT + "TaskBar/Mouse_Button_Move_03.sub",
 		},
 		{
 			"name" : "RightMouseButton",
@@ -300,9 +307,9 @@ window = {
 			"x" : SCREEN_WIDTH/2 + 128 + 66 + 11,
 			"y" : 3 + Y_ADD_POSITION,
 
-			"default_image" : ROOT + "TaskBar/Mouse_Button_Move_0
-			"over_image" : ROOT + "TaskBar/Mouse_Button_Move_0
-			"down_image" : ROOT + "TaskBar/Mouse_Button_Move_0
+			"default_image" : ROOT + "TaskBar/Mouse_Button_Move_01.sub",
+			"over_image" : ROOT + "TaskBar/Mouse_Button_Move_02.sub",
+			"down_image" : ROOT + "TaskBar/Mouse_Button_Move_03.sub",
 		},
 
 		## Button
@@ -315,9 +322,9 @@ window = {
 
 			"tooltip_text" : uiScriptLocale.TASKBAR_CHARACTER,
 
-			"default_image" : ROOT + "TaskBar/Character_Button_0
-			"over_image" : ROOT + "TaskBar/Character_Button_0
-			"down_image" : ROOT + "TaskBar/Character_Button_0
+			"default_image" : ROOT + "TaskBar/Character_Button_01.sub",
+			"over_image" : ROOT + "TaskBar/Character_Button_02.sub",
+			"down_image" : ROOT + "TaskBar/Character_Button_03.sub",
 		},
 		{
 			"name" : "InventoryButton",
@@ -328,9 +335,9 @@ window = {
 
 			"tooltip_text" : uiScriptLocale.TASKBAR_INVENTORY,
 
-			"default_image" : ROOT + "TaskBar/Inventory_Button_0
-			"over_image" : ROOT + "TaskBar/Inventory_Button_0
-			"down_image" : ROOT + "TaskBar/Inventory_Button_0
+			"default_image" : ROOT + "TaskBar/Inventory_Button_01.sub",
+			"over_image" : ROOT + "TaskBar/Inventory_Button_02.sub",
+			"down_image" : ROOT + "TaskBar/Inventory_Button_03.sub",
 		},
 		{
 			"name" : "MessengerButton",
@@ -341,9 +348,9 @@ window = {
 
 			"tooltip_text" : uiScriptLocale.TASKBAR_MESSENGER,
 
-			"default_image" : ROOT + "TaskBar/Community_Button_0
-			"over_image" : ROOT + "TaskBar/Community_Button_0
-			"down_image" : ROOT + "TaskBar/Community_Button_0
+			"default_image" : ROOT + "TaskBar/Community_Button_01.sub",
+			"over_image" : ROOT + "TaskBar/Community_Button_02.sub",
+			"down_image" : ROOT + "TaskBar/Community_Button_03.sub",
 		},
 		{
 			"name" : "SystemButton",
@@ -354,9 +361,9 @@ window = {
 
 			"tooltip_text" : uiScriptLocale.TASKBAR_SYSTEM,
 
-			"default_image" : ROOT + "TaskBar/System_Button_0
-			"over_image" : ROOT + "TaskBar/System_Button_0
-			"down_image" : ROOT + "TaskBar/System_Button_0
+			"default_image" : ROOT + "TaskBar/System_Button_01.sub",
+			"over_image" : ROOT + "TaskBar/System_Button_02.sub",
+			"down_image" : ROOT + "TaskBar/System_Button_03.sub",
 		},
 
 		## QuickBar
@@ -373,16 +380,19 @@ window = {
 			"children" :
 			(
 				{
-					"name" : "ChatButton",
+					# ExpandButton은 기존에 ChatButton이었으나, ChatButton의 효용성이 적다 판단하여
+					# ExpandButton으로 바뀐 것이다.
+					"name" : "ExpandButton",
 					"type" : "button",
 
 					"x" : 128,
 					"y" : 1,
-					"tooltip_text" : uiScriptLocale.TASKBAR_CHAT,
-
-					"default_image" : ROOT + "TaskBar/Chat_Button_0
-					"over_image" : ROOT + "TaskBar/Chat_Button_0
-					"down_image" : ROOT + "TaskBar/Chat_Button_0
+					"tooltip_text" : uiScriptLocale.TASKBAR_EXPAND,
+					
+					
+					"default_image" : ROOT + "TaskBar/Chat_Button_01.sub",
+					"over_image" : ROOT + "TaskBar/Chat_Button_02.sub",
+					"down_image" : ROOT + "TaskBar/Chat_Button_03.sub",
 				},
 				{
 					"name" : "quick_slot_1",
@@ -406,10 +416,10 @@ window = {
 
 					"children" :
 					(
-						{ "name" : "slot_1", "type" : "image", "x" : 3, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/ },
-						{ "name" : "slot_2", "type" : "image", "x" : 35, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/ },
-						{ "name" : "slot_3", "type" : "image", "x" : 67, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/ },
-						{ "name" : "slot_4", "type" : "image", "x" : 99, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/ },
+						{ "name" : "slot_1", "type" : "image", "x" : 3, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/1.sub", },
+						{ "name" : "slot_2", "type" : "image", "x" : 35, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/2.sub", },
+						{ "name" : "slot_3", "type" : "image", "x" : 67, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/3.sub", },
+						{ "name" : "slot_4", "type" : "image", "x" : 99, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/4.sub", },
 					),
 				},
 				{
@@ -434,10 +444,10 @@ window = {
 
 					"children" :
 					(
-						{ "name" : "slot_5", "type" : "image", "x" : 3, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/f },
-						{ "name" : "slot_6", "type" : "image", "x" : 35, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/f },
-						{ "name" : "slot_7", "type" : "image", "x" : 67, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/f },
-						{ "name" : "slot_8", "type" : "image", "x" : 99, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/f },
+						{ "name" : "slot_5", "type" : "image", "x" : 3, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/f1.sub", },
+						{ "name" : "slot_6", "type" : "image", "x" : 35, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/f2.sub", },
+						{ "name" : "slot_7", "type" : "image", "x" : 67, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/f3.sub", },
+						{ "name" : "slot_8", "type" : "image", "x" : 99, "y" : 3, "image" : "d:/ymir work/ui/game/taskbar/f4.sub", },
 					),
 				},
 				{
@@ -463,15 +473,15 @@ window = {
 							"tooltip_text" : uiScriptLocale.TASKBAR_PREV_QUICKSLOT,
 							"x" : 1,
 							"y" : 9,
-							"default_image" : ROOT + "TaskBar/QuickSlot_UpButton_0
-							"over_image" : ROOT + "TaskBar/QuickSlot_UpButton_0
-							"down_image" : ROOT + "TaskBar/QuickSlot_UpButton_0
+							"default_image" : ROOT + "TaskBar/QuickSlot_UpButton_01.sub",
+							"over_image" : ROOT + "TaskBar/QuickSlot_UpButton_02.sub",
+							"down_image" : ROOT + "TaskBar/QuickSlot_UpButton_03.sub",
 						},
 
 						{ 
 							"name" : "QuickPageNumber", 
 							"type" : "image", 							
-							"x" : 3, "y" : 15, "image" : "d:/ymir work/ui/game/taskbar/ 
+							"x" : 3, "y" : 15, "image" : "d:/ymir work/ui/game/taskbar/1.sub", 
 						},
 						{
 							"name" : "QuickPageDownButton",
@@ -481,9 +491,9 @@ window = {
 							"x" : 1,
 							"y" : 24,
 
-							"default_image" : ROOT + "TaskBar/QuickSlot_DownButton_0
-							"over_image" : ROOT + "TaskBar/QuickSlot_DownButton_0
-							"down_image" : ROOT + "TaskBar/QuickSlot_DownButton_0
+							"default_image" : ROOT + "TaskBar/QuickSlot_DownButton_01.sub",
+							"over_image" : ROOT + "TaskBar/QuickSlot_DownButton_02.sub",
+							"down_image" : ROOT + "TaskBar/QuickSlot_DownButton_03.sub",
 						},
 	
 					),

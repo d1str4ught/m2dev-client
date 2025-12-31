@@ -23,7 +23,7 @@ window = {
 		{
 			"name" : "BackGround", "type" : "expanded_image", "x" : 0, "y" : 0,
 			"x_scale" : float(SCREEN_WIDTH) / 1024.0, "y_scale" : float(SCREEN_HEIGHT) / 768.0,
-			"image" : "locale/ae/ui/select.sub",
+			"image" : "d:/ymir work/ui/intro/select/select.sub",
 		},
 		## Name
 		{

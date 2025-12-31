@@ -28,10 +28,10 @@ window = {
 			"x" : 0,
 			"y" : 0,
 
-			"width"		: 285,
-			"height"	: 521,
+			"width" : 285,
+			"height" : 521,
 
-			"image"		: uiScriptLocale.LOCALE_UISCRIPT_PATH + "new_cube_bg.tga",
+			"image" : "d:/ymir work/ui/new_cube_bg.tga",
 
 			"children" :
 			(

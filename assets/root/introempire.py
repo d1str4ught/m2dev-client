@@ -87,10 +87,15 @@ class SelectEmpireWindow(ui.ScriptWindow):
 
 		self.SetSize(wndMgr.GetScreenWidth(), wndMgr.GetScreenHeight())
 		self.SetWindowName("SelectEmpireWindow")
-		self.Show()	
+		self.Show()
 
-		if not self.__LoadScript(uiScriptLocale.LOCALE_UISCRIPT_PATH + "SelectEmpireWindow.py"):
-			dbg.TraceError("SelectEmpireWindow.Open - __LoadScript Error")
+		if app.IsRTL():
+			selectPath = uiScriptLocale.LOCALE_UISCRIPT_PATH + "SelectEmpireWindow.py"
+		else:
+			selectPath = "UIScript/SelectEmpireWindow.py"
+
+		if not self.__LoadScript(selectPath):
+			dbg.TraceError("SelectCharacterWindow.Open - __LoadScript Error")
 			return
 
 		self.OnSelectEmpire(self.empireID)
@@ -184,7 +189,7 @@ class SelectEmpireWindow(ui.ScriptWindow):
 			GetObject("next_text_button").SetEvent(ui.__mem_func__(self.NextDescriptionPage))
 		except:
 			import exception
-			exception.Abort("SelectEmpireWindow.__LoadScript.BindObject")					
+			exception.Abort("SelectEmpireWindow.__LoadScript.BindObject")
 
 		self.selectButton.SetEvent(ui.__mem_func__(self.ClickSelectButton))
 		self.exitButton.SetEvent(ui.__mem_func__(self.ClickExitButton))

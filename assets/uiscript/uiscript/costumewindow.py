@@ -54,8 +54,8 @@ window = {
 
 					"x" : 13,
 					"y" : 38,
-					
-					"image" : uiScriptLocale.LOCALE_UISCRIPT_PATH + "costume/costume_bg.jpg",					
+
+					"image" : "d:/ymir work/ui/costume/costume_bg.jpg",
 
 					"children" :
 					(

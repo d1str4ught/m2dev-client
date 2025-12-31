@@ -1,13 +1,12 @@
 import uiScriptLocale
 
 ROOT_PATH = "d:/ymir work/ui/public/"
-LOCALE_PATH = uiScriptLocale.SELECT_PATH
-
+LOCALE_PATH = "locale/cz/ui/select/"
 BOARD_X = SCREEN_WIDTH * (65) / 800
 BOARD_Y = SCREEN_HEIGHT * (215) / 600
 
 PLUS_BUTTON_WIDTH = 20
-TEMPORARY_HEIGHT =  5
+TEMPORARY_HEIGHT = 24 + 5
 
 window = {
 	"name" : "CreateCharacterWindow",
@@ -22,95 +21,10 @@ window = {
 	(
 		## Board
 		{
-			"name" : "BackGroundPattern",
-			"type" : "expanded_image",
-
-			"x" : 0,
-			"y" : 42,
-
-			"image" : "d:/ymir work/ui/intro/pattern/background_pattern.tga",
-
-			"rect" : (0.0, 0.0, float(SCREEN_WIDTH - 128) / 128.0, float(SCREEN_HEIGHT - 128 - 42*2) / 128.0),
+			"name" : "BackGround", "type" : "expanded_image", "x" : 0, "y" : 0,
+			"x_scale" : float(SCREEN_WIDTH) / 1024.0, "y_scale" : float(SCREEN_HEIGHT) / 768.0,
+			"image" : "d:/ymir work/ui/intro/select/select.sub",
 		},
-
-		## Alpha
-		{
-			"name" : "Alpha",
-			"type" : "expanded_image",
-
-			"x" : 0,
-			"y" : 0,
-
-			"image" : "d:/ymir work/ui/intro/select/background_alpha.sub",
-
-			"x_scale" : float(SCREEN_WIDTH) / 100.0,
-			"y_scale" : float(SCREEN_HEIGHT) / 69.0,
-			"x_origin" : 0.0,
-			"y_origin" : 0.0,
-		},
-
-		## Top & Bottom Line
-		{
-			"name" : "Top_Line",
-			"type" : "expanded_image",
-
-			"x" : 0,
-			"y" : 0,
-
-			"image" : "d:/ymir work/ui/intro/pattern/line_pattern.tga",
-
-			"rect" : (0.0, 0.0, float(SCREEN_WIDTH - 50) / 50.0, 0.0),
-		},
-		{
-			"name" : "Bottom_Line",
-			"type" : "expanded_image",
-
-			"x" : 0,
-			"y" : SCREEN_HEIGHT - 42,
-
-			"image" : "d:/ymir work/ui/intro/pattern/line_pattern.tga",
-
-			"rect" : (0.0, 0.0, float(SCREEN_WIDTH - 50) / 50.0, 0.0),
-		},
-
-		## BackGround
-		{
-			"name" : "BackGround",
-			"type" : "expanded_image",
-
-			"x" : 0,
-			"y" : 0,
-			"x_scale" : float(SCREEN_WIDTH) / 800.0,
-			"y_scale" : float(SCREEN_HEIGHT) / 600.0,
-			"mode" : "MODULATE",
-
-			"image" : "d:/ymir work/ui/intro/pattern/intro_background.dds",
-		},
-
-		## Buttons
-		{
-			"name" : "left_button",
-			"type" : "button",
-
-			"x" : SCREEN_WIDTH * (440) / 800,
-			"y" : SCREEN_HEIGHT * (510) / 600,
-
-			"default_image" : "d:/ymir work/ui/intro/select/left_button_01.sub",
-			"over_image" : "d:/ymir work/ui/intro/select/left_button_02.sub",
-			"down_image" : "d:/ymir work/ui/intro/select/left_button_03.sub",
-		},
-		{
-			"name" : "right_button",
-			"type" : "button",
-
-			"x" : SCREEN_WIDTH * (570) / 800,
-			"y" : SCREEN_HEIGHT * (510) / 600,
-
-			"default_image" : "d:/ymir work/ui/intro/select/right_button_01.sub",
-			"over_image" : "d:/ymir work/ui/intro/select/right_button_02.sub",
-			"down_image" : "d:/ymir work/ui/intro/select/right_button_03.sub",
-		},
-
 		## Name
 		{
 			"name" : "name_warrior",
@@ -485,7 +399,7 @@ window = {
 					"type" : "text",
 
 					"x" : 43,
-					"y" : 217 + TEMPORARY_HEIGHT,
+					"y" : 218,
 
 					"text" : uiScriptLocale.CREATE_NAME,
 
@@ -518,11 +432,49 @@ window = {
 				},
 
 				{
-					"name" : "character_name",
+					"name" : "character_gender",
 					"type" : "text",
 
 					"x" : 43,
-					"y" : 241 + TEMPORARY_HEIGHT,
+					"y" : 247,
+
+					"text" : uiScriptLocale.CREATE_SEX,
+
+					"text_horizontal_align" : "center",
+				},
+				{
+					"name" : "gender_button_01",
+					"type" : "radio_button",
+
+					"x" : 79,
+					"y" : 247,
+
+					"text" : uiScriptLocale.CREATE_MAN,
+
+					"default_image" : ROOT_PATH + "Middle_Button_01.sub",
+					"over_image"	: ROOT_PATH + "Middle_Button_02.sub",
+					"down_image"	: ROOT_PATH + "Middle_Button_03.sub",
+				},
+				{
+					"name" : "gender_button_02",
+					"type" : "radio_button",
+
+					"x" : 139,
+					"y" : 247,
+
+					"text" : uiScriptLocale.CREATE_WOMAN,
+
+					"default_image" : ROOT_PATH + "Middle_Button_01.sub",
+					"over_image"	: ROOT_PATH + "Middle_Button_02.sub",
+					"down_image"	: ROOT_PATH + "Middle_Button_03.sub",
+				},
+
+				{
+					"name" : "character_shape",
+					"type" : "text",
+
+					"x" : 43,
+					"y" : 270,
 
 					"text" : uiScriptLocale.CREATE_SHAPE,
 
@@ -554,6 +506,7 @@ window = {
 					"over_image" : ROOT_PATH + "Middle_Button_02.sub",
 					"down_image" : ROOT_PATH + "Middle_Button_03.sub",
 				},
+
 				{
 					"name" : "create_button",
 					"type" : "button",
@@ -582,5 +535,31 @@ window = {
 				},
 			),
 		},
+
+		## Buttons
+		{
+			"name" : "left_button",
+			"type" : "button",
+
+			"x" : SCREEN_WIDTH * (450 - 22*3) / 800,
+			"y" : SCREEN_HEIGHT * (505) / 600,
+
+			"default_image" : "d:/ymir work/ui/intro/select/dragon_left_button_01.sub",
+			"over_image" : "d:/ymir work/ui/intro/select/dragon_left_button_02.sub",
+			"down_image" : "d:/ymir work/ui/intro/select/dragon_left_button_03.sub",
+		},
+		{
+			"name" : "right_button",
+			"type" : "button",
+
+			"x" : SCREEN_WIDTH * (580 - 22) / 800,
+			"y" : SCREEN_HEIGHT * (505) / 600,
+
+			"default_image" : "d:/ymir work/ui/intro/select/dragon_right_button_01.sub",
+			"over_image" : "d:/ymir work/ui/intro/select/dragon_right_button_02.sub",
+			"down_image" : "d:/ymir work/ui/intro/select/dragon_right_button_03.sub",
+		},
+
+
 	),
 }

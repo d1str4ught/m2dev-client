@@ -1,4 +1,5 @@
 import uiScriptLocale
+import app
 
 ROOT = "d:/ymir work/ui/game/"
 
@@ -7,6 +8,7 @@ Y_ADD_POSITION = 0
 
 window = {
 	"name" : "TaskBar",
+	"style" : ("ltr", ),
 
 	"x" : 0,
 	"y" : SCREEN_HEIGHT - 37,
@@ -33,6 +35,7 @@ window = {
 		{
 			"name" : "Gauge_Board",
 			"type" : "image",
+			"style" : ("ltr", ),
 
 			"x" : 0,
 			"y" : -10 + Y_ADD_POSITION,
@@ -54,16 +57,16 @@ window = {
 
 					"images" :
 					(
-						"locale/en/ui/Mall/easter_2012_0000.tga",
-						"locale/en/ui/Mall/easter_2012_0001.tga",
-						"locale/en/ui/Mall/easter_2012_0002.tga",
-						"locale/en/ui/Mall/easter_2012_0003.tga",
-						"locale/en/ui/Mall/easter_2012_0004.tga",
-						"locale/en/ui/Mall/easter_2012_0005.tga",
-						"locale/en/ui/Mall/easter_2012_0006.tga",
-						"locale/en/ui/Mall/easter_2012_0007.tga",
-						"locale/en/ui/Mall/easter_2012_0008.tga",
-						"locale/en/ui/Mall/easter_2012_0009.tga",
+						ROOT + "mall/easter_2012_0000.tga",
+						ROOT + "mall/easter_2012_0001.tga",
+						ROOT + "mall/easter_2012_0002.tga",
+						ROOT + "mall/easter_2012_0003.tga",
+						ROOT + "mall/easter_2012_0004.tga",
+						ROOT + "mall/easter_2012_0005.tga",
+						ROOT + "mall/easter_2012_0006.tga",
+						ROOT + "mall/easter_2012_0007.tga",
+						ROOT + "mall/easter_2012_0008.tga",
+						ROOT + "mall/easter_2012_0009.tga",
 					)
 				},
 				{
@@ -79,22 +82,23 @@ window = {
 
 					"images" :
 					(
-						"locale/en/ui/Mall/easter_2012_0000.tga",
-						"locale/en/ui/Mall/easter_2012_0001.tga",
-						"locale/en/ui/Mall/easter_2012_0002.tga",
-						"locale/en/ui/Mall/easter_2012_0003.tga",
-						"locale/en/ui/Mall/easter_2012_0004.tga",
-						"locale/en/ui/Mall/easter_2012_0005.tga",
-						"locale/en/ui/Mall/easter_2012_0006.tga",
-						"locale/en/ui/Mall/easter_2012_0007.tga",
-						"locale/en/ui/Mall/easter_2012_0008.tga",
-						"locale/en/ui/Mall/easter_2012_0009.tga",
+						ROOT + "mall/easter_2012_0000.tga",
+						ROOT + "mall/easter_2012_0001.tga",
+						ROOT + "mall/easter_2012_0002.tga",
+						ROOT + "mall/easter_2012_0003.tga",
+						ROOT + "mall/easter_2012_0004.tga",
+						ROOT + "mall/easter_2012_0005.tga",
+						ROOT + "mall/easter_2012_0006.tga",
+						ROOT + "mall/easter_2012_0007.tga",
+						ROOT + "mall/easter_2012_0008.tga",
+						ROOT + "mall/easter_2012_0009.tga",
 					)
 				},
 				{
 					## 툴팁을 띄우기 위한 윈도우
 					"name" : "HPGauge_Board",
 					"type" : "window",
+					"style" : ("ltr", ),
 
 					"x" : 59,
 					"y" : 14,
@@ -140,6 +144,7 @@ window = {
 					## 툴팁을 띄우기 위한 윈도우
 					"name" : "SPGauge_Board",
 					"type" : "window",
+					"style" : ("ltr", ),
 
 					"x" : 59,
 					"y" : 24,
@@ -185,6 +190,7 @@ window = {
 					## 툴팁을 띄우기 위한 윈도우
 					"name" : "STGauge_Board",
 					"type" : "window",
+					"style" : ("ltr", ),
 
 					"x" : 59,
 					"y" : 38,
@@ -222,6 +228,7 @@ window = {
 		{
 			"name" : "EXP_Gauge_Board",
 			"type" : "image",
+			"style" : ("ltr", ),
 
 			"x" : 158,
 			"y" : 0 + Y_ADD_POSITION,
@@ -361,13 +368,16 @@ window = {
 			"children" :
 			(
 				{
-					"name" : "ChatButton",
+					# ExpandButton은 기존에 ChatButton이었으나, ChatButton의 효용성이 적다 판단하여
+					# ExpandButton으로 바뀐 것이다.
+					"name" : "ExpandButton",
 					"type" : "button",
 
 					"x" : 128,
 					"y" : 1,
-					"tooltip_text" : uiScriptLocale.TASKBAR_CHAT,
-
+					"tooltip_text" : uiScriptLocale.TASKBAR_EXPAND,
+					
+					
 					"default_image" : ROOT + "TaskBar/Chat_Button_01.sub",
 					"over_image" : ROOT + "TaskBar/Chat_Button_02.sub",
 					"down_image" : ROOT + "TaskBar/Chat_Button_03.sub",

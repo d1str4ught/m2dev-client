@@ -1,5 +1,4 @@
 import uiScriptLocale
-
 window = {
 	"name" : "PasswordDialog",
 
@@ -8,8 +7,8 @@ window = {
 
 	"style" : ("movable", "float",),
 
-	"width" : 170,
-	"height" : 90,
+	"width" : 250,
+	"height" : 150,
 
 	"children" :
 	(
@@ -20,11 +19,34 @@ window = {
 			"x" : 0,
 			"y" : 0,
 
-			"width" : 170,
-			"height" : 90,
+			"width" : 250,
+			"height" : 150,
 
 			"children" :
 			(
+
+				#내용
+				{
+					"name" : "Desc1",
+					"type" : "text",
+
+					"x" : 250/2,
+					"y" : 30,
+
+					"text" : uiScriptLocale.PASSWORD_DESC_1,
+					"text_horizontal_align":"center"
+				},
+				#내용2
+				{
+					"name" : "Desc2",
+					"type" : "text",
+
+					"x" : 250/2,
+					"y" : 42,
+
+					"text" : uiScriptLocale.PASSWORD_DESC_2,
+					"text_horizontal_align":"center"
+				},
 				## Title
 				{
 					"name" : "titlebar",
@@ -34,7 +56,7 @@ window = {
 					"x" : 8,
 					"y" : 8,
  
-					"width" : 154,
+					"width" : 234,
 					"color" : "gray",
 
 					"children" :
@@ -43,7 +65,7 @@ window = {
 							"name" : "TitleName",
 							"type" : "text",
 
-							"x" : 154/2,
+							"x" : 234/2,
 							"y" : 3,
 
 							"text" : uiScriptLocale.PASSWORD_TITLE,
@@ -58,7 +80,7 @@ window = {
 					"type" : "image",
 
 					"x" : 0,
-					"y" : 34,
+					"y" : 56,
 					"horizontal_align" : "center",
 
 					"image" : "d:/ymir work/ui/public/Parameter_Slot_02.sub",
@@ -80,14 +102,43 @@ window = {
 						},
 					),
 				},
+				{
+					"name" : "Desc3",
+					"type" : "text",
 
+					"x" : 250/2,
+					"y" : 80,
+
+					"text" : uiScriptLocale.PASSWORD_DESC_3,
+					"text_horizontal_align":"center"
+				},
+				{
+					"name" : "Desc4",
+					"type" : "text",
+
+					"x" : 250/2,
+					"y" : 92,
+
+					"text" : uiScriptLocale.PASSWORD_DESC_4,
+					"text_horizontal_align":"center"
+				},
+				{
+					"name" : "Desc5",
+					"type" : "text",
+
+					"x" : 250/2,
+					"y" : 104,
+
+					"text" : uiScriptLocale.PASSWORD_DESC_5,
+					"text_horizontal_align":"center"
+				},
 				## Button
 				{
 					"name" : "accept_button",
 					"type" : "button",
 
-					"x" : 170/2 - 61 - 5,
-					"y" : 58,
+					"x" : 250/2 - 61 - 5,
+					"y" : 120,
 
 					"text" : uiScriptLocale.OK,
 
@@ -99,8 +150,8 @@ window = {
 					"name" : "cancel_button",
 					"type" : "button",
 
-					"x" : 170/2 + 5,
-					"y" : 58,
+					"x" : 250/2 + 5,
+					"y" : 120,
 
 					"text" : uiScriptLocale.CANCEL,
 

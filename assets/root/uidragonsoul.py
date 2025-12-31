@@ -57,7 +57,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 		self.isLoaded = 1
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "dragonsoulwindow.py")
+			pyScrLoader.LoadScriptFile(self, "UIScript/dragonsoulwindow.py")
 		
 		except:
 			import exception
@@ -781,7 +781,7 @@ class DragonSoulRefineWindow(ui.ScriptWindow):
 		self.isLoaded = 1
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "dragonsoulrefinewindow.py")
+			pyScrLoader.LoadScriptFile(self, "UIScript/dragonsoulrefinewindow.py")
 
 		except:
 			import exception

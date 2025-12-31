@@ -135,7 +135,11 @@ class CreateCharacterWindow(ui.Window):
 		try:
 			dlgBoard = ui.ScriptWindow()
 			pythonScriptLoader = ui.PythonScriptLoader()
-			pythonScriptLoader.LoadScriptFile(dlgBoard, uiScriptLocale.LOCALE_UISCRIPT_PATH + "createcharacterwindow.py")
+
+			if app.IsRTL():
+				pythonScriptLoader.LoadScriptFile(dlgBoard, uiScriptLocale.LOCALE_UISCRIPT_PATH + "createcharacterwindow.py")
+			else:
+				pythonScriptLoader.LoadScriptFile(dlgBoard, "UIScript/createcharacterwindow.py")
 
 		except:
 			import exception

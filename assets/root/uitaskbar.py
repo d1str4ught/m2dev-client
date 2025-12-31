@@ -78,7 +78,8 @@ class GiftBox(ui.ScriptWindow):
 	def LoadWindow(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "giftbox.py")
+			pyScrLoader.LoadScriptFile(self, "UIScript/giftbox.py")
+
 		except:
 			import exception
 			exception.Abort("GiftBox.LoadWindow.LoadObject")		
@@ -127,7 +128,12 @@ class EnergyBar(ui.ScriptWindow):
 	def LoadWindow(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "EnergyBar.py")
+
+			if app.IsRTL():
+				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "EnergyBar.py")
+			else:
+				pyScrLoader.LoadScriptFile(self, "UIScript/EnergyBar.py")
+
 		except:
 			import exception
 			exception.Abort("EnergyBar.LoadWindow.LoadObject")
@@ -188,7 +194,12 @@ class ExpandedTaskBar(ui.ScriptWindow):
 	def LoadWindow(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "ExpandedTaskBar.py")
+
+			if app.IsRTL():
+				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "ExpandedTaskBar.py")
+			else:
+				pyScrLoader.LoadScriptFile(self, "UIScript/ExpandedTaskBar.py")
+
 		except:
 			import exception
 			exception.Abort("ExpandedTaskBar.LoadWindow.LoadObject")
@@ -411,10 +422,11 @@ class TaskBar(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 
-			if constInfo.IN_GAME_SHOP_ENABLE:
+			if app.IsRTL():
 				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "TaskBar.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "UIScript/TaskBar.py")
+
 			pyScrLoader.LoadScriptFile(self.mouseModeButtonList[self.MOUSE_BUTTON_LEFT], "UIScript/MouseButtonWindow.py")
 			pyScrLoader.LoadScriptFile(self.mouseModeButtonList[self.MOUSE_BUTTON_RIGHT], "UIScript/RightMouseButtonWindow.py")
 		except:
@@ -509,14 +521,12 @@ class TaskBar(ui.ScriptWindow):
 		self.toggleButtonDict = toggleButtonDict
 		self.expGauge = expGauge
 
-		if constInfo.IN_GAME_SHOP_ENABLE:
-			self.rampageGauge1  = self.GetChild("RampageGauge")
-			self.rampageGauge1.OnMouseOverIn = ui.__mem_func__(self.__RampageGauge_OverIn)
-			self.rampageGauge2 = self.GetChild("RampageGauge2")
-			self.rampageGauge2.OnMouseOverOut = ui.__mem_func__(self.__RampageGauge_OverOut)
-			self.rampageGauge2.OnMouseLeftButtonUp = ui.__mem_func__(self.__RampageGauge_Click)
-			print "[DEBUG]: constInfo.IN_GAME_SHOP_ENABLE / self.rampageGauge1",constInfo.IN_GAME_SHOP_ENABLE, self.rampageGauge1
-			self.__RampageGauge_OverOut()
+		self.rampageGauge1  = self.GetChild("RampageGauge")
+		self.rampageGauge1.OnMouseOverIn = ui.__mem_func__(self.__RampageGauge_OverIn)
+		self.rampageGauge2 = self.GetChild("RampageGauge2")
+		self.rampageGauge2.OnMouseOverOut = ui.__mem_func__(self.__RampageGauge_OverOut)
+		self.rampageGauge2.OnMouseLeftButtonUp = ui.__mem_func__(self.__RampageGauge_Click)
+		self.__RampageGauge_OverOut()
 
 		self.hpGauge = self.GetChild("HPGauge")
 		self.mpGauge = self.GetChild("SPGauge")
