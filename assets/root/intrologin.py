@@ -143,7 +143,13 @@ class LoginWindow(ui.ScriptWindow):
 		self.virtualKeyboardMode = "ALPHABET"
 		self.virtualKeyboardIsUpper = False
 		self.timeOutMsg = False #Fix
-		
+
+		self.language_list = []
+		self.flag_button_list = []
+		self.language_board = None
+		self.language_popup = None
+		self.__LoadLocale()
+
 	def __del__(self):
 		net.ClearPhaseWindow(net.PHASE_WINDOW_LOGIN, self)
 		net.SetAccountConnectorHandler(0)
@@ -270,9 +276,14 @@ class LoginWindow(ui.ScriptWindow):
 		self.connectingDialog = None
 		self.loadingImage = None
 
-		self.serverBoard				= None
-		self.serverList					= None
-		self.channelList				= None
+		self.language_list = []
+		self.flag_button_list = []
+		self.language_board = None
+		self.language_popup = None
+
+		self.serverBoard = None
+		self.serverList = None
+		self.channelList = None
 
 		self.VIRTUAL_KEY_ALPHABET_LOWERS = None
 		self.VIRTUAL_KEY_ALPHABET_UPPERS = None
@@ -454,6 +465,30 @@ class LoginWindow(ui.ScriptWindow):
 				self.GetChild("key_at").SetToggleDownEvent(lambda : self.__VirtualKeyboard_SetSymbolMode())
 				self.GetChild("key_at").SetToggleUpEvent(lambda : self.__VirtualKeyboard_SetAlphabetMode())
 
+			self.language_board = ui.ThinBoard()
+			self.language_board.SetParent(self)
+			self.language_board.SetSize(wndMgr.GetScreenWidth(), 35)
+			self.language_board.SetPosition(0, 20)
+			self.language_board.Show()
+
+			step = wndMgr.GetScreenWidth() / len(self.language_list)
+			x = 0
+
+			for i, lang in enumerate(self.language_list):
+				img_path = "d:/ymir work/ui/intro/login/server_flag_%s.sub" % lang
+				btn = ui.Button()
+				btn.SetParent(self.language_board)
+				btn.SetPosition(x + 15, 10)
+				btn.SetUpVisual(img_path)
+				btn.SetOverVisual(img_path)
+				btn.SetDownVisual(img_path)
+				btn.SetToolTipText(lang.upper())
+				btn.SetEvent(ui.__mem_func__(self.__ClickLanguage), i)
+				btn.Show()
+
+				self.flag_button_list.append(btn)
+				x += step
+
 		except:
 			import exception
 			exception.Abort("LoginWindow.__LoadScript.BindObject")
@@ -566,17 +601,61 @@ class LoginWindow(ui.ScriptWindow):
 		else:
 			self.stream.popupWindow.Close()
 			self.stream.popupWindow.Open(localeInfo.LOGIN_CONNETING, self.SetPasswordEditLineFocus, localeInfo.UI_CANCEL)
-            
+
 		self.stream.SetLoginInfo(id, pwd)
 		self.stream.Connect()
 
 	def __OnClickExitButton(self):
 		self.stream.SetPhaseWindow(0)
 
+	def __LoadLocale(self):
+		self.language_list = [
+			"ae", "en", "cz", "de", "dk",
+			"es", "fr", "gr", "hu", "it",
+			"nl", "pl", "pt", "ro", "ru", "tr",
+		]
+
+	def __SaveLocale(self, locale):
+		try:
+			with open("config/locale.cfg", "wt") as f:
+				f.write(locale)
+		except:
+			import dbg
+			dbg.LogBox("__SaveLocale error locale.cfg")
+			app.Abort()
+
+	def __ClickLanguage(self, index):
+		if index >= len(self.language_list):
+			return
+
+		self.locale = self.language_list[index]
+
+		if not self.language_popup:
+			self.language_popup = uiCommon.QuestionDialog()
+
+		self.language_popup.SetText("Change language and restart the client?")
+		self.language_popup.SetAcceptEvent(ui.__mem_func__(self.__OnAcceptLanguage))
+		self.language_popup.SetCancelEvent(ui.__mem_func__(self.__OnCancelLanguage))
+		self.language_popup.Open()
+
+	def __OnAcceptLanguage(self):
+		if self.language_popup:
+			self.language_popup.Close()
+
+		self.__SaveLocale(self.locale)
+
+		import os
+		app.Exit()
+		os.popen('start "" "Metin2_Debug.exe"')
+
+	def __OnCancelLanguage(self):
+		if self.language_popup:
+			self.language_popup.Close()
+
 	def __SetServerInfo(self, name):
 		net.SetServerInfo(name.strip())
 		self.serverInfo.SetText(name)
-		
+
 	def __LoadLoginInfo(self, loginInfoFileName):
 
 		try:
