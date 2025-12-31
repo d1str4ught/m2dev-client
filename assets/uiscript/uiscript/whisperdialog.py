@@ -77,7 +77,7 @@ window = {
 					"x_scale" : 0.2,
 					"y_scale" : 0.2,
 
-					"image" : LOCALE_PATH + "/effect/ymirred.tga",
+					"image" : LOCALE_PATH_COMMON + "/effect/ymirred.tga",
 				},
 
 				## Button
