@@ -2161,8 +2161,7 @@ class GameWindow(ui.ScriptWindow):
 		app.EnableTestServerFlag()
 
 	def __InGameShop_Show(self, url):
-		if constInfo.IN_GAME_SHOP_ENABLE:
-			self.interface.OpenWebWindow(url)
+		self.interface.OpenWebWindow(url)
 
 	# WEDDING
 	def __LoginLover(self):

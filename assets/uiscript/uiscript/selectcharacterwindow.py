@@ -21,69 +21,10 @@ window = {
 	(
 		## Board
 		{
-			"name" : "BackGroundPattern",
-			"type" : "expanded_image",
-
-			"x" : 0,
-			"y" : 42,
-
-			"image" : "d:/ymir work/ui/intro/pattern/background_pattern.tga",
-
-			"rect" : (0.0, 0.0, float(SCREEN_WIDTH - 128) / 128.0, float(SCREEN_HEIGHT - 128 - 42*2) / 128.0),
+			"name" : "BackGround", "type" : "expanded_image", "x" : 0, "y" : 0,
+			"x_scale" : float(SCREEN_WIDTH) / 1024.0, "y_scale" : float(SCREEN_HEIGHT) / 768.0,
+			"image" : "d:/ymir work/ui/intro/select/select.sub",
 		},
-
-		## Alpha
-		{
-			"name" : "Alpha",
-			"type" : "expanded_image",
-
-			"x" : 0,
-			"y" : 0,
-
-			"image" : "d:/ymir work/ui/intro/select/background_alpha.sub",
-
-			"x_scale" : float(SCREEN_WIDTH) / 100.0,
-			"y_scale" : float(SCREEN_HEIGHT) / 69.0,
-		},
-
-		## Top & Bottom Line
-		{
-			"name" : "Top_Line",
-			"type" : "expanded_image",
-
-			"x" : 0,
-			"y" : 0,
-
-			"image" : "d:/ymir work/ui/intro/pattern/line_pattern.tga",
-
-			"rect" : (0.0, 0.0, float(SCREEN_WIDTH - 50) / 50.0, 0.0),
-		},
-		{
-			"name" : "Bottom_Line",
-			"type" : "expanded_image",
-
-			"x" : 0,
-			"y" : SCREEN_HEIGHT - 42,
-
-			"image" : "d:/ymir work/ui/intro/pattern/line_pattern.tga",
-
-			"rect" : (0.0, 0.0, float(SCREEN_WIDTH - 50) / 50.0, 0.0),
-		},
-
-		## BackGround
-		{
-			"name" : "BackGround",
-			"type" : "expanded_image",
-
-			"x" : 0,
-			"y" : 0,
-			"x_scale" : float(SCREEN_WIDTH) / 800.0,
-			"y_scale" : float(SCREEN_HEIGHT) / 600.0,
-			"mode" : "MODULATE",
-
-			"image" : "d:/ymir work/ui/intro/pattern/intro_background.dds",
-		},
-
 		## Name
 		{
 			"name" : "name_warrior",
@@ -557,23 +498,23 @@ window = {
 			"name" : "left_button",
 			"type" : "button",
 
-			"x" : SCREEN_WIDTH * (450) / 800,
+			"x" : SCREEN_WIDTH * (450 - 22*3) / 800,
 			"y" : SCREEN_HEIGHT * (505) / 600,
 
-			"default_image" : "d:/ymir work/ui/intro/select/left_button_01.sub",
-			"over_image" : "d:/ymir work/ui/intro/select/left_button_02.sub",
-			"down_image" : "d:/ymir work/ui/intro/select/left_button_03.sub",
+			"default_image" : "d:/ymir work/ui/intro/select/dragon_left_button_01.sub",
+			"over_image" : "d:/ymir work/ui/intro/select/dragon_left_button_02.sub",
+			"down_image" : "d:/ymir work/ui/intro/select/dragon_left_button_03.sub",
 		},
 		{
 			"name" : "right_button",
 			"type" : "button",
 
-			"x" : SCREEN_WIDTH * (580) / 800,
+			"x" : SCREEN_WIDTH * (580 - 22) / 800,
 			"y" : SCREEN_HEIGHT * (505) / 600,
 
-			"default_image" : "d:/ymir work/ui/intro/select/right_button_01.sub",
-			"over_image" : "d:/ymir work/ui/intro/select/right_button_02.sub",
-			"down_image" : "d:/ymir work/ui/intro/select/right_button_03.sub",
+			"default_image" : "d:/ymir work/ui/intro/select/dragon_right_button_01.sub",
+			"over_image" : "d:/ymir work/ui/intro/select/dragon_right_button_02.sub",
+			"down_image" : "d:/ymir work/ui/intro/select/dragon_right_button_03.sub",
 		},
 
 	),

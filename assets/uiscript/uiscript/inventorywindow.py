@@ -1,12 +1,13 @@
 import uiScriptLocale
+import item
 
 EQUIPMENT_START_INDEX = 90
 
 window = {
 	"name" : "InventoryWindow",
 
-	## 600 - (width + ���������� ���� ���� 24 px)
-	"x" : SCREEN_WIDTH - 176 - 200,
+	## 600 - (width + żŔ¸ĄÂĘŔ¸·Î şÎĹÍ ¶çżě±â 24 px)
+	"x" : SCREEN_WIDTH - 176,
 	"y" : SCREEN_HEIGHT - 37 - 565,
 
 	"style" : ("movable", "float",),
@@ -16,6 +17,7 @@ window = {
 
 	"children" :
 	(
+		## Inventory, Equipment Slots
 		{
 			"name" : "board",
 			"type" : "board",
@@ -43,7 +45,7 @@ window = {
 
 					"children" :
 					(
-						{ "name":"TitleName", "type":"text", "x":77, "y":3, "text":uiScriptLocale.INVENTORY_PAGE_BUTTON_TOOLTIP_2, "text_horizontal_align":"center" },
+						{ "name":"TitleName", "type":"text", "x":77, "y":3, "text":uiScriptLocale.INVENTORY_TITLE, "text_horizontal_align":"center" },
 					),
 				},
 
@@ -55,7 +57,8 @@ window = {
 					"x" : 10,
 					"y" : 33,
 
-					"image" : "d:/ymir work/ui/game/windows/equipment_base.sub",
+					# "image" : "d:/ymir work/ui/equipment_bg_with_ring.tga",
+					"image" : "d:/ymir work/ui/equipment_bg_without_ring.tga",
 
 					"children" :
 					(
@@ -76,15 +79,62 @@ window = {
 										{"index":EQUIPMENT_START_INDEX+2, "x":39, "y":145, "width":32, "height":32},
 										{"index":EQUIPMENT_START_INDEX+3, "x":75, "y":67, "width":32, "height":32},
 										{"index":EQUIPMENT_START_INDEX+4, "x":3, "y":3, "width":32, "height":96},
-										{"index":EQUIPMENT_START_INDEX+5, "x":114, "y":84, "width":32, "height":32},
-										{"index":EQUIPMENT_START_INDEX+6, "x":114, "y":52, "width":32, "height":32},
-										{"index":EQUIPMENT_START_INDEX+7, "x":2, "y":113, "width":32, "height":32},
-										{"index":EQUIPMENT_START_INDEX+8, "x":75, "y":113, "width":32, "height":32},
-										{"index":EQUIPMENT_START_INDEX+9, "x":114, "y":1, "width":32, "height":32},
+										{"index":EQUIPMENT_START_INDEX+5, "x":114, "y":67, "width":32, "height":32},
+										{"index":EQUIPMENT_START_INDEX+6, "x":114, "y":35, "width":32, "height":32},
+										{"index":EQUIPMENT_START_INDEX+7, "x":2, "y":145, "width":32, "height":32},
+										{"index":EQUIPMENT_START_INDEX+8, "x":75, "y":145, "width":32, "height":32},
+										{"index":EQUIPMENT_START_INDEX+9, "x":114, "y":2, "width":32, "height":32},
 										{"index":EQUIPMENT_START_INDEX+10, "x":75, "y":35, "width":32, "height":32},
+										## »ő ąÝÁö1
+										# {"index":item.EQUIPMENT_RING1, "x":2, "y":106, "width":32, "height":32},
+										## »ő ąÝÁö2
+										# {"index":item.EQUIPMENT_RING2, "x":75, "y":106, "width":32, "height":32},
+										## »ő ş§Ć®
+										{"index":item.EQUIPMENT_BELT, "x":39, "y":106, "width":32, "height":32},
 									),
 						},
+						## Dragon Soul Button
+						{
+							"name" : "DSSButton",
+							"type" : "button",
 
+							"x" : 114,
+							"y" : 107,
+
+							"tooltip_text" : uiScriptLocale.TASKBAR_DRAGON_SOUL,
+
+							"default_image" : "d:/ymir work/ui/dragonsoul/dss_inventory_button_01.tga",
+							"over_image" : "d:/ymir work/ui/dragonsoul/dss_inventory_button_02.tga",
+							"down_image" : "d:/ymir work/ui/dragonsoul/dss_inventory_button_03.tga",
+						},
+						## MallButton
+						{
+							"name" : "MallButton",
+							"type" : "button",
+
+							"x" : 118,
+							"y" : 148,
+
+							"tooltip_text" : uiScriptLocale.MALL_TITLE,
+
+							"default_image" : "d:/ymir work/ui/game/TaskBar/Mall_Button_01.tga",
+							"over_image" : "d:/ymir work/ui/game/TaskBar/Mall_Button_02.tga",
+							"down_image" : "d:/ymir work/ui/game/TaskBar/Mall_Button_03.tga",
+						},
+						## CostumeButton
+						{
+							"name" : "CostumeButton",
+							"type" : "button",
+
+							"x" : 78,
+							"y" : 5,
+
+							"tooltip_text" : uiScriptLocale.COSTUME_TITLE,
+
+							"default_image" : "d:/ymir work/ui/game/costume_button_01.tga",
+							"over_image" : "d:/ymir work/ui/game/costume_button_02.tga",
+							"down_image" : "d:/ymir work/ui/game/costume_button_03.tga",
+						},						
 						{
 							"name" : "Equipment_Tab_01",
 							"type" : "radio_button",
@@ -235,7 +285,7 @@ window = {
 							"type":"image",
 
 							"x":-18,
-							"y":20,
+							"y":2,
 
 							"image":"d:/ymir work/ui/game/windows/money_icon.sub",
 						},

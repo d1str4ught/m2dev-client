@@ -6,11 +6,11 @@ window = {
 	"name" : "SystemDialog",
 	"style" : ("float",),
 
-	"x" : SCREEN_WIDTH/2 - 100,
-	"y" : SCREEN_HEIGHT/2 - 114,
+	"x" : (SCREEN_WIDTH  - 200) /2,
+	"y" : (SCREEN_HEIGHT - 288) /2,
 
 	"width" : 200,
-	"height" : 258,
+	"height" : 288,
 
 	"children" :
 	(
@@ -22,7 +22,7 @@ window = {
 			"y" : 0,
 
 			"width" : 200,
-			"height" : 258,
+			"height" : 288,
 
 			"children" :
 			(
@@ -39,13 +39,27 @@ window = {
 					"over_image" : ROOT + "XLarge_Button_02.sub",
 					"down_image" : ROOT + "XLarge_Button_03.sub",
 				},
+				{
+					"name" : "mall_button",
+					"type" : "button",
+
+					"x" : 10,
+					"y" : 57,
+
+					"text" : uiScriptLocale.SYSTEM_MALL,
+					"text_color" : 0xffF8BF24,
+
+					"default_image" : ROOT + "XLarge_Button_02.sub",
+					"over_image" : ROOT + "XLarge_Button_02.sub",
+					"down_image" : ROOT + "XLarge_Button_02.sub",
+				},
 
 				{
 					"name" : "system_option_button",
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 57,
+					"y" : 87,
 
 					"text" : uiScriptLocale.SYSTEMOPTION_TITLE,
 
@@ -58,7 +72,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 87,
+					"y" : 117,
 
 					"text" : uiScriptLocale.GAMEOPTION_TITLE,
 
@@ -71,7 +85,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 117,
+					"y" : 147,
 
 					"text" : uiScriptLocale.SYSTEM_CHANGE,
 
@@ -84,7 +98,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 147,
+					"y" : 177,
 
 					"text" : uiScriptLocale.SYSTEM_LOGOUT,
 
@@ -97,7 +111,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 177,
+					"y" : 217,
 
 					"text" : uiScriptLocale.SYSTEM_EXIT,
 
@@ -110,7 +124,7 @@ window = {
 					"type" : "button",
 
 					"x" : 10,
-					"y" : 217,
+					"y" : 247,
 
 					"text" : uiScriptLocale.CANCEL,
 

@@ -208,7 +208,7 @@ class ToolTip(ui.ThinBoard):
 		return textLine
 
 	def AppendDescription(self, desc, limit, color = FONT_COLOR):
-		self.__AppendDescription_EasternLanguage(desc, limit, color)
+		self.__AppendDescription_WesternLanguage(desc, color)
 
 	def __AppendDescription_EasternLanguage(self, description, characterLimitation, color=FONT_COLOR):
 		length = len(description)
@@ -229,7 +229,6 @@ class ToolTip(ui.ThinBoard):
 		self.AppendSpace(5)
 		for line in lines:
 			self.AppendTextLine(line, color)
-			
 
 	def ResizeToolTip(self):
 		self.SetSize(self.toolTipWidth, self.TOOL_TIP_HEIGHT + self.toolTipHeight)

@@ -6,10 +6,10 @@ ROOT_PATH = "d:/ymir work/ui/intro/"
 #Big-List
 #SERVER_BOARD_HEIGHT = 180 + 390
 #SERVER_LIST_HEIGHT = 171 + 350
-
 #Small list like german
 SERVER_BOARD_HEIGHT = 220 + 180
 SERVER_LIST_HEIGHT = 171 + 180
+SERVER_BOARD_WEIGHT = 375 
 
 window = {
 	"name" : "LoginWindow",
@@ -512,7 +512,6 @@ window = {
 		{
 			"name" : "ConnectBoard",
 			"type" : "thinboard",
-			"style" : ("rtl",),
 
 			"x" : (SCREEN_WIDTH - 208) / 2,
 			"y" : (SCREEN_HEIGHT - 410 - 35),
@@ -553,7 +552,6 @@ window = {
 		{
 			"name" : "LoginBoard",
 			"type" : "image",
-			"style" : ("rtl",),
 
 			"x" : (SCREEN_WIDTH - 208) / 2,
 			"y" : (SCREEN_HEIGHT - 410),
@@ -566,13 +564,14 @@ window = {
 					"name" : "ID_EditLine",
 					"type" : "editline",
 
-					"x" : 83,
+					"x" : 77,
 					"y" : 16,
 
 					"width" : 120,
 					"height" : 18,
 
 					"input_limit" : 16,
+					"enable_codepage" : 0,
 
 					"r" : 1.0,
 					"g" : 1.0,
@@ -583,7 +582,7 @@ window = {
 					"name" : "Password_EditLine",
 					"type" : "editline",
 
-					"x" : 83,
+					"x" : 77,
 					"y" : 43,
 
 					"width" : 120,
@@ -591,6 +590,7 @@ window = {
 
 					"input_limit" : 16,
 					"secret_flag" : 1,
+					"enable_codepage" : 0,
 
 					"r" : 1.0,
 					"g" : 1.0,
@@ -699,7 +699,7 @@ window = {
 				## ListBox
 				{
 					"name" : "ServerList",
-					"type" : "listbox",
+					"type" : "listbox2",
 
 					"x" : 10,
 					"y" : 40,
@@ -715,7 +715,7 @@ window = {
 					"x" : 255,
 					"y" : 40,
 					"width" : 109,
-					"height" : SERVER_LIST_HEIGHT-40,
+					"height" : SERVER_LIST_HEIGHT,
 
 					"item_align" : 0,
 				},

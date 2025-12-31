@@ -18,10 +18,7 @@ class WebWindow(ui.ScriptWindow):
 	def LoadWindow(self):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
-			if constInfo.IN_GAME_SHOP_ENABLE:
-				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "WebWindow.py")
-			else:
-				pyScrLoader.LoadScriptFile(self, "UIScript/WebWindow.py")
+			pyScrLoader.LoadScriptFile(self, "UIScript/WebWindow.py")
 		except:
 			import exception
 			exception.Abort("WebWindow.LoadDialog.LoadScript")

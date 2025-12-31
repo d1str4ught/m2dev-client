@@ -34,10 +34,7 @@ class SystemDialog(ui.ScriptWindow):
 			
 	def __LoadSystemMenu_Default(self):
 		pyScrLoader = ui.PythonScriptLoader()
-		if constInfo.IN_GAME_SHOP_ENABLE:
-			pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "SystemDialog.py")
-		else:
-			pyScrLoader.LoadScriptFile(self, "uiscript/systemdialog.py")
+		pyScrLoader.LoadScriptFile(self, "uiscript/systemdialog.py")
 
 		self.GetChild("system_option_button").SAFE_SetEvent(self.__ClickSystemOptionButton)
 		self.GetChild("game_option_button").SAFE_SetEvent(self.__ClickGameOptionButton)
@@ -46,10 +43,7 @@ class SystemDialog(ui.ScriptWindow):
 		self.GetChild("exit_button").SAFE_SetEvent(self.__ClickExitButton)
 		self.GetChild("help_button").SAFE_SetEvent(self.__ClickHelpButton)
 		self.GetChild("cancel_button").SAFE_SetEvent(self.Close)
-
-		if constInfo.IN_GAME_SHOP_ENABLE:
-			self.GetChild("mall_button").SAFE_SetEvent(self.__ClickInGameShopButton)
-		
+		self.GetChild("mall_button").SAFE_SetEvent(self.__ClickInGameShopButton)
 
 	def __LoadSystemMenu_ForPortal(self):
 		pyScrLoader = ui.PythonScriptLoader()

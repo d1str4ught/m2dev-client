@@ -256,11 +256,10 @@ class Interface(object):
 		self.bigBoard.Hide()
 
 	def __MakeWebWindow(self):
-		if constInfo.IN_GAME_SHOP_ENABLE:
-			import uiWeb
-			self.wndWeb = uiWeb.WebWindow()
-			self.wndWeb.LoadWindow()
-			self.wndWeb.Hide()
+		import uiWeb
+		self.wndWeb = uiWeb.WebWindow()
+		self.wndWeb.LoadWindow()
+		self.wndWeb.Hide()
 
 	def __MakeCubeWindow(self):
 		self.wndCube = uiCube.CubeWindow()

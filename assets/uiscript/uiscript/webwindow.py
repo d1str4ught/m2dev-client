@@ -1,7 +1,7 @@
 import uiScriptLocale
 
-WEB_WIDTH = 640
-WEB_HEIGHT = 480
+WEB_WIDTH = 740
+WEB_HEIGHT = 550
 
 window = {
 	"name" : "MallWindow",

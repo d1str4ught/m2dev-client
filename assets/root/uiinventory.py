@@ -19,10 +19,6 @@ import constInfo
 import ime
 import wndMgr
 
-ITEM_MALL_BUTTON_ENABLE = True
-
-
-
 ITEM_FLAG_APPLICABLE = 1 << 14
 
 class CostumeWindow(ui.ScriptWindow):
@@ -30,14 +26,14 @@ class CostumeWindow(ui.ScriptWindow):
 	def __init__(self, wndInventory):
 		import exception
 		
-		if not app.ENABLE_COSTUME_SYSTEM:			
+		if not app.ENABLE_COSTUME_SYSTEM:
 			exception.Abort("What do you do?")
 			return
 
 		if not wndInventory:
 			exception.Abort("wndInventory parameter must be set to InventoryWindow")
-			return						
-			 	 
+			return
+
 		ui.ScriptWindow.__init__(self)
 
 		self.isLoaded = 0
@@ -73,7 +69,7 @@ class CostumeWindow(ui.ScriptWindow):
 		try:
 			wndEquip = self.GetChild("CostumeSlot")
 			self.GetChild("TitleBar").SetCloseEvent(ui.__mem_func__(self.Close))
-			
+
 		except:
 			import exception
 			exception.Abort("CostumeWindow.LoadWindow.BindObject")
@@ -289,7 +285,7 @@ class InventoryWindow(ui.ScriptWindow):
 		try:
 			pyScrLoader = ui.PythonScriptLoader()
 
-			if ITEM_MALL_BUTTON_ENABLE:
+			if app.IsRTL():
 				pyScrLoader.LoadScriptFile(self, uiScriptLocale.LOCALE_UISCRIPT_PATH + "InventoryWindow.py")
 			else:
 				pyScrLoader.LoadScriptFile(self, "UIScript/InventoryWindow.py")
