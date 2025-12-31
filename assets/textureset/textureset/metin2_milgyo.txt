@@ -1,6 +1,6 @@
 TextureSet
 
-TextureCount 09
+TextureCount 12
 Start Texture001
     "d:\ymir work\terrainmaps\b\grass\grass 01.dds"
     9.000000
@@ -91,6 +91,36 @@ Start Texture009
     0
     0
 End Texture009
+Start Texture010
+    "D:\ymir work\terrainmaps\b\stone\dc_rock_00.dds"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture010
+Start Texture011
+    "D:\ymir work\terrainmaps\dungeon\devilcave\dc_grass_00.DDS"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture011
+Start Texture012
+    "D:\ymir work\terrainmaps\dungeon\devilcave\dc_spider_00.DDS"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture012
 
 
 
