@@ -354,3 +354,31 @@ def SecondToHM(time):
 	if minute > 0:
 		text += str(minute) + MINUTE
 	return text
+
+# Region check functions
+def IsEUROPE():
+    return app.GetLocaleName() in ["de", "fr", "it", "es", "pt", "pl", "cz", "ro", "hu", "nl", "dk", "gr", "tr", "ru"]
+
+def IsCANADA():
+    return False  # Not used in this setup
+
+def IsJAPAN():
+    return app.GetLocaleName() == "jp"
+
+def IsENGLISH():
+    return app.GetLocaleName() == "en"
+
+def IsCHINA():
+    return app.GetLocaleName() in ["cn", "tw", "hk"]
+
+def IsHONGKONG():
+    return app.GetLocaleName() == "hk"
+
+def IsTAIWAN():
+    return app.GetLocaleName() == "tw"
+
+def IsNEWCIBN():
+    return False  # China-specific, not used
+
+def IsARABIC():
+    return app.GetLocaleName() == "ae"
