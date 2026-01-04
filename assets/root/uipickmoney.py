@@ -1,7 +1,7 @@
 import wndMgr
 import ui
 import ime
-import localeInfo
+import app
 
 class PickMoneyDialog(ui.ScriptWindow):
 	def __init__(self):
