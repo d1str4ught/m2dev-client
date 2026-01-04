@@ -1298,16 +1298,25 @@ class Interface(object):
 		# QUEST_LETTER_IMAGE
 		## Quest image replacement
 		import item
-		if "item"==iconType:
-			item.SelectItem(int(iconName))
-			buttonImageFileName=item.GetIconImageFileName()
-		else:
-			buttonImageFileName=iconName
 
-		btn.SetUpVisual(buttonImageFileName)
-		btn.SetOverVisual(buttonImageFileName)
-		btn.SetDownVisual(buttonImageFileName)
-		btn.Flash()
+		# MR-7: Fix quest letter icon flashing
+		if "item" == iconType:
+			item.SelectItem(int(iconName))
+			buttonImageFileName = item.GetIconImageFileName()
+		else:
+			buttonImageFileName = iconName
+
+		if "highlight" == iconType:
+			btn.SetUpVisual("locale/ymir_ui/highlighted_quest.tga")
+			btn.SetOverVisual("locale/ymir_ui/highlighted_quest_r.tga")
+			btn.SetDownVisual("locale/ymir_ui/highlighted_quest_r.tga")
+		else:
+			btn.SetUpVisual(localeInfo.GetLetterCloseImageName())
+			btn.SetOverVisual(localeInfo.GetLetterOpenImageName())
+			btn.SetDownVisual(localeInfo.GetLetterOpenImageName())
+
+			btn.Flash()
+		# MR-7: -- END OF -- Fix quest letter icon flashing
 		# END_OF_QUEST_LETTER_IMAGE
 
 		if app.IsRTL():
