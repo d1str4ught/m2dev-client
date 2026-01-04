@@ -246,6 +246,9 @@ def __InitData():
 	chrmgr.RegisterCacheEffect(chrmgr.EFFECT_PERCENT_DAMAGE2, "", "d:/ymir work/effect/hit/percent_damage2.mse")
 	chrmgr.RegisterCacheEffect(chrmgr.EFFECT_PERCENT_DAMAGE3, "", "d:/ymir work/effect/hit/percent_damage3.mse")
 
+	# Bravery cape effect
+	chrmgr.RegisterCacheEffect(chrmgr.EFFECT_AGGREGATE_MONSTER, "", "d:/ymir work/effect/etc/buff/buff_item9.mse")
+
 	
 
 	##############
