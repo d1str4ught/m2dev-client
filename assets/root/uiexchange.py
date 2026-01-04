@@ -9,6 +9,7 @@ import ui
 import mouseModule
 import uiPickMoney
 import wndMgr
+import constInfo
 
 ###################################################################################################
 ## Exchange
