@@ -17,6 +17,10 @@ import serverCommandParser
 import ime
 import uiScriptLocale
 
+# Multi-language hot-reload system
+from uilocaleselector import LocaleSelector
+from uilocalechange import LocaleChangeManager
+
 LOGIN_DELAY_SEC = 0.0
 SKIP_LOGIN_PHASE = False
 SKIP_LOGIN_PHASE_SUPPORT_CHANNEL = False
@@ -54,6 +58,13 @@ def GetLoginDelay():
 	return LOGIN_DELAY_SEC
 
 app.SetGuildMarkPath("test")
+
+###############################################################################
+# Multi-Language Hot-Reload System
+# All locale selector and hot-reload logic moved to:
+# - uilocaleselector.py (UI component)
+# - uilocalechange.py (hot-reload manager)
+###############################################################################
 
 class ConnectingDialog(ui.ScriptWindow):
 
@@ -144,11 +155,9 @@ class LoginWindow(ui.ScriptWindow):
 		self.virtualKeyboardIsUpper = False
 		self.timeOutMsg = False #Fix
 
-		self.language_list = []
-		self.flag_button_list = []
-		self.language_board = None
-		self.language_popup = None
-		self.__LoadLocale()
+		# Multi-language hot-reload system
+		self.localeSelector = None
+		self.localeChangeManager = LocaleChangeManager(self)
 
 	def __del__(self):
 		net.ClearPhaseWindow(net.PHASE_WINDOW_LOGIN, self)
@@ -276,10 +285,9 @@ class LoginWindow(ui.ScriptWindow):
 		self.connectingDialog = None
 		self.loadingImage = None
 
-		self.language_list = []
-		self.flag_button_list = []
-		self.language_board = None
-		self.language_popup = None
+		if self.localeSelector:
+			self.localeSelector.Destroy()
+			self.localeSelector = None
 
 		self.serverBoard = None
 		self.serverList = None
@@ -465,29 +473,11 @@ class LoginWindow(ui.ScriptWindow):
 				self.GetChild("key_at").SetToggleDownEvent(lambda : self.__VirtualKeyboard_SetSymbolMode())
 				self.GetChild("key_at").SetToggleUpEvent(lambda : self.__VirtualKeyboard_SetAlphabetMode())
 
-			self.language_board = ui.ThinBoard()
-			self.language_board.SetParent(self)
-			self.language_board.SetSize(wndMgr.GetScreenWidth(), 35)
-			self.language_board.SetPosition(0, 20)
-			self.language_board.Show()
-
-			step = wndMgr.GetScreenWidth() / len(self.language_list)
-			x = 0
-
-			for i, lang in enumerate(self.language_list):
-				img_path = "d:/ymir work/ui/intro/login/server_flag_%s.sub" % lang
-				btn = ui.Button()
-				btn.SetParent(self.language_board)
-				btn.SetPosition(x + 15, 10)
-				btn.SetUpVisual(img_path)
-				btn.SetOverVisual(img_path)
-				btn.SetDownVisual(img_path)
-				btn.SetToolTipText(lang.upper())
-				btn.SetEvent(ui.__mem_func__(self.__ClickLanguage), i)
-				btn.Show()
-
-				self.flag_button_list.append(btn)
-				x += step
+			# Create locale selector (only if it doesn't exist - during hot-reload we keep the old one)
+			if not self.localeSelector:
+				self.localeSelector = LocaleSelector()
+				self.localeSelector.Create(self)
+				self.localeSelector.SetLocaleChangedEvent(ui.__mem_func__(self.__OnLocaleChanged))
 
 		except:
 			import exception
@@ -608,49 +598,12 @@ class LoginWindow(ui.ScriptWindow):
 	def __OnClickExitButton(self):
 		self.stream.SetPhaseWindow(0)
 
-	def __LoadLocale(self):
-		self.language_list = [
-			"ae", "en", "cz", "de", "dk",
-			"es", "fr", "gr", "hu", "it",
-			"nl", "pl", "pt", "ro", "ru", "tr",
-		]
-
-	def __SaveLocale(self, locale):
-		try:
-			with open("config/locale.cfg", "wt") as f:
-				f.write(locale)
-		except:
-			import dbg
-			dbg.LogBox("__SaveLocale error locale.cfg")
-			app.Abort()
-
-	def __ClickLanguage(self, index):
-		if index >= len(self.language_list):
-			return
-
-		self.locale = self.language_list[index]
-
-		if not self.language_popup:
-			self.language_popup = uiCommon.QuestionDialog()
-
-		self.language_popup.SetText("Change language and restart the client?")
-		self.language_popup.SetAcceptEvent(ui.__mem_func__(self.__OnAcceptLanguage))
-		self.language_popup.SetCancelEvent(ui.__mem_func__(self.__OnCancelLanguage))
-		self.language_popup.Open()
-
-	def __OnAcceptLanguage(self):
-		if self.language_popup:
-			self.language_popup.Close()
-
-		self.__SaveLocale(self.locale)
-
-		import os
-		app.Exit()
-		os.popen('start "" "Metin2_Debug.exe"')
-
-	def __OnCancelLanguage(self):
-		if self.language_popup:
-			self.language_popup.Close()
+	def __OnLocaleChanged(self, newLocaleCode):
+		"""
+		Callback when user confirms locale change.
+		All the heavy lifting is done by LocaleChangeManager - this is just 3 lines!
+		"""
+		self.localeChangeManager.ReloadWithNewLocale(newLocaleCode, "uiscript/LoginWindow.py")
 
 	def __SetServerInfo(self, name):
 		net.SetServerInfo(name.strip())
