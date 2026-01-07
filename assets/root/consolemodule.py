@@ -158,8 +158,8 @@ class Console(object):
 		snd.SetMusicVolume(float(arg))
 
 	def SetSoundVolume(self, arg):
-		"Set Effect sound volumn (0 ~ 5)"
-		snd.SetSoundVolume(int(arg))
+		"Set Effect sound volumn (0 ~ 1.0)"
+		snd.SetSoundVolume(float(arg))
 
 	def SetSoundScale(self, arg):
 		"3D Sound scale (default : 200)"
@@ -509,7 +509,7 @@ class Console(object):
 		chr.testSetComboType(int(type))
 
 	def SetSkillGroupFake(self, index):
-		"""Å×½ºÆ® ÄÚµå"""
+		"""í…ŒìŠ¤íŠ¸ ì½”ë“œ"""
 		net.SetSkillGroupFake(int(index))
 		self.Print(" SetSkillGroupFake : %d" % int(index))
 
@@ -740,7 +740,7 @@ class ConsoleWindow(ui.Window):
 	def CloseWindow(self):
 		self.Hide()
 
-	## NOTE : ÀÌ°÷¿¡¼­ Command¸¦ Ã³¸®ÇÕ´Ï´Ù - [levites]
+	## NOTE : ì´ê³³ì—ì„œ Commandë¥¼ ì²˜ë¦¬í•©ë‹ˆë‹¤ - [levites]
 	def ProcessCommand(self, text):
 
 		if '/' == text[0]:
