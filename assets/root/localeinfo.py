@@ -13,6 +13,8 @@ BLEND_POTION_NO_INFO				= 'BLEND_POTION_NO_INFO'
 LOGIN_FAILURE_WRONG_SOCIALID 		= 'LOGIN_FAILURE_WRONG_SOCIALID'
 LOGIN_FAILURE_SHUTDOWN_TIME 		= 'LOGIN_FAILURE_SHUTDOWN_TIME'
 
+LOCALE_CHANGE_CONFIRM				= 'Change language to %s and reload the game?'
+
 GUILD_MEMBER_COUNT_INFINITY 		= 'INFINITY'
 GUILD_MARK_MIN_LEVEL				= '3'
 GUILD_BUILDING_LIST_TXT				= '{:s}/GuildBuildingList.txt'.format(APP_GET_LOCALE_PATH)
@@ -29,9 +31,29 @@ VIRTUAL_KEY_SYMBOLS					= "!@#$%^&*()_+|{}:'<>?~"
 VIRTUAL_KEY_NUMBERS					= "1234567890-=\[];',./`"
 VIRTUAL_KEY_SYMBOLS_BR				= "!@#$%^&*()_+|{}:'<>?~aaaaeeeiioooouuc"
 
-# Load locale data by specific path
+# Multi-language hot-reload support
 def LoadLocaleData():
-	app.LoadLocaleData(app.GetLocalePath())
+	"""
+	Reload all game locale text strings from locale_game.txt
+
+	Called by app.ReloadLocale() when the user changes language.
+	Reloads locale_game.txt and updates all module-level locale strings.
+
+	Returns:
+		True on success, False on failure
+	"""
+	try:
+		localePath = app.GetLocalePath()
+		localeFilePath = "{:s}/locale_game.txt".format(localePath)
+
+		# Reload locale_game.txt - this updates all global variables in this module
+		LoadLocaleFile(localeFilePath, globals())
+
+		return True
+	except:
+		# import dbg
+		# dbg.TraceError("localeInfo.LoadLocaleData failed")
+		return False
 
 # Load locale_game.txt
 def LoadLocaleFile(srcFileName, localeDict):
