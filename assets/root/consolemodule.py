@@ -509,7 +509,7 @@ class Console(object):
 		chr.testSetComboType(int(type))
 
 	def SetSkillGroupFake(self, index):
-		"""�׽�Ʈ �ڵ�"""
+		"""테스트 코드"""
 		net.SetSkillGroupFake(int(index))
 		self.Print(" SetSkillGroupFake : %d" % int(index))
 
