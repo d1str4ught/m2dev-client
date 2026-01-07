@@ -19,7 +19,6 @@ import uiScriptLocale
 
 # Multi-language hot-reload system
 from uilocaleselector import LocaleSelector
-from uilocalechange import LocaleChangeManager
 
 LOGIN_DELAY_SEC = 0.0
 SKIP_LOGIN_PHASE = False
@@ -157,7 +156,6 @@ class LoginWindow(ui.ScriptWindow):
 
 		# Multi-language hot-reload system
 		self.localeSelector = None
-		self.localeChangeManager = LocaleChangeManager(self)
 
 	def __del__(self):
 		net.ClearPhaseWindow(net.PHASE_WINDOW_LOGIN, self)
@@ -599,11 +597,94 @@ class LoginWindow(ui.ScriptWindow):
 		self.stream.SetPhaseWindow(0)
 
 	def __OnLocaleChanged(self, newLocaleCode):
+		"""Handle locale change - save config, reload, and refresh UI"""
+		import dbg
+
+		# 1) Save locale code to config/locale.cfg
+		try:
+			import os
+			if not os.path.exists("config"):
+				os.makedirs("config")
+			with open("config/locale.cfg", "w") as f:
+				f.write(newLocaleCode)
+			dbg.TraceError("Saved new locale to config: %s" % newLocaleCode)
+		except Exception as e:
+			dbg.TraceError("Failed to save locale.cfg: %s" % str(e))
+			return
+
+		# 2) Call C++ to reload locale data (C++ data + Python modules)
+		if not app.ReloadLocale():
+			dbg.TraceError("app.ReloadLocale() failed")
+			return
+
+		dbg.TraceError("Locale changed successfully, refreshing UI...")
+
+		# 3) Refresh all UI text elements with new locale
+		self.__RefreshLocaleUI()
+
+	def __RefreshLocaleUI(self):
 		"""
-		Callback when user confirms locale change.
-		All the heavy lifting is done by LocaleChangeManager - this is just 3 lines!
+		Refresh all UI text elements after locale change
+
+		Uses the generic uiLocaleRefresh module to update all visible text elements
+		without needing to reload the entire UI.
 		"""
-		self.localeChangeManager.ReloadWithNewLocale(newLocaleCode, "uiscript/LoginWindow.py")
+		import uiScriptLocale
+		import uiLocaleRefresh
+
+		try:
+			# Refresh button and text elements using element mapping
+			elementMapping = {
+				self.serverInfo: "LOGIN_DEFAULT_SERVERADDR",
+				self.selectConnectButton: "LOGIN_SELECT_BUTTON",
+				self.loginButton: "LOGIN_CONNECT",
+				self.loginExitButton: "LOGIN_EXIT",
+				self.serverSelectButton: "OK",
+				self.serverExitButton: "LOGIN_SELECT_EXIT",
+			}
+			uiLocaleRefresh.RefreshByMapping(elementMapping)
+
+			# Refresh ServerBoard Title (special case - accessed via GetChild)
+			try:
+				serverBoardTitle = self.GetChild("Title")
+				serverBoardTitle.SetText(uiScriptLocale.LOGIN_SELECT_TITLE)
+			except:
+				pass
+
+			# Rebuild login error message dictionary with new locale strings
+			loginFailureTemplate = {
+				"ALREADY"	: "LOGIN_FAILURE_ALREAY",
+				"NOID"		: "LOGIN_FAILURE_NOT_EXIST_ID",
+				"WRONGPWD"	: "LOGIN_FAILURE_WRONG_PASSWORD",
+				"FULL"		: "LOGIN_FAILURE_TOO_MANY_USER",
+				"SHUTDOWN"	: "LOGIN_FAILURE_SHUTDOWN",
+				"REPAIR"	: "LOGIN_FAILURE_REPAIR_ID",
+				"BLOCK"		: "LOGIN_FAILURE_BLOCK_ID",
+				"BESAMEKEY"	: "LOGIN_FAILURE_BE_SAME_KEY",
+				"NOTAVAIL"	: "LOGIN_FAILURE_NOT_AVAIL",
+				"NOBILL"	: "LOGIN_FAILURE_NOBILL",
+				"BLKLOGIN"	: "LOGIN_FAILURE_BLOCK_LOGIN",
+				"WEBBLK"	: "LOGIN_FAILURE_WEB_BLOCK",
+				"BADSCLID"	: "LOGIN_FAILURE_WRONG_SOCIALID",
+				"AGELIMIT"	: "LOGIN_FAILURE_SHUTDOWN_TIME",
+			}
+			self.loginFailureMsgDict = uiLocaleRefresh.RebuildDictionary(loginFailureTemplate, "localeInfo")
+
+			# Recreate locale selector to ensure it's on top with updated text
+			if self.localeSelector:
+				self.localeSelector.Destroy()
+				self.localeSelector = None
+
+			self.localeSelector = LocaleSelector()
+			self.localeSelector.Create(self)
+			self.localeSelector.SetLocaleChangedEvent(ui.__mem_func__(self.__OnLocaleChanged))
+			self.localeSelector.Show()
+			self.localeSelector.SetTop()
+
+		except:
+			# import dbg
+			# dbg.TraceError("LoginWindow.__RefreshLocaleUI failed")
+			pass
 
 	def __SetServerInfo(self, name):
 		net.SetServerInfo(name.strip())
