@@ -197,7 +197,6 @@ class LoadingWindow(ui.ScriptWindow):
 			(60, ui.__mem_func__(self.__LoadAssassin)),
 			(70, ui.__mem_func__(self.__LoadSura)),
 			(80, ui.__mem_func__(self.__LoadShaman)),
-			(85, ui.__mem_func__(self.__PreloadRaceMotions)),
 			(90, ui.__mem_func__(self.__LoadSkill)),
 			(93, ui.__mem_func__(self.__LoadEnemy)),
 			(97, ui.__mem_func__(self.__LoadNPC)),
@@ -331,9 +330,6 @@ class LoadingWindow(ui.ScriptWindow):
 
 	def __LoadNPC(self):
 		playerSettingModule.LoadGameData("NPC")
-
-	def __PreloadRaceMotions(self):
-		chrmgr.PreloadRaceMotions()
 
 	# GUILD_BUILDING
 	def __LoadGuildBuilding(self):
