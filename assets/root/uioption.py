@@ -90,7 +90,7 @@ class OptionDialog(ui.ScriptWindow):
 
 		self.SetCenterPosition()
 		self.ctrlMusicVolume.SetSliderPos(float(systemSetting.GetMusicVolume()))
-		self.ctrlSoundVolume.SetSliderPos(float(systemSetting.GetSoundVolume()) / 5.0)
+		self.ctrlSoundVolume.SetSliderPos(float(systemSetting.GetSoundVolume()))
 
 		self.titleBar.SetCloseEvent(ui.__mem_func__(self.Close))
 		self.ctrlMusicVolume.SetEvent(ui.__mem_func__(self.OnChangeMusicVolume))
@@ -288,8 +288,8 @@ class OptionDialog(ui.ScriptWindow):
 
 	def OnChangeSoundVolume(self):
 		pos = self.ctrlSoundVolume.GetSliderPos()
-		snd.SetSoundVolumef(pos)
-		systemSetting.SetSoundVolumef(pos)
+		snd.SetSoundVolume(pos)
+		systemSetting.SetSoundVolume(pos)
 
 	def __OnChangeMobilePhoneNumber(self):
 

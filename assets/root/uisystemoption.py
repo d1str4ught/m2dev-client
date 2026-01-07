@@ -89,7 +89,7 @@ class OptionDialog(ui.ScriptWindow):
 		self.ctrlMusicVolume.SetSliderPos(float(systemSetting.GetMusicVolume()))
 		self.ctrlMusicVolume.SetEvent(ui.__mem_func__(self.OnChangeMusicVolume))
 
-		self.ctrlSoundVolume.SetSliderPos(float(systemSetting.GetSoundVolume()) / 5.0)
+		self.ctrlSoundVolume.SetSliderPos(float(systemSetting.GetSoundVolume()))
 		self.ctrlSoundVolume.SetEvent(ui.__mem_func__(self.OnChangeSoundVolume))
 
 #		self.ctrlShadowQuality.SetSliderPos(float(systemSetting.GetShadowLevel()) / 5.0)
@@ -211,8 +211,8 @@ class OptionDialog(ui.ScriptWindow):
 
 	def OnChangeSoundVolume(self):
 		pos = self.ctrlSoundVolume.GetSliderPos()
-		snd.SetSoundVolumef(pos)
-		systemSetting.SetSoundVolumef(pos)
+		snd.SetSoundVolume(pos)
+		systemSetting.SetSoundVolume(pos)
 
 	def OnChangeShadowQuality(self):
 		pos = self.ctrlShadowQuality.GetSliderPos()
