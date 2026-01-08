@@ -113,6 +113,13 @@ def LoadLocaleFile(srcFileName, localeDict):
 
 LoadLocaleFile("{:s}/locale_game.txt".format(APP_GET_LOCALE_PATH), locals())
 
+try:
+    currentLocalePath = app.GetLocalePath()
+    if not app.LoadLocaleData(currentLocalePath):
+        dbg.TraceError("localeInfo: Failed to load C++ locale data from %s" % currentLocalePath)
+except Exception, e:
+    dbg.TraceError("localeInfo: Error loading C++ locale data: %s" % str(e))
+
 # Option pvp messages
 OPTION_PVPMODE_MESSAGE_DICT = {
 	0: PVP_MODE_NORMAL,
