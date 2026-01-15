@@ -1028,7 +1028,7 @@ class GameWindow(ui.ScriptWindow):
 		messengerAddFriendQuestion.SetAcceptEvent(ui.__mem_func__(self.OnAcceptAddFriend))
 		messengerAddFriendQuestion.SetCancelEvent(ui.__mem_func__(self.OnDenyAddFriend))
 
-		messengerAddFriendQuestion.OnPressEscapeKey = ui.__mem_func__(self.OnDenyAddFriend)  # ESC    deny
+		messengerAddFriendQuestion.OnPressEscapeKey = ui.__mem_func__(self.OnDenyAddFriend)  # ESC �� deny
 
 		messengerAddFriendQuestion.Open()
 		messengerAddFriendQuestion.name = name
