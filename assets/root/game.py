@@ -704,6 +704,9 @@ class GameWindow(ui.ScriptWindow):
 	def OpenQuestWindow(self, skin, idx):
 		self.interface.OpenQuestWindow(skin, idx)
 
+	def BINARY_ClearQuest(self, index):
+		self.interface.BINARY_ClearQuest(index)
+
 	def AskGuildName(self):
 
 		guildNameBoard = uiCommon.InputDialog()
@@ -1025,7 +1028,7 @@ class GameWindow(ui.ScriptWindow):
 		messengerAddFriendQuestion.SetAcceptEvent(ui.__mem_func__(self.OnAcceptAddFriend))
 		messengerAddFriendQuestion.SetCancelEvent(ui.__mem_func__(self.OnDenyAddFriend))
 
-		messengerAddFriendQuestion.OnPressEscapeKey = ui.__mem_func__(self.OnDenyAddFriend)  # ESC �� deny
+		messengerAddFriendQuestion.OnPressEscapeKey = ui.__mem_func__(self.OnDenyAddFriend)  # ESC    deny
 
 		messengerAddFriendQuestion.Open()
 		messengerAddFriendQuestion.name = name
