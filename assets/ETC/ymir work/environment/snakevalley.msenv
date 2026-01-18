@@ -1,0 +1,91 @@
+ScriptType         EnvrionmentData
+ScriptVersion      1.0000
+
+Group DirectionalLight
+{
+    Direction     0.609035 0.371550 -0.700733
+
+    Group Background
+    {
+        Enable        1
+        Diffuse       0.627451 0.682353 0.639216 1.000000
+        Ambient       0.239216 0.258824 0.274510 1.000000
+    }
+    
+    Group Character
+    {
+        Enable        1
+        Diffuse       0.627451 0.682353 0.639216 1.000000
+        Ambient       0.389216 0.408824 0.424510 1.000000
+    }
+}
+Group Material
+{
+    Diffuse       1.000000 1.000000 1.000000 1.000000
+    Ambient       0.603922 0.592157 0.556863 1.000000
+    Emissive      0.231373 0.219608 0.274510 1.000000
+}
+
+Group Fog
+{
+    foglevel		3
+    Color         0.298039 0.309804 0.200000 1.000000
+}
+
+Group Filter
+{
+    Enable        0
+    Color         0.121569 0.411765 0.384314 0.000000
+    AlphaSrc      2
+    AlphaDest     2
+}
+
+Group SkyBox
+{
+    bTextureRenderMode    0
+    Scale                 3500.000000 3500.000000 3500.000000
+    GradientLevelUpper    2
+    GradientLevelLower    2
+    FrontFaceFileName	   "D:\ymir work\environment\skybox\BayBlackSand-f.dds"
+    BackFaceFileName	   "D:\ymir work\environment\skybox\BayBlackSand-b.dds"
+    LeftFaceFileName	   "D:\ymir work\environment\skybox\BayBlackSand-l.dds"
+    RightFaceFileName	   "D:\ymir work\environment\skybox\BayBlackSand-r.dds"
+    TopFaceFileName	   "D:\ymir work\environment\skybox\BayBlackSand-t.dds"
+    BottomFaceFileName	   ""
+    
+    CloudScale            200000.000000 200000.000000
+    CloudHeight           10000.000000
+    CloudTextureScale     4.000000 4.000000
+    CloudSpeed            0.001000 0.001000
+    CloudTextureFileName  "D:\Ymir Work\environment\clouds_zone01.tga"
+    List CloudColor
+    {
+        0.000000 0.000000 0.000000 0.000000
+        1.000000 0.929412 0.929412 0.000000
+    }
+    List Gradient
+    {
+        0.109804 0.086275 0.447059 0.000000
+        0.101961 0.356863 0.823529 0.000000
+        
+        0.101961 0.356863 0.823529 0.000000
+        0.349020 0.396078 0.200000 0.000000
+        
+        0.349020 0.396078 0.200000 0.000000
+        0.274510 0.164706 0.164706 0.000000
+        
+        0.274510 0.164706 0.164706 0.000000
+        0.000000 0.000000 0.000000 0.000000
+    }
+}
+
+Group LensFlare
+{
+    Enable                     0
+    BrightnessColor            0.976471 0.976471 0.976471 1.000000
+    MaxBrightness              1.000000
+    MainFlareEnable            0
+    MainFlareTextureFileName   ""
+    MainFlareSize              0.200000
+}
+

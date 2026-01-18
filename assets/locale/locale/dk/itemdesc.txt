@@ -2011,6 +2011,8 @@
 54041		
 54042		
 54043	Lærlinge kiste I	Din velkomst gave indeholder basis udstyrssæt, til en optimal start på dine eventyre.
+54702	Razador's Kiste	Denne kiste var reddet ud af Røde Drages Fort. Den indeholder en virkelig storslået skat. Denne genstand er handelbar.
+54703	Nemere's Kiste	Denne kiste var reddet ud af Nemere's Vagttårn. Den indeholder en virkelig storslået skat. Denne genstand er handelbar.
 60001	Galde	Væske udvundet fra leveren.
 60002	Brev fra lejrvagten	Pergamentet er skrevet i den energiske håndskrift tilhørende lejrvagten.
 60003	Heltesymbol	Et item man ikke kan ignorere.

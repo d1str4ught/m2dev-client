@@ -2011,6 +2011,8 @@
 54041		
 54042		
 54043	Cufar Incepator I	Cadoul de intampinare contine exhipament de baza pentru a avea un start optim in aceasta aventura.
+54702	Cufăr Razador	Acest cufăr a fost recuperat din Fortăreaţa Dragonului Roşu. Conţine o comoară valoroasă. Obiectul se poate negocia.
+54703	Cufăr Nemere	Acest cufăr a fost recuperat din Turnul lui Nemere. Conţine o comoară valoroasă. Obiectul se poate negocia.
 60001	Fiere	Lichid obtinut din ficat.
 60002	Nota Paznic Depozit	Scrisoarea paznicului Depozitului
 60003	Simbol Eroic	Un Item greu de castigat.

@@ -2011,6 +2011,8 @@
 54041		
 54042		
 54043	Baule Apprendista I	Il tuo regalo di benvenuto contiene un equipaggiamento di base che ti consentirà di iniziare al meglio la tua avventura.
+54702	Baule di Razador	Questo baule è stato recuperato dalla Fortezza del Drago Rosso. Racchiude un tesoro degno di un re. Questo item è commerciabile.
+54703	Baule di Nemere	Questo baule è stato recuperato dalla Torre di Vedetta di Nemere. Racchiude un tesoro degno di un re. Questo item è commerciabile.
 60001	Bile	Un liquido corporale denso, ricavato dal fegato.
 60002	Lettera dell'Amm.deiMag.	Una pergamena scritta con tratto energico dall'Amministratore dei Magazzini.
 60003	Simbolo degli Eroi	Un oggetto che non viene ceduto con leggerezza.
