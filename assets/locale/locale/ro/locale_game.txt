@@ -218,6 +218,7 @@ JOB_WARRIOR0	Războinic amator
 JOB_WARRIOR1	Puterea Arahan
 JOB_WARRIOR2	Puterea partizanilor
 LEFT_TIME	Timp rămas
+LOCALE_CHANGE_CONFIRM	Schimbați limba în %s și reîncărcați jocul?
 LOGIN_CONNECT_FAILURE	Eroare la conectarea la server.
 LOGIN_CONNECT_SUCCESS	Ai fost conectat la server.
 LOGIN_CONNETING	Vei fi conectat la server...

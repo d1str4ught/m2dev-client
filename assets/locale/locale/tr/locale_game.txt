@@ -218,6 +218,7 @@ JOB_WARRIOR0	Amatör Savaşçı
 JOB_WARRIOR1	Bedensel Güç
 JOB_WARRIOR2	Zihinsel Güç
 LEFT_TIME	Kalan Süre
+LOCALE_CHANGE_CONFIRM	Dili %s olarak değiştirip oyunu yeniden yükleyeyim mi?
 LOGIN_CONNECT_FAILURE	Sunucuya bağlanırken hata
 LOGIN_CONNECT_SUCCESS	Sunucuya bağlandın.
 LOGIN_CONNETING	Sunucuya bağlanıyorsun...

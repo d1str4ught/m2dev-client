@@ -198,6 +198,8 @@ LOGIN_CONNECT	ربط الاتصال
 LOGIN_CONNECTING	سيتم ربط الاتصال بالخادم.
 LOGIN_DEFAULT_SERVERADDR	اسم الخادم، قناة 1
 LOGIN_EXIT	إنهاء
+LOGIN_ID	اسم المستخدم
+LOGIN_PASSWORD	كلمة المرور
 LOGIN_SELECT_BUTTON	اختر
 LOGIN_SELECT_EXIT	إنهاء
 LOGIN_SELECT_TITLE	اختر خادم

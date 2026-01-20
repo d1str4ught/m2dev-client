@@ -218,6 +218,7 @@ JOB_WARRIOR0	Воин-новичок
 JOB_WARRIOR1	Могущество Арахана
 JOB_WARRIOR2	Могущество Партизанов
 LEFT_TIME	Остав.время
+LOCALE_CHANGE_CONFIRM	Изменить язык на %s и перезагрузить игру?
 LOGIN_CONNECT_FAILURE	Ошибка при соединении с сервером.
 LOGIN_CONNECT_SUCCESS	Вы соединены с сервером.
 LOGIN_CONNETING	Происходит соединение с сервером...

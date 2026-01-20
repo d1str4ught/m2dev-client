@@ -217,6 +217,7 @@ JOB_WARRIOR0	Guerrier débutant
 JOB_WARRIOR1	Pouvoir d'Arahan
 JOB_WARRIOR2	Pouvoir des Partisans
 LEFT_TIME	Temps restant
+LOCALE_CHANGE_CONFIRM	Changer la langue en %s et recharger le jeu ?
 LOGIN_CONNECT_FAILURE	Erreur lors de la connection au serveur
 LOGIN_CONNECT_SUCCESS	Connexion au serveur en cours.
 LOGIN_CONNETING	Connexion au serveur en cours.

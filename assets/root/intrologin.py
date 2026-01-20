@@ -447,7 +447,9 @@ class LoginWindow(ui.ScriptWindow):
 			self.serverExitButton		= GetObject("ServerExitButton")
 			self.connectBoard			= GetObject("ConnectBoard")
 			self.loginBoard				= GetObject("LoginBoard")
+			self.idText					= GetObject("ID_Text")
 			self.idEditLine				= GetObject("ID_EditLine")
+			self.pwdText				= GetObject("Password_Text")
 			self.pwdEditLine			= GetObject("Password_EditLine")
 			self.serverInfo				= GetObject("ConnectName")
 			self.selectConnectButton	= GetObject("SelectConnectButton")
@@ -641,6 +643,8 @@ class LoginWindow(ui.ScriptWindow):
 				self.loginExitButton: "LOGIN_EXIT",
 				self.serverSelectButton: "OK",
 				self.serverExitButton: "LOGIN_SELECT_EXIT",
+				self.idText: "LOGIN_ID",
+				self.pwdText: "LOGIN_PASSWORD",
 			}
 			uiLocaleRefresh.RefreshByMapping(elementMapping)
 
