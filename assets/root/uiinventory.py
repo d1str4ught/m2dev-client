@@ -108,6 +108,8 @@ class BeltInventoryWindow(ui.ScriptWindow):
 			 	 
 		ui.ScriptWindow.__init__(self)
 
+		self.AddFlag("float")
+
 		self.isLoaded = 0
 		self.wndInventory = wndInventory
 		
@@ -1105,6 +1107,9 @@ class InventoryWindow(ui.ScriptWindow):
 	def OnTop(self):
 		if None != self.tooltipItem:
 			self.tooltipItem.SetTop()
+
+		if self.wndBelt:
+			self.wndBelt.SetTop()
 
 	def OnPressEscapeKey(self):
 		self.Close()
