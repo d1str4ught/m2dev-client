@@ -29,6 +29,7 @@ import wndMgr
 # Available locales configuration
 AVAILABLE_LOCALES = [
 	{"code": "ae", "name": "Arabic", "flag": "ae"},
+	{"code": "br", "name": "Português Brasileiro", "flag": "br"},
 	{"code": "en", "name": "English", "flag": "en"},
 	{"code": "cz", "name": "Čeština", "flag": "cz"},
 	{"code": "de", "name": "Deutsch", "flag": "de"},
