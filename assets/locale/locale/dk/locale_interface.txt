@@ -174,6 +174,8 @@ LOGIN_CONNECT	Connect
 LOGIN_CONNECTING	Du bliver forbundet med serveren.
 LOGIN_DEFAULT_SERVERADDR	Servernavn, kanal 1
 LOGIN_EXIT	Afslut
+LOGIN_ID	Brugernavn
+LOGIN_PASSWORD	Adgangskode
 LOGIN_SELECT_BUTTON	Vælg
 LOGIN_SELECT_EXIT	Afslut
 LOGIN_SELECT_TITLE	Vælg server

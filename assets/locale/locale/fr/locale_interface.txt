@@ -173,6 +173,8 @@ LOGIN_CONNECT	Se connecter
 LOGIN_CONNECTING	Vous devez être connecté au serveur
 LOGIN_DEFAULT_SERVERADDR	Nom du serveur, Canal 1
 LOGIN_EXIT	Sortie
+LOGIN_ID	Nom d'utilisateur
+LOGIN_PASSWORD	Mot de passe
 LOGIN_SELECT_BUTTON	Choisissez
 LOGIN_SELECT_EXIT	Sortie
 LOGIN_SELECT_TITLE	Choisissez un serveur

@@ -6,10 +6,14 @@ ROOT_PATH = "d:/ymir work/ui/intro/"
 #Big-List
 #SERVER_BOARD_HEIGHT = 180 + 390
 #SERVER_LIST_HEIGHT = 171 + 350
+
 #Small list like german
 SERVER_BOARD_HEIGHT = 220 + 180
 SERVER_LIST_HEIGHT = 171 + 180
 SERVER_BOARD_WEIGHT = 375 
+
+ID_LIMIT_COUNT = 19
+PW_LIMIT_COUNT = 16
 
 window = {
 	"name" : "LoginWindow",
@@ -556,22 +560,35 @@ window = {
 			"x" : (SCREEN_WIDTH - 208) / 2,
 			"y" : (SCREEN_HEIGHT - 410),
 
-			"image" : LOCALE_PATH + "loginwindow.sub",
+			"image" : "d:/ymir work/ui/intro/login/loginwindow.sub",
 
 			"children" :
 			(
 				{
+					"name" : "ID_Text_window", "type" : "window", "x" : 45, "y" : 4, "width" : 120, "height" : 18,
+					"children" :
+					(
+						{"name":"ID_Text", "type":"text", "x":0, "y":0, "text":uiScriptLocale.LOGIN_ID, "all_align" : "center"},
+					),
+				},
+				{
+					"name" : "Password_Text_window", "type" : "window", "x" : 45, "y" : 41, "width" : 120, "height" : 18,
+					"children" :
+					(
+						{"name":"Password_Text", "type":"text", "x":0, "y":0, "text":uiScriptLocale.LOGIN_PASSWORD, "all_align" : "center"},
+					),
+				},
+				{
 					"name" : "ID_EditLine",
 					"type" : "editline",
 
-					"x" : 77,
-					"y" : 16,
+					"x" : 48,
+					"y" : 23,
 
 					"width" : 120,
 					"height" : 18,
 
-					"input_limit" : 16,
-					"enable_codepage" : 0,
+					"input_limit" : ID_LIMIT_COUNT,
 
 					"r" : 1.0,
 					"g" : 1.0,
@@ -582,15 +599,14 @@ window = {
 					"name" : "Password_EditLine",
 					"type" : "editline",
 
-					"x" : 77,
-					"y" : 43,
+					"x" : 48,
+					"y" : 60,
 
 					"width" : 120,
 					"height" : 18,
 
-					"input_limit" : 16,
+					"input_limit" : PW_LIMIT_COUNT,
 					"secret_flag" : 1,
-					"enable_codepage" : 0,
 
 					"r" : 1.0,
 					"g" : 1.0,
@@ -602,7 +618,7 @@ window = {
 					"type" : "button",
 
 					"x" : 15,
-					"y" : 65,
+					"y" : 79,
 
 					"default_image" : "d:/ymir work/ui/public/large_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/large_button_02.sub",
@@ -615,7 +631,7 @@ window = {
 					"type" : "button",
 
 					"x" : 105,
-					"y" : 65,
+					"y" : 79,
 
 					"default_image" : "d:/ymir work/ui/public/large_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/large_button_02.sub",

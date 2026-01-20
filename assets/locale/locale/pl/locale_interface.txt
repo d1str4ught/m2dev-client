@@ -174,6 +174,8 @@ LOGIN_CONNECT	Połącz
 LOGIN_CONNECTING	Zostaniesz połączony z Serwerem
 LOGIN_DEFAULT_SERVERADDR	Nazwa Serwera, Kanał 1
 LOGIN_EXIT	Wyjdź
+LOGIN_ID	Nazwa użytkownika
+LOGIN_PASSWORD	Hasło
 LOGIN_SELECT_BUTTON	Wybierz
 LOGIN_SELECT_EXIT	Wyjdź
 LOGIN_SELECT_TITLE	Wybierz Serwer

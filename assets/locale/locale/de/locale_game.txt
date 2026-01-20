@@ -217,6 +217,7 @@ JOB_WARRIOR0	Amateurkrieger
 JOB_WARRIOR1	Macht von Arahan
 JOB_WARRIOR2	Macht der Partisanen
 LEFT_TIME	Verbl. Zeit
+LOCALE_CHANGE_CONFIRM	Sprache auf %s ändern und Spiel neu laden?
 LOGIN_CONNECT_FAILURE	Fehler beim Verbinden mit dem Server.
 LOGIN_CONNECT_SUCCESS	Verbindung zum Server hergestellt.
 LOGIN_CONNETING	Du wirst mit dem Server verbunden...

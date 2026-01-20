@@ -218,6 +218,7 @@ JOB_WARRIOR0	Amator Wojownik
 JOB_WARRIOR1	Moc Arahana
 JOB_WARRIOR2	Moc Partyzany
 LEFT_TIME	Pozostały Czas
+LOCALE_CHANGE_CONFIRM	Zmienić język na %s i ponownie załadować grę?
 LOGIN_CONNECT_FAILURE	Błąd podczas łączenia się z serwerem.
 LOGIN_CONNECT_SUCCESS	Zostałeś połączony z serwerem.
 LOGIN_CONNETING	Zostaniesz połączony z serwerem...

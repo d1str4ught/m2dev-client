@@ -256,12 +256,12 @@ def __InitData():
 	##############
 	chrmgr.CreateRace(RACE_WARRIOR_M)
 	chrmgr.SelectRace(RACE_WARRIOR_M)	
-	chrmgr.LoadLocalRaceData("warrior_m.msm")
+	chrmgr.LoadLocalRaceData("msm/warrior_m.msm")
 	SetIntroMotions(chr.MOTION_MODE_GENERAL, "d:/ymir work/pc/warrior/intro/")
 
 	chrmgr.CreateRace(RACE_WARRIOR_W)
 	chrmgr.SelectRace(RACE_WARRIOR_W)	
-	chrmgr.LoadLocalRaceData("warrior_w.msm")
+	chrmgr.LoadLocalRaceData("msm/warrior_w.msm")
 	SetIntroMotions(chr.MOTION_MODE_GENERAL, "d:/ymir work/pc2/warrior/intro/")
 
 
@@ -270,12 +270,12 @@ def __InitData():
 	##############
 	chrmgr.CreateRace(RACE_ASSASSIN_W)
 	chrmgr.SelectRace(RACE_ASSASSIN_W)
-	chrmgr.LoadLocalRaceData("assassin_w.msm")
+	chrmgr.LoadLocalRaceData("msm/assassin_w.msm")
 	SetIntroMotions(chr.MOTION_MODE_GENERAL, "d:/ymir work/pc/assassin/intro/")
 
 	chrmgr.CreateRace(RACE_ASSASSIN_M)
 	chrmgr.SelectRace(RACE_ASSASSIN_M)
-	chrmgr.LoadLocalRaceData("assassin_m.msm")
+	chrmgr.LoadLocalRaceData("msm/assassin_m.msm")
 	SetIntroMotions(chr.MOTION_MODE_GENERAL, "d:/ymir work/pc2/assassin/intro/")
 
 
@@ -284,12 +284,12 @@ def __InitData():
 	##############
 	chrmgr.CreateRace(RACE_SURA_M)
 	chrmgr.SelectRace(RACE_SURA_M)	
-	chrmgr.LoadLocalRaceData("sura_m.msm")
+	chrmgr.LoadLocalRaceData("msm/sura_m.msm")
 	SetIntroMotions(chr.MOTION_MODE_GENERAL, "d:/ymir work/pc/sura/intro/")
 
 	chrmgr.CreateRace(RACE_SURA_W)
 	chrmgr.SelectRace(RACE_SURA_W)	
-	chrmgr.LoadLocalRaceData("sura_w.msm")
+	chrmgr.LoadLocalRaceData("msm/sura_w.msm")
 	SetIntroMotions(chr.MOTION_MODE_GENERAL, "d:/ymir work/pc2/sura/intro/")
 
 
@@ -298,12 +298,12 @@ def __InitData():
 	##############
 	chrmgr.CreateRace(RACE_SHAMAN_W)
 	chrmgr.SelectRace(RACE_SHAMAN_W)
-	chrmgr.LoadLocalRaceData("shaman_w.msm")
+	chrmgr.LoadLocalRaceData("msm/shaman_w.msm")
 	SetIntroMotions(chr.MOTION_MODE_GENERAL, "d:/ymir work/pc/shaman/intro/")
 
 	chrmgr.CreateRace(RACE_SHAMAN_M)
 	chrmgr.SelectRace(RACE_SHAMAN_M)
-	chrmgr.LoadLocalRaceData("shaman_m.msm")
+	chrmgr.LoadLocalRaceData("msm/shaman_m.msm")
 	SetIntroMotions(chr.MOTION_MODE_GENERAL, "d:/ymir work/pc2/shaman/intro/")
 
 

@@ -217,6 +217,7 @@ JOB_WARRIOR0	Amateur Warrior
 JOB_WARRIOR1	Power of Arahan	
 JOB_WARRIOR2	Power of Partisans	
 LEFT_TIME	Time Remaining	
+LOCALE_CHANGE_CONFIRM	Change language to %s and reload the game?
 LOGIN_CONNECT_FAILURE	Error while connecting to the server.	
 LOGIN_CONNECT_SUCCESS	You have been connected to the server.
 LOGIN_CONNETING	You will be connected to the server...

@@ -218,6 +218,7 @@ JOB_WARRIOR0	Amatérský válečník
 JOB_WARRIOR1	Moc Arahanu
 JOB_WARRIOR2	Moc halapartny
 LEFT_TIME	Zbývající čas
+LOCALE_CHANGE_CONFIRM	Změňte jazyk na %s a restartujte hru?
 LOGIN_CONNECT_FAILURE	Chyba při spojení se serverem.
 LOGIN_CONNECT_SUCCESS	Byl jsi připojen na server.
 LOGIN_CONNETING	Budeš připojen na server...

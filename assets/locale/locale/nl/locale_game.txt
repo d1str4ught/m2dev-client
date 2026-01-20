@@ -218,6 +218,7 @@ JOB_WARRIOR0	Amateur Krijger
 JOB_WARRIOR1	Kracht van Arahan	
 JOB_WARRIOR2	Kracht van Partizaan	
 LEFT_TIME	Overgebleven Tijd	
+LOCALE_CHANGE_CONFIRM	Taal wijzigen naar %s en het spel opnieuw laden?
 LOGIN_CONNECT_FAILURE	Fout bij de server verbinding.	
 LOGIN_CONNECT_SUCCESS	Je  bent verbonden met de server
 LOGIN_CONNETING	Je wordt verbonden met de server...

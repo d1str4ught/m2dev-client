@@ -218,6 +218,7 @@ JOB_WARRIOR0	Ερασιτέχνης Πολεμιστής
 JOB_WARRIOR1	Ισχύς του Arahan
 JOB_WARRIOR2	Δύναμη των Βετεράνων
 LEFT_TIME	Χρόνος που Απομένει
+LOCALE_CHANGE_CONFIRM	Αλλαγή γλώσσας σε %s και επαναφόρτωση του παιχνιδιού;
 LOGIN_CONNECT_FAILURE	Σφάλμα κατά τη σύνδεση.
 LOGIN_CONNECT_SUCCESS	Συνδέθηκες με τον σέρβερ.
 LOGIN_CONNETING	Σύνδεση με σέρβερ...
