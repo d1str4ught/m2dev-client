@@ -704,6 +704,9 @@ class GameWindow(ui.ScriptWindow):
 	def OpenQuestWindow(self, skin, idx):
 		self.interface.OpenQuestWindow(skin, idx)
 
+	def BINARY_ClearQuest(self, index):
+		self.interface.BINARY_ClearQuest(index)
+
 	def AskGuildName(self):
 
 		guildNameBoard = uiCommon.InputDialog()
