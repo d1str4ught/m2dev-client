@@ -218,6 +218,7 @@ JOB_WARRIOR0	Guerreiro Aprendiz
 JOB_WARRIOR1	Força Arahan	
 JOB_WARRIOR2	Força Partizan	
 LEFT_TIME	Tempo restante	
+LOCALE_CHANGE_CONFIRM	Alterar o idioma para %s e recarregar o jogo?
 LOGIN_CONNECT_FAILURE	Falha de conexão com o servidor.	
 LOGIN_CONNECT_SUCCESS	Conexão com o servidor estabelecida.
 LOGIN_CONNETING	Conectando...	

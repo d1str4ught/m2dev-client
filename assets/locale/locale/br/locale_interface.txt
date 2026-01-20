@@ -174,6 +174,8 @@ LOGIN_CONNECT	Conectar
 LOGIN_CONNECTING	Conectando...
 LOGIN_DEFAULT_SERVERADDR	Nome do servidor, canal 1
 LOGIN_EXIT	Fechar
+LOGIN_ID	Nome de usuário
+LOGIN_PASSWORD	Senha
 LOGIN_SELECT_BUTTON	Servidor
 LOGIN_SELECT_EXIT	Voltar
 LOGIN_SELECT_TITLE	Escolha o Servidor
