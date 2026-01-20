@@ -218,6 +218,7 @@ JOB_WARRIOR0	Guerriero principiante
 JOB_WARRIOR1	Forza di Arahan
 JOB_WARRIOR2	Forza del Partigiano
 LEFT_TIME	Tempo rimanente
+LOCALE_CHANGE_CONFIRM	Cambiare la lingua in %s e ricaricare il gioco?
 LOGIN_CONNECT_FAILURE	Errore di collegamento con il server.
 LOGIN_CONNECT_SUCCESS	Sei stato collegato al server.
 LOGIN_CONNETING	Stai per essere collegato al server.

@@ -304,6 +304,7 @@ JOB_WOLFMAN0	ليكانر هاوي
 JOB_WOLFMAN1	غريزة
 JOB_WOLFMAN2	غير متاح
 LEFT_TIME	الوقت المتبقي
+LOCALE_CHANGE_CONFIRM	غيّر اللغة إلى %s وأعد تحميل اللعبة
 LOGIN_CONNECT_FAILURE	حصل خطأ عند الاتصال بالخادم.
 LOGIN_CONNECT_SUCCESS	تم ربط الاتصال بالخادم.
 LOGIN_CONNETING	انتظر من فضلك. سيتم ربط الاتصال بالخادم.

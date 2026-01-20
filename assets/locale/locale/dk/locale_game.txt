@@ -218,6 +218,7 @@ JOB_WARRIOR0	Amatørkriger
 JOB_WARRIOR1	Arahans magt
 JOB_WARRIOR2	Partisanernes magt
 LEFT_TIME	Resterende tid	
+LOCALE_CHANGE_CONFIRM	Ændr sprog til %s og genindlæs spillet?
 LOGIN_CONNECT_FAILURE	En fejl opstod ved forbindelsen til serveren.	
 LOGIN_CONNECT_SUCCESS	Du er forbundet til serveren.
 LOGIN_CONNETING	Forbinder til Serveren...

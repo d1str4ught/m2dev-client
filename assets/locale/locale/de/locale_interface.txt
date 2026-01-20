@@ -173,6 +173,8 @@ LOGIN_CONNECT	Verbinden
 LOGIN_CONNECTING	Du wirst mit dem Server verbunden.
 LOGIN_DEFAULT_SERVERADDR	Servername, Channel 1
 LOGIN_EXIT	Beenden
+LOGIN_ID	Benutzername
+LOGIN_PASSWORD	Passwort
 LOGIN_SELECT_BUTTON	Wählen
 LOGIN_SELECT_EXIT	Beenden
 LOGIN_SELECT_TITLE	Server wählen

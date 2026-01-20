@@ -218,6 +218,7 @@ JOB_WARRIOR0	Guerrero Aficionado
 JOB_WARRIOR1	Poder de Arahan
 JOB_WARRIOR2	Poder de Partisanos
 LEFT_TIME	Tiempo restante
+LOCALE_CHANGE_CONFIRM	¿Cambiar el idioma a %s y recargar el juego?
 LOGIN_CONNECT_FAILURE	Error al conectar al servidor.
 LOGIN_CONNECT_SUCCESS	Has sido conectado al servidor.
 LOGIN_CONNETING	Estás siendo conectado al servidor...

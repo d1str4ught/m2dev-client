@@ -173,6 +173,8 @@ LOGIN_CONNECT	Csatlakozik
 LOGIN_CONNECTING	A szerverhez leszel kapcsolva.
 LOGIN_DEFAULT_SERVERADDR	Szervernév, 1. csatorna
 LOGIN_EXIT	Bezár
+LOGIN_ID	Felhasználónév
+LOGIN_PASSWORD	Jelszó
 LOGIN_SELECT_BUTTON	Választ
 LOGIN_SELECT_EXIT	Bezár
 LOGIN_SELECT_TITLE	Szervert választ

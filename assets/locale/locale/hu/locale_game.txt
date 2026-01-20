@@ -217,6 +217,7 @@ JOB_WARRIOR0	Amatőr harcos
 JOB_WARRIOR1	Arahan hatalma
 JOB_WARRIOR2	Partizánok hatalma
 LEFT_TIME	Maradék idő
+LOCALE_CHANGE_CONFIRM	Válts nyelvet erre: %s és töltsd újra a játékot?
 LOGIN_CONNECT_FAILURE	Hiba a szerver kapcsolatban.
 LOGIN_CONNECT_SUCCESS	A szerver kapcsolat létrejött.
 LOGIN_CONNETING	Kapcsolódás a szerverhez...

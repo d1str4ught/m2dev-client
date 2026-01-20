@@ -218,6 +218,7 @@ JOB_WARRIOR0	Guerreiro Amador
 JOB_WARRIOR1	Poder do Arahan
 JOB_WARRIOR2	Poder do Partidário
 LEFT_TIME	Tempo Restante
+LOCALE_CHANGE_CONFIRM	Alterar o idioma para %s e recarregar o jogo?
 LOGIN_CONNECT_FAILURE	Ocorreu um erro enquanto te ligavas ao Servidor.
 LOGIN_CONNECT_SUCCESS	Estás ligado ao Servidor.
 LOGIN_CONNETING	Vais ser ligado ao Servidor...
