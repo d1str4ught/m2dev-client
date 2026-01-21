@@ -206,10 +206,12 @@ class DragonSoulWindow(ui.ScriptWindow):
 		self.inventoryTab[(page+3)%5].SetUp()
 		self.inventoryTab[(page+4)%5].SetUp()
 		self.RefreshBagSlotWindow()
-		
+
 	def SetItemToolTip(self, tooltipItem):
 		self.tooltipItem = tooltipItem
-		
+		if tooltipItem:
+			tooltipItem.SetDragonSoulWindow(self)
+
 	def RefreshItemSlot(self):
 		self.RefreshBagSlotWindow()
 		self.RefreshEquipSlotWindow()
