@@ -325,30 +325,30 @@ class LoginWindow(ui.ScriptWindow):
 
 	def __SaveChannelInfo(self):
 		try:
-			file=open("channel.inf", "w")
-			file.write("%d %d %d" % (self.__GetServerID(), self.__GetChannelID(), self.__GetRegionID()))
+			with open("channel.inf", "w") as file:
+				file.write("%d %d %d" % (self.__GetServerID(), self.__GetChannelID(), self.__GetRegionID()))
 		except:
 			print "LoginWindow.__SaveChannelInfo - SaveError"
 
 	def __LoadChannelInfo(self):
 		try:
-			file=open("channel.inf")
-			lines=file.readlines()
-			
-			if len(lines)>0:
-				tokens=lines[0].split()
+			with open("channel.inf") as file:
+				lines=file.readlines()
 
-				selServerID=int(tokens[0])
-				selChannelID=int(tokens[1])
-				
-				if len(tokens) == 3:
-					regionID = int(tokens[2])
+				if len(lines)>0:
+					tokens=lines[0].split()
 
-				return regionID, selServerID, selChannelID
+					selServerID=int(tokens[0])
+					selChannelID=int(tokens[1])
+
+					if len(tokens) == 3:
+						regionID = int(tokens[2])
+
+					return regionID, selServerID, selChannelID
 
 		except:
 			print "LoginWindow.__LoadChannelInfo - OpenError"
-			return -1, -1, -1
+		return -1, -1, -1
 
 	def __ExitGame(self):
 		app.Exit()

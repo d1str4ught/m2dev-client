@@ -98,7 +98,8 @@ class Window(object):
 		self.Hide()
 
 	def __del__(self):
-		wndMgr.Destroy(self.hWnd)
+		if wndMgr and self.hWnd:
+			wndMgr.Destroy(self.hWnd)
 
 	def RegisterWindow(self, layer):
 		self.hWnd = wndMgr.Register(self, layer)
