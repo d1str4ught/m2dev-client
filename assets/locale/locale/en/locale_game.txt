@@ -717,9 +717,12 @@ UI_LEFT_TIME	Remaining Time: %d Sec.
 UI_NEXT	Continue	
 UI_NEXTPAGE	Next
 UI_NOCONTENTS	No Content	
-UI_NONAME	No Name	
-UI_OK	OK	
-UI_POS_UNKNOWN	Unknown Place	
+UI_NONAME	No Name
+UI_OK	OK
+UI_POS_UNKNOWN	Unknown Place
 UI_PREVPAGE	Back
-UPLOAD_MARK_UPLOAD_NEED_RECONNECT	The upload has to be started again.	
+UPLOAD_MARK_UPLOAD_NEED_RECONNECT	The upload has to be started again.
 USE_ITEM_FAILURE_PRIVATE_SHOP	You cannot use items while you have a private shop open.
+ITEM_GET	Received: %s	SA
+ITEM_GET_FROM_PARTY	Received: %s from %s	SAA
+ITEM_DELIVER_TO_PARTY	Delivered: %s to %s	SAA

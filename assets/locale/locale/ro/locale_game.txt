@@ -736,3 +736,6 @@ UI_POS_UNKNOWN	Localitate necunoscută
 UI_PREVPAGE	inapoi
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Upload-ul terbuie pornit încă odată
 USE_ITEM_FAILURE_PRIVATE_SHOP	Nu poți folosi obiectul dacă ai deschis un magazin.
+ITEM_GET	Primit: %s	SA
+ITEM_GET_FROM_PARTY	Primit: %s de la %s	SAA
+ITEM_DELIVER_TO_PARTY	Livrat: %s către %s	SAA

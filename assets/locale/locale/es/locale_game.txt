@@ -736,3 +736,6 @@ UI_POS_UNKNOWN	Lugar desconocido
 UI_PREVPAGE	atrás
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	La carga tiene que ser iniciada de nuevo.
 USE_ITEM_FAILURE_PRIVATE_SHOP	No puedes utilizar ningún objeto mientras tengas abierta una tienda privada.
+ITEM_GET	Recibido: %s	SA
+ITEM_GET_FROM_PARTY	Recibido: %s de %s	SAA
+ITEM_DELIVER_TO_PARTY	Entregado: %s a %s	SAA

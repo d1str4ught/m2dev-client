@@ -736,3 +736,6 @@ UI_POS_UNKNOWN	Nieznane Położenie
 UI_PREVPAGE	Wróć
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Wgrywanie musi zostać ponownie rozpoczęte.
 USE_ITEM_FAILURE_PRIVATE_SHOP	Nie możesz używać przedmiotów, jeśli otworzyłeś prywatny Magazyn.
+ITEM_GET	Otrzymano: %s	SA
+ITEM_GET_FROM_PARTY	Otrzymano: %s od %s	SAA
+ITEM_DELIVER_TO_PARTY	Dostarczono: %s do %s	SAA

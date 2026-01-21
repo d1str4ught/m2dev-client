@@ -736,3 +736,6 @@ UI_POS_UNKNOWN	Neznámé místo
 UI_PREVPAGE	zpět
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Upload musí být proveden ještě jednou
 USE_ITEM_FAILURE_PRIVATE_SHOP	Pokud jsi otevřel soukromý stánek, nemůžeš použít tento předmět.
+ITEM_GET	Získáno: %s	SA
+ITEM_GET_FROM_PARTY	Získáno: %s od %s	SAA
+ITEM_DELIVER_TO_PARTY	Doručeno: %s pro %s	SAA

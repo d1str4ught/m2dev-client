@@ -1796,6 +1796,15 @@ class GameWindow(ui.ScriptWindow):
 			return
 		chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.NOTIFY_MESSAGE[type])
 
+	def BINARY_ItemGet(self, itemName, itemCount):
+		chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.ITEM_GET(itemName))
+
+	def BINARY_ItemGetFromParty(self, itemName, fromName, itemCount):
+		chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.ITEM_GET_FROM_PARTY((fromName, itemName)))
+
+	def BINARY_ItemDeliverToParty(self, itemName, toName, itemCount):
+		chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.ITEM_DELIVER_TO_PARTY((toName, itemName)))
+
 	def BINARY_Guild_EnterGuildArea(self, areaID):
 		self.interface.BULID_EnterGuildArea(areaID)
 

@@ -736,3 +736,6 @@ UI_POS_UNKNOWN	Неизвестное место
 UI_PREVPAGE	Назад
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Необходимо запустить аплоад повторно.
 USE_ITEM_FAILURE_PRIVATE_SHOP	Вы не можете пользоваться предметом, когда ваша лавка открыта.
+ITEM_GET	Получено: %s	SA
+ITEM_GET_FROM_PARTY	Получено: %s от %s	SAA
+ITEM_DELIVER_TO_PARTY	Доставлено: %s для %s	SAA
