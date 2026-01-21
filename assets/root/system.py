@@ -22,7 +22,8 @@ class LogBoxFile:
 		self.restore()
 
 	def restore(self):
-		sys.stderr = self.stderrSave
+		if sys:
+			sys.stderr = self.stderrSave
 
 	def write(self, msg):
 		self.msg = self.msg + msg

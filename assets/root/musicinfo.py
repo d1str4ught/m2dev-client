@@ -9,21 +9,19 @@ def SaveLastPlayFieldMusic():
 	global fieldMusic
 
 	try:
-		lastPlayFile=open("BGM/lastplay.inf", "w")
+		with open("BGM/lastplay.inf", "w") as lastPlayFile:
+			lastPlayFile.write(fieldMusic)
 	except IOError:
 		return
-
-	lastPlayFile.write(fieldMusic)
 
 
 def LoadLastPlayFieldMusic():
 	global fieldMusic
 
 	try:
-		lastPlayFile=open("BGM/lastplay.inf", "r")
+		with open("BGM/lastplay.inf", "r") as lastPlayFile:
+			fieldMusic=lastPlayFile.read()
 	except IOError:
 		return
-
-	fieldMusic=lastPlayFile.read()
 
 

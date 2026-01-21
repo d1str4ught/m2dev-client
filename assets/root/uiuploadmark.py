@@ -6,11 +6,14 @@ import uiScriptLocale
 class MarkItem(ui.ListBoxEx.Item):
 	def __init__(self, fileName):
 		ui.ListBoxEx.Item.__init__(self)
-		self.imgWidth=0
-		self.imgHeight=0
-		self.canLoad=0
-		self.textLine=self.__CreateTextLine(fileName)
-		self.imgBox=self.__CreateImageBox("upload/"+fileName)
+		self.fileName = fileName
+		self.fullPath = "upload/" + fileName
+		self.imgWidth = 0
+		self.imgHeight = 0
+		self.canLoad = 0
+		self.imgBox = None
+		self.imageLoaded = False
+		self.textLine = self.__CreateTextLine(fileName)
 
 	def __del__(self):
 		ui.ListBoxEx.Item.__del__(self)
@@ -22,35 +25,47 @@ class MarkItem(ui.ListBoxEx.Item):
 		ui.ListBoxEx.Item.SetSize(self, 20 + 6*len(self.textLine.GetText()) + 4, height)
 
 	def __CreateTextLine(self, fileName):
-		textLine=ui.TextLine()
+		textLine = ui.TextLine()
 		textLine.SetParent(self)
 		textLine.SetPosition(20, 0)
 		textLine.SetText(fileName)
 		textLine.Show()
 		return textLine
 
-	def __CreateImageBox(self, fileName):
-		(self.canLoad, self.imgWidth, self.imgHeight)=app.GetImageInfo(fileName)
+	def LoadImageInfo(self):
+		"""Load image info lazily when needed (e.g., when selected or validated)"""
+		if self.imageLoaded:
+			return
 
-		if 1==self.canLoad:
-			if 16==self.imgWidth and 12==self.imgHeight:
-				imgBox=ui.ImageBox()
-				imgBox.AddFlag("not_pick")
-				imgBox.SetParent(self)
-				imgBox.SetPosition(0, 2)
-				imgBox.LoadImageFromFile(fileName)
-				imgBox.Show()
-				return imgBox
-			else:
-				return 0
-		else:
-			return 0
+		self.imageLoaded = True
+		(self.canLoad, self.imgWidth, self.imgHeight) = app.GetImageInfo(self.fullPath)
+
+		if self.canLoad == 1 and self.imgWidth == 16 and self.imgHeight == 12:
+			imgBox = ui.ImageBox()
+			imgBox.AddFlag("not_pick")
+			imgBox.SetParent(self)
+			imgBox.SetPosition(0, 2)
+			imgBox.LoadImageFromFile(self.fullPath)
+			imgBox.Show()
+			self.imgBox = imgBox
+
+	def OnRender(self):
+		# Load image when item becomes visible (rendered)
+		if not self.imageLoaded:
+			self.LoadImageInfo()
+		# Call parent to draw selection bar
+		ui.ListBoxEx.Item.OnRender(self)
 
 class SymbolItem(ui.ListBoxEx.Item):
 	def __init__(self, fileName):
 		ui.ListBoxEx.Item.__init__(self)
-		self.textLine=self.__CreateTextLine(fileName)
-		(self.canLoad, self.imgWidth, self.imgHeight)=app.GetImageInfo("upload/"+fileName)
+		self.fileName = fileName
+		self.fullPath = "upload/" + fileName
+		self.imgWidth = 0
+		self.imgHeight = 0
+		self.canLoad = 0
+		self.imageLoaded = False
+		self.textLine = self.__CreateTextLine(fileName)
 
 	def __del__(self):
 		ui.ListBoxEx.Item.__del__(self)
@@ -62,12 +77,27 @@ class SymbolItem(ui.ListBoxEx.Item):
 		ui.ListBoxEx.Item.SetSize(self, 6*len(self.textLine.GetText()) + 4, height)
 
 	def __CreateTextLine(self, fileName):
-		textLine=ui.TextLine()
+		textLine = ui.TextLine()
 		textLine.SetParent(self)
 		textLine.SetPosition(1, 2)
 		textLine.SetText(fileName)
 		textLine.Show()
 		return textLine
+
+	def LoadImageInfo(self):
+		"""Load image info lazily when needed"""
+		if self.imageLoaded:
+			return
+
+		self.imageLoaded = True
+		(self.canLoad, self.imgWidth, self.imgHeight) = app.GetImageInfo(self.fullPath)
+
+	def OnRender(self):
+		# Load image when item becomes visible (rendered)
+		if not self.imageLoaded:
+			self.LoadImageInfo()
+		# Call parent to draw selection bar
+		ui.ListBoxEx.Item.OnRender(self)
 
 class PopupDialog(ui.ScriptWindow):
 	def __init__(self, parent):
@@ -193,13 +223,16 @@ class MarkSelectDialog(ui.ScriptWindow):
 		self.popupDialog.Open(msg)
 
 	def __OnOK(self):
-		selItem=self.markListBox.GetSelectedItem()
+		selItem = self.markListBox.GetSelectedItem()
 		if selItem:
-			if selItem.canLoad!=1:
+			# Ensure image info is loaded before validation
+			selItem.LoadImageInfo()
+
+			if selItem.canLoad != 1:
 				self.__PopupMessage(localeInfo.GUILDMARK_UPLOADER_ERROR_FILE_FORMAT)
-			elif selItem.imgWidth!=16:
+			elif selItem.imgWidth != 16:
 				self.__PopupMessage(localeInfo.GUILDMARK_UPLOADER_ERROR_16_WIDTH)
-			elif selItem.imgHeight!=12:
+			elif selItem.imgHeight != 12:
 				self.__PopupMessage(localeInfo.GUILDMARK_UPLOADER_ERROR_12_HEIGHT)
 			else:
 				self.selectEvent(selItem.GetText())
@@ -215,19 +248,21 @@ class MarkSelectDialog(ui.ScriptWindow):
 
 	def __RefreshFileList(self):
 		self.__ClearFileList()
-		self.__AppendFileList("bmp")
-		self.__AppendFileList("tga")
-		self.__AppendFileList("jpg")
-		self.__AppendFileList("jpeg")
-		self.__AppendFileList("png")
+		# Collect all files first, then batch add to avoid multiple UI updates
+		allFiles = []
+		for ext in ("bmp", "tga", "jpg", "jpeg", "png"):
+			fileNameList = app.GetFileList("upload/*." + ext)
+			allFiles.extend(fileNameList)
+
+		# Sort alphabetically for consistent display
+		allFiles.sort()
+
+		# Add all files at once
+		for fileName in allFiles:
+			self.__AppendFile(fileName)
 
 	def __ClearFileList(self):
 		self.markListBox.RemoveAllItems()
-
-	def __AppendFileList(self, filter):
-		fileNameList=app.GetFileList("upload/*."+filter)
-		for fileName in fileNameList:
-			self.__AppendFile(fileName)
 
 	def __AppendFile(self, fileName):
 		self.markListBox.AppendItem(MarkItem(fileName))
@@ -318,13 +353,16 @@ class SymbolSelectDialog(ui.ScriptWindow):
 		self.popupDialog.Open(msg)
 
 	def __OnOK(self):
-		selItem=self.symbolListBox.GetSelectedItem()
+		selItem = self.symbolListBox.GetSelectedItem()
 		if selItem:
-			if selItem.canLoad!=1:
+			# Ensure image info is loaded before validation
+			selItem.LoadImageInfo()
+
+			if selItem.canLoad != 1:
 				self.__PopupMessage(localeInfo.GUILDMARK_UPLOADER_ERROR_FILE_FORMAT)
-			elif selItem.imgWidth!=64:
+			elif selItem.imgWidth != 64:
 				self.__PopupMessage(localeInfo.GUILDMARK_UPLOADER_ERROR_64_WIDTH)
-			elif selItem.imgHeight!=128:
+			elif selItem.imgHeight != 128:
 				self.__PopupMessage(localeInfo.GUILDMARK_UPLOADER_ERROR_128_HEIGHT)
 			else:
 				self.selectEvent(selItem.GetText())
