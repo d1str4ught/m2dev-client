@@ -670,6 +670,8 @@ class DragonSoulWindow(ui.ScriptWindow):
 	def DeactivateDragonSoul(self):
 		self.isActivated = False
 		self.activateButton.SetUp()
+		if self.tooltipItem:
+			self.tooltipItem.ClearDragonSoulTimeCache()
 
 	# MR-3: Keyboard-enabled deck toggling
 	def ActivateButtonClick(self, deckIndex = None):
