@@ -499,9 +499,20 @@ class ItemToolTip(ToolTip):
 		# When displaying item tooltip, if the current character cannot equip the item, force it to use Disable Color (already works this way but needed ability to turn it off)
 		self.bCannotUseItemForceSetDisableColor = True
 
+		self.itemWindowType = None
+		self.itemSlotIndex = -1
+		self.wndDragonSoul = None
+		self.dsActivatedTimeCache = {}
+
 	def __del__(self):
 		ToolTip.__del__(self)
 		self.metinSlot = None
+
+	def SetDragonSoulWindow(self, wnd):
+		self.wndDragonSoul = wnd
+
+	def ClearDragonSoulTimeCache(self):
+		self.dsActivatedTimeCache = {}
 
 	def SetCannotUseItemForceSetDisableColor(self, enable):
 		self.bCannotUseItemForceSetDisableColor = enable
@@ -568,6 +579,8 @@ class ItemToolTip(ToolTip):
 	def ClearToolTip(self):
 		self.isShopItem = False
 		self.toolTipWidth = self.TOOL_TIP_WIDTH
+		self.itemWindowType = None
+		self.itemSlotIndex = -1
 		ToolTip.ClearToolTip(self)
 
 	def SetInventoryItem(self, slotIndex, window_type = player.INVENTORY):
@@ -584,6 +597,8 @@ class ItemToolTip(ToolTip):
 		metinSlot = [player.GetItemMetinSocket(window_type, slotIndex, i) for i in xrange(player.METIN_SOCKET_MAX_NUM)]
 		attrSlot = [player.GetItemAttribute(window_type, slotIndex, i) for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM)]
 
+		self.itemWindowType = window_type
+		self.itemSlotIndex = slotIndex
 		self.AddItemData(itemVnum, metinSlot, attrSlot)
 
 	def SetShopItem(self, slotIndex):
@@ -593,6 +608,8 @@ class ItemToolTip(ToolTip):
 
 		price = shop.GetItemPrice(slotIndex)
 		self.ClearToolTip()
+		self.itemWindowType = None
+		self.itemSlotIndex = slotIndex
 		self.isShopItem = True
 
 		metinSlot = []
@@ -612,6 +629,8 @@ class ItemToolTip(ToolTip):
 
 		price = shop.GetItemPrice(slotIndex)
 		self.ClearToolTip()
+		self.itemWindowType = None
+		self.itemSlotIndex = slotIndex
 		self.isShopItem = True
 
 		metinSlot = []
@@ -630,6 +649,8 @@ class ItemToolTip(ToolTip):
 			return
 
 		self.ClearToolTip()
+		self.itemWindowType = None
+		self.itemSlotIndex = slotIndex
 
 		metinSlot = []
 		for i in xrange(player.METIN_SOCKET_MAX_NUM):
@@ -645,6 +666,8 @@ class ItemToolTip(ToolTip):
 			return
 
 		self.ClearToolTip()
+		self.itemWindowType = None
+		self.itemSlotIndex = slotIndex
 
 		metinSlot = []
 		for i in xrange(player.METIN_SOCKET_MAX_NUM):
@@ -661,6 +684,8 @@ class ItemToolTip(ToolTip):
 
 		item.SelectItem(itemVnum)
 		self.ClearToolTip()
+		self.itemWindowType = None
+		self.itemSlotIndex = privateShopSlotIndex
 		self.AppendSellingPrice(shop.GetPrivateShopItemPrice(invenType, invenPos))
 
 		metinSlot = []
@@ -678,6 +703,8 @@ class ItemToolTip(ToolTip):
 			return
 
 		self.ClearToolTip()
+		self.itemWindowType = None
+		self.itemSlotIndex = slotIndex
 		metinSlot = []
 		for i in xrange(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(safebox.GetItemMetinSocket(slotIndex, i))
@@ -693,6 +720,8 @@ class ItemToolTip(ToolTip):
 			return
 
 		self.ClearToolTip()
+		self.itemWindowType = None
+		self.itemSlotIndex = slotIndex
 		metinSlot = []
 		for i in xrange(player.METIN_SOCKET_MAX_NUM):
 			metinSlot.append(safebox.GetMallItemMetinSocket(slotIndex, i))
@@ -1263,7 +1292,7 @@ class ItemToolTip(ToolTip):
 				self.AppendRealTimeStartFirstUseLastTime(item, metinSlot, i, limitValue2)
 
 			elif item.LIMIT_TIMER_BASED_ON_WEAR == limitType:
-				self.AppendTimerBasedOnWearLastTime(metinSlot)
+				self.AppendTimerBasedOnWearLastTime(metinSlot, limitValue2)
 				
 		self.ShowToolTip()
 
@@ -1886,13 +1915,45 @@ class ItemToolTip(ToolTip):
 
 		return timeTextLine
 
-	def AppendTimerBasedOnWearLastTime(self, metinSlot):
-		if 0 == metinSlot[0]:
+	def AppendTimerBasedOnWearLastTime(self, metinSlot, getLimit):
+		remainSec = metinSlot[0]
+
+		if remainSec <= 0:
 			self.AppendSpace(5)
 			self.AppendTextLine(localeInfo.CANNOT_USE, self.DISABLE_COLOR)
-		else:
-			endTime = app.GetGlobalTimeStamp() + metinSlot[0]
-			self.AppendMallItemLastTime(endTime, getLimit)
+			return
+
+		isTimerActive = self.__IsTimerBasedOnWearActive()
+
+		if not isTimerActive:
+			self.AppendSpace(5)
+			self.AppendTextLine(localeInfo.LEFT_TIME + ": " + localeInfo.RTSecondToDHMS(remainSec), self.NORMAL_COLOR)
+			return
+
+		endTime = self.__GetOrCreateCachedEndTime(remainSec)
+		self.AppendMallItemLastTime(endTime, getLimit)
+
+	def __IsTimerBasedOnWearActive(self):
+		item.SelectItem(self.itemVnum)
+
+		if item.GetItemType() == item.ITEM_TYPE_DS:
+			isEquippedOnDeck = (self.itemWindowType == player.INVENTORY)
+			isDeckActivated = self.wndDragonSoul and self.wndDragonSoul.isActivated
+			return isEquippedOnDeck and isDeckActivated
+
+		return True
+
+	def __GetOrCreateCachedEndTime(self, remainSec):
+		key = (self.itemVnum, self.itemSlotIndex)
+		cache = self.dsActivatedTimeCache.get(key)
+
+		if cache and cache["remainSec"] == remainSec:
+			return cache["endTime"]
+
+		now = app.GetGlobalTimeStamp()
+		endTime = now + remainSec
+		self.dsActivatedTimeCache[key] = {"remainSec": remainSec, "endTime": endTime}
+		return endTime
 	
 	def AppendRealTimeStartFirstUseLastTime(self, item, metinSlot, limitIndex, getLimit):
 		useCount = metinSlot[1]
