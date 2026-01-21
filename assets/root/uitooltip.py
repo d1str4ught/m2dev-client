@@ -20,39 +20,56 @@ import constInfo
 
 WARP_SCROLLS = [22011, 22000, 22010]
 
-DESC_DEFAULT_MAX_COLS = 26 
-DESC_WESTERN_MAX_COLS = 35
-DESC_WESTERN_MAX_WIDTH = 220
+# Tooltip max width when descriptions are long
+DESC_MAX_WIDTH = 280
 
 def chop(n):
 	return round(n - 0.5, 1)
 
-def SplitDescription(desc, limit):
-	total_tokens = desc.split()
-	line_tokens = []
-	line_len = 0
-	lines = []
-	for token in total_tokens:
-		if "|" in token:
-			sep_pos = token.find("|")
-			line_tokens.append(token[:sep_pos])
+def SplitDescriptionByPixelWidth(desc, maxWidthPx, fontName):
+	"""
+	Splits description into lines that fit in maxWidthPx, measured in pixels.
+	Respects forced breaks: '\n' and '|'.
+	"""
+	if not desc:
+		return []
 
-			lines.append(" ".join(line_tokens))
-			line_len = len(token) - (sep_pos + 1)
-			line_tokens = [token[sep_pos+1:]]
-		else:
-			line_len += len(token)
-			if len(line_tokens) + line_len > limit:
-				lines.append(" ".join(line_tokens))
-				line_len = len(token)
-				line_tokens = [token]
+	# Normalize breaks
+	desc = desc.replace("\r\n", "\n").replace("\r", "\n").replace("|", "\n")
+
+	measure = ui.TextLine()
+	measure.SetFontName(fontName)
+
+	out = []
+	for raw in desc.split("\n"):
+		raw = raw.strip()
+		if not raw:
+			continue
+
+		tokens = raw.split()
+		cur = ""
+
+		for token in tokens:
+			candidate = token if not cur else (cur + " " + token)
+
+			measure.SetText(candidate)
+			w, _ = measure.GetTextSize()
+
+			if w <= maxWidthPx:
+				cur = candidate
 			else:
-				line_tokens.append(token)
-	
-	if line_tokens:
-		lines.append(" ".join(line_tokens))
+				# push current line if it exists
+				if cur:
+					out.append(cur)
 
-	return lines
+				# token alone might be wider than max: keep it as its own line
+				# (or you could implement character splitting, but this is safer)
+				cur = token
+
+		if cur:
+			out.append(cur)
+
+	return out
 
 ###################################################################################################
 ## ToolTip
@@ -152,6 +169,14 @@ class ToolTip(ui.ThinBoard):
 
 		self.ResizeToolTip()
 
+	def AlignTextLineHorizonalCenter(self):
+		for child in self.childrenList:
+			if type(child).__name__ == "TextLine":
+				(x, y) = child.GetLocalPosition()
+				child.SetPosition(self.toolTipWidth / 2, y)
+
+		self.ResizeToolTip()
+
 	def AutoAppendTextLine(self, text, color = FONT_COLOR, centerAlign = True):
 		textLine = ui.TextLine()
 		textLine.SetParent(self)
@@ -183,7 +208,7 @@ class ToolTip(ui.ThinBoard):
 
 		return textLine
 
-	def AppendTextLine(self, text, color = FONT_COLOR, centerAlign = True):
+	def AppendTextLine(self, text, color=FONT_COLOR, centerAlign=True, show=True):
 		textLine = ui.TextLine()
 		textLine.SetParent(self)
 		textLine.SetFontName(self.defFontName)
@@ -191,12 +216,20 @@ class ToolTip(ui.ThinBoard):
 		textLine.SetText(text)
 		textLine.SetOutline()
 		textLine.SetFeather(False)
-		textLine.Show()
+		if show:
+			textLine.Show()
+
+		textWidth, _ = textLine.GetTextSize()
+		textWidth += 20
+
+		tooltipWidthChanged = False
+		if self.toolTipWidth < textWidth:
+			self.toolTipWidth = textWidth
+			tooltipWidthChanged = True
 
 		if centerAlign:
-			textLine.SetPosition(self.toolTipWidth/2, self.toolTipHeight)
 			textLine.SetHorizontalAlignCenter()
-
+			textLine.SetPosition(self.toolTipWidth / 2, self.toolTipHeight)
 		else:
 			textLine.SetPosition(10, self.toolTipHeight)
 
@@ -205,24 +238,21 @@ class ToolTip(ui.ThinBoard):
 		self.toolTipHeight += self.TEXT_LINE_HEIGHT
 		self.ResizeToolTip()
 
+		if tooltipWidthChanged:
+			self.AlignTextLineHorizonalCenter()
+
 		return textLine
 
-	def AppendDescription(self, desc, limit, color = FONT_COLOR):
-		self.__AppendDescription_WesternLanguage(desc, color)
-
-	def __AppendDescription_EasternLanguage(self, description, characterLimitation, color=FONT_COLOR):
-		length = len(description)
-		if 0 == length:
+	def AppendDescription(self, desc, color = FONT_COLOR):
+		if not desc:
 			return
 
-		lineCount = grpText.GetSplitingTextLineCount(description, characterLimitation)
-		for i in xrange(lineCount):
-			if 0 == i:
-				self.AppendSpace(5)
-			self.AppendTextLine(grpText.GetSplitingTextLine(description, characterLimitation, i), color)
+		# We wrap based on pixels, not on "limit" columns.
+		# This makes it consistent across languages/fonts.
+		padding = 20  # left+right safe padding inside tooltip
+		maxWidthPx = max(50, self.toolTipWidth - padding)
 
-	def __AppendDescription_WesternLanguage(self, desc, color=FONT_COLOR):
-		lines = SplitDescription(desc, DESC_WESTERN_MAX_COLS)
+		lines = SplitDescriptionByPixelWidth(desc, maxWidthPx, self.defFontName)
 		if not lines:
 			return
 
@@ -455,12 +485,14 @@ class ItemToolTip(ToolTip):
 	def __init__(self, *args, **kwargs):
 		ToolTip.__init__(self, *args, **kwargs)
 		self.itemVnum = 0
+		self.metinSlot = []
 		self.isShopItem = False
 		# When displaying item tooltip, if the current character cannot equip the item, force it to use Disable Color (already works this way but needed ability to turn it off)
 		self.bCannotUseItemForceSetDisableColor = True
 
 	def __del__(self):
 		ToolTip.__del__(self)
+		self.metinSlot = None
 
 	def SetCannotUseItemForceSetDisableColor(self, enable):
 		self.bCannotUseItemForceSetDisableColor = enable
@@ -791,14 +823,18 @@ class ItemToolTip(ToolTip):
 			self.__AppendHairIcon(itemVnum)
 
 		### Description ###
-		self.AppendDescription(itemDesc, 26)
-		self.AppendDescription(itemSummary, 26, self.CONDITION_COLOR)
+		self.AppendDescription(itemDesc)
+		self.AppendDescription(itemSummary, self.CONDITION_COLOR)
 
 	def AddItemData(self, itemVnum, metinSlot, attrSlot = 0, flags = 0, unbindTime = 0):
 		self.itemVnum = itemVnum
+		self.metinSlot = metinSlot
 		item.SelectItem(itemVnum)
 		itemType = item.GetItemType()
 		itemSubType = item.GetItemSubType()
+
+		if not item.GetItemDescription():
+			self.__CalculateToolTipWidth()
 
 		if 50026 == itemVnum:
 			if 0 != metinSlot:
@@ -821,16 +857,17 @@ class ItemToolTip(ToolTip):
 		elif 70037 == itemVnum:
 			if 0 != metinSlot:
 				self.__SetSkillBookToolTip(metinSlot[0], localeInfo.TOOLTIP_SKILL_FORGET_BOOK_NAME, 0)
-				self.AppendDescription(item.GetItemDescription(), 26)
-				self.AppendDescription(item.GetItemSummary(), 26, self.CONDITION_COLOR)
+				self.AppendDescription(item.GetItemDescription())
+				self.AppendDescription(item.GetItemSummary(), self.CONDITION_COLOR)
+
 
 				self.ShowToolTip()
 			return
 		elif 70055 == itemVnum:
 			if 0 != metinSlot:
 				self.__SetSkillBookToolTip(metinSlot[0], localeInfo.TOOLTIP_SKILL_FORGET_BOOK_NAME, 0)
-				self.AppendDescription(item.GetItemDescription(), 26)
-				self.AppendDescription(item.GetItemSummary(), 26, self.CONDITION_COLOR)
+				self.AppendDescription(item.GetItemDescription())
+				self.AppendDescription(item.GetItemSummary(), self.CONDITION_COLOR)
 
 				self.ShowToolTip()
 			return
@@ -860,8 +897,8 @@ class ItemToolTip(ToolTip):
 			self.__AppendHairIcon(itemVnum)
 
 		### Description ###
-		self.AppendDescription(itemDesc, 26)
-		self.AppendDescription(itemSummary, 26, self.CONDITION_COLOR)
+		self.AppendDescription(itemDesc)
+		self.AppendDescription(itemSummary, self.CONDITION_COLOR)
 
 		### Weapon ###
 		if item.ITEM_TYPE_WEAPON == itemType:
@@ -1270,22 +1307,55 @@ class ItemToolTip(ToolTip):
 		for i in xrange(player.ATTRIBUTE_SLOT_MAX_NUM):
 			type = attrSlot[i][0]
 			value = attrSlot[i][1]
-			if self.ATTRIBUTE_NEED_WIDTH.has_key(type):
-				if value > 0:
-					maxWidth = max(self.ATTRIBUTE_NEED_WIDTH[type], maxWidth)
 
-					# ATTR_CHANGE_TOOLTIP_WIDTH
-					#self.toolTipWidth = max(self.ATTRIBUTE_NEED_WIDTH[type], self.toolTipWidth)
-					#self.ResizeToolTip()
-					# END_OF_ATTR_CHANGE_TOOLTIP_WIDTH
+			attrText = self.AppendTextLine(self.__GetAffectString(type, value))
+			(tW, _) = attrText.GetTextSize()
+			self.childrenList.remove(attrText)
+			self.toolTipHeight -= self.TEXT_LINE_HEIGHT
+
+			maxWidth = max(tW + 12, maxWidth)
 
 		return maxWidth
 
 	def __AdjustDescMaxWidth(self, desc):
-		if len(desc) < DESC_DEFAULT_MAX_COLS:
+		if not desc:
 			return self.toolTipWidth
-	
-		return DESC_WESTERN_MAX_WIDTH
+
+		padding = 20
+		maxWidthPx = max(50, self.toolTipWidth - padding)
+
+		lines = SplitDescriptionByPixelWidth(desc, maxWidthPx, self.defFontName)
+		if len(lines) >= 2:
+			return DESC_MAX_WIDTH
+
+		return self.toolTipWidth
+
+	def ResizeToolTipWidth(self, width):
+		self.toolTipWidth = width
+
+	def __CalculateToolTipWidth(self):
+		affectTextLineLenList = []
+
+		metinSocket = self.metinSlot
+		if metinSocket:
+			for socketIndex in metinSocket:
+				if socketIndex:
+					item.SelectItem(socketIndex)
+
+					affectType, affectValue = item.GetAffect(0)
+					affectString = self.__GetAffectString(affectType, affectValue)
+					if affectString:
+						affectTextLineLenList.append(len(affectString))
+
+			if self.itemVnum:
+				item.SelectItem(self.itemVnum)
+			self.metinSlot = None
+
+		if self.toolTipWidth == self.TOOL_TIP_WIDTH:
+			if affectTextLineLenList:
+				self.toolTipWidth += max(affectTextLineLenList) + 10
+
+		self.AlignTextLineHorizonalCenter()
 
 	def __SetSkillBookToolTip(self, skillIndex, bookName, skillGrade):
 		skillName = skill.GetSkillName(skillIndex)
@@ -1921,7 +1991,7 @@ class SkillToolTip(ToolTip):
 
 			## Description
 			description = skill.GetSkillDescription(skillIndex)
-			self.AppendDescription(description, 25)
+			self.AppendDescription(description)
 
 			if skillLevel == 10:
 				self.AppendSpace(5)
@@ -2006,7 +2076,7 @@ class SkillToolTip(ToolTip):
 
 		## Description
 		description = skill.GetSkillDescription(skillIndex)
-		self.AppendDescription(description, 25)
+		self.AppendDescription(description)
 
 	def AppendSupportSkillDefaultData(self, skillIndex, skillGrade, skillLevel, maxLevel):
 		self.ClearToolTip()
@@ -2014,7 +2084,7 @@ class SkillToolTip(ToolTip):
 
 		## Description
 		description = skill.GetSkillDescription(skillIndex)
-		self.AppendDescription(description, 25)
+		self.AppendDescription(description)
 
 		if 1 == skillGrade:
 			skillLevel += 19

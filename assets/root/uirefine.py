@@ -335,7 +335,7 @@ class RefineDialogNew(ui.ScriptWindow):
 
 		thinBoard = self.__MakeThinBoard()
 		thinBoard.SetPosition(50, self.dialogHeight)
-		thinBoard.SetSize(191, 20)
+		thinBoard.SetSize(self.toolTip.GetWidth(), 20)
 
 		textLine = ui.TextLine()
 		textLine.SetParent(thinBoard)
@@ -385,7 +385,7 @@ class RefineDialogNew(ui.ScriptWindow):
 			self.Accept()
 			return
 
-		if 5 == self.type: ## ¹«½ÅÀÇ Ãàº¹¼­
+		if 5 == self.type: ## ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½àº¹ï¿½ï¿½
 			self.Accept()
 			return
 
@@ -394,10 +394,10 @@ class RefineDialogNew(ui.ScriptWindow):
 		dlgQuestion.SetAcceptEvent(ui.__mem_func__(self.Accept))
 		dlgQuestion.SetCancelEvent(ui.__mem_func__(dlgQuestion.Close))
 
-		if 3 == self.type: ## ÇöÃ¶
+		if 3 == self.type: ## ï¿½ï¿½Ã¶
 			dlgQuestion.SetText1(localeInfo.REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1)
 			dlgQuestion.SetText2(localeInfo.REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2)
-		elif 2 == self.type: ## Ãàº¹¼­
+		elif 2 == self.type: ## ï¿½àº¹ï¿½ï¿½
 			dlgQuestion.SetText1(localeInfo.REFINE_DOWN_GRADE_WARNING)
 		else:
 			dlgQuestion.SetText1(localeInfo.REFINE_DESTROY_WARNING)
