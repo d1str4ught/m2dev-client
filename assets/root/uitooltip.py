@@ -122,6 +122,8 @@ class ToolTip(ui.ThinBoard):
 		self.xPos = -1
 		self.yPos = -1
 
+		self.timeInfoList = []
+
 		self.defFontName = localeInfo.UI_DEF_FONT
 		self.ClearToolTip()
 
@@ -131,6 +133,7 @@ class ToolTip(ui.ThinBoard):
 	def ClearToolTip(self):
 		self.toolTipHeight = 12
 		self.childrenList = []
+		self.timeInfoList = []
 
 	def SetFollow(self, flag):
 		self.followFlag = flag
@@ -301,6 +304,12 @@ class ToolTip(ui.ThinBoard):
 
 		if not self.followFlag:
 			return
+
+		for timeText in self.timeInfoList:
+			if timeText["line"]:
+				leftSec = max(0, timeText["value"] - app.GetGlobalTimeStamp())
+				if not self.isShopItem:
+					timeText["line"].SetText(localeInfo.LEFT_TIME + ": " + localeInfo.RTSecondToDHMS(leftSec))
 
 		x = 0
 		y = 0
@@ -548,6 +557,13 @@ class ItemToolTip(ToolTip):
 			color = self.DISABLE_COLOR
 
 		return ToolTip.AppendTextLine(self, text, color, centerAlign)
+
+	def AppendTextLineTime(self, endTime, getLimit):
+		color = self.FONT_COLOR
+		if not self.CanEquip() and self.bCannotUseItemForceSetDisableColor:
+			color = self.DISABLE_COLOR
+
+		return ToolTip.AppendTextLineTime(self, endTime, getLimit, color)
 
 	def ClearToolTip(self):
 		self.isShopItem = False
@@ -952,7 +968,21 @@ class ItemToolTip(ToolTip):
 
 			#Planning for the ring socket system has not yet been decided
 			#self.__AppendAccessoryMetinSlotInfo(metinSlot, 99001)
-			
+
+			bHasRealtimeFlag = 0
+			for i in xrange(item.LIMIT_MAX_NUM):
+				(limitType, limitValue) = item.GetLimit(i)
+
+				if item.LIMIT_REAL_TIME == limitType:
+					bHasRealtimeFlag = 1
+
+			if 1 == bHasRealtimeFlag:
+				if item.LIMIT_REAL_TIME == item.GetLimitType(0) or item.LIMIT_REAL_TIME_START_FIRST_USE == item.GetLimitType(0):
+					self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(0))
+				else:
+					self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(1))
+
+			self.AppendSpace(5)
 
 		### Belt Item ###
 		elif item.ITEM_TYPE_BELT == itemType:
@@ -971,18 +1001,17 @@ class ItemToolTip(ToolTip):
 			self.AppendWearableInformation()
 		
 			bHasRealtimeFlag = 0
-			
-			# # Find out if there is limited time remaining
 			for i in xrange(item.LIMIT_MAX_NUM):
 				(limitType, limitValue) = item.GetLimit(i)
 
 				if item.LIMIT_REAL_TIME == limitType:
 					bHasRealtimeFlag = 1
 
-			## If exists, display related information. ex) Remaining time: 6 days 6 hours 58 minutes
 			if 1 == bHasRealtimeFlag:
-				self.AppendMallItemLastTime(metinSlot[0])
-				#dbg.TraceError("1) REAL_TIME flag On ")
+				if item.LIMIT_REAL_TIME == item.GetLimitType(0) or item.LIMIT_REAL_TIME_START_FIRST_USE == item.GetLimitType(0):
+					self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(0))
+				else:
+					self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(1))
 				
 		## Rod ##
 		elif item.ITEM_TYPE_ROD == itemType:
@@ -1056,20 +1085,25 @@ class ItemToolTip(ToolTip):
 		elif item.ITEM_TYPE_UNIQUE == itemType:
 			if 0 != metinSlot:
 				bHasRealtimeFlag = 0
-				
 				for i in xrange(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(i)
 
 					if item.LIMIT_REAL_TIME == limitType:
 						bHasRealtimeFlag = 1
-				
+
 				if 1 == bHasRealtimeFlag:
-					self.AppendMallItemLastTime(metinSlot[0])		
+					if item.LIMIT_REAL_TIME == item.GetLimitType(0) or item.LIMIT_REAL_TIME_START_FIRST_USE == item.GetLimitType(0):
+						self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(0))
+					else:
+						self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(1))
 				else:
-					time = metinSlot[player.METIN_SOCKET_MAX_NUM-1]
+					time = metinSlot[player.METIN_SOCKET_MAX_NUM - 1]
 
 					if 1 == item.GetValue(2): ## Real-time use flag / given even if not equipped
-						self.AppendMallItemLastTime(time)
+						if item.LIMIT_REAL_TIME == item.GetLimitType(0) or item.LIMIT_REAL_TIME_START_FIRST_USE == item.GetLimitType(0):
+							self.AppendMallItemLastTime(time, item.GetLimitValue(0))
+						else:
+							self.AppendMallItemLastTime(time, item.GetLimitValue(1))
 					else:
 						self.AppendUniqueItemLastTime(time)
 
@@ -1148,22 +1182,23 @@ class ItemToolTip(ToolTip):
 					if item.LIMIT_REAL_TIME == limitType:
 						bHasRealtimeFlag = 1
 
-				## If exists, display related information. ex) Remaining time: 6 days 6 hours 58 minutes
 				if 1 == bHasRealtimeFlag:
-					self.AppendMallItemLastTime(metinSlot[0])
+					if item.LIMIT_REAL_TIME == item.GetLimitType(0) or item.LIMIT_REAL_TIME_START_FIRST_USE == item.GetLimitType(0):
+						self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(0))
+					else:
+						self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(1))
 				else:
-					# ... This... This time isn't checked on the server...
-					# I don't know why this exists, but let's just leave it...
 					if 0 != metinSlot:
-						time = metinSlot[player.METIN_SOCKET_MAX_NUM-1]
+						time = metinSlot[player.METIN_SOCKET_MAX_NUM - 1]
 
-						## Real-time usage Flag
 						if 1 == item.GetValue(2):
-							self.AppendMallItemLastTime(time)
+							if item.LIMIT_REAL_TIME == item.GetLimitType(0) or item.LIMIT_REAL_TIME_START_FIRST_USE == item.GetLimitType(0):
+								self.AppendMallItemLastTime(time, item.GetLimitValue(0))
+							else:
+								self.AppendMallItemLastTime(time, item.GetLimitValue(1))
 			
 			elif item.USE_TIME_CHARGE_PER == itemSubType:
 				bHasRealtimeFlag = 0
-
 				for i in xrange(item.LIMIT_MAX_NUM):
 					(limitType, limitValue) = item.GetLimit(i)
 
@@ -1175,9 +1210,11 @@ class ItemToolTip(ToolTip):
 				else:
 					self.AppendTextLine(localeInfo.TOOLTIP_TIME_CHARGER_PER(item.GetValue(0)))
 
-				## If available, display relevant information. ex) Time remaining: 6 days, 6 hours, 58 minutes
 				if 1 == bHasRealtimeFlag:
-					self.AppendMallItemLastTime(metinSlot[0])
+					if item.LIMIT_REAL_TIME == item.GetLimitType(0) or item.LIMIT_REAL_TIME_START_FIRST_USE == item.GetLimitType(0):
+						self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(0))
+					else:
+						self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(1))
 
 			elif item.USE_TIME_CHARGE_FIX == itemSubType:
 				bHasRealtimeFlag = 0
@@ -1186,21 +1223,32 @@ class ItemToolTip(ToolTip):
 
 					if item.LIMIT_REAL_TIME == limitType:
 						bHasRealtimeFlag = 1
+
 				if metinSlot[2]:
 					self.AppendTextLine(localeInfo.TOOLTIP_TIME_CHARGER_FIX(metinSlot[2]))
 				else:
 					self.AppendTextLine(localeInfo.TOOLTIP_TIME_CHARGER_FIX(item.GetValue(0)))
-		
-				## If exists, display related information. ex) Remaining time: 6 days 6 hours 58 minutes
+
 				if 1 == bHasRealtimeFlag:
-					self.AppendMallItemLastTime(metinSlot[0])
+					if item.LIMIT_REAL_TIME == item.GetLimitType(0) or item.LIMIT_REAL_TIME_START_FIRST_USE == item.GetLimitType(0):
+						self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(0))
+					else:
+						self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(1))
 
 		elif item.ITEM_TYPE_QUEST == itemType:
+			bHasRealtimeFlag = 0
 			for i in xrange(item.LIMIT_MAX_NUM):
 				(limitType, limitValue) = item.GetLimit(i)
 
 				if item.LIMIT_REAL_TIME == limitType:
-					self.AppendMallItemLastTime(metinSlot[0])
+					bHasRealtimeFlag = 1
+
+			if 1 == bHasRealtimeFlag:
+				if item.LIMIT_REAL_TIME == item.GetLimitType(0) or item.LIMIT_REAL_TIME_START_FIRST_USE == item.GetLimitType(0):
+					self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(0))
+				else:
+					self.AppendMallItemLastTime(metinSlot[0], item.GetLimitValue(1))
+
 		elif item.ITEM_TYPE_DS == itemType:
 			self.AppendTextLine(self.__DragonSoulInfoString(itemVnum))
 			self.__AppendAttributeInformation(attrSlot)
@@ -1209,17 +1257,13 @@ class ItemToolTip(ToolTip):
 
 		for i in xrange(item.LIMIT_MAX_NUM):
 			(limitType, limitValue) = item.GetLimit(i)
-			#dbg.TraceError("LimitType : %d, limitValue : %d" % (limitType, limitValue))
-			
+			limitValue2 = item.GetLimitValue(i)
+
 			if item.LIMIT_REAL_TIME_START_FIRST_USE == limitType:
-				self.AppendRealTimeStartFirstUseLastTime(item, metinSlot, i)
-				#dbg.TraceError("2) REAL_TIME_START_FIRST_USE flag On ")
-				
+				self.AppendRealTimeStartFirstUseLastTime(item, metinSlot, i, limitValue2)
+
 			elif item.LIMIT_TIMER_BASED_ON_WEAR == limitType:
 				self.AppendTimerBasedOnWearLastTime(metinSlot)
-				#dbg.TraceError("1) REAL_TIME flag On ")
-
-
 				
 		self.ShowToolTip()
 
@@ -1782,7 +1826,7 @@ class ItemToolTip(ToolTip):
 				self.toolTipHeight += 16 + 2
 
 			if 0 != leftTime:
-				timeText = (localeInfo.LEFT_TIME + " : " + localeInfo.SecondToDHM(leftTime))
+				timeText = (localeInfo.LEFT_TIME + " : " + localeInfo.RTSecondToDHMS(leftTime))
 
 				timeTextLine = ui.TextLine()
 				timeTextLine.SetParent(self)
@@ -1808,24 +1852,49 @@ class ItemToolTip(ToolTip):
 			self.AppendTextLine(localeInfo.TOOLTIP_FISH_LEN % (float(size) / 100.0), self.NORMAL_COLOR)
 
 	def AppendUniqueItemLastTime(self, restMin):
-		restSecond = restMin*60
-		self.AppendSpace(5)
-		self.AppendTextLine(localeInfo.LEFT_TIME + " : " + localeInfo.SecondToDHM(restSecond), self.NORMAL_COLOR)
+		if restMin > 0:
+			restSecond = restMin * 60
+			self.AppendSpace(5)
+			self.AppendTextLine(localeInfo.LEFT_TIME + " : " + localeInfo.RTSecondToDHMS(restSecond), self.NORMAL_COLOR)
 
-	def AppendMallItemLastTime(self, endTime):
+	def AppendMallItemLastTime(self, endTime, getLimit):
+		if endTime > 0:
+			self.AppendSpace(5)
+			self.AppendTextLineTime(endTime, getLimit)
+
+	def AppendTextLineTime(self, endTime, getLimit, color=FONT_COLOR):
 		leftSec = max(0, endTime - app.GetGlobalTimeStamp())
-		self.AppendSpace(5)
-		self.AppendTextLine(localeInfo.LEFT_TIME + " : " + localeInfo.SecondToDHM(leftSec), self.NORMAL_COLOR)
-		
+
+		timeTextLine = ui.TextLine()
+		timeTextLine.SetParent(self)
+		timeTextLine.SetFontName(self.defFontName)
+		timeTextLine.SetPackedFontColor(color)
+
+		if not self.isShopItem:
+			timeTextLine.SetText(localeInfo.LEFT_TIME + ": " + localeInfo.RTSecondToDHMS(leftSec))
+
+		timeTextLine.SetOutline()
+		timeTextLine.SetFeather(False)
+		timeTextLine.SetPosition(self.toolTipWidth / 2, self.toolTipHeight)
+		timeTextLine.SetHorizontalAlignCenter()
+		timeTextLine.Show()
+
+		self.timeInfoList.append({"line": timeTextLine, "value": endTime, "limit": getLimit})
+
+		self.toolTipHeight += self.TEXT_LINE_HEIGHT
+		self.ResizeToolTip()
+
+		return timeTextLine
+
 	def AppendTimerBasedOnWearLastTime(self, metinSlot):
 		if 0 == metinSlot[0]:
 			self.AppendSpace(5)
 			self.AppendTextLine(localeInfo.CANNOT_USE, self.DISABLE_COLOR)
 		else:
 			endTime = app.GetGlobalTimeStamp() + metinSlot[0]
-			self.AppendMallItemLastTime(endTime)		
+			self.AppendMallItemLastTime(endTime, getLimit)
 	
-	def AppendRealTimeStartFirstUseLastTime(self, item, metinSlot, limitIndex):		
+	def AppendRealTimeStartFirstUseLastTime(self, item, metinSlot, limitIndex, getLimit):
 		useCount = metinSlot[1]
 		endTime = metinSlot[0]
 
@@ -1836,9 +1905,12 @@ class ItemToolTip(ToolTip):
 				(limitType, limitValue) = item.GetLimit(limitIndex)
 				endTime = limitValue
 
+				self.AppendUniqueItemLastTime(endTime / 60)
+				return
+
 			endTime += app.GetGlobalTimeStamp()
 	
-		self.AppendMallItemLastTime(endTime)
+		self.AppendMallItemLastTime(endTime, getLimit)
 	
 class HyperlinkItemToolTip(ItemToolTip):
 	def __init__(self):

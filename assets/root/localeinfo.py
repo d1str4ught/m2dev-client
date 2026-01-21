@@ -381,3 +381,32 @@ def SecondToHM(time):
 	if minute > 0:
 		text += str(minute) + MINUTE
 	return text
+
+# Convert seconds to Days-Hours-Minutes-Seconds in real time
+def RTSecondToDHMS(time):
+	text = ""
+
+	d = time // (24 * 3600)
+	time %= (24 * 3600)
+	h = time // 3600
+	time %= 3600
+	m = time // 60
+	s = time % 60
+
+	if d or not text:
+		if d:
+			text += "%dd " % d
+
+	if h or not text:
+		if h:
+			text += "%dh " % h
+
+	if m or not text:
+		if m:
+			text += "%dm " % m
+
+	if s or not text:
+		if s:
+			text += "%ds " % s
+
+	return text.strip()

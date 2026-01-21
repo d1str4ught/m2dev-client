@@ -762,18 +762,18 @@ class GameWindow(ui.ScriptWindow):
 	# UNKNOWN_UPDATE
 	def BINARY_NEW_AddAffect(self, type, pointIdx, value, duration):
 		self.affectShower.BINARY_NEW_AddAffect(type, pointIdx, value, duration)
+
 		if chr.NEW_AFFECT_DRAGON_SOUL_DECK1 == type or chr.NEW_AFFECT_DRAGON_SOUL_DECK2 == type:
 			self.interface.DragonSoulActivate(type - chr.NEW_AFFECT_DRAGON_SOUL_DECK1)
+
 		elif chr.NEW_AFFECT_DRAGON_SOUL_QUALIFIED == type:
 			self.BINARY_DragonSoulGiveQuilification()
 
 	def BINARY_NEW_RemoveAffect(self, type, pointIdx):
 		self.affectShower.BINARY_NEW_RemoveAffect(type, pointIdx)
+
 		if chr.NEW_AFFECT_DRAGON_SOUL_DECK1 == type or chr.NEW_AFFECT_DRAGON_SOUL_DECK2 == type:
 			self.interface.DragonSoulDeactivate()
-	
- 
- 
 	# END_OF_UNKNOWN_UPDATE
 
 	def ActivateSkillSlot(self, slotIndex):
