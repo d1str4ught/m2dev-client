@@ -736,3 +736,6 @@ UI_POS_UNKNOWN	Luogo sconosciuto
 UI_PREVPAGE	Indietro
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Rifai l'upload
 USE_ITEM_FAILURE_PRIVATE_SHOP	Non puoi usare degli oggetti se hai un negozio privato aperto.
+ITEM_GET	Ricevuto: %s	SA
+ITEM_GET_FROM_PARTY	Ricevuto: %s da %s	SAA
+ITEM_DELIVER_TO_PARTY	Consegnato: %s a %s	SAA

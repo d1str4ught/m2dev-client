@@ -736,3 +736,6 @@ UI_POS_UNKNOWN	Localização Desconhecida
 UI_PREVPAGE	retroceder
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	O upload tem de começar de novo.
 USE_ITEM_FAILURE_PRIVATE_SHOP	Não podes usar este Item enquanto tiveres uma Loja Privada aberta.
+ITEM_GET	Recebido: %s	SA
+ITEM_GET_FROM_PARTY	Recebido: %s de %s	SAA
+ITEM_DELIVER_TO_PARTY	Entregue: %s para %s	SAA

@@ -816,3 +816,6 @@ UI_POS_UNKNOWN	مكان غير معروف
 UI_PREVPAGE	الخلف
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	عليك إعادة التحميل من جديد.
 USE_ITEM_FAILURE_PRIVATE_SHOP	لا يمكنك استعمال أي شيء، طالما أنك تملك متجراً شخصياً.
+ITEM_GET	تم الحصول على: %s	SA
+ITEM_GET_FROM_PARTY	تم الحصول على: %s من %s	SAA
+ITEM_DELIVER_TO_PARTY	تم التسليم: %s إلى %s	SAA
