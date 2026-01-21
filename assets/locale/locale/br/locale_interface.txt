@@ -1,0 +1,311 @@
+ACCEPT	OK
+ATTACH_METIN_INFO	Quer mesmo combinar?
+ATTACH_METIN_TITLE	Combinar itens
+CANCEL	Fechar
+CHANGE_PASSWORD_CONFIRM	Confirme a nova senha
+CHANGE_PASSWORD_NEW	Nova senha
+CHANGE_PASSWORD_OLD	Senha original
+CHANGE_PASSWORD_TITLE	Troca de senha
+CHARACTER_ACTION	Ações
+CHARACTER_MAIN	Status
+CHARACTER_MUTUAL_ACTION	Expressões interativas
+CHARACTER_NORMAL_ACTION	Expressões
+CHARACTER_QUEST	Quests
+CHARACTER_SKILL	Skills
+CLOSE	Fechar
+COMB_TITLE	Janela de Combinação
+COSTUME_TITLE	Costumes
+COSTUME_WINDOW_TITLE	Trajes
+CREATE_ATT_GRADE	FOR
+CREATE_CREATE	Criar
+CREATE_DEX_GRADE	DES
+CREATE_HP	VIT
+CREATE_MAN	Masculino
+CREATE_NAME	Nome
+CREATE_NEXT	Próximo
+CREATE_PREV	Anterior
+CREATE_SEX	Sexo
+CREATE_SHAPE	Vestimenta
+CREATE_SP	INT
+CREATE_WOMAN	Feminino
+CUBE_INFO_TITLE	Manual de Refinamento
+CUBE_REQUIRE_MATERIAL	Materiais necessários
+CUBE_REQUIRE_MATERIAL_OR	ou
+CUBE_TITLE	Cubo
+DO_REFINE	Refinar
+DRAGONSOUL_ACTIVATE	Ativar 
+DRAGONSOUL_PAGE_BUTTON_1	Com(D)
+DRAGONSOUL_PAGE_BUTTON_2	Incom(C)
+DRAGONSOUL_PAGE_BUTTON_3	Rara(B)
+DRAGONSOUL_PAGE_BUTTON_4	Antiga(A)
+DRAGONSOUL_PAGE_BUTTON_5	Lendária(S)
+DRAGONSOUL_REFINE_WINDOW_TITLE	Refinamento de Pedra de Dragão
+DRAGONSOUL_TAP_TITLE_1	Diamante
+DRAGONSOUL_TAP_TITLE_2	Rubi
+DRAGONSOUL_TAP_TITLE_3	Jade
+DRAGONSOUL_TAP_TITLE_4	Safira
+DRAGONSOUL_TAP_TITLE_5	Granada
+DRAGONSOUL_TAP_TITLE_6	Ônix
+DRAGONSOUL_TITLE	Pedra de Dragão
+EMPIRE_EXIT	Voltar
+EMPIRE_NEXT	Próximo
+EMPIRE_PREV	Anterior
+EMPIRE_SELECT	Selecionar
+EXCHANGE_ACCEPT	Aceitar
+EXCHANGE_TITLE	Negociar
+GAMEOPTION_TITLE	Opções de jogo
+GAME_EXIT_OBSERVER	Sair do modo Espectador
+GAME_HELP	Ajuda
+GAME_QUEST	Quests
+GAME_SKILL_UP	Ponto de Skill
+GAME_STAT_UP	Ponto de Status
+GRADE_SELECT	Classe
+GUILD_BASENAME	Nome
+GUILD_BOARD_ID	Personagem
+GUILD_BOARD_REFRESH	Atualizar <F5>
+GUILD_BOARD_TEXT	Mensagem
+GUILD_BUILDING_CATEGORY_TITLE	Classificação
+GUILD_BUILDING_CHANGE	Mover
+GUILD_BUILDING_DIRECTION	Direção
+GUILD_BUILDING_GRADE	Posição
+GUILD_BUILDING_INFO	Informações
+GUILD_BUILDING_LIST_TITLE	Unidades de construção
+GUILD_BUILDING_LOG	Tronco
+GUILD_BUILDING_NAME	Nome
+GUILD_BUILDING_OPERATE	Operar
+GUILD_BUILDING_PLY	Compensado
+GUILD_BUILDING_POSITION	Localização
+GUILD_BUILDING_PREVIEW	Visualizar
+GUILD_BUILDING_PRICE	Preço
+GUILD_BUILDING_REFRESH	Atualizar <F5>
+GUILD_BUILDING_STONE	Pedra
+GUILD_BUILDING_TITLE	Construções da Guilda
+GUILD_CRYSTAL	Cristal
+GUILD_DEPOSIT	Doar
+GUILD_DROP_RESOURCE1	Recursos de Drop
+GUILD_DROP_RESOURCE2	Aqui
+GUILD_GEM	Pedra
+GUILD_GRADE_CHANGE_GRADE_NAME	Alterar título
+GUILD_GRADE_NUM	Posição
+GUILD_GRADE_PERMISSION_DELETE	Expulsar
+GUILD_GRADE_PERMISSION_JOIN	Juntar
+GUILD_GRADE_PERMISSION_NOTICE	Nota
+GUILD_GRADE_PERMISSION_SKILL	Habilidades
+GUILD_GRADE_RANK	Título
+GUILD_GRADE_WRITE	Enviar
+GUILD_INFO	Informações da guilda
+GUILD_INFO_CUR_EXP	Experiência
+GUILD_INFO_DECALRE_WAR	Declarar guerra
+GUILD_INFO_ENEMY_GUILD	Guildas inimigas
+GUILD_INFO_ENEMY_GUILD_EMPTY	Nenhuma
+GUILD_INFO_LEVEL	Nível
+GUILD_INFO_MASTER	Líder
+GUILD_INFO_MASTER_VALUE	Líder
+GUILD_INFO_MEMBER_AVG_LEVEL	Nível médio
+GUILD_INFO_MEMBER_NUM	Membros
+GUILD_INFO_NAME	Nome
+GUILD_INFO_NAME_VALUE	Nome
+GUILD_INFO_OFFER_EXP	Investir
+GUILD_INFO_REST_EXP	Próximo nível
+GUILD_INFO_UPLOAD_MARK	Escolher emblema
+GUILD_INFO_UPLOAD_SYMBOL	Selecionar bandeira
+GUILD_MARK	Emblema da guilda
+GUILD_MEMBER_JOB	Classe
+GUILD_MEMBER_KNIGHT	Líder
+GUILD_MEMBER_LEVEL	Nível
+GUILD_MEMBER_NAME	Personagem
+GUILD_MEMBER_RANK	Título
+GUILD_MEMBER_SPECIFIC_GRAVITY	Exp %
+GUILD_METIN_STONE	Pedra Espiritual
+GUILD_MINENAL	Mineral
+GUILD_MONEY	Gold da Guilda
+GUILD_NAME	Guilda
+GUILD_RESOURCE_INFO	Informações de recursos
+GUILD_SKILL_ACTIVE	Skills Ativas
+GUILD_SKIlL_HEAL_GSP	Restaurar GSP
+GUILD_SKILL_PASSIVE	Skills Passivas
+GUILD_SKILL_POWER	GSP
+GUILD_SKILL_STATE	Skills da guilda
+GUILD_WAR_ACCEPT	Aceitar Guerra entre Guildas
+GUILD_WAR_BATTLE_TYPE	Tipo de Batalha
+GUILD_WAR_CTF	Captura
+GUILD_WAR_DECLARE	Declarar guerra entre guildas
+GUILD_WAR_ENEMY	Guilda inimiga
+GUILD_WAR_NORMAL	Batalha
+GUILD_WAR_WARP	Arena
+GUILD_WATER	Água
+GUILD_WATER_STONE	Pedra d'água
+GUILD_WITHDRAW	Retirar
+HELP_ATTACK_KEY	<Espaço> ou <Botão esquerdo do mouse> são usados para atacar com seu personagem
+HELP_CHANGE_PK_MODE	<Ctrl>+<B> Se desmontado, envia o cavalo ao estábulo
+HELP_CHARACTER_BUTTON1	Janelas de Status, Inventário, 
+HELP_CHARACTER_BUTTON2	Lista de Contatos e Menu
+HELP_CONTROL_CAMERA_BY_MIDDLEBUTTON	A visão da câmera é ajustável através do botão através do botão scroll do mouse,
+HELP_CONTROL_CAMERA_BY_RIGHTBUTTON	<Ctrl>+<Botão direito do mouse> é usado para olhar ao redor do personagem
+HELP_EXP	Experiência
+HELP_FURY	Indicador de Fúria (não implementado)
+HELP_GUILD_WINDOW	<Alt>+<G> abre e fecha a janela de Guilda
+HELP_HELP	<H> abre a janela de ajuda. Também pode ser acessada através do Menu, acessado com a tecla <Esc>
+HELP_HP	HP
+HELP_MESSENGER_WINDOW	<Alt>+<M> acessa a Lista de Contatos
+HELP_MOUSE_LEFT	Função [Botão Esquerdo do Mouse]
+HELP_MOUSE_RIGHT	Função [Botão Direito do Mouse]
+HELP_MOVE_KEY	Use <W>, <S>, <A>, <D> ou as setas para mover seu personagem
+HELP_OPEN_CHARACTER	<C> abre a janela de Status do personagem
+HELP_OPEN_CHAT	<Enter> abre e fecha a janela de conversa
+HELP_OPEN_INVENTORY	<I> acessa a janela de Inventário
+HELP_OPEN_LOG	<L> abre o histórico de chat
+HELP_OPEN_MINIMAP	<Shift>+<M> abre e fecha o Mini-Mapa
+HELP_OPEN_QUEST	<N> é usado para acessar o quadro de Quests
+HELP_OPEN_SKILL	<V> abre sua janela de Skills
+HELP_OPEN_WHISPER	<Shift>+<Enter> abre a janela de Mensagens Particulares
+HELP_OPEN_ZONEMAP	<M> é usado para abrir e fechar o Mapa completo
+HELP_PICK_ITEM	<'> ou <Z> são usados para apanhar os itens no chão
+HELP_QUICKSLOT	Atalhos
+HELP_SCREEN_CAPTURE	<Print Screen> captura uma imagem. A imagem será salva na pasta Metin2/Screenshots
+HELP_SHOW_ALL_NAME	<Alt> exibe o nome de todos os personagens e itens
+HELP_SP	MP
+HELP_SYSTEM_BUTTON	Menu
+INVENTORY_PAGE_BUTTON_TOOLTIP_1	Inventário
+INVENTORY_PAGE_BUTTON_TOOLTIP_2	Inventário II
+INVENTORY_TITLE	Inventário
+LOAD_ERROR	Os dados estão corrompidos. Por favor reinstale o Metin 2. Pressione Esc para sair.
+LOGIN_CONNECT	Conectar
+LOGIN_CONNECTING	Conectando...
+LOGIN_DEFAULT_SERVERADDR	Nome do servidor, canal 1
+LOGIN_EXIT	Fechar
+LOGIN_ID	Nome de usuário
+LOGIN_PASSWORD	Senha
+LOGIN_SELECT_BUTTON	Servidor
+LOGIN_SELECT_EXIT	Voltar
+LOGIN_SELECT_TITLE	Escolha o Servidor
+MALL_PASSWORD_TITLE	Senha
+MALL_TITLE	Retirada do Item Mall
+MARKLIST_REFRESH	Atualizar
+MARKLIST_TITLE	Emblema da guilda
+MESSAGE	Mensagem
+MESSENGER_ADD_FRIEND	Adicionar contato
+MESSENGER_DELETE_FRIEND	Remover contato
+MESSENGER_MOBILE	Enviar SMS
+MESSENGER_OPEN_GUILD	Abrir janela de guilda
+MESSENGER_TITLE	Lista de contatos
+MESSENGER_WHISPER	Mensagem Particular
+MINIMIZE	Minimizar
+MOUSEBUTTON_ATTACK	Atacar
+MOUSEBUTTON_AUTO_ATTACK	Ataque Automático
+MOUSEBUTTON_CAMERA	Câmera
+MOUSEBUTTON_SKILL	Skill
+MUSICLIST_TITLE	Lista de BGM
+NO	Não
+OK	Ok
+OPTION_ALWAYS_SHOW_NAME	Nome
+OPTION_ALWAYS_SHOW_NAME_OFF	Tecla <Alt>
+OPTION_ALWAYS_SHOW_NAME_ON	Sempre
+OPTION_BLOCK	Bloquear
+OPTION_BLOCK_EXCHANGE	Negociação
+OPTION_BLOCK_FRIEND	Contato
+OPTION_BLOCK_GUILD	Guilda
+OPTION_BLOCK_PARTY	Grupo
+OPTION_BLOCK_PARTY_REQUEST	Participar
+OPTION_BLOCK_WHISPER	Mensagens
+OPTION_CAMERA_DISTANCE	Câmera
+OPTION_CAMERA_DISTANCE_LONG	Longe
+OPTION_CAMERA_DISTANCE_SHORT	Perto
+OPTION_DELETE_MOBILE_BUTTON	Remover número de celular
+OPTION_EFFECT	Dano
+OPTION_FOG	Neblina
+OPTION_FOG_DENSE	Alta
+OPTION_FOG_LIGHT	Baixa
+OPTION_FOG_MIDDLE	Média
+OPTION_INPUT_MOBILE_BUTTON	Inserir número de celular
+OPTION_MOBILE	Número de celular
+OPTION_MUSIC	BGM
+OPTION_MUSIC_CHANGE	Alterar
+OPTION_MUSIC_DEFAULT_THEMA	BGM Padrão
+OPTION_NAME_COLOR	Cor nome
+OPTION_NAME_COLOR_EMPIRE	Reino
+OPTION_NAME_COLOR_NORMAL	Normal
+OPTION_PVPMODE	Modo PvP
+OPTION_PVPMODE_FREE	Livre
+OPTION_PVPMODE_FREE_TOOLTIP	Permite atacar todos os jogadores
+OPTION_PVPMODE_GUILD	Guilda
+OPTION_PVPMODE_GUILD_TOOLTIP	Permite atacar todos os jogadores, exceto membros da guilda
+OPTION_PVPMODE_PEACE	Pacífico
+OPTION_PVPMODE_PEACE_TOOLTIP	Não ataca outros jogadores, mas é possível contra-atacar
+OPTION_PVPMODE_REVENGE	Honra
+OPTION_PVPMODE_REVENGE_TOOLTIP	Ataca somente personagens com Classe de Honra oposta
+OPTION_SALESTEXT	Loja
+OPTION_SALESTEXT_VIEW_OFF	Esconder
+OPTION_SALESTEXT_VIEW_ON	Mostrar
+OPTION_SOUND	SFX
+OPTION_TARGET_BOARD	Alvo
+OPTION_TARGET_BOARD_NO_VIEW	Ocultar
+OPTION_TARGET_BOARD_VIEW	Exibir
+OPTION_TILING	Gráficos
+OPTION_TILING_APPLY	Aplicar
+OPTION_TILING_CPU	CPU
+OPTION_TILING_GPU	GPU
+OPTION_VIEW_CHAT	Chat
+OPTION_VIEW_CHAT_OFF	Ocultar
+OPTION_VIEW_CHAT_ON	Exibir
+PARTY_MEMBER_INFO_NAME	Membro
+PASSWORD_DESC_1	Insira sua senha
+PASSWORD_DESC_2	para abrir o Item Mall
+PASSWORD_DESC_3	Já alteraste a tua palavra-passe?
+PASSWORD_DESC_4	Caso não o faças, a tua palavra-passe será "000000".
+PASSWORD_DESC_5	Altera a tua palavra-passe no Armazém.
+PASSWORD_TITLE	Senha do Armazém
+PICK_MONEY_TITLE	Quantia
+PRIVATE_SHOP_CLOSE_BUTTON	Fechar
+PRIVATE_SHOP_NAME	Nome da loja
+PRIVATE_SHOP_TITLE	Loja particular
+REFINE_COST	Custo da Refinação: 0 Gold
+REFINE_INFO	Chance de Refinação bem-sucedida: 100%
+REFINE_TTILE	Refinação
+REPORT_VIOLENT_WHISPER	test
+RESTART_HERE	Retornar aqui
+RESTART_TOWN	Retornar na cidade
+SAFE_CHANGE_PASSWORD	Alterar senha
+SAFE_TITLE	Armazém
+SELECT_ATT_GRADE	FOR
+SELECT_CREATE	Novo Personagem
+SELECT_DELETE	Excluir
+SELECT_DEX_GRADE	DES
+SELECT_EMPIRE_NAME	Reino
+SELECT_EXIT	Voltar
+SELECT_HP	VIT
+SELECT_LEVEL	Nível
+SELECT_METIN_STONE_TITLE	Escolha a gema
+SELECT_NAME	Nome
+SELECT_NO_GUILD	Sem guilda
+SELECT_PLAYTIME	Tempo de jogo
+SELECT_SELECT	Selecionar Personagem
+SELECT_SP	INT
+SHOP_BUY	Comprar
+SHOP_SELL	Vender
+SHOP_TITLE	Loja
+SKILL_SUPPORT_TITLE	Skills Passivas
+STEP_SELECT	Brilho
+STRENGTH_SELECT	Level
+SYSTEMOPTION_TITLE	Opções de sistema
+SYSTEM_CHANGE	Selecionar personagem
+SYSTEM_EXIT	Fechar o jogo
+SYSTEM_HELP	Ajuda
+SYSTEM_LOGOUT	Logout
+SYSTEM_MALL	Loja de itens
+TASKBAR_CHARACTER	Status [<C>/<V>/<B>/<N>]
+TASKBAR_CHAT	Chat [<Enter>]
+TASKBAR_DISABLE	Fechar
+TASKBAR_DRAGON_SOUL	Pedra de Dragão
+TASKBAR_EXPAND	Maximizar
+TASKBAR_INVENTORY	Inventário [<I>]
+TASKBAR_MESSENGER	Lista de contatos [<Alt>+<M>]
+TASKBAR_NEXT_QUICKSLOT	Atalhos seguintes [<Shift>+<Número> ou <Alt>]
+TASKBAR_PREV_QUICKSLOT	Atalhos anteriores [<Shift>+<Número>]
+TASKBAR_SYSTEM	Menu [<Esc>]
+WHISPER_BAN	Bloquear
+WHISPER_NAME	Mensagem Particular com
+WHISPER_REPORT	test
+WHISPER_SEND	Enviar
+YES	Sim
+ZONE_MAP	Mapa Completo
