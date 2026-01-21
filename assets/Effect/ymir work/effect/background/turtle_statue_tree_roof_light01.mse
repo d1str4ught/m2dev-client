@@ -1,0 +1,36 @@
+BoundingSphereRadius   2500.000000
+BoundingSpherePosition 0.000000 0.000000 1800.000000
+
+Group Mesh
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 0.000000 0.000000 0.000000
+    }
+    
+    MeshFileName               	"turtle_statue_tree_roof_light01.mde"
+    MeshAnimationLoopEnable    	1
+    MeshAnimationLoopCount     	0
+    MeshAnimationFrameDelay    	0.020000
+    
+    MeshElementCount           	1
+    Group MeshElement00
+    {
+        BillboardType              	0
+        BlendingEnable             	1
+        BlendingSrcType            	5
+        BlendingDestType           	2
+        
+        TextureAnimationLoopEnable 	1
+        TextureAnimationFrameDelay 	0.020000
+        TextureAnimationStartFrame 	0
+        
+        ColorOperationType         	5
+        ColorFactor                	0.772549 0.733333 0.188235 1.000000
+        List TimeEventAlpha
+        {
+            0.046667 0.577320
+        }
+    }
+}

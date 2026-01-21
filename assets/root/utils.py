@@ -46,10 +46,10 @@ class Sandbox(object):
 			sys.modules[prevented_module_name] = None
 		
 		try:
-			f = open(filename, 'rb')
-			data = f.read()
-			code = compile(data, filename, 'exec')
-			exec code in dic
+			with open(filename, 'rb') as f:
+				data = f.read()
+				code = compile(data, filename, 'exec')
+				exec code in dic
 		except Exception, e:
 			sys.stderr.write(e)
 		finally:

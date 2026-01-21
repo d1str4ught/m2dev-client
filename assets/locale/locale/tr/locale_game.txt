@@ -736,3 +736,6 @@ UI_POS_UNKNOWN	Bilinmeyen Yer
 UI_PREVPAGE	Geri
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Upload yeniden başlatılmalı.
 USE_ITEM_FAILURE_PRIVATE_SHOP	Özel bir dükkân açtığın sürece, nesneleri kullanamazsın.
+ITEM_GET	Alındı: %s	SA
+ITEM_GET_FROM_PARTY	Alındı: %s şundan: %s	SAA
+ITEM_DELIVER_TO_PARTY	Teslim edildi: %s şuna: %s	SAA

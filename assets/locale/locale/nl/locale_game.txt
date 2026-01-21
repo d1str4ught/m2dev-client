@@ -736,3 +736,6 @@ UI_POS_UNKNOWN	Onbekende Plek
 UI_PREVPAGE	terug
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	De upload moet opnieuw gestart worden.	
 USE_ITEM_FAILURE_PRIVATE_SHOP	Je kunt voorwerpen niet gebruiken terwijl je privé warenhuis open is.
+ITEM_GET	Ontvangen: %s	SA
+ITEM_GET_FROM_PARTY	Ontvangen: %s van %s	SAA
+ITEM_DELIVER_TO_PARTY	Afgeleverd: %s aan %s	SAA

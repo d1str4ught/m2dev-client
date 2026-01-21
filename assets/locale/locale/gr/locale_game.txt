@@ -736,3 +736,6 @@ UI_POS_UNKNOWN	Άγνωστο μέρος
 UI_PREVPAGE	πίσω
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Πρέπει να γίνει σύνδεση εκ νέου.
 USE_ITEM_FAILURE_PRIVATE_SHOP	Δεν μπορείς να χρησιμοποιήσεις αντικείμενα όσο έχεις ανοιχτό το ιδιωτικό κατάστημα.
+ITEM_GET	Ελήφθη: %s	SA
+ITEM_GET_FROM_PARTY	Ελήφθη: %s από %s	SAA
+ITEM_DELIVER_TO_PARTY	Παραδόθηκε: %s σε %s	SAA

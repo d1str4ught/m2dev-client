@@ -6297,6 +6297,8 @@
 53023	ETC	icon/item/53023.tga
 53522	ETC	icon/item/53501.tga
 53523	ETC	icon/item/53501.tga
+54702	ETC	icon/item/54702.tga
+54703	ETC	icon/item/54703.tga
 52708	ETC	icon/item/52701.tga
 41328	ARMOR	icon/item/41328.tga
 41329	ARMOR	icon/item/41329.tga

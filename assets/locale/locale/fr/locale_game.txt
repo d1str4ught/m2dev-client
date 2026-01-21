@@ -723,3 +723,6 @@ UI_POS_UNKNOWN	Endroit inconnu
 UI_PREVPAGE	Retour
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Le téléchargement doit être recommencer.
 USE_ITEM_FAILURE_PRIVATE_SHOP	Vous ne pouvez pas utiliser d'objet tant que votre magasin privé est ouvert.
+ITEM_GET	Reçu: %s	SA
+ITEM_GET_FROM_PARTY	Reçu: %s de %s	SAA
+ITEM_DELIVER_TO_PARTY	Livré: %s à %s	SAA

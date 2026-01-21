@@ -27,7 +27,8 @@ class CursorImage(object):
 		self.LoadImage(imageName)
 
 	def __del__(self):
-		grpImage.Delete(self.handle)
+		if grpImage and self.handle:
+			grpImage.Delete(self.handle)
 
 	def LoadImage(self, imageName):
 		try:

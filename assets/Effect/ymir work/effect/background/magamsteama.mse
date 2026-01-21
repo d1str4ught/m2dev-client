@@ -128,7 +128,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "gatein.dds"
+            "D:\Ymir Work\pc\shaman\effect\gatein.dds"
         }
     }
 }

@@ -723,3 +723,6 @@ UI_POS_UNKNOWN	Ismeretlen hely
 UI_PREVPAGE	Vissza
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	A feltöltést még egyszer el kell indítani
 USE_ITEM_FAILURE_PRIVATE_SHOP	Nem használhatsz tárgyakat, amíg nyitva van a privát boltod.
+ITEM_GET	Kapott: %s	SA
+ITEM_GET_FROM_PARTY	Kapott: %s tőle: %s	SAA
+ITEM_DELIVER_TO_PARTY	Átadva: %s neki: %s	SAA

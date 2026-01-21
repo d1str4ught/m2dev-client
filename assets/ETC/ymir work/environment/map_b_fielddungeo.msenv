@@ -28,10 +28,8 @@ Group Material
 
 Group Fog
 {
-    Enable        1
-    NearDistance  5000.000000
-    FarDistance   20000.000000
-    Color         0.152941 0.145098 0.133333 1.000000
+    foglevel		9
+    Color			0.152941 0.145098 0.133333 1.000000
 }
 
 Group Filter
@@ -44,9 +42,16 @@ Group Filter
 
 Group SkyBox
 {
+    bTextureRenderMode    0
     Scale                 3500.000000 3500.000000 3500.000000
     GradientLevelUpper    4
     GradientLevelLower    1
+    FrontFaceFileName	   ""
+    BackFaceFileName	   ""
+    LeftFaceFileName	   ""
+    RightFaceFileName	   ""
+    TopFaceFileName	   ""
+    BottomFaceFileName	   ""
     
     CloudScale            200000.000000 200000.000000
     CloudHeight           30000.000000

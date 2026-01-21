@@ -1849,6 +1849,8 @@
 53522	Sheldon's Nest	Your pet Sheldon has hidden himself in this nest.
 53523	Rabbit Cage	The little rabbit Cooper is hiding in this cage.
 53526		
+54702	Razador's Chest	This chest was recovered from the Red Dragon Fortress. It contains a truly magnificent treasure. This item is tradeable.
+54703	Nemere's Chest	This chest was recovered from Nemere's Watchtower. It contains a truly magnificent treasure. This item is tradeable.
 60001	Gall	A dogged body fluid which is won from the liver.
 60002	Note from Storage Guard	The parchment bears the energetic handwriting of the storage guard.
 60003	Heroic Symbol	An item which is not passed on with levity.

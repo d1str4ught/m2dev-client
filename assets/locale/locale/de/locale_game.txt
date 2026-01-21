@@ -721,3 +721,6 @@ UI_POS_UNKNOWN	Unbekannter Ort
 UI_PREVPAGE	Zurück
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Der Upload muss neu gestartet werden.
 USE_ITEM_FAILURE_PRIVATE_SHOP	Du kannst keine Gegenstände verwenden, solange du einen privaten Laden geöffnet hast.
+ITEM_GET	Erhalten: %s	SA
+ITEM_GET_FROM_PARTY	Erhalten: %s von %s	SAA
+ITEM_DELIVER_TO_PARTY	Geliefert: %s an %s	SAA

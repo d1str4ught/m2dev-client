@@ -1849,6 +1849,8 @@
 53522	Sheldons Nest	In diesem Nest hat sich dein Pet Sheldon versteckt.
 53523	Hasenkäfig	In diesem Käfig versteckt sich der kleine Hase Cooper.
 53526	Pepita-Dose	Öffne diese Dose, um das Siegel der Pepita zu erhalten.
+54702	Truhe des Razador	Diese Truhe wurde aus der Rotdrachenfestung geborgen. Sie birgt einen wahrhaft königlichen Schatz. Dieses Item ist handelbar.
+54703	Truhe des Nemere	Diese Truhe wurde aus Nemeres Warte geborgen. Sie birgt einen wahrhaft königlichen Schatz. Dieses Item ist handelbar.
 60001	Galle	Eine zähe Körperflüssigkeit, die aus der Leber gewonnen wird.
 60002	Brief des Lagerwächters	Das Pergament trägt die energische Schrift des Lagerwächters.
 60003	Heldensymbol	Ein Gegenstand, der nicht leichtfertig weitergereicht wird.

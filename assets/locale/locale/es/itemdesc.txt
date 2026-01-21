@@ -2011,6 +2011,8 @@
 54041		
 54042		
 54043	Baúl de aprendiz I	Tu regalo de bienvenida contiene todo el equipamiento que necesitas para iniciar tu aventura con buen pie.
+54702	Baúl de Arrador	Este baúl se extrajo de la Fortaleza del Dragón Rojo. Alberga un tesoro auténticamente real. Este objeto es comerciable.
+54703	Baúl de Nemere	Este baúl se extrajo de la Torre de vigilancia de Nemere. Alberga un tesoro auténticamente real. Este objeto es comerciable.
 60001	Rozadura	Un fluido corporal que se saca del hígado.
 60002	Recom. protector almac.	El pergamino tiene el enérgico escrito del guardián del almacén.
 60003	Símbolo Heróico	Un objeto que no se pasa por alto con ligereza

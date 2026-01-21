@@ -2011,6 +2011,8 @@
 54041		
 54042		
 54043	Leerling Kist 1	Jouw welkomstcadeau bevat een basis uitrustingset voor de optimale start van je avontuur.
+54702	Razador's Kist	Deze kist is meegebracht uit het Rode Draken Fort. Hij bevat een werkelijk overweldigende schat. Dit item is verhandelbaar.
+54703	Nemere's Kist	Deze kist is meegebracht uit Nemere's Uitkijktoren. Hij bevat een werkelijk overweldigende schat. Dit item is verhandelbaar.
 60001	Gal	Een slijmerige lichaamssap dat gewonnen wordt uit de lever.
 60002	Brief van Opslagwachter	Het geschrift draagt het energieke handschrift van de opslagwachter.
 60003	Helden Symbool	Een voorwerp dat niet lichtzinnig wordt weggegeven.

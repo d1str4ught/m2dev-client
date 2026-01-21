@@ -736,3 +736,6 @@ UI_POS_UNKNOWN	Ukendt position
 UI_PREVPAGE	tilbage
 UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Upload skal genstartes
 USE_ITEM_FAILURE_PRIVATE_SHOP	Du kan ikke bruge den genstand mens du har åbnet for en privat butik.
+ITEM_GET	Modtaget: %s	SA
+ITEM_GET_FROM_PARTY	Modtaget: %s fra %s	SAA
+ITEM_DELIVER_TO_PARTY	Leveret: %s til %s	SAA
