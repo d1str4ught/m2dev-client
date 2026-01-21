@@ -1686,6 +1686,8 @@
 53519	Khan arctique	Dans le coffre, vous trouverez le sceau pour Khan arctique.
 53520	Porky polaire	Dans le coffre, vous trouverez le sceau pour Porky polaire.
 53521	Rufus des glaces	Dans le coffre, vous trouverez le sceau pour Rufus des glaces.
+54702	Coffre de Razador	Ce coffre était dissimulé dans la Forteresse du dragon rouge. Il contient un trésor véritablement royal. Cet objet est échangeable.
+54703	Coffre de Nemere	Ce coffre était dissimulé dans l'Observatoire de Nemere. Il contient un trésor véritablement royal. Cet objet est échangeable.
 60001	Bile	Un liquide corporel venant du foie.
 60002	Note pour le gardien	Le parchemin est écrit de la main énergique du gardien de l'entrepôt.
 60003	Symbole de Héros	Un item qui n'est pas transmis avec désinvolture.

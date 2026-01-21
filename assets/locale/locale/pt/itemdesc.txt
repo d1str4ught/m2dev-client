@@ -2011,6 +2011,8 @@
 54041		
 54042		
 54043	Cofre de Aprendiz I	O teu cartão de boas-vindas contém um conjunto de equipamento base para um óptimo começo da tua aventura.
+54702	Cofre do Razador.	Este cofre foi recuperado do Forte do Dragão Vermelho. Contém um tesouro verdadeiramente magnífico. Este item é negociável.
+54703	Cofre de Nemere.	Este cofre foi recuperado da Torre de Vigia de Nemere. Contém um tesouro verdadeiramente magnífico. Este item é negociável.
 60001	Fel	Um fluido corporal retirado do fígado.
 60002	Nota do Guarda	O pergaminho contém a letra energética do Guarda do Armazém.
 60003	Símbolo Heróico	Um Item que não é transferido com leviandade.

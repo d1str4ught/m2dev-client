@@ -1,0 +1,77 @@
+ScriptType         EnvrionmentData
+ScriptVersion      1.0000
+
+Group DirectionalLight
+{
+    Direction     0.350156 0.562609 -0.748907
+
+    Group Background
+    {
+        Enable        1
+        Diffuse       0.972549 0.984314 1.000000 1.000000
+        Ambient       0.219608 0.192157 0.192157 1.000000
+    }
+    
+    Group Character
+    {
+        Enable        1
+        Diffuse       0.972549 0.984314 1.000000 1.000000
+        Ambient       0.369608 0.342157 0.342157 1.000000
+    }
+}
+Group Material
+{
+    Diffuse       1.000000 1.000000 1.000000 1.000000
+    Ambient       0.784314 0.839216 0.882353 1.000000
+    Emissive      0.321569 0.321569 0.411765 1.000000
+}
+
+Group Fog
+{
+    foglevel		6
+    Color			0.701961 0.807843 0.858824 1.000000
+}
+
+Group Filter
+{
+    Enable        0
+    Color         0.556863 0.329412 0.329412 0.000000
+    AlphaSrc      1
+    AlphaDest     2
+}
+
+Group SkyBox
+{
+    bTextureRenderMode    1
+    Scale                 3500.000000 3500.000000 3500.000000
+    GradientLevelUpper    3
+    GradientLevelLower    1
+    FrontFaceFileName	   "D:\ymir work\environment\skybox\dawnmistwood-f.dds"
+    BackFaceFileName	   "D:\ymir work\environment\skybox\dawnmistwood-b.dds"
+    LeftFaceFileName	   "D:\ymir work\environment\skybox\dawnmistwood-l.dds"
+    RightFaceFileName	   "D:\ymir work\environment\skybox\dawnmistwood-r.dds"
+    TopFaceFileName	   "D:\ymir work\environment\skybox\dawnmistwood-t.dds"
+    BottomFaceFileName	   ""
+    
+    CloudScale            200000.000000 200000.000000
+    CloudHeight           30000.000000
+    CloudTextureScale     4.000000 4.000000
+    CloudSpeed            0.004000 0.004000
+    CloudTextureFileName  ""
+    List CloudColor
+    {
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+    }
+}
+
+Group LensFlare
+{
+    Enable                     0
+    BrightnessColor            1.000000 0.886275 0.886275 1.000000
+    MaxBrightness              0.740000
+    MainFlareEnable            1
+    MainFlareTextureFileName   "D:\Ymir Work\environment\sunflare.dds"
+    MainFlareSize              0.350000
+}
+

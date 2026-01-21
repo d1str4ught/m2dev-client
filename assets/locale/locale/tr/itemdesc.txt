@@ -2011,6 +2011,8 @@
 54041		
 54042		
 54043	Çırak Sandığı I	Karşılama hediyen, maceraya ideal bir başlangıç yapmak için gereken temel donanımı içeriyor.
+54702	Razadör'ün sandığı	Bu sandık Kırmızı Ejderha Kalesi'nden çıkarıldı. Gerçek bir kraliyet hazinesi içerir. Bu eşyanın ticareti yapılabilir.
+54703	Nemere sandığı	Bu sandık Nemere Gözlemevi'nden çıkarıldı. Gerçek bir kraliyet hazinesi içerir. Bu eşyanın ticareti yapılabilir.
 60001	Safra	Karaciğerden elde edilen bir vücut sıvısı.
 60002	Depo Bekçisinin Notu	Depo bekçisinin enerjik el yazısıyla yazılmış parşömen.
 60003	Kahramanlık Sembolu	Ciddiyetsiz şekilde taşınamayacak bir eşya.

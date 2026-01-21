@@ -2011,6 +2011,8 @@
 54041		
 54042		
 54043	Skrzynia Ucznia I	Twój prezent powitalny zawiera podstawowe wyposażenie na rozpoczęcia przygód.
+54702	Skrzynia Razadora	Ta skrzynia została wydobyta z Twierdzy Czerwonego Smoka. Znajduje się w niej prawdziwy królewski skarb. Przedmiot ten jest zdatny do handlu.
+54703	Skrzynia Nemere	Ta skrzynia została wydobyta z Strażnicy Nemere. Znajduje się w niej prawdziwy królewski skarb. Przedmiot ten jest zdatny do handlu.
 60001	Żółć	Substancja wspomagająca soki trawienne.
 60002	Rekomend. Od Dozorcy	Nieczytelna notatka napisana przez Dozorcę na starym pergaminie.
 60003	Heroiczny Symbol	Przedmiot, który uznawany jest za symbol prawdziwej odwagi.

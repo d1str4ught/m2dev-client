@@ -28,9 +28,7 @@ Group Material
 
 Group Fog
 {
-    Enable        1
-    NearDistance  1.000000
-    FarDistance   50000.000000
+    foglevel		2
     Color         0.901961 0.803922 0.674510 1.000000
 }
 
@@ -44,12 +42,19 @@ Group Filter
 
 Group SkyBox
 {
+    bTextureRenderMode    0
     Scale                 3500.000000 3500.000000 3500.000000
     GradientLevelUpper    5
     GradientLevelLower    1
+    FrontFaceFileName	   ""
+    BackFaceFileName	   ""
+    LeftFaceFileName	   ""
+    RightFaceFileName	   ""
+    TopFaceFileName	   ""
+    BottomFaceFileName	   ""
     
     CloudScale            200000.000000 200000.000000
-    CloudHeight           30000.000000
+    CloudHeight           4000.000000
     CloudTextureScale     5.000000 5.000000
     CloudSpeed            0.010000 0.010000
     CloudTextureFileName  "d:/ymir work/environment/clouds_zone01.tga"

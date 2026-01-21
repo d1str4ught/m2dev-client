@@ -1,0 +1,85 @@
+ScriptType         EnvrionmentData
+ScriptVersion      1.0000
+
+Group DirectionalLight
+{
+    Direction     0.374280 -0.761740 -0.528836
+
+    Group Background
+    {
+        Enable        1
+        Diffuse       0.698039 0.490196 0.380392 1.000000
+        Ambient       0.341176 0.388235 0.572549 1.000000
+    }
+    
+    Group Character
+    {
+        Enable        1
+        Diffuse       0.698039 0.490196 0.380392 1.000000
+        Ambient       0.491176 0.538235 0.722549 1.000000
+    }
+}
+Group Material
+{
+    Diffuse       0.956863 0.870588 0.847059 1.000000
+    Ambient       0.341176 0.474510 0.298039 1.000000
+    Emissive      0.341176 0.176471 0.066667 1.000000
+}
+
+Group Fog
+{
+    foglevel		5
+    Color         0.501961 0.282353 0.137255 1.000000
+}
+
+Group Filter
+{
+    Enable        0
+    Color         0.556863 0.329412 0.329412 0.000000
+    AlphaSrc      1
+    AlphaDest     2
+}
+
+Group SkyBox
+{
+    bTextureRenderMode    0
+    Scale                 3500.000000 3500.000000 3500.000000
+    GradientLevelUpper    1
+    GradientLevelLower    1
+    FrontFaceFileName	   ""
+    BackFaceFileName	   ""
+    LeftFaceFileName	   ""
+    RightFaceFileName	   ""
+    TopFaceFileName	   ""
+    BottomFaceFileName	   ""
+    
+    CloudScale            200000.000000 200000.000000
+    CloudHeight           30000.000000
+    CloudTextureScale     4.000000 4.000000
+    CloudSpeed            0.004000 0.004000
+    CloudTextureFileName  ""
+    List CloudColor
+    {
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+    }
+    List Gradient
+    {
+        0.501961 0.282353 0.137255 0.000000
+        0.501961 0.282353 0.137255 0.000000
+        
+        0.505882 0.282353 0.137255 0.000000
+        0.505882 0.282353 0.137255 0.000000
+    }
+}
+
+Group LensFlare
+{
+    Enable                     0
+    BrightnessColor            1.000000 0.886275 0.886275 1.000000
+    MaxBrightness              0.740000
+    MainFlareEnable            1
+    MainFlareTextureFileName   "D:\Ymir Work\environment\sunflare.dds"
+    MainFlareSize              0.350000
+}
+

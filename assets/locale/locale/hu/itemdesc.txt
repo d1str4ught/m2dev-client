@@ -1849,6 +1849,8 @@
 53522	Sheldon fészke	Kisállatod, Sheldon ebben a fészekben rejtőzött el.
 53523	Nyúlketrec	Ebben a ketrecben rejtőzik Cooper, a kisnyúl.
 53526		
+54702	Razador ládája	Ez a láda a Vörös sárkány-erődből származik. Egy valóban csodálatos kincset tartalmaz. Ez a tárgy átadható.
+54703	Nemere ládája	Ez a láda Nemere őrtornyából származik. Egy valóban csodálatos kincset tartalmaz. Ez a tárgy átadható.
 60001	Epe	Egy makacs testi folyadék ami az epéből van nyerve.
 60002	Raktár őrök levele	A raktárt őrzők ajánlása
 60003	Hősi szimbólum	Egy tárgy, amit nem adnak könnyelműen.

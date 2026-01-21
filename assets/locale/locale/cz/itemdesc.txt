@@ -2011,6 +2011,8 @@
 54041		
 54042		
 54043	Truhla učedníka I	Tvůj uvítací dárek obsahuje sadu základní výbavy pro optimální start dobrodružství.
+54702	Razadorova truhla	Tato truhla byla nalezena v Pevnosti èerveného draka. Obsahuje skuteènì drahocenný poklad. S pøedmìtem lze obchodovat.
+54703	Nemerova truhla	Tato truhla byla nalezena v Nemerovì strážní vìži. Obsahuje skuteènì drahocenný poklad. S pøedmìtem lze obchodovat.
 60001	Žluč	Tuhá tělesná tekutina, která se získává z jater.
 60002	Dopis od strážce tábora	Doporučení strážce tábora
 60003	Symbol hrdiny	Předmět, který se nejen tak dává dále.

@@ -515,7 +515,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "spread copy.dds"
+            "D:\Ymir Work\pc\shaman\effect\spread copy.dds"
         }
     }
 }

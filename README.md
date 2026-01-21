@@ -4,8 +4,7 @@ This repository contains all client-side data, including locale files, configura
 
 ## 📋 Changelog
 
-### 🐛 Bug fixes
-* **UI:** Recovered the quest scroll icon flashing
-
 ### ⬆️ Feature Improvements
-* **Items & Mobs:** Started implementing Nemere's Watchtower dungeon. Added some missing items and made a few corrections (en & gr locales only)
+* **Snow mountain and Snow Dungeon updated:** Updated Snow mountain and Snow Dungeon terrain, environment and textures
+* **Protos updated:** Updated protos for all locales with the new items and mobs/NPCs for the Snow Dungeon (some translations may be incomplete)
+* **Item icons and descriptions updated:** Updated item icons and descriptions for new items for all locales (some translations may be incomplete)

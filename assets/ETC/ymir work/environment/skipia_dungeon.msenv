@@ -28,9 +28,7 @@ Group Material
 
 Group Fog
 {
-    Enable        0
-    NearDistance  1.000000
-    FarDistance   20000.000000
+    foglevel		4
     Color         0.000000 0.000000 0.000000 1.000000
 }
 

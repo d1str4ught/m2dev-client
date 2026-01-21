@@ -137,7 +137,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "detail_lens.dds"
+            "D:\Ymir Work\pc\warrior\effect\detail_lens.dds"
         }
     }
 }
@@ -275,7 +275,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "gatein.dds"
+            "D:\Ymir Work\pc\shaman\effect\gatein.dds"
         }
     }
 }
@@ -407,7 +407,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "gatein.dds"
+            "D:\Ymir Work\pc\shaman\effect\gatein.dds"
         }
     }
 }
@@ -531,7 +531,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "upline.dds"
+            "D:\Ymir Work\pc\warrior\effect\upline.dds"
         }
     }
 }
@@ -662,7 +662,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "detail_lens.dds"
+            "D:\Ymir Work\pc\warrior\effect\detail_lens.dds"
         }
     }
 }
@@ -848,7 +848,7 @@ Group Particle
         }
         List TextureFiles
         {
-            "detail_lens.dds"
+            "D:\Ymir Work\pc\warrior\effect\detail_lens.dds"
         }
     }
 }
