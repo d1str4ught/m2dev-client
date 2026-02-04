@@ -71,13 +71,7 @@ class MessengerItem(ui.Window):
 	def IsOnline(self):
 		return False
 
-	def IsMobile(self):
-		return False
-
 	def OnWhisper(self):
-		pass
-
-	def OnMobileMessage(self):
 		pass
 
 	# Remove
@@ -123,17 +117,14 @@ class MessengerMemberItem(MessengerItem):
 
 	STATE_OFFLINE = 0
 	STATE_ONLINE = 1
-	STATE_MOBILE = 2
 
 	IMAGE_FILE_NAME = {	"ONLINE" : "d:/ymir work/ui/game/windows/messenger_list_online.sub",
-						"OFFLINE" : "d:/ymir work/ui/game/windows/messenger_list_offline.sub",
-						"MOBILE" : "d:/ymir work/ui/game/windows/messenger_list_mobile.sub", }
+						"OFFLINE" : "d:/ymir work/ui/game/windows/messenger_list_offline.sub", }
 
 	def __init__(self, getParentEvent):
 		MessengerItem.__init__(self, getParentEvent)
 		self.key = None
 		self.state = self.STATE_OFFLINE
-		self.mobileFlag = False
 		self.Offline()
 
 	def GetStepWidth(self):
@@ -151,30 +142,13 @@ class MessengerMemberItem(MessengerItem):
 
 		return False
 
-	def IsMobile(self):
-		if self.STATE_MOBILE == self.state:
-			return True
-
-		return False
-
 	def Online(self):
 		self.image.LoadImage(self.IMAGE_FILE_NAME["ONLINE"])
 		self.state = self.STATE_ONLINE
 
 	def Offline(self):
-		if self.mobileFlag:
-			self.image.LoadImage(self.IMAGE_FILE_NAME["MOBILE"])
-			self.state = self.STATE_MOBILE
-
-		else:
-			self.image.LoadImage(self.IMAGE_FILE_NAME["OFFLINE"])
-			self.state = self.STATE_OFFLINE
-
-	def SetMobile(self, flag):
-		self.mobileFlag = flag
-
-		if not self.IsOnline():
-			self.Offline()
+		self.image.LoadImage(self.IMAGE_FILE_NAME["OFFLINE"])
+		self.state = self.STATE_OFFLINE
 
 	def CanWhisper(self):
 		if self.IsOnline():
@@ -185,15 +159,6 @@ class MessengerMemberItem(MessengerItem):
 	def OnWhisper(self):
 		if self.IsOnline():
 			self.getParentEvent().whisperButtonEvent(self.GetName())
-
-	def OnMobileMessage(self):
-		if not uiGameOption.MOBILE:
-			return
-
-		if not self.IsMobile():
-			return
-
-		self.getParentEvent().SendMobileMessage(self.GetName())
 
 	def Select(self):
 		MessengerItem.Select(self)
@@ -370,8 +335,6 @@ class MessengerWindow(ui.ScriptWindow):
 
 		self.showingPageSize = 0
 		self.startLine = 0
-		self.hasMobilePhoneNumber = True
-
 		self.isLoaded = 0
 
 		self.__AddGroup()
@@ -404,7 +367,6 @@ class MessengerWindow(ui.ScriptWindow):
 			self.board = self.GetChild("board")
 			self.scrollBar = self.GetChild("ScrollBar")
 			self.whisperButton = self.GetChild("WhisperButton")
-			self.mobileButton = self.GetChild("MobileButton")
 			self.removeButton = self.GetChild("RemoveButton")
 			self.addFriendButton = self.GetChild("AddFriendButton")
 			self.guildButton = self.GetChild("GuildButton")
@@ -415,22 +377,16 @@ class MessengerWindow(ui.ScriptWindow):
 		self.board.SetCloseEvent(ui.__mem_func__(self.Close))
 		self.scrollBar.SetScrollEvent(ui.__mem_func__(self.OnScroll))
 		self.whisperButton.SetEvent(ui.__mem_func__(self.OnPressWhisperButton))
-		self.mobileButton.SetEvent(ui.__mem_func__(self.OnPressMobileButton))
 		self.removeButton.SetEvent(ui.__mem_func__(self.OnPressRemoveButton))
 		self.addFriendButton.SetEvent(ui.__mem_func__(self.OnPressAddFriendButton))
 		self.guildButton.SetEvent(ui.__mem_func__(self.OnPressGuildButton))
 
-		if not uiGameOption.MOBILE: #constInfo.SEND_MOBILE_PHONE_MESSAGE_ENABLE:
-			self.mobileButton.Hide()
-			width = self.GetWidth()
-			height = self.GetHeight()
-			self.addFriendButton.SetPosition(-60, 30)
-			self.whisperButton.SetPosition(-20, 30)
-			self.removeButton.SetPosition(20, 30)
-			self.guildButton.SetPosition(60, 30)
+		self.addFriendButton.SetPosition(-60, 30)
+		self.whisperButton.SetPosition(-20, 30)
+		self.removeButton.SetPosition(20, 30)
+		self.guildButton.SetPosition(60, 30)
 
 		self.whisperButton.Disable()
-		self.mobileButton.Disable()
 		self.removeButton.Disable()
 
 		resizeButton = self.ResizeButton()
@@ -462,7 +418,6 @@ class MessengerWindow(ui.ScriptWindow):
 		self.familyGroup = None
 
 		self.whisperButton = None
-		self.mobileButton = None
 		self.removeButton = None
 
 	def OnCloseQuestionDialog(self):
@@ -551,79 +506,6 @@ class MessengerWindow(ui.ScriptWindow):
 	def SetGuildButtonEvent(self, event):
 		self.guildButtonEvent=event
 
-	def SendMobileMessage(self, name):
-		if not uiGameOption.MOBILE:
-			return
-
-		if not self.hasMobilePhoneNumber:
-			questionDialog = uiCommon.QuestionDialog2()
-			questionDialog.SetText1(localeInfo.MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1)
-			questionDialog.SetText2(localeInfo.MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2)
-			questionDialog.SetAcceptEvent(ui.__mem_func__(self.OnAcceptInputMobilePhoneNumber))
-			questionDialog.SetCancelEvent(ui.__mem_func__(self.OnCancelInputMobilePhoneNumber))
-			questionDialog.SetWidth(400)
-			questionDialog.Open()
-			self.questionDialog = questionDialog
-			return
-
-		## Input Sending Mobile Message
-		inputDialog = uiCommon.InputDialog()
-		inputDialog.SetTitle(localeInfo.MESSENGER_SEND_MOBILE_MESSAGE_TITLE)
-		inputDialog.SetMaxLength(50)
-		inputDialog.SetAcceptEvent(ui.__mem_func__(self.OnInputMobileMessage))
-		inputDialog.SetCancelEvent(ui.__mem_func__(self.OnCloseInputDialog))
-		inputDialog.name = name
-		inputDialog.Open()
-		self.inputDialog = inputDialog
-
-	def OnAcceptInputMobilePhoneNumber(self):
-		if not uiGameOption.MOBILE:
-			return
-
-		## Input Mobile Phone Number
-		inputDialog = uiCommon.InputDialog()
-		inputDialog.SetTitle(localeInfo.MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE)
-		inputDialog.SetMaxLength(13)
-		inputDialog.SetAcceptEvent(ui.__mem_func__(self.OnInputMobilePhoneNumber))
-		inputDialog.SetCancelEvent(ui.__mem_func__(self.OnCloseInputDialog))
-		inputDialog.Open()
-		self.inputDialog = inputDialog
-		self.OnCancelInputMobilePhoneNumber()
-
-	def OnCancelInputMobilePhoneNumber(self):
-		if not uiGameOption.MOBILE:
-			return
-		self.questionDialog.Close()
-		self.questionDialog = None
-		return True
-
-	def OnInputMobilePhoneNumber(self):
-		if not uiGameOption.MOBILE:
-			return
-
-		text = self.inputDialog.GetText()
-
-		if not text:
-			return
-
-		text.replace('-', '')
-		net.SendChatPacket("/mobile " + text)
-		self.OnCloseInputDialog()
-		return True
-
-	def OnInputMobileMessage(self):
-		if not uiGameOption.MOBILE:
-			return
-
-		text = self.inputDialog.GetText()
-
-		if not text:
-			return
-
-		net.SendMobileMessagePacket(self.inputDialog.name, text)
-		self.OnCloseInputDialog()
-		return True
-
 	def OnCloseInputDialog(self):
 		self.inputDialog.Close()
 		self.inputDialog = None
@@ -657,10 +539,6 @@ class MessengerWindow(ui.ScriptWindow):
 		if self.selectedItem:
 			self.selectedItem.OnWhisper()
 
-	def OnPressMobileButton(self):
-		if self.selectedItem:
-			self.selectedItem.OnMobileMessage()
-
 	def OnPressRemoveButton(self):
 		if self.selectedItem:
 			if self.selectedItem.CanRemove():
@@ -679,9 +557,7 @@ class MessengerWindow(ui.ScriptWindow):
 				self.selectedItem = None
 
 				self.whisperButton.Disable()
-				self.mobileButton.Disable()
 				self.removeButton.Disable()
-
 				self.OnRefreshList()
 
 		self.OnCloseQuestionDialog()
@@ -715,11 +591,6 @@ class MessengerWindow(ui.ScriptWindow):
 			else:
 				self.whisperButton.Disable()
 
-			if self.selectedItem.IsMobile():
-				self.mobileButton.Enable()
-			else:
-				self.mobileButton.Disable()
-
 			if self.selectedItem.CanRemove():
 				self.removeButton.Enable()
 			else:
@@ -732,9 +603,6 @@ class MessengerWindow(ui.ScriptWindow):
 
 		if self.selectedItem.IsOnline():
 			self.OnPressWhisperButton()
-
-		elif self.selectedItem.IsMobile():
-			self.OnPressMobileButton()
 
 	def GetSelf(self):
 		return self
@@ -795,7 +663,6 @@ class MessengerWindow(ui.ScriptWindow):
 
 			# Optional: also disable buttons to mirror local delete flow
 			self.whisperButton.Disable()
-			self.mobileButton.Disable()
 			self.removeButton.Disable()
 
 		member.Hide()
@@ -824,14 +691,6 @@ class MessengerWindow(ui.ScriptWindow):
 			name = key
 		member.SetName(name)
 		member.Offline()
-		self.OnRefreshList()
-
-	def OnMobile(self, groupIndex, key, mobileFlag):
-		group = self.groupList[groupIndex]
-		member = group.FindMember(key)
-		if not member:
-			return
-		member.SetMobile(mobileFlag)
 		self.OnRefreshList()
 
 	def OnAddLover(self, name, lovePoint):

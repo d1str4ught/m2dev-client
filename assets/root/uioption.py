@@ -9,8 +9,6 @@ import constInfo
 import chrmgr
 import player
 
-MOBILE = False
-
 blockMode = 0
 
 class OptionDialog(ui.ScriptWindow):
@@ -42,16 +40,10 @@ class OptionDialog(ui.ScriptWindow):
 		print " -------------------------------------- DESTROY OPTION DIALOG"
 		
 	def __LoadDialog(self):
-		global NO_MOBILE
-
 		try:
 			pyScriptLoader = ui.PythonScriptLoader()
+			pyScriptLoader.LoadScriptFile(self, "uiscript/optiondialog.py")
 
-			if MOBILE:
-				pyScriptLoader.LoadScriptFile(self, "uiscript/optiondialog_formobile.py")
-			else:
-				pyScriptLoader.LoadScriptFile(self, "uiscript/optiondialog.py")
-				
 		except:
 			import exception
 			exception.Abort("OptionDialog.__LoadDialog.LoadObject")
@@ -79,10 +71,6 @@ class OptionDialog(ui.ScriptWindow):
 			self.blockButtonList.append(GetObject("block_guild_button"))
 			self.blockButtonList.append(GetObject("block_whisper_button"))
 			self.blockButtonList.append(GetObject("block_friend_button"))
-
-			if MOBILE:
-				self.inputMobileButton = GetObject("input_mobile_button")
-				self.deleteMobileButton = GetObject("delete_mobile_button")
 				
 		except:
 			import exception
@@ -130,10 +118,6 @@ class OptionDialog(ui.ScriptWindow):
 		self.__ClickRadioButton(self.nameColorModeButtonList, constInfo.GET_CHRNAME_COLOR_INDEX())
 		self.__ClickRadioButton(self.viewTargetBoardButtonList, constInfo.GET_VIEW_OTHER_EMPIRE_PLAYER_TARGET_BOARD())
 		self.__SetPeacePKMode()
-
-		if MOBILE:
-			self.inputMobileButton.SetEvent(ui.__mem_func__(self.__OnChangeMobilePhoneNumber))
-			self.deleteMobileButton.SetEvent(ui.__mem_func__(self.__OnDeleteMobilePhoneNumber))
 
 	def __ClickRadioButton(self, buttonList, buttonIndex):
 		try:
@@ -291,48 +275,6 @@ class OptionDialog(ui.ScriptWindow):
 		snd.SetSoundVolume(pos)
 		systemSetting.SetSoundVolume(pos)
 
-	def __OnChangeMobilePhoneNumber(self):
-
-		import uiCommon
-		inputDialog = uiCommon.InputDialog()
-		inputDialog.SetTitle(localeInfo.MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE)
-		inputDialog.SetMaxLength(13)
-		inputDialog.SetAcceptEvent(ui.__mem_func__(self.OnInputMobilePhoneNumber))
-		inputDialog.SetCancelEvent(ui.__mem_func__(self.OnCloseInputDialog))
-		inputDialog.Open()
-		self.inputDialog = inputDialog
-
-	def __OnDeleteMobilePhoneNumber(self):
-		import uiCommon
-		questionDialog = uiCommon.QuestionDialog()
-		questionDialog.SetText(localeInfo.MESSENGER_DO_YOU_DELETE_PHONE_NUMBER)
-		questionDialog.SetAcceptEvent(ui.__mem_func__(self.OnDeleteMobile))
-		questionDialog.SetCancelEvent(ui.__mem_func__(self.OnCloseQuestionDialog))
-		questionDialog.Open()
-		self.questionDialog = questionDialog
-
-	def OnInputMobilePhoneNumber(self):
-		text = self.inputDialog.GetText()
-
-		if not text:
-			return
-
-		text.replace('-', '')
-		net.SendChatPacket("/mobile " + text)
-		self.OnCloseInputDialog()
-		return True
-
-	def OnInputMobileAuthorityCode(self):
-		text = self.inputDialog.GetText()
-		net.SendChatPacket("/mobile_auth " + text)
-		self.OnCloseInputDialog()
-		return True
-
-	def OnDeleteMobile(self):
-		net.SendChatPacket("/mobile")
-		self.OnCloseQuestionDialog()
-		return True
-
 	def OnCloseInputDialog(self):
 		self.inputDialog.Close()
 		self.inputDialog = None
@@ -346,30 +288,6 @@ class OptionDialog(ui.ScriptWindow):
 	def OnPressEscapeKey(self):
 		self.Close()
 		return True
-
-	def RefreshMobile(self):
-		global MOBILE
-		if not MOBILE:
-			return
-
-		if player.HasMobilePhoneNumber():
-			self.inputMobileButton.Hide()
-			self.deleteMobileButton.Show()
-		else:
-			self.inputMobileButton.Show()
-			self.deleteMobileButton.Hide()
-
-	def OnMobileAuthority(self):
-		import uiCommon
-		inputDialog = uiCommon.InputDialogWithDescription()
-		inputDialog.SetTitle(localeInfo.MESSENGER_INPUT_MOBILE_AUTHORITY_TITLE)
-		inputDialog.SetDescription(localeInfo.MESSENGER_INPUT_MOBILE_AUTHORITY_DESCRIPTION)
-		inputDialog.SetAcceptEvent(ui.__mem_func__(self.OnInputMobileAuthorityCode))
-		inputDialog.SetCancelEvent(ui.__mem_func__(self.OnCloseInputDialog))
-		inputDialog.SetMaxLength(4)
-		inputDialog.SetBoardWidth(310)
-		inputDialog.Open()
-		self.inputDialog = inputDialog
 
 	def RefreshBlock(self):
 		global blockMode
@@ -385,7 +303,6 @@ class OptionDialog(ui.ScriptWindow):
 		self.RefreshBlock()
 
 	def Show(self):
-		self.RefreshMobile()
 		self.RefreshBlock()
 		ui.ScriptWindow.Show(self)
 

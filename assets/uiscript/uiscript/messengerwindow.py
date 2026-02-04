@@ -56,6 +56,7 @@ window = {
 			"down_image" : "d:/ymir work/ui/game/windows/messenger_add_friend_03.sub",
 			"disable_image" : "d:/ymir work/ui/game/windows/messenger_add_friend_04.sub",
 		},
+
 		{
 			"name" : "WhisperButton",
 			"type" : "button",
@@ -73,28 +74,12 @@ window = {
 			"down_image" : "d:/ymir work/ui/game/windows/messenger_whisper_03.sub",
 			"disable_image" : "d:/ymir work/ui/game/windows/messenger_whisper_04.sub",
 		},
-		{
-			"name" : "MobileButton",
-			"type" : "button",
 
-			"x" : BUTTON_START_X_POS + BUTTON_X_STEP*2,
-			"y" : 30,
-			"horizontal_align" : "center",
-			"vertical_align" : "bottom",
-			"tooltip_text" : uiScriptLocale.MESSENGER_MOBILE,
-			"tooltip_x" : 0,
-			"tooltip_y" : 35,
-
-			"default_image" : "d:/ymir work/ui/game/windows/messenger_mobile_01.sub",
-			"over_image" : "d:/ymir work/ui/game/windows/messenger_mobile_02.sub",
-			"down_image" : "d:/ymir work/ui/game/windows/messenger_mobile_03.sub",
-			"disable_image" : "d:/ymir work/ui/game/windows/messenger_mobile_04.sub",
-		},
 		{
 			"name" : "RemoveButton",
 			"type" : "button",
 
-			"x" : BUTTON_START_X_POS + BUTTON_X_STEP*3,
+			"x" : BUTTON_START_X_POS + BUTTON_X_STEP*2,
 			"y" : 30,
 			"horizontal_align" : "center",
 			"vertical_align" : "bottom",
@@ -107,11 +92,12 @@ window = {
 			"down_image" : "d:/ymir work/ui/game/windows/messenger_delete_03.sub",
 			"disable_image" : "d:/ymir work/ui/game/windows/messenger_delete_04.sub",
 		},
+
 		{
 			"name" : "GuildButton",
 			"type" : "button",
 
-			"x" : BUTTON_START_X_POS + BUTTON_X_STEP*4,
+			"x" : BUTTON_START_X_POS + BUTTON_X_STEP*3,
 			"y" : 30,
 			"horizontal_align" : "center",
 			"vertical_align" : "bottom",
@@ -125,5 +111,5 @@ window = {
 			"disable_image" : "d:/ymir work/ui/game/windows/messenger_guild_04.sub",
 		},
 
-	), ## end of main window
+	),
 }

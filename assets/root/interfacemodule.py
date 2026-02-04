@@ -617,12 +617,6 @@ class Interface(object):
 		self.wndMessenger.ClearGuildMember()
 		self.wndGuild.DeleteGuild()
 
-	def RefreshMobile(self):
-		self.dlgSystem.RefreshMobile()
-
-	def OnMobileAuthority(self):
-		self.dlgSystem.OnMobileAuthority()
-
 	def OnBlockMode(self, mode):
 		self.dlgSystem.OnBlockMode(mode)
 
