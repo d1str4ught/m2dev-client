@@ -41,10 +41,6 @@ def Suffle(src):
 	else:
 		return src
 
-def IsFullBackImage():
-	global FULL_BACK_IMAGE
-	return FULL_BACK_IMAGE
-
 def IsLoginDelay():
 	global LOGIN_DELAY_SEC
 	if LOGIN_DELAY_SEC > 0.0:
@@ -243,10 +239,6 @@ class LoginWindow(ui.ScriptWindow):
 			connectingIP = self.stream.GetConnectAddr()
 			if connectingIP:
 				self.__OpenLoginBoard()
-				if IsFullBackImage():
-					self.GetChild("bg1").Hide()
-					self.GetChild("bg2").Show()
-
 			else:
 				self.__RefreshServerList()
 				self.__OpenServerBoard()
@@ -501,10 +493,6 @@ class LoginWindow(ui.ScriptWindow):
 
 		self.pwdEditLine.SetReturnEvent(ui.__mem_func__(self.__OnClickLoginButton))
 		self.pwdEditLine.SetTabEvent(ui.__mem_func__(self.idEditLine.SetFocus))
-
-		if IsFullBackImage():
-			self.GetChild("bg1").Show()
-			self.GetChild("bg2").Hide()
 		return 1
 
 	def __VirtualKeyboard_SetKeys(self, keyCodes):
@@ -997,12 +985,7 @@ class LoginWindow(ui.ScriptWindow):
 
 	def __OnClickExitServerButton(self):
 		print "exit server"
-		self.__OpenLoginBoard()			
-
-		if IsFullBackImage():
-			self.GetChild("bg1").Hide()
-			self.GetChild("bg2").Show()
-			
+		self.__OpenLoginBoard()
 
 	def __OnClickSelectRegionButton(self):
 		regionID = self.__GetRegionID()
@@ -1025,10 +1008,6 @@ class LoginWindow(ui.ScriptWindow):
 		self.__OpenServerBoard()
 
 	def __OnClickSelectServerButton(self):
-		if IsFullBackImage():
-			self.GetChild("bg1").Hide()
-			self.GetChild("bg2").Show()
-
 		regionID = self.__GetRegionID()
 		serverID = self.__GetServerID()
 		channelID = self.__GetChannelID()
@@ -1099,12 +1078,8 @@ class LoginWindow(ui.ScriptWindow):
 			
 		self.stream.SetConnectInfo(ip, tcp_port, account_ip, account_port)
 		self.__OpenLoginBoard()
-		
 
 	def __OnClickSelectConnectButton(self):
-		if IsFullBackImage():
-			self.GetChild("bg1").Show()
-			self.GetChild("bg2").Hide()
 		self.__RefreshServerList()
 		self.__OpenServerBoard()
 
