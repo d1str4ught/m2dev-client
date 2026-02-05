@@ -80,7 +80,7 @@ Group SkyBox
 
 Group LensFlare
 {
-    Enable                     0
+    Enable                     1
     BrightnessColor            1.000000 0.886275 0.886275 1.000000
     MaxBrightness              0.740000
     MainFlareEnable            1
