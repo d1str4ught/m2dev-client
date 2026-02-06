@@ -238,9 +238,6 @@ def __InitData():
 
 	#chrmgr.RegisterCacheEffect(chrmgr.EFFECT_SUCCESS, "",			"season1/effect/success.mse")
 	#chrmgr.RegisterCacheEffect(chrmgr.EFFECT_FAIL, "",	"season1/effect/fail.mse")
-	
-	chrmgr.RegisterCacheEffect(chrmgr.EFFECT_LEVELUP_ON_14_FOR_GERMANY, "","season1/effect/paymessage_warning.mse")	# Level up at 14 (Germany only)
-	chrmgr.RegisterCacheEffect(chrmgr.EFFECT_LEVELUP_UNDER_15_FOR_GERMANY, "", "season1/effect/paymessage_decide.mse" )# Level up at 15 (Germany only)
 
 	chrmgr.RegisterCacheEffect(chrmgr.EFFECT_PERCENT_DAMAGE1, "", "d:/ymir work/effect/hit/percent_damage1.mse")
 	chrmgr.RegisterCacheEffect(chrmgr.EFFECT_PERCENT_DAMAGE2, "", "d:/ymir work/effect/hit/percent_damage2.mse")
