@@ -691,13 +691,6 @@ class GameWindow(ui.ScriptWindow):
 	def RefreshGuildGradePage(self):
 		self.interface.RefreshGuildGradePage()
 
-	def RefreshMobile(self):
-		if self.interface:
-			self.interface.RefreshMobile()
-
-	def OnMobileAuthority(self):
-		self.interface.OnMobileAuthority()
-
 	def OnBlockMode(self, mode):
 		self.interface.OnBlockMode(mode)
 

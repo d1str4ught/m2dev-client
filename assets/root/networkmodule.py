@@ -165,12 +165,6 @@ class MainStream(object):
 
 	## SelectPhase
 	##########################################################################################	
-	def SetLogoPhase(self):
-		net.Disconnect()
-		
-		import introLogo
-		self.SetPhaseWindow(introLogo.LogoWindow(self))
-		
 	def SetLoginPhase(self):
 		net.Disconnect()
 

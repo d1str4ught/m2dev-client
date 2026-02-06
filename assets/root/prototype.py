@@ -47,9 +47,8 @@ def RunApp():
 	mainStream.Create()	
 	
 	#mainStream.SetLoadingPhase()
-	mainStream.SetLogoPhase()
 
-	#mainStream.SetLoginPhase()
+	mainStream.SetLoginPhase()
 	#mainStream.SetSelectCharacterPhase()
 	#mainStream.SetCreateCharacterPhase()
 	#mainStream.SetSelectEmpirePhase()
