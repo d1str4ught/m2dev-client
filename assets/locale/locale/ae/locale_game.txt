@@ -261,6 +261,13 @@ GUILD_TILE_GRADE	إدارة الحقوق
 GUILD_TILE_INFO	معلومات الرابطة
 GUILD_TILE_MEMBER	الأعضاء
 GUILD_TILE_SKILL	مهارات الروابط
+GUILD_VILLAGE_01	ميريانغ
+GUILD_VILLAGE_02	سونغبا
+GUILD_VILLAGE_03	دايامي
+GUILD_WAR1	منطقة حرب الرابطة
+GUILD_WAR2	منطقة حرب الرابطة
+GUILD_WAR3	منطقة حرب الرابطة
+GUILD_WAR4	منطقة حرب الرابطة
 GUILD_WAR_LIMIT_30MIN	الوقت: 30 دقيقة
 GUILD_WAR_REWARD_POTION	مكافأة: سيحصل الفائز على جرع
 GUILD_WAR_USE_BATTLE_MAP	المكان: ساحة الحرب للرابطة
@@ -330,26 +337,77 @@ MALL_PASSWORD_TITLE	كلمة السّر
 MAP_A1	منطقة يونغان
 MAP_A2	وادي سوينغريونغ
 MAP_A2_1	
+MAP_A2_1	
 MAP_A3	منطقة يايانغ
 MAP_AG	جونغرانغ
 MAP_B1	منطقة جوان
 MAP_B2	وادي إمجي
 MAP_B3	إقليم بوكيونغ
+MAP_BATTLE_FIELD	منطقة المعركة
 MAP_BAY	خليج نيفريت
+MAP_BAYBLACKSAND	خليج نيفريت
 MAP_BG	واريونغ
 MAP_C1	منطقة بيونغمو
 MAP_C2	وادي بانغسان
 MAP_C3	منطقة باكرا
 MAP_CAPE	رأس نار التنين
+MAP_CAPEDRAGONHEAD	رأس نار التنين
 MAP_CG	إمها
+MAP_CZ_DUNGEON	معبد زودياك
 MAP_DAWN	جرف غواتاما
+MAP_DAWNMISTWOOD	جرف غواتاما
+MAP_DAWNMIST_DUNGEON_01	غابة مسحورة
 MAP_DESERT	صحراء يونغبي
+MAP_DEVILCATACOMB	سرداب الموت
+MAP_DEVILTOWER1	برج الشياطين
+MAP_DUEL	ساحة تداريب القتال
+MAP_E	منطقة الليكانر
+MAP_EMPIREWAR01	معركة الحصن
+MAP_EMPIREWAR02	معركة الحصن
+MAP_EMPIREWAR03	معركة الحصن
 MAP_FLAME	دويومهوان
 MAP_MILGYO_A	
+MAP_GUILD_01	جونغرانغ
+MAP_GUILD_02	واريونغ
+MAP_GUILD_03	إمها
+MAP_HOLYPLACE_DESERT	معركة الإمبراطورية-أرض الصحراء
+MAP_HOLYPLACE_FLAME	معركة الإمبراطورية-أرض النار
+MAP_HOLYPLACE_ICE	معركة الإمبراطورية الأرض الجليدية
+MAP_MILGYO	معبد هوانغ
+MAP_MILGYO_A	
+MAP_MONKEY_DUNGEON	هاسون دونغ
+MAP_MONKEY_DUNGEON2	جانغسون دونغ
+MAP_MONKEY_DUNGEON3	سانغسون دونغ
+MAP_MONKEY_DUNGEON_11	هاسون دونغ
+MAP_MONKEY_DUNGEON_12	هاسون دونغ
+MAP_MONKEY_DUNGEON_13	هاسون دونغ
+MAP_MT_THUNDER	جبال الرعد
+MAP_MT_TH_DUNGEON_01	معبد الآشاو
 MAP_NUSLUCK	أرض العمالقة
 MAP_N_DESERT_02	
 MAP_N_FLAME_02	
 MAP_N_SNOWM_02	
+MAP_NUSLUCK01	أرض العمالقة
+MAP_N_DESERT_01	صحراء يونغبي
+MAP_N_DESERT_02	
+MAP_N_FLAME_01	أرض النار
+MAP_N_FLAME_02	
+MAP_N_FLAME_DRAGON	كهف ميلي
+MAP_N_FLAME_DUNGEON_01	قلعة التنين الأحمر
+MAP_N_SNOWM_01	جبل سوهان
+MAP_N_SNOWM_02	
+MAP_N_SNOW_DUNGEON_01	بُرج النمير
+MAP_N_THREEWAY	وادي سوينغريونغ
+MAP_OXEVENT	مسابقة OX
+MAP_PATHWAY_DESERT_01	معركة الإمبراطورية-أرض الصحراء
+MAP_PATHWAY_DESERT_02	معركة الإمبراطورية-أرض الصحراء
+MAP_PATHWAY_DESERT_03	معركة الإمبراطورية-أرض الصحراء
+MAP_PATHWAY_FLAME_01	معركة الإمبراطورية-أرض النار
+MAP_PATHWAY_FLAME_02	معركة الإمبراطورية-أرض النار
+MAP_PATHWAY_FLAME_03	معركة الإمبراطورية-أرض النار
+MAP_PATHWAY_ICE_01	معركة الإمبراطورية-الأرض الجليدية
+MAP_PATHWAY_ICE_02	ساحة اللعب
+MAP_PATHWAY_ICE_03	معركة الإمبراطورية-الأرض الجليدية
 MAP_SKELTOWER	برج غومسان
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
@@ -357,13 +415,51 @@ MAP_SKIPIA_DUNGEON_013
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_01	كهف اللعنة
+MAP_SKIPIA_DUNGEON_011	
+MAP_SKIPIA_DUNGEON_012	
+MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	كهف اللعنة 2
+MAP_SKIPIA_DUNGEON_021	
+MAP_SKIPIA_DUNGEON_022	
+MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS	معبد التنين
+MAP_SKIPIA_DUNGEON_BOSS_1	برج العناكب المحصن 1
+MAP_SKIPIA_DUNGEON_BOSS_2	برج العناكب المحصن 2
+MAP_SKIPIA_DUNGEON_BOSS_3	برج العناكب المحصن 3
 MAP_SNOW	جبل سوهان
 MAP_SPIDER	كواهلو دونغ
+MAP_SPIDERDUNGEON	برج العناكب المحصن 1
+MAP_SPIDERDUNGEON_02	برج العناكب المحصن 2
+MAP_SPIDERDUNGEON_02_1	برج العناكب المحصن 2
+MAP_SPIDERDUNGEON_03	برج العناكب المحصن 3
+MAP_SUNGZI	معركة الإمبراطورية
+MAP_SUNGZI_DESERT_01	معركة الإمبراطورية-أرض الصحراء
+MAP_SUNGZI_DESERT_HILL_01	معركة الإمبراطورية-أرض الصحراء
+MAP_SUNGZI_DESERT_HILL_02	معركة الإمبراطورية-أرض الصحراء
+MAP_SUNGZI_DESERT_HILL_03	معركة الإمبراطورية-أرض الصحراء
+MAP_SUNGZI_FLAME_HILL_01	معركة الإمبراطورية-أرض النار
+MAP_SUNGZI_FLAME_HILL_02	معركة الإمبراطورية-أرض النار
+MAP_SUNGZI_FLAME_HILL_03	معركة الإمبراطورية-أرض النار
+MAP_SUNGZI_SNOW	معركة الإمبراطورية-الأرض الجليدية
+MAP_SUNGZI_SNOW_PASS01	معركة الإمبراطورية-الأرض الجليدية
+MAP_SUNGZI_SNOW_PASS02	معركة الإمبراطورية-الأرض الجليدية
+MAP_SUNGZI_SNOW_PASS03	معركة الإمبراطورية-الأرض الجليدية
+MAP_T1	منطقة حرب الرابطة
+MAP_T2	منطقة حرب الرابطة
+MAP_T3	منطقة حرب الرابطة
+MAP_T4	منطقة حرب الرابطة
 MAP_TEMPLE	معبد هوانغ
 MAP_THUNDER	جبال الرعد
 MAP_TREE	لونغسام (غابة الأشباح)
 MAP_TRENT_A	
+MAP_TRENT	غابة الأشباح
+MAP_TRENT02	الغابة الحمراء
+MAP_TRENT02_A	الغابة الحمراء
+MAP_TRENT_A	
+MAP_WEDDING_01	خريطة الزواج
 MAP_WL	ميدان الأفاعي
+MAP_WL_01	ميدان الأفاعي
 MESSENGER_ADD_FRIEND	إضافة صديق
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	لقد اتخذك %s صديقاً له.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	موافق؟

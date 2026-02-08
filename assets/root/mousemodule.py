@@ -26,9 +26,14 @@ class CursorImage(object):
 		self.handle = 0
 		self.LoadImage(imageName)
 
+	# MR-10: Fix mouse destruction
 	def __del__(self):
-		if grpImage and self.handle:
-			grpImage.Delete(self.handle)
+		try:
+			if grpImage and self.handle and hasattr(grpImage, "Delete"):
+				grpImage.Delete(self.handle)
+		except:
+			pass
+	# MR-10: -- END OF -- Fix mouse destruction
 
 	def LoadImage(self, imageName):
 		try:

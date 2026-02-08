@@ -178,6 +178,13 @@ GUILD_TILE_INFO	Informations sur la Guilde
 GUILD_TILE_MEMBER	Membres de la Guilde
 GUILD_TILE_SKILL	Compétence de Guilde
 GUILD_WAR_LIMIT_30MIN	Temps : 30 Minutes
+GUILD_VILLAGE_01	Miryang
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_03	Daeyami
+GUILD_WAR1	Terrain de guerre de guildes
+GUILD_WAR2	Terrain de guerre de guildes
+GUILD_WAR3	Terrain de guerre de guildes
+GUILD_WAR4	Terrain de guerre de guildes
 GUILD_WAR_REWARD_POTION	Récompense : le vainqueur reçoit une potion/
 GUILD_WAR_USE_BATTLE_MAP	Lieu : Arène de guerre des guildes
 GUILD_WAR_USE_NORMAL_MAP	Lieu : carte normale
@@ -242,29 +249,118 @@ MALL_PASSWORD_TITLE	Mot de passe
 MAP_A1	Région de Yongan
 MAP_A2	Vallée de Seungryong
 MAP_A3	Zone Jayan
+MAP_A2_1	
 MAP_AG	Jungrang
 MAP_B1	Zone Joan
 MAP_B2	Vallée d'Imji
 MAP_B3	Zone Bokjung
 MAP_BAY	Baie de Néphrite
+MAP_BATTLE_FIELD	Zone de combat
 MAP_BG	Waryong
+MAP_BAYBLACKSAND	Baie de Néphrite
 MAP_C1	Zone Pyungmoo
 MAP_C2	Vallée de Bangsan
 MAP_C3	Région de Bakra
 MAP_CAPE	Cap du Dragon de Feu
 MAP_CG	Imha
+MAP_CAPEDRAGONHEAD	Cap du Feu dragonesque
 MAP_DAWN	Falaise de Gautama
+MAP_CZ_DUNGEON	Temple du zodiaque
 MAP_DESERT	Désert de Yongbi
+MAP_DAWNMISTWOOD	Falaise de Gautama
+MAP_DAWNMIST_DUNGEON_01	Forêt enchantée
 MAP_FLAME	Doyyumhwan
+MAP_DEVILCATACOMB	Catacombes du diable
+MAP_DEVILTOWER1	Tour des démons
+MAP_DUEL	Arène d'entraînement
+MAP_E	Colonie
+MAP_EMPIREWAR01	Bataille pour le château
+MAP_EMPIREWAR02	Bataille pour le château
+MAP_EMPIREWAR03	Bataille pour le château
 MAP_NUSLUCK	Terre des Ogres
+MAP_GUILD_01	Jungrang
+MAP_GUILD_02	Waryong
+MAP_GUILD_03	Imha
+MAP_HOLYPLACE_DESERT	Bataille des empires : Terre du Désert
+MAP_HOLYPLACE_FLAME	Bataille des empires : Terre de Feu
+MAP_HOLYPLACE_ICE	Bataille des empires : Terre Glaciaire
+MAP_MILGYO	Temple de Hwang
+MAP_MILGYO_A	
+MAP_MONKEY_DUNGEON	Hasung Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON_11	Hasung Dong
+MAP_MONKEY_DUNGEON_12	Hasung Dong
+MAP_MONKEY_DUNGEON_13	Hasung Dong
+MAP_MT_THUNDER	Montagnes fulgurantes
+MAP_MT_TH_DUNGEON_01	Temple Ochao
 MAP_SKELTOWER	Tour de Gumsan
+MAP_NUSLUCK01	Terre des Ogres
+MAP_N_DESERT_01	Désert de Yongbi
+MAP_N_DESERT_02	
+MAP_N_FLAME_01	Terre de Feu
+MAP_N_FLAME_02	
+MAP_N_FLAME_DRAGON	Repaire de Meley
+MAP_N_FLAME_DUNGEON_01	Forteresse du dragon rouge
+MAP_N_SNOWM_01	Mont Sohan
+MAP_N_SNOWM_02	
+MAP_N_SNOW_DUNGEON_01	Observatoire de Nemere
+MAP_N_THREEWAY	Vallée de Seungryong
+MAP_OXEVENT	OX-contest
+MAP_PATHWAY_DESERT_01	Bataille des empires : Terre du Désert
+MAP_PATHWAY_DESERT_02	Bataille des empires : Terre du Désert
+MAP_PATHWAY_DESERT_03	Bataille des empires : Terre du Désert
+MAP_PATHWAY_FLAME_01	Bataille des empires : Terre de Feu
+MAP_PATHWAY_FLAME_02	Bataille des empires : Terre de Feu
+MAP_PATHWAY_FLAME_03	Bataille des empires : Terre de Feu
+MAP_PATHWAY_ICE_01	Bataille des empires : Terre Glaciaire
+MAP_PATHWAY_ICE_02	Aire de jeux
+MAP_PATHWAY_ICE_03	Bataille des empires : Terre Glaciaire
 MAP_SNOW	Mont Sohan
+MAP_SKIPIA_DUNGEON_01	Grotte de l'Exil
+MAP_SKIPIA_DUNGEON_011	
+MAP_SKIPIA_DUNGEON_012	
+MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	Grotte de l'Exil 2
+MAP_SKIPIA_DUNGEON_021	
+MAP_SKIPIA_DUNGEON_022	
+MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS	Temple du dragon
+MAP_SKIPIA_DUNGEON_BOSS_1	Donjon des araignées 1
+MAP_SKIPIA_DUNGEON_BOSS_2	Donjon des araignées 2
+MAP_SKIPIA_DUNGEON_BOSS_3	Donjon des araignées 3
 MAP_SPIDER	Kuahlo Dong
 MAP_TEMPLE	Temple de Hwang
+MAP_SPIDERDUNGEON	Donjon des araignées 1
+MAP_SPIDERDUNGEON_02	Donjon des araignées 2
+MAP_SPIDERDUNGEON_02_1	Donjon des araignées 2
+MAP_SPIDERDUNGEON_03	Donjon des araignées 3
+MAP_SUNGZI	Bataille des empires
+MAP_SUNGZI_DESERT_01	Bataille des empires : Terre du Désert
+MAP_SUNGZI_DESERT_HILL_01	Bataille des empires : Terre du Désert
+MAP_SUNGZI_DESERT_HILL_02	Bataille des empires : Terre du Désert
+MAP_SUNGZI_DESERT_HILL_03	Bataille des empires : Terre du Désert
+MAP_SUNGZI_FLAME_HILL_01	Bataille des empires : Terre de Feu
+MAP_SUNGZI_FLAME_HILL_02	Bataille des empires : Terre de Feu
+MAP_SUNGZI_FLAME_HILL_03	Bataille des empires : Terre de Feu
+MAP_SUNGZI_SNOW	Bataille des empires : Terre Glaciaire
+MAP_SUNGZI_SNOW_PASS01	Bataille des empires : Terre Glaciaire
+MAP_SUNGZI_SNOW_PASS02	Bataille des empires : Terre Glaciaire
+MAP_SUNGZI_SNOW_PASS03	Bataille des empires : Terre Glaciaire
+MAP_T1	Terrain de guerre de guildes
+MAP_T2	Terrain de guerre de guildes
+MAP_T3	Terrain de guerre de guildes
+MAP_T4	Terrain de guerre de guildes
 MAP_THUNDER	Montagnes fulgurantes
 MAP_TREE	Lungsam
 MAP_WL	Grande Vallée
+MAP_TRENT	Bois enchanté
+MAP_TRENT02	Bois Rouge
+MAP_TRENT02_A	Bois Rouge
+MAP_TRENT_A	
+MAP_WEDDING_01	Carte de mariage
 MESSENGER_ADD_FRIEND	Ajouter un ami
+MAP_WL_01	Grande Vallée
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s vous a ajouté comme ami
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Accepter ?
 MESSENGER_DO_YOU_DELETE	Supprimer ?
@@ -280,6 +376,7 @@ MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Souhaitez-vous entrer le numéro maintenan
 MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Entrez le numéro de téléphone portable
 MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Envoyer un message
 MINIMAP	Ouvrir Mini-carte
+METIN_TEST	
 MINIMAP_CANNOT_SEE	La mini carte ne peut pas être affichée.
 MINIMAP_CAN_NOT_SHOW_AREAMAP	La carte générale ne peut pas être affichée.
 MINIMAP_DEC_SCALE	Zoom arrière

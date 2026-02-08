@@ -179,6 +179,13 @@ GUILD_TILE_INFO	Información de Gremio
 GUILD_TILE_MEMBER	Miembros del Gremio
 GUILD_TILE_SKILL	Habilidades del Gremio
 GUILD_WAR_LIMIT_30MIN	Tiempo: 30 minutos
+GUILD_VILLAGE_01	Miryang
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_03	Daeyami
+GUILD_WAR1	Terrenos de la Guerra de gremios
+GUILD_WAR2	Terrenos de la Guerra de gremios
+GUILD_WAR3	Terrenos de la Guerra de gremios
+GUILD_WAR4	Terrenos de la Guerra de gremios
 GUILD_WAR_REWARD_POTION	Recompensa: El ganador recibe una poción.
 GUILD_WAR_USE_BATTLE_MAP	Lugar: Arena de guerra de gremios
 GUILD_WAR_USE_NORMAL_MAP	Lugar: Mapa normal
@@ -250,35 +257,112 @@ MAP_B1	Área Joan
 MAP_B2	Valle de Imji
 MAP_B3	Área Bokjung
 MAP_BAY	Bahía de Nephrit
+MAP_BATTLE_FIELD	Zona de combate
 MAP_BG	Waryong
+MAP_BAYBLACKSAND	Bahía de Nephrit
 MAP_C1	Área Pyungmoo
 MAP_C2	Valle de Bangsan
 MAP_C3	Área Bakra
 MAP_CAPE	Cabo del Dragón de Fuego
 MAP_CG	Imha
+MAP_CAPEDRAGONHEAD	Cabo del Dragón de Fuego
 MAP_DAWN	Acantilado de Gautama
+MAP_CZ_DUNGEON	Templo del zodíaco
 MAP_DESERT	Desierto Yongbi
+MAP_DAWNMISTWOOD	Acantilado de Gautama
+MAP_DAWNMIST_DUNGEON_01	Bosque Encantado
 MAP_FLAME	Doyyumhwan
+MAP_DEVILCATACOMB	Catacumba del Diablo
+MAP_DEVILTOWER1	Torre Demoníaca
+MAP_DUEL	Arena para combates de entrenamiento
+MAP_E	Colonia
+MAP_EMPIREWAR01	Batalla por el castillo
+MAP_EMPIREWAR02	Batalla por el castillo
+MAP_EMPIREWAR03	Batalla por el castillo
 MAP_MILGYO_A	
+MAP_GUILD_01	Jungrang
+MAP_GUILD_02	Waryong
+MAP_GUILD_03	Imha
+MAP_HOLYPLACE_DESERT	Batalla de Reinos - Tierra del desierto
+MAP_HOLYPLACE_FLAME	Batalla de Reinos - Tierra de Fuego
+MAP_HOLYPLACE_ICE	Batalla de Reinos - Tierra de hielo
+MAP_MILGYO	Templo Hwang
 MAP_NUSLUCK	Tierra de Gigantes
+MAP_MONKEY_DUNGEON	Hasun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MT_THUNDER	Montañas Trueno
+MAP_MT_TH_DUNGEON_01	Templo de los Ochao
 MAP_N_DESERT_02	
+MAP_NUSLUCK01	Tierra de Gigantes
+MAP_N_DESERT_01	Desierto Yongbi
 MAP_N_FLAME_02	
+MAP_N_FLAME_01	Tierra de Fuego
 MAP_N_SNOWM_02	
+MAP_N_FLAME_DRAGON	Refugio de Meley
+MAP_N_FLAME_DUNGEON_01	Fortaleza del Dragón Rojo
+MAP_N_SNOWM_01	Monte Sohan
 MAP_SKELTOWER	Torre Gumsan
+MAP_N_SNOW_DUNGEON_01	Torre de vigilancia de Nemere
+MAP_N_THREEWAY	Valle de Seungryong
+MAP_OXEVENT	Competición OX
+MAP_PATHWAY_DESERT_01	Batalla de Reinos - Tierra del desierto
+MAP_PATHWAY_DESERT_02	Batalla de Reinos - Tierra del desierto
+MAP_PATHWAY_DESERT_03	Batalla de Reinos - Tierra del desierto
+MAP_PATHWAY_FLAME_01	Batalla de Reinos - Tierra de Fuego
+MAP_PATHWAY_FLAME_02	Batalla de Reinos - Tierra de Fuego
+MAP_PATHWAY_FLAME_03	Batalla de Reinos - Tierra de Fuego
+MAP_PATHWAY_ICE_01	Batalla de Reinos - Tierra de hielo
+MAP_PATHWAY_ICE_02	Parque
+MAP_PATHWAY_ICE_03	Batalla de Reinos - Tierra de hielo
 MAP_SKIPIA_DUNGEON_011	
+MAP_SKIPIA_DUNGEON_01	La Gruta del Exilio
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
 MAP_SKIPIA_DUNGEON_021	
+MAP_SKIPIA_DUNGEON_02	La Gruta del Exilio 2
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
 MAP_SNOW	Monte Sohan
+MAP_SKIPIA_DUNGEON_BOSS	Templo del Dragón
+MAP_SKIPIA_DUNGEON_BOSS_1	Mazmorra de Arañas 1
+MAP_SKIPIA_DUNGEON_BOSS_2	Mazmorra de Arañas 2
+MAP_SKIPIA_DUNGEON_BOSS_3	Mazmorra de Arañas 3
 MAP_SPIDER	Kuahlo Dong
 MAP_TEMPLE	Templo Hwang
+MAP_SPIDERDUNGEON	Mazmorra de Arañas 1
+MAP_SPIDERDUNGEON_02	Mazmorra de Arañas 2
+MAP_SPIDERDUNGEON_02_1	Mazmorra de Arañas 2
+MAP_SPIDERDUNGEON_03	Mazmorra de Arañas 3
+MAP_SUNGZI	Batalla de Reinos
+MAP_SUNGZI_DESERT_01	Batalla de Reinos - Tierra del desierto
+MAP_SUNGZI_DESERT_HILL_01	Batalla de Reinos - Tierra del desierto
+MAP_SUNGZI_DESERT_HILL_02	Batalla de Reinos - Tierra del desierto
+MAP_SUNGZI_DESERT_HILL_03	Batalla de Reinos - Tierra del desierto
+MAP_SUNGZI_FLAME_HILL_01	Batalla de Reinos - Tierra de Fuego
+MAP_SUNGZI_FLAME_HILL_02	Batalla de Reinos - Tierra de Fuego
+MAP_SUNGZI_FLAME_HILL_03	Batalla de Reinos - Tierra de Fuego
+MAP_SUNGZI_SNOW	Batalla de Reinos - Tierra de hielo
+MAP_SUNGZI_SNOW_PASS01	Batalla de Reinos - Tierra de hielo
+MAP_SUNGZI_SNOW_PASS02	Batalla de Reinos - Tierra de hielo
+MAP_SUNGZI_SNOW_PASS03	Batalla de Reinos - Tierra de hielo
+MAP_T1	Terrenos de la Guerra de gremios
+MAP_T2	Terrenos de la Guerra de gremios
+MAP_T3	Terrenos de la Guerra de gremios
+MAP_T4	Terrenos de la Guerra de gremios
 MAP_THUNDER	Montañas Trueno
 MAP_TREE	Lungsam
 MAP_TRENT_A	
+MAP_TRENT	Bosque Fantasma
+MAP_TRENT02	Bosque Rojo
+MAP_TRENT02_A	Bosque Rojo
 MAP_WL	Campo Serpiente
+MAP_WEDDING_01	Mapa de bodas
 MESSENGER_ADD_FRIEND	Añadir Amigo
+MAP_WL_01	Campo Serpiente
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s te añadió como amigo.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	¿Aceptar?
 MESSENGER_DO_YOU_DELETE	¿Borrar?

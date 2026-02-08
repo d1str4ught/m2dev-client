@@ -178,6 +178,13 @@ GUILD_TILE_GRADE	Yönetici Pozisyonu
 GUILD_TILE_INFO	Lonca bilgileri
 GUILD_TILE_MEMBER	Lonca üyeleri
 GUILD_TILE_SKILL	Lonca becerisi
+GUILD_VILLAGE_01	Miryang
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_03	Daeyami
+GUILD_WAR1	Lonca Savaşı Bölgesi
+GUILD_WAR2	Lonca Savaşı Bölgesi
+GUILD_WAR3	Lonca Savaşı Bölgesi
+GUILD_WAR4	Lonca Savaşı Bölgesi
 GUILD_WAR_LIMIT_30MIN	Zaman: 30 dakika
 GUILD_WAR_REWARD_POTION	Ödül: Yenen iksir kazanacak
 GUILD_WAR_USE_BATTLE_MAP	Yer: Lonca Savaşı Arenası
@@ -249,35 +256,112 @@ MAP_AG	Jungrang
 MAP_B1	Joan Bölgesi
 MAP_B2	Imji Vadisi
 MAP_B3	Bokjung Bölgesi
+MAP_BATTLE_FIELD	Savaş Bölgesi
 MAP_BAY	Nefrit Körfezi
+MAP_BAYBLACKSAND	Nefrit Körfezi
 MAP_BG	Waryong
 MAP_C1	Pyungmoo Bölgesi
 MAP_C2	Bangsan Vadisi
 MAP_C3	Bakra Bölgesi
 MAP_CAPE	Ejderha Ateşi Burnu
+MAP_CAPEDRAGONHEAD	Ejderha Ateşi Burnu
 MAP_CG	Imha
+MAP_CZ_DUNGEON	Zodyak Tapınağı
 MAP_DAWN	Gautama Uçurumu
+MAP_DAWNMISTWOOD	Gautama Uçurumu
+MAP_DAWNMIST_DUNGEON_01	Efsunlu Orman
 MAP_DESERT	Yongbi Çölü
+MAP_DEVILCATACOMB	Şeytan Katakombu
+MAP_DEVILTOWER1	Şeytan Kulesi
+MAP_DUEL	Eğitim Dövüşü Arenası
+MAP_E	Koloni
+MAP_EMPIREWAR01	Kale Savaşı
+MAP_EMPIREWAR02	Kale Savaşı
+MAP_EMPIREWAR03	Kale Savaşı
 MAP_FLAME	Doyyumhwan
+MAP_GUILD_01	Jungrang
+MAP_GUILD_02	Waryong
+MAP_GUILD_03	Imha
+MAP_HOLYPLACE_DESERT	İmparatorluk Savaşı - Çöl Diyarı
+MAP_HOLYPLACE_FLAME	İmparatorluk Savaşı - Ateş Diyarı
+MAP_HOLYPLACE_ICE	İmparatorluk Savaşı - Buz Dağı
+MAP_MILGYO	Hwang Tapınağı
 MAP_MILGYO_A	
+MAP_MONKEY_DUNGEON	Hasun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MT_THUNDER	Yıldırım Dağları
+MAP_MT_TH_DUNGEON_01	Ochao Tapınağı
 MAP_NUSLUCK	Devler Diyarı
+MAP_NUSLUCK01	Devler Diyarı
+MAP_N_DESERT_01	Yongbi Çölü
 MAP_N_DESERT_02	
+MAP_N_FLAME_01	Ateş Diyarı
 MAP_N_FLAME_02	
+MAP_N_FLAME_DRAGON	Meley'in İni
+MAP_N_FLAME_DUNGEON_01	Kırmızı Ejderha Kalesi
+MAP_N_SNOWM_01	Sohan Dağı
 MAP_N_SNOWM_02	
+MAP_N_SNOW_DUNGEON_01	Nemere Gözlemevi
+MAP_N_THREEWAY	Seungryong Vadisi
+MAP_OXEVENT	OX-yarışması
+MAP_PATHWAY_DESERT_01	İmparatorluk Savaşı - Çöl Diyarı
+MAP_PATHWAY_DESERT_02	İmparatorluk Savaşı - Çöl Diyarı
+MAP_PATHWAY_DESERT_03	İmparatorluk Savaşı - Çöl Diyarı
+MAP_PATHWAY_FLAME_01	İmparatorluk Savaşı - Ateş Diyarı
+MAP_PATHWAY_FLAME_02	İmparatorluk Savaşı - Ateş Diyarı
+MAP_PATHWAY_FLAME_03	İmparatorluk Savaşı - Ateş Diyarı
+MAP_PATHWAY_ICE_01	İmparatorluk Savaşı - Buz Dağı
+MAP_PATHWAY_ICE_02	Oyun Parkı
+MAP_PATHWAY_ICE_03	İmparatorluk Savaşı - Buz Dağı
 MAP_SKELTOWER	Gumsan Kulesi
+MAP_SKIPIA_DUNGEON_01	Sürgün Mağarası
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	Sürgün Mağarası 2
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS	Ejderha Tapınağı
+MAP_SKIPIA_DUNGEON_BOSS_1	Örümcek Zindanı 1
+MAP_SKIPIA_DUNGEON_BOSS_2	Örümcek Zindanı 2
+MAP_SKIPIA_DUNGEON_BOSS_3	Örümcek Zindanı 3
 MAP_SNOW	Sohan Dağı
 MAP_SPIDER	Kuahlo Dong
+MAP_SPIDERDUNGEON	Örümcek Zindanı 1
+MAP_SPIDERDUNGEON_02	Örümcek Zindanı 2
+MAP_SPIDERDUNGEON_02_1	Örümcek Zindanı 2
+MAP_SPIDERDUNGEON_03	Örümcek Zindanı 3
+MAP_SUNGZI	İmparatorluk Savaşı
+MAP_SUNGZI_DESERT_01	İmparatorluk Savaşı - Çöl Diyarı
+MAP_SUNGZI_DESERT_HILL_01	İmparatorluk Savaşı - Çöl Diyarı
+MAP_SUNGZI_DESERT_HILL_02	İmparatorluk Savaşı - Çöl Diyarı
+MAP_SUNGZI_DESERT_HILL_03	İmparatorluk Savaşı - Çöl Diyarı
+MAP_SUNGZI_FLAME_HILL_01	İmparatorluk Savaşı - Ateş Diyarı
+MAP_SUNGZI_FLAME_HILL_02	İmparatorluk Savaşı - Ateş Diyarı
+MAP_SUNGZI_FLAME_HILL_03	İmparatorluk Savaşı - Ateş Diyarı
+MAP_SUNGZI_SNOW	İmparatorluk Savaşı - Buz Dağı
+MAP_SUNGZI_SNOW_PASS01	İmparatorluk Savaşı - Buz Dağı
+MAP_SUNGZI_SNOW_PASS02	İmparatorluk Savaşı - Buz Dağı
+MAP_SUNGZI_SNOW_PASS03	İmparatorluk Savaşı - Buz Dağı
+MAP_T1	Lonca Savaşı Bölgesi
+MAP_T2	Lonca Savaşı Bölgesi
+MAP_T3	Lonca Savaşı Bölgesi
+MAP_T4	Lonca Savaşı Bölgesi
 MAP_TEMPLE	Hwang Tapınağı
 MAP_THUNDER	Yıldırım Dağları
 MAP_TREE	Lungsam
+MAP_TRENT	Hayalet Ormanı
+MAP_TRENT02	Kırmızı Orman
+MAP_TRENT02_A	Kızıl Orman
 MAP_TRENT_A	
+MAP_WEDDING_01	Düğün Köyü
 MAP_WL	Yılan Vadisi
+MAP_WL_01	Yılan Vadisi
 MESSENGER_ADD_FRIEND	Arkadaş ekle
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s seni arkadaş olarak ekledi.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Kabul et?
@@ -326,7 +410,7 @@ PARTY_DO_YOU_JOIN	 seni grubuna davet ediyor. Kabul etmek istiyor musun?
 PARTY_EXP_DISTRIBUTION_MODE	EXP paylaşımı
 PARTY_EXP_DISTRIBUTION_MODE_LEVEL	seviyeye bağlı
 PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	Yüksek seviyeli grup üyeleri daha fazla EXP kazanıyor.
-PARTY_EXP_DISTRIBUTION_MODE_PARITY	eşit
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	Eşit
 PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	Tüm grup üyeleri aynı EXP i alır.
 PARTY_HEAL_ALL_MEMBER	Her şeyi yükle.
 PARTY_INCREASE_AREA_150	Grup kuruluş faktör aralığı 1,5.	SNA

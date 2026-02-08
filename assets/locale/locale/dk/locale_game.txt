@@ -179,6 +179,13 @@ GUILD_TILE_INFO	Ordensinformationer
 GUILD_TILE_MEMBER	Ordensmedlemmer
 GUILD_TILE_SKILL	Ordensfærdigheder
 GUILD_WAR_LIMIT_30MIN	Tid: 30 Minutter
+GUILD_VILLAGE_01	Miryang
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_03	Daeyami
+GUILD_WAR1	Ordenskrigs område
+GUILD_WAR2	Ordenskrigs område
+GUILD_WAR3	Ordenskrigs område
+GUILD_WAR4	Ordenskrigs område
 GUILD_WAR_REWARD_POTION	Belønning: Vinderen får eliksirer.
 GUILD_WAR_USE_BATTLE_MAP	Sted: Ordenskrig Arena
 GUILD_WAR_USE_NORMAL_MAP	Sted: Normal kort
@@ -250,35 +257,112 @@ MAP_B1	Område Joan
 MAP_B2	Imji dalen
 MAP_B3	Område Bokjung
 MAP_BAY	Nefrit bugten
+MAP_BATTLE_FIELD	Kamp Zone
 MAP_BG	Waryong
+MAP_BAYBLACKSAND	Nefrit bugten
 MAP_C1	Område Pyungmoo
 MAP_C2	Bangsan dalen
 MAP_C3	Område Bakra
 MAP_CAPE	Kap Drageild
 MAP_CG	Imha
+MAP_CAPEDRAGONHEAD	Kap Drageild
 MAP_DAWN	Gautama Klippe
+MAP_CZ_DUNGEON	Zodiac Tempel
 MAP_DESERT	Yongbi-ørken
+MAP_DAWNMISTWOOD	Gautama Klippe
+MAP_DAWNMIST_DUNGEON_01	Fortryllet skov
 MAP_FLAME	Doyyumhwan
+MAP_DEVILCATACOMB	Djævelens katakomb
+MAP_DEVILTOWER1	Dæmon tårn
+MAP_DUEL	Træningskamp område
+MAP_E	Koloni
+MAP_EMPIREWAR01	Slots-kamp
+MAP_EMPIREWAR02	Slots-kamp
+MAP_EMPIREWAR03	Slots-kamp
 MAP_MILGYO_A	
+MAP_GUILD_01	Jungrang
+MAP_GUILD_02	Waryong
+MAP_GUILD_03	Imha
+MAP_HOLYPLACE_DESERT	Ørkenland Nationskrig
+MAP_HOLYPLACE_FLAME	Ildland Nationskrig
+MAP_HOLYPLACE_ICE	Island Nationskrig
+MAP_MILGYO	Hwang Tempel
 MAP_NUSLUCK	Kæmpernes land
+MAP_MONKEY_DUNGEON	Hasun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MT_THUNDER	Tordenbjergene
+MAP_MT_TH_DUNGEON_01	Ochao Tempel
 MAP_N_DESERT_02	
+MAP_NUSLUCK01	Kæmpernes land
+MAP_N_DESERT_01	Yongbi-Ørken
 MAP_N_FLAME_02	
+MAP_N_FLAME_01	Ildland
 MAP_N_SNOWM_02	
+MAP_N_FLAME_DRAGON	Meleys Grotte
+MAP_N_FLAME_DUNGEON_01	Rød Drageborg
+MAP_N_SNOWM_01	Bjerget Sohan
 MAP_SKELTOWER	Gumsan-Tårn
+MAP_N_SNOW_DUNGEON_01	Nemeres vagttårn
+MAP_N_THREEWAY	Seungryong Dalen
+MAP_OXEVENT	OX turnering
+MAP_PATHWAY_DESERT_01	Ørkenland Nationskrig
+MAP_PATHWAY_DESERT_02	Ørkenland Nationskrig
+MAP_PATHWAY_DESERT_03	Ørkenland Nationskrig
+MAP_PATHWAY_FLAME_01	Ildland Nationskrig
+MAP_PATHWAY_FLAME_02	Ildland Nationskrig
+MAP_PATHWAY_FLAME_03	Ildland Nationskrig
+MAP_PATHWAY_ICE_01	Island Nationskrig
+MAP_PATHWAY_ICE_02	Legeplads
+MAP_PATHWAY_ICE_03	Island Nationskrig
 MAP_SKIPIA_DUNGEON_011	
+MAP_SKIPIA_DUNGEON_01	Forbandelsens grotte
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
 MAP_SKIPIA_DUNGEON_021	
+MAP_SKIPIA_DUNGEON_02	Forbandelsens grotte 2
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
 MAP_SNOW	Bjerget Sohan
+MAP_SKIPIA_DUNGEON_BOSS	Dragens tempel
+MAP_SKIPIA_DUNGEON_BOSS_1	Edderkoppe grotte 1
+MAP_SKIPIA_DUNGEON_BOSS_2	Edderkoppe grotte 2
+MAP_SKIPIA_DUNGEON_BOSS_3	Edderkoppe grotte 3
 MAP_SPIDER	Kuahlo Dong
 MAP_TEMPLE	Hwang-Tempel
+MAP_SPIDERDUNGEON	Edderkoppe grotte 1
+MAP_SPIDERDUNGEON_02	Edderkoppe-grotte 2
+MAP_SPIDERDUNGEON_02_1	Edderkoppe grotte 2
+MAP_SPIDERDUNGEON_03	Edderkoppe grotte 3
+MAP_SUNGZI	Nationskrig
+MAP_SUNGZI_DESERT_01	Ørkenland Nationskrig
+MAP_SUNGZI_DESERT_HILL_01	Ørkenland Nationskrig
+MAP_SUNGZI_DESERT_HILL_02	Ørkenland Nationskrig
+MAP_SUNGZI_DESERT_HILL_03	Ørkenland Nationskrig
+MAP_SUNGZI_FLAME_HILL_01	Ildland Nationskrig
+MAP_SUNGZI_FLAME_HILL_02	Ildland Nationskrig
+MAP_SUNGZI_FLAME_HILL_03	Ildland Nationskrig
+MAP_SUNGZI_SNOW	Island Nationskrig
+MAP_SUNGZI_SNOW_PASS01	Island Nationskrig
+MAP_SUNGZI_SNOW_PASS02	Island Nationskrig
+MAP_SUNGZI_SNOW_PASS03	Island Nationskrig
+MAP_T1	Ordenskrigs område
+MAP_T2	Ordenskrigs område
+MAP_T3	Ordenskrigs område
+MAP_T4	Ordenskrigs område
 MAP_THUNDER	Tordenbjergene
 MAP_TREE	Lungsam
 MAP_TRENT_A	
+MAP_TRENT	Åndeskov
+MAP_TRENT02	Rød skov
+MAP_TRENT02_A	Rød skov
 MAP_WL	Slangeområde
+MAP_WEDDING_01	Bryllups kort
 MESSENGER_ADD_FRIEND	Tilføj ven
+MAP_WL_01	Slangeområde
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s har accepteret dig som ven.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Accepter?
 MESSENGER_DO_YOU_DELETE	Slet?

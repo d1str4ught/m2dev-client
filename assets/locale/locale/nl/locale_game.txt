@@ -178,6 +178,13 @@ GUILD_TILE_GRADE	Rechten Beheer
 GUILD_TILE_INFO	Gilde Informatie	
 GUILD_TILE_MEMBER	Gilde Leden	
 GUILD_TILE_SKILL	Gilde Vaardigheden	
+GUILD_WAR4	Gilde Oorlog Gebied
+GUILD_WAR3	Gilde Oorlog Gebied
+GUILD_WAR2	Gilde Oorlog Gebied
+GUILD_WAR1	Gilde Oorlog Gebied
+GUILD_VILLAGE_03	Daeyami
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_01	Miryang
 GUILD_WAR_LIMIT_30MIN	Tijd: 30 Minuten	
 GUILD_WAR_REWARD_POTION	Prijs: De winnaar ontvangt een Brouwsel	
 GUILD_WAR_USE_BATTLE_MAP	Locatie: Gilde Oorlog Theater
@@ -249,35 +256,112 @@ MAP_AG	Jungrang
 MAP_B1	Joan Gebied	
 MAP_B2	Imji Vallei
 MAP_B3	Bokjung Gebied
+MAP_BATTLE_FIELD	Strijd Zone
 MAP_BAY	Baai van Nefriet
+MAP_BAYBLACKSAND	Baai van Nefriet
 MAP_BG	Waryong
 MAP_C1	Pyungmo Gebied
 MAP_C2	Bangsan Vallei
 MAP_C3	Bakra Gebied
 MAP_CAPE	Cape Drakenvuur
+MAP_CAPEDRAGONHEAD	Cape Drakenvuur
 MAP_CG	Imha
+MAP_CZ_DUNGEON	Zodiac Tempel
 MAP_DAWN	Gautama Klif
+MAP_DAWNMIST_DUNGEON_01	Betoverde Woud
+MAP_DAWNMISTWOOD	Gautama Klif
 MAP_DESERT	Yongbi Woestijn	
+MAP_EMPIREWAR03	Kasteelgevecht
+MAP_EMPIREWAR02	Kasteelgevecht
+MAP_EMPIREWAR01	Kasteelgevecht
+MAP_E	Kolonie
+MAP_DUEL	Trainingsgevecht Gebied
+MAP_DEVILTOWER1	Demonen Toren
+MAP_DEVILCATACOMB	Duivelse Catacomben
 MAP_FLAME	Doyyumhwan
+MAP_MILGYO	Hwang Tempel
+MAP_HOLYPLACE_ICE	IJsland Koninkrijk Gevecht
+MAP_HOLYPLACE_FLAME	Vuurland Koninkrijk Gevecht
+MAP_HOLYPLACE_DESERT	Woestijnland Koninkrijk Gevecht
+MAP_GUILD_03	Imha
+MAP_GUILD_02	Waryong
+MAP_GUILD_01	Jungrang
 MAP_MILGYO_A	
+MAP_MT_TH_DUNGEON_01	Tempel van de Ochao
+MAP_MT_THUNDER	Donder Gebergte
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON	Hasun Dong
 MAP_NUSLUCK	Reuzen Land
+MAP_N_DESERT_01	Yongbi Woestijn
+MAP_NUSLUCK01	Reuzen Land
 MAP_N_DESERT_02	
+MAP_N_FLAME_01	Vuurland
 MAP_N_FLAME_02	
+MAP_N_SNOWM_01	Berg Sohan
+MAP_N_FLAME_DUNGEON_01	Rode Draken Fort
+MAP_N_FLAME_DRAGON	Meley's Hol
 MAP_N_SNOWM_02	
+MAP_PATHWAY_ICE_03	IJsland Koninkrijk Gevecht
+MAP_PATHWAY_ICE_02	Speelland
+MAP_PATHWAY_ICE_01	IJsland Koninkrijk Gevecht
+MAP_PATHWAY_FLAME_03	Vuurland Koninkrijk Gevecht
+MAP_PATHWAY_FLAME_02	Vuurland Koninkrijk Gevecht
+MAP_PATHWAY_FLAME_01	Vuurland Koninkrijk Gevecht
+MAP_PATHWAY_DESERT_03	Woestijnland Koninkrijk Gevecht
+MAP_PATHWAY_DESERT_02	Woestijnland Koninkrijk Gevecht
+MAP_PATHWAY_DESERT_01	Woestijnland Koninkrijk Gevecht
+MAP_OXEVENT	OX-wedstrijd
+MAP_N_THREEWAY	Vallei van Seungryong
+MAP_N_SNOW_DUNGEON_01	Nemeres Uitkijktoren
 MAP_SKELTOWER	Gumsan Toren
+MAP_SKIPIA_DUNGEON_01	Grot der Verbanning
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	Grot der Verbanning 2
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS_3	Spinnenkerker 3
+MAP_SKIPIA_DUNGEON_BOSS_2	Spinnenkerker 2
+MAP_SKIPIA_DUNGEON_BOSS_1	Spinnenkerker 1
+MAP_SKIPIA_DUNGEON_BOSS	Drakentempel
 MAP_SNOW	Berg Sohan
 MAP_SPIDER	Kuahlo Dong
+MAP_T4	Gilde Oorlog Gebied
+MAP_T3	Gilde Oorlog Gebied
+MAP_T2	Gilde Oorlog Gebied
+MAP_T1	Gilde Oorlog Gebied
+MAP_SUNGZI_SNOW_PASS03	IJsland Koninkrijk Gevecht
+MAP_SUNGZI_SNOW_PASS02	IJsland Koninkrijk Gevecht
+MAP_SUNGZI_SNOW_PASS01	IJsland Koninkrijk Gevecht
+MAP_SUNGZI_SNOW	IJsland Koninkrijk Gevecht
+MAP_SUNGZI_FLAME_HILL_03	Vuurland Koninkrijk Gevecht
+MAP_SUNGZI_FLAME_HILL_02	Vuurland Koninkrijk Gevecht
+MAP_SUNGZI_FLAME_HILL_01	Vuurland Koninkrijk Gevecht
+MAP_SUNGZI_DESERT_HILL_03	Woestijnland Koninkrijk Gevecht
+MAP_SUNGZI_DESERT_HILL_02	Woestijnland Koninkrijk Gevecht
+MAP_SUNGZI_DESERT_HILL_01	Woestijnland Koninkrijk Gevecht
+MAP_SUNGZI_DESERT_01	Woestijnland Koninkrijk Gevecht
+MAP_SUNGZI	Koninkrijk Gevecht
+MAP_SPIDERDUNGEON_03	Spinnenkerker 3
+MAP_SPIDERDUNGEON_02_1	Spinnenkerker 2
+MAP_SPIDERDUNGEON_02	Spinnenkerker 2
+MAP_SPIDERDUNGEON	Spinnenkerker 1
 MAP_TEMPLE	Hwang Tempel	
 MAP_THUNDER	Donder Gebergte
 MAP_TREE	Lungsam	
+MAP_TRENT02_A	Rood Bos
+MAP_TRENT02	Rode Bos
+MAP_TRENT	Spoken Woud
 MAP_TRENT_A	
+MAP_WEDDING_01	Trouwkaart
 MAP_WL	Slangenveld
+MAP_WL_01	Slangenveld
 MESSENGER_ADD_FRIEND	Voeg Vriend toe	
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s heeft je als vriend toegevoegd.	
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Accepteren?	

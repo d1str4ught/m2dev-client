@@ -178,6 +178,13 @@ GUILD_TILE_GRADE	Διαχείριση δικαιωμάτων
 GUILD_TILE_INFO	Πληροφορίες Συντεχνίας
 GUILD_TILE_MEMBER	Μέλη Συντεχνίας
 GUILD_TILE_SKILL	Ικανότητα Συντεχνίας
+GUILD_WAR4	Περιοχή πολέμων συντεχνίας
+GUILD_WAR3	Περιοχή πολέμων συντεχνίας
+GUILD_WAR2	Περιοχή πολέμων συντεχνίας
+GUILD_WAR1	Περιοχή πολέμων συντεχνίας
+GUILD_VILLAGE_03	Daeyami
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_01	Miryang
 GUILD_WAR_LIMIT_30MIN	Χρόνος: 30 Λεπτά
 GUILD_WAR_REWARD_POTION	Ανταμοιβή: Ο νικητής κερδίζει ένα Φίλτρο
 GUILD_WAR_USE_BATTLE_MAP	Τόπος: Αρένα πολέμων συντεχνιών
@@ -249,35 +256,112 @@ MAP_AG	Jungrang
 MAP_B1	Περιοχή Joan
 MAP_B2	Κοιλάδα του Imji
 MAP_B3	Περιοχή Bokjung
+MAP_BATTLE_FIELD	Ζώνη μάχης
 MAP_BAY	Κόλπος Νεφρίτη
+MAP_BAYBLACKSAND	Κόλπος Νεφρίτη
 MAP_BG	Waryong
 MAP_C1	Περιοχή Pyungmoo
 MAP_C2	Κοιλάδα του Bangsan
 MAP_C3	Περιοχή Bakra
 MAP_CAPE	Ακρωτήρι της Δρακοφωτιάς
+MAP_CAPEDRAGONHEAD	Ακρωτήρι της Δρακοφωτιάς
 MAP_CG	Imha
+MAP_CZ_DUNGEON	Ζωδιακός Ναός
 MAP_DAWN	Βράχος Γκαουτάμα
+MAP_DAWNMIST_DUNGEON_01	Μαγεμένο Δάσος
+MAP_DAWNMISTWOOD	Βράχος Γκαουτάμα
 MAP_DESERT	Έρημος Yongbi
+MAP_EMPIREWAR03	Μάχη κάστρων
+MAP_EMPIREWAR02	Μάχη κάστρων
+MAP_EMPIREWAR01	Μάχη κάστρων
+MAP_E	Αποικία
+MAP_DUEL	Αρένα για αγώνες κατάρτισης
+MAP_DEVILTOWER1	Δαιμονικός Πύργος
+MAP_DEVILCATACOMB	Κατακόμβη του Διαβόλου
 MAP_FLAME	Doyyumhwan
+MAP_MILGYO	Ναός Hwang
+MAP_HOLYPLACE_ICE	Μάχη των Βασιλείων - Γη των Πάγων
+MAP_HOLYPLACE_FLAME	Μάχη των Βασιλείων - Γη του Πυρός
+MAP_HOLYPLACE_DESERT	Μάχη των Βασιλείων - Έρημος
+MAP_GUILD_03	Imha
+MAP_GUILD_02	Waryong
+MAP_GUILD_01	Jungrang
 MAP_MILGYO_A	
+MAP_MT_TH_DUNGEON_01	Ναός των Οχάο
+MAP_MT_THUNDER	Βουνά Κεραυνού
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON2	Junsun Dong
+MAP_MONKEY_DUNGEON	Hasun Dong
 MAP_NUSLUCK	Χώρα Γιγάντων
+MAP_N_DESERT_01	Έρημος Yongbi
+MAP_NUSLUCK01	Η Χώρα των Γιγάντων
 MAP_N_DESERT_02	
+MAP_N_FLAME_01	Γη του Πυρός
 MAP_N_FLAME_02	
+MAP_N_SNOWM_01	Όρος Sohan
+MAP_N_FLAME_DUNGEON_01	Φρούριο των Κοκκινοδράκων
+MAP_N_FLAME_DRAGON	Φωλιά της Μέλεϊ
 MAP_N_SNOWM_02	
+MAP_PATHWAY_ICE_03	Μάχη των Βασιλείων - Γη των Πάγων
+MAP_PATHWAY_ICE_02	Παιχνιδοχώρα
+MAP_PATHWAY_ICE_01	Μάχη των Βασιλείων - Γη των Πάγων
+MAP_PATHWAY_FLAME_03	Μάχη των Βασιλείων - Γη του Πυρός
+MAP_PATHWAY_FLAME_02	Μάχη των Βασιλείων - Γη του Πυρός
+MAP_PATHWAY_FLAME_01	Μάχη των Βασιλείων - Γη του Πυρός
+MAP_PATHWAY_DESERT_03	Μάχη των Βασιλείων - Έρημος
+MAP_PATHWAY_DESERT_02	Μάχη των Βασιλείων - Έρημος
+MAP_PATHWAY_DESERT_01	Μάχη των Βασιλείων - Έρημος
+MAP_OXEVENT	Διαγωνισμός OX
+MAP_N_THREEWAY	Κοιλάδα του Seungryong
+MAP_N_SNOW_DUNGEON_01	Φυλάκιο του Nemere
 MAP_SKELTOWER	Πύργος Gumsan
+MAP_SKIPIA_DUNGEON_01	Σπηλιά της Εξορίας
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	Σπηλιά της Εξορίας 2
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS_3	Αραχνοσπηλιά 3
+MAP_SKIPIA_DUNGEON_BOSS_2	Αραχνοσπηλιά 2
+MAP_SKIPIA_DUNGEON_BOSS_1	Αραχνοσπηλιά 1
+MAP_SKIPIA_DUNGEON_BOSS	Δωμάτιο Δράκου
 MAP_SNOW	Όρος Sohan
 MAP_SPIDER	Kuahlo Dong
+MAP_T4	Περιοχή πολέμων συντεχνίας
+MAP_T3	Περιοχή πολέμων συντεχνίας
+MAP_T2	Περιοχή πολέμων συντεχνίας
+MAP_T1	Περιοχή πολέμων συντεχνίας
+MAP_SUNGZI_SNOW_PASS03	Μάχη των Βασιλείων - Γη των Πάγων
+MAP_SUNGZI_SNOW_PASS02	Μάχη των Βασιλείων - Γη των Πάγων
+MAP_SUNGZI_SNOW_PASS01	Μάχη των Βασιλείων - Γη των Πάγων
+MAP_SUNGZI_SNOW	Μάχη των Βασιλείων - Γη των Πάγων
+MAP_SUNGZI_FLAME_HILL_03	Μάχη των Βασιλείων - Γη του Πυρός
+MAP_SUNGZI_FLAME_HILL_02	Μάχη των Βασιλείων - Γη του Πυρός
+MAP_SUNGZI_FLAME_HILL_01	Μάχη των Βασιλείων - Γη του Πυρός
+MAP_SUNGZI_DESERT_HILL_03	Μάχη των Βασιλείων - Έρημος
+MAP_SUNGZI_DESERT_HILL_02	Μάχη των Βασιλείων - Έρημος
+MAP_SUNGZI_DESERT_HILL_01	Μάχη των Βασιλείων - Έρημος
+MAP_SUNGZI_DESERT_01	Μάχη των Βασιλείων - Έρημος
+MAP_SUNGZI	Μάχη των Βασιλείων
+MAP_SPIDERDUNGEON_03	Αραχνοσπηλιά 3
+MAP_SPIDERDUNGEON_02_1	Αραχνοσπηλιά 2
+MAP_SPIDERDUNGEON_02	Αραχνοσπηλιά 2
+MAP_SPIDERDUNGEON	Αραχνοσπηλιά 1
 MAP_TEMPLE	Ναός του Hwang
 MAP_THUNDER	Βουνά Κεραυνού
 MAP_TREE	Lungsam
+MAP_TRENT02_A	Κόκκινο Δάσος
+MAP_TRENT02	Κόκκινο Δάσος
+MAP_TRENT	Δάσος των Φαντασμάτων
 MAP_TRENT_A	
+MAP_WEDDING_01	Χάρτης γάμου
 MAP_WL	Κοιλάδα των Φιδιών
+MAP_WL_01	Κοιλάδα φιδιών
 MESSENGER_ADD_FRIEND	Πρόσθεσε Φίλο
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	Ο %s σε πρόσθεσε ως φίλο.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Δέχεσαι;
@@ -683,7 +767,7 @@ TOOLTIP_RESIST_EARTH	Αντίσταση στη γη +%d	SA
 TOOLTIP_RESIST_ELEC	Αντίσταση Αστραπής %d%%	SA
 TOOLTIP_RESIST_FIRE	Αντίσταση Φωτιάς %d%%	SA
 TOOLTIP_RESIST_ICE	Αντίσταση στον πάγο +%d	SA
-TOOLTIP_RESIST_MAGIC	μαγική Αντίσταση %d%%	SA
+TOOLTIP_RESIST_MAGIC	Μαγική Αντίσταση %d%%	SA
 TOOLTIP_REST_USABLE_COUNT	Υπόλοιπο: %d
 TOOLTIP_SELLPRICE	Τιμή: %s
 TOOLTIP_SHAMAN	Σαμάνος

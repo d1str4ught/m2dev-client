@@ -43,6 +43,7 @@ TWO_HANDED_WEAPON_ATT_SPEED_DECREASE_VALUE = 0
 HAIR_COLOR_ENABLE = 1
 ARMOR_SPECULAR_ENABLE = 1
 WEAPON_SPECULAR_ENABLE = 1
+SEQUENCE_PACKET_ENABLE = 1
 KEEP_ACCOUNT_CONNETION_ENABLE = 1
 MINIMAP_POSITIONINFO_ENABLE = 0
 CONVERT_EMPIRE_LANGUAGE_ENABLE = 0
@@ -57,6 +58,9 @@ QUICKSLOT_MAX_NUM = 36
 # MR-3: -- END OF -- Define max quickslot slots number for scripts
 
 isItemQuestionDialog = 0
+
+# Cache for accessory/belt socket timers so they persist across UI reloads.
+ACCESSORY_SOCKET_TIME_CACHE = {}
 
 def GET_ITEM_QUESTION_DIALOG_STATUS():
 	global isItemQuestionDialog

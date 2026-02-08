@@ -178,6 +178,13 @@ GUILD_TILE_GRADE	Drepturi de Administrare
 GUILD_TILE_INFO	Informații breaslă
 GUILD_TILE_MEMBER	Membrii breslei
 GUILD_TILE_SKILL	Calificarea breslei
+GUILD_WAR4	Zona de Lupta Breasla
+GUILD_WAR3	Zona de Lupta Breasla
+GUILD_WAR2	Zona de Lupta Breasla
+GUILD_WAR1	Zona de Lupta Breasla
+GUILD_VILLAGE_03	Daeyami
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_01	Miryang
 GUILD_WAR_LIMIT_30MIN	Timp: 30 de minute
 GUILD_WAR_REWARD_POTION	Recompensă: Câștigătorul primește licori
 GUILD_WAR_USE_BATTLE_MAP	Locație: Câmpul de Luptă al Breslei
@@ -249,35 +256,112 @@ MAP_AG	Jungrang
 MAP_B1	Ținutul Joan
 MAP_B2	Valea Imji
 MAP_B3	Ținutul Bokjung
+MAP_BATTLE_FIELD	Zonă de Război
 MAP_BAY	Trecatoarea Nephrite
+MAP_BAYBLACKSAND	Trecatoarea Nephrite
 MAP_BG	Waryong
 MAP_C1	Ținutul Pyungmoo
 MAP_C2	Valea Bangsan
 MAP_C3	Ținutul Bakra
 MAP_CAPE	Peninsula Dragon de Foc
+MAP_CAPEDRAGONHEAD	Peninsula Dragon de Foc
 MAP_CG	Imha
+MAP_CZ_DUNGEON	Templul Zodiac
 MAP_DAWN	Stancile Gautama
+MAP_DAWNMIST_DUNGEON_01	Pădurea Fermecată
+MAP_DAWNMISTWOOD	Stancile Gautama
 MAP_DESERT	Deșertul Yongbi
+MAP_EMPIREWAR03	Batalie Castel
+MAP_EMPIREWAR02	Batalie Castel
+MAP_EMPIREWAR01	Batalie Castel
+MAP_E	Colonie
+MAP_DUEL	Arena Antrenament de Lupta
+MAP_DEVILTOWER1	Turnul Demonilor
+MAP_DEVILCATACOMB	Catacomba Diavolului
 MAP_FLAME	Doyyumhwan
+MAP_MILGYO	Templul Hwang
+MAP_HOLYPLACE_ICE	Ţara Îngheţată Bătălia Regatelor
+MAP_HOLYPLACE_FLAME	Tara de Foc Batalia Regatului
+MAP_HOLYPLACE_DESERT	Desert Batalia Regatului
+MAP_GUILD_03	Imha
+MAP_GUILD_02	Waryong
+MAP_GUILD_01	Jungrang
 MAP_MILGYO_A	
+MAP_MT_TH_DUNGEON_01	Templul Ochao
+MAP_MT_THUNDER	Muntii Thunder
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON	Hasun Dong
 MAP_NUSLUCK	Taramul Gigantilor
+MAP_N_DESERT_01	Desertul Yongbi
+MAP_NUSLUCK01	Taramul Gigantilor
 MAP_N_DESERT_02	
+MAP_N_FLAME_01	Tara de Foc
 MAP_N_FLAME_02	
+MAP_N_SNOWM_01	Muntele Sohan
+MAP_N_FLAME_DUNGEON_01	Fortăreaţa Dragonului Roşu
+MAP_N_FLAME_DRAGON	Adăpostul lui Meley
 MAP_N_SNOWM_02	
+MAP_PATHWAY_ICE_03	Ţara Îngheţată Bătălia Regatelor
+MAP_PATHWAY_ICE_02	Taramul Jocului
+MAP_PATHWAY_ICE_01	Ţara Îngheţată Bătălia Regatelor
+MAP_PATHWAY_FLAME_03	Tara de Foc Batalia Regatului
+MAP_PATHWAY_FLAME_02	Tara de Foc Batalia Regatului
+MAP_PATHWAY_FLAME_01	Tara de Foc Batalia Regatului
+MAP_PATHWAY_DESERT_03	Desert Batalia Regatului
+MAP_PATHWAY_DESERT_02	Desert Batalia Regatului
+MAP_PATHWAY_DESERT_01	Desert Batalia Regatului
+MAP_OXEVENT	Concurs OX
+MAP_N_THREEWAY	Valea Seungryong
+MAP_N_SNOW_DUNGEON_01	Turnul lui Nemere
 MAP_SKELTOWER	Turnul Gumsan
+MAP_SKIPIA_DUNGEON_01	Grota Exilului
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	Grota Exilului 2
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS_3	Temniţa Păianjenilor 3
+MAP_SKIPIA_DUNGEON_BOSS_2	Temniţa Păianjenilor 2
+MAP_SKIPIA_DUNGEON_BOSS_1	Temniţa Păianjenilor 1
+MAP_SKIPIA_DUNGEON_BOSS	Templul Dragonului
 MAP_SNOW	Muntele Sohan
 MAP_SPIDER	Kuahlo Dong
+MAP_T4	Zona de Lupta Breasla
+MAP_T3	Zona de Lupta Breasla
+MAP_T2	Zona de Lupta Breasla
+MAP_T1	Zona de Lupta Breasla
+MAP_SUNGZI_SNOW_PASS03	Ţara Îngheţată Bătălia Regatelor
+MAP_SUNGZI_SNOW_PASS02	Ţara Îngheţată Bătălia Regatelor
+MAP_SUNGZI_SNOW_PASS01	Ţara Îngheţată Bătălia Regatelor
+MAP_SUNGZI_SNOW	Ţara Îngheţată Bătălia Regatelor
+MAP_SUNGZI_FLAME_HILL_03	Tara de Foc Batalia Regatului
+MAP_SUNGZI_FLAME_HILL_02	Tara de Foc Batalia Regatului
+MAP_SUNGZI_FLAME_HILL_01	Tara de Foc Batalia Regatului
+MAP_SUNGZI_DESERT_HILL_03	Desert Batalia Regatului
+MAP_SUNGZI_DESERT_HILL_02	Desert Batalia Regatului
+MAP_SUNGZI_DESERT_HILL_01	Desert Batalia Regatului
+MAP_SUNGZI_DESERT_01	Desert Batalia Regatului
+MAP_SUNGZI	Batalia Regatului
+MAP_SPIDERDUNGEON_03	Temniţa Păianjenilor 3
+MAP_SPIDERDUNGEON_02_1	Temniţa Păianjenilor 2
+MAP_SPIDERDUNGEON_02	Temniţa Păianjenilor 2
+MAP_SPIDERDUNGEON	Temniţa Păianjenilor 1
 MAP_TEMPLE	Templul Hwang
 MAP_THUNDER	Muntii Thunder
 MAP_TREE	Lungsam
+MAP_TRENT02_A	Padurea Rosie
+MAP_TRENT02	Padurea Rosie
+MAP_TRENT	Padurea Fantoma
 MAP_TRENT_A	
+MAP_WEDDING_01	Harta Casatoriilor
 MAP_WL	Valea Serpilor
+MAP_WL_01	Valea Serpilor
 MESSENGER_ADD_FRIEND	Adaugă prieten
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s te-a acceptat ca prieten.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Accepți?

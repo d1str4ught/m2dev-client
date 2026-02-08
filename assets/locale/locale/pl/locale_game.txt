@@ -178,6 +178,13 @@ GUILD_TILE_GRADE	Zarządzanie Prawami
 GUILD_TILE_INFO	Informacje o Gildii
 GUILD_TILE_MEMBER	Członkowie Gildii
 GUILD_TILE_SKILL	Umiejętności Gildii
+GUILD_WAR4	Obszar Wojny Gildii
+GUILD_WAR3	Obszar Wojny Gildii
+GUILD_WAR2	Obszar Wojny Gildii
+GUILD_WAR1	Obszar Wojny Gildii
+GUILD_VILLAGE_03	Daeyami
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_01	Miryang
 GUILD_WAR_LIMIT_30MIN	Czas: 30 Minut
 GUILD_WAR_REWARD_POTION	Nagroda: Zwycięzca otrzymuje Miksturę
 GUILD_WAR_USE_BATTLE_MAP	Miejsce: Teatr Wojny Gildii
@@ -249,35 +256,112 @@ MAP_AG	Jungrang
 MAP_B1	Strefa Joan
 MAP_B2	Dolina Imji
 MAP_B3	Strefa Bokjung
+MAP_BATTLE_FIELD	Strefa Walki
 MAP_BAY	Nefrytowa Zatoka
+MAP_BAYBLACKSAND	Nefrytowa Zatoka
 MAP_BG	Waryong
 MAP_C1	Strefa Pyungmoo
 MAP_C2	Dolina Bangsan
 MAP_C3	Strefa Bakra
 MAP_CAPE	Przylądek Smoczego Ognia
+MAP_CAPEDRAGONHEAD	Przylądek Smoczego Ognia
 MAP_CG	Imha
+MAP_CZ_DUNGEON	Świątynia Zodiaku
 MAP_DAWN	Klif Gautama
+MAP_DAWNMIST_DUNGEON_01	Zaklęty Las
+MAP_DAWNMISTWOOD	Klif Gautama
 MAP_DESERT	Pustynia Yongbi
+MAP_EMPIREWAR03	Walka o Zamek
+MAP_EMPIREWAR02	Walka o Zamek
+MAP_EMPIREWAR01	Walka o Zamek
+MAP_E	Kolonia
+MAP_DUEL	Arena Treningowa
+MAP_DEVILTOWER1	Wieża Demonów
+MAP_DEVILCATACOMB	Diabelskie Katakumby
 MAP_FLAME	Doyyumhwan
+MAP_MILGYO	Świątynia Hwang
+MAP_HOLYPLACE_ICE	Wojna Królestw - Lodowa Ziemia
+MAP_HOLYPLACE_FLAME	Wojna Królestw - Ognista Ziemia
+MAP_HOLYPLACE_DESERT	Wojna Królestw - Pustynna Kraina
+MAP_GUILD_03	Imha
+MAP_GUILD_02	Waryong
+MAP_GUILD_01	Jungrang
 MAP_MILGYO_A	
+MAP_MT_TH_DUNGEON_01	Świątynia Ochao
+MAP_MT_THUNDER	Gromiste Góry
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON	Hasun Dong
 MAP_NUSLUCK	Kraina Gigantów
+MAP_N_DESERT_01	Pustynia Yongbi
+MAP_NUSLUCK01	Kraina Gigantów
 MAP_N_DESERT_02	
+MAP_N_FLAME_01	Ognista Ziemia
 MAP_N_FLAME_02	
+MAP_N_SNOWM_01	Góra Sohan
+MAP_N_FLAME_DUNGEON_01	Twierdza Czerwonego Smoka
+MAP_N_FLAME_DRAGON	Schronienie Meley
 MAP_N_SNOWM_02	
+MAP_PATHWAY_ICE_03	Wojna Królestw - Lodowa Ziemia
+MAP_PATHWAY_ICE_02	Plac Zabaw
+MAP_PATHWAY_ICE_01	Wojna Królestw - Lodowa Ziemia
+MAP_PATHWAY_FLAME_03	Wojna Królestw - Ognista Ziemia
+MAP_PATHWAY_FLAME_02	Wojna Królestw - Ognista Ziemia
+MAP_PATHWAY_FLAME_01	Wojna Królestw - Ognista Ziemia
+MAP_PATHWAY_DESERT_03	Wojna Królestw - Pustynna Kraina
+MAP_PATHWAY_DESERT_02	Wojna Królestw - Pustynna Kraina
+MAP_PATHWAY_DESERT_01	Wojna Królestw - Pustynna Kraina
+MAP_OXEVENT	Konkurs OX
+MAP_N_THREEWAY	Dolina Seungryong
+MAP_N_SNOW_DUNGEON_01	Strażnica Nemere
 MAP_SKELTOWER	Wieża Gumsan
+MAP_SKIPIA_DUNGEON_01	Grota Wygnańców
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	Grota Wygnańców
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS_3	Loch Pająków 3
+MAP_SKIPIA_DUNGEON_BOSS_2	Loch Pająków 2
+MAP_SKIPIA_DUNGEON_BOSS_1	Loch Pająków 1
+MAP_SKIPIA_DUNGEON_BOSS	Świątynia Smoka
 MAP_SNOW	Góra Sohan
 MAP_SPIDER	Kuahlo Dong
+MAP_T4	Obszar Wojny Gildii
+MAP_T3	Obszar Wojny Gildii
+MAP_T2	Obszar Wojny Gildii
+MAP_T1	Obszar Wojny Gildii
+MAP_SUNGZI_SNOW_PASS03	Wojna Królestw - Lodowa Ziemia
+MAP_SUNGZI_SNOW_PASS02	Wojna Królestw - Lodowa Ziemia
+MAP_SUNGZI_SNOW_PASS01	Wojna Królestw - Lodowa Ziemia
+MAP_SUNGZI_SNOW	Wojna Królestw - Lodowa Ziemia
+MAP_SUNGZI_FLAME_HILL_03	Wojna Królestw - Ognista Ziemia
+MAP_SUNGZI_FLAME_HILL_02	Wojna Królestw - Ognista Ziemia
+MAP_SUNGZI_FLAME_HILL_01	Wojna Królestw - Ognista Ziemia
+MAP_SUNGZI_DESERT_HILL_03	Wojna Królestw - Pustynny Kraj
+MAP_SUNGZI_DESERT_HILL_02	Wojna Królestw - Pustynny Kraj
+MAP_SUNGZI_DESERT_HILL_01	Wojna Królestw - Pustynny Kraj
+MAP_SUNGZI_DESERT_01	Wojna Królestw - Pustynny Kraj
+MAP_SUNGZI	Wojna Królestw
+MAP_SPIDERDUNGEON_03	Loch Pająków 3
+MAP_SPIDERDUNGEON_02_1	Loch Pająków 2
+MAP_SPIDERDUNGEON_02	Loch Pająków 2
+MAP_SPIDERDUNGEON	Loch Pająków 1
 MAP_TEMPLE	Świątynia Hwang
 MAP_THUNDER	Gromiste Góry
 MAP_TREE	Lungsam
+MAP_TRENT02_A	Czerwony Las
+MAP_TRENT02	Czerwony Las
+MAP_TRENT	Las Duchów
 MAP_TRENT_A	
+MAP_WEDDING_01	Mapa Wesela
 MAP_WL	Wężowe Pole
+MAP_WL_01	Wężowe Pole
 MESSENGER_ADD_FRIEND	Dodaj Przyjaciela
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s dodał Cię jako przyjaciela.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Zaakceptować?
@@ -326,7 +410,7 @@ PARTY_DO_YOU_JOIN	,  zaprasza Cię do swojej grupy. Czy chcesz przyjąć zaprosz
 PARTY_EXP_DISTRIBUTION_MODE	Podział DOŚ
 PARTY_EXP_DISTRIBUTION_MODE_LEVEL	zależy od poziomu
 PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	Członkowie grupy o wyższym poziomie otrzymują więcej PD.
-PARTY_EXP_DISTRIBUTION_MODE_PARITY	równo
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	Równo
 PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	Wszyscy otrzymują taką samą ilość PD.
 PARTY_HEAL_ALL_MEMBER	Odnów wszystko.
 PARTY_INCREASE_AREA_150	Zasięg grupy zwiększony o współczynnik 1,5.	SNA

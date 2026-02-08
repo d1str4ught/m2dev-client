@@ -10,7 +10,6 @@ import math
 
 # WEDDING
 class LovePointImage(ui.ExpandedImageBox):
-
 	FILE_PATH = "d:/ymir work/ui/pattern/LovePoint/"
 	FILE_DICT = {
 		0 : FILE_PATH + "01.dds",
@@ -50,7 +49,8 @@ class LovePointImage(ui.ExpandedImageBox):
 			loveGrade = 0
 		else:
 			loveGrade = self.lovePoint / 25 + 1
-		fileName = self.FILE_DICT.get(loveGrade, self.FILE_PATH+"00.dds")
+
+		fileName = self.FILE_DICT.get(loveGrade, self.FILE_PATH + "00.dds")
 
 		try:
 			self.LoadImage(fileName)
@@ -74,26 +74,24 @@ class LovePointImage(ui.ExpandedImageBox):
 
 
 class HorseImage(ui.ExpandedImageBox):
-
 	FILE_PATH = "d:/ymir work/ui/pattern/HorseState/"
-
 	FILE_DICT = {
-		00 : FILE_PATH+"00.dds",
-		01 : FILE_PATH+"00.dds",
-		02 : FILE_PATH+"00.dds",
-		03 : FILE_PATH+"00.dds",
-		10 : FILE_PATH+"10.dds",
-		11 : FILE_PATH+"11.dds",
-		12 : FILE_PATH+"12.dds",
-		13 : FILE_PATH+"13.dds",
-		20 : FILE_PATH+"20.dds",
-		21 : FILE_PATH+"21.dds",
-		22 : FILE_PATH+"22.dds",
-		23 : FILE_PATH+"23.dds",
-		30 : FILE_PATH+"30.dds",
-		31 : FILE_PATH+"31.dds",
-		32 : FILE_PATH+"32.dds",
-		33 : FILE_PATH+"33.dds",
+		00 : FILE_PATH + "00.dds",
+		01 : FILE_PATH + "00.dds",
+		02 : FILE_PATH + "00.dds",
+		03 : FILE_PATH + "00.dds",
+		10 : FILE_PATH + "10.dds",
+		11 : FILE_PATH + "11.dds",
+		12 : FILE_PATH + "12.dds",
+		13 : FILE_PATH + "13.dds",
+		20 : FILE_PATH + "20.dds",
+		21 : FILE_PATH + "21.dds",
+		22 : FILE_PATH + "22.dds",
+		23 : FILE_PATH + "23.dds",
+		30 : FILE_PATH + "30.dds",
+		31 : FILE_PATH + "31.dds",
+		32 : FILE_PATH + "32.dds",
+		33 : FILE_PATH + "33.dds",
 	}
 
 	def __init__(self):
@@ -219,6 +217,7 @@ class AutoPotionImage(ui.ExpandedImageBox):
 			
 		if 80.0 < amountPercent:
 			grade = 4
+
 			if 90.0 < amountPercent:
 				grade = 5			
 
@@ -236,14 +235,27 @@ class AutoPotionImage(ui.ExpandedImageBox):
 		self.SetScale(0.7, 0.7)
 
 		self.toolTip.ClearToolTip()
-		
-		if player.AUTO_POTION_TYPE_HP == type:
+
+		# MR-10: Add toolTip support and real-time countdown for affects
+		itemName = None
+
+		if slotIndex >= 0:
+			itemVnum = player.GetItemIndex(slotIndex)
+
+			if itemVnum:
+				item.SelectItem(itemVnum)
+				itemName = item.GetItemName()
+
+		if itemName:
+			self.toolTip.SetTitle(itemName)
+		elif player.AUTO_POTION_TYPE_HP == self.potionType:
 			self.toolTip.SetTitle(localeInfo.TOOLTIP_AUTO_POTION_HP)
 		else:
 			self.toolTip.SetTitle(localeInfo.TOOLTIP_AUTO_POTION_SP)
-			
-		self.toolTip.AppendTextLine(localeInfo.TOOLTIP_AUTO_POTION_REST	% (amountPercent))
+
+		self.toolTip.AppendTextLine(localeInfo.TOOLTIP_AUTO_POTION_REST % (amountPercent))
 		self.toolTip.ResizeToolTip()
+		# MR-10: -- END OF -- Add toolTip support and real-time countdown for affects
 
 	def OnMouseOverIn(self):
 		self.toolTip.ShowToolTip()
@@ -259,11 +271,18 @@ class AffectImage(ui.ExpandedImageBox):
 		ui.ExpandedImageBox.__init__(self)
 
 		self.toolTipText = None
+		# MR-10: Add toolTip support and real-time countdown for affects
+		self.toolTip = None
+		self.dsTimeCache = {}
+		self.isHover = FALSE
+		# MR-10: -- END OF -- Add toolTip support and real-time countdown for affects
 		self.isSkillAffect = TRUE
 		self.description = None
 		self.endTime = 0
 		self.affect = None
 		self.isClocked = TRUE
+		self.autoPotionToolTipTitle = None
+		self.autoPotionToolTipLine = None
 
 	def SetAffect(self, affect):
 		self.affect = affect
@@ -275,30 +294,34 @@ class AffectImage(ui.ExpandedImageBox):
 
 		if not self.toolTipText:
 			textLine = ui.TextLine()
+
 			textLine.SetParent(self)
 			textLine.SetSize(0, 0)
 			textLine.SetOutline()
 			textLine.Hide()
+
 			self.toolTipText = textLine
 			
 		self.toolTipText.SetText(text)
+
 		w, h = self.toolTipText.GetTextSize()
-		self.toolTipText.SetPosition(max(0, x + self.GetWidth()/2 - w/2), y)
+		self.toolTipText.SetPosition(max(0, x + self.GetWidth() / 2 - w / 2), y)
 
 	def SetDescription(self, description):
 		self.description = description
 
 	def SetDuration(self, duration):
 		self.endTime = 0
+
+		# MR-10: Add toolTip support and real-time countdown for affects
 		if duration > 0:
 			self.endTime = app.GetGlobalTimeStamp() + duration
-			leftTime = localeInfo.RTSecondToDHMS(self.endTime - app.GetGlobalTimeStamp())
-			self.toolTip.AppendTextLine("(%s : %s)" % (localeInfo.LEFT_TIME, leftTime))
-			self.toolTip.ResizeToolTip()
+		# MR-10: -- END OF -- Add toolTip support and real-time countdown for affects
 
 	def UpdateAutoPotionDescription(self):		
 		
 		potionType = 0
+
 		if self.affect == chr.NEW_AFFECT_AUTO_HP_RECOVERY:
 			potionType = player.AUTO_POTION_TYPE_HP
 		else:
@@ -315,21 +338,159 @@ class AffectImage(ui.ExpandedImageBox):
 		except:
 			amountPercent = 100.0
 		
-		self.SetToolTipText(self.description % amountPercent, 0, 40)
+		# MR-10: Add toolTip support and real-time countdown for affects
+		if not self.isHover:
+			return
+
+		self.__EnsureToolTip()
+
+		itemName = None
+
+		if slotIndex >= 0:
+			itemVnum = player.GetItemIndex(slotIndex)
+
+			if itemVnum:
+				item.SelectItem(itemVnum)
+				itemName = item.GetItemName()
+
+		if itemName:
+			title = itemName
+		elif player.AUTO_POTION_TYPE_HP == potionType:
+			title = localeInfo.TOOLTIP_AUTO_POTION_HP
+		else:
+			title = localeInfo.TOOLTIP_AUTO_POTION_SP
+
+		line = self.description % amountPercent
+
+		if self.autoPotionToolTipTitle == title and self.autoPotionToolTipLine == line:
+			return
+
+		self.toolTip.ClearToolTip()
+		self.toolTip.SetTitle(title)
+		self.toolTip.AppendTextLine(line)
+		self.toolTip.ResizeToolTip()
+		self.autoPotionToolTipTitle = title
+		self.autoPotionToolTipLine = line
+		# MR-10: -- END OF -- Add toolTip support and real-time countdown for affects
 		
 	def SetClock(self, isClocked):
 		self.isClocked = isClocked
 		
+	# MR-10: Add toolTip support and real-time countdown for affects
 	def UpdateDescription(self):
+		if self.__IsDragonSoulAffect():
+			if self.isHover:
+				self.__UpdateDragonSoulDescription()
+				if self.toolTip:
+					self.toolTip.ShowToolTip()
+			return
+
 		if not self.isClocked:
+			self.__UpdateDescription2()
 			return
 
 		if not self.description:
 			return
 
-		if self.endTime > 0:
-			leftTime = localeInfo.RTSecondToDHMS(self.endTime - app.GetGlobalTimeStamp())
-			self.toolTip.childrenList[-1].SetText("(%s : %s)" % (localeInfo.LEFT_TIME, leftTime))
+		if self.__ShouldShowTimedToolTip():
+			if self.isHover:
+				remainSec = max(0, self.endTime - app.GetGlobalTimeStamp())
+				self.__UpdateTimedDescription(remainSec)
+				if self.toolTip:
+					self.toolTip.ShowToolTip()
+			return
+
+		self.SetToolTipText(self.description, 0, 40)
+		
+	#독일버전에서 시간을 제거하기 위해서 사용 
+	def __UpdateDescription2(self):
+		if not self.description:
+			return
+
+		toolTip = self.description
+		self.SetToolTipText(toolTip, 0, 40)
+
+	def __EnsureToolTip(self):
+		if not self.toolTip:
+			self.toolTip = uiToolTip.ToolTip(100)
+			self.toolTip.HideToolTip()
+
+	def __IsAutoPotionAffect(self):
+		return self.affect in (chr.NEW_AFFECT_AUTO_HP_RECOVERY, chr.NEW_AFFECT_AUTO_SP_RECOVERY)
+
+	def __ShouldShowTimedToolTip(self):
+		return self.isClocked and self.endTime > 0 and not self.__IsAutoPotionAffect()
+
+	def __UpdateTimedDescription(self, remainSec):
+		if not self.description:
+			return
+
+		self.__EnsureToolTip()
+		self.toolTip.ClearToolTip()
+		self.toolTip.SetTitle(self.description)
+		self.toolTip.AppendTextLine("(%s : %s)" % (localeInfo.LEFT_TIME, localeInfo.RTSecondToDHMS(remainSec)))
+		self.toolTip.ResizeToolTip()
+
+	def __IsDragonSoulAffect(self):
+		return self.affect in (chr.NEW_AFFECT_DRAGON_SOUL_DECK1, chr.NEW_AFFECT_DRAGON_SOUL_DECK2)
+
+	def __GetDragonSoulMinRemainSec(self):
+		deckIndex = 0 if self.affect == chr.NEW_AFFECT_DRAGON_SOUL_DECK1 else 1
+		now = app.GetGlobalTimeStamp()
+		minRemain = None
+
+		for i in xrange(6):
+			slotNumber = deckIndex * player.DRAGON_SOUL_EQUIPMENT_FIRST_SIZE + (player.DRAGON_SOUL_EQUIPMENT_SLOT_START + i)
+			itemVnum = player.GetItemIndex(slotNumber)
+			if itemVnum == 0:
+				continue
+
+			item.SelectItem(itemVnum)
+			remainSec = None
+
+			for j in xrange(item.LIMIT_MAX_NUM):
+				(limitType, limitValue) = item.GetLimit(j)
+
+				if item.LIMIT_REAL_TIME == limitType or item.LIMIT_REAL_TIME_START_FIRST_USE == limitType:
+					endTime = player.GetItemMetinSocket(player.INVENTORY, slotNumber, 0)
+					remainSec = endTime - now
+					break
+
+				if item.LIMIT_TIMER_BASED_ON_WEAR == limitType:
+					rawRemain = player.GetItemMetinSocket(player.INVENTORY, slotNumber, 0)
+					cacheKey = (slotNumber, itemVnum)
+					cache = self.dsTimeCache.get(cacheKey)
+					if cache and cache["remainSec"] == rawRemain:
+						remainSec = cache["endTime"] - now
+					else:
+						endTime = now + rawRemain
+						self.dsTimeCache[cacheKey] = {"remainSec": rawRemain, "endTime": endTime}
+						remainSec = endTime - now
+					break
+
+			if remainSec is None or remainSec <= 0:
+				continue
+
+			if minRemain is None or remainSec < minRemain:
+				minRemain = remainSec
+
+		return minRemain
+
+	def __UpdateDragonSoulDescription(self):
+		if not self.description:
+			return
+
+		minRemain = self.__GetDragonSoulMinRemainSec()
+
+		self.__EnsureToolTip()
+		self.toolTip.ClearToolTip()
+		self.toolTip.SetTitle(self.description)
+
+		if minRemain is not None:
+			self.toolTip.AppendTextLine("(%s : %s)" % (localeInfo.LEFT_TIME, localeInfo.RTSecondToDHMS(minRemain)))
+
+		self.toolTip.ResizeToolTip()
+	# MR-10: -- END OF -- Add toolTip support and real-time countdown for affects
 
 	def SetSkillAffectFlag(self, flag):
 		self.isSkillAffect = flag
@@ -337,13 +498,37 @@ class AffectImage(ui.ExpandedImageBox):
 	def IsSkillAffect(self):
 		return self.isSkillAffect
 
+	# MR-10: Add toolTip support and real-time countdown for affects
 	def OnMouseOverIn(self):
+		self.isHover = TRUE
+		if self.__IsAutoPotionAffect():
+			self.UpdateAutoPotionDescription()
+			if self.toolTip:
+				self.toolTip.ShowToolTip()
+			return
+		if self.__IsDragonSoulAffect():
+			self.__UpdateDragonSoulDescription()
+			if self.toolTip:
+				self.toolTip.ShowToolTip()
+			return
+		if self.__ShouldShowTimedToolTip():
+			remainSec = max(0, self.endTime - app.GetGlobalTimeStamp())
+			self.__UpdateTimedDescription(remainSec)
+			if self.toolTip:
+				self.toolTip.ShowToolTip()
+			return
 		if self.toolTipText:
 			self.toolTipText.Show()
 
 	def OnMouseOverOut(self):
+		self.isHover = FALSE
+
+		if self.toolTip:
+			self.toolTip.HideToolTip()
+
 		if self.toolTipText:
 			self.toolTipText.Hide()
+	# MR-10: -- END OF -- Add toolTip support and real-time countdown for affects
 
 class AffectShower(ui.Window):
 
@@ -402,19 +587,20 @@ class AffectShower(ui.Window):
 			#chr.NEW_AFFECT_AUTO_HP_RECOVERY : (localeInfo.TOOLTIP_AUTO_POTION_REST, "d:/ymir work/ui/skill/common/affect/gold_premium.sub"),			
 			#chr.NEW_AFFECT_AUTO_SP_RECOVERY : (localeInfo.TOOLTIP_AUTO_POTION_REST, "d:/ymir work/ui/skill/common/affect/gold_bonus.sub"),			
 
-			MALL_DESC_IDX_START+player.POINT_MALL_ATTBONUS : (localeInfo.TOOLTIP_MALL_ATTBONUS_STATIC, "d:/ymir work/ui/skill/common/affect/att_bonus.sub",),
-			MALL_DESC_IDX_START+player.POINT_MALL_DEFBONUS : (localeInfo.TOOLTIP_MALL_DEFBONUS_STATIC, "d:/ymir work/ui/skill/common/affect/def_bonus.sub",),
-			MALL_DESC_IDX_START+player.POINT_MALL_EXPBONUS : (localeInfo.TOOLTIP_MALL_EXPBONUS, "d:/ymir work/ui/skill/common/affect/exp_bonus.sub",),
-			MALL_DESC_IDX_START+player.POINT_MALL_ITEMBONUS : (localeInfo.TOOLTIP_MALL_ITEMBONUS, "d:/ymir work/ui/skill/common/affect/item_bonus.sub",),
-			MALL_DESC_IDX_START+player.POINT_MALL_GOLDBONUS : (localeInfo.TOOLTIP_MALL_GOLDBONUS, "d:/ymir work/ui/skill/common/affect/gold_bonus.sub",),
-			MALL_DESC_IDX_START+player.POINT_CRITICAL_PCT : (localeInfo.TOOLTIP_APPLY_CRITICAL_PCT,"d:/ymir work/ui/skill/common/affect/critical.sub"),
-			MALL_DESC_IDX_START+player.POINT_PENETRATE_PCT : (localeInfo.TOOLTIP_APPLY_PENETRATE_PCT, "d:/ymir work/ui/skill/common/affect/gold_premium.sub"),
-			MALL_DESC_IDX_START+player.POINT_MAX_HP_PCT : (localeInfo.TOOLTIP_MAX_HP_PCT, "d:/ymir work/ui/skill/common/affect/gold_premium.sub"),
-			MALL_DESC_IDX_START+player.POINT_MAX_SP_PCT : (localeInfo.TOOLTIP_MAX_SP_PCT, "d:/ymir work/ui/skill/common/affect/gold_premium.sub"),	
+			MALL_DESC_IDX_START + player.POINT_MALL_ATTBONUS : (localeInfo.TOOLTIP_MALL_ATTBONUS_STATIC, "d:/ymir work/ui/skill/common/affect/att_bonus.sub",),
+			MALL_DESC_IDX_START + player.POINT_MALL_DEFBONUS : (localeInfo.TOOLTIP_MALL_DEFBONUS_STATIC, "d:/ymir work/ui/skill/common/affect/def_bonus.sub",),
+			MALL_DESC_IDX_START + player.POINT_MALL_EXPBONUS : (localeInfo.TOOLTIP_MALL_EXPBONUS, "d:/ymir work/ui/skill/common/affect/exp_bonus.sub",),
+			MALL_DESC_IDX_START + player.POINT_MALL_ITEMBONUS : (localeInfo.TOOLTIP_MALL_ITEMBONUS, "d:/ymir work/ui/skill/common/affect/item_bonus.sub",),
+			MALL_DESC_IDX_START + player.POINT_MALL_GOLDBONUS : (localeInfo.TOOLTIP_MALL_GOLDBONUS, "d:/ymir work/ui/skill/common/affect/gold_bonus.sub",),
+			MALL_DESC_IDX_START + player.POINT_CRITICAL_PCT : (localeInfo.TOOLTIP_APPLY_CRITICAL_PCT,"d:/ymir work/ui/skill/common/affect/critical.sub"),
+			MALL_DESC_IDX_START + player.POINT_PENETRATE_PCT : (localeInfo.TOOLTIP_APPLY_PENETRATE_PCT, "d:/ymir work/ui/skill/common/affect/gold_premium.sub"),
+			MALL_DESC_IDX_START + player.POINT_MAX_HP_PCT : (localeInfo.TOOLTIP_MAX_HP_PCT, "d:/ymir work/ui/skill/common/affect/gold_premium.sub"),
+			MALL_DESC_IDX_START + player.POINT_MAX_SP_PCT : (localeInfo.TOOLTIP_MAX_SP_PCT, "d:/ymir work/ui/skill/common/affect/gold_premium.sub"),	
 
-			MALL_DESC_IDX_START+player.POINT_PC_BANG_EXP_BONUS : (localeInfo.TOOLTIP_MALL_EXPBONUS_P_STATIC, "d:/ymir work/ui/skill/common/affect/EXP_Bonus_p_on.sub",),
-			MALL_DESC_IDX_START+player.POINT_PC_BANG_DROP_BONUS: (localeInfo.TOOLTIP_MALL_ITEMBONUS_P_STATIC, "d:/ymir work/ui/skill/common/affect/Item_Bonus_p_on.sub",),
+			MALL_DESC_IDX_START + player.POINT_PC_BANG_EXP_BONUS : (localeInfo.TOOLTIP_MALL_EXPBONUS_P_STATIC, "d:/ymir work/ui/skill/common/affect/EXP_Bonus_p_on.sub",),
+			MALL_DESC_IDX_START + player.POINT_PC_BANG_DROP_BONUS: (localeInfo.TOOLTIP_MALL_ITEMBONUS_P_STATIC, "d:/ymir work/ui/skill/common/affect/Item_Bonus_p_on.sub",),
 	}
+
 	if app.ENABLE_DRAGON_SOUL_SYSTEM:
 		# ��ȥ�� õ, �� ��.
 		AFFECT_DATA_DICT[chr.NEW_AFFECT_DRAGON_SOUL_DECK1] = (localeInfo.TOOLTIP_DRAGON_SOUL_DECK1, "d:/ymir work/ui/dragonsoul/buff_ds_sky1.tga")
@@ -680,9 +866,12 @@ class AffectShower(ui.Window):
 
 	def OnUpdate(self):		
 		try:
-			if app.GetGlobalTime() - self.lastUpdateTime > 500:
+			curTime = app.GetGlobalTime()
+			if curTime < self.lastUpdateTime:
+				self.lastUpdateTime = 0
+			if curTime - self.lastUpdateTime > 500:
 			#if 0 < app.GetGlobalTime():
-				self.lastUpdateTime = app.GetGlobalTime()
+				self.lastUpdateTime = curTime
 
 				for image in self.affectImageDict.values():
 					if image.GetAffect() == chr.NEW_AFFECT_AUTO_HP_RECOVERY or image.GetAffect() == chr.NEW_AFFECT_AUTO_SP_RECOVERY:

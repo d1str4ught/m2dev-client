@@ -185,6 +185,13 @@ GUILD_WAR_WIN_CHECK_SCORE	Die Gilde mit den meisten Siegen gewinnt den Krieg.
 GUILD_WAR_WIN_TAKE_AWAY_FLAG1	Erobere die Flagge des Gegners
 GUILD_WAR_WIN_TAKE_AWAY_FLAG2	und bringe sie zu deiner Basis.
 GUILD_WAR_WIN_WIPE_OUT_GUILD	Besiege alle Gegner, um zu gewinnen.
+GUILD_VILLAGE_01	Miryang
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_03	Daeyami
+GUILD_WAR1	Gildenkrieg-Gelände
+GUILD_WAR2	Gildenkrieg-Gelände
+GUILD_WAR3	Gildenkrieg-Gelände
+GUILD_WAR4	Gildenkrieg-Gelände
 GUILD_WITHDRAW	Rückzug
 GUILD_YOU_DO_NOT_JOIN	Du gehörst keiner Gilde an.
 HORSE_HEALTH0	Tot
@@ -241,29 +248,118 @@ MALL_CANNOT_INSERT	Du kannst den Gegenstand nicht platzieren.
 MALL_PASSWORD_TITLE	Kennwort
 MAP_A1	Gebiet Yongan
 MAP_A2	Tal von Seungryong
+MAP_A2_1	None7
 MAP_A3	Gebiet Jayang
 MAP_AG	Jungrang
 MAP_B1	Gebiet Joan
 MAP_B2	Tal von Imji
 MAP_B3	Gebiet Bokjung
+MAP_BATTLE_FIELD	Kampfzone
 MAP_BAY	Nephritbucht
+MAP_BAYBLACKSAND	Nephritbucht
 MAP_BG	Waryong
 MAP_C1	Gebiet Pyungmoo
 MAP_C2	Tal von Bangsan
 MAP_C3	Gebiet Bakra
 MAP_CAPE	Kap des Drachenfeuers
+MAP_CAPEDRAGONHEAD	Kap des Drachenfeuers
 MAP_CG	Imha
+MAP_CZ_DUNGEON	Zodiak-Tempel
 MAP_DAWN	Gautamakliff
+MAP_DAWNMISTWOOD	Gautamakliff
+MAP_DAWNMIST_DUNGEON_01	Verwunschener Wald
 MAP_DESERT	Yongbi-Wüste
+MAP_DEVILCATACOMB	Devil's Catacomb
+MAP_DEVILTOWER1	Dämonenturm
+MAP_DUEL	Arena für Übungskämpfe
+MAP_E	Kolonie
+MAP_EMPIREWAR01	Burgschlacht
+MAP_EMPIREWAR02	Burgschlacht
+MAP_EMPIREWAR03	Burgschlacht
 MAP_FLAME	Doyyumhwan
+MAP_GUILD_01	Jungrang
+MAP_GUILD_02	Waryong
+MAP_GUILD_03	Imha
+MAP_HOLYPLACE_DESERT	Reichsschlacht-Wüstenland
+MAP_HOLYPLACE_FLAME	Reichsschlacht-Feuerland
+MAP_HOLYPLACE_ICE	Reichsschlacht-Eisland
+MAP_MILGYO	Hwang-Tempel
+MAP_MILGYO_A	None8
+MAP_MONKEY_DUNGEON	Hasun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MT_THUNDER	Donnerberge
+MAP_MT_TH_DUNGEON_01	Tempel der Ochao
 MAP_NUSLUCK	Land d. Riesen
+MAP_NUSLUCK01	Land der Riesen
+MAP_N_DESERT_01	Yongbi-Wüste
+MAP_N_DESERT_02	None6
+MAP_N_FLAME_01	Feuerland
+MAP_N_FLAME_02	None5
+MAP_N_FLAME_DRAGON	Meleys Hort
+MAP_N_FLAME_DUNGEON_01	Rotdrachen-Festung
+MAP_N_SNOWM_01	Berg Sohan
+MAP_N_SNOWM_02	None4
+MAP_N_SNOW_DUNGEON_01	Nemeres Warte
+MAP_N_THREEWAY	Tal von Seungryong
+MAP_OXEVENT	OX-Wettbewerb
+MAP_PATHWAY_DESERT_01	Reichsschlacht-Wüstenland
+MAP_PATHWAY_DESERT_02	Reichsschlacht-Wüstenland
+MAP_PATHWAY_DESERT_03	Reichsschlacht-Wüstenland
+MAP_PATHWAY_FLAME_01	Reichsschlacht-Feuerland
+MAP_PATHWAY_FLAME_02	Reichsschlacht-Feuerland
+MAP_PATHWAY_FLAME_03	Reichsschlacht-Feuerland
+MAP_PATHWAY_ICE_01	Reichsschlacht-Eisland
+MAP_PATHWAY_ICE_02	Spiellatz
+MAP_PATHWAY_ICE_03	Reichsschlacht-Eisland
 MAP_SKELTOWER	Gumsan-Turm
+MAP_SKIPIA_DUNGEON_01	Grotte der Verbannung
+MAP_SKIPIA_DUNGEON_011	None10
+MAP_SKIPIA_DUNGEON_012	None12
+MAP_SKIPIA_DUNGEON_013	None14
+MAP_SKIPIA_DUNGEON_02	Grotte der Verbannung 2
+MAP_SKIPIA_DUNGEON_021	None11
+MAP_SKIPIA_DUNGEON_022	None13
+MAP_SKIPIA_DUNGEON_023	None15
+MAP_SKIPIA_DUNGEON_BOSS	Drachenraum
+MAP_SKIPIA_DUNGEON_BOSS_1	Spinnendungeon 1
+MAP_SKIPIA_DUNGEON_BOSS_2	Spinnendungeon 2
+MAP_SKIPIA_DUNGEON_BOSS_3	Spinnendungeon 3
 MAP_SNOW	Berg Sohan
 MAP_SPIDER	Kuahlo Dong
+MAP_SPIDERDUNGEON	Spinnendungeon 1
+MAP_SPIDERDUNGEON_02	Spinnendungeon 2
+MAP_SPIDERDUNGEON_02_1	Spinnendungeon 2
+MAP_SPIDERDUNGEON_03	Spinnendungeon 3
+MAP_SUNGZI	Reichsschlacht
+MAP_SUNGZI_DESERT_01	Reichsschlacht-Wüstenland
+MAP_SUNGZI_DESERT_HILL_01	Reichsschlacht-Wüstenland
+MAP_SUNGZI_DESERT_HILL_02	Reichsschlacht-Wüstenland
+MAP_SUNGZI_DESERT_HILL_03	Reichsschlacht-Wüstenland
+MAP_SUNGZI_FLAME_HILL_01	Reichsschlacht-Feuerland
+MAP_SUNGZI_FLAME_HILL_02	Reichsschlacht-Feuerland
+MAP_SUNGZI_FLAME_HILL_03	Reichsschlacht-Feuerland
+MAP_SUNGZI_SNOW	Reichsschlacht-Eisland
+MAP_SUNGZI_SNOW_PASS01	Reichsschlacht-Eisland
+MAP_SUNGZI_SNOW_PASS02	Reichsschlacht-Eisland
+MAP_SUNGZI_SNOW_PASS03	Reichsschlacht-Eisland
+MAP_T1	Gildenkrieg-Gelände
+MAP_T2	Gildenkrieg-Gelände
+MAP_T3	Gildenkrieg-Gelände
+MAP_T4	Gildenkrieg-Gelände
 MAP_TEMPLE	Hwang-Tempel
 MAP_THUNDER	Donnerberge
 MAP_TREE	Lungsam
+MAP_TRENT	Geisterwald
+MAP_TRENT02	Roter Wald
+MAP_TRENT02_A	Roter Wald
+MAP_TRENT_A	None9
+MAP_WEDDING_01	Hochzeitsmap
 MAP_WL	Schlangenfeld
+MAP_WL_01	Schlangenfeld
 MESSENGER_ADD_FRIEND	Freund hinzufügen
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s hat dich als Freund aufgenommen.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Annehmen?
@@ -279,6 +375,7 @@ MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Gib die Handynr. für den SMS-Versand ein.
 MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Möchtest du die Nummer jetzt eingeben?
 MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Handynummer eingeben
 MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Nachricht senden.
+METIN_TEST	GM TEST
 MINIMAP	Minikarte öffnen
 MINIMAP_CANNOT_SEE	Minikarte kann nicht angezeigt werden.
 MINIMAP_CAN_NOT_SHOW_AREAMAP	Übersichtskarte kann nicht angezeigt werden.
@@ -311,7 +408,7 @@ PARTY_DO_YOU_JOIN	 hat dich in seine Gruppe eingeladen. Annehmen?
 PARTY_EXP_DISTRIBUTION_MODE	EXP-Verteilung
 PARTY_EXP_DISTRIBUTION_MODE_LEVEL	levelabhängig
 PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	Gruppenmitglieder höherer Level erhalten mehr EXP.
-PARTY_EXP_DISTRIBUTION_MODE_PARITY	gleichmäßig
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	Gleichmäßig
 PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	Alle Gruppenmitglieder erhalten gleich viele EXP.
 PARTY_HEAL_ALL_MEMBER	Alles wiederherstellen
 PARTY_INCREASE_AREA_150	Reichweite der Gruppe um Faktor 1,5 erhöht.	SNA

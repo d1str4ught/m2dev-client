@@ -178,6 +178,13 @@ GUILD_TILE_GRADE	Administração de Permissões
 GUILD_TILE_INFO	Informação da Guild
 GUILD_TILE_MEMBER	Membros da Guild
 GUILD_TILE_SKILL	Habilidades de Guild
+GUILD_VILLAGE_01	Miryang
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_03	Daeyami
+GUILD_WAR1	Área de Guerras de Guilds
+GUILD_WAR2	Área de Guerras de Guilds
+GUILD_WAR3	Área de Guerras de Guilds
+GUILD_WAR4	Área de Guerras de Guilds
 GUILD_WAR_LIMIT_30MIN	Duração: 30 Minutos
 GUILD_WAR_REWARD_POTION	Recompensa: O vencedor recebe uma Poção.
 GUILD_WAR_USE_BATTLE_MAP	Localização: Arena de Guerra
@@ -244,26 +251,77 @@ MALL_PASSWORD_TITLE	Palavra-passe
 MAP_A1	Área Yongan
 MAP_A2	Vale de Seungryong
 MAP_A2_1	
+MAP_A2_1	
 MAP_A3	Área Yayang
 MAP_AG	Jungrang
 MAP_B1	Área Joan
 MAP_B2	Vale Imji
 MAP_B3	Área Bokjung
+MAP_BATTLE_FIELD	Zona de Combate
 MAP_BAY	Baía de Nephrite
+MAP_BAYBLACKSAND	Baía de Nephrite
 MAP_BG	Waryong
 MAP_C1	Área Pyungmoo
 MAP_C2	Vale Bangsan
 MAP_C3	Área Bakra
 MAP_CAPE	Cabo Fogo de Dragão
+MAP_CAPEDRAGONHEAD	Cabo Fogo de Dragão
 MAP_CG	Imha
+MAP_CZ_DUNGEON	Templo do Zodíaco
 MAP_DAWN	Falésia de Gautama
+MAP_DAWNMISTWOOD	Falésia de Gautama
+MAP_DAWNMIST_DUNGEON_01	Floresta Encantada
 MAP_DESERT	Deserto de Yongbi
+MAP_DEVILCATACOMB	Catacumbas do Demónio
+MAP_DEVILTOWER1	Torre Demoníaca
+MAP_DUEL	Arena de Lutas de Treino
+MAP_E	Colónia
+MAP_EMPIREWAR01	Batalha do Castelo
+MAP_EMPIREWAR02	Batalha do Castelo
+MAP_EMPIREWAR03	Batalha do Castelo
 MAP_FLAME	Doyyumhwan
 MAP_MILGYO_A	
+MAP_GUILD_01	Jungrang
+MAP_GUILD_02	Waryong
+MAP_GUILD_03	Imha
+MAP_HOLYPLACE_DESERT	Guerra dos Reinos - Terra do Deserto
+MAP_HOLYPLACE_FLAME	Guerra dos Reinos - Terra do Fogo
+MAP_HOLYPLACE_ICE	Guerra dos Reinos - Terra do Gelo
+MAP_MILGYO	Templo Hwang
+MAP_MILGYO_A	
+MAP_MONKEY_DUNGEON	Hasun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MT_THUNDER	Montanhas do Trovão
+MAP_MT_TH_DUNGEON_01	Templo dos Ochao
 MAP_NUSLUCK	Jotunheim
 MAP_N_DESERT_02	
 MAP_N_FLAME_02	
 MAP_N_SNOWM_02	
+MAP_NUSLUCK01	Terra dos Gigantes
+MAP_N_DESERT_01	Deserto Yongbi
+MAP_N_DESERT_02	
+MAP_N_FLAME_01	Terra do Fogo
+MAP_N_FLAME_02	
+MAP_N_FLAME_DRAGON	Covil de Meley
+MAP_N_FLAME_DUNGEON_01	Forte do Dragão Vermelho
+MAP_N_SNOWM_01	Montanha Sohan
+MAP_N_SNOWM_02	
+MAP_N_SNOW_DUNGEON_01	Torre de Vigia de Nemere
+MAP_N_THREEWAY	Vale Seungryong
+MAP_OXEVENT	Concurso OX
+MAP_PATHWAY_DESERT_01	Guerra dos Reinos - Terra do Deserto
+MAP_PATHWAY_DESERT_02	Guerra dos Reinos - Terra do Deserto
+MAP_PATHWAY_DESERT_03	Guerra dos Reinos - Terra do Deserto
+MAP_PATHWAY_FLAME_01	Guerra dos Reinos - Terra do Fogo
+MAP_PATHWAY_FLAME_02	Guerra dos Reinos - Terra do Fogo
+MAP_PATHWAY_FLAME_03	Guerra dos Reinos - Terra do Fogo
+MAP_PATHWAY_ICE_01	Guerra dos Reinos - Terra do Gelo
+MAP_PATHWAY_ICE_02	Terra do Jogo
+MAP_PATHWAY_ICE_03	Guerra dos Reinos - Terra do Gelo
 MAP_SKELTOWER	Torre Gumsan
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
@@ -271,13 +329,51 @@ MAP_SKIPIA_DUNGEON_013
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_01	Gruta das Almas
+MAP_SKIPIA_DUNGEON_011	
+MAP_SKIPIA_DUNGEON_012	
+MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	Gruta das Almas
+MAP_SKIPIA_DUNGEON_021	
+MAP_SKIPIA_DUNGEON_022	
+MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS	Templo do Dragão
+MAP_SKIPIA_DUNGEON_BOSS_1	Caverna das Aranhas 1
+MAP_SKIPIA_DUNGEON_BOSS_2	Caverna das Aranhas 2
+MAP_SKIPIA_DUNGEON_BOSS_3	Caverna das Aranhas 3
 MAP_SNOW	Montanha Sohan
 MAP_SPIDER	Kuahlo Dong
+MAP_SPIDERDUNGEON	Caverna das Aranhas 1
+MAP_SPIDERDUNGEON_02	Caverna das Aranhas 2
+MAP_SPIDERDUNGEON_02_1	Caverna das Aranhas 2
+MAP_SPIDERDUNGEON_03	Caverna das Aranhas 3
+MAP_SUNGZI	Guerra dos Reinos
+MAP_SUNGZI_DESERT_01	Guerra dos Reinos - Terra do Deserto
+MAP_SUNGZI_DESERT_HILL_01	Guerra dos Reinos - Terra do Deserto
+MAP_SUNGZI_DESERT_HILL_02	Guerra dos Reinos - Terra do Deserto
+MAP_SUNGZI_DESERT_HILL_03	Guerra dos Reinos - Terra do Deserto
+MAP_SUNGZI_FLAME_HILL_01	Guerra dos Reinos - Terra do Fogo
+MAP_SUNGZI_FLAME_HILL_02	Guerra dos Reinos - Terra do Fogo
+MAP_SUNGZI_FLAME_HILL_03	Guerra dos Reinos - Terra do Fogo
+MAP_SUNGZI_SNOW	Guerra dos Reinos - Terra do Gelo
+MAP_SUNGZI_SNOW_PASS01	Guerra dos Reinos - Terra do Gelo
+MAP_SUNGZI_SNOW_PASS02	Guerra dos Reinos - Terra do Gelo
+MAP_SUNGZI_SNOW_PASS03	Guerra dos Reinos - Terra do Gelo
+MAP_T1	Área de Guerras de Guilds
+MAP_T2	Área de Guerras de Guilds
+MAP_T3	Área de Guerras de Guilds
+MAP_T4	Área de Guerras de Guilds
 MAP_TEMPLE	Templo Hwang
 MAP_THUNDER	Montanhas do Trovão
 MAP_TREE	Lungsam
 MAP_TRENT_A	
+MAP_TRENT	Floresta Fantasma
+MAP_TRENT02	Bosque Rubro
+MAP_TRENT02_A	Bosque Rubro
+MAP_TRENT_A	
+MAP_WEDDING_01	Mapa de Casamento
 MAP_WL	Planície Seca
+MAP_WL_01	Planície Seca
 MESSENGER_ADD_FRIEND	Adicionar Amigo
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s adicionou-te como amigo.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Aceitar?

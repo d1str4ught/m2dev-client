@@ -971,7 +971,7 @@ class InventoryWindow(ui.ScriptWindow):
 			return True
 
 		else:
-			useType=item.GetUseType(srcItemVNum)
+			useType = item.GetUseType(srcItemVNum)
 
 			if "USE_CLEAN_SOCKET" == useType:
 				if self.__CanCleanBrokenMetinStone(dstSlotPos):
@@ -986,19 +986,16 @@ class InventoryWindow(ui.ScriptWindow):
 				if self.__CanAddItemAttr(dstSlotPos):
 					return True
 			elif "USE_ADD_ACCESSORY_SOCKET" == useType:
-				if self.__CanAddAccessorySocket(dstSlotPos):
+				# MR-10: Add belt support for accessory sockets
+				if self.__CanAddAccessorySocket(dstSlotPos) or self.__CanAddBeltSocket(dstSlotPos):
 					return True
 			elif "USE_PUT_INTO_ACCESSORY_SOCKET" == useType:								
 				if self.__CanPutAccessorySocket(dstSlotPos, srcItemVNum):
-					return TRUE
-			elif "USE_PUT_INTO_BELT_SOCKET" == useType:								
-				dstItemVNum = player.GetItemIndex(dstSlotPos)
-				print "USE_PUT_INTO_BELT_SOCKET", srcItemVNum, dstItemVNum
-
-				item.SelectItem(dstItemVNum)
-		
-				if item.ITEM_TYPE_BELT == item.GetItemType():
 					return True
+			elif "USE_PUT_INTO_BELT_SOCKET" == useType:								
+				if self.__CanPutBeltSocket(dstSlotPos, srcItemVNum):
+					return True
+				# MR-10: -- END OF -- Add belt support for accessory sockets
 
 		return False
 
@@ -1034,6 +1031,32 @@ class InventoryWindow(ui.ScriptWindow):
 
 		return False
 
+	# MR-10: Add belt support for accessory sockets
+	def __CanPutBeltSocket(self, dstSlotPos, mtrlVnum):
+		dstItemVNum = player.GetItemIndex(dstSlotPos)
+		if dstItemVNum == 0:
+			return False
+
+		item.SelectItem(dstItemVNum)
+
+		if item.ITEM_TYPE_BELT != item.GetItemType():
+			return False
+
+		if mtrlVnum != constInfo.GET_BELT_MATERIAL_VNUM(dstItemVNum):
+			return False
+
+		curCount = player.GetItemMetinSocket(dstSlotPos, 0)
+		maxCount = player.GetItemMetinSocket(dstSlotPos, 1)
+
+		if maxCount <= 0:
+			return False
+
+		if curCount >= maxCount:
+			return False
+
+		return True
+	# MR-10: -- END OF -- Add belt support for accessory sockets
+
 	def __CanPutAccessorySocket(self, dstSlotPos, mtrlVnum):
 		dstItemVNum = player.GetItemIndex(dstSlotPos)
 		if dstItemVNum == 0:
@@ -1060,6 +1083,7 @@ class InventoryWindow(ui.ScriptWindow):
 
 	def __CanAddAccessorySocket(self, dstSlotPos):
 		dstItemVNum = player.GetItemIndex(dstSlotPos)
+
 		if dstItemVNum == 0:
 			return False
 
@@ -1075,13 +1099,38 @@ class InventoryWindow(ui.ScriptWindow):
 		maxCount = player.GetItemMetinSocket(dstSlotPos, 1)
 		
 		ACCESSORY_SOCKET_MAX_SIZE = 3
+
 		if maxCount >= ACCESSORY_SOCKET_MAX_SIZE:
 			return False
 
 		return True
 
+	# MR-10: Add belt support for accessory sockets
+	def __CanAddBeltSocket(self, dstSlotPos):
+		dstItemVNum = player.GetItemIndex(dstSlotPos)
+
+		if dstItemVNum == 0:
+			return False
+
+		item.SelectItem(dstItemVNum)
+
+		if item.ITEM_TYPE_BELT != item.GetItemType():
+			return False
+
+		curCount = player.GetItemMetinSocket(dstSlotPos, 0)
+		maxCount = player.GetItemMetinSocket(dstSlotPos, 1)
+
+		ACCESSORY_SOCKET_MAX_SIZE = 3
+
+		if maxCount >= ACCESSORY_SOCKET_MAX_SIZE:
+			return False
+
+		return True
+	# MR-10: -- END OF -- Add belt support for accessory sockets
+
 	def __CanAddItemAttr(self, dstSlotPos):
 		dstItemVNum = player.GetItemIndex(dstSlotPos)
+
 		if dstItemVNum == 0:
 			return False
 
@@ -1091,11 +1140,12 @@ class InventoryWindow(ui.ScriptWindow):
 			return False
 			
 		attrCount = 0
+
 		for i in xrange(player.METIN_SOCKET_MAX_NUM):
 			if player.GetItemAttribute(dstSlotPos, i) != 0:
 				attrCount += 1
 
-		if attrCount<4:
+		if attrCount < 4:
 			return True
 								
 		return False

@@ -178,6 +178,13 @@ GUILD_TILE_INFO	Guild Information
 GUILD_TILE_MEMBER	Guild Members	
 GUILD_TILE_SKILL	Guild Skills	
 GUILD_WAR_LIMIT_30MIN	Time: 30 Minutes	
+GUILD_VILLAGE_01	Miryang
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_03	Daeyami
+GUILD_WAR1	Guild War Area
+GUILD_WAR2	Guild War Area
+GUILD_WAR3	Guild War Area
+GUILD_WAR4	Guild War Area
 GUILD_WAR_REWARD_POTION	Reward: The winner receives a Potion	
 GUILD_WAR_USE_BATTLE_MAP	Location: Guild War Arena
 GUILD_WAR_USE_NORMAL_MAP	Location: Normal Map
@@ -242,29 +249,118 @@ MALL_PASSWORD_TITLE	Password
 MAP_A1	Yongan Area
 MAP_A2	Valley of Seungryong	
 MAP_A3	Yayang Area
+MAP_A2_1	
 MAP_AG	Jungrang	
 MAP_B1	Joan Area	
 MAP_B2	Valley of Imji
 MAP_B3	Bokjung Area
 MAP_BAY	Nephrite Bay
+MAP_BATTLE_FIELD	Combat Zone
 MAP_BG	Waryong
+MAP_BAYBLACKSAND	Nephrite Bay
 MAP_C1	Pyungmoo Area
 MAP_C2	Valley of Bangsan
 MAP_C3	Bakra Area
 MAP_CAPE	Cape Dragon Fire
 MAP_CG	Imha
+MAP_CAPEDRAGONHEAD	Cape Dragon Fire
 MAP_DAWN	Gautama Cliff
+MAP_CZ_DUNGEON	Zodiac Temple
 MAP_DESERT	Yongbi Desert	
+MAP_DAWNMISTWOOD	Gautama Cliff
+MAP_DAWNMIST_DUNGEON_01	Enchanted Forest
 MAP_FLAME	Doyyumhwan
+MAP_DEVILCATACOMB	Devil's Catacomb
+MAP_DEVILTOWER1	Demon Tower
+MAP_DUEL	Training Fight Arena
+MAP_E	Colony
+MAP_EMPIREWAR01	Castle Battle
+MAP_EMPIREWAR02	Castle Battle
+MAP_EMPIREWAR03	Castle Battle
 MAP_NUSLUCK	Land of Giants
+MAP_GUILD_01	Jungrang
+MAP_GUILD_02	Waryong
+MAP_GUILD_03	Imha
+MAP_HOLYPLACE_DESERT	Desert Land Kingdom Battle
+MAP_HOLYPLACE_FLAME	Fireland Kingdom Battle
+MAP_HOLYPLACE_ICE	Ice Land Kingdom Battle
+MAP_MILGYO	Hwang Temple
+MAP_MILGYO_A	
+MAP_MONKEY_DUNGEON	Hasun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MT_THUNDER	Thunder Mountains
+MAP_MT_TH_DUNGEON_01	Temple of the Ochao
 MAP_SKELTOWER	Gumsan Tower
+MAP_NUSLUCK01	Land of Giants
+MAP_N_DESERT_01	Yongbi Desert
+MAP_N_DESERT_02	
+MAP_N_FLAME_01	Fireland
+MAP_N_FLAME_02	
+MAP_N_FLAME_DRAGON	Meley's Lair
+MAP_N_FLAME_DUNGEON_01	Red Dragon Fortress
+MAP_N_SNOWM_01	Mount Sohan
+MAP_N_SNOWM_02	
+MAP_N_SNOW_DUNGEON_01	Nemere's Watchtower
+MAP_N_THREEWAY	Valley of Seungryong
+MAP_OXEVENT	OX contest
+MAP_PATHWAY_DESERT_01	Desert Land Kingdom Battle
+MAP_PATHWAY_DESERT_02	Desert Land Kingdom Battle
+MAP_PATHWAY_DESERT_03	Desert Land Kingdom Battle
+MAP_PATHWAY_FLAME_01	Fireland Kingdom Battle
+MAP_PATHWAY_FLAME_02	Fireland Kingdom Battle
+MAP_PATHWAY_FLAME_03	Fireland Kingdom Battle
+MAP_PATHWAY_ICE_01	Ice Land Kingdom Battle
+MAP_PATHWAY_ICE_02	Gameland
+MAP_PATHWAY_ICE_03	Ice Land Kingdom Battle
 MAP_SNOW	Mount Sohan
+MAP_SKIPIA_DUNGEON_01	Grotto of Exile
+MAP_SKIPIA_DUNGEON_011	
+MAP_SKIPIA_DUNGEON_012	
+MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	Grotto of Exile 2
+MAP_SKIPIA_DUNGEON_021	
+MAP_SKIPIA_DUNGEON_022	
+MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS	Dragon's Temple
+MAP_SKIPIA_DUNGEON_BOSS_1	Spider Dungeon 1
+MAP_SKIPIA_DUNGEON_BOSS_2	Spider Dungeon 2
+MAP_SKIPIA_DUNGEON_BOSS_3	Spider Dungeon 3
 MAP_SPIDER	Kuahlo Dong
 MAP_TEMPLE	Hwang Temple	
+MAP_SPIDERDUNGEON	Spider Dungeon 1
+MAP_SPIDERDUNGEON_02	Spider Dungeon 2
+MAP_SPIDERDUNGEON_02_1	Spider Dungeon 2
+MAP_SPIDERDUNGEON_03	Spider Dungeon 3
+MAP_SUNGZI	Kingdom Battle
+MAP_SUNGZI_DESERT_01	Desert Land Kingdom Battle
+MAP_SUNGZI_DESERT_HILL_01	Desert Land Kingdom Battle
+MAP_SUNGZI_DESERT_HILL_02	Desert Land Kingdom Battle
+MAP_SUNGZI_DESERT_HILL_03	Desert Land Kingdom Battle
+MAP_SUNGZI_FLAME_HILL_01	Fireland Kingdom Battle
+MAP_SUNGZI_FLAME_HILL_02	Fireland Kingdom Battle
+MAP_SUNGZI_FLAME_HILL_03	Fireland Kingdom Battle
+MAP_SUNGZI_SNOW	Ice Land Kingdom Battle
+MAP_SUNGZI_SNOW_PASS01	Ice Land Kingdom Battle
+MAP_SUNGZI_SNOW_PASS02	Ice Land Kingdom Battle
+MAP_SUNGZI_SNOW_PASS03	Ice Land Kingdom Battle
+MAP_T1	Guild War Area
+MAP_T2	Guild War Area
+MAP_T3	Guild War Area
+MAP_T4	Guild War Area
 MAP_THUNDER	Thunder Mountains
 MAP_TREE	Lungsam	
 MAP_WL	Snakefield
+MAP_TRENT	Ghost Forest
+MAP_TRENT02	Red Forest
+MAP_TRENT02_A	Red Forest
+MAP_TRENT_A	
+MAP_WEDDING_01	Wedding Map
 MESSENGER_ADD_FRIEND	Add Friend	
+MAP_WL_01	Snakefield
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s added you as a friend.	
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Accept?	
 MESSENGER_DO_YOU_DELETE	Delete?	
@@ -279,6 +375,7 @@ MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Enter the cell phone number for the Text m
 MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Do you want to enter the number now?	
 MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Enter cell phone number.	
 MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Send message.	
+METIN_TEST	
 MINIMAP	Open Mini Map	
 MINIMAP_CANNOT_SEE	Mini Map cannot be seen.	
 MINIMAP_CAN_NOT_SHOW_AREAMAP	Large Map cannot be shown.
@@ -311,7 +408,7 @@ PARTY_DO_YOU_JOIN	 has invited you to join his group. Accept?
 PARTY_EXP_DISTRIBUTION_MODE	EXP Distribution	
 PARTY_EXP_DISTRIBUTION_MODE_LEVEL	Level dependant
 PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	Higher level group members receive more EXP.
-PARTY_EXP_DISTRIBUTION_MODE_PARITY	even
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	Even
 PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	All Group members receive the same EXP.	
 PARTY_HEAL_ALL_MEMBER	Restore everything.	
 PARTY_INCREASE_AREA_150	Range of the group heightened of the factor 1.5 .	SNA

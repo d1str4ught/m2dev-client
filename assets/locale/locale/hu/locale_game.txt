@@ -177,6 +177,13 @@ GUILD_TILE_GRADE	Jogok Kezelése
 GUILD_TILE_INFO	Céh információ
 GUILD_TILE_MEMBER	Céhtag
 GUILD_TILE_SKILL	Céh készség
+GUILD_WAR4	Céhháború terület
+GUILD_WAR3	Céhháború terület
+GUILD_WAR2	Céhháború terület
+GUILD_WAR1	Céhháború terület
+GUILD_VILLAGE_03	Daeyami
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_01	Miryang
 GUILD_WAR_LIMIT_30MIN	Idő: 30 perc
 GUILD_WAR_REWARD_POTION	Jutalom: a győztes italokat kap
 GUILD_WAR_USE_BATTLE_MAP	Helyszín: Céhháború Aréna
@@ -241,29 +248,118 @@ MALL_CANNOT_INSERT	Nem tudod elhelyezni a tárgyat.
 MALL_PASSWORD_TITLE	Jelszó
 MAP_A1	Yongan-terület
 MAP_A2	Seungryong-völgy
+MAP_A2_1	
 MAP_A3	Yayang Terület
 MAP_AG	Jungrang
 MAP_B1	Joan-terület
 MAP_B2	Imji Völgy
 MAP_B3	Bokjung-terület
+MAP_BATTLE_FIELD	Harci övezet
 MAP_BAY	Nefrit-öböl
+MAP_BAYBLACKSAND	Nefrit-öböl
 MAP_BG	Waryong
 MAP_C1	Pyungmoo-terület
 MAP_C2	Bangsan Völgy
 MAP_C3	Bakra-terület
 MAP_CAPE	Sárkánytűz-fok
+MAP_CAPEDRAGONHEAD	Sárkánytűz-fok
 MAP_CG	Imha
+MAP_CZ_DUNGEON	Zodiákus templom
 MAP_DAWN	Gautama-szikla
+MAP_DAWNMIST_DUNGEON_01	Elvarázsolt erdő
+MAP_DAWNMISTWOOD	Gautama-szikla
 MAP_DESERT	Yongbi sivatag
+MAP_EMPIREWAR03	Kastélyharc
+MAP_EMPIREWAR02	Kastélyharc
+MAP_EMPIREWAR01	Kastélyharc
+MAP_E	Kolónia
+MAP_DUEL	Gyakorlóharc aréna
+MAP_DEVILTOWER1	Démon-torony
+MAP_DEVILCATACOMB	Az Ördög Katakombája
 MAP_FLAME	Doyyumhwan
+MAP_MT_TH_DUNGEON_01	Az Ochao temploma
+MAP_MT_THUNDER	Mennydörgés-hegység
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON	Hasun Dong
+MAP_MILGYO_A	
+MAP_MILGYO	Hwang templom
+MAP_HOLYPLACE_ICE	Jégföld, birodalmi csata
+MAP_HOLYPLACE_FLAME	Tűzföld, birodalmi csata
+MAP_HOLYPLACE_DESERT	Sivatagi terület, birodalmi csata
+MAP_GUILD_03	Imha
+MAP_GUILD_02	Waryong
+MAP_GUILD_01	Jungrang
 MAP_NUSLUCK	Óriások Földje
+MAP_PATHWAY_ICE_03	Jégföld, birodalmi csata
+MAP_PATHWAY_ICE_02	Játéktér
+MAP_PATHWAY_ICE_01	Jégföld, birodalmi csata
+MAP_PATHWAY_FLAME_03	Tűzföld, birodalmi csata
+MAP_PATHWAY_FLAME_02	Tűzföld, birodalmi csata
+MAP_PATHWAY_FLAME_01	Tűzföld, birodalmi csata
+MAP_PATHWAY_DESERT_03	Sivatagi terület, birodalmi csata
+MAP_PATHWAY_DESERT_02	Sivatagi terület, birodalmi csata
+MAP_PATHWAY_DESERT_01	Sivatagi terület, birodalmi csata
+MAP_OXEVENT	OX-verseny
+MAP_N_THREEWAY	Seungryong-völgy
+MAP_N_SNOW_DUNGEON_01	Nemere őrtornya
+MAP_N_SNOWM_02	
+MAP_N_SNOWM_01	Sohan-hegy
+MAP_N_FLAME_DUNGEON_01	Vörös sárkány-erőd
+MAP_N_FLAME_DRAGON	Meley barlangja
+MAP_N_FLAME_02	
+MAP_N_FLAME_01	Tűzföld
+MAP_N_DESERT_02	
+MAP_N_DESERT_01	Yongbi sivatag
+MAP_NUSLUCK01	Óriások földje
 MAP_SKELTOWER	Gumsan torony
+MAP_SKIPIA_DUNGEON_BOSS_3	Pók kazamata 3
+MAP_SKIPIA_DUNGEON_BOSS_2	Pók kazamata 2
+MAP_SKIPIA_DUNGEON_BOSS_1	Pók kazamata 1
+MAP_SKIPIA_DUNGEON_BOSS	A Sárkány Temploma
+MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_022	
+MAP_SKIPIA_DUNGEON_021	
+MAP_SKIPIA_DUNGEON_02	A Száműzött barlangja 2
+MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_012	
+MAP_SKIPIA_DUNGEON_011	
+MAP_SKIPIA_DUNGEON_01	A Száműzött barlangja
 MAP_SNOW	Sohan-hegy
 MAP_SPIDER	Kuahlo Dong
+MAP_T4	Céhháború terület
+MAP_T3	Céhháború terület
+MAP_T2	Céhháború terület
+MAP_T1	Céhháború terület
+MAP_SUNGZI_SNOW_PASS03	Jégföld, birodalmi csata
+MAP_SUNGZI_SNOW_PASS02	Jégföld, birodalmi csata
+MAP_SUNGZI_SNOW_PASS01	Jégföld, birodalmi csata
+MAP_SUNGZI_SNOW	Jégföld, birodalmi csata
+MAP_SUNGZI_FLAME_HILL_03	Tűzföld, birodalmi csata
+MAP_SUNGZI_FLAME_HILL_02	Tűzföld, birodalmi csata
+MAP_SUNGZI_FLAME_HILL_01	Tűzföld, birodalmi csata
+MAP_SUNGZI_DESERT_HILL_03	Sivatagi terület, birodalmi csata
+MAP_SUNGZI_DESERT_HILL_02	Sivatagi terület, birodalmi csata
+MAP_SUNGZI_DESERT_HILL_01	Sivatagi terület, birodalmi csata
+MAP_SUNGZI_DESERT_01	Sivatagi terület, birodalmi csata
+MAP_SUNGZI	Birodalmi csata
+MAP_SPIDERDUNGEON_03	Pók kazamata 3
+MAP_SPIDERDUNGEON_02_1	Pók kazamata 2
+MAP_SPIDERDUNGEON_02	Pók kazamata 2
+MAP_SPIDERDUNGEON	Pók kazamata 1
 MAP_TEMPLE	Hwang templom
 MAP_THUNDER	Mennydörgés-hegység
 MAP_TREE	Lungsam
+MAP_WEDDING_01	Esküvői terület
+MAP_TRENT_A	
+MAP_TRENT02_A	Vörös Erdő
+MAP_TRENT02	Vörös Erdő
+MAP_TRENT	Szellem-erdő
 MAP_WL	Kígyórét
+MAP_WL_01	Kígyórét
 MESSENGER_ADD_FRIEND	Barát hozzáadása
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s felvett barátnak.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Elfogadod?
@@ -279,6 +375,7 @@ MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Add meg a mobilszámot az sms küldéshez.
 MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Szeretnéd megadni a számot most?
 MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Mobilszám megadás
 MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Üzenet küldés
+METIN_TEST	
 MINIMAP	Nyitott Mini térkép
 MINIMAP_CANNOT_SEE	Nem jeleníthető meg a mini térkép.
 MINIMAP_CAN_NOT_SHOW_AREAMAP	Nem jeleníthető meg nagy térkép.
@@ -311,7 +408,7 @@ PARTY_DO_YOU_JOIN	 meghívott a csoportjába. Elfogadod?
 PARTY_EXP_DISTRIBUTION_MODE	EXP elosztás
 PARTY_EXP_DISTRIBUTION_MODE_LEVEL	Szint függő
 PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	A magasabb szintű csoporttagok több EXP-et kapnak.
-PARTY_EXP_DISTRIBUTION_MODE_PARITY	egyenletes
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	Egyenletes
 PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	Minden csoporttag azonos mennyiségű EXP-t kap.
 PARTY_HEAL_ALL_MEMBER	Mindent újratermelni
 PARTY_INCREASE_AREA_150	A csoport hatótávolsága másfélszeresére növelve.	SNA

@@ -178,6 +178,13 @@ GUILD_TILE_GRADE	Amministra diritti
 GUILD_TILE_INFO	Informazioni della Gilda
 GUILD_TILE_MEMBER	Membro della Gilda
 GUILD_TILE_SKILL	Abilità della Gilda
+GUILD_WAR4	Area della Guerra tra Gilde
+GUILD_WAR3	Area della Guerra tra Gilde
+GUILD_WAR2	Area della Guerra tra Gilde
+GUILD_WAR1	Area della Guerra tra Gilde
+GUILD_VILLAGE_03	Daeyami
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_01	Miryang
 GUILD_WAR_LIMIT_30MIN	Tempo: 30 minuti
 GUILD_WAR_REWARD_POTION	Ricompensa: Il vincitore riceve pozioni.
 GUILD_WAR_USE_BATTLE_MAP	Usa il campo di battaglia della Gilda
@@ -249,35 +256,112 @@ MAP_AG	Jungrang
 MAP_B1	Zona Joan
 MAP_B2	Valle di Imji
 MAP_B3	Zona Bokjung
+MAP_BATTLE_FIELD	Zona di combattimento
 MAP_BAY	Baia Nefrite
+MAP_BAYBLACKSAND	Baia Nefrite
 MAP_BG	Waryong
 MAP_C1	Zona Pyungmoo
 MAP_C2	Valle di Bangsan
 MAP_C3	Zona Bakra
 MAP_CAPE	Capo Fuoco del Drago
+MAP_CAPEDRAGONHEAD	Capo Fuoco del Drago
 MAP_CG	Imha
+MAP_CZ_DUNGEON	Tempio dello Zodiaco
 MAP_DAWN	Falesia di Gautama
+MAP_DAWNMIST_DUNGEON_01	Foresta Incantata
+MAP_DAWNMISTWOOD	Falesia di Gautama
 MAP_DESERT	Deserto Yongbi
+MAP_EMPIREWAR03	Battaglia per il Castello
+MAP_EMPIREWAR02	Battaglia per il Castello
+MAP_EMPIREWAR01	Battaglia per il Castello
+MAP_E	Colonia
+MAP_DUEL	Arena Esercitazioni Belliche
+MAP_DEVILTOWER1	Torre dei Demoni
+MAP_DEVILCATACOMB	Catacomba del Diavolo
 MAP_FLAME	Doyyumhwan
+MAP_MILGYO	Tempio Hwang
+MAP_HOLYPLACE_ICE	Terra dei Ghiacci - Guerra dei Regni
+MAP_HOLYPLACE_FLAME	Terra di Fuoco - Guerra dei Regni
+MAP_HOLYPLACE_DESERT	Terra dei Deserti - Guerra dei Regni
+MAP_GUILD_03	Imha
+MAP_GUILD_02	Waryong
+MAP_GUILD_01	Jungrang
 MAP_MILGYO_A	
+MAP_MT_TH_DUNGEON_01	Tempio degli Ochao
+MAP_MT_THUNDER	Monti Tonanti
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON	Hasun Dong
 MAP_NUSLUCK	Terra Giganti
+MAP_N_DESERT_01	Deserto Yongbi
+MAP_NUSLUCK01	Terra dei Giganti
 MAP_N_DESERT_02	
+MAP_N_FLAME_01	Terra di Fuoco
 MAP_N_FLAME_02	
+MAP_N_SNOWM_01	Monte Sohan
+MAP_N_FLAME_DUNGEON_01	Fortezza del Drago Rosso
+MAP_N_FLAME_DRAGON	Rifugio di Meley
 MAP_N_SNOWM_02	
+MAP_PATHWAY_ICE_03	Terra dei Ghiacci - Guerra dei Regni
+MAP_PATHWAY_ICE_02	Spassolandia
+MAP_PATHWAY_ICE_01	Terra dei Ghiacci - Guerra dei Regni
+MAP_PATHWAY_FLAME_03	Terra di Fuoco - Guerra dei Regni
+MAP_PATHWAY_FLAME_02	Terra di Fuoco - Guerra dei Regni
+MAP_PATHWAY_FLAME_01	Terra di Fuoco - Guerra dei Regni
+MAP_PATHWAY_DESERT_03	Terra dei Deserti - Guerra dei Regni
+MAP_PATHWAY_DESERT_02	Terra dei Deserti - Guerra dei Regni
+MAP_PATHWAY_DESERT_01	Terra dei Deserti - Guerra dei Regni
+MAP_OXEVENT	Gara OX
+MAP_N_THREEWAY	Valle di Seungryong
+MAP_N_SNOW_DUNGEON_01	Torre di Vedetta di Nemere
 MAP_SKELTOWER	Torre di Gumsan
+MAP_SKIPIA_DUNGEON_01	Grotta dell'Esilio
 MAP_SKIPIA_DUNGEON_011	
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
+MAP_SKIPIA_DUNGEON_02	Grotta dell'Esilio 2
 MAP_SKIPIA_DUNGEON_021	
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_BOSS_3	Sotterraneo dei Ragni 3
+MAP_SKIPIA_DUNGEON_BOSS_2	Sotterraneo dei Ragni 2
+MAP_SKIPIA_DUNGEON_BOSS_1	Sotterraneo dei Ragni 1
+MAP_SKIPIA_DUNGEON_BOSS	Stanza del Drago
 MAP_SNOW	Monte Sohan
 MAP_SPIDER	Kuahlo Dong
+MAP_T4	Area della Guerra tra Gilde
+MAP_T3	Area della Guerra tra Gilde
+MAP_T2	Area della Guerra tra Gilde
+MAP_T1	Area della Guerra tra Gilde
+MAP_SUNGZI_SNOW_PASS03	Terra dei Ghiacci - Guerra dei Regni
+MAP_SUNGZI_SNOW_PASS02	Terra dei Ghiacci - Guerra dei Regni
+MAP_SUNGZI_SNOW_PASS01	Terra dei Ghiacci - Guerra dei Regni
+MAP_SUNGZI_SNOW	Terra dei Ghiacci - Guerra dei Regni
+MAP_SUNGZI_FLAME_HILL_03	Terra di Fuoco - Guerra dei Regni
+MAP_SUNGZI_FLAME_HILL_02	Terra di Fuoco - Guerra dei Regni
+MAP_SUNGZI_FLAME_HILL_01	Terra di Fuoco - Guerra dei Regni
+MAP_SUNGZI_DESERT_HILL_03	Terra dei Deserti - Guerra dei Regni
+MAP_SUNGZI_DESERT_HILL_02	Terra dei Deserti - Guerra dei Regni
+MAP_SUNGZI_DESERT_HILL_01	Terra dei Deserti - Guerra dei Regni
+MAP_SUNGZI_DESERT_01	Terra dei Deserti - Guerra dei Regni
+MAP_SUNGZI	Guerra dei Regni
+MAP_SPIDERDUNGEON_03	Sotterraneo dei Ragni 3
+MAP_SPIDERDUNGEON_02_1	Sotterraneo dei Ragni 2
+MAP_SPIDERDUNGEON_02	Sotterraneo dei Ragni 2
+MAP_SPIDERDUNGEON	Sotterraneo dei Ragni 1
 MAP_TEMPLE	Tempio Hwang
 MAP_THUNDER	Monti Tonanti
 MAP_TREE	Lungsam
+MAP_TRENT02_A	Bosco Rosso
+MAP_TRENT02	Bosco Rosso
+MAP_TRENT	Bosco Fantasma
 MAP_TRENT_A	
+MAP_WEDDING_01	Mappa dei Matrimoni
 MAP_WL	Campo Serpi
+MAP_WL_01	Campo Serpi
 MESSENGER_ADD_FRIEND	Aggiungi amico
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s vuole essere tuo amico.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Accetti?

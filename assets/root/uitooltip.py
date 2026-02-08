@@ -174,14 +174,17 @@ class ToolTip(ui.ThinBoard):
 
 	def AlignTextLineHorizonalCenter(self):
 		for child in self.childrenList:
-			if type(child).__name__ == "TextLine":
+			# MR-10: Fix element centering in tooltips
+			if type(child).__name__ == "TextLine" and getattr(child, "_centerAlign", False):
 				(x, y) = child.GetLocalPosition()
 				child.SetPosition(self.toolTipWidth / 2, y)
+			# MR-10: -- END OF -- Fix element centering in tooltips
 
 		self.ResizeToolTip()
 
 	def AutoAppendTextLine(self, text, color = FONT_COLOR, centerAlign = True):
 		textLine = ui.TextLine()
+
 		textLine.SetParent(self)
 		textLine.SetFontName(self.defFontName)
 		textLine.SetPackedFontColor(color)
@@ -189,6 +192,10 @@ class ToolTip(ui.ThinBoard):
 		textLine.SetOutline()
 		textLine.SetFeather(False)
 		textLine.Show()
+
+		# MR-10: Fix element centering in tooltips
+		textLine._centerAlign = centerAlign
+		# MR-10: -- END OF -- Fix element centering in tooltips
 
 		if centerAlign:
 			textLine.SetPosition(self.toolTipWidth/2, self.toolTipHeight)
@@ -213,19 +220,26 @@ class ToolTip(ui.ThinBoard):
 
 	def AppendTextLine(self, text, color=FONT_COLOR, centerAlign=True, show=True):
 		textLine = ui.TextLine()
+
 		textLine.SetParent(self)
 		textLine.SetFontName(self.defFontName)
 		textLine.SetPackedFontColor(color)
 		textLine.SetText(text)
 		textLine.SetOutline()
 		textLine.SetFeather(False)
+
 		if show:
 			textLine.Show()
+
+		# MR-10: Fix element centering in tooltips
+		textLine._centerAlign = centerAlign
+		# MR-10: -- END OF -- Fix element centering in tooltips
 
 		textWidth, _ = textLine.GetTextSize()
 		textWidth += 20
 
 		tooltipWidthChanged = False
+
 		if self.toolTipWidth < textWidth:
 			self.toolTipWidth = textWidth
 			tooltipWidthChanged = True
@@ -503,6 +517,10 @@ class ItemToolTip(ToolTip):
 		self.itemSlotIndex = -1
 		self.wndDragonSoul = None
 		self.dsActivatedTimeCache = {}
+		# MR-10: Add accessorySocketTimeCache for real-time remaining time display of accessory sockets.
+		self.accessorySocketTimeCache = constInfo.ACCESSORY_SOCKET_TIME_CACHE
+		# MR-10: -- END OF -- Add accessorySocketTimeCache for real-time remaining time display of accessory sockets.
+		self.hairIcon = None
 
 	def __del__(self):
 		ToolTip.__del__(self)
@@ -577,6 +595,14 @@ class ItemToolTip(ToolTip):
 		return ToolTip.AppendTextLineTime(self, endTime, getLimit, color)
 
 	def ClearToolTip(self):
+		# MR-10: Fix element centering in tooltips
+		hairIcon = getattr(self, "hairIcon", None)
+
+		if hairIcon:
+			hairIcon.Hide()
+			self.hairIcon = None
+		# MR-10: -- END OF -- Fix element centering in tooltips
+
 		self.isShopItem = False
 		self.toolTipWidth = self.TOOL_TIP_WIDTH
 		self.itemWindowType = None
@@ -1347,30 +1373,56 @@ class ItemToolTip(ToolTip):
 		itemImage.Show()			
 
 		if self.__IsOldHair(itemVnum):
-			itemImage.LoadImage("d:/ymir work/item/quest/"+str(itemVnum)+".tga")
+			itemImage.LoadImage("d:/ymir work/item/quest/" + str(itemVnum) + ".tga")
 		elif self.__IsNewHair3(itemVnum):
 			itemImage.LoadImage("icon/hair/%d.sub" % (itemVnum))
 		elif self.__IsNewHair(itemVnum): # Use by linking to existing hair numbers. New items have numbers increased by 1000.
-			itemImage.LoadImage("d:/ymir work/item/quest/"+str(itemVnum-1000)+".tga")
+			itemImage.LoadImage("d:/ymir work/item/quest/" + str(itemVnum - 1000) + ".tga")
 		elif self.__IsNewHair2(itemVnum):
 			itemImage.LoadImage("icon/hair/%d.sub" % (itemVnum))
 		elif self.__IsCostumeHair(itemVnum):
 			itemImage.LoadImage("icon/hair/%d.sub" % (itemVnum - 100000))
 
-		itemImage.SetPosition(itemImage.GetWidth()/2, self.toolTipHeight)
+		# MR-10: Fix element centering in tooltips
+		self.hairIcon = itemImage
+		xPos = max(0, (self.toolTipWidth - itemImage.GetWidth()) / 2)
+
+		itemImage.SetPosition(xPos, self.toolTipHeight)
+		# MR-10: -- END OF -- Fix element centering in tooltips
+
 		self.toolTipHeight += itemImage.GetHeight()
 		#self.toolTipWidth += itemImage.GetWidth()/2
+
 		self.childrenList.append(itemImage)
 		self.ResizeToolTip()
+		# MR-10: Fix element centering in tooltips
+		self.__CenterHairIcon()
+		# MR-10: -- END OF -- Fix element centering in tooltips
+
+	# MR-10: Fix element centering in tooltips
+	def __CenterHairIcon(self):
+		if not self.hairIcon:
+			return
+
+		(xPos, yPos) = self.hairIcon.GetLocalPosition()
+		xPos = max(0, (self.toolTipWidth - self.hairIcon.GetWidth()) / 2)
+
+		self.hairIcon.SetPosition(xPos, yPos)
+	# MR-10: -- END OF -- Fix element centering in tooltips
 
 	## If the Description is large, adjust the tooltip size.
 	def __AdjustMaxWidth(self, attrSlot, desc):
 		newToolTipWidth = self.toolTipWidth
 		newToolTipWidth = max(self.__AdjustAttrMaxWidth(attrSlot), newToolTipWidth)
 		newToolTipWidth = max(self.__AdjustDescMaxWidth(desc), newToolTipWidth)
+
 		if newToolTipWidth > self.toolTipWidth:
 			self.toolTipWidth = newToolTipWidth
 			self.ResizeToolTip()
+			# MR-10: Fix element centering in tooltips
+			self.AlignTextLineHorizonalCenter()
+			self.__CenterHairIcon()
+			# MR-10: -- END OF -- Fix element centering in tooltips
 
 	def __AdjustAttrMaxWidth(self, attrSlot):
 		if 0 == attrSlot:
@@ -1406,10 +1458,16 @@ class ItemToolTip(ToolTip):
 	def ResizeToolTipWidth(self, width):
 		self.toolTipWidth = width
 
+		# MR-10: Fix element centering in tooltips
+		self.AlignTextLineHorizonalCenter()
+		self.__CenterHairIcon()
+		# MR-10: -- END OF -- Fix element centering in tooltips
+
 	def __CalculateToolTipWidth(self):
 		affectTextLineLenList = []
 
 		metinSocket = self.metinSlot
+
 		if metinSocket:
 			for socketIndex in metinSocket:
 				if socketIndex:
@@ -1417,11 +1475,13 @@ class ItemToolTip(ToolTip):
 
 					affectType, affectValue = item.GetAffect(0)
 					affectString = self.__GetAffectString(affectType, affectValue)
+
 					if affectString:
 						affectTextLineLenList.append(len(affectString))
 
 			if self.itemVnum:
 				item.SelectItem(self.itemVnum)
+
 			self.metinSlot = None
 
 		if self.toolTipWidth == self.TOOL_TIP_WIDTH:
@@ -1429,6 +1489,10 @@ class ItemToolTip(ToolTip):
 				self.toolTipWidth += max(affectTextLineLenList) + 10
 
 		self.AlignTextLineHorizonalCenter()
+
+		# MR-10: Fix element centering in tooltips
+		self.__CenterHairIcon()
+		# MR-10: -- END OF -- Fix element centering in tooltips
 
 	def __SetSkillBookToolTip(self, skillIndex, bookName, skillGrade):
 		skillName = skill.GetSkillName(skillIndex)
@@ -1854,10 +1918,24 @@ class ItemToolTip(ToolTip):
 				self.childrenList.append(affectTextLine)
 				self.toolTipHeight += 16 + 2
 
+			# MR-10: Add real-time remaining time display for accessory sockets.
 			if 0 != leftTime:
-				timeText = (localeInfo.LEFT_TIME + " : " + localeInfo.RTSecondToDHMS(leftTime))
+				isEquipped = False
+
+				if self.itemWindowType == player.INVENTORY and self.itemSlotIndex >= 0:
+					isEquipped = player.IsEquipmentSlot(self.itemSlotIndex)
+
+				if isEquipped:
+					endTime = self.__GetAccessorySocketEndTime(leftTime, index)
+					leftSec = max(0, endTime - app.GetGlobalTimeStamp())
+					timeText = localeInfo.LEFT_TIME + " : " + localeInfo.RTSecondToDHMS(leftSec)
+				else:
+					endTime = None
+					timeText = localeInfo.LEFT_TIME + " : " + localeInfo.RTSecondToDHMS(leftTime)
+				# MR-10: -- END OF -- Add real-time remaining time display for accessory sockets.
 
 				timeTextLine = ui.TextLine()
+
 				timeTextLine.SetParent(self)
 				timeTextLine.SetFontName(self.defFontName)
 				timeTextLine.SetPackedFontColor(self.POSITIVE_COLOR)
@@ -1867,6 +1945,12 @@ class ItemToolTip(ToolTip):
 				timeTextLine.Show()
 				timeTextLine.SetText(timeText)
 				self.childrenList.append(timeTextLine)
+
+				# MR-10: Add real-time remaining time display for accessory sockets.
+				if isEquipped and endTime is not None:
+					self.timeInfoList.append({ "line": timeTextLine, "value": endTime, "limit": None })
+				# MR-10: -- END OF -- Add real-time remaining time display for accessory sockets.
+
 				self.toolTipHeight += 16 + 2
 
 		else:
@@ -1952,9 +2036,30 @@ class ItemToolTip(ToolTip):
 
 		now = app.GetGlobalTimeStamp()
 		endTime = now + remainSec
-		self.dsActivatedTimeCache[key] = {"remainSec": remainSec, "endTime": endTime}
+		self.dsActivatedTimeCache[key] = { "remainSec": remainSec, "endTime": endTime }
+
 		return endTime
-	
+
+	# MR-10: Add real-time remaining time display for accessory sockets.
+	def __GetAccessorySocketEndTime(self, remainSec, socketIndex):
+		key = (self.itemWindowType, self.itemSlotIndex, socketIndex, self.itemVnum)
+		cache = self.accessorySocketTimeCache.get(key)
+
+		now = app.GetGlobalTimeStamp()
+
+		if cache:
+			cachedEnd = cache.get("endTime", 0)
+			cachedRemain = cache.get("remainSec", remainSec)
+
+			if cachedEnd > now and remainSec >= cachedRemain:
+				return cachedEnd
+
+		endTime = now + remainSec
+		self.accessorySocketTimeCache[key] = { "remainSec": remainSec, "endTime": endTime }
+
+		return endTime
+	# MR-10: -- END OF -- Add real-time remaining time display for accessory sockets.
+
 	def AppendRealTimeStartFirstUseLastTime(self, item, metinSlot, limitIndex, getLimit):
 		useCount = metinSlot[1]
 		endTime = metinSlot[0]

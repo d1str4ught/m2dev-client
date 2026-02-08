@@ -179,6 +179,13 @@ GUILD_TILE_INFO	Informace o cechu
 GUILD_TILE_MEMBER	Členové cechu
 GUILD_TILE_SKILL	Schopnosti  cechu
 GUILD_WAR_LIMIT_30MIN	Čas: 30 minut
+GUILD_VILLAGE_01	Miryang
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_03	Daeyami
+GUILD_WAR1	Oblast cechovních válek
+GUILD_WAR2	Oblast cechovních válek
+GUILD_WAR3	Oblast cechovních válek
+GUILD_WAR4	Oblast cechovních válek
 GUILD_WAR_REWARD_POTION	Odměna: Vítěz obdrží elixíry
 GUILD_WAR_USE_BATTLE_MAP	Lokalita: dějiště cechovní války
 GUILD_WAR_USE_NORMAL_MAP	Lokalita: normální mapa
@@ -250,35 +257,112 @@ MAP_B1	Oblast Joan
 MAP_B2	Údolí Imjů
 MAP_B3	Oblast Bokjung
 MAP_BAY	Nefritový záliv
+MAP_BATTLE_FIELD	Bitevní zóna
 MAP_BG	Waryong
+MAP_BAYBLACKSAND	Nefritový záliv
 MAP_C1	Oblast Pyungmoo
 MAP_C2	Údolí Bangsanů
 MAP_C3	Oblast Bakra
 MAP_CAPE	Záliv dračího ohně
 MAP_CG	Imha
+MAP_CAPEDRAGONHEAD	Záliv dračího ohně
 MAP_DAWN	Útes Gautama
+MAP_CZ_DUNGEON	Chrám Zvěrokruhu
 MAP_DESERT	Poušť Yongbi
+MAP_DAWNMISTWOOD	Útes Gautama
+MAP_DAWNMIST_DUNGEON_01	Zakletý les
 MAP_FLAME	Doyyumhwan
+MAP_DEVILCATACOMB	Ďáblova katakomba
+MAP_DEVILTOWER1	Věž démonů
+MAP_DUEL	Oblast tréninkových bojů
+MAP_E	Kolonie
+MAP_EMPIREWAR01	Bitva na hradě
+MAP_EMPIREWAR02	Bitva na hradě
+MAP_EMPIREWAR03	Bitva na hradě
 MAP_MILGYO_A	
+MAP_GUILD_01	Jungrang
+MAP_GUILD_02	Waryong
+MAP_GUILD_03	Imha
+MAP_HOLYPLACE_DESERT	Bitva království - Pouštní země
+MAP_HOLYPLACE_FLAME	Bitva království - Ohnivá země
+MAP_HOLYPLACE_ICE	Bitva království - Ledová země
+MAP_MILGYO	Chrám Hwang
 MAP_NUSLUCK	Země obrů
+MAP_MONKEY_DUNGEON	Hasun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_MT_THUNDER	Bouřné hory
+MAP_MT_TH_DUNGEON_01	Chrám Ochao
 MAP_N_DESERT_02	
+MAP_NUSLUCK01	Země obrů
+MAP_N_DESERT_01	Poušť Yongbi
 MAP_N_FLAME_02	
+MAP_N_FLAME_01	Ohnivá země
 MAP_N_SNOWM_02	
+MAP_N_FLAME_DRAGON	Doupě Meley
+MAP_N_FLAME_DUNGEON_01	Pevnost Červeného draka
+MAP_N_SNOWM_01	Hora Sohan
 MAP_SKELTOWER	Věž Gumsan
+MAP_N_SNOW_DUNGEON_01	Nemerova strážní věž
+MAP_N_THREEWAY	Údolí Seungryong
+MAP_OXEVENT	Soutež OX
+MAP_PATHWAY_DESERT_01	Bitva království - Pouštní země
+MAP_PATHWAY_DESERT_02	Bitva království - Pouštní země
+MAP_PATHWAY_DESERT_03	Bitva království - Pouštní země
+MAP_PATHWAY_FLAME_01	Bitva království - Ohnivá země
+MAP_PATHWAY_FLAME_02	Bitva království - Ohnivá země
+MAP_PATHWAY_FLAME_03	Bitva království - Ohnivá země
+MAP_PATHWAY_ICE_01	Bitva království - Ledová země
+MAP_PATHWAY_ICE_02	Země her
+MAP_PATHWAY_ICE_03	Bitva království - Ledová země
 MAP_SKIPIA_DUNGEON_011	
+MAP_SKIPIA_DUNGEON_01	Jeskyně vyhnanství
 MAP_SKIPIA_DUNGEON_012	
 MAP_SKIPIA_DUNGEON_013	
 MAP_SKIPIA_DUNGEON_021	
+MAP_SKIPIA_DUNGEON_02	Jeskyně vyhnanství 2
 MAP_SKIPIA_DUNGEON_022	
 MAP_SKIPIA_DUNGEON_023	
 MAP_SNOW	Hora Sohan
+MAP_SKIPIA_DUNGEON_BOSS	Dračí chrám
+MAP_SKIPIA_DUNGEON_BOSS_1	Pavoučí bludiště 1
+MAP_SKIPIA_DUNGEON_BOSS_2	Pavoučí bludiště 2
+MAP_SKIPIA_DUNGEON_BOSS_3	Pavoučí bludiště 3
 MAP_SPIDER	Kuahlo Dong
 MAP_TEMPLE	Chrám Hwang
+MAP_SPIDERDUNGEON	Pavoučí bludiště 1
+MAP_SPIDERDUNGEON_02	Pavoučí bludiště 2
+MAP_SPIDERDUNGEON_02_1	Pavoučí bludiště 2
+MAP_SPIDERDUNGEON_03	Pavoučí bludiště 3
+MAP_SUNGZI	Bitva království
+MAP_SUNGZI_DESERT_01	Bitva království - Pouštní země
+MAP_SUNGZI_DESERT_HILL_01	Bitva království - Pouštní země
+MAP_SUNGZI_DESERT_HILL_02	Bitva království - Pouštní země
+MAP_SUNGZI_DESERT_HILL_03	Bitva království - Pouštní země
+MAP_SUNGZI_FLAME_HILL_01	Bitva království - Ohnivá země
+MAP_SUNGZI_FLAME_HILL_02	Bitva království - Ohnivá země
+MAP_SUNGZI_FLAME_HILL_03	Bitva království - Ohnivá země
+MAP_SUNGZI_SNOW	Bitva království - Ledová země
+MAP_SUNGZI_SNOW_PASS01	Bitva království - Ledová země
+MAP_SUNGZI_SNOW_PASS02	Bitva království - Ledová země
+MAP_SUNGZI_SNOW_PASS03	Bitva království - Ledová země
+MAP_T1	Oblast cechovních válek
+MAP_T2	Oblast cechovních válek
+MAP_T3	Oblast cechovních válek
+MAP_T4	Oblast cechovních válek
 MAP_THUNDER	Bouřné hory
 MAP_TREE	Lungsam
 MAP_TRENT_A	
+MAP_TRENT	Les duchů
+MAP_TRENT02	Červený les
+MAP_TRENT02_A	Červený les
 MAP_WL	Hadí pole
+MAP_WEDDING_01	Svatební oblast
 MESSENGER_ADD_FRIEND	Přidat přítele
+MAP_WL_01	Hadí pole
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s tě přijímal za přítele.
 MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Akceptovat?
 MESSENGER_DO_YOU_DELETE	Smazat?
