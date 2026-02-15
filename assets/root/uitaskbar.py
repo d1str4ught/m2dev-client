@@ -26,12 +26,12 @@ def GetMouseButtonSettings():
 
 def SaveMouseButtonSettings():
 	global MOUSE_SETTINGS
-	with open("mouse.cfg", "w") as f:
+	with open("config/mouse.cfg", "w") as f:
 		f.write("%s\t%s" % tuple(MOUSE_SETTINGS))
 
 def LoadMouseButtonSettings():
 	global MOUSE_SETTINGS
-	with open("mouse.cfg", "r") as f:
+	with open("config/mouse.cfg", "r") as f:
 		tokens = f.read().split()
 
 	if len(tokens) != 2:

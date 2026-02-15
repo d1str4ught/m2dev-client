@@ -2378,7 +2378,7 @@ class BuildGuildBuildingWindow(ui.ScriptWindow):
 		self.__RefreshItem()
 
 	def __SetBuildingData(self, data):
-		self.buildingPriceValue.SetText(NumberToMoneyString(data["PRICE"]))
+		self.buildingPriceValue.SetText(NumberToMoneyString(int(data["PRICE"])))
 
 		self.needMoney = int(data["PRICE"])
 

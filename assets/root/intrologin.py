@@ -317,14 +317,14 @@ class LoginWindow(ui.ScriptWindow):
 
 	def __SaveChannelInfo(self):
 		try:
-			with open("channel.inf", "w") as file:
+			with open("config/channel.inf", "w") as file:
 				file.write("%d %d %d" % (self.__GetServerID(), self.__GetChannelID(), self.__GetRegionID()))
 		except:
 			print("LoginWindow.__SaveChannelInfo - SaveError")
 
 	def __LoadChannelInfo(self):
 		try:
-			with open("channel.inf") as file:
+			with open("config/channel.inf") as file:
 				lines=file.readlines()
 
 				if len(lines)>0:
