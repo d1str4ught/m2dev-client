@@ -7,8 +7,9 @@ This repository contains all client-side data, including locale files, configura
 ## 📋 Changelog
 
 ### 🐛 Bug Fixes
- - **Affect tooltips**: ALL affects now display realtime countdowns, titles and are wrapped in tooltips! Realtime countdowns does not apply to infinite affects such as the Exorcism Scroll, the Concentrated Reading and the Medal of the Dragon (Death penalty prevention)
- - **AFFECT_FIRE**: The Continuous Fire debuff has been added to the affects dictionary by name.
+ - **Horse affect**: Fixed gap in the affects list when sending the horse away.
+ - **Dragon Stones Activation**: If the targeted deck has no available time left in any of the equipped items, it won't switch/turn on. Applied fixes to both button clicks and keyboard shortcuts. The active slot effect now only turns on for items that have time left in them and auto-updates if time is added to any equipped item while the deck is activated.
+ - **Password fields**: Prevents cutting/copying text from the Storage/Mall password field.
 
 <br>
 <br>

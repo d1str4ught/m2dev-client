@@ -254,13 +254,37 @@ class DragonSoulWindow(ui.ScriptWindow):
 					
 		self.wndEquip.RefreshSlot()
 
+		# MR-17: Improve slot activation for active Dragon Soul deck
+		if self.isActivated:
+			self.ActivateEquipSlotWindow(self.deckPageIndex)
+		# MR-17: -- END OF -- Improve slot activation for active Dragon Soul deck
+
+	# MR-17: Improve slot activation for active Dragon Soul deck
 	def ActivateEquipSlotWindow(self, deck):
 		for i in range(6):
-			if deck == 2:
-				 plusCount = 6
-			else:
-				plusCount = 0
-			self.wndEquip.ActivateSlot(player.DRAGON_SOUL_EQUIPMENT_SLOT_START + i + plusCount)
+			slotNumber = player.DRAGON_SOUL_EQUIPMENT_SLOT_START + deck * player.DRAGON_SOUL_EQUIPMENT_FIRST_SIZE + i
+			itemVnum = player.GetItemIndex(slotNumber)
+
+			if itemVnum == 0:
+				continue
+
+			item.SelectItem(itemVnum)
+			remain_time = 999
+
+			for j in range(item.LIMIT_MAX_NUM):
+				(limitType, limitValue) = item.GetLimit(j)
+				if item.LIMIT_REAL_TIME == limitType:
+					remain_time = player.GetItemMetinSocket(player.INVENTORY, slotNumber, 0) - app.GetGlobalTimeStamp()
+				elif item.LIMIT_REAL_TIME_START_FIRST_USE == limitType:
+					remain_time = player.GetItemMetinSocket(player.INVENTORY, slotNumber, 0) - app.GetGlobalTimeStamp()
+				elif item.LIMIT_TIMER_BASED_ON_WEAR == limitType:
+					remain_time = player.GetItemMetinSocket(player.INVENTORY, slotNumber, 0)
+				if remain_time <= 0:
+					break
+
+			if remain_time > 0:
+				self.wndEquip.ActivateSlot(player.DRAGON_SOUL_EQUIPMENT_SLOT_START + i)
+	# MR-17: -- END OF -- Improve slot activation for active Dragon Soul deck
    
 	def DeactivateEquipSlotWindow(self):
 		for i in range(12):
@@ -719,6 +743,10 @@ class DragonSoulWindow(ui.ScriptWindow):
 		if deckIndex is None:
 			deckIndex = self.deckPageIndex
 
+		# MR-17: Improve slot activation for active Dragon Soul deck
+		was_activated = self.isActivated
+		# MR-17: -- END OF -- Improve slot activation for active Dragon Soul deck
+
 		if not self.isActivated or self.deckPageIndex != deckIndex:
 			# MR-12: Improve keyboard shortcut functionality for deck toggling
 			if self.deckPageIndex != deckIndex:
@@ -737,7 +765,16 @@ class DragonSoulWindow(ui.ScriptWindow):
 				self.__WarmDragonSoulTimeCache(deckIndex)
 			else:
 				self.isActivated = False
+
 				self.activateButton.SetUp()
+
+				# MR-17: Improve slot activation for active Dragon Soul deck
+				if was_activated:
+					net.SendChatPacket("/dragon_soul deactivate")
+
+				if self.tooltipItem:
+					self.tooltipItem.ClearDragonSoulTimeCache()
+				# MR-17: -- END OF -- Improve slot activation for active Dragon Soul deck
 	# MR-12: -- END OF -- Improve keyboard shortcut functionality for deck toggling
 		else:
 			net.SendChatPacket("/dragon_soul deactivate")

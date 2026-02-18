@@ -41,6 +41,9 @@ class PasswordDialog(ui.ScriptWindow):
 		self.passwordValue.OnPressEscapeKey = self.OnCancel
 		self.acceptButton.SetEvent(ui.__mem_func__(self.OnAccept))
 		self.cancelButton.SetEvent(ui.__mem_func__(self.OnCancel))
+		# MR-17: Set secret mode for password input
+		self.passwordValue.SetSecretMode(1)
+		# MR-17: -- END OF -- Set secret mode for password input
 
 	def Destroy(self):
 		self.ClearDictionary()
@@ -122,6 +125,12 @@ class ChangePasswordDialog(ui.ScriptWindow):
 		oldPassword.OnPressEscapeKey = self.OnCancel
 		newPassword.OnPressEscapeKey = self.OnCancel
 		newPasswordCheck.OnPressEscapeKey = self.OnCancel
+
+		# MR-17: Set secret mode for password input
+		oldPassword.SetSecretMode(1)
+		newPassword.SetSecretMode(1)
+		newPasswordCheck.SetSecretMode(1)
+		# MR-17: -- END OF -- Set secret mode for password input
 
 		self.oldPassword = oldPassword
 		self.newPassword = newPassword

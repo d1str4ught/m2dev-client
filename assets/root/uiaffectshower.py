@@ -79,22 +79,22 @@ class HorseImage(ui.ExpandedImageBox):
 	FILE_PATH = "d:/ymir work/ui/pattern/HorseState/"
 
 	FILE_DICT = {
-		00 : FILE_PATH+"00.dds",
-		0o1 : FILE_PATH+"00.dds",
-		0o2 : FILE_PATH+"00.dds",
-		0o3 : FILE_PATH+"00.dds",
-		10 : FILE_PATH+"10.dds",
-		11 : FILE_PATH+"11.dds",
-		12 : FILE_PATH+"12.dds",
-		13 : FILE_PATH+"13.dds",
-		20 : FILE_PATH+"20.dds",
-		21 : FILE_PATH+"21.dds",
-		22 : FILE_PATH+"22.dds",
-		23 : FILE_PATH+"23.dds",
-		30 : FILE_PATH+"30.dds",
-		31 : FILE_PATH+"31.dds",
-		32 : FILE_PATH+"32.dds",
-		33 : FILE_PATH+"33.dds",
+		00 : FILE_PATH + "00.dds",
+		0o1 : FILE_PATH + "00.dds",
+		0o2 : FILE_PATH + "00.dds",
+		0o3 : FILE_PATH + "00.dds",
+		10 : FILE_PATH + "10.dds",
+		11 : FILE_PATH + "11.dds",
+		12 : FILE_PATH + "12.dds",
+		13 : FILE_PATH + "13.dds",
+		20 : FILE_PATH + "20.dds",
+		21 : FILE_PATH + "21.dds",
+		22 : FILE_PATH + "22.dds",
+		23 : FILE_PATH + "23.dds",
+		30 : FILE_PATH + "30.dds",
+		31 : FILE_PATH + "31.dds",
+		32 : FILE_PATH + "32.dds",
+		33 : FILE_PATH + "33.dds",
 	}
 
 	def __init__(self):
@@ -114,10 +114,11 @@ class HorseImage(ui.ExpandedImageBox):
 		#self.textLineList=[]
 		self.toolTip.ClearToolTip()
 
-		if level>0:
+		if level > 0:
 
 			try:
 				grade = self.__GetHorseGrade(level)
+
 				self.__AppendText(localeInfo.LEVEL_LIST[int(grade)])
 			except IndexError:
 				print(("HorseImage.SetState(level=%d, health=%d, battery=%d) - Unknown Index" % (level, health, battery)))
@@ -125,18 +126,19 @@ class HorseImage(ui.ExpandedImageBox):
 
 			try:
 				healthName=localeInfo.HEALTH_LIST[health]
+
 				if len(healthName)>0:
 					self.__AppendText(healthName)
 			except IndexError:
 				print(("HorseImage.SetState(level=%d, health=%d, battery=%d) - Unknown Index" % (level, health, battery)))
 				return
 
-			if health>0:
-				if battery==0:
+			if health > 0:
+				if battery == 0:
 					self.__AppendText(localeInfo.NEEFD_REST)
 
 			try:
-				fileName=self.FILE_DICT[health*10+battery]
+				fileName = self.FILE_DICT[health*10+battery]
 			except KeyError:
 				print(("HorseImage.SetState(level=%d, health=%d, battery=%d) - KeyError" % (level, health, battery)))
 
@@ -888,16 +890,20 @@ class AffectShower(ui.Window):
 			self.lovePointImage.OnUpdateLovePoint(lovePoint)
 
 	def SetHorseState(self, level, health, battery):
-		if level==0:
-			self.horseImage=None
+		if level == 0:
+			self.horseImage = None
 		else:
 			image = HorseImage()
+
 			image.SetParent(self)
 			image.SetState(level, health, battery)
 			image.Show()
 
-			self.horseImage=image
-			self.__ArrangeImageList()
+			self.horseImage = image
+
+		# MR-17: Fix icons not re-arranging after horse state changes
+		self.__ArrangeImageList()
+		# MR-17: -- END OF -- Fix icons not re-arranging after horse state changes
 
 	def SetPlayTime(self, playTime):
 		self.serverPlayTime = playTime
