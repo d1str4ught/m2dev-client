@@ -12,6 +12,11 @@ CHARACTER_MUTUAL_ACTION	Acción Mútua
 CHARACTER_NORMAL_ACTION	Acción Normal
 CHARACTER_QUEST	Misiones
 CHARACTER_SKILL	Habilidades
+CHATTING_SETTING_LANGUAGE_1	Idioma 1
+CHATTING_SETTING_LANGUAGE_2	Idioma 2
+CHATTING_SETTING_LANGUAGE_3	Idioma 3
+CHATTING_SETTING_LANGUAGE_CUR	Idioma actual ( %s )
+CHATTING_SETTING_LANGUAGE_ONOFF	Filtros
 CLOSE	Cerrar
 COMB_TITLE	
 COSTUME_TITLE	Atuendos
@@ -122,10 +127,10 @@ GUILD_MONEY	Yang
 GUILD_NAME	Gremio
 GUILD_RESOURCE_INFO	Información de los Recursos
 GUILD_SKILL_ACTIVE	Activo
-GUILD_SKIlL_HEAL_GSP	Recobrar Poder
 GUILD_SKILL_PASSIVE	Pasivo
 GUILD_SKILL_POWER	Energía
 GUILD_SKILL_STATE	Habilidades del Gremio
+GUILD_SKILL_HEAL_GSP	Recobrar Poder
 GUILD_WAR_ACCEPT	Aceptar Declaración de Guerra
 GUILD_WAR_BATTLE_TYPE	Tipo de bat.
 GUILD_WAR_CTF	Bandera
@@ -169,6 +174,24 @@ HELP_SYSTEM_BUTTON	Botones de Sistema
 INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. Inventario
 INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. Inventario
 INVENTORY_TITLE	Inventario
+LANGUAGE_AE	Árabe (عربي)
+LANGUAGE_BR	Portugués BR (Português Brasileiro)
+LANGUAGE_CZ	Checo (Čeština)
+LANGUAGE_DE	Alemán (Deutsch)
+LANGUAGE_DK	Danés (Dansk)
+LANGUAGE_EN	Inglés (English)
+LANGUAGE_ES	Español (Español)
+LANGUAGE_FR	Francés (Français)
+LANGUAGE_GR	Griego (Ελληνικά)
+LANGUAGE_HU	Húngaro (Magyar)
+LANGUAGE_IT	Italiano (Italiano)
+LANGUAGE_NL	Neerlandés (Nederlands)
+LANGUAGE_NONE	No hay selección
+LANGUAGE_PL	Polaco (Polski)
+LANGUAGE_PT	Portugués (Português)
+LANGUAGE_RO	Rumano (Română)
+LANGUAGE_RU	Ruso (Русский)
+LANGUAGE_TR	Turco (Türkçe)
 LOAD_ERROR	El archivo está dañado. Por favor, reinstálalo de nuevo. Presiona ESC ahora.
 LOGIN_CONNECT	Conectar
 LOGIN_CONNECTING	Serás conectado al servidor
@@ -218,6 +241,8 @@ OPTION_FOG_DENSE	Densa
 OPTION_FOG_LIGHT	Ligera
 OPTION_FOG_MIDDLE	Media
 OPTION_INPUT_MOBILE_BUTTON	Introducir Número de Teléfono Móvil
+OPTION_LANGUAGE_CHANGE	Aplicar
+OPTION_LANGUAGE_SELECT	Idioma
 OPTION_MOBILE	Teléfono Móvil
 OPTION_MUSIC	Música
 OPTION_MUSIC_CHANGE	Cambiar

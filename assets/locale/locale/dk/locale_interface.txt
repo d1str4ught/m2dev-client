@@ -12,6 +12,11 @@ CHARACTER_MUTUAL_ACTION	Interaktive aktioner
 CHARACTER_NORMAL_ACTION	Normale aktioner
 CHARACTER_QUEST	Missioner
 CHARACTER_SKILL	Færdigheder
+CHATTING_SETTING_LANGUAGE_1	Sprog 1
+CHATTING_SETTING_LANGUAGE_2	Sprog 2
+CHATTING_SETTING_LANGUAGE_3	Sprog 3
+CHATTING_SETTING_LANGUAGE_CUR	Nuværende sprog ( %s )
+CHATTING_SETTING_LANGUAGE_ONOFF	Filter
 CLOSE	Luk
 COMB_TITLE	
 COSTUME_TITLE	Kostumer
@@ -122,10 +127,10 @@ GUILD_MONEY	Yang
 GUILD_NAME	Orden
 GUILD_RESOURCE_INFO	Ressourceinformationer
 GUILD_SKILL_ACTIVE	Aktiv
-GUILD_SKIlL_HEAL_GSP	Oplad
 GUILD_SKILL_PASSIVE	Passiv
 GUILD_SKILL_POWER	Energi
 GUILD_SKILL_STATE	Ordens færdigheder
+GUILD_SKILL_HEAL_GSP	Oplad
 GUILD_WAR_ACCEPT	Accepter Ordenskrigserklæring
 GUILD_WAR_BATTLE_TYPE	Kampart
 GUILD_WAR_CTF	Flag
@@ -169,6 +174,24 @@ HELP_SYSTEM_BUTTON	System knapper
 INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. inventar
 INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. inventar
 INVENTORY_TITLE	Inventar
+LANGUAGE_AE	Arabisk (عربي)
+LANGUAGE_BR	Portugisisk BR (Português Brasileiro)
+LANGUAGE_CZ	Tjekkisk (Čeština)
+LANGUAGE_DE	Tysk (Deutsch)
+LANGUAGE_DK	Dansk (Dansk)
+LANGUAGE_EN	Engelsk (English)
+LANGUAGE_ES	Spansk (Español)
+LANGUAGE_FR	Fransk (Français)
+LANGUAGE_GR	Græsk (Ελληνικά)
+LANGUAGE_HU	Ungarsk (Magyar)
+LANGUAGE_IT	Italiensk (Italiano)
+LANGUAGE_NL	Hollandsk (Nederlands)
+LANGUAGE_NONE	Ikke valgt
+LANGUAGE_PL	Polsk (Polski)
+LANGUAGE_PT	Portugisisk (Português)
+LANGUAGE_RO	Rumænsk (Română)
+LANGUAGE_RU	Russisk (Русский)
+LANGUAGE_TR	Tyrkisk (Türkçe)
 LOAD_ERROR	En data-fil er i stykker. Vær så venligt at geninstallere clienten. Tryk ESC.
 LOGIN_CONNECT	Connect
 LOGIN_CONNECTING	Du bliver forbundet med serveren.
@@ -218,6 +241,8 @@ OPTION_FOG_DENSE	Meget
 OPTION_FOG_LIGHT	Lidt
 OPTION_FOG_MIDDLE	Mellem
 OPTION_INPUT_MOBILE_BUTTON	Angiv mobilnr.
+OPTION_LANGUAGE_CHANGE	Anvend
+OPTION_LANGUAGE_SELECT	Sprog
 OPTION_MOBILE	Mobil
 OPTION_MUSIC	Musik
 OPTION_MUSIC_CHANGE	Skift

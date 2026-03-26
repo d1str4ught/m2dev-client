@@ -12,6 +12,11 @@ CHARACTER_MUTUAL_ACTION	Interaktivní akce
 CHARACTER_NORMAL_ACTION	Normální akce
 CHARACTER_QUEST	Úkol
 CHARACTER_SKILL	Schopnosti
+CHATTING_SETTING_LANGUAGE_1	Jazyk 1
+CHATTING_SETTING_LANGUAGE_2	Jazyk 2
+CHATTING_SETTING_LANGUAGE_3	Jazyk 3
+CHATTING_SETTING_LANGUAGE_CUR	Aktuální jazyk ( %s )
+CHATTING_SETTING_LANGUAGE_ONOFF	Filtr
 CLOSE	Zavřít
 COMB_TITLE	
 COSTUME_TITLE	Kostýmy
@@ -122,10 +127,10 @@ GUILD_MONEY	Yang
 GUILD_NAME	Cech
 GUILD_RESOURCE_INFO	Informace o zdrojích
 GUILD_SKILL_ACTIVE	Aktivní
-GUILD_SKIlL_HEAL_GSP	Nabít
 GUILD_SKILL_PASSIVE	Pasivní
 GUILD_SKILL_POWER	Energie
 GUILD_SKILL_STATE	Schopnosti cechu
+GUILD_SKILL_HEAL_GSP	Nabít
 GUILD_WAR_ACCEPT	Akceptovat vyhlášení války
 GUILD_WAR_BATTLE_TYPE	Druh boje
 GUILD_WAR_CTF	Vlajka
@@ -169,6 +174,24 @@ HELP_SYSTEM_BUTTON	Systémové klávesy
 INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. Inventář
 INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. Inventář
 INVENTORY_TITLE	Inventář
+LANGUAGE_AE	Arabsky (عربي)
+LANGUAGE_BR	Portugalsky BR (Português Brasileiro)
+LANGUAGE_CZ	Česky (Čeština)
+LANGUAGE_DE	Německy (Deutsch)
+LANGUAGE_DK	Dánsky (Dansk)
+LANGUAGE_EN	Anglicky (English)
+LANGUAGE_ES	Španělsky (Español)
+LANGUAGE_FR	Francouzsky (Français)
+LANGUAGE_GR	Řecky (Ελληνικά)
+LANGUAGE_HU	Maďarsky (Magyar)
+LANGUAGE_IT	Italsky (Italiano)
+LANGUAGE_NL	Holandsky (Nederlands)
+LANGUAGE_NONE	Nevybráno
+LANGUAGE_PL	Polsky (Polski)
+LANGUAGE_PT	Portugalsky (Português)
+LANGUAGE_RO	Rumunsky (Română)
+LANGUAGE_RU	Rusky (Русский)
+LANGUAGE_TR	Turecky (Türkçe)
 LOAD_ERROR	Soubor je poškozen. Prosím nainstaluj Client znovu. Teď stiskni klávesu ESC.
 LOGIN_CONNECT	Připojit
 LOGIN_CONNECTING	Budeš spojen se serverem.
@@ -218,6 +241,8 @@ OPTION_FOG_DENSE	Hodně
 OPTION_FOG_LIGHT	Málo
 OPTION_FOG_MIDDLE	Středně
 OPTION_INPUT_MOBILE_BUTTON	Vložit číslo mobilu
+OPTION_LANGUAGE_CHANGE	Použít
+OPTION_LANGUAGE_SELECT	Jazyk
 OPTION_MOBILE	Mobil
 OPTION_MUSIC	Hudba
 OPTION_MUSIC_CHANGE	Změnit

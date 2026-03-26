@@ -190,7 +190,7 @@ EXCHANGE_CANNOT_GIVE	لا يمكن المتاجرة بهذا الشيء.
 EXCHANGE_CANT_EDIT_MONEY	لا يمكنك تغير المبلغ الآن.
 EXCHANGE_FAILURE_EQUIP_ITEM	لا يُمكنك استبدال المعدات المدججة.
 EXCHANGE_MONEY	مبلغ
-EXCHANGE_TITLE	تاجِرْ مع %s (%d)
+EXCHANGE_TITLE	تاجِرْ مع %s
 FISHING_FAILURE	لقد أضعت الطُّعم.
 FISHING_NOTIFY1	يبدو أن %s علِق في الطُّعم.
 FISHING_NOTIFY2	يبدو أن %s سُجن.
@@ -288,7 +288,7 @@ HORSE_LEVEL2	حصان مدرع
 HORSE_LEVEL3	حصان الجيش
 HOUR	س
 HOW_MANY_ITEM_DO_YOU_DROP1	هل ترغب في إسقاط  %s؟
-HOW_MANY_ITEM_DO_YOU_DROP2	هل ترغب في إسقاط %s لـ%d؟
+HOW_MANY_ITEM_DO_YOU_DROP2	هل ترغب في إسقاط %s لـ %d؟
 INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	أدخل شفرة الحذف من خيار إدارة الحساب.
 INPUT_PRIVATE_CODE_DIALOG_TITLE	حذف الشخصية
 INVENTORY_REALLY_USE_ITEM	هل ترغب في تفعيل هذا البند على هذا الشيء؟
@@ -512,7 +512,7 @@ PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	سيحصل أعضاء المجموعة
 PARTY_EXP_DISTRIBUTION_MODE_PARITY	مُتساو
 PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	ينال جميع أعضاء المجموعة نقاط الأسلوب بالتساوي.
 PARTY_HEAL_ALL_MEMBER	استرجاع الوضع الأولي للجميع
-PARTY_INCREASE_AREA_150	ارتفاع مدى المجموعة بعامل 1,5.	SNA
+PARTY_INCREASE_AREA_150	ارتفاع مدى المجموعة بعامل 1،5	SNA
 PARTY_INCREASE_AREA_200	ارتفاع مدى المجموعة بعامل 2	SNA
 PARTY_LEAVE	مغادرة المجموعة
 PARTY_MEMBER_OFFLINE	[غير متصل]
@@ -666,6 +666,13 @@ STAT_TOOLTIP_DEX	ارتفاع الهجوم والمناورة
 STAT_TOOLTIP_INT	يرفع من نقاط الأسلوب، وقوة الهجوم السحري والدفاع السحري.
 STAT_TOOLTIP_STR	يرفع من قيمة الهجوم والضرر
 SYMBOLLIST_TITLE	تسجيل علم الرابطة
+SYSTEM_OPTION_CPU_TILING_1	تفعيل نظام CPU-Tiling يؤدي إلى تحسين سرعة الحاسوب البطيء.
+SYSTEM_OPTION_CPU_TILING_2	عليك إذا واجهتك مشاكل في عرض الصور النقر على نقطة ’’النظام’’، أو ’CONFIG.exe’
+SYSTEM_OPTION_CPU_TILING_3	وغير النظام إلى GPU-Tiling
+SYSTEM_OPTION_GPU_TILING_1	يعمل نظام GPU-Tiling ببطء على حاسوب ضعيف.
+SYSTEM_OPTION_GPU_TILING_2	عليك إذا واجهتك مشاكل في عرض الصور النقر على نقطة ’’النظام’’، أو ’CONFIG.exe’ في ملف اللعبة.
+SYSTEM_OPTION_GPU_TILING_3	وغير النظام إلى GPU-Tiling.
+SYSTEM_OPTION_TILING_EXIT	يجب إعادة تشغيل اللعبة من جديد للتحول إلى نظام الـ Tiling.
 TARGET_BUTTON_ACCEPT_FIGHT	وافَق
 TARGET_BUTTON_AVENGE	ثأر
 TARGET_BUTTON_BUILDING_DESTROY	تدمير
@@ -746,7 +753,7 @@ TOOLTIP_APPLY_RESIST_SWORD	دفاع سيفي %d%%	SA
 TOOLTIP_APPLY_RESIST_TWOHAND	دفاع سيف اليدين %d%%	SA
 TOOLTIP_APPLY_RESIST_WARRIOR	فرص الدفاع ضد هجوم المحاربين %d%%	SA
 TOOLTIP_APPLY_RESIST_WIND	مقاومة الرياح %d%%	SA
-TOOLTIP_APPLY_SKILL_BOOK_BONUS	فرصة الاستفادة من الكتب ترتفع بعامل 2,5	SNA
+TOOLTIP_APPLY_SKILL_BOOK_BONUS	فرصة الاستفادة من الكتب ترتفع بعامل 2،5	SNA
 TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY	ستحصل إذا فشل التّعلم الحصول على فرصة إضافية لإعادة المحاولة.	SNA
 TOOLTIP_APPLY_SLOW_PCT	فرص التبطيء: %d%%	SA
 TOOLTIP_APPLY_STEAL_HP	تستوعب نقاط الحياة %d%% من الضرر.	SA
@@ -813,7 +820,7 @@ TOOLTIP_MALL_DEFBONUS	الدفاع +%d%%	SA
 TOOLTIP_MALL_DEFBONUS_STATIC	دفاع	SNA
 TOOLTIP_MALL_EXPBONUS	نقاط الخبرة +%d%%	SA
 TOOLTIP_MALL_EXPBONUS_P_STATIC	نقاط الخبرة لمقهى الإنترنت الإضافية +%d%%	SA
-TOOLTIP_MALL_EXPBONUS_STATIC	50 % خبرة إضافية	SNA
+TOOLTIP_MALL_EXPBONUS_STATIC	خبرة إضافية 50%	SNA
 TOOLTIP_MALL_FISH_MIND	ارتفاع نجاح فرص صيد السمك.	SNA
 TOOLTIP_MALL_GOLDBONUS	إرتفعت فرص إسقاط اليانغ بمقدار %d%%	SA
 TOOLTIP_MALL_GOLDBONUS_STATIC	فرص مضاعفة في إسقاط اليانغ	SNA
@@ -829,7 +836,7 @@ TOOLTIP_MAX_SP_PCT	نقاط الأسلوب القصوى +%d%%	SA
 TOOLTIP_MAX_STAMINA	مدة التحمل القصوى +%d	SA
 TOOLTIP_MELEE_MAGIC_ATTBONUS_PER	هجوم سحري/قتال عن قرب +%d%%	SA
 TOOLTIP_MEMORIZED_POSITION	%s (%d، %d)
-TOOLTIP_MEMORIZED_POSITION_ERROR	خطأ GPS(%d, %d)
+TOOLTIP_MEMORIZED_POSITION_ERROR	خطأ GPS (%d، %d)
 TOOLTIP_MOV_SPEED	سرعة التحرك %d%%	SA
 TOOLTIP_NECK	قلادة
 TOOLTIP_NEED_ALL_SP	نقاط الأسلوب المطلوبة: الحد الأقصى

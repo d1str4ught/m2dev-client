@@ -1,5 +1,4 @@
 ACCEPT	موافق
-alsoExportToCharset	
 ATTACH_METIN_INFO	هل ترغب في استخدام الحجر الشّبحي؟
 ATTACH_METIN_TITLE	استخدام الحجر الشّبحي
 CANCEL	إلغاء
@@ -13,6 +12,11 @@ CHARACTER_MUTUAL_ACTION	نشاط متبادل
 CHARACTER_NORMAL_ACTION	نشاط عادي
 CHARACTER_QUEST	المهمات
 CHARACTER_SKILL	مهارات
+CHATTING_SETTING_LANGUAGE_1	اللغة 1
+CHATTING_SETTING_LANGUAGE_2	اللغة 2
+CHATTING_SETTING_LANGUAGE_3	اللغة 3
+CHATTING_SETTING_LANGUAGE_CUR	اللغة الحالية ( %s )
+CHATTING_SETTING_LANGUAGE_ONOFF	فلتر
 CLOSE	إغلاق
 COMB_TITLE	
 COSTUME_TITLE	أزياء
@@ -132,10 +136,10 @@ GUILD_MONEY	يانغ
 GUILD_NAME	رابطة
 GUILD_RESOURCE_INFO	معلومات عن المصادر
 GUILD_SKILL_ACTIVE	فعّال
-GUILD_SKIlL_HEAL_GSP	شحن نقاط الحياة
 GUILD_SKILL_PASSIVE	غير فعّال
 GUILD_SKILL_POWER	طاقة
 GUILD_SKILL_STATE	مهارة الرابطة
+GUILD_SKILL_HEAL_GSP	شحن نقاط الحياة
 GUILD_WAR_ACCEPT	وافق على إعلان حرب
 GUILD_WAR_BATTLE_TYPE	نوع المعركة
 GUILD_WAR_CTF	علَم
@@ -176,12 +180,12 @@ HELP_OPEN_CHARACTER	فتح قائمة الشخصية: C
 HELP_OPEN_CHAT	فتح نافذة الدردشة: Enter
 HELP_OPEN_INVENTORY	فتح قائمة الممتلكات: I
 HELP_OPEN_LOG	فتح سجل الدردشة (log): L
-HELP_OPEN_MINIMAP	فتح الخريطة الصغيرة: Schift + M
+HELP_OPEN_MINIMAP	فتح الخريطة الصغيرة: Shift + M
 HELP_OPEN_QUEST	فتح نافذة المهام: N
 HELP_OPEN_SKILL	فتح نافذة المهارات: V
 HELP_OPEN_WHISPER	فتح نافذة الهمس: Shift + Enter
 HELP_OPEN_ZONEMAP	فتح الخريطة الكبيرة: M
-HELP_PICK_ITEM	التقاط الأشياء من على الأرض: لوحة مفاتيح انجليزية: الزر الأيسر للفأرة أو Z أو ` ؛ لوحة مفاتيح عربية: الزر الأيسر للفأرة أو ئ أو ذ ؛ لوحة مفاتيح فرنسية: الزر الأيسر للفأرة أو W أو ²
+HELP_PICK_ITEM	التقاط الأشياء من على الأرض: \nلوحة مفاتيح انجليزية: الزر الأيسر للفأرة أو Z أو ` ؛ لوحة مفاتيح عربية: الزر الأيسر للفأرة أو ئ أو ذ ؛ لوحة مفاتيح فرنسية: الزر الأيسر للفأرة أو W أو ²
 HELP_QUICKSLOT	خانات الوصول السريع
 HELP_SCREEN_CAPTURE	حفظ لقطة الشاشة: اضغط على زر 'Print Screen' أو ’Print’ (ستُحفظ اللقطات في ملف تجده في ’’Metin2/screenshot’’)
 HELP_SERVER	يعرض لك الخادم والقناة.
@@ -193,6 +197,24 @@ INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. قائمة الجرد
 INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. قائمة الجرد
 INVENTORY_TITLE	قائمة الجرد
 KEYCHANGE_DRAGON_GATE	
+LANGUAGE_AE	العربية (عربي)
+LANGUAGE_BR	البرتغالية BR (Português Brasileiro)
+LANGUAGE_CZ	التشيكية (Čeština)
+LANGUAGE_DE	الألمانية (Deutsch)
+LANGUAGE_DK	الدانماركية (Dansk)
+LANGUAGE_EN	الأنجليزية (English)
+LANGUAGE_ES	الإسبانية (Español)
+LANGUAGE_FR	الفرنسية (Français)
+LANGUAGE_GR	اليونانية (Ελληνικά)
+LANGUAGE_HU	الهنغارية (Magyar)
+LANGUAGE_IT	الإيطالية (Italiano)
+LANGUAGE_NL	الهولندية (Nederlands)
+LANGUAGE_NONE	لم يتم تحديد شيء
+LANGUAGE_PL	البولندية (Polski)
+LANGUAGE_PT	البرتغالية (Português)
+LANGUAGE_RO	الرومانية (Română)
+LANGUAGE_RU	الروسية (Русский)
+LANGUAGE_TR	التركية (Türkçe)
 LOAD_ERROR	إن الملف غير صالح. الرجاء إعادة تثبيته. اضغط الآن على  زر ’’ESC’’.
 LOGIN_CONNECT	ربط الاتصال
 LOGIN_CONNECTING	سيتم ربط الاتصال بالخادم.
@@ -242,6 +264,8 @@ OPTION_FOG_DENSE	كثيف
 OPTION_FOG_LIGHT	خفيف
 OPTION_FOG_MIDDLE	معتدل
 OPTION_INPUT_MOBILE_BUTTON	أدخل رقم هاتفك الجوال
+OPTION_LANGUAGE_CHANGE	طبّق
+OPTION_LANGUAGE_SELECT	اللغة
 OPTION_MOBILE	الهاتف الجوال
 OPTION_MUSIC	موسيقى
 OPTION_MUSIC_CHANGE	تغيير
@@ -333,3 +357,4 @@ WHISPER_REPORT
 WHISPER_SEND	إرسال
 YES	نعم
 ZONE_MAP	خريطة كبيرة
+alsoExportToCharset	

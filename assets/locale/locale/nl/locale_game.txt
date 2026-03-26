@@ -468,7 +468,7 @@ RECEIVE_MESSAGE	%s heeft je een bericht gestuurd.
 REFINE_COST	Kosten voor Bevordering: %d Yang
 REFINE_DESTROY_WARNING	Dit Voorwerp kan vernietigd worden \n tijden het opwaarderen.	
 REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1	Wil je dit item echt verbeteren?
-REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	Als je niet slaagt dan kan het Voorwerp vernietigd worden. /n Wil je doorgaan?
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	Als je niet slaagt dan kan het Voorwerp vernietigd worden. \n Wil je doorgaan?
 REFINE_DOWN_GRADE_WARNING	Dit Voorwerp kan gedegradeerd worden.	
 REFINE_DO_YOU_SEPARATE_METIN	Wil je alle beschikbare Zielenstenen verwijderen?
 REFINE_FAILURE_CAN_NOT_ATTACH	%s kan niet toegevoegd worden aan dat Voorwerp.	

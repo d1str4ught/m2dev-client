@@ -12,6 +12,11 @@ CHARACTER_MUTUAL_ACTION	Action partagée
 CHARACTER_NORMAL_ACTION	Action normale
 CHARACTER_QUEST	Missions
 CHARACTER_SKILL	Compétence
+CHATTING_SETTING_LANGUAGE_1	Langue 1
+CHATTING_SETTING_LANGUAGE_2	Langue 2
+CHATTING_SETTING_LANGUAGE_3	Langue 3
+CHATTING_SETTING_LANGUAGE_CUR	Langue actuelle (%s)
+CHATTING_SETTING_LANGUAGE_ONOFF	Filtre
 CLOSE	Fermer
 COSTUME_TITLE	Costumes
 COSTUME_WINDOW_TITLE	Costumes
@@ -121,10 +126,10 @@ GUILD_MONEY	Yang
 GUILD_NAME	Guilde
 GUILD_RESOURCE_INFO	Information sur les ressources
 GUILD_SKILL_ACTIVE	Active
-GUILD_SKIlL_HEAL_GSP	Récupérer un Esprit de Dragon
 GUILD_SKILL_PASSIVE	Passive
 GUILD_SKILL_POWER	Énergie
 GUILD_SKILL_STATE	Compétences de la Guilde
+GUILD_SKILL_HEAL_GSP	Récupérer un Esprit de Dragon
 GUILD_WAR_ACCEPT	Accepter la déclaration de guerre
 GUILD_WAR_BATTLE_TYPE	Type de bataille
 GUILD_WAR_CTF	Drapeau
@@ -168,6 +173,24 @@ HELP_SYSTEM_BUTTON	Touches systèmes
 INVENTORY_PAGE_BUTTON_TOOLTIP_1	1er inventaire
 INVENTORY_PAGE_BUTTON_TOOLTIP_2	2e inventaire
 INVENTORY_TITLE	Inventaire
+LANGUAGE_AE	Arabe (عربي)
+LANGUAGE_BR	Portugais BR (Português Brasileiro)
+LANGUAGE_CZ	Tchèque (Čeština)
+LANGUAGE_DE	Allemand (Deutsch)
+LANGUAGE_DK	Danois (Dansk)
+LANGUAGE_EN	Anglais (English)
+LANGUAGE_ES	Espagnol (Español)
+LANGUAGE_FR	Français (Français)
+LANGUAGE_GR	Grec (Ελληνικά)
+LANGUAGE_HU	Hongrois (Magyar)
+LANGUAGE_IT	Italien (Italiano)
+LANGUAGE_NL	Néerlandais (Nederlands)
+LANGUAGE_NONE	Aucune sélection
+LANGUAGE_PL	Polonais (Polski)
+LANGUAGE_PT	Portugais (Português)
+LANGUAGE_RO	Roumain (Română)
+LANGUAGE_RU	Russe (Русский)
+LANGUAGE_TR	Turc (Türkçe)
 LOAD_ERROR	Le fichier est endommagé. Veuillez en installer un nouveau. Appuyez à présent sur Echapp
 LOGIN_CONNECT	Se connecter
 LOGIN_CONNECTING	Vous devez être connecté au serveur
@@ -217,6 +240,8 @@ OPTION_FOG_DENSE	Epais
 OPTION_FOG_LIGHT	Léger
 OPTION_FOG_MIDDLE	Moyen
 OPTION_INPUT_MOBILE_BUTTON	Entrer le numéro de téléphone portable
+OPTION_LANGUAGE_CHANGE	Appliquer
+OPTION_LANGUAGE_SELECT	Langue
 OPTION_MOBILE	Téléphone portable
 OPTION_MUSIC	Musique
 OPTION_MUSIC_CHANGE	Changer

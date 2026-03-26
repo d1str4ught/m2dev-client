@@ -116,7 +116,7 @@ EXCHANGE_CANNOT_GIVE	Não é possível trocar este item.
 EXCHANGE_CANT_EDIT_MONEY	Não é possível modificar a quantidade.	
 EXCHANGE_FAILURE_EQUIP_ITEM	Não é possível trocar itens equipados.	
 EXCHANGE_MONEY	Gold	
-EXCHANGE_TITLE	Negociação com %s(%d)
+EXCHANGE_TITLE	Negociação com %s
 FISHING_FAILURE	Oh não! O peixe comeu a sua isca!	
 FISHING_NOTIFY1	%s está mordendo a isca!
 FISHING_NOTIFY2	%s está preso no anzol!

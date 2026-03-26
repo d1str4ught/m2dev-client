@@ -466,7 +466,7 @@ RECEIVE_MESSAGE	%s sent you a message.
 REFINE_COST	Costs for Advancement: %d Yang
 REFINE_DESTROY_WARNING	This Item could be destroyed \n while upgrading.	
 REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1	Do you really want to upgrade this item?
-REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	but if you fail the Item could be destroyed. /n Do you want to continue?
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	but if you fail the Item could be destroyed. \n Do you want to continue?
 REFINE_DOWN_GRADE_WARNING	The Item could be down graded this way.	
 REFINE_DO_YOU_SEPARATE_METIN	Do you want to remove all available spirit stones?
 REFINE_FAILURE_CAN_NOT_ATTACH	%s cannot be included in that Item.	
@@ -564,14 +564,14 @@ STAT_TOOLTIP_CON	Increases HP and defence
 STAT_TOOLTIP_DEX	Increases attack and evasion
 STAT_TOOLTIP_INT	Increases SP, magic attack and defence
 STAT_TOOLTIP_STR	Increases attack value and damage
-SYMBOLLIST_TITLE	Register Guild flag	
+SYMBOLLIST_TITLE	Register Guild flag
 SYSTEM_OPTION_CPU_TILING_1	CPU Tiling Mode can upgrade the speed of a weaker PC.	
-SYSTEM_OPTION_CPU_TILING_2	If there are problem with the graphics choose either ,Systemoption‘ or ,CONFIG.exe‘	
+SYSTEM_OPTION_CPU_TILING_2	If there are problem with the graphics choose either 'System Options' or 'CONFIG.exe'
 SYSTEM_OPTION_CPU_TILING_3	and change to GPU Tiling Mode.	
 SYSTEM_OPTION_GPU_TILING_1	GPU Tiling Mode can run slow on a weaker PC.
 SYSTEM_OPTION_GPU_TILING_2	If there are problems with the graphics choose either 'System Options' or 'CONFIG.exe'
 SYSTEM_OPTION_GPU_TILING_3	and change to GPU Tiling Mode.
-SYSTEM_OPTION_TILING_EXIT	To change to Tiling mode, the game has to be restarted.
+SYSTEM_OPTION_TILING_EXIT	To change the Tiling mode, the game has to be restarted.
 TARGET_BUTTON_ACCEPT_FIGHT	Agree	
 TARGET_BUTTON_AVENGE	Revenge	
 TARGET_BUTTON_BUILDING_DESTROY	Destroy	

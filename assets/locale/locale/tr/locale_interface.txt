@@ -12,6 +12,11 @@ CHARACTER_MUTUAL_ACTION	Ortak Hareket
 CHARACTER_NORMAL_ACTION	Normal Hareket
 CHARACTER_QUEST	Görevler
 CHARACTER_SKILL	Beceri
+CHATTING_SETTING_LANGUAGE_1	Dil 1
+CHATTING_SETTING_LANGUAGE_2	Dil 2
+CHATTING_SETTING_LANGUAGE_3	Dil 3
+CHATTING_SETTING_LANGUAGE_CUR	Mevcut dil ( %s )
+CHATTING_SETTING_LANGUAGE_ONOFF	Filtre
 CLOSE	Kapat
 COMB_TITLE	
 COSTUME_TITLE	Kostümler
@@ -122,10 +127,10 @@ GUILD_MONEY	Yang
 GUILD_NAME	Lonca
 GUILD_RESOURCE_INFO	Kaynak Bilgisi
 GUILD_SKILL_ACTIVE	Aktif
-GUILD_SKIlL_HEAL_GSP	Gücü tekrar kazan
 GUILD_SKILL_PASSIVE	Pasif
 GUILD_SKILL_POWER	Enerji
 GUILD_SKILL_STATE	Lonca Becerileri
+GUILD_SKILL_HEAL_GSP	Gücü tekrar kazan
 GUILD_WAR_ACCEPT	Savaş İlanı Kabulü
 GUILD_WAR_BATTLE_TYPE	Savaş Türü
 GUILD_WAR_CTF	Bayrak
@@ -169,6 +174,24 @@ HELP_SYSTEM_BUTTON	Sistem Tuşları
 INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. Envanter
 INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. Envanter
 INVENTORY_TITLE	Envanter
+LANGUAGE_AE	Arapça (عربي)
+LANGUAGE_BR	Portekizce BR (Português Brasileiro)
+LANGUAGE_CZ	Çekçe (Čeština)
+LANGUAGE_DE	Almanca (Deutsch)
+LANGUAGE_DK	Danca (Dansk)
+LANGUAGE_EN	İngilizce (English)
+LANGUAGE_ES	İspanyolca (Español)
+LANGUAGE_FR	Fransızca (Français)
+LANGUAGE_GR	Yunanca (Ελληνικά)
+LANGUAGE_HU	Macarca (Magyar)
+LANGUAGE_IT	İtalyanca (Italiano)
+LANGUAGE_NL	Flamanca (Nederlands)
+LANGUAGE_NONE	Hiçbir şey seçilmemiş
+LANGUAGE_PL	Lehçe (Polski)
+LANGUAGE_PT	Portekizce (Português)
+LANGUAGE_RO	Rumence (Română)
+LANGUAGE_RU	Rusça (Русский)
+LANGUAGE_TR	Türkçe (Türkçe)
 LOAD_ERROR	Dosya hasar görmüş. Lütfen yenisini yükleyiniz. Şimdi ESC tuşuna basınız .
 LOGIN_CONNECT	Bağlan
 LOGIN_CONNECTING	Servera bağlanacaksınız.
@@ -218,6 +241,8 @@ OPTION_FOG_DENSE	Yoğun
 OPTION_FOG_LIGHT	Hafif
 OPTION_FOG_MIDDLE	Normal
 OPTION_INPUT_MOBILE_BUTTON	Cep Telefonu Numarası Gir
+OPTION_LANGUAGE_CHANGE	Uygula
+OPTION_LANGUAGE_SELECT	Dil
 OPTION_MOBILE	Cep Telefonu
 OPTION_MUSIC	Müzik
 OPTION_MUSIC_CHANGE	Değiştir

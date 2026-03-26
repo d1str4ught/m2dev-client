@@ -12,6 +12,11 @@ CHARACTER_MUTUAL_ACTION	Emocje wspólne
 CHARACTER_NORMAL_ACTION	Emocje podstawowe
 CHARACTER_QUEST	Misje
 CHARACTER_SKILL	Umiejętności
+CHATTING_SETTING_LANGUAGE_1	Język 1
+CHATTING_SETTING_LANGUAGE_2	Język 2
+CHATTING_SETTING_LANGUAGE_3	Język 3
+CHATTING_SETTING_LANGUAGE_CUR	Obecny język ( %s )
+CHATTING_SETTING_LANGUAGE_ONOFF	Filtr
 CLOSE	Zamknij
 COMB_TITLE	
 COSTUME_TITLE	Kostiumy
@@ -122,10 +127,10 @@ GUILD_MONEY	Yang
 GUILD_NAME	Gildia
 GUILD_RESOURCE_INFO	Informacja o surowcach
 GUILD_SKILL_ACTIVE	Aktywne
-GUILD_SKIlL_HEAL_GSP	Regeneracja
 GUILD_SKILL_PASSIVE	Pasywne
 GUILD_SKILL_POWER	Energia
 GUILD_SKILL_STATE	Umiejętności Gildii
+GUILD_SKILL_HEAL_GSP	Regeneracja
 GUILD_WAR_ACCEPT	Akceptuj Deklarację Wojny
 GUILD_WAR_BATTLE_TYPE	Rodzaj bitwy
 GUILD_WAR_CTF	Flagi
@@ -169,6 +174,24 @@ HELP_SYSTEM_BUTTON	Przycisk Systemowy
 INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. Ekwipunek
 INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. Ekwipunek
 INVENTORY_TITLE	Ekwipunek
+LANGUAGE_AE	Arabski (عربي)
+LANGUAGE_BR	Portugalski BR (Português Brasileiro)
+LANGUAGE_CZ	Czeski (Čeština)
+LANGUAGE_DE	Niemiecki (Deutsch)
+LANGUAGE_DK	Duński (Dansk)
+LANGUAGE_EN	Angielski (English)
+LANGUAGE_ES	Hiszpański (Español)
+LANGUAGE_FR	Francuski (Français)
+LANGUAGE_GR	Grecki (Ελληνικά)
+LANGUAGE_HU	Węgierski (Magyar)
+LANGUAGE_IT	Włoski (Italiano)
+LANGUAGE_NL	Holenderski (Nederlands)
+LANGUAGE_NONE	Brak wyboru
+LANGUAGE_PL	Polski (Polski)
+LANGUAGE_PT	Portugalski (Português)
+LANGUAGE_RO	Rumuński (Română)
+LANGUAGE_RU	Rosyjski (Русский)
+LANGUAGE_TR	Turecki (Türkçe)
 LOAD_ERROR	Plik jest uszkodzony. Proszę zainstalować nowy. Wciśnij teraz ESC.
 LOGIN_CONNECT	Połącz
 LOGIN_CONNECTING	Zostaniesz połączony z Serwerem
@@ -218,6 +241,8 @@ OPTION_FOG_DENSE	Gęsta
 OPTION_FOG_LIGHT	Światło
 OPTION_FOG_MIDDLE	Środek
 OPTION_INPUT_MOBILE_BUTTON	Wybierz Numer Telefonu Komórkowego
+OPTION_LANGUAGE_CHANGE	Zastosuj
+OPTION_LANGUAGE_SELECT	Język
 OPTION_MOBILE	Telefon Komórkowy
 OPTION_MUSIC	Muzyka
 OPTION_MUSIC_CHANGE	Zmień

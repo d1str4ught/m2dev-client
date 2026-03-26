@@ -319,7 +319,13 @@ class QuestionDialog2(QuestionDialog):
 		self.acceptButton = self.GetChild("accept")
 		self.cancelButton = self.GetChild("cancel")
 
+		# Store original y so __UpdateLayout always computes from the base position
+		try:
+			_, self.__textLine2BaseY = self.textLine2.GetLocalPosition()
+		except:
+			self.__textLine2BaseY = 0
 	# MR-15: Multiline dialog messages
+
 	def SetText1(self, text):
 		self.textLine1.SetText(text)
 		self.__UpdateLayout()
