@@ -558,7 +558,7 @@ class TextLine(Window):
 			wndMgr.SetText(self.hWnd, "")
 			return
 
-		if "\\n" in text in text:
+		if "\\n" in text:
 			parts = text.replace("\\n", "\n").split("\n")
 			parts = [p.strip(" ") for p in parts]
 
