@@ -12,6 +12,11 @@ CHARACTER_MUTUAL_ACTION	Azioni interattive
 CHARACTER_NORMAL_ACTION	Azioni normali
 CHARACTER_QUEST	Missioni
 CHARACTER_SKILL	Abilità
+CHATTING_SETTING_LANGUAGE_1	Lingua 1
+CHATTING_SETTING_LANGUAGE_2	Lingua 2
+CHATTING_SETTING_LANGUAGE_3	Lingua 3
+CHATTING_SETTING_LANGUAGE_CUR	Lingua impostata (%s)
+CHATTING_SETTING_LANGUAGE_ONOFF	Filtri
 CLOSE	Chiudi
 COMB_TITLE	
 COSTUME_TITLE	Costumi
@@ -122,10 +127,10 @@ GUILD_MONEY	Yang
 GUILD_NAME	Gilda
 GUILD_RESOURCE_INFO	Informazioni delle risorse
 GUILD_SKILL_ACTIVE	Attivo
-GUILD_SKIlL_HEAL_GSP	Ricaricare
 GUILD_SKILL_PASSIVE	Passivo
 GUILD_SKILL_POWER	Energia
 GUILD_SKILL_STATE	Abilità della Gilda
+GUILD_SKILL_HEAL_GSP	Ricaricare
 GUILD_WAR_ACCEPT	Accettare dichiarazione di guerra
 GUILD_WAR_BATTLE_TYPE	Tipo di lotta
 GUILD_WAR_CTF	Bandiera
@@ -169,6 +174,24 @@ HELP_SYSTEM_BUTTON	Tasti di sistema
 INVENTORY_PAGE_BUTTON_TOOLTIP_1	1° Inventario
 INVENTORY_PAGE_BUTTON_TOOLTIP_2	2° Inventario
 INVENTORY_TITLE	Inventario
+LANGUAGE_AE	Arabo (عربي)
+LANGUAGE_BR	Portoghese BR (Português Brasileiro)
+LANGUAGE_CZ	Ceco (Čeština)
+LANGUAGE_DE	Tedesco (Deutsch)
+LANGUAGE_DK	Danese (Dansk)
+LANGUAGE_EN	Inglese (English)
+LANGUAGE_ES	Spagnolo (Español)
+LANGUAGE_FR	Francese (Français)
+LANGUAGE_GR	Greco (Ελληνικά)
+LANGUAGE_HU	Ungherese (Magyar)
+LANGUAGE_IT	Italiano (Italiano)
+LANGUAGE_NL	Olandese (Nederlands)
+LANGUAGE_NONE	Nessuna selezione
+LANGUAGE_PL	Polacco (Polski)
+LANGUAGE_PT	Portoghese (Português)
+LANGUAGE_RO	Romeno (Română)
+LANGUAGE_RU	Russo (Русский)
+LANGUAGE_TR	Turco (Türkçe)
 LOAD_ERROR	Il file dati è rovinato. Reinstalla il Client. Clicca ora il tasto ESC.
 LOGIN_CONNECT	Collegare
 LOGIN_CONNECTING	Stai per essere collegato al server.
@@ -218,6 +241,8 @@ OPTION_FOG_DENSE	Molto
 OPTION_FOG_LIGHT	Poco
 OPTION_FOG_MIDDLE	Media
 OPTION_INPUT_MOBILE_BUTTON	Inserisci il numero di cellulare
+OPTION_LANGUAGE_CHANGE	Usa
+OPTION_LANGUAGE_SELECT	Lingua
 OPTION_MOBILE	Cellulare
 OPTION_MUSIC	Musica
 OPTION_MUSIC_CHANGE	Cambia

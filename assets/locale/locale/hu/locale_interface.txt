@@ -12,6 +12,11 @@ CHARACTER_MUTUAL_ACTION	Interaktív akció
 CHARACTER_NORMAL_ACTION	Normál akció
 CHARACTER_QUEST	Küldetések
 CHARACTER_SKILL	Képesség
+CHATTING_SETTING_LANGUAGE_1	1. nyelv
+CHATTING_SETTING_LANGUAGE_2	2. nyelv
+CHATTING_SETTING_LANGUAGE_3	3. nyelv
+CHATTING_SETTING_LANGUAGE_CUR	Jelenlegi nyelv ( %s )
+CHATTING_SETTING_LANGUAGE_ONOFF	Szűrő
 CLOSE	Bezár
 COSTUME_TITLE	Viseletek
 COSTUME_WINDOW_TITLE	Viseletek
@@ -121,10 +126,10 @@ GUILD_MONEY	Yang
 GUILD_NAME	Céh
 GUILD_RESOURCE_INFO	Forrás információk
 GUILD_SKILL_ACTIVE	Aktív
-GUILD_SKIlL_HEAL_GSP	Feltölteni
 GUILD_SKILL_PASSIVE	Passzív
 GUILD_SKILL_POWER	Energia
 GUILD_SKILL_STATE	Céh képesség
+GUILD_SKILL_HEAL_GSP	Feltölteni
 GUILD_WAR_ACCEPT	Céh hadüzenet elfogadása
 GUILD_WAR_BATTLE_TYPE	Harci mód
 GUILD_WAR_CTF	Zászló
@@ -168,6 +173,24 @@ HELP_SYSTEM_BUTTON	Rendszer billentyűk
 INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. leltár
 INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. leltár
 INVENTORY_TITLE	Leltár
+LANGUAGE_AE	Arab (عربي)
+LANGUAGE_BR	Portugál BR (Português Brasileiro)
+LANGUAGE_CZ	Cseh (Čeština)
+LANGUAGE_DE	Német (Deutsch)
+LANGUAGE_DK	Dán (Dansk)
+LANGUAGE_EN	Angol (English)
+LANGUAGE_ES	Spanyol (Español)
+LANGUAGE_FR	Francia (Français)
+LANGUAGE_GR	Görög (Ελληνικά)
+LANGUAGE_HU	Magyar (Magyar)
+LANGUAGE_IT	Olasz (Italiano)
+LANGUAGE_NL	Holland (Nederlands)
+LANGUAGE_NONE	Nincs kiválasztva
+LANGUAGE_PL	Lengyel (Polski)
+LANGUAGE_PT	Portugál (Português)
+LANGUAGE_RO	Román (Română)
+LANGUAGE_RU	Orosz (Русский)
+LANGUAGE_TR	Török (Türkçe)
 LOAD_ERROR	Az adatfájl megsérült. Installáld újra a klienst. Nyomd meg az ESC gombot.
 LOGIN_CONNECT	Csatlakozik
 LOGIN_CONNECTING	A szerverhez leszel kapcsolva.
@@ -217,6 +240,8 @@ OPTION_FOG_DENSE	Sok
 OPTION_FOG_LIGHT	Kevés
 OPTION_FOG_MIDDLE	Közepes
 OPTION_INPUT_MOBILE_BUTTON	Mobiltelefonszám megadása
+OPTION_LANGUAGE_CHANGE	OK
+OPTION_LANGUAGE_SELECT	Nyelv
 OPTION_MOBILE	Mobiltelefon
 OPTION_MUSIC	Zene
 OPTION_MUSIC_CHANGE	Váltani

@@ -6,6 +6,7 @@ import wndMgr
 import item
 import skill
 import localeInfo
+import sys
 import dbg
 # MARK_BUG_FIX
 import guild
@@ -122,7 +123,7 @@ class Window(object):
 	def GetWindowName(self):
 		return wndMgr.GetName(self.hWnd)
 
-	def SetParent(self, parent):		
+	def SetParent(self, parent):
 		wndMgr.SetParent(self.hWnd, parent.hWnd)
 
 	def SetParentProxy(self, parent):
@@ -220,17 +221,17 @@ class Window(object):
 
 	def SetOnMouseLeftButtonUpEvent(self, event):
 		self.onMouseLeftButtonUpEvent = event
-		
+
 	def OnMouseLeftButtonUp(self):
 		if self.onMouseLeftButtonUpEvent:
 			self.onMouseLeftButtonUpEvent()
 
 	def EnableScissorRect(self):
 		wndMgr.EnableScissorRect(self.hWnd)
-		
+
 	def DisableScissorRect(self):
 		wndMgr.DisableScissorRect(self.hWnd)
-		
+
 	def IsScissorRectEnabled(self):
 		return wndMgr.IsScissorRectEnabled(self.hWnd)
 
@@ -557,8 +558,8 @@ class TextLine(Window):
 			wndMgr.SetText(self.hWnd, "")
 			return
 
-		if "\\n" in text or "/n" in text:
-			parts = text.replace("\\n", "\n").replace("/n", "\n").split("\n")
+		if "\\n" in text:
+			parts = text.replace("\\n", "\n").split("\n")
 			parts = [p.strip(" ") for p in parts]
 
 			wndMgr.SetText(self.hWnd, parts[0])
@@ -681,7 +682,7 @@ class EditLine(TextLine):
 		wndMgr.SetMax(self.hWnd, self.max)
 		ime.SetMax(self.max)
 		self.SetUserMax(self.max)
-		
+
 	def SetUserMax(self, max):
 		self.userMax = max
 		ime.SetUserMax(self.userMax)
@@ -778,7 +779,7 @@ class EditLine(TextLine):
 
 	def OnIMEUpdate(self):
 		snd.PlaySound("sound/ui/type.wav")
-		self.SetText(ime.GetText())
+		TextLine.SetText(self, ime.GetText())
 
 	def OnIMETab(self):
 		if self.eventTab:
@@ -911,7 +912,7 @@ class ImageBox(Window):
 
 		if len(self.eventDict)!=0:
 			print(("LOAD IMAGE", self, self.eventDict))
-			
+
 	def LoadImageFromFile(self, imageName):
 		self.name=imageName
 		wndMgr.LoadImageFromFile(self.hWnd, imageName)
@@ -1062,7 +1063,7 @@ class Button(Window):
 	def SAFE_SetEvent(self, func, *args):
 		self.eventFunc = __mem_func__(func)
 		self.eventArgs = args
-		
+
 	def SetEvent(self, func, *args):
 		self.eventFunc = func
 		self.eventArgs = args
@@ -1086,7 +1087,7 @@ class Button(Window):
 		self.ButtonText.SetText(text)
 
 	def SetFormToolTipText(self, type, text, x, y):
-		if not self.ToolTipText:		
+		if not self.ToolTipText:
 			toolTip=createToolTipWindowDict[type]()
 			toolTip.SetParent(self)
 			toolTip.SetSize(0, 0)
@@ -1098,8 +1099,8 @@ class Button(Window):
 
 		self.ToolTipText.SetText(text)
 
-	def SetToolTipWindow(self, toolTip):		
-		self.ToolTipText=toolTip		
+	def SetToolTipWindow(self, toolTip):
+		self.ToolTipText=toolTip
 		self.ToolTipText.SetParentProxy(self)
 
 	def SetToolTipText(self, text, x=0, y = -19):
@@ -1118,7 +1119,7 @@ class Button(Window):
 	def HideToolTip(self):
 		if self.ToolTipText:
 			self.ToolTipText.Hide()
-			
+
 	def IsDown(self):
 		return wndMgr.IsDown(self.hWnd)
 
@@ -1136,25 +1137,25 @@ class RadioButtonGroup:
 	def __init__(self):
 		self.buttonGroup = []
 		self.selectedBtnIdx = -1
-	
+
 	def __del__(self):
 		for button, ue, de in self.buttonGroup:
 			button.__del__()
- 	
+
 	def Show(self):
 		for (button, selectEvent, unselectEvent) in self.buttonGroup:
 			button.Show()
- 	
+
 	def Hide(self):
 		for (button, selectEvent, unselectEvent) in self.buttonGroup:
 			button.Hide()
- 	
+
 	def SetText(self, idx, text):
 		if idx >= len(self.buttonGroup):
 			return
 		(button, selectEvent, unselectEvent) = self.buttonGroup[idx]
 		button.SetText(text)
- 	
+
 	def OnClick(self, btnIdx):
 		if btnIdx == self.selectedBtnIdx:
 			return
@@ -1162,14 +1163,14 @@ class RadioButtonGroup:
 		if unselectEvent:
 			unselectEvent()
 		button.SetUp()
- 		
+
 		self.selectedBtnIdx = btnIdx
 		(button, selectEvent, unselectEvent) = self.buttonGroup[btnIdx]
 		if selectEvent:
 			selectEvent()
 
 		button.Down()
- 		
+
 	def AddButton(self, button, selectEvent, unselectEvent):
 		i = len(self.buttonGroup)
 		button.SetEvent(lambda : self.OnClick(i))
@@ -1180,11 +1181,11 @@ class RadioButtonGroup:
 		radioGroup = RadioButtonGroup()
 		for (button, selectEvent, unselectEvent) in rawButtonGroup:
 			radioGroup.AddButton(button, selectEvent, unselectEvent)
-		
+
 		radioGroup.OnClick(0)
-		
+
 		return radioGroup
-		
+
 	Create=staticmethod(Create)
 
 class ToggleButton(Button):
@@ -1375,8 +1376,8 @@ class SlotWindow(Window):
 
 	def DisableCoverButton(self, slotIndex):
 		wndMgr.DisableCoverButton(self.hWnd, slotIndex)
-		
-	def SetAlwaysRenderCoverButton(self, slotIndex, bAlwaysRender = TRUE):
+
+	def SetAlwaysRenderCoverButton(self, slotIndex, bAlwaysRender = True):
 		wndMgr.SetAlwaysRenderCoverButton(self.hWnd, slotIndex, bAlwaysRender)
 
 	def AppendSlotButton(self, upName, overName, downName):
@@ -1521,7 +1522,7 @@ class SlotWindow(Window):
 
 		item.SelectItem(ItemIndex)
 		(width, height) = item.GetItemSize()
-		
+
 		wndMgr.SetSlot(self.hWnd, renderingSlotNumber, ItemIndex, width, height, itemIcon, diffuseColor)
 		wndMgr.SetSlotCount(self.hWnd, renderingSlotNumber, ItemCount)
 
@@ -1537,7 +1538,7 @@ class SlotWindow(Window):
 		wndMgr.SetSlotCount(self.hWnd, renderingSlotNumber, skillLevel)
 
 	def SetSkillSlotNew(self, renderingSlotNumber, skillIndex, skillGrade, skillLevel):
-		
+
 		skillIcon = skill.GetIconImageNew(skillIndex, skillGrade)
 
 		if 0 == skillIcon:
@@ -2179,10 +2180,10 @@ class ScrollBar(Window):
 
 	def SetScrollStep(self, step):
 		self.scrollStep = step
-	
+
 	def GetScrollStep(self):
 		return self.scrollStep
-		
+
 	def OnUp(self):
 		self.SetPos(self.curPos-self.scrollStep)
 
@@ -2450,9 +2451,9 @@ class ListBox(Window):
 				skipCount -= 1
 				continue
 
-			if app.IsRTL():
+			if app.IsRTL() and not self.itemCenterAlign:
 				w, h = textLine.GetTextSize()
-				textLine.SetPosition(w+10, yPos + 3)
+				textLine.SetPosition(w + 10, yPos + 3)
 			else:
 				textLine.SetPosition(0, yPos + 3)
 
@@ -2522,7 +2523,7 @@ class ListBox(Window):
 
 		if -1 != self.overLine:
 			grp.SetColor(HALF_WHITE_COLOR)
-			grp.RenderBar(xRender + 2, yRender + self.overLine*self.stepSize + 4, self.width - 3, self.stepSize)				
+			grp.RenderBar(xRender + 2, yRender + self.overLine*self.stepSize + 4, self.width - 3, self.stepSize)
 
 		if -1 != self.selectedLine:
 			if self.selectedLine >= self.basePos:
@@ -2585,7 +2586,7 @@ class ListBox2(ListBox):
 				if row >= 0 and row < self.rowCount:
 					if idx >= 0 and idx < len(self.itemList):
 						return idx
-		
+
 		return -1
 
 	def _CalcRenderPos(self, pos, idx):
@@ -2632,15 +2633,15 @@ class ComboBox(Window):
 			xRender, yRender = self.GetGlobalPosition()
 			yRender -= self.TEMPORARY_PLACE
 			widthRender = self.width
-			heightRender = self.height + self.TEMPORARY_PLACE*2
+			heightRender = self.height + self.TEMPORARY_PLACE * 2
 			grp.SetColor(BACKGROUND_COLOR)
 			grp.RenderBar(xRender, yRender, widthRender, heightRender)
 			grp.SetColor(DARK_COLOR)
 			grp.RenderLine(xRender, yRender, widthRender, 0)
 			grp.RenderLine(xRender, yRender, 0, heightRender)
 			grp.SetColor(BRIGHT_COLOR)
-			grp.RenderLine(xRender, yRender+heightRender, widthRender, 0)
-			grp.RenderLine(xRender+widthRender, yRender, 0, heightRender)
+			grp.RenderLine(xRender, yRender + heightRender, widthRender, 0)
+			grp.RenderLine(xRender + widthRender, yRender, 0, heightRender)
 
 			ListBox.OnRender(self)
 
@@ -2660,6 +2661,7 @@ class ComboBox(Window):
 		self.textLine.SetText(localeInfo.UI_ITEM)
 
 		self.listBox = self.ListBoxWithBoard("TOP_MOST")
+
 		self.listBox.SetPickAlways()
 		self.listBox.SetParent(self)
 		self.listBox.SetEvent(__mem_func__(self.OnSelectItem))
@@ -2860,23 +2862,17 @@ class PythonScriptLoader(object):
 			self.ScriptDictionary["LOCALE_PATH_COMMON"] = app.GetLocalePathCommon()
 			exec(compile(open(FileName, "rb").read(), FileName, 'exec'), self.ScriptDictionary)
 		except IOError as err:
-			import sys
-			import dbg			
 			dbg.TraceError("Failed to load script file : %s" % (FileName))
 			dbg.TraceError("error  : %s" % (err))
 			exception.Abort("LoadScriptFile1")
 		except RuntimeError as err:
-			import sys
-			import dbg			
 			dbg.TraceError("Failed to load script file : %s" % (FileName))
 			dbg.TraceError("error  : %s" % (err))
 			exception.Abort("LoadScriptFile2")
 		except:
-			import sys
-			import dbg			
 			dbg.TraceError("Failed to load script file : %s" % (FileName))
 			exception.Abort("LoadScriptFile!!!!!!!!!!!!!!")
-		
+
 		#####
 
 		Body = self.ScriptDictionary["window"]
@@ -2921,14 +2917,14 @@ class PythonScriptLoader(object):
 		parent.Children = list(range(len(ChildrenList)))
 		for ElementValue in ChildrenList:
 			try:
-				Name = ElementValue["name"]				
+				Name = ElementValue["name"]
 			except KeyError:
 				Name = ElementValue["name"] = "NONAME"
 				
 			try:
 				Type = ElementValue["type"]
-			except KeyError:								
-				Type = ElementValue["type"] = "window"				
+			except KeyError:
+				Type = ElementValue["type"] = "window"
 
 			if False == self.CheckKeyList(Name, ElementValue, self.DEFAULT_KEY_LIST):
 				del parent.Children[Index]
@@ -3304,11 +3300,11 @@ class PythonScriptLoader(object):
 
 		window.SetPosition(int(value["x"]), int(value["y"]))
 		window.SetItemSize(int(value["item_xsize"]), int(value["item_ysize"]))
-		window.SetItemStep(int(value["item_step"]))		
+		window.SetItemStep(int(value["item_step"]))
 		window.Show()
 
 		return True
-				
+
 	## Table
 	def LoadElementGridTable(self, window, value, parentWindow):
 

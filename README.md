@@ -7,8 +7,16 @@ This repository contains all client-side data, including locale files, configura
 ## 📋 Changelog
 
 ### 🐛 Bug Fixes
- - **Affect tooltips**: ALL affects now display realtime countdowns, titles and are wrapped in tooltips! Realtime countdowns does not apply to infinite affects such as the Exorcism Scroll, the Concentrated Reading and the Medal of the Dragon (Death penalty prevention)
- - **AFFECT_FIRE**: The Continuous Fire debuff has been added to the affects dictionary by name.
+ - **Several missing image assets added**
+ - **Several missing item icons added**
+ - **Fixed client crashes on entering Thunder map**: The mesh and textures for `redthief_soldier2_lod_01` were causing the client to crash when attempting to load the monster.
+ - **Dialog line breaks**: Fixed the `/n` command by removing `/n` as a line breaker from the code in `uicommon.py` and adjusted all affected locale strings accordingly. Also fixed an issue that would incrementally increase distance between first and second line in the question dialog with every new render.
+ - **Fixed a horizontal alignment issue for non-centered Arabic text rendering**
+ - **Adjusted several translation strings that will be required for the updates to come**
+ - **Fixed some Arabic item names**
+ - **Added Brazilian translation resources and updated item and mob protos with the new names from the server project**
+ - **Fixed the `skilltable` <-> `skilldesc` desync issue for certain locales**: Some locales copied from other clients contained unknown tags such as `CLAW`, these tags are now removed.
+ - **Added missing mapname(s) for Arabic**
 
 <br>
 <br>

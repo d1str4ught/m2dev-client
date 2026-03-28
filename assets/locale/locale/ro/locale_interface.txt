@@ -12,6 +12,11 @@ CHARACTER_MUTUAL_ACTION	Acțiuni interactive
 CHARACTER_NORMAL_ACTION	Acțiuni normale
 CHARACTER_QUEST	Misiuni
 CHARACTER_SKILL	Competențe
+CHATTING_SETTING_LANGUAGE_1	Limba 1
+CHATTING_SETTING_LANGUAGE_2	Limba 2
+CHATTING_SETTING_LANGUAGE_3	Limba 3
+CHATTING_SETTING_LANGUAGE_CUR	Limba curentă ( %s )
+CHATTING_SETTING_LANGUAGE_ONOFF	Filtru
 CLOSE	Închide
 COMB_TITLE	
 COSTUME_TITLE	Costume
@@ -122,10 +127,10 @@ GUILD_MONEY	Yang
 GUILD_NAME	Alianta
 GUILD_RESOURCE_INFO	Informații resurse
 GUILD_SKILL_ACTIVE	Activ
-GUILD_SKIlL_HEAL_GSP	Încarcă
 GUILD_SKILL_PASSIVE	Pasiv
 GUILD_SKILL_POWER	Energie
 GUILD_SKILL_STATE	Competența breslei
+GUILD_SKILL_HEAL_GSP	Încarcă
 GUILD_WAR_ACCEPT	Acceptă declarația de război a breslei
 GUILD_WAR_BATTLE_TYPE	Stil de luptă
 GUILD_WAR_CTF	Steag
@@ -169,6 +174,24 @@ HELP_SYSTEM_BUTTON	Taste Sistem
 INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. Inventar
 INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. Inventar
 INVENTORY_TITLE	Inventar
+LANGUAGE_AE	Arabă (عربي)
+LANGUAGE_BR	Portugheză BR (Português Brasileiro)
+LANGUAGE_CZ	Cehă (Čeština)
+LANGUAGE_DE	Germană (Deutsch)
+LANGUAGE_DK	Daneză (Dansk)
+LANGUAGE_EN	Engleză (English)
+LANGUAGE_ES	Spaniolă (Español)
+LANGUAGE_FR	Franceză (Français)
+LANGUAGE_GR	Greacă (Ελληνικά)
+LANGUAGE_HU	Maghiară (Magyar)
+LANGUAGE_IT	Italiană (Italiano)
+LANGUAGE_NL	Olandeză (Nederlands)
+LANGUAGE_NONE	Nicio selecţie
+LANGUAGE_PL	Poloneză (Polski)
+LANGUAGE_PT	Portugheză (Português)
+LANGUAGE_RO	Română (Română)
+LANGUAGE_RU	Rusă (Русский)
+LANGUAGE_TR	Turcă (Türkçe)
 LOAD_ERROR	Fișierul cu date este stricat. Instalează dinnou clientul. Apasă acum tasta ESC.
 LOGIN_CONNECT	Conectează
 LOGIN_CONNECTING	Conectarea la server rulează.
@@ -218,6 +241,8 @@ OPTION_FOG_DENSE	Mult
 OPTION_FOG_LIGHT	Puțin
 OPTION_FOG_MIDDLE	Mediu
 OPTION_INPUT_MOBILE_BUTTON	Introdu număr mobil
+OPTION_LANGUAGE_CHANGE	Aplică
+OPTION_LANGUAGE_SELECT	Limbă
 OPTION_MOBILE	Mobil
 OPTION_MUSIC	Muzică
 OPTION_MUSIC_CHANGE	Schimbă
