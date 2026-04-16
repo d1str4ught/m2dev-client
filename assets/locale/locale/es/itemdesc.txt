@@ -121,16 +121,16 @@
 21127		
 21128		
 21129		
-21550		
-21551		
-21552		
-21553		
-21554		
-21555		
-21556		
-21557		
-21558		
-21559		
+21550	Casco de Cuerno de Dragón +0	
+21551	Casco de Cuerno de Dragón +1	
+21552	Casco de Cuerno de Dragón +2	
+21553	Casco de Cuerno de Dragón +3	
+21554	Casco de Cuerno de Dragón +4	
+21555	Casco de Cuerno de Dragón +5	
+21556	Casco de Cuerno de Dragón +6	
+21557	Casco de Cuerno de Dragón +7	
+21558	Casco de Cuerno de Dragón +8	
+21559	Casco de Cuerno de Dragón +9	
 21991		
 21992		
 21993		
@@ -285,7 +285,7 @@
 30038	Piel de Tigre	Una piel de animal favorita entre los coleccionistas.
 30039	Pieza de Tela	Tela usada para cubrir las heridas de alguien.
 30040	Hoja	Hoja de planta desconocida.
-30041	Shiriken	Un arma arrojadiza que usan los Ninjas.
+30041	Shuriken	Un arma arrojadiza que usan los Ninjas.
 30042	Colmillo de Tigre	El sólido y brillante colmillo de ese gato montés.
 30043	Alubia	Un ingrediente usado en muchas recetas.
 30044	Arcilla	Arcilla usada para hacer porcelana.
@@ -319,16 +319,16 @@
 30072	Piel de Pie de Oso+	Comida vitamínica favorita de mucha gente.
 30073	Coletero Blanco+	Una cinta popular para sujetar el pelo de una mujer.
 30074	Uniforme Negro+	Un uniforme negro usado.
-30075	Shiriken+	Un arma arrojadiza usada por Ninjas.
+30075	Shuriken+	Un arma arrojadiza usada por Ninjas.
 30076	Amuleto de Orco+	Un amuleto que alienta a los Orcos durante la batalla.
 30077	Diente de Orco+	Un diente de un Orco amarillento y pestilente. En los bordes hay residuos crujientes e indefinibles.
 30078	Cartilla Esotérica+	Un manual de principiante de la doctrina esotérica.
-30079	Talismán Desconocido+	Un Talismán desconocido, sólo esotéricos pueden leerlo.
+30079	Talismán Desconocido+	Un talismán desconocido; sólo los esotéricos pueden leerlo.
 30080	Libro Maldición+	Este libro esotérico puede ser usado para maldecir a alguien.
 30081	Cola de Escorpión+	Una cola de escorpión venenosa.
 30082	Cola de Serpiente+	La escamosa y colorida cola de una serpiente de cascabel.
 30083	Medicina Desconocida+	Medicina desconocida de ingredientes desconocidos.
-30084	Talismán Desconocido+	Un talismán desconocido, sólo los Esotéricos pueden leerlo.
+30084	Talismán Desconocido+	Un talismán desconocido; sólo los esotéricos pueden leerlo.
 30085	Trozo de Tela+	Una tela usada para cubrir las heridas de alguien.
 30086	Recuerdo del Demonio+	Un grotesco recuerdo de un Demonio.
 30087	Gema del Demonio+	Una gema que se conoce por contener las almas de los muertos.
@@ -412,7 +412,7 @@
 30251	Joya de la Envidia	Un diamante impregnado de maldad.
 30252	Joya de la Sabiduría	Este diamante está envuelto por un aura serena y noble.
 30253	Joya de la lealtad	Este diamante está envuelto por un aura honesta y combativa.
-30254		
+30254	Cielo e infierno	
 30265	Fragmento de Medalla (1)	Primer fragmento de la Medalla del Héroe
 30266	Fragmento de Medalla (2)	Segundo fragmento de la Medalla del Héroe
 30267	Fragmento de Medalla (3)	Tercer fragmento de la Medalla del Héroe
@@ -465,67 +465,67 @@
 30523	Elemento de Joyería	Está hecho de oro puro y se puede combinar con una piedra preciosa para elaborar piezas de joyería muy lujosas.
 30524	Piedra en llamas	
 30525	Piedra helada en llamas	
-30526		
-30527		
-30528		
-30529		
-30530		
-30531		
-30532		
-30533		
-30534		
-30535		
-30536		
-30537		
-30538		
-30539		
-30540		
-30541		
-30542		
-30543		
-30544		
-30545		
-30546		
-30547		
-30548		
-30549		
+30526	Anillo doble de oro	
+30527	Anillo doble de plata	
+30528	Anillo doble de bronce	
+30529	Anillo doble de madera	
+30530	Anillo doble azul	
+30531	Anillo doble verde	
+30532	Anillo doble rojo	
+30533	Anillo doble púrpura	
+30534	Anillo de oro procesado	
+30535	Anillo de plata procesado	
+30536	Anillo de bronce procesado	
+30537	Anillo de madera procesado	
+30538	Ver comentario	
+30539	Ver comentario	
+30540	Ver comentario	
+30541	Ver comentario	
+30542	Anillo sencillo de plata	
+30543	Anillo sencillo de bronce	
+30544	Anillo sencillo de madera	
+30545	Anillo sencillo de zafiro	
+30546	Anillo sencillo de esmeralda	
+30547	Anillo sencillo de rubí	
+30548	Cinturón sencillo (amarillo)	
+30549	Cinturón sencillo (marrón)	
 30550	Cinturón azul	Material base para fabricar cinturones
-30551		
-30552		
-30553		
-30554		
-30555		
-30556		
-30557		
-30558		
-30559		
-30560		
-30561		
-30562		
-30563		
-30564		
-30565		
-30566		
-30567		
-30568		
-30569		
-30570		
-30571		
-30572		
-30573		
-30574		
-30575		
-30576		
-30577		
-30578		
-30579		
-30580		
-30581		
-30582		
-30583		
-30584		
-30585		
-30586		
+30551	Cinturón sencillo (negro)	
+30552	Cinturón sencillo (morado)	
+30553	Cinturón sencillo (verde)	
+30554	Arena brillante (naranja)	
+30555	Arena brillante (negra)	
+30556	Arena brillante (azul)	
+30557	Arena brillante (verde)	
+30558	Hilo rojo brillante	
+30559	Arena brillante (púrpura)	
+30560	Ver comentario	
+30561	Ver comentario	
+30562	Ver comentario	
+30563	Ver comentario	
+30564	Ver comentario	
+30565	Ver comentario	
+30566	Ver comentario	
+30567	Ver comentario	
+30568	Ver comentario	
+30569	Ver comentario	
+30570	Ver comentario	
+30571	Ver comentario	
+30572	Ver comentario	
+30573	Ver comentario	
+30574	Ver comentario	
+30575	Ver comentario	
+30576	Ver comentario	
+30577	Ver comentario	
+30578	Ver comentario	
+30579	Ver comentario	
+30580	Joyería lisa de plata	
+30581	Joyería lisa de bronce	
+30582	Joyería lisa de madera	
+30583	Joyería lisa (azul)	
+30584	Joyería lisa (verde)	
+30585	Joyería lisa (roja)	
+30586	Joyería lisa (púrpura)	
 31001	Copia de la Inscripción	Has copiado la inscripción de la Lápida Antigua.
 31002	Documento Antiguo	Un documento de la era de la Nación Oscura con más pistas.
 31003	Antídoto	Una medicina que puede salvarle la vida a un soldado envenenado.
@@ -536,21 +536,21 @@
 31008	Lágrima Celestial	Una piedra preciosa mágica hecha de Esencia de Cristal Azul, Cuarzo Rojo Infernal y Resina Bendecida. Espanta a criaturas malvadas y funciona durante siete días.
 31009	Carta a los gnolls	Mensaje secreto de los Servidores de la oscuridad a los Gnoll.
 31010	Carta a ladrones rojos	El mensaje de los Servidores de la oscuridad para la banda de los Ladrones rojos ha sido desgarrado en varios trozos.
-31011		
-31012		
+31011	Último fragmento de carta roja	
+31012	Carta de mantícora	
 31013	Nota	Ojalá este mensaje arroje algo de luz sobre los objetivos de los cíclopes.
-31014		
+31014	Carta de Yak-Hwan	
 31015	Carta del capitán Karfio	Un mensaje del Capitán Karfio para la Banshee.
 31016	Carta de Lee Chung	Un mensaje importante del comandante Lee Chung para el Almirante Angmur.
 31017	Carta sellada	Esta carta obraba en posesión de la servidora del templo.
 31018	Caparazón con escrituras	Este caparazón de tortuga con grabados sirve para descifrar un código.
 31019	Polvo de caparazón	Un polvo extraído del caparazón molido de una tortuga carey.
 31020	Raíz de flor de roca	La raíz de la Flor de roca puede neutralizar venenos en el cuerpo.
-31021		
+31021	Tablilla de arcilla de tritón	
 31022	Escama de Oin	Solo los dirigentes de los Tritones llevan estas extrañas escamas.
-31023		
+31023	Flecha afilada	
 31024	Cuero mantícora	Cuero robusto hecho a partir de piel del ala de Martyaxwar
-31025		
+31025	Aletas de tritón	
 31026	Armadura crustácea	Armadura de los Crustacianos. También sirve como material para fortificaciones.
 31027	Arena fina	Esta arena especialmente fina sirve como material de construcción.
 31028	Teja	Material de construcción cuadrado hecho de arcilla cocida.
@@ -569,35 +569,35 @@
 31041	Tierra fósil	Mezcla de tierra y polvo de huesos
 31042	Lanza de tritón	Tradicionalmente, los habitantes de la isla utilizan las lanzas de los Tritones para fortificar sus instalaciones defensivas.
 31043	Tabla lemúrida	Una tableta misteriosa e iridiscente en la que hay grabada una inscripción.
-31044		
-31045		
-31046		
-31047		
-31048		
-31049		
-31050		
+31044	Pimienta gnoll	
+31045	Polvo de chile gnoll	
+31046	Pinza de caparazón	
+31047	Ver comentario	
+31048	Bolsa de oro del mendigo	
+31049	Fardo de carne	
+31050	Bolsa de medicinas	
 31051	Hierro	
-31052		
-31053		
-31054		
-31055		
-31056		
-31057		
-31058		
-31059		
-31060		
-31061		
-31062		
-31063		
-31064		
-31065		
-31066		
-31067		
-31068		
-31069		
-31070		
-31071		
-31072		
+31052	Vinagre de alma espectral	
+31053	Ovillo de pelaje gnoll	
+31054	Cuero de mantícora	
+31055	Hierbas desconocidas	
+31056	Uña de cíclope	
+31057	Cuerno de gigante	
+31058	Pezuña de ogro	
+31059	Piedra del alma de los no muertos	
+31060	Incienso de tritón	
+31061	Rama de zelkova	
+31062	Hierro de alta calidad	
+31063	Bolitas de arroz	
+31064	Hierbas de la consciencia	
+31065	Sebo de mantícora	
+31066	Hierbas de nueva vida	
+31067	Ver comentario	
+31068	Huesos de dragón	
+31069	Líquido de zelkova	
+31070	Collar de perro demoníaco	
+31071	Placa con nombre desconocido	
+31072	Teufelsort	
 31073	Banda del buscaoro	Gracias a este collar puedes arrebatarle a los monstruos sus bolsas de monedas.
 31074	Collar remachado	Un adorno para el cuello con remaches.
 31075	Collar espinoso	Adorno para el cuello del Martyaxwar. En su interior se oculta una carta.
@@ -610,25 +610,25 @@
 31082	Anillo magmático	Un anillo de magma que envuelve los corazones de los Demonios Fuego.
 31083	Anillo de Samael	Poderoso artefacto para llevar a cabo un ritual de destierro.
 31084	Tintura de nimbo	
-31085		
-31086		
-31087		
-31088		
-31089		
-31090		
+31085	Agua pesada	
+31086	Polvo de huesos	
+31087	Llama del espíritu de fuego	
+31088	Poción de fuego	
+31089	Bloque de hielo mágico	
+31090	Corazón de Nemere	
 31091	Sangre del Rey Fuego	Por las venas de los demonios fluye una sangre tan ardiente como la lava.
-31092		
+31092	Retal de piel de monstruo gélido	
 31093	Piedra desconocida	Este tipo de piedra te es completamente desconocido, pero emana frío y oscuridad.
 31094	Fragmento	Fragmento del meteorito demoníaco
 31095		
-31096		
-31097		
-31098		
-31099		
-31100		
+31096	Madera fina	Madera fina.
+31097	Rocío de Entai	Rocío de Entai.
+31098	Fantasma de la tierra	Fantasma de la tierra.
+31099	Esmeralda del árbol	Esmeralda del árbol.
+31100	Bolsa de medicinas	Bolsa de medicinas.
 31101		
 31102		
-31103		
+31103	Carta secreta	Carta secreta
 35000	Hierbas Medicinales+	Una colección de hierbas medicinales secas. Por desgracia, están un poco polvorientas.
 35001	Hígado de un Tigre+	El hígado marrón rojizo grande como una mano de un felino adulto.
 38010	Paquete de Yang	Canjea el Paquete para llenar las bolsas de tu botín de guerra de Yang. No es comerciable.
@@ -998,10 +998,10 @@
 41321	Vestido de Jack Calabaza (f)	Disfraz espeluznante de Halloween
 41322	Traje de Jack Calabaza+ (m)	Disfraz espeluznante de Halloween. Te otorga como mínimo una bonificación adicional. El objeto es comerciable.
 41323	Vestido de Jack Calabaza+ (f)	Disfraz espeluznante de Halloween. Te otorga como mínimo una bonificación adicional. El objeto es comerciable.
-41324		
-41325		
-41326		
-41327		
+41324	Guerrero Luna y Estrella	Ropaje de guerra con emblema de luna y estrella para hombres.
+41325	Guerrera Luna y Estrella	Ropaje de guerra con emblema de luna y estrella para mujeres.
+41326	Guerrero Luna y Estrella+	Ropaje de guerra con emblema de luna y estrella para hombres. Te otorga como mínimo una bonificación aleatoria.
+41327	Guerrera Luna y Estrella+	Ropaje de guerra con emblema de luna y estrella para mujeres. Te otorga como mínimo una bonificación aleatoria.
 41328	Camiseta ALG (m)	La camiseta del mundial de la selección de fútbol de Algeria.
 41329	Camiseta ALG (f)	La camiseta del mundial de la selección de fútbol de Algeria.
 41330	Camiseta ARG (m)	La camiseta del mundial de la selección de fútbol de Argentina.
@@ -1218,16 +1218,16 @@
 45056	Moño de Salsa	Recogido elegante con flor roja.
 45057	Fedora Bogart	Sombrero de fieltro clásico al estilo de Humphrey Bogart.
 45058	Peinado floral	Adorable trenzado con coloridas flores como adorno.
-45061	Máscara Calabaza	Una calabaza vaciada. Muy espaciosa, bien ventilada y escalofriante.
-45062	Máscara Calabaza	Una calabaza vaciada. Muy espaciosa, bien ventilada y escalofriante.
+45061	Máscara Calabaza	Una calabaza ahuecada. Muy espaciosa, bien ventilada y escalofriante.
+45062	Máscara Calabaza	Una calabaza ahuecada. Muy espaciosa, bien ventilada y escalofriante.
 45065	Peinado de Mosquetero+	Un cuidado peinado para pelo corto rubio que da el último toque al mosquetero perfecto. Concede al menos una bonificación aleatoria. Objeto comerciable.
 45066	Cofia de Criada+	Bob rubio con cofia de criada. Concede al menos una bonificación aleatoria. Objeto comerciable.
 45067	Minicresta+	Llamativo peinado corto con cresta. Concede al menos una bonificación aleatoria. Objeto comerciable.
 45068	Moño de Salsa+	Recogido elegante con flor roja. Concede al menos una bonificación aleatoria. Objeto comerciable.
 45069	Fedora Bogart+	Sombrero de fieltro clásico al estilo de Humphrey Bogart. Concede al menos una bonificación aleatoria. Objeto comerciable.
 45070	Peinado floral+	Adorable trenzado con coloridas flores como adorno. Concede al menos una bonificación aleatoria. Objeto comerciable.
-45073	Máscara Calabaza (bonus)	Una calabaza vaciada. Muy espaciosa, bien ventilada y escalofriante. Te otorga una bonificación al azar.
-45074	Máscara Calabaza (bonus)	Una calabaza vaciada. Muy espaciosa, bien ventilada y escalofriante. Te otorga una bonificación al azar.
+45073	Máscara Calabaza (bonus)	Una calabaza ahuecada. Muy espaciosa, bien ventilada y escalofriante. Te otorga una bonificación al azar.
+45074	Máscara Calabaza (bonus)	Una calabaza ahuecada. Muy espaciosa, bien ventilada y escalofriante. Te otorga una bonificación al azar.
 45075	Gorro Navideño (rojo)	Gorro rojo de felpa con una cornamenta y un pompón blanco.
 45076	Gorro Navideño (verde)	Gorro verde de felpa con una cornamenta y un pompón blanco.
 45077	Gorro Navideño (negro)	Gorro negro de felpa con una cornamenta y un pompón blanco.
@@ -1300,10 +1300,10 @@
 45157	Cabeza de Jack Calabaza (f)	Máscara espeluznante de Halloween
 45158	Cabeza de Jack Calabaza+ (m)	Máscara espeluznante de Halloween. Te otorga como mínimo una bonificación adicional. El objeto es comerciable.
 45159	Cabeza de Jack Calabaza+ (f)	Disfraz espeluznante de Halloween. Te otorga como mínimo una bonificación adicional. El objeto es comerciable.
-45160		
-45161		
-45162		
-45163		
+45160	Peinado Luna y Estrella (m)	Rastas recogidas teñidas de rojo y blanco.
+45161	Peinado Luna y Estrella (f)	Rastas recogidas teñidas de rojo y blanco, con cinta para la cabeza.
+45162	Peinado Luna y Estrella+ (m)	Rastas recogidas teñidas de rojo y blanco. Te otorga como mínimo una bonificación aleatoria.
+45163	Peinado Luna y Estrella+ (f)	Rastas recogidas teñidas de rojo y blanco, con cinta para la cabeza. Te otorga como mínimo una bonificación aleatoria.
 45164	Gorro de liebre ártica	Un accesorio para la cabeza con forma de liebre ártica
 45165	Gorro de oso polar	Un accesorio para la cabeza con forma de oso polar
 45166	Gorro de irbis	Un accesorio para la cabeza con forma de irbis
@@ -1410,8 +1410,8 @@
 50105	Petardos	Los fuegos artificiales cubren el cielo durante un festival.(Blanco)
 50106	Petardo de  Navidad	Los fuegos artificiales de Navidad son más espléndidos que los normales y también duran más.
 50108	Fuegos Artificiales.	Un fuego artificial de suelo que arroja chispas
-50118		
-50119		
+50118	Cofre del tesoro del dragón	
+50119	Bolsa de Piedra Metin	
 50120	Cofre de Hierro	Este contenedor resistente proviene de la Gruta del Exilio.
 50121	Caja de Hierro	Este contenedor resistente proviene de la Gruta del Exilio.
 50122	Baúl de Hierro	Este contenedor resistente proviene de la Gruta del Exilio.
@@ -1461,8 +1461,8 @@
 50181	Cesta con Hue. de Pascua	Una cesta llena de huevos de Pascua.
 50182	Baúl bendito	Un baúl bendito con un contenido desconocido.
 50183	Dulces	Estos dulces tienen un efecto especial: velocidad de movimiento +10%, daño +5%, experiencia +10%. Los efectos duran 30 minutos.
-50184		
-50185		
+50184	Ver comentario	
+50185	Ver comentario	
 50186	Cofre de Azrael	Este cofre permanece cerrado por la fuerza de los poderes demoníacos. Debe de ocultar valiosos tesoros.
 50187	Baúl de Aprendiz I	Tu regalo de bienvenida contiene todo el equipamiento que necesitas para iniciar tu aventura con buen pie.
 50188	Baúl de Aprendiz II	Este baúl sólo se puede abrir cuando hayas alcanzado el nivel 10.
@@ -1474,9 +1474,9 @@
 50194	Baúl de Maestro II	Este baúl sólo se puede abrir cuando hayas alcanzado el nivel 70.
 50195	Baúl de Maestro III	Este baúl sólo se puede abrir cuando hayas alcanzado el nivel 80.
 50196	Baúl de Gran Maestro	Este baúl sólo se puede abrir cuando hayas alcanzado el nivel 90.
-50197		
-50198		
-50199		
+50197	Bolsa desconocida	
+50198	Bolsa desconocida	
+50199	Bolsa desconocida	
 50200	Paquete	Te permite abrir una tienda privada.
 50212	Baúl de Aprendiz I	Tu regalo de bienvenida contiene todo el equipamiento que necesitas para iniciar tu aventura con buen pie.
 50213	Baúl de Aprendiz I	Tu regalo de bienvenida contiene todo el equipamiento que necesitas para iniciar tu aventura con buen pie.
@@ -1484,7 +1484,7 @@
 50216	Vino Caliente	Una bebida caliente hecha con vino y especias que te proporcionará +10% de velocidad,  +5% de daños y +10% de experiencia durante 30 minutos.
 50249	Baúl del Triunfo	El Baúl contiene un objeto aleatorio como recompensa para todos los olímpicos.
 50252	Cor Draconis	El corazón cristalino del dragón alberga su alma: la Piedra dragón.
-50253		
+50253	Caja de pan de oro púrpura	
 50254	Baúl de la Oscuridad	Este pesado baúl guarda las valiosas riquezas de la Nación Oscura, que se creían perdidas.
 50255	Cor Draconis (en bruto)	El corazón cristalino del dragón alberga su alma: la Piedra dragón.
 50256	Cor Draconis (afilado)	El corazón cristalino del dragón alberga su alma: la Piedra dragón.
@@ -1561,7 +1561,7 @@
 50510	Manual Remolinos	La lectura de este libro permite dominar la habilidad de velocidad. El libro desaparece tras su lectura.
 50511	Manual Ataque	La lectura de este libro permite dominar la habilidad Ataque. El libro desaparece tras su lectura.
 50512	Piedra Arco Iris	La piedra que abre los ojos espirituales y revela todas las habilidades.
-50513	Piedra Alma	La piedra legendaria usada para mejorar tus habilidades GranMaster. Desaparece después de su uso.
+50513	Piedra Alma	La piedra legendaria usada para mejorar tus habilidades Gran Master. Desaparece después de su uso.
 50530	Libro de desgarrar	La lectura de este libro posibilita dominar Desgarrar. El libro desaparece después de ser leído.
 50531	Libro de aliento de lobo	La lectura de este libro posibilita dominar el Aliento del lobo. El libro desaparece después de ser leído.
 50532	Libro de salto lobuno	La lectura de este libro posibilita dominar el Salto lobuno. El libro desaparece después de ser leído.
@@ -1937,7 +1937,7 @@
 52706	Título de Reno (h)	Título de propiedad de un Reno Joven (h).
 52707	Título de Dragor	Título de propiedad de un Dragor joven.
 52708	Título de Moa	Este título te identifica como dueño de un Moa joven.
-53001		
+53001	Sello del Fénix de Fuego	Con este sello puedes invocar a tu amigo, el Fénix de Fuego.
 53002	Sello de Reno Joven	Con este sello puedes invocar al adorable Reno Joven.
 53003	Sello del Fénix de Hielo	Con este sello puedes invocar a tu amigo, el Fénix de Hielo.
 53005	Azrael bebé	La versión en miniatura del señor de los demonios es extremadamente afectuosa y a partir del segundo nivel de la Torre Demoníaca y de la Catacumba del Diablo te otorga una bonificación de 1500 HP y un 15% más de daño.
@@ -1961,7 +1961,7 @@
 53023	Sello de Cooper	El sello trae de un brinco a tu mascota Cooper.
 53024	Pantera bebé (7 días)	Este sello invoca a tu atezada Pantera bebé.
 53025	Leopardo bebé (7 días)	Este sello invoca a tu dulce Leopardo bebé.
-53026		
+53026	Sello de Pepita	Con este sello puedes invocar a tu Fénix Pepita.
 53218	Pantera bebé (30 días)	Este sello invoca a tu atezada Pantera bebé.
 53219	Pantera bebé (120 días)	Este sello invoca a tu atezada Pantera bebé.
 53220	Leopardo bebé (30 días)	Este sello invoca a tu dulce Leopardo bebé.
@@ -1975,10 +1975,10 @@
 53228	Media luna (sello)	Con este sello puedes invocar a tu Media luna azul.
 53229	Media luna (sello)	Con este sello puedes invocar a tu Media luna roja.
 53232	Huashin bebé	La versión en miniatura del General Huashin te otorga un 5% más de probabilidad de golpe penetrante y aumenta tus HP en 1500.
-53501		
+53501	Jaula del Fénix de Fuego	El Fénix de Fuego está en esta jaula esperando a que lo liberes.
 53502	Baúl del Reno Joven	En este baúl, el Reno Joven aguarda impaciente a que lo dejes salir.
 53503	Jaula del Fénix de Hielo	El Fénix de Hielo está en esta jaula esperando que lo liberes.
-53504		
+53504	Cofre 4	Cofre 4
 53505	Baúl de Azrael bebé	En este baúl se oculta Azrael bebé, la versión en miniatura del señor de los demonios, que espera ser liberado.
 53506	Azrael bebé (oro)	En este baúl se oculta Azrael bebé (oro), la versión en miniatura del señor de los demonios, que espera ser liberado.
 53507	Baúl de Bambi	En este baúl se encuentra el cervatillo Bambi, que espera ser liberado.
@@ -1998,7 +1998,7 @@
 53521	Rufus escarcha	El baúl contiene el Sello de Rufus escarcha.
 53522	Nido de Sheldon	Un nido en el que se ha escondido tu mascota Sheldon.
 53523	Jaula de conejos	En esta jaula se esconde el conejito Cooper.
-53526		
+53526	Caja de Pepita	Abre esta caja para conseguir el sello de Pepita.
 53527	Jaula calabeza	Abre la jaula para conseguir tu Sello calabeza.
 53528	Armario de las escobas	Abre el armario para conseguir tu Sello escoba voladora.
 53529	Arcón helado Copito	En este arcón helado se oculta Copito, tu pequeño y fiel acompañante. Le gusta el frío, pero en su interior guarda un cálido corazón.
@@ -2160,7 +2160,7 @@
 71099	Anillo de Emplazamiento	Permite al lider de un gremio establecer un sustituto.
 71100	Cert. de reaprendizaje	Puedes dejar atrás tus conocimientos y comentar un entrenamiento nuevo. Para ello necesitas estar por lo menos en el nivel 31.
 71101	Poción de Prisa	Esta poción reduce tu tiempo de carga de habilidades en un 20 por ciento durante 30 minutos.
-71102		
+71102	Poción de Prisa+	Esta poción reduce tu tiempo de carga de habilidades en un 30 por ciento durante 30 minutos.
 71103	Redistribución (VIT)	Pone tu vitalidad de nuevo en 1 y te permite redistribuir tus puntos.
 71104	Redistribución (INT)	Pone tu inteligencia de nuevo en 1 y te permite redistribuir tus puntos.
 71105	Redistribución (STR)	Pone tu fuerza de nuevo en 1 y te permite redistribuir tus puntos.
@@ -2194,7 +2194,7 @@
 711213	Sello del León (azul)	La magia del sello invoca a un espíritu poderoso de un animal, que te llevará rápidamente al lugar de tu elección.
 711214	Sello del León (azul)	La magia del sello invoca a un espíritu poderoso de un animal, que te llevará rápidamente al lugar de tu elección.
 71121	Sello del León (azul)	La magia del sello invoca a un espíritu poderoso de un animal, que te llevará rápidamente al lugar de tu elección.
-71122		
+71122	Entrada al Templo del Dragón	Se puede usar para entrar en el Templo del Dragón.
 71123	Escamas de Dragón	Las Escamas de Dragón están consideradas como uno de los materiales más fuertes y conocidos.
 71124	León Blanco	Los animales con pelaje blanco son sumamente escasos y son venerados por muchas culturas como portadores de extraordinarios poderes.
 71125	Sello Jabalí de Combate	Domar espíritus de animales malvados requiere de numerosas habilidades mágicas. Sin embargo, el resultado es muy impresionante.
@@ -2229,7 +2229,7 @@
 71154	Poción del ascenso (3 h)	Esta poción te permite acumular un 80% más de experiencia durante tres horas de juego. No es comerciable.
 71155	Poción de sabiduría (3h)	Con esta poción obtendrás un 100% más de experiencia en tres horas de juego. No comerciable.
 71156	Poción de Espíritu (3 h)	Esta poción te permite acumular un 150% más de experiencia durante tres horas de juego. No es comerciable.
-71157		
+71157	Poción de experiencia	
 71158	Medalla del Héroe	Concede 50% más de EXP, 30% más de daños, 20% más de velocidad de ataque, 20% más de velocidad de hechizo, 10% más de HP y 10% más de SP.
 71159	Baúl de Milon	Un baúl para auténticos héroes. Contiene un objeto aleatorio como recompensa por tu triunfo.
 71160	Baúl de Atenea	Un baúl para auténticas heroínas. Contiene un objeto aleatorio como recompensa por tu triunfo.
@@ -2303,21 +2303,21 @@
 72047	Palma Crítico	Incrementa tu probabilidad de dar un golpe crítico en un 20% durante 10 minutos.
 72048	Palma Crítico	Incrementa tu probabilidad de dar un golpe crítico en un 20% durante 10 minutos.
 72301	Pergamino Bendición	Elimina el riesgo de destruir un objeto si la mejora falla. El coste de esto es que la calidad es reducida en 1 punto.
-72302		
-72303		
-72304		
-72305		
-72306		
-72307		
+72302	Libro del Líder	Mientras el líder de un grupo esté equipado con este libro, todos los miembros del grupo obtendrán un 30% más de puntos de experiencia.
+72303	Anillo de experiencia	Un anillo usado por los héroes antiguos.  Adquiere más experiencia cuando lo llevas. | No puede ser quitado.
+72304	Bola bendición	Una bola legendaria bendita. Si un objeto tiene 4 atributos, esta bola le añade otro atributo.
+72305	Espejo del Ocaso	Espejo del Ocaso.
+72306	Nota del herrero	Una nota del herrero que te muestra cómo mejorar tus armas
+72307	Nota del sabio	Una nota del herrero de armas que describe los pasos necesarios para mejorar objetos. Aumenta al 100% la probabilidad de mejorar de +5 a +6.
 72308	Mineral de Cobre Mágico	Con este mineral y un Pergamino Bendición se puede crear un Pergamino de la Guerra donde el herrero.
-72309		
-72310		
-72311		
-72312		
-72313		
-72314		
-72501	Anillo Exp. (iCafe)	Incrementa la ganancia de EXP en un 20% a los miembros de iCafe.
-72502	Ladrón	El robo de artefactos incrementa en un 1,5 veces a los miembros de iCafe.
+72309	Manual del herrero	Este libro contiene el alma de un viejo herrero. Si se utiliza, aumenta la probabilidad de mejorar con éxito un objeto.
+72310	Pergamino de Exorcismo	Te libera de la maldición del espíritu malvado si el aprendizaje falla. Con ayuda de este pergamino puedes leer otro documento de habilidad en un mismo día.
+72311	Bendición del Dragón	Una bendición con la cual tu HP y SP serán recuperados al 100% instantáneamente.
+72312	Ataque del Dios Dragón	Incrementa en un 12-15% el daño que haces en combate durante 30 minutos.
+72313	Defensa del Dios Dragón	Reduce en un 12-15% el daño recibido en combate durante 30 minutos.
+72314	Pergamino Dragón	Elimina el riesgo de destruir un objeto si la mejora falla. Sólo la calidad se reduce un paso. Además la probabilidad de una mejora exitosa se incrementa un 10%.
+72501	Anillo de experiencia (iCafe)	Aumenta la ganancia de experiencia en un 20% para los miembros de iCafe.
+72502	Guantes de Ladrón (iCafe)	Aumenta en un 50% la probabilidad de obtener objetos para los miembros de iCafe.
 72701	Zapatos Viento	Mientras estén equipados, aumentan tu velocidad de movimiento en 30.
 72703	Pendientes Hueso Tigre	Aumentan tu valor de ataque en 200 puntos durante 2 horas (el tiempo solamente avanza mientras el objeto esté equipado). No se puede comerciar con el objeto.
 72704	Pendientes Hueso Dragón	Aumentan tu valor de defensa en 200 puntos durante 2 horas (el tiempo solamente avanza mientras el objeto esté equipado). No se puede comerciar con el objeto.
@@ -2627,4 +2627,4 @@
 90010	Piedra Fundación	Material de construcción para los edificios del gremio
 90011	Tronco	Material de construcción para los edificios del gremio
 90012	Chapeado	Material de construcción para los edificios del gremio
-90013		
+90013	Imagen de botón	

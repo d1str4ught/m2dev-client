@@ -13,9 +13,9 @@ CANNOT_SKILL_ATTACK	No puedo atacar.
 CANNOT_SKILL_DEST_IN_SAFE	El enemigo está demasiado lejos.
 CANNOT_SKILL_EQUIP_FISHING_ROD	Necesito una caña.
 CANNOT_SKILL_HAVE_TO_RIDE	Necesito un caballo antes de poder usar esto.
-CANNOT_SKILL_NEED_EMPTY_BOTTLE	No tengo una botella vacia.
+CANNOT_SKILL_NEED_EMPTY_BOTTLE	No tengo una botella vacía.
 CANNOT_SKILL_NEED_POISON_BOTTLE	No tengo una botella de veneno.
-CANNOT_SKILL_NEED_TARGET	¿Quiénl es el objetivo?
+CANNOT_SKILL_NEED_TARGET	¿Quién es el objetivo?
 CANNOT_SKILL_NOT_ENOUGH_HP	¡No tengo suficiente HP!
 CANNOT_SKILL_NOT_ENOUGH_SP	¡No tengo suficiente SP!
 CANNOT_SKILL_NOT_HORSE_SKILL	No puedo usar esto mientras cabalgo.
@@ -52,7 +52,7 @@ CHAT_SEND_CHAT	Enviar chat
 CHAT_SEND_MEMO	Enviar susurro[Shift+Enter]
 CHAT_SHOUT	Llamar
 CHAT_SHOUT_LIMIT	Sólo puedes llamar cada 15 segundos.
-COMB_ALREADY_APPEND	
+COMB_ALREADY_APPEND	Este objeto ya está registrado.
 CREATE_ERROR_GM_NAME	No tienes permitido usar 'GM' en el nombre de tu personaje.
 CREATE_ERROR_INSULT_NAME	Este nombre es inválido.
 CREATE_EXIST_SAME_NAME	Alguien ya está usando este nombre de personaje.
@@ -132,7 +132,7 @@ GAME_INIT_ERROR_CURSOR	El cursor no pudo ser establecido.
 GAME_INIT_ERROR_DIRECTX	DirectX 8.1 debe estar instalado para que este juego pueda arrancar.\nInstala DirectX 8.1 o superior.
 GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	No se ha encontrado ningún dispositivo gráfico.\nRevisa si tu tarjeta VGA está instalada correctamente.
 GAME_INIT_ERROR_GRAPHICS_NOT_EXIST	El dispositivo gráfico no está establecido.\nRevisa si tienes tarjeta VGA.\nAlternativamente, puedes activar el hardware acelerador.\n(Fija el hardware acelerador al máximo. \nPanel de Control->Pantalla->Configuración->Avanzado->Registro de tarjeta.)
-GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	La tarjeta gráfica del ordenador no soporta el modo de ventana al modo 32bit.\nCambialo al modo 16bit o a Modo Pantalla Completa.
+GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	La tarjeta gráfica del ordenador no soporta el modo de ventana al modo 32bit.\nCámbialo al modo 16bit o a Modo Pantalla Completa.
 GAME_INIT_ERROR_ITEM_PROTO	No existen datos de objetos.\nInstala el juego de nuevo.
 GAME_INIT_ERROR_MAIN_WINDOW	El servidor no pudo ser establecido
 GAME_INIT_ERROR_MOB_PROTO	No existen datos de monstruos.\nInstala el juego de nuevo.
@@ -148,8 +148,10 @@ GUILDMARK_UPLOADER_ERROR_SELECT	No se seleccionó una carpeta de imágenes.
 GUILDWAR_CTF_TITLE	Conquistar bandera
 GUILDWAR_NORMAL_TITLE	Campo de batalla
 GUILDWAR_WARP_TITLE	Guerra en la arena
-GUILD_BUILDING_GRADE	Rank
+GUILD_BUILDING_GRADE	Rango
 GUILD_BUILDING_NAME	Nombre de construcción
+GUILD_BOARD_ID	Nombre
+GUILD_BOARD_TEXT	Mensaje
 GUILD_CANNOT_HEAL_GSP_ANYMORE	La energía Dragón Fantasma ya se ha recargado completamente.
 GUILD_COMMENT	Escribe
 GUILD_CREATE_ERROR_INSULT_NAME	Nombre de Gremio no válido.
@@ -158,7 +160,7 @@ GUILD_DELETE	Borrar
 GUILD_DEPOSIT	Depósito
 GUILD_DO_YOU_HEAL_GSP	¿Deseas emplear %d Yang para restaurar %d Dragones Fantasma?
 GUILD_DO_YOU_JOIN	 te ha invitado. ¿Aceptas entrar en el gremio?
-GUILD_EMPTY_AREA	Tierra vacia
+GUILD_EMPTY_AREA	Tierra vacía
 GUILD_FACILITY	Dependencias
 GUILD_GEM	Gema
 GUILD_HEADQUARTER	Edificio Principal
@@ -171,6 +173,12 @@ GUILD_NOT_ENOUGH_MONEY	No hay suficiente Yang para este edificio.
 GUILD_NO_NOTICE_PERMISSION	No tienes los permisos para realizar un anuncio.
 GUILD_OBJECT	Objetos
 GUILD_OFFER_EXP	Invertir experiencia
+GUILD_MEMBER_JOB	Clase
+GUILD_MEMBER_KNIGHT	Líder
+GUILD_MEMBER_LEVEL	Nivel
+GUILD_MEMBER_NAME	Nombre
+GUILD_MEMBER_RANK	Clasificación
+GUILD_MEMBER_SPECIFIC_GRAVITY	Invertido
 GUILD_SHORT_EXP	No hay suficiente puntos de experiencia.
 GUILD_TILE_BASEINFO	Información Básica
 GUILD_TILE_BOARD	Pizarra
@@ -225,6 +233,9 @@ JOB_WARRIOR	Guerrero
 JOB_WARRIOR0	Guerrero Aficionado
 JOB_WARRIOR1	Poder de Arahan
 JOB_WARRIOR2	Poder de Partisanos
+JOB_WOLFMAN0	Licántropo aficionado
+JOB_WOLFMAN1	Instinto
+JOB_WOLFMAN2	No disponible
 LEFT_TIME	Tiempo restante
 LOCALE_CHANGE_CONFIRM	¿Cambiar el idioma a %s y recargar el juego?
 LOGIN_CONNECT_FAILURE	Error al conectar al servidor.
@@ -241,7 +252,7 @@ LOGIN_FAILURE_REPAIR_ID	Han sido restablecidos objetos para esta cuenta.
 LOGIN_FAILURE_SAMELOGIN	Alguien se ha conectado con tu cuenta.
 LOGIN_FAILURE_SHUTDOWN	Este servidor aún no está abierto.
 LOGIN_FAILURE_TOO_MANY_USER	No puedes conectar porque hay demasiados jugadores conectados.
-LOGIN_FAILURE_UNKNOWN	No te puedes registrar por razones desconocidas.
+LOGIN_FAILURE_UNKNOWN	No puedes registrarte por razones desconocidas.
 LOGIN_FAILURE_WEB_BLOCK	Has sido bloqueado del sitio web. Por favor comprueba tus EMails.
 LOGIN_FAILURE_WRONG_PASSWORD	Nombre de cuenta o contraseña incorrectos
 LOGIN_INPUT_ID	Introduce el ID.
@@ -251,7 +262,7 @@ MALL_CANNOT_INSERT	No puedes poner el objeto.
 MALL_PASSWORD_TITLE	Contraseña
 MAP_A1	Área Yongan
 MAP_A2	Valle de Seungryong
-MAP_A2_1	
+MAP_A2_1	Valle de Seungryong
 MAP_A3	Área Yayang
 MAP_AG	Jungrang
 MAP_B1	Área Joan
@@ -280,7 +291,7 @@ MAP_E	Colonia
 MAP_EMPIREWAR01	Batalla por el castillo
 MAP_EMPIREWAR02	Batalla por el castillo
 MAP_EMPIREWAR03	Batalla por el castillo
-MAP_MILGYO_A	
+MAP_MILGYO_A	Templo Hwang
 MAP_GUILD_01	Jungrang
 MAP_GUILD_02	Waryong
 MAP_GUILD_03	Imha
@@ -297,12 +308,12 @@ MAP_MONKEY_DUNGEON_12	Hasun Dong
 MAP_MONKEY_DUNGEON_13	Hasun Dong
 MAP_MT_THUNDER	Montañas Trueno
 MAP_MT_TH_DUNGEON_01	Templo de los Ochao
-MAP_N_DESERT_02	
+MAP_N_DESERT_02	Desierto Yongbi
 MAP_NUSLUCK01	Tierra de Gigantes
 MAP_N_DESERT_01	Desierto Yongbi
-MAP_N_FLAME_02	
+MAP_N_FLAME_02	Doyyumhwan
 MAP_N_FLAME_01	Tierra de Fuego
-MAP_N_SNOWM_02	
+MAP_N_SNOWM_02	Monte Sohan
 MAP_N_FLAME_DRAGON	Refugio de Meley
 MAP_N_FLAME_DUNGEON_01	Fortaleza del Dragón Rojo
 MAP_N_SNOWM_01	Monte Sohan
@@ -319,14 +330,14 @@ MAP_PATHWAY_FLAME_03	Batalla de Reinos - Tierra de Fuego
 MAP_PATHWAY_ICE_01	Batalla de Reinos - Tierra de hielo
 MAP_PATHWAY_ICE_02	Parque
 MAP_PATHWAY_ICE_03	Batalla de Reinos - Tierra de hielo
-MAP_SKIPIA_DUNGEON_011	
+MAP_SKIPIA_DUNGEON_011	Gruta Chun 1 (Shinsoo)
 MAP_SKIPIA_DUNGEON_01	La Gruta del Exilio
-MAP_SKIPIA_DUNGEON_012	
-MAP_SKIPIA_DUNGEON_013	
-MAP_SKIPIA_DUNGEON_021	
+MAP_SKIPIA_DUNGEON_012	Gruta Chun 1 (Chunjo)
+MAP_SKIPIA_DUNGEON_013	Gruta Chun 1 (Jinno)
+MAP_SKIPIA_DUNGEON_021	Gruta Chun 2 (Shinsoo)
 MAP_SKIPIA_DUNGEON_02	La Gruta del Exilio 2
-MAP_SKIPIA_DUNGEON_022	
-MAP_SKIPIA_DUNGEON_023	
+MAP_SKIPIA_DUNGEON_022	Gruta Chun 2 (Chunjo)
+MAP_SKIPIA_DUNGEON_023	Gruta Chun 2 (Jinno)
 MAP_SNOW	Monte Sohan
 MAP_SKIPIA_DUNGEON_BOSS	Templo del Dragón
 MAP_SKIPIA_DUNGEON_BOSS_1	Mazmorra de Arañas 1
@@ -356,7 +367,7 @@ MAP_T3	Terrenos de la Guerra de gremios
 MAP_T4	Terrenos de la Guerra de gremios
 MAP_THUNDER	Montañas Trueno
 MAP_TREE	Lungsam
-MAP_TRENT_A	
+MAP_TRENT_A	Bosque Gwimok
 MAP_TRENT	Bosque Fantasma
 MAP_TRENT02	Bosque Rojo
 MAP_TRENT02_A	Bosque Rojo
@@ -378,7 +389,7 @@ MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Introducir el número de teléfono móvil 
 MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	¿Deseas introducir el número ahora?
 MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Introducir número de móvil.
 MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Enviar mensaje.
-METIN_TEST	
+METIN_TEST	Prueba GM
 MINIMAP	Abrir mini mapa
 MINIMAP_CANNOT_SEE	El mini mapa no puede ser visto.
 MINIMAP_CAN_NOT_SHOW_AREAMAP	El mapa grande no puede ser mostrado.
@@ -431,7 +442,7 @@ PARTY_SKILL_ATTACKER	Valor de ataque básico del atacante +%.0f
 PARTY_SKILL_BERSERKER	Velocidad de ataque de Berserker +%.0f
 PARTY_SKILL_BUFFER	Bloqueador de Duración de Habilidad +%.0f
 PARTY_SKILL_DEFENDER	Defensa defensor +%.0f
-PARTY_SKILL_SKILL_MASTER	Max. SP Maesto de Habilidad +%.0f
+PARTY_SKILL_SKILL_MASTER	Max. SP del Maestro de Habilidad +%.0f
 PARTY_SKILL_TANKER	Max. HP Luchador con hoja +%.0f
 PASSWORD_TITLE	Contraseña del almacén
 PICK_ITEM_TITLE	Número del Objeto
@@ -472,6 +483,7 @@ REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	pero si fallas el artículo será de
 REFINE_DOWN_GRADE_WARNING	El objeto puede ser degradado así.
 REFINE_DO_YOU_SEPARATE_METIN	¿Deseas eliminar todas las Piedras Espíritu disponibles?
 REFINE_FAILURE_CAN_NOT_ATTACH	%s no puede ser incluido en este objeto.
+REFINE_FAILURE_CAN_NOT_ATTACH0	%s no puede ser incluido en este objeto.
 REFINE_FAILURE_DEL_ITEM	El proceso de refinamiento no ha tenido éxito. \n Se ha destruido el objeto.
 REFINE_FAILURE_EQUIP_ITEM	No puedes mejorar ningún objeto equipado.
 REFINE_FAILURE_GRADE_DOWN	El proceso de refinamiento no ha tenido éxito. \n Se ha reducido el grado del objeto.
@@ -508,14 +520,14 @@ SELECT_INPUT_CHANGING_NAME	Intruducir un nuevo nombre de personaje.
 SELECT_NOT_JOIN_GUILD	Sin Gremio
 SHOP_BUY_INFO	Elige el objeto que desees comprar en la ventana de la tienda.
 SHOP_CANNOT_SELL_ITEM	Este objeto no puede venderse.
-SHOP_ERROR_UNKNOWN	Error de Tienda desconocido: %s
+SHOP_ERROR_UNKNOWN	Error de tienda desconocido: %s
 SHOP_INVALID_POS	Este objeto no puede ser usado aquí.
 SHOP_INVENTORY_FULL	Tu inventario está lleno.
 SHOP_NOT_ENOUGH_MONEY	No tienes suficiente Yang
 SHOP_NOT_ENOUGH_MONEY_EX	No tienes suficiente Yang.
 SHOP_SELL_INFO	Elige el objeto que desees vender en la ventana de tu inventario.
 SHOP_SOLDOUT	Vendido
-SHOT_ERROR_UNKNOWN	Error desconocido durante ataque a larga distancia: %s
+SHOT_ERROR_UNKNOWN	Error desconocido durante un disparo a distancia: %s
 SKILL_BOHO	Reflectar
 SKILL_CHEONGEUN	Cuerpo Fuerte.
 SKILL_EUNHYEONG	Camuflaje
@@ -547,7 +559,7 @@ SKILL_JEUNGRYEOK	Ataque +
 SKILL_JUMAGAP	Armadura encantada
 SKILL_KWAESOK	Velocidad
 SKILL_MUYEONG	Espíritu de la llama
-SKILL_NEED_EMPTY_BOTTLE	No tengo una botella vacia.
+SKILL_NEED_EMPTY_BOTTLE	No tengo una botella vacía.
 SKILL_NEED_POISON_BOTTLE	No tengo una botella de veneno
 SKILL_ONLY_FOR_GUILD_WAR	Sólo puedes usar esta habilidad durante una Guerra de Gremios.
 SKILL_PABEOP	Hechizo neutralizador
@@ -642,8 +654,8 @@ TOOLTIP_APPLY_PENETRATE_PCT	%d%% Probabilidad de Golpes de penetración	SA
 TOOLTIP_APPLY_POISON_PCT	Probabilidad de envenenamiento %d%%	SA
 TOOLTIP_APPLY_POISON_REDUCE	Resistencia a Veneno %d%%	SA
 TOOLTIP_APPLY_POTION_BONUS	Poción %d%% aumento de efecto	SA
-TOOLTIP_APPLY_REFLECT_CURSE	Probabilidad de reflectar Maldición: %d%%	SA
-TOOLTIP_APPLY_REFLECT_MELEE	%d%% Probabilidad de reflectar golpes cuerpo a cuerpo 	SA
+TOOLTIP_APPLY_REFLECT_CURSE	Probabilidad de reflejar Maldición: %d%%	SA
+TOOLTIP_APPLY_REFLECT_MELEE	%d%% Probabilidad de reflejar golpes cuerpo a cuerpo	SA
 TOOLTIP_APPLY_RESIST_ASSASSIN	Opción de defensa contra ataques Ninjas: %d%%	SA
 TOOLTIP_APPLY_RESIST_BELL	Defensa Campana %d%%	SA
 TOOLTIP_APPLY_RESIST_DAGGER	Defensa Daga %d%%	SA
@@ -654,7 +666,7 @@ TOOLTIP_APPLY_RESIST_SWORD	Defensa Espada %d%%	SA
 TOOLTIP_APPLY_RESIST_TWOHAND	Defensa Dos Manos %d%%	SA
 TOOLTIP_APPLY_RESIST_WARRIOR	Opción de defensa contra ataques Guerreros: %d%%	SA
 TOOLTIP_APPLY_RESIST_WIND	Resistencia Viento %d%%	SA
-TOOLTIP_APPLY_SKILL_BOOK_BONUS	Probabilidad de apreder de libros mejorada por factor 2.5 .	SNA
+TOOLTIP_APPLY_SKILL_BOOK_BONUS	Probabilidad de aprender de libros mejorada por un factor de 2.5.	SNA
 TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY	Si el aprendizaje falla, tendrás de inmediato otro intento libre.	SNA
 TOOLTIP_APPLY_SLOW_PCT	Probabilidad de retardación %d%%	SA
 TOOLTIP_APPLY_STEAL_HP	%d%% del daño será absorbido por HP.	SA
@@ -720,13 +732,13 @@ TOOLTIP_MALL_AUTOLOOT	Una mano que recoge automáticamente el Yang tirado	SNA
 TOOLTIP_MALL_DEFBONUS	Defensa +%d%%	SA
 TOOLTIP_MALL_DEFBONUS_STATIC	Defensa +12~15%	SNA
 TOOLTIP_MALL_EXPBONUS	EXP +%d%%	SA
-TOOLTIP_MALL_EXPBONUS_P_STATIC	iCafe EXP Bonus +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_P_STATIC	Bono de EXP iCafe +%d%%	SA
 TOOLTIP_MALL_EXPBONUS_STATIC	Aumenta la ganancia de EXP un 50%	SNA
 TOOLTIP_MALL_FISH_MIND	Tu probabilidad de capturar un pez raro se duplica.	SNA
 TOOLTIP_MALL_GOLDBONUS	Probabilidad de capturar Yang multiplicado con %.1f	SA
 TOOLTIP_MALL_GOLDBONUS_STATIC	Duplica tu probabilidad de capturar Yang	SNA
 TOOLTIP_MALL_ITEMBONUS	Probabilidad de capturar objetos multiplicada con %.1f	SA
-TOOLTIP_MALL_ITEMBONUS_P_STATIC	iCafe Probabilidad de capturar objetos más %.1f%%	SA
+TOOLTIP_MALL_ITEMBONUS_P_STATIC	Bono iCafe de probabilidad de obtener objetos +%.1f%%	SA
 TOOLTIP_MALL_ITEMBONUS_STATIC	Duplica tus probabilidades de capturar objetos	SNA
 TOOLTIP_MALL_MARRIAGE_FAST	Los puntos de amor aumentan más rápido.	SNA
 TOOLTIP_MALL_SAFEBOX	Tu almacén obtiene 2 áreas de almacenaje más	SNA
@@ -775,6 +787,7 @@ TOOLTIP_RESIST_FIRE	Resistencia de Fuego %d%%	SA
 TOOLTIP_RESIST_ICE	Resistencia de hielo +%d%%	SA
 TOOLTIP_RESIST_MAGIC	Resistencia de Magia %d%%	SA
 TOOLTIP_REST_USABLE_COUNT	Restante: %d
+TOOLTIP_SEALED	Unión al alma
 TOOLTIP_SELLPRICE	Precio: %s
 TOOLTIP_SHAMAN	Chamán
 TOOLTIP_SHIELD	Escudo
@@ -805,6 +818,7 @@ TOOLTIP_SURA	Sura
 TOOLTIP_TIME_CHARGER_FIX	Recarga de tiempo %d seg.	SA
 TOOLTIP_TIME_CHARGER_PER	Recarga de tiempo %d%%	SA
 TOOLTIP_UNIQUE	Único
+TOOLTIP_UNSEAL_LEFT_TIME	Separación del alma en: %d h %d min
 TOOLTIP_WARRIOR	Guerrero
 TOOLTIP_WEAPON	Arma
 TOOLTIP_WRISTLET	Pulsera
