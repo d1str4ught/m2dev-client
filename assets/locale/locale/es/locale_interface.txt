@@ -13,7 +13,7 @@ CHARACTER_NORMAL_ACTION	Acción Normal
 CHARACTER_QUEST	Misiones
 CHARACTER_SKILL	Habilidades
 CLOSE	Cerrar
-COMB_TITLE	
+COMB_TITLE	Ventana de combinación
 COSTUME_TITLE	Atuendos
 COSTUME_WINDOW_TITLE	Atuendos
 CREATE_ATT_GRADE	STR
@@ -47,6 +47,9 @@ DRAGONSOUL_TAP_TITLE_4	Zafiro de dragón
 DRAGONSOUL_TAP_TITLE_5	Granate de dragón
 DRAGONSOUL_TAP_TITLE_6	Ónice de dragón
 DRAGONSOUL_TITLE	Alquimia de Piedras dragón
+EMPIRE_A	Shinsoo
+EMPIRE_B	Chunjo
+EMPIRE_C	Jinno
 EMPIRE_EXIT	Salir
 EMPIRE_NEXT	Siguiente
 EMPIRE_PREV	Atrás
@@ -136,21 +139,32 @@ GUILD_WAR_WARP	Arena
 GUILD_WATER	Agua
 GUILD_WATER_STONE	Piedra de Agua
 GUILD_WITHDRAW	Coger
+HELP_ATTACK	Un clic realiza un ataque normal.
 HELP_ATTACK_KEY	Atacar: botón izquierdo del ratón o barra espaciadora
+HELP_AUTO_ATTACK	Un clic activa el ataque automático.
 HELP_CHANGE_PK_MODE	Cambiar modo de ataque: cambia la configuración del botón izquierdo del ratón
 HELP_CHARACTER_BUTTON1	(Ventana de Personaje, Ventana de Inventario,
 HELP_CHARACTER_BUTTON2	Lista de Amigos y Opciones)
 HELP_CONTROL_CAMERA_BY_MIDDLEBUTTON	Vista de Cámara: botón central o derecho del ratón
+HELP_CAMERA	Vista de cámara
 HELP_CONTROL_CAMERA_BY_RIGHTBUTTON	Vista de Cámara: botón derecho o central del ratón
 HELP_EXP	Experiencia
+HELP_CHAT	Escribe al principio de tu mensaje: ! para el chat general, # para el grupo o % para el gremio.
+HELP_CLICK_OTHER_PLAYER	Haz clic derecho sobre otro jugador para comerciar, formar grupo o desafiarle a duelo.
+HELP_EMOTINO	Para expresar emociones usa <CTRL> + <1~9>.
 HELP_FURY	Tienda de objetos en el Juego
+HELP_HELP_KEY	La ayuda muestra la configuración predeterminada.
 HELP_GUILD_WINDOW	Abrir Ventana del Gremio: Alt + G
 HELP_HELP	Mostrar ayuda: H
 HELP_HP	Puntos de vida (HP)
+HELP_KEYSETTING	Puedes definir tus propias teclas en las opciones del juego.
+HELP_MINIMAP	Muestra el minimapa.
+HELP_MINIMAP_QUEST	Las misiones aparecerán en el minimapa y en el mapa grande como iconos brillantes.
 HELP_MESSENGER_WINDOW	Abrir Lista de Amigos: Alt + M
 HELP_MOUSE_LEFT	Función del botón izquierdo del ratón
 HELP_MOUSE_RIGHT	Función del botón derecho del ratón,
 HELP_MOVE_KEY	Panel: W, A, S, D o flechas de dirección
+HELP_OFF_QUESTSCROLL	Pulsa <CTRL> + Q para mostrar u ocultar los pergaminos de misión.
 HELP_OPEN_CHARACTER	Abrir ventana de personaje: C
 HELP_OPEN_CHAT	Abrir ventana de chat: Enter
 HELP_OPEN_INVENTORY	Abrir ventana de inventario: I
@@ -164,6 +178,8 @@ HELP_PICK_ITEM	Recoger Objetos: º o Z o botón izquierdo del ratón
 HELP_QUICKSLOT	Campos de Acceso Rápido
 HELP_SCREEN_CAPTURE	Guardar Captura de Pantalla: ImprPant (se guardará en la carpeta "Metin2_Spain\Screenshot")
 HELP_SHOW_ALL_NAME	Mostrar Nombres: Alt
+HELP_SERVER	Muestra el servidor y el canal.
+HELP_SKILL	Aquí puedes aprender habilidades haciendo clic con el botón derecho del ratón.
 HELP_SP	Puntos de hechizo (SP)
 HELP_SYSTEM_BUTTON	Botones de Sistema
 INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. Inventario
@@ -262,7 +278,7 @@ PRIVATE_SHOP_TITLE	Abrir tienda privada
 REFINE_COST	Costes de Mejora: 0 Yang
 REFINE_INFO	Probabilidad de mejorar satisfactoriamente: 100%
 REFINE_TTILE	Mejoras
-REPORT_VIOLENT_WHISPER	
+REPORT_VIOLENT_WHISPER	Denunciar susurro ofensivo
 RESTART_HERE	Volver a Empezar Aquí
 RESTART_TOWN	Volver a Empezar en la Ciudad
 SAFE_CHANGE_PASSWORD	Cambiar Contraseña
@@ -305,7 +321,7 @@ TASKBAR_PREV_QUICKSLOT	Anterior Campo de Acceso Rápido [Shift+Número]
 TASKBAR_SYSTEM	Opciones[ESC]
 WHISPER_BAN	Bloquear
 WHISPER_NAME	Susurro
-WHISPER_REPORT	
+WHISPER_REPORT	Denunciar
 WHISPER_SEND	Enviar
 YES	Sí
 ZONE_MAP	Mapa grande
